@@ -1,0 +1,1443 @@
+!version: $Revision: 1.12 $
+!date: $Date: 2010/01/27 15:37:22 $
+!
+!Mapping of MIPS Functional Catalogue to GO.
+!Michael Ashburner, Cambridge; updated 20-21 Aug 2002, Midori Harris, EBI; major revision 10-01-2006, Jane Lomax, EBI.
+!Uses:ftp://ftpmips.gsf.de/catalogue/funcat-2.0_scheme
+!Reference: Nucleic Acids Res. 2004 Oct 14;32(18):5539-45. 
+!Version: Functional Classification Catalogue, Version 2.0, 18.03.2004
+!We have not corrected inconsistences in Funcat, e.g. British vs. US spelling; amino acid vs amino-acid.
+!
+MIPS_funcat:01 METABOLISM > GO:metabolism ; GO:0008152
+MIPS_funcat:01.01 amino acid metabolism > GO:amino acid metabolism ; GO:0006520
+MIPS_funcat:01.01.03 assimilation of ammonia, metabolism of the glutamate group > GO:glutamine family amino acid metabolism ; GO:0009064
+MIPS_funcat:01.01.03.01 metabolism of glutamine > GO:glutamine metabolism ; GO:0006541
+MIPS_funcat:01.01.03.01.01 biosynthesis of glutamine > GO:glutamine biosynthesis ; GO:0006542
+MIPS_funcat:01.01.03.01.02 degradation of glutamine > GO:glutamine catabolism ; GO:0006543
+MIPS_funcat:01.01.03.02 metabolism of glutamate > GO:glutamate metabolism ; GO:0006536
+MIPS_funcat:01.01.03.02.01 biosynthesis of glutamate > GO:glutamate biosynthesis ; GO:0006537
+MIPS_funcat:01.01.03.02.02 degradation of glutamate > GO:glutamate catabolism ; GO:0006538
+MIPS_funcat:01.01.03.03 metabolism of proline > GO:proline metabolism ; GO:0006560
+MIPS_funcat:01.01.03.03.01 biosynthesis of proline > GO:proline biosynthesis ; GO:0006561
+MIPS_funcat:01.01.03.03.02 degradation of proline > GO:proline catabolism ; GO:0006562
+MIPS_funcat:01.01.03.04 metabolism of 4-hydroxyproline > GO:4-hydroxyproline metabolism ; GO:0019471
+MIPS_funcat:01.01.03.04.01 biosynthesis of 4-hydroxyproline > GO:4-hydroxyproline biosynthesis ; GO:0019472
+MIPS_funcat:01.01.03.04.02 degradation of 4-hydroxyproline > GO:4-hydroxyproline catabolism ; GO:0019470
+MIPS_funcat:01.01.03.05 metabolism of arginine > GO:arginine metabolism ; GO:0006525
+MIPS_funcat:01.01.03.05.01 biosynthesis of arginine > GO:arginine biosynthesis ; GO:0006526
+MIPS_funcat:01.01.03.05.02 degradation of arginine > GO:arginine catabolism ; GO:0006527
+MIPS_funcat:01.01.05 metabolism of urea cycle, creatine and polyamines > GO:polyamine metabolism ; GO:0006595
+MIPS_funcat:01.01.05 metabolism of urea cycle, creatine and polyamines > GO:creatine metabolism ; GO:0006600
+MIPS_funcat:01.01.05 metabolism of urea cycle, creatine and polyamines > GO:urea cycle ; GO:0000050
+MIPS_funcat:01.01.05 metabolism of urea cycle, creatine and polyamines > GO:urea metabolism ; GO:0019627
+MIPS_funcat:01.01.05.01 metabolism of polyamines > GO:polyamine metabolism ; GO:0006595
+MIPS_funcat:01.01.05.01.01 biosynthesis of polyamines > GO:polyamine biosynthesis ; GO:0006596
+MIPS_funcat:01.01.05.01.02 degradation of polyamines > GO:polyamine catabolism ; GO:0006598
+MIPS_funcat:01.01.05.02 metabolism of creatine > GO:creatine metabolism ; GO:0006600
+MIPS_funcat:01.01.05.02.01 biosynthesis of creatine > GO:creatine biosynthesis ; GO:0006601
+MIPS_funcat:01.01.05.02.02 degradation of creatine > GO:creatinine catabolism ; GO:0006602
+MIPS_funcat:01.01.05.03 metabolism of urea (urea cycle) > GO:urea cycle ; GO:0000050
+MIPS_funcat:01.01.05.03 metabolism of urea (urea cycle) > GO:urea metabolism ; GO:0019627
+MIPS_funcat:01.01.06 metabolism of the aspartate family > GO:aspartate family amino acid metabolism ; GO:0009066
+MIPS_funcat:01.01.06.01 metabolism of aspartate > GO:aspartate metabolism ; GO:0006531
+MIPS_funcat:01.01.06.01.01 biosynthesis of aspartate > GO:aspartate biosynthesis ; GO:0006532
+MIPS_funcat:01.01.06.01.02 degradation of aspartate > GO:aspartate catabolism ; GO:0006533
+MIPS_funcat:01.01.06.02 metabolism of asparagine > GO:asparagine metabolism ; GO:0006528
+MIPS_funcat:01.01.06.02.01 biosynthesis of asparagine > GO:asparagine biosynthesis ; GO:0006529
+MIPS_funcat:01.01.06.02.02 degradation of asparagine > GO:asparagine catabolism ; GO:0006530
+MIPS_funcat:01.01.06.04 metabolism of threonine > GO:threonine metabolism ; GO:0006566
+MIPS_funcat:01.01.06.04.01 biosynthesis of threonine > GO:threonine biosynthesis ; GO:0009088
+MIPS_funcat:01.01.06.04.02 degradation of threonine > GO:threonine catabolism ; GO:0006567
+MIPS_funcat:01.01.06.05 metabolism of methionine > GO:methionine metabolism ; GO:0006555
+MIPS_funcat:01.01.06.05.01 biosynthesis of methionine > GO:methionine biosynthesis ; GO:0009086
+MIPS_funcat:01.01.06.05.01.01 biosynthesis of homocysteine > GO:homocysteine metabolism ; GO:0050667
+MIPS_funcat:01.01.06.05.01.02 degradation of homocysteine > GO:homocysteine catabolism ; GO:0043418
+MIPS_funcat:01.01.06.05.02 degradation of methionine > GO:methionine catabolism ; GO:0009087
+MIPS_funcat:01.01.06.06 metabolism of lysine > GO:lysine metabolism ; GO:0006553
+MIPS_funcat:01.01.06.06.01 biosynthesis of lysine > GO:lysine biosynthesis ; GO:0009085
+MIPS_funcat:01.01.06.06.01.01 diaminopimelic acid pathway > GO:lysine biosynthesis via diaminopimelate ; GO:0009089
+MIPS_funcat:01.01.06.06.01.03 aminoadipic acid pathway > GO:lysine biosynthesis via aminoadipic acid ; GO:0019878
+MIPS_funcat:01.01.06.06.02 degradation of lysine > GO:lysine catabolism ; GO:0006554
+MIPS_funcat:01.01.09 metabolism of the cysteine - aromatic group > GO:aromatic amino acid family metabolism ; GO:0009072
+MIPS_funcat:01.01.09 metabolism of the cysteine - aromatic group > GO:serine family amino acid metabolism ; GO:0009069
+MIPS_funcat:01.01.09.01 metabolism of glycine > GO:glycine metabolism ; GO:0006544
+MIPS_funcat:01.01.09.01.01 biosynthesis of glycine > GO:glycine biosynthesis ; GO:0006545
+MIPS_funcat:01.01.09.01.02 degradation of glycine > GO:glycine catabolism ; GO:0006546
+MIPS_funcat:01.01.09.02 metabolism of serine > GO:L-serine metabolism ; GO:0006563
+MIPS_funcat:01.01.09.02.01 biosynthesis of serine > GO:L-serine biosynthesis ; GO:0006564
+MIPS_funcat:01.01.09.02.02 degradation of serine > GO:L-serine catabolism ; GO:0006565
+MIPS_funcat:01.01.09.03 metabolism of cysteine > GO:cysteine metabolism ; GO:0006534
+MIPS_funcat:01.01.09.03.01 biosynthesis of cysteine > GO:cysteine biosynthesis ; GO:0019344
+MIPS_funcat:01.01.09.03.02 degradation of cysteine > GO:cysteine catabolism ; GO:0009093
+MIPS_funcat:01.01.09.04 metabolism of phenylalanine > GO:L-phenylalanine metabolism ; GO:0006558
+MIPS_funcat:01.01.09.04.01 biosynthesis of phenylalanine > GO:L-phenylalanine biosynthesis ; GO:0009094
+MIPS_funcat:01.01.09.04.02 degradation of phenylalanine > GO:L-phenylalanine catabolism ; GO:0006559
+MIPS_funcat:01.01.09.05 metabolism of tyrosine > GO:tyrosine metabolism ; GO:0006570
+MIPS_funcat:01.01.09.05.01 biosynthesis of tyrosine > GO:tyrosine biosynthesis ; GO:0006571
+MIPS_funcat:01.01.09.05.02 degradation of tyrosine > GO:tyrosine catabolism ; GO:0006572
+MIPS_funcat:01.01.09.06 metabolism of tryptophan > GO:tryptophan metabolism ; GO:0006568
+MIPS_funcat:01.01.09.06.01 biosynthesis of tryptophan > GO:tryptophan biosynthesis ; GO:0000162
+MIPS_funcat:01.01.09.06.02 degradation of tryptophan > GO:tryptophan catabolism ; GO:0006569
+MIPS_funcat:01.01.09.07 metabolism of histidine > GO:histidine metabolism ; GO:0006547
+MIPS_funcat:01.01.09.07.01 biosynthesis of histidine > GO:histidine biosynthesis ; GO:0000105
+MIPS_funcat:01.01.09.07.02 degradation of histidine > GO:histidine catabolism ; GO:0006548
+MIPS_funcat:01.01.11 metabolism of the pyruvate family (alanine, isoleucine, leucine, valine) and D-alanine > GO:pyruvate family amino acid metabolism ; GO:0009078
+MIPS_funcat:01.01.11 metabolism of the pyruvate family (alanine, isoleucine, leucine, valine) and D-alanine > GO:branched chain family amino acid metabolism ; GO:0009081
+MIPS_funcat:01.01.11.01 metabolism of alanine > GO:alanine metabolism ; GO:0006522
+MIPS_funcat:01.01.11.01.01 biosynthesis of alanine > GO:alanine biosynthesis ; GO:0006523
+MIPS_funcat:01.01.11.01.02 degradation of alanine > GO:alanine catabolism ; GO:0006524
+MIPS_funcat:01.01.11.02 metabolism of isoleucine > GO:isoleucine metabolism ; GO:0006549
+MIPS_funcat:01.01.11.02.01 biosynthesis of isoleucine > GO:isoleucine biosynthesis ; GO:0009097
+MIPS_funcat:01.01.11.02.02 degradation of isoleucine > GO:isoleucine catabolism ; GO:0006550
+MIPS_funcat:01.01.11.03 metabolism of valine > GO:valine metabolism ; GO:0006573
+MIPS_funcat:01.01.11.03.01 biosynthesis of valine > GO:valine biosynthesis ; GO:0009099
+MIPS_funcat:01.01.11.03.02 degradation of valine > GO:valine catabolism ; GO:0006574
+MIPS_funcat:01.01.11.04 metabolism of leucine > GO:leucine metabolism ; GO:0006551
+MIPS_funcat:01.01.11.04.01 biosynthesis of leucine > GO:leucine biosynthesis ; GO:0009098
+MIPS_funcat:01.01.11.04.02 degradation of leucine > GO:leucine catabolism ; GO:0006552
+MIPS_funcat:01.01.11.06 metabolism of the D-alanine amino acid group > GO:D-alanine metabolism ; GO:0046436
+MIPS_funcat:01.01.11.07 metabolism of the hydroxyamino acid group > GO:L-serine metabolism ; GO:0006563
+MIPS_funcat:01.01.11.07 metabolism of the hydroxyamino acid group > GO:threonine metabolism ; GO:0006566
+MIPS_funcat:01.01.13 regulation of amino acid metabolism > GO:regulation of amino acid metabolism ; GO:0006521
+MIPS_funcat:01.02 nitrogen and sulfur metabolism > GO:nitrogen compound metabolism ; GO:0006807
+MIPS_funcat:01.02 nitrogen and sulfur metabolism > GO:sulfur metabolism ; GO:0006790
+MIPS_funcat:01.02.01 nitrogen and sulfur utilization > GO:sulfur utilization ; GO:0006791
+MIPS_funcat:01.02.01 nitrogen and sulfur utilization > GO:nitrogen utilization ; GO:0019740
+MIPS_funcat:01.02.01.01 nitrogen fixation > GO:nitrogen fixation ; GO:0009399
+MIPS_funcat:01.02.01.02 nitrate assimilation > GO:nitrate assimilation ; GO:0042128
+MIPS_funcat:01.02.01.03 nitrate dissimilation > GO:nitrate catabolism ; GO:0043602
+MIPS_funcat:01.02.01.05 ammonium nitrification > GO:ammonia oxidation ; GO:0019329
+MIPS_funcat:01.02.01.06 assimilation of ammonia > GO:ammonia assimilation cycle ; GO:0019676
+MIPS_funcat:01.02.01.07 nitric oxide biosynthesis > GO:nitric oxide biosynthesis ; GO:0006809
+MIPS_funcat:01.02.01.09 catabolism of nitrogenous compounds > GO:nitrogen compound catabolism ; GO:0044270
+MIPS_funcat:01.02.01.09.01 urea catabolism (not urea cycle) > GO:urea catabolism ; GO:0043419
+MIPS_funcat:01.02.01.09.03 urate catabolism > GO:urate catabolism ; GO:0019628
+MIPS_funcat:01.02.01.09.05 cyanate catabolism > GO:cyanate catabolism ; GO:0009440
+MIPS_funcat:01.02.01.09.06 anthranilate catabolism > GO:anthranilate catabolism ; GO:0043421
+MIPS_funcat:01.02.01.09.07 formamide catabolism > GO:formamide catabolism ; GO:0043608
+MIPS_funcat:01.02.01.09.08 nitriles catabolism > GO:nitrile catabolism ; GO:0050899
+MIPS_funcat:01.02.01.11 sulfate assimilation > GO:sulfate assimilation ; GO:0000103
+MIPS_funcat:01.02.01.13 assimilatory reduction of sulfur > GO:sulfate reduction, APS pathway ; GO:0019421
+MIPS_funcat:01.02.01.14 conjunction of sulfate > GO:.
+MIPS_funcat:01.02.01.15 oxidation of sulfur to sulfate, electron as energy source > GO:sulfur oxidation ; GO:0019417
+MIPS_funcat:01.02.01.16 sulfate dissimilation, anaerobic respiration, sulfate respiration > GO:.
+MIPS_funcat:01.02.04 regulation of nitrogen and sulphur utilization > GO:regulation of sulfur utilization ; GO:0006792
+MIPS_funcat:01.02.04 regulation of nitrogen and sulphur utilization > GO:regulation of nitrogen utilization ; GO:0006808
+MIPS_funcat:01.02.04.01 regulation of nitrogen utilization > GO:regulation of nitrogen utilization ; GO:0006808
+MIPS_funcat:01.02.04.03 regulation of sulfur utilization > GO:regulation of sulfur utilization ; GO:0006792
+MIPS_funcat:01.03 nucleotide metabolism > GO:nucleotide metabolism ; GO:0009117
+MIPS_funcat:01.03.01 purine nucleotide metabolism > GO:purine nucleotide metabolism ; GO:0006163
+MIPS_funcat:01.03.01.01 purine nucleotide catabolism > GO:purine nucleotide catabolism ; GO:0006195
+MIPS_funcat:01.03.01.01.01 hypoxanthine catabolism > GO:hypoxanthine catabolism ; GO:0009114
+MIPS_funcat:01.03.01.01.03 xanthine catabolism > GO:xanthine catabolism ; GO:0009115
+MIPS_funcat:01.03.01.03 purine nucleotide anabolism > GO:purine nucleotide biosynthesis ; GO:0006164
+MIPS_funcat:01.03.04 pyrimidine nucleotide metabolism > GO:pyrimidine nucleotide metabolism ; GO:0006220
+MIPS_funcat:01.03.04.01 pyrimidine nucleotide catabolism > GO:pyrimidine nucleotide catabolism ; GO:0006244
+MIPS_funcat:01.03.04.03 pyrimidine nucleotide anabolism > GO:pyrimidine nucleotide biosynthesis ; GO:0006221
+MIPS_funcat:01.03.07 deoxyribonucleotide metabolism > GO:deoxyribonucleotide metabolism ; GO:0009262
+MIPS_funcat:01.03.10 metabolism of cyclic and unusual nucleotides > GO:cyclic nucleotide metabolism ; GO:0009187
+MIPS_funcat:01.03.13 regulation of nucleotide metabolism > GO:regulation of nucleotide metabolism ; GO:0006140
+MIPS_funcat:01.03.16 polynucleotide degradation > GO:DNA catabolism ; GO:0006308
+MIPS_funcat:01.03.16 polynucleotide degradation > GO:RNA catabolism ; GO:0006401
+MIPS_funcat:01.03.16.01 RNA degradation > GO:RNA catabolism ; GO:0006401
+MIPS_funcat:01.03.16.03 DNA degradation > GO:DNA catabolism ; GO:0006308
+MIPS_funcat:01.04 phosphate metabolism > GO:phosphate metabolism ; GO:0006796
+MIPS_funcat:01.04.01 phosphate utilization > GO:phosphorus utilization ; GO:0006794
+MIPS_funcat:01.04.04 regulation of phosphate utilization > GO:regulation of phosphorus utilization ; GO:0006795
+MIPS_funcat:01.05 C-compound and carbohydrate metabolism > GO:carbohydrate metabolism ; GO:0005975
+MIPS_funcat:01.05 C-compound and carbohydrate metabolism > GO:one-carbon compound metabolism ; GO:0006730
+MIPS_funcat:01.05.01 C-compound and carbohydrate utilization > GO:carbon utilization ; GO:0015976
+MIPS_funcat:01.05.01 C-compound and carbohydrate utilization > GO:carbohydrate utilization ; GO:0009758
+MIPS_funcat:01.05.01.01 C-compound, carbohydrate catabolism > GO:carbohydrate catabolism ; GO:0016052
+MIPS_funcat:01.05.01.01 C-compound, carbohydrate catabolism > GO:one-carbon compound catabolism ; GO:0019754
+MIPS_funcat:01.05.01.01.01 sugar, glucoside, polyol and carboxylate catabolism > GO:oligosaccharide catabolism ; GO:0009313
+MIPS_funcat:01.05.01.01.01 sugar, glucoside, polyol and carboxylate catabolism > GO:glycoside catabolism ; GO:0016139
+MIPS_funcat:01.05.01.01.01 sugar, glucoside, polyol and carboxylate catabolism > GO:polyol metabolism ; GO:0019751
+MIPS_funcat:01.05.01.01.01 sugar, glucoside, polyol and carboxylate catabolism > GO:carboxylic acid metabolism ; GO:0019752
+MIPS_funcat:01.05.01.01.02 polysaccharide degradation > GO:polysaccharide catabolism ; GO:0000272
+MIPS_funcat:01.05.01.01.03 C-2 compound and organic acid catabolism > GO:organic acid catabolism ; GO:0016054
+MIPS_funcat:01.05.01.01.04 aminosaccharide catabolism > GO:amino sugar catabolism ; GO:0046348
+MIPS_funcat:01.05.01.01.05 C-1 compound catabolism > GO:one-carbon compound catabolism ; GO:0019754
+MIPS_funcat:01.05.01.01.05.01 serine-isocitrate lyase pathway > GO:serine-isocitrate lyase pathway ; GO:0019496
+MIPS_funcat:01.05.01.01.05.03 ribulose-monophosphate cycle > GO:formaldehyde assimilation via ribulose monophosphate cycle ; GO:0019647
+MIPS_funcat:01.05.01.01.07 aliphatic hydrocarbon catabolism > GO:.
+MIPS_funcat:01.05.01.01.09 aerobic aromate catabolism > GO:aromatic compound catabolism ; GO:0019439
+MIPS_funcat:01.05.01.01.09.01 ortho-cleavage > GO:catechol catabolism, ortho-cleavage ; GO:0019615
+MIPS_funcat:01.05.01.01.09.01 ortho-cleavage > GO:protocatechuate catabolism, ortho-cleavage ; GO:0019618
+MIPS_funcat:01.05.01.01.09.01 ortho-cleavage > GO:beta-ketoadipate pathway ; GO:0042952
+MIPS_funcat:01.05.01.01.09.03 meta-cleavage > GO:catechol catabolism, meta-cleavage ; GO:0019616
+MIPS_funcat:01.05.01.01.09.03 meta-cleavage > GO:protocatechuate catabolism, meta-cleavage ; GO:0019617
+MIPS_funcat:01.05.01.01.11 anaerobic aromate catabolism > GO:aromatic compound catabolism ; GO:0019439
+MIPS_funcat:01.05.01.03 C-compound, carbohydrate anabolism > GO:carbohydrate biosynthesis ; GO:0016051
+MIPS_funcat:01.05.01.03 C-compound, carbohydrate anabolism > GO:one-carbon compound biosynthesis ; GO:0019753
+MIPS_funcat:01.05.01.03.01 sugar, glucoside, polyol and carboxylate anabolism > GO:.
+MIPS_funcat:01.05.01.03.02 polysaccharide biosynthesis > GO:polysaccharide biosynthesis ; GO:0000271
+MIPS_funcat:01.05.01.03.02.01 glycogen biosynthesis > GO:glycogen biosynthesis ; GO:0005978
+MIPS_funcat:01.05.01.03.02.02 peptidoglycan biosynthesis > GO:peptidoglycan biosynthesis ; GO:0009252
+MIPS_funcat:01.05.01.03.02.03 chitin biosynthesis > GO:chitin biosynthesis ; GO:0006031
+MIPS_funcat:01.05.01.03.02.04 starch biosynthesis > GO:starch biosynthesis ; GO:0019252
+MIPS_funcat:01.05.01.03.03 C-2 compound and organic acid anabolism > GO:organic acid biosynthesis ; GO:0016053
+MIPS_funcat:01.05.01.03.04 aminosaccharide biosynthesis > GO:amino sugar biosynthesis ; GO:0046349
+MIPS_funcat:01.05.01.03.05 C-1 compound anabolism > GO:one-carbon compound biosynthesis ; GO:0019753
+MIPS_funcat:01.05.01.03.07 aliphatic hydrocarbon anabolism > GO:.
+MIPS_funcat:01.05.01.03.09 aromate anabolism > GO:aromatic compound biosynthesis ; GO:0019438
+MIPS_funcat:01.05.01.05 autotrophic CO2-fixation > GO:carbon utilization by fixation of carbon dioxide ; GO:0015977
+MIPS_funcat:01.05.01.05.01 Calvin cycle > GO:reductive pentose-phosphate cycle ; GO:0019253
+MIPS_funcat:01.05.01.05.03 reductive TCA cycle > GO:reductive tricarboxylic acid cycle ; GO:0019643
+MIPS_funcat:01.05.01.05.05 hydroxypropionate pathway > GO:carbon fixation by 3-hydroxypropionate cycle ; GO:0043427
+MIPS_funcat:01.05.01.05.07 acetyl-CoA pathway > GO:carbon fixation by acetyl-CoA pathway ; GO:0030634
+MIPS_funcat:01.05.01.07 transfer of activated C-1 groups > GO:.
+MIPS_funcat:01.05.01.07.01 S-adenosyl-methionine - homocysteine cycle > GO:.
+MIPS_funcat:01.05.01.07.03 tetrahydrofolate-dependent C-1-transfer > GO:.
+MIPS_funcat:01.05.04 regulation of C-compound and carbohydrate utilization > GO:regulation of carbon utilization ; GO:0043609
+MIPS_funcat:01.05.04 regulation of C-compound and carbohydrate utilization > GO:regulation of carbohydrate utilization ; GO:0043610
+MIPS_funcat:01.06 lipid, fatty acid and isoprenoid metabolism > GO:lipid metabolism ; GO:0006629
+MIPS_funcat:01.06 lipid, fatty acid and isoprenoid metabolism > GO:fatty acid metabolism ; GO:0006631
+MIPS_funcat:01.06 lipid, fatty acid and isoprenoid metabolism > GO:isoprenoid metabolism ; GO:0006720
+MIPS_funcat:01.06.01 lipid, fatty acid and isoprenoid biosynthesis > GO:lipid biosynthesis ; GO:0008610
+MIPS_funcat:01.06.01 lipid, fatty acid and isoprenoid biosynthesis > GO:fatty acid biosynthesis ; GO:0006633
+MIPS_funcat:01.06.01 lipid, fatty acid and isoprenoid biosynthesis > GO:isoprenoid biosynthesis ; GO:0008299
+MIPS_funcat:01.06.01.01 phospholipid biosynthesis > GO:phospholipid biosynthesis ; GO:0008654
+MIPS_funcat:01.06.01.03 glycolipid biosynthesis > GO:glycolipid biosynthesis ; GO:0009247
+MIPS_funcat:01.06.01.05 fatty acid biosynthesis > GO:fatty acid biosynthesis ; GO:0006633
+MIPS_funcat:01.06.01.07 isoprenoid biosynthesis > GO:isoprenoid biosynthesis ; GO:0008299
+MIPS_funcat:01.06.01.07.01 hemiterpenes biosynthesis > GO:isoprene biosynthesis ; GO:0043612
+MIPS_funcat:01.06.01.07.03 monoterpenes biosynthesis > GO:monoterpenoid biosynthesis ; GO:0016099
+MIPS_funcat:01.06.01.07.05 sesquiterpenes biosynthesis > GO:sesquiterpenoid biosynthesis ; GO:0016106
+MIPS_funcat:01.06.01.07.07 diterpenes biosynthesis > GO:diterpenoid metabolism ; GO:0016101
+MIPS_funcat:01.06.01.07.09 triterpenes biosynthesis > GO:triterpenoid biosynthesis ; GO:0016104
+MIPS_funcat:01.06.01.07.11 tetracyclic and pentacyclic triterpenes (cholesterin, steroids and hopanoids) biosynthesis > GO:steroid biosynthesis ; GO:0006694
+MIPS_funcat:01.06.01.07.11 tetracyclic and pentacyclic triterpenes (cholesterin, steroids and hopanoids) biosynthesis > GO:triterpenoid biosynthesis ; GO:0016104
+MIPS_funcat:01.06.01.07.11 tetracyclic and pentacyclic triterpenes (cholesterin, steroids and hopanoids) biosynthesis > GO:hopanoid biosynthesis ; GO:0019746
+MIPS_funcat:01.06.01.07.13 tetraterpenes (carotinoids) biosynthesis > GO:tetraterpenoid biosynthesis ; GO:0016109
+MIPS_funcat:01.06.01.07.15 polyterpenes biosynthesis > GO:polyterpenoid biosynthesis ; GO:0016112
+MIPS_funcat:01.06.04 degradation of lipids, fatty acids and isoprenoids > GO:lipid catabolism ; GO:0016042
+MIPS_funcat:01.06.04 degradation of lipids, fatty acids and isoprenoids > GO:fatty acid catabolism ; GO:0009062
+MIPS_funcat:01.06.04 degradation of lipids, fatty acids and isoprenoids > GO:isoprenoid catabolism ; GO:0008300
+MIPS_funcat:01.06.04.01 phospholipid degradation > GO:phospholipid catabolism ; GO:0009395
+MIPS_funcat:01.06.04.03 glycolipid degradation > GO:glycolipid catabolism ; GO:0019377
+MIPS_funcat:01.06.04.05 fatty acid degradation (alpha- and beta-oxidation) > GO:fatty acid catabolism ; GO:0009062
+MIPS_funcat:01.06.04.07 isoprenoid degradation > GO:isoprenoid catabolism ; GO:0008300
+MIPS_funcat:01.06.07 lipid, fatty acid and isoprenoid utilization > GO:.
+MIPS_funcat:01.06.10 regulation of lipid, fatty acid and isoprenoid metabolism > GO:regulation of lipid metabolism ; GO:0019216
+MIPS_funcat:01.06.10 regulation of lipid, fatty acid and isoprenoid metabolism > GO:regulation of fatty acid metabolism ; GO:0019217
+MIPS_funcat:01.06.10 regulation of lipid, fatty acid and isoprenoid metabolism > GO:regulation of isoprenoid metabolism ; GO:0019747
+MIPS_funcat:01.07 metabolism of vitamins, cofactors, and prosthetic groups > GO:coenzyme metabolism ; GO:0006732
+MIPS_funcat:01.07 metabolism of vitamins, cofactors, and prosthetic groups > GO:vitamin metabolism ; GO:0006766
+MIPS_funcat:01.07 metabolism of vitamins, cofactors, and prosthetic groups > GO:prosthetic group metabolism ; GO:0051189
+MIPS_funcat:01.07.01 biosynthesis of vitamins, cofactors, and prosthetic groups > GO:cofactor biosynthesis ; GO:0051188
+MIPS_funcat:01.07.01 biosynthesis of vitamins, cofactors, and prosthetic groups > GO:vitamin biosynthesis ; GO:0009110
+MIPS_funcat:01.07.01 biosynthesis of vitamins, cofactors, and prosthetic groups > GO:prosthetic group biosynthesis ; GO:0051191
+MIPS_funcat:01.07.03 catabolism of vitamins, cofactors, and prosthetic groups > GO:vitamin catabolism ; GO:0009111
+MIPS_funcat:01.07.03 catabolism of vitamins, cofactors, and prosthetic groups > GO:cofactor catabolism ; GO:0051187
+MIPS_funcat:01.07.03 catabolism of vitamins, cofactors, and prosthetic groups > GO:prosthetic group catabolism ; GO:0051190
+MIPS_funcat:01.07.04 utilization of vitamins, cofactors, and prosthetic groups > GO:.
+MIPS_funcat:01.07.07 regulation of vitamins, cofactors, and prosthetic groups metabolism > GO:regulation of vitamin metabolism ; GO:0030656
+MIPS_funcat:01.07.07 regulation of vitamins, cofactors, and prosthetic groups metabolism > GO:regulation of prosthetic group metabolism ; GO:0051199
+MIPS_funcat:01.07.07 regulation of vitamins, cofactors, and prosthetic groups metabolism > GO:regulation of cofactor metabolism ; GO:0051193
+MIPS_funcat:01.20 secondary metabolism > GO:secondary metabolism ; GO:0019748
+MIPS_funcat:01.20.01 metabolism of primary metabolic sugars derivatives > GO:.
+MIPS_funcat:01.20.01.01 biosynthesis of secondary monosaccharides > GO:.
+MIPS_funcat:01.20.01.03 biosynthesis of sugar carboxylic acids > GO:.
+MIPS_funcat:01.20.01.05 biosynthesis of sugar alcohols > GO:.
+MIPS_funcat:01.20.01.07 biosynthesis of glycosides > GO:glycoside biosynthesis ; GO:0016138
+MIPS_funcat:01.20.01.09 biosynthesis of aminoglycoside antibiotics > GO:aminoglycoside antibiotic biosynthesis ; GO:0030648
+MIPS_funcat:01.20.03 biosynthesis of derivatives of intermediates of glucose degradation > GO:.
+MIPS_funcat:01.20.05 biosynthesis of acetic acid derivatives > GO:acetate derivative biosynthesis ; GO:0030636
+MIPS_funcat:01.20.05.01 biosynthesis of acetoacetate, acetone, hydroxybutyric acid > GO:acetoacetic acid biosynthesis ; GO:0043441
+MIPS_funcat:01.20.05.01 biosynthesis of acetoacetate, acetone, hydroxybutyric acid > GO:acetone biosynthesis ; GO:0043445
+MIPS_funcat:01.20.05.03 biosynthesis of alkanes, alkenes, alkanals, alkanols > GO:alkane biosynthesis ; GO:0043447
+MIPS_funcat:01.20.05.03 biosynthesis of alkanes, alkenes, alkanals, alkanols > GO:alkene biosynthesis ; GO:0043450
+MIPS_funcat:01.20.05.03 biosynthesis of alkanes, alkenes, alkanals, alkanols > GO:aldehyde metabolism ; GO:0006081
+MIPS_funcat:01.20.05.05 biosynthesis of fatty acid esters > GO:.
+MIPS_funcat:01.20.05.07 biosynthesis of acetylenes > GO:alkyne biosynthesis ; GO:0043453
+MIPS_funcat:01.20.05.09 biosynthesis of eicosanoids > GO:icosanoid biosynthesis ; GO:0046456
+MIPS_funcat:01.20.05.11 biosynthesis of polyketides > GO:polyketide biosynthesis ; GO:0030639
+MIPS_funcat:01.20.07 biosynthesis of propionic acid derivatives > GO:.
+MIPS_funcat:01.20.09 biosynthesis of derivatives of intermediates of the TCA and glyoxylate pathway > GO:.
+MIPS_funcat:01.20.13 biosynthesis of derivatives of homoisopentenyl pyrophosphate > GO:.
+MIPS_funcat:01.20.15 biosynthesis of derivatives of dehydroquinic acid, shikimic acid and chorismic acid > GO:.
+MIPS_funcat:01.20.15.01 biosynthesis of naphthoquinone, anthraquinone > GO:vitamin K biosynthesis ; GO:0042371
+MIPS_funcat:01.20.15.03 biosynthesis of ubiquinone > GO:ubiquinone biosynthesis ; GO:0006744
+MIPS_funcat:01.20.17 biosynthesis of secondary products derived from primary amino acids > GO:.
+MIPS_funcat:01.20.17.01 biosynthesis of nonprotein amino acids > GO:nonprotein amino acid biosynthesis ; GO:0019795
+MIPS_funcat:01.20.17.03 biosynthesis of amines > GO:amine biosynthesis ; GO:0009309
+MIPS_funcat:01.20.17.05 biosynthesis of cyanogenic glycosides > GO:cyanogenic glycoside biosynthesis ; GO:0019756
+MIPS_funcat:01.20.17.07 biosynthesis of glycosinolates and derivatives > GO:glycosinolate biosynthesis ; GO:0019758
+MIPS_funcat:01.20.17.09 biosynthesis of alkaloids > GO:alkaloid biosynthesis ; GO:0009821
+MIPS_funcat:01.20.19 biosynthesis of secondary products derived from glycine, L-serine and L-alanine > GO:.
+MIPS_funcat:01.20.19.01 biosynthesis of porphyrins > GO:porphyrin biosynthesis ; GO:0006779
+MIPS_funcat:01.20.19.03 biosynthesis of open-chain tetrapyrrols > GO:.
+MIPS_funcat:01.20.19.05 biosynthesis of cobalamins > GO:cobalamin biosynthesis ; GO:0009236
+MIPS_funcat:01.20.21 biosynthesis of sulfuric acid and L-cysteine derivatives > GO:.
+MIPS_funcat:01.20.23 biosynthesis of secondary products derived from L-methionine > GO:.
+MIPS_funcat:01.20.25 biosynthesis of secondary products derived from L-valin, L-leucin and L-isoleucin > GO:.
+MIPS_funcat:01.20.27 biosynthesis of secondary products derived from L-aspartic acid and L-threonine > GO:.
+MIPS_funcat:01.20.29 biosynthesis of secondary products derived from L-glutamic acid, L-proline and L-ornithine > GO:.
+MIPS_funcat:01.20.31 biosynthesis of secondary products derived from L-lysine, L-arginine and L-histidine > GO:.
+MIPS_funcat:01.20.33 biosynthesis of secondary products derived from L-tryptophan > GO:.
+MIPS_funcat:01.20.35 biosynthesis of secondary products derived from L-phenylalanine and L-tyrosine > GO:.
+MIPS_funcat:01.20.35.01 biosynthesis of phenylpropanoids > GO:phenylpropanoid biosynthesis ; GO:0009699
+MIPS_funcat:01.20.35.01.01 biosynthesis of melanins > GO:melanin biosynthesis ; GO:0042438
+MIPS_funcat:01.20.35.01.03 biosynthesis of lignins > GO:lignin biosynthesis ; GO:0009809
+MIPS_funcat:01.20.35.01.05 biosynthesis of stilbenes, flavonoids > GO:stilbene biosynthesis ; GO:0009811
+MIPS_funcat:01.20.35.01.05 biosynthesis of stilbenes, flavonoids > GO:flavonoid biosynthesis ; GO:0009813
+MIPS_funcat:01.20.35.01.07 biosynthesis of coumarins > GO:coumarin biosynthesis ; GO:0009805
+MIPS_funcat:01.20.35.01.09 biosynthesis of cinnamic acids > GO:cinnamic acid biosynthesis ; GO:0009800
+MIPS_funcat:01.20.35.02 biosynthesis of thyroids > GO:.
+MIPS_funcat:01.20.35.03 biosynthesis of catecholamines > GO:catecholamine biosynthesis ; GO:0042423
+MIPS_funcat:01.20.36 non-ribosomal peptide synthesis > GO:nonribosomal peptide biosynthesis ; GO:0019184
+MIPS_funcat:01.20.37 biosynthesis of peptide derived compounds > GO:.
+MIPS_funcat:01.20.37.01 biosynthesis of thioredoxin, glutaredoxin, glutathion > GO:thioredoxin biosynthesis ; GO:0042964
+MIPS_funcat:01.20.37.01 biosynthesis of thioredoxin, glutaredoxin, glutathion > GO:glutaredoxin biosynthesis ; GO:0042965
+MIPS_funcat:01.20.37.01 biosynthesis of thioredoxin, glutaredoxin, glutathion > GO:glutathione biosynthesis ; GO:0006750
+MIPS_funcat:01.20.37.03 biosynthesis of peptide antibiotics > GO:peptide antibiotic biosynthesis ; GO:0030651
+MIPS_funcat:01.20.37.05 biosynthesis of beta-lactams > GO:beta-lactam antibiotic biosynthesis ; GO:0030654
+MIPS_funcat:01.20.50 catabolism of secondary metabolites > GO:.
+MIPS_funcat:01.20.70 regulation of secondary metabolism > GO:regulation of secondary metabolism ; GO:0043455
+MIPS_funcat:01.25 extracellular metabolism > GO:.
+MIPS_funcat:01.25.01 extracellular polysaccharide degradation > GO:.
+MIPS_funcat:01.25.03 extracellular protein degradation > GO:.
+MIPS_funcat:01.25.05 extracellular polynucleotide degradation > GO:.
+MIPS_funcat:01.25.07 extracellular ester compound degradation > GO:.
+MIPS_funcat:01.25.09 extracellular lignin degradation > GO:.
+MIPS_funcat:01.25.11 extracellular aminosaccharide degradation > GO:.
+MIPS_funcat:02 ENERGY > GO:.
+MIPS_funcat:02.01 glycolysis and gluconeogenesis > GO:glycolysis ; GO:0006096
+MIPS_funcat:02.01 glycolysis and gluconeogenesis > GO:gluconeogenesis ; GO:0006094
+MIPS_funcat:02.01.01 glycolysis methylglyoxal bypass > GO:methylglyoxal metabolism ; GO:0009438
+MIPS_funcat:02.01.03 regulation of glycolysis and gluconeogenesis > GO:regulation of glycolysis ; GO:0006110
+MIPS_funcat:02.01.03 regulation of glycolysis and gluconeogenesis > GO:regulation of gluconeogenesis ; GO:0006111
+MIPS_funcat:02.04 glyoxylate cycle > GO:glyoxylate cycle ; GO:0006097
+MIPS_funcat:02.05 Entner-Doudoroff pathway > GO:Entner-Doudoroff pathway ; GO:0009255
+MIPS_funcat:02.07 pentose-phosphate pathway > GO:pentose-phosphate shunt ; GO:0006098
+MIPS_funcat:02.07.01 pentose-phosphate pathway oxidative branch > GO:pentose-phosphate shunt, oxidative branch ; GO:0009051
+MIPS_funcat:02.07.03 pentose-phosphate pathway non oxidative branch > GO:pentose-phosphate shunt, non-oxidative branch ; GO:0009052
+MIPS_funcat:02.07.05 regulation of pentose-phosphate pathway > GO:regulation of pentose-phosphate shunt ; GO:0043456
+MIPS_funcat:02.08 pyruvate dehydrogenase complex > GO:pyruvate dehydrogenase complex ; GO:0045254
+MIPS_funcat:02.09 anaplerotic reactions > GO:.
+MIPS_funcat:02.10 tricarboxylic-acid pathway (citrate cycle, Krebs cycle, TCA cycle) > GO:tricarboxylic acid cycle ; GO:0006099
+MIPS_funcat:02.11 electron transport and membrane-associated energy conservation > GO:.
+MIPS_funcat:02.11.05 accessory proteins of electron transport and membrane-associated energy conservation > GO:.
+MIPS_funcat:02.13 respiration > GO:cellular respiration ; GO:0045333
+MIPS_funcat:02.13.01 anaerobic respiration > GO:anaerobic respiration ; GO:0009061
+MIPS_funcat:02.13.03 aerobic respiration > GO:aerobic respiration ; GO:0009060
+MIPS_funcat:02.13.05 regulation of respiration > GO:regulation of cellular respiration ; GO:0043457
+MIPS_funcat:02.16 fermentation > GO:fermentation ; GO:0006113
+MIPS_funcat:02.16.01 alcohol fermentation > GO:ethanol biosynthesis during fermentation ; GO:0043458
+MIPS_funcat:02.16.01.01 bacterial type ethanol fermentation > GO:.
+MIPS_funcat:02.16.03 lactate fermentation > GO:glucose catabolism to lactate ; GO:0019659
+MIPS_funcat:02.16.03.01 homofermentative pathway > GO:glucose catabolism to lactate via pyruvate ; GO:0019661
+MIPS_funcat:02.16.03.03 heterofermentative pathway and fermentaton of other saccharides > GO:glucose catabolism to D-lactate and ethanol ; GO:0019656
+MIPS_funcat:02.16.03.05 bifidum pathway > GO:glucose catabolism to lactate and acetate ; GO:0019658
+MIPS_funcat:02.16.03.07 malo-lactate fermentation > GO:malolactic fermentation ; GO:0043464
+MIPS_funcat:02.16.05 butyrate and butanol-acetoine fermentation > GO:glucose catabolism to butyrate ; GO:0030645
+MIPS_funcat:02.16.07 ethanol-acetate fermentation > GO:ethanol-acetate fermentation to butyrate and caproate ; GO:0019672
+MIPS_funcat:02.16.09 mixed acid and butanediol fermentation > GO:glucose catabolism to mixed acids ; GO:0019664
+MIPS_funcat:02.16.09 mixed acid and butanediol fermentation > GO:glucose catabolism to butanediol ; GO:0019650
+MIPS_funcat:02.16.11 propionate fermentation > GO:lactate fermentation to propionate and acetate ; GO:0019652
+MIPS_funcat:02.16.11.01 acrylate pathway > GO:lactate fermentation to propionate and acetate ; GO:0019652
+MIPS_funcat:02.16.11.03 succinate-propionate pathway > GO:pyruvate fermentation to propionate ; GO:0019657
+MIPS_funcat:02.16.13 acetate fermentation > GO:acetate fermentation ; GO:0019654
+MIPS_funcat:02.16.15 methane fermentation > GO:methanogenesis ; GO:0015948
+MIPS_funcat:02.16.17 fermentation of nitrogenous compounds > GO:nitrogenous compound catabolism ; GO:0019666
+MIPS_funcat:02.16.17.01 single amino acid fermentations > GO:anaerobic amino acid catabolism ; GO:0019665
+MIPS_funcat:02.16.17.03 stickland reactions > GO:anaerobic catabolism of pairs of amino acids ; GO:0019668
+MIPS_funcat:02.16.17.05 fermentation of heterocyclic compounds > GO:pyrimidine fermentation ; GO:0043466
+MIPS_funcat:02.16.17.05 fermentation of heterocyclic compounds > GO:anaerobic purine catabolism ; GO:0019653
+MIPS_funcat:02.16.20 regulation of fermentation > GO:regulation of fermentation ; GO:0043465
+MIPS_funcat:02.17 chemolithotrophie (e.g. sulfide, nitrogenous compounds) > GO:energy derivation by oxidation of reduced inorganic compounds ; GO:0015975
+MIPS_funcat:02.19 metabolism of energy reserves (e.g. glycogen, trehalose) > GO:energy reserve metabolism ; GO:0006112
+MIPS_funcat:02.25 oxidation of fatty acids > GO:fatty acid oxidation ; GO:0019395
+MIPS_funcat:02.30 photosynthesis > GO:photosynthesis ; GO:0015979
+MIPS_funcat:02.30.01 anoxygenic photosynthesis > GO:.
+MIPS_funcat:02.30.03 oxygenic photosynthesis > GO:.
+MIPS_funcat:02.30.07 accessory proteins of photosynthetic electron transport > GO:.
+MIPS_funcat:02.30.10 regulation of photosynthesis > GO:regulation of photosynthesis ; GO:0010109
+MIPS_funcat:02.45 energy conversion and regeneration > GO:.
+MIPS_funcat:02.45.01 bioluminescence > GO:bioluminescence ; GO:0008218
+MIPS_funcat:02.45.03 light absorption > GO:absorption of light ; GO:0016037
+MIPS_funcat:02.45.07 heat production > GO:heat generation ; GO:0031649
+MIPS_funcat:02.45.11 conversion to kinetic energy (e.g. movement) > GO:cell motility ; GO:0006928
+MIPS_funcat:02.45.11 conversion to kinetic energy (e.g. movement) > GO:organismal movement ; GO:0050879
+MIPS_funcat:02.45.11 conversion to kinetic energy (e.g. movement) > GO:locomotion ; GO:0040011
+MIPS_funcat:02.45.15 energy generation (e.g. ATP synthase) > GO:generation of precursor metabolites and energy ; GO:0006091
+MIPS_funcat:02.45.20 regulation of energy conversion / regeneration > GO:regulation of generation of precursor metabolites and energy ; GO:0043467
+MIPS_funcat:04 STORAGE PROTEIN > GO:.
+MIPS_funcat:04.01 storage facilitating proteins > GO:.
+MIPS_funcat:04.02 stored proteins > GO:.
+MIPS_funcat:10 CELL CYCLE AND DNA PROCESSING > GO:cell cycle ; GO:0007049
+MIPS_funcat:10 CELL CYCLE AND DNA PROCESSING > GO:DNA metabolism ; GO:0006259
+MIPS_funcat:10.01 DNA processing > GO:DNA metabolism ; GO:0006259
+MIPS_funcat:10.01.01 cellular DNA uptake > GO:DNA import into cell during transformation ; GO:0009290
+MIPS_funcat:10.01.01.01 bacterial competence > GO:establishment of competence for transformation ; GO:0030420
+MIPS_funcat:10.01.01.03 conjugational DNA transfer > GO:unidirectional conjugation ; GO:0009291
+MIPS_funcat:10.01.03 DNA synthesis and replication > GO:DNA replication ; GO:0006260
+MIPS_funcat:10.01.03.01 DNA topology > GO:.
+MIPS_funcat:10.01.03.03 ori recognition and priming complex formation > GO:pre-replicative complex formation and maintenance ; GO:0006267
+MIPS_funcat:10.01.03.03 ori recognition and priming complex formation > GO:DNA replication origin binding ; GO:0003688
+MIPS_funcat:10.01.03.05 extension/ polymerization activity > GO:DNA strand elongation ; GO:0006271
+MIPS_funcat:10.01.05 DNA recombination and DNA repair > GO:DNA repair ; GO:0006281
+MIPS_funcat:10.01.05 DNA recombination and DNA repair > GO:DNA recombination ; GO:0006310
+MIPS_funcat:10.01.05.01 DNA repair > GO:DNA repair ; GO:0006281
+MIPS_funcat:10.01.05.03 DNA recombination > GO:DNA recombination ; GO:0006310
+MIPS_funcat:10.01.05.03.01 meiotic recombination > GO:meiotic recombination ; GO:0007131
+MIPS_funcat:10.01.05.03.03 somatic / mitotic recombination > GO:mitotic recombination ; GO:0006312
+MIPS_funcat:10.01.05.03.05 DNA integration > GO:DNA integration ; GO:0015074
+MIPS_funcat:10.01.09 DNA restriction or modification > GO:DNA modification ; GO:0006304
+MIPS_funcat:10.01.09 DNA restriction or modification > GO:DNA restriction-modification system ; GO:0009307
+MIPS_funcat:10.01.09.01 DNA methylation > GO:DNA methylation ; GO:0006306
+MIPS_funcat:10.01.09.03 DNA restriction > GO:DNA restriction-modification system ; GO:0009307
+MIPS_funcat:10.01.09.05 DNA conformation modification (e.g. chromatin) > GO:DNA topological change ; GO:0006265
+MIPS_funcat:10.01.09.07 DNA imprinting > GO:imprinting ; GO:0006349
+MIPS_funcat:10.01.11 regulation of DNA processing > GO:regulation of DNA metabolism ; GO:0051052
+MIPS_funcat:10.03 cell cycle > GO:cell cycle ; GO:0007049
+MIPS_funcat:10.03.01 mitotic cell cycle and cell cycle control > GO:regulation of progression through cell cycle ; GO:0000074
+MIPS_funcat:10.03.01 mitotic cell cycle and cell cycle control > GO:mitotic cell cycle ; GO:0000278
+MIPS_funcat:10.03.01.01 mitotic cell cycle > GO:mitotic cell cycle ; GO:0000278
+MIPS_funcat:10.03.01.01.01 G1 phase of mitotic cell cycle > GO:G1 phase of mitotic cell cycle ; GO:0000080
+MIPS_funcat:10.03.01.01.03 G1/S transition of mitotic cell cycle > GO:G1/S transition of mitotic cell cycle ; GO:0000082
+MIPS_funcat:10.03.01.01.05 S phase of mitotic cell cycle > GO:S phase of mitotic cell cycle ; GO:0000084
+MIPS_funcat:10.03.01.01.07 G2 phase of mitotic cell cycle > GO:G2 phase of mitotic cell cycle ; GO:0000085
+MIPS_funcat:10.03.01.01.09 G2/M transition of mitotic cell cycle > GO:G2/M transition of mitotic cell cycle ; GO:0000086
+MIPS_funcat:10.03.01.01.11 mitosis > GO:mitosis ; GO:0007067
+MIPS_funcat:10.03.01.01.13 M/G1 transition of mitotic cell cycle > GO:M/G1 transition of mitotic cell cycle ; GO:0000216
+MIPS_funcat:10.03.01.02 cell cycle arrest > GO:cell cycle arrest ; GO:0007050
+MIPS_funcat:10.03.01.03 cell cycle checkpoints (checkpoints of morphogenesis, DNA-damage,-replication, mitotic phase and spindle) > GO:cell cycle checkpoint ; GO:0000075
+MIPS_funcat:10.03.02 meiosis > GO:meiosis ; GO:0007126
+MIPS_funcat:10.03.02.01 meiosis I > GO:meiosis I ; GO:0007127
+MIPS_funcat:10.03.02.03 meiosis II > GO:meiosis II ; GO:0007135
+MIPS_funcat:10.03.03 cytokinesis (cell division) /septum formation > GO:cytokinesis ; GO:0000910
+MIPS_funcat:10.03.03 cytokinesis (cell division) /septum formation > GO:barrier septum formation ; GO:0000917
+MIPS_funcat:10.03.04 nuclear and chromosomal cycle > GO:chromosome segregation ; GO:0007059
+MIPS_funcat:10.03.04 nuclear and chromosomal cycle > GO:nuclear division ; GO:0000280
+MIPS_funcat:10.03.04.01 centromere/kinetochore complex maturation > GO:centromere and kinetochore complex maturation ; GO:0000069
+MIPS_funcat:10.03.04.03 chromosome condensation > GO:chromosome condensation ; GO:0030261
+MIPS_funcat:10.03.04.05 chromosome segregation/division > GO:chromosome segregation ; GO:0007059
+MIPS_funcat:10.03.04.06 chromosome inactivation > GO:dosage compensation, by inactivation of X chromosome ; GO:0009048
+MIPS_funcat:10.03.04.07 nuclear division > GO:nuclear division ; GO:0000280
+MIPS_funcat:10.03.04.09 nuclear migration > GO:nuclear migration ; GO:0007097
+MIPS_funcat:10.03.05 cell cycle dependent cytoskeleton reorganization > GO:actin filament reorganization during cell cycle ; GO:0030037
+MIPS_funcat:10.03.05.01 spindle pole body/centrosome and microtubule cycle > GO:centrosome cycle ; GO:0007098
+MIPS_funcat:10.03.05.01 spindle pole body/centrosome and microtubule cycle > GO:spindle pole body and microtubule cycle (sensu Fungi) ; GO:0030471
+MIPS_funcat:10.03.05.03 cell cycle dependent actin filament reorganization > GO:actin filament reorganization during cell cycle ; GO:0030037
+MIPS_funcat:11 TRANSCRIPTION > GO:transcription ; GO:0006350
+MIPS_funcat:11.02 RNA synthesis > GO:transcription, DNA-dependent ; GO:0006351
+MIPS_funcat:11.02.01 rRNA synthesis > GO:rRNA transcription ; GO:0009303
+MIPS_funcat:11.02.02 tRNA synthesis > GO:tRNA transcription ; GO:0009304
+MIPS_funcat:11.02.03 mRNA synthesis > GO:mRNA transcription ; GO:0009299
+MIPS_funcat:11.02.03.01 general transcription activities > GO:transcription ; GO:0006350
+MIPS_funcat:11.02.03.01.01 transcription initiation > GO:transcription initiation ; GO:0006352
+MIPS_funcat:11.02.03.01.04 transcription elongation > GO:RNA elongation ; GO:0006354
+MIPS_funcat:11.02.03.01.07 transcription termination > GO:transcription termination ; GO:0006353
+MIPS_funcat:11.02.03.04 transcriptional control > GO:regulation of transcription ; GO:0045449
+MIPS_funcat:11.02.03.04.01 transcriptional activator > GO:transcriptional activator activity ; GO:0016563
+MIPS_funcat:11.02.03.04.03 transcriptional repressor > GO:transcriptional repressor activity ; GO:0016564
+MIPS_funcat:11.02.03.04.05 enhancer/silencer interaction > GO:.
+MIPS_funcat:11.02.03.04.07 posttranscriptional control > GO:.
+MIPS_funcat:11.04 RNA processing > GO:RNA processing ; GO:0006396
+MIPS_funcat:11.04.01 rRNA processing > GO:rRNA processing ; GO:0006364
+MIPS_funcat:11.04.02 tRNA processing > GO:tRNA processing ; GO:0008033
+MIPS_funcat:11.04.03 mRNA processing (splicing, 5'-, 3'-end processing) > GO:mRNA processing ; GO:0006397
+MIPS_funcat:11.04.03 mRNA processing (splicing, 5'-, 3'-end processing) > GO:nuclear mRNA splicing, via spliceosome ; GO:0000398
+MIPS_funcat:11.04.03.01 splicing > GO:RNA splicing ; GO:0008380
+MIPS_funcat:11.04.03.01.10 regulation of splicing > GO:regulation of RNA splicing ; GO:0043484
+MIPS_funcat:11.04.03.03 5'-end processing > GO:mRNA capping ; GO:0006370
+MIPS_funcat:11.04.03.05 3'-end processing > GO:RNA 3'-end processing ; GO:0031123
+MIPS_funcat:11.04.03.11 control of mRNA stability > GO:regulation of mRNA stability ; GO:0043488
+MIPS_funcat:11.06 RNA modification > GO:RNA modification ; GO:0009451
+MIPS_funcat:11.06.01 rRNA modification > GO:rRNA modification ; GO:0000154
+MIPS_funcat:11.06.02 tRNA modification > GO:tRNA modification ; GO:0006400
+MIPS_funcat:11.06.03 mRNA modification > GO:mRNA modification ; GO:0016556
+MIPS_funcat:11.06.03.01 mRNA editing > GO:mRNA editing ; GO:0006381
+MIPS_funcat:12 PROTEIN SYNTHESIS > GO:protein biosynthesis ; GO:0006412
+MIPS_funcat:12.01 ribosome biogenesis > GO:ribosome biogenesis ; GO:0007046
+MIPS_funcat:12.01.01 ribosomal proteins > GO:.
+MIPS_funcat:12.04 translation > GO:translation ; GO:0043037
+MIPS_funcat:12.04.01 translation initiation > GO:translational initiation ; GO:0006413
+MIPS_funcat:12.04.02 translation elongation > GO:translational elongation ; GO:0006414
+MIPS_funcat:12.04.03 translation termination > GO:translational termination ; GO:0006415
+MIPS_funcat:12.07 translational control > GO:regulation of translation ; GO:0006445
+MIPS_funcat:12.10 aminoacyl-tRNA-synthetases > GO:tRNA ligase activity ; GO:0004812
+MIPS_funcat:14 PROTEIN FATE (folding, modification, destination) > GO:protein folding ; GO:0006457
+MIPS_funcat:14 PROTEIN FATE (folding, modification, destination) > GO:protein modification ; GO:0006464
+MIPS_funcat:14 PROTEIN FATE (folding, modification, destination) > GO:protein targeting ; GO:0006605
+MIPS_funcat:14 PROTEIN FATE (folding, modification, destination) > GO:protein transport ; GO:0015031
+MIPS_funcat:14.01 protein folding and stabilization > GO:protein folding ; GO:0006457
+MIPS_funcat:14.01 protein folding and stabilization > GO:protein stabilization ; GO:0050821
+MIPS_funcat:14.04 protein targeting, sorting and translocation > GO:protein targeting ; GO:0006605
+MIPS_funcat:14.04 protein targeting, sorting and translocation > GO:protein transport ; GO:0015031
+MIPS_funcat:14.07 protein modification > GO:protein modification ; GO:0006464
+MIPS_funcat:14.07.01 modification with fatty acids (e.g. myristylation, palmitylation, farnesylation) > GO:protein amino acid lipidation ; GO:0006497
+MIPS_funcat:14.07.02 modification with sugar residues (e.g. glycosylation) > GO:protein amino acid glycosylation ; GO:0006486
+MIPS_funcat:14.07.02 modification with sugar residues (e.g. glycosylation) > GO:protein amino acid galactosylation ; GO:0042125
+MIPS_funcat:14.07.02.01 O-directed glycosylation > GO:protein amino acid O-linked glycosylation ; GO:0006493
+MIPS_funcat:14.07.02.02 N-directed glycosylation > GO:protein amino acid N-linked glycosylation ; GO:0006487
+MIPS_funcat:14.07.03 modification by phosphorylation, dephosphorylation, autophosphorylation > GO:protein amino acid phosphorylation ; GO:0006468
+MIPS_funcat:14.07.03 modification by phosphorylation, dephosphorylation, autophosphorylation > GO:protein amino acid dephosphorylation ; GO:0006470
+MIPS_funcat:14.07.03 modification by phosphorylation, dephosphorylation, autophosphorylation > GO:protein amino acid autophosphorylation ; GO:0046777
+MIPS_funcat:14.07.04 modification by acetylation, deacetylation > GO:protein amino acid acetylation ; GO:0006473
+MIPS_funcat:14.07.04 modification by acetylation, deacetylation > GO:protein amino acid deacetylation ; GO:0006476
+MIPS_funcat:14.07.05 modification by ubiquitination, deubiquitination > GO:protein deubiquitination ; GO:0016579
+MIPS_funcat:14.07.05 modification by ubiquitination, deubiquitination > GO:protein ubiquitination ; GO:0016567
+MIPS_funcat:14.07.07 modification by ubiquitin-related proteins > GO:Smt3-protein conjugation ; GO:0019951
+MIPS_funcat:14.07.07 modification by ubiquitin-related proteins > GO:protein neddylation ; GO:0045116
+MIPS_funcat:14.07.07 modification by ubiquitin-related proteins > GO:protein deneddylation ; GO:0000338
+MIPS_funcat:14.07.07 modification by ubiquitin-related proteins > GO:protein sumoylation ; GO:0016925
+MIPS_funcat:14.07.07 modification by ubiquitin-related proteins > GO:protein desumoylation ; GO:0016926
+MIPS_funcat:14.07.09 posttranslational modification of amino acids (e.g. hydroxylation, methylation) > GO:protein amino acid hydroxylation ; GO:0018126
+MIPS_funcat:14.07.09 posttranslational modification of amino acids (e.g. hydroxylation, methylation) > GO:protein amino acid methylation ; GO:0006479
+MIPS_funcat:14.07.11 protein processing (proteolytic) > GO:protein processing ; GO:0016485
+MIPS_funcat:14.07.11.01 autoproteolytic processing > GO:protein autoprocessing ; GO:0016540
+MIPS_funcat:14.10 assembly of protein complexes > GO:protein complex assembly ; GO:0006461
+MIPS_funcat:14.13 protein degradation > GO:protein catabolism ; GO:0030163
+MIPS_funcat:14.13.01 cytoplasmic and nuclear protein degradation > GO:.
+MIPS_funcat:14.13.01.01 proteasomal degradation (ubiquitin/proteasomal pathway) > GO:proteasomal ubiquitin-dependent protein catabolism ; GO:0043161
+MIPS_funcat:14.13.04 lysosomal and vacuolar protein degradation > GO:vacuolar protein catabolism ; GO:0007039
+MIPS_funcat:14.13.04.01 lysosomal protein degradation > GO:.
+MIPS_funcat:14.13.04.02 vacuolar protein degradation > GO:vacuolar protein catabolism ; GO:0007039
+MIPS_funcat:16 PROTEIN WITH BINDING FUNCTION OR COFACTOR REQUIREMENT (structural or catalytic) > GO:.
+MIPS_funcat:16.01 protein binding > GO:protein binding ; GO:0005515
+MIPS_funcat:16.02 peptide binding > GO:peptide binding ; GO:0042277
+MIPS_funcat:16.03 nucleic acid binding > GO:nucleic acid binding ; GO:0003676
+MIPS_funcat:16.03.01 DNA binding > GO:DNA binding ; GO:0003677
+MIPS_funcat:16.03.03 RNA binding > GO:RNA binding ; GO:0003723
+MIPS_funcat:16.05 polysaccharide binding > GO:polysaccharide binding ; GO:0030247
+MIPS_funcat:16.06 motor protein > GO:motor activity ; GO:0003774
+MIPS_funcat:16.07 structural protein > GO:structural molecule activity ; GO:0005198
+MIPS_funcat:16.09 lipid binding > GO:lipid binding ; GO:0008289
+MIPS_funcat:16.11 amino acid binding > GO:amino acid binding ; GO:0016597
+MIPS_funcat:16.12 sulfate binding > GO:sulfate binding ; GO:0043199
+MIPS_funcat:16.13 C-compound binding > GO:.
+MIPS_funcat:16.13.01 sugar binding > GO:sugar binding ; GO:0005529
+MIPS_funcat:16.13.03 fatty acid binding (e.g. acyl-carrier protein) > GO:fatty acid binding ; GO:0005504
+MIPS_funcat:16.17 metal binding > GO:metal ion binding ; GO:0046872
+MIPS_funcat:16.17.01 calcium binding > GO:calcium ion binding ; GO:0005509
+MIPS_funcat:16.17.03 potassium binding > GO:potassium ion binding ; GO:0030955
+MIPS_funcat:16.17.05 sodium binding > GO:sodium ion binding ; GO:0031402
+MIPS_funcat:16.17.07 magnesium binding > GO:magnesium ion binding ; GO:0000287
+MIPS_funcat:16.17.09 heavy metal binding (Cu, Fe, Zn) > GO:.
+MIPS_funcat:16.19 nucleotide binding > GO:nucleotide binding ; GO:0000166
+MIPS_funcat:16.19.01 cyclic nucleotide binding (cAMP, cGMP, etc.) > GO:cyclic nucleotide binding ; GO:0030551
+MIPS_funcat:16.19.03 ATP binding > GO:ATP binding ; GO:0005524
+MIPS_funcat:16.19.05 GTP binding > GO:GTP binding ; GO:0005525
+MIPS_funcat:16.21 complex cofactor/cosubstrate binding > GO:cofactor binding ; GO:0048037
+MIPS_funcat:16.21.01 heme binding > GO:heme binding ; GO:0020037
+MIPS_funcat:16.21.03 molybdopterin binding > GO:molybdopterin cofactor binding ; GO:0043546
+MIPS_funcat:16.21.05 FAD/FMN binding > GO:FAD binding ; GO:0050660
+MIPS_funcat:16.21.05 FAD/FMN binding > GO:FMN binding ; GO:0010181
+MIPS_funcat:16.21.07 NAD/NADP binding > GO:NAD binding ; GO:0051287
+MIPS_funcat:16.21.07 NAD/NADP binding > GO:NADP binding ; GO:0050661
+MIPS_funcat:16.21.08 FE/S binding > GO:iron-sulfur cluster binding ; GO:0051536
+MIPS_funcat:16.21.09 cobalamin binding > GO:cobalamin binding ; GO:0031419
+MIPS_funcat:16.21.11 thiamin pyrophosphate binding > GO:thiamin pyrophosphate binding ; GO:0030976
+MIPS_funcat:16.21.13 lipoamid binding > GO:lipoamide binding ; GO:0043544
+MIPS_funcat:16.21.15 biotin binding > GO:biotin binding ; GO:0009374
+MIPS_funcat:16.21.17 pyridoxal phosphate binding > GO:pyridoxal phosphate binding ; GO:0030170
+MIPS_funcat:18 PROTEIN ACTIVITY REGULATION > GO:.
+MIPS_funcat:18.01 mechanism of regulation > GO:.
+MIPS_funcat:18.01.01 modification > GO:protein modification ; GO:0006464
+MIPS_funcat:18.01.03 localization > GO:protein localization ; GO:0008104
+MIPS_funcat:18.01.05 processing > GO:protein processing ; GO:0016485
+MIPS_funcat:18.01.07 binding / dissociation > GO:protein binding ; GO:0005515
+MIPS_funcat:18.02 target of regulation > GO:.
+MIPS_funcat:18.02.01 enzymatic activity regulation / enzyme regulator > GO:regulation of enzyme activity ; GO:0050790
+MIPS_funcat:18.02.01 enzymatic activity regulation / enzyme regulator > GO:enzyme regulator activity ; GO:0030234
+MIPS_funcat:18.02.01.01 enzyme activator > GO:positive regulation of enzyme activity ; GO:0043085
+MIPS_funcat:18.02.01.01 enzyme activator > GO:enzyme activator activity ; GO:0008047
+MIPS_funcat:18.02.01.01.01 GTPase activator (GAP) > GO:positive regulation of GTPase activity ; GO:0043547
+MIPS_funcat:18.02.01.01.01 GTPase activator (GAP) > GO:GTPase activator activity ; GO:0005096
+MIPS_funcat:18.02.01.01.03 protease activator > GO:protease activator activity ; GO:0016504
+MIPS_funcat:18.02.01.01.05 kinase activator > GO:kinase activator activity ; GO:0019209
+MIPS_funcat:18.02.01.02 enzyme inhibitor > GO:enzyme inhibitor activity ; GO:0004857
+MIPS_funcat:18.02.01.02.01 GTPase inhibitor (GIP) > GO:GTPase inhibitor activity ; GO:0005095
+MIPS_funcat:18.02.01.02.03 protease inhibitor > GO:protease inhibitor activity ; GO:0030414
+MIPS_funcat:18.02.01.02.05 kinase inhibitior > GO:kinase inhibitor activity ; GO:0019210
+MIPS_funcat:18.02.03 guanyl-nucleotide exchange factor (GEF) > GO:guanyl-nucleotide exchange factor activity ; GO:0005085
+MIPS_funcat:18.02.07 regulator of receptor activity > GO:receptor regulator activity ; GO:0030545
+MIPS_funcat:18.02.09 regulator of transcription factor > GO:regulation of transcription factor activity ; GO:0051090
+MIPS_funcat:20 CELLULAR TRANSPORT, TRANSPORT FACILITATION AND TRANSPORT ROUTES > GO:transport ; GO:0006810
+MIPS_funcat:20.01 transported compounds (substrates) > GO:.
+MIPS_funcat:20.01.01 ion transport > GO:ion transport ; GO:0006811
+MIPS_funcat:20.01.01.01 cation transport (Na, K, Ca , NH4, etc.) > GO:cation transport ; GO:0006812
+MIPS_funcat:20.01.01.01 cation transport (Na, K, Ca , NH4, etc.) > GO:cation transporter activity ; GO:0008324
+MIPS_funcat:20.01.01.01.01 heavy metal ion transport (Cu, Fe, etc.) > GO:.
+MIPS_funcat:20.01.01.01.01.01 siderophore-iron transport > GO:siderophore-iron transport ; GO:0015892
+MIPS_funcat:20.01.01.01.01.01 siderophore-iron transport > GO:siderophore-iron transporter activity ; GO:0015343
+MIPS_funcat:20.01.01.01.01.02 citrate-iron transport > GO:.
+MIPS_funcat:20.01.01.07 anion transport (Cl, SO4, PO4, etc.) > GO:anion transport ; GO:0006820
+MIPS_funcat:20.01.01.07 anion transport (Cl, SO4, PO4, etc.) > GO:anion transporter activity ; GO:0008509
+MIPS_funcat:20.01.01.07.01 nitrate transport > GO:nitrate transport ; GO:0015706
+MIPS_funcat:20.01.01.07.03 nitrite transport > GO:nitrite transport ; GO:0015707
+MIPS_funcat:20.01.01.07.05 sulfate transport > GO:sulfate transport ; GO:0008272
+MIPS_funcat:20.01.01.07.07 phosphate transport > GO:phosphate transport ; GO:0006817
+MIPS_funcat:20.01.01.07.09 chloride transport > GO:chloride transport ; GO:0006821
+MIPS_funcat:20.01.03 C-compound and carbohydrate transport > GO:carbohydrate transport ; GO:0008643
+MIPS_funcat:20.01.03 C-compound and carbohydrate transport > GO:carbohydrate transporter activity ; GO:0015144
+MIPS_funcat:20.01.03.01 sugar transport > GO:sugar transporter activity ; GO:0051119
+MIPS_funcat:20.01.03.03 C4-dicarboxylate transport (e.g. malate, succinate, fumarate) > GO:C4-dicarboxylate transport ; GO:0015740
+MIPS_funcat:20.01.03.03 C4-dicarboxylate transport (e.g. malate, succinate, fumarate) > GO:C4-dicarboxylate transporter activity ; GO:0015556
+MIPS_funcat:20.01.07 amino acid transport > GO:amino acid transport ; GO:0006865
+MIPS_funcat:20.01.07 amino acid transport > GO:amino acid transporter activity ; GO:0015171
+MIPS_funcat:20.01.09 peptide transport > GO:peptide transport ; GO:0015833
+MIPS_funcat:20.01.09 peptide transport > GO:peptide transporter activity ; GO:0015197
+MIPS_funcat:20.01.10 protein transport > GO:protein transport ; GO:0015031
+MIPS_funcat:20.01.10 protein transport > GO:protein transporter activity ; GO:0008565
+MIPS_funcat:20.01.11 amine / polyamine transport > GO:amine transport ; GO:0015837
+MIPS_funcat:20.01.11 amine / polyamine transport > GO:polyamine transport ; GO:0015846
+MIPS_funcat:20.01.11 amine / polyamine transport > GO:amine transporter activity ; GO:0005275
+MIPS_funcat:20.01.11 amine / polyamine transport > GO:polyamine transporter activity ; GO:0015203
+MIPS_funcat:20.01.13 lipid transport > GO:lipid transport ; GO:0006869
+MIPS_funcat:20.01.13 lipid transport > GO:lipid transporter activity ; GO:0005319
+MIPS_funcat:20.01.15 electron / hydrogen transport > GO:hydrogen transport ; GO:0006818
+MIPS_funcat:20.01.17 nucleotide transport > GO:nucleotide transport ; GO:0006862
+MIPS_funcat:20.01.17 nucleotide transport > GO:nucleotide transporter activity ; GO:0015215
+MIPS_funcat:20.01.19 nucleoside transport > GO:nucleoside transport ; GO:0015858
+MIPS_funcat:20.01.19 nucleoside transport > GO:nucleoside transporter activity ; GO:0005337
+MIPS_funcat:20.01.21 RNA transport > GO:RNA transport ; GO:0050658
+MIPS_funcat:20.01.21 RNA transport > GO:RNA transporter activity ; GO:0051033
+MIPS_funcat:20.01.23 allantoin and allantoate transport > GO:allantoin transport ; GO:0015720
+MIPS_funcat:20.01.23 allantoin and allantoate transport > GO:allantoate transport ; GO:0015719
+MIPS_funcat:20.01.25 vitamin/cofactor transport > GO:cofactor transport ; GO:0051181
+MIPS_funcat:20.01.25 vitamin/cofactor transport > GO:vitamin transport ; GO:0051180
+MIPS_funcat:20.01.25 vitamin/cofactor transport > GO:cofactor transporter activity ; GO:0051184
+MIPS_funcat:20.01.25 vitamin/cofactor transport > GO:vitamin transporter activity ; GO:0051183
+MIPS_funcat:20.01.26 neurotransmitter transport > GO:neurotransmitter transport ; GO:0006836
+MIPS_funcat:20.01.26 neurotransmitter transport > GO:neurotransmitter transporter activity ; GO:0005326
+MIPS_funcat:20.01.27 drug transport > GO:drug transport ; GO:0015893
+MIPS_funcat:20.01.27 drug transport > GO:drug transporter activity ; GO:0015238
+MIPS_funcat:20.03 transport facilitation > GO:.
+MIPS_funcat:20.03.01 channel / pore class transport > GO:channel or pore class transporter activity ; GO:0015267
+MIPS_funcat:20.03.01.01 ion channels > GO:ion channel activity ; GO:0005216
+MIPS_funcat:20.03.01.03 gap-junction forming protein family (e.g. connexin, innexin) > GO:.
+MIPS_funcat:20.03.01.05 nuclear pore forming protein > GO:.
+MIPS_funcat:20.03.01.07 general bacterial porin family (e.g. ompf, sugar porin, omf) > GO:.
+MIPS_funcat:20.03.01.09 pore-forming toxins (e.g. diphteria toxin, hemolysin) > GO:.
+MIPS_funcat:20.03.03 uniporter > GO:uniporter activity ; GO:0015292
+MIPS_funcat:20.03.05 symporters > GO:symporter activity ; GO:0015293
+MIPS_funcat:20.03.05.01 proton driven symporter > GO:solute:hydrogen symporter activity ; GO:0015295
+MIPS_funcat:20.03.05.03 sodium driven symporter > GO:solute:sodium symporter activity ; GO:0015370
+MIPS_funcat:20.03.07 antiporters > GO:antiporter activity ; GO:0015297
+MIPS_funcat:20.03.07.01 proton driven antiporter > GO:solute:hydrogen antiporter activity ; GO:0015299
+MIPS_funcat:20.03.07.03 sodium driven antiporter > GO:.
+MIPS_funcat:20.03.09 phosphotransferase system > GO:phosphoenolpyruvate-dependent sugar phosphotransferase system ; GO:0009401
+MIPS_funcat:20.03.22 transport ATPases > GO:ATPase activity, coupled to transmembrane movement of substances ; GO:0042626
+MIPS_funcat:20.03.25 ABC transporters > GO:.
+MIPS_funcat:20.09 transport routes > GO:.
+MIPS_funcat:20.09.01 nuclear transport > GO:nuclear transport ; GO:0051169
+MIPS_funcat:20.09.02 chloroplast transport > GO:chloroplast transport ; GO:0019750
+MIPS_funcat:20.09.04 mitochondrial transport > GO:mitochondrial transport ; GO:0006839
+MIPS_funcat:20.09.05 non-vesicular ER transport > GO:.
+MIPS_funcat:20.09.07 vesicular transport (Golgi network, etc.) > GO:vesicle-mediated transport ; GO:0016192
+MIPS_funcat:20.09.07.03 ER to Golgi transport > GO:ER to Golgi transport ; GO:0006888
+MIPS_funcat:20.09.07.05 intra Golgi transport > GO:intra-Golgi transport ; GO:0006891
+MIPS_funcat:20.09.07.06 post Golgi transport > GO:post-Golgi transport ; GO:0006892
+MIPS_funcat:20.09.07.25 vesicle formation > GO:vesicle budding ; GO:0006900
+MIPS_funcat:20.09.07.27 vesicle fusion > GO:vesicle fusion ; GO:0006906
+MIPS_funcat:20.09.07.29 vesicle recycling > GO:retrograde transport, vesicle recycling within Golgi ; GO:0000301
+MIPS_funcat:20.09.10 peroxisomal transport > GO:peroxisomal transport ; GO:0043574
+MIPS_funcat:20.09.13 vacuolar transport > GO:vacuolar transport ; GO:0007034
+MIPS_funcat:20.09.14 cytoskeleton-dependent transport > GO:cytoskeleton-dependent intracellular transport ; GO:0030705
+MIPS_funcat:20.09.14.01 tubulin dependent transport > GO:microtubule-based movement ; GO:0007018
+MIPS_funcat:20.09.14.02 actin dependent transport > GO:actin filament-based movement ; GO:0030048
+MIPS_funcat:20.09.16 cellular export and secretion > GO:secretion ; GO:0046903
+MIPS_funcat:20.09.16.01 Type I protein secretion system (ABC-type transport systems) > GO:type I protein secretion system ; GO:0030253
+MIPS_funcat:20.09.16.02 Type II protein secretion system (general secretory pathway, exocytosis) > GO:type II protein secretion system ; GO:0015628
+MIPS_funcat:20.09.16.03 Type III protein secretion system (virulence related secretory pathway, Gram- bacteria specific) > GO:type III protein secretion system complex ; GO:0030257
+MIPS_funcat:20.09.16.04 Type IV protein secretion system (conjugal DNA-protein transfer) > GO:type IV protein secretion system ; GO:0030255
+MIPS_funcat:20.09.16.05 Type V protein secretion system (MttABC or TatABCDE-system) > GO:type IV protein secretion system ; GO:0030255
+MIPS_funcat:20.09.16.07 non-vesicular cellular export > GO:.
+MIPS_funcat:20.09.16.09 vesicular cellular export > GO:exocytosis ; GO:0006887
+MIPS_funcat:20.09.16.09.03 exocytosis > GO:exocytosis ; GO:0006887
+MIPS_funcat:20.09.16.09.05 synaptic vesicles > GO:synaptic vesicle exocytosis ; GO:0016079
+MIPS_funcat:20.09.18 cellular import > GO:.
+MIPS_funcat:20.09.18.07 non-vesicular cellular import > GO:.
+MIPS_funcat:20.09.18.09 vesicular cellular import > GO:.
+MIPS_funcat:20.09.18.09.01 endocytosis > GO:endocytosis ; GO:0006897
+MIPS_funcat:20.09.18.09.01.01 receptor-mediated endocytosis > GO:receptor mediated endocytosis ; GO:0006898
+MIPS_funcat:20.09.18.09.01.03 constitutive endocytosis > GO:.
+MIPS_funcat:30 CELLULAR COMMUNICATION/SIGNAL TRANSDUCTION MECHANISM > GO:signal transduction ; GO:0007165
+MIPS_funcat:30.01 intracellular signalling > GO:intracellular signaling cascade ; GO:0007242
+MIPS_funcat:30.01.01 unspecified signal transduction > GO:.
+MIPS_funcat:30.01.05 enzyme mediated signal transduction > GO:.
+MIPS_funcat:30.01.05.01 protein kinase cascades > GO:protein kinase cascade ; GO:0007243
+MIPS_funcat:30.01.05.01.01 JAK-STAT cascade > GO:JAK-STAT cascade ; GO:0007259
+MIPS_funcat:30.01.05.01.02 JNK cascade > GO:JNK cascade ; GO:0007254
+MIPS_funcat:30.01.05.01.03 MAPKKK cascade > GO:MAPKKK cascade ; GO:0000165
+MIPS_funcat:30.01.05.01.04 NIK-I-kappaB/NF-kappaB cascade > GO:I-kappaB kinase/NF-kappaB cascade ; GO:0007249
+MIPS_funcat:30.01.05.03 protease mediated signal transduction > GO:.
+MIPS_funcat:30.01.05.05 G-protein mediated signal transduction > GO:G-protein coupled receptor protein signaling pathway ; GO:0007186
+MIPS_funcat:30.01.05.05.01 small GTPase mediated signal transduction > GO:small GTPase mediated signal transduction ; GO:0007264
+MIPS_funcat:30.01.05.05.03 trimeric G-protein mediated signal transduction > GO:.
+MIPS_funcat:30.01.05.07 two-component signal transduction system (e.g. phosphorelay) > GO:two-component signal transduction system (phosphorelay) ; GO:0000160
+MIPS_funcat:30.01.09 second messenger mediated signal transduction > GO:second-messenger-mediated signaling ; GO:0019932
+MIPS_funcat:30.01.09.01 NO mediated signal transduction > GO:nitric oxide mediated signal transduction ; GO:0007263
+MIPS_funcat:30.01.09.03 Ca2+ mediated signal transduction > GO:calcium-mediated signaling ; GO:0019722
+MIPS_funcat:30.01.09.07 cAMP mediated signal transduction > GO:cAMP-mediated signaling ; GO:0019933
+MIPS_funcat:30.01.09.08 hormone mediated signal transduction > GO:hormone-mediated signaling ; GO:0009755
+MIPS_funcat:30.01.09.09 fatty acid derivatives mediated signal transduction > GO:.
+MIPS_funcat:30.01.09.11 polyphosphoinositol mediated  signal transduction > GO:.
+MIPS_funcat:30.01.11 ligand-dependent nuclear receptors > GO:.
+MIPS_funcat:30.05 transmembrane signal transduction > GO:cell surface receptor linked signal transduction ; GO:0007166
+MIPS_funcat:30.05.01 receptor enzyme mediated signalling > GO:enzyme linked receptor protein signaling pathway ; GO:0007167
+MIPS_funcat:30.05.01.05 interleukine receptor signalling pathway > GO:.
+MIPS_funcat:30.05.01.10 two-component signal transduction system (sensor kinase component) > GO:two-component signal transduction system (phosphorelay) ; GO:0000160
+MIPS_funcat:30.05.01.12 transmembrane receptor protein tyrosine kinase signalling pathways > GO:transmembrane receptor protein tyrosine kinase signaling pathway ; GO:0007169
+MIPS_funcat:30.05.01.12.01 EGF-receptor signalling pathway > GO:epidermal growth factor receptor signaling pathway ; GO:0007173
+MIPS_funcat:30.05.01.12.03 FGF-receptor signalling pathway > GO:fibroblast growth factor receptor signaling pathway ; GO:0008543
+MIPS_funcat:30.05.01.12.04 IGF-receptor signalling pathway > GO:insulin-like growth factor receptor signaling pathway ; GO:0048009
+MIPS_funcat:30.05.01.12.05 insulin receptor signalling pathway > GO:insulin receptor signaling pathway ; GO:0008286
+MIPS_funcat:30.05.01.18 transmembrane receptor protein serine/threonine kinase signalling pathways > GO:transmembrane receptor protein serine/threonine kinase signaling pathway ; GO:0007178
+MIPS_funcat:30.05.01.18.01 TGF-beta-receptor signalling pathway > GO:transforming growth factor beta receptor signaling pathway ; GO:0007179
+MIPS_funcat:30.05.02 non-enzymatic receptor mediated signalling > GO:.
+MIPS_funcat:30.05.02.14 Notch-receptor signalling pathway > GO:Notch signaling pathway ; GO:0007219
+MIPS_funcat:30.05.02.16 hedgehog-dependent signalling pathway > GO:smoothened signaling pathway ; GO:0007224
+MIPS_funcat:30.05.02.20 wnt signalling pathway > GO:Wnt receptor signaling pathway ; GO:0016055
+MIPS_funcat:30.05.02.22 Tl-receptor (LRR proteins) signalling pathway > GO:.
+MIPS_funcat:30.05.02.24 G-protein coupled receptor signalling pathway > GO:G-protein coupled receptor protein signaling pathway ; GO:0007186
+MIPS_funcat:30.05.02.24.01 serotonin receptor signalling pathway > GO:serotonin receptor signaling pathway ; GO:0007210
+MIPS_funcat:30.05.02.24.02 acetyl choline receptor signalling pathway > GO:acetylcholine receptor signaling, muscarinic pathway ; GO:0007213
+MIPS_funcat:30.05.02.24.03 dopamine receptor signalling pathway > GO:dopamine receptor signaling pathway ; GO:0007212
+MIPS_funcat:30.05.02.24.04 gamma-aminobutyric acid signalling pathway > GO:gamma-aminobutyric acid signaling pathway ; GO:0007214
+MIPS_funcat:30.05.02.24.05 glutamate signalling pathway > GO:glutamate signaling pathway ; GO:0007215
+MIPS_funcat:30.05.02.24.06 neuropeptide signalling pathway > GO:neuropeptide signaling pathway ; GO:0007218
+MIPS_funcat:30.05.02.26 integrin receptor signalling pathway > GO:integrin-mediated signaling pathway ; GO:0007229
+MIPS_funcat:30.05.02.28 cadherin mediated signalling pathway > GO:.
+MIPS_funcat:30.05.02.30 ion channel mediated signalling pathway > GO:.
+MIPS_funcat:32 CELL RESCUE, DEFENSE AND VIRULENCE > GO:.
+MIPS_funcat:32.01 stress response > GO:response to stress ; GO:0006950
+MIPS_funcat:32.01.01 oxydative stress response > GO:response to oxidative stress ; GO:0006979
+MIPS_funcat:32.01.03 osmotic and salt stress response > GO:response to osmotic stress ; GO:0006970
+MIPS_funcat:32.01.04 pH stress response > GO:response to pH ; GO:0009268
+MIPS_funcat:32.01.05 heat shock response > GO:response to heat ; GO:0009408
+MIPS_funcat:32.01.06 cold shock response > GO:response to cold ; GO:0009409
+MIPS_funcat:32.01.07 unfolded protein response (ER quality control) > GO:unfolded protein response ; GO:0030968
+MIPS_funcat:32.01.09 DNA damage response > GO:response to DNA damage stimulus ; GO:0006974
+MIPS_funcat:32.01.11 nutrient starvation response > GO:response to starvation ; GO:0042594
+MIPS_funcat:32.01.13 electromagnetic waves stress response (e.g. UV, X-ray) > GO:response to radiation ; GO:0009314
+MIPS_funcat:32.05 disease, virulence and defense > GO:.
+MIPS_funcat:32.05.01 resistance proteins > GO:.
+MIPS_funcat:32.05.01.01 antibiotic resistance > GO:.
+MIPS_funcat:32.05.01.03 chemical agent resistance > GO:.
+MIPS_funcat:32.05.01.03.01 organic chemical agent resistance > GO:.
+MIPS_funcat:32.05.01.03.03 inorganic chemical agent resistance (e.g. heavy metals) > GO:.
+MIPS_funcat:32.05.01.05 bacteriocine resistance > GO:.
+MIPS_funcat:32.05.01.07 electromagnetic waves resistance (e.g. UV) > GO:.
+MIPS_funcat:32.05.03 defense related proteins > GO:.
+MIPS_funcat:32.05.05 virulence, disease factors > GO:.
+MIPS_funcat:32.05.05.01 toxins > GO:.
+MIPS_funcat:32.05.05.03 bacteriocins > GO:.
+MIPS_funcat:32.05.05.05 invasins > GO:.
+MIPS_funcat:32.05.05.06 internalins > GO:.
+MIPS_funcat:32.05.05.07 adhaesins > GO:.
+MIPS_funcat:32.05.05.08 cytolysins > GO:.
+MIPS_funcat:32.05.05.09 evasion of host immune system > GO:evasion of host immune response ; GO:0020012
+MIPS_funcat:32.05.05.13 antigenic determinants > GO:.
+MIPS_funcat:32.07 detoxification > GO:.
+MIPS_funcat:32.07.01 detoxification involving cytochrome P450 > GO:.
+MIPS_funcat:32.07.03 detoxification by modification > GO:.
+MIPS_funcat:32.07.05 detoxification by export > GO:.
+MIPS_funcat:32.07.07 oxygen and radical detoxification > GO:.
+MIPS_funcat:32.07.07.01 catalase reaction > GO:catalase activity ; GO:0004096
+MIPS_funcat:32.07.07.03 glutathione conjugation reaction > GO:glutathione transferase activity ; GO:0004364
+MIPS_funcat:32.07.07.05 peroxidase reaction > GO:peroxidase activity ; GO:0004601
+MIPS_funcat:32.07.07.07 superoxide metabolism > GO:superoxide metabolism ; GO:0006801
+MIPS_funcat:32.07.09 detoxification by degradation > GO:.
+MIPS_funcat:32.07.11 detoxification by impermeability > GO:.
+MIPS_funcat:32.10 degradation of foreign (exogenous) compounds > GO:.
+MIPS_funcat:32.10.03 degradation of foreign (exogenous) polynucleotides > GO:.
+MIPS_funcat:32.10.05 degradation of foreign (exogenous) proteins > GO:.
+MIPS_funcat:32.10.07 degradation of foreign (exogenous) polysaccharides > GO:.
+MIPS_funcat:32.10.09 degradation of foreign (exogenous) ester compounds > GO:.
+MIPS_funcat:34 INTERACTION WITH THE CELLULAR ENVIRONMENT > GO:.
+MIPS_funcat:34.01 ionic homeostasis > GO:cell ion homeostasis ; GO:0006873
+MIPS_funcat:34.01.01 homeostasis of cations > GO:cation homeostasis ; GO:0030003
+MIPS_funcat:34.01.01.01 homeostasis of metal ions (Na, K, Ca etc.) > GO:metal ion homeostasis ; GO:0006875
+MIPS_funcat:34.01.01.03 homeostasis of protons > GO:hydrogen ion homeostasis ; GO:0030641
+MIPS_funcat:34.01.03 homeostasis of anions > GO:anion homeostasis ; GO:0030002
+MIPS_funcat:34.01.03.01 homeostasis of sulfates > GO:sulfate ion homeostasis ; GO:0030642
+MIPS_funcat:34.01.03.03 homeostasis of phosphate > GO:phosphate ion homeostasis ; GO:0030643
+MIPS_funcat:34.01.03.05 homeostasis of chloride > GO:chloride ion homeostasis ; GO:0030644
+MIPS_funcat:34.03 membrane excitability > GO:.
+MIPS_funcat:34.03.01 synaptic transmission > GO:synaptic transmission ; GO:0007268
+MIPS_funcat:34.03.03 regulation, generation and propagation of action potential > GO:action potential propagation ; GO:0019227
+MIPS_funcat:34.03.03 regulation, generation and propagation of action potential > GO:generation of action potential ; GO:0019228
+MIPS_funcat:34.03.03 regulation, generation and propagation of action potential > GO:regulation of action potential ; GO:0001508
+MIPS_funcat:34.05 cell motility > GO:cell motility ; GO:0006928
+MIPS_funcat:34.05.01 cell migration > GO:cell migration ; GO:0016477
+MIPS_funcat:34.05.07 ciliary/flagellar motility > GO:ciliary or flagellar motility ; GO:0001539
+MIPS_funcat:34.05.09 polymerization based motility > GO:.
+MIPS_funcat:34.07 cell adhesion > GO:cell adhesion ; GO:0007155
+MIPS_funcat:34.07.01 cell-cell adhesion > GO:cell-cell adhesion ; GO:0016337
+MIPS_funcat:34.07.02 cell-matrix adhesion > GO:cell-matrix adhesion ; GO:0007160
+MIPS_funcat:34.11 cellular sensing and response > GO:detection of stimulus ; GO:0051606
+MIPS_funcat:34.11 cellular sensing and response > GO:response to stimulus ; GO:0050896
+MIPS_funcat:34.11.01 photoperception and response > GO:detection of light stimulus ; GO:0009583
+MIPS_funcat:34.11.01 photoperception and response > GO:response to light stimulus ; GO:0009416
+MIPS_funcat:34.11.01.01 light environment response > GO:response to light stimulus ; GO:0009416
+MIPS_funcat:34.11.01.03 visual transduction > GO:visual perception ; GO:0007601
+MIPS_funcat:34.11.01.05 phototaxis > GO:phototaxis ; GO:0042331
+MIPS_funcat:34.11.03 chemoperception and response > GO:detection of chemical stimulus ; GO:0009593
+MIPS_funcat:34.11.03 chemoperception and response > GO:response to chemical stimulus ; GO:0042221
+MIPS_funcat:34.11.03.01 perception of nutrients and nutritional adaptation > GO:detection of nutrient ; GO:0009594
+MIPS_funcat:34.11.03.03 chemotaxis > GO:chemotaxis ; GO:0006935
+MIPS_funcat:34.11.03.05 chemical environment response > GO:response to chemical stimulus ; GO:0042221
+MIPS_funcat:34.11.03.07 pheromone response, mating-type determination, sex-specific proteins > GO:response to pheromone ; GO:0019236
+MIPS_funcat:34.11.03.07 pheromone response, mating-type determination, sex-specific proteins > GO:mating type determination ; GO:0007531
+MIPS_funcat:34.11.03.07.01 incompatibility > GO:.
+MIPS_funcat:34.11.03.11 pH response > GO:response to pH ; GO:0009268
+MIPS_funcat:34.11.03.13 osmosensing > GO:osmosensor activity ; GO:0005034
+MIPS_funcat:34.11.03.13 osmosensing > GO:detection of osmotic stimulus ; GO:0043575
+MIPS_funcat:34.11.03.15 quorum sensing system > GO:quorum sensing ; GO:0009372
+MIPS_funcat:34.11.05 mechanical stimulus perception and response > GO:response to mechanical stimulus ; GO:0009612
+MIPS_funcat:34.11.05 mechanical stimulus perception and response > GO:detection of mechanical stimulus ; GO:0050982
+MIPS_funcat:34.11.07 gravity perception and response > GO:response to gravity ; GO:0009629
+MIPS_funcat:34.11.07 gravity perception and response > GO:detection of gravity ; GO:0009590
+MIPS_funcat:34.11.08 electromagnetic field perception and response > GO:response to electrical stimulus ; GO:0051602
+MIPS_funcat:34.11.08 electromagnetic field perception and response > GO:detection of electrical stimulus ; GO:0050981
+MIPS_funcat:34.11.08 electromagnetic field perception and response > GO:magnetoreception ; GO:0050958
+MIPS_funcat:34.11.09 temperature perception and response > GO:response to temperature stimulus ; GO:0009266
+MIPS_funcat:34.11.09 temperature perception and response > GO:detection of temperature stimulus ; GO:0016048
+MIPS_funcat:34.11.11 rhythm (e.g. circadian, ultradian) > GO:rhythmic process ; GO:0048511
+MIPS_funcat:36 INTERACTION WITH THE ENVIRONMENT (Systemic) > GO:.
+MIPS_funcat:36.03 nutrients uptake and absorption (e.g. digestion) > GO:feeding behavior ; GO:0007631
+MIPS_funcat:36.03 nutrients uptake and absorption (e.g. digestion) > GO:digestion ; GO:0007586
+MIPS_funcat:36.05 osmoregulation and excretion > GO:osmoregulation ; GO:0018987
+MIPS_funcat:36.05 osmoregulation and excretion > GO:excretion ; GO:0007588
+MIPS_funcat:36.07 gas and metabolite distribution > GO:.
+MIPS_funcat:36.07.01 gas exchange and distribution > GO:respiratory gaseous exchange ; GO:0007585
+MIPS_funcat:36.07.03 control of respiratory activity > GO:regulation of respiratory gaseous exchange ; GO:0043576
+MIPS_funcat:36.07.05 metabolite distribution > GO:.
+MIPS_funcat:36.07.07 circulation > GO:circulation ; GO:0008015
+MIPS_funcat:36.09 systemic temperature regulation > GO:thermoregulation ; GO:0001659
+MIPS_funcat:36.11 systemic rhythm control > GO:.
+MIPS_funcat:36.20 plant / fungal specific systemic sensing and response > GO:.
+MIPS_funcat:36.20.16 plant defense response > GO:.
+MIPS_funcat:36.20.16.01 disease resistance (R-gene) specific > GO:.
+MIPS_funcat:36.20.16.03 jasmonic acid/ethylene dependent systemic resistance > GO:induced systemic resistance ; GO:0009682
+MIPS_funcat:36.20.16.05 systemic acquired resistance > GO:systemic acquired resistance ; GO:0009627
+MIPS_funcat:36.20.16.07 hypersensitive response > GO:hypersensitive response ; GO:0009626
+MIPS_funcat:36.20.18 plant hormonal regulation > GO:.
+MIPS_funcat:36.20.18.01 auxin response > GO:response to auxin stimulus ; GO:0009733
+MIPS_funcat:36.20.18.02 ethylen response > GO:response to ethylene stimulus ; GO:0009723
+MIPS_funcat:36.20.18.03 gibberellic acid response > GO:response to gibberellic acid stimulus ; GO:0009739
+MIPS_funcat:36.20.18.04 cytokinin response > GO:response to cytokinin stimulus ; GO:0009735
+MIPS_funcat:36.20.18.05 abscisic acid response > GO:response to abscisic acid stimulus ; GO:0009737
+MIPS_funcat:36.20.18.06 brassinosteroid response > GO:response to brassinosteroid stimulus ; GO:0009741
+MIPS_funcat:36.20.18.99 other plant signalling molecules response (jasmonic acid, salicylic acid etc.) > GO:.
+MIPS_funcat:36.20.35 response to environmental stimuli > GO:response to external stimulus ; GO:0009605
+MIPS_funcat:36.20.35.09 chemical environment sensing and response > GO:response to chemical stimulus ; GO:0042221
+MIPS_funcat:36.20.35.09.01 water response and homeostasis > GO:response to water ; GO:0009415
+MIPS_funcat:36.20.35.09.01 water response and homeostasis > GO:water homeostasis ; GO:0030104
+MIPS_funcat:36.20.35.09.03 pH response > GO:response to pH ; GO:0009268
+MIPS_funcat:36.20.35.09.05 osmotic response > GO:response to osmotic stress ; GO:0006970
+MIPS_funcat:36.20.35.09.07 chemotropism > GO:chemotropism ; GO:0043577
+MIPS_funcat:36.20.35.11 light sensing and response > GO:response to light stimulus ; GO:0009416
+MIPS_funcat:36.20.35.11 light sensing and response > GO:detection of light stimulus ; GO:0009583
+MIPS_funcat:36.20.35.11.01 phototropism > GO:phototropism ; GO:0009638
+MIPS_funcat:36.20.35.13 gravity sensing and response > GO:response to gravity ; GO:0009629
+MIPS_funcat:36.20.35.13 gravity sensing and response > GO:detection of gravity ; GO:0009590
+MIPS_funcat:36.20.35.13.01 gravitropism > GO:gravitropism ; GO:0009630
+MIPS_funcat:36.20.35.15 mechanical stimulus response > GO:response to mechanical stimulus ; GO:0009612
+MIPS_funcat:36.25 animal specific systemic sensing and response > GO:.
+MIPS_funcat:36.25.01 animal sensory mechanisms > GO:.
+MIPS_funcat:36.25.01.01 vision > GO:visual perception ; GO:0007601
+MIPS_funcat:36.25.01.03 hearing > GO:sensory perception of sound ; GO:0007605
+MIPS_funcat:36.25.01.05 tactile sense (peripheral physical and mechanical stimuli perception) > GO:sensory perception of touch ; GO:0050975
+MIPS_funcat:36.25.01.07 sense of balance and equilibrium (vestibular pathways and mechanisms) > GO:equilibrioception ; GO:0050957
+MIPS_funcat:36.25.01.09 proprioceptive pathways and mechanisms > GO:proprioception ; GO:0019230
+MIPS_funcat:36.25.01.11 taste > GO:sensory perception of taste ; GO:0050909
+MIPS_funcat:36.25.01.13 olfaction > GO:sensory perception of smell ; GO:0007608
+MIPS_funcat:36.25.01.15 pain (nociceptive pathways) > GO:sensory perception of pain ; GO:0019233
+MIPS_funcat:36.25.03 nervous system physiology > GO:neurophysiological process ; GO:0050877
+MIPS_funcat:36.25.03.01 nervous system mediated vegetative activities / neurosecretory activities > GO:.
+MIPS_funcat:36.25.03.01.01 effect on glands / hormones > GO:.
+MIPS_funcat:36.25.03.01.03 effect on smooth muscles > GO:.
+MIPS_funcat:36.25.03.01.05 effect on heart muscle > GO:.
+MIPS_funcat:36.25.03.03 nervous system mediated motor activity > GO:neuromuscular physiological process ; GO:0050905
+MIPS_funcat:36.25.03.03.01 neuromuscular junction-related activities > GO:.
+MIPS_funcat:36.25.03.03.03 movement and posture coordination > GO:regulation of balance ; GO:0050885
+MIPS_funcat:36.25.03.03.03 movement and posture coordination > GO:regulation of posture ; GO:0050884
+MIPS_funcat:36.25.03.04 neuronal integrative functions > GO:.
+MIPS_funcat:36.25.03.04.01 learning and memory > GO:learning and/or memory ; GO:0007611
+MIPS_funcat:36.25.07 animal hormonal regulation > GO:.
+MIPS_funcat:36.25.07.01 effect on kinetics (muscle contraction, pigment, gland secretion) > GO:.
+MIPS_funcat:36.25.07.03 effect on homeostasis (e.g. metabolism or electrolyte homeostasis) > GO:.
+MIPS_funcat:36.25.07.05 effect on morphogenesis > GO:.
+MIPS_funcat:36.25.07.07 effect on behaviour > GO:.
+MIPS_funcat:36.25.09 muscle contraction > GO:muscle contraction ; GO:0006936
+MIPS_funcat:36.25.09.01 smooth muscle contraction > GO:smooth muscle contraction ; GO:0006939
+MIPS_funcat:36.25.09.03 striated muscle contraction > GO:striated muscle contraction ; GO:0006941
+MIPS_funcat:36.25.09.05 general muscle contraction regulation > GO:regulation of muscle contraction ; GO:0006937
+MIPS_funcat:36.25.16 immune response > GO:immune response ; GO:0006955
+MIPS_funcat:36.25.16.01 innate immune response (invertebrates and vertebrates) > GO:innate immune response ; GO:0045087
+MIPS_funcat:36.25.16.01.01 complement response > GO:complement activation ; GO:0006956
+MIPS_funcat:36.25.16.01.03 phagocyte response (e.g. macrophages, dendritic cells, granulocytes) > GO:phagocytosis ; GO:0006909
+MIPS_funcat:36.25.16.01.05 cytotoxic cell response (e.g. NK) > GO:immune cell mediated cytotoxicity ; GO:0001909
+MIPS_funcat:36.25.16.01.07 acute phase response (C-reactive protein) > GO:acute-phase response ; GO:0006953
+MIPS_funcat:36.25.16.03 adaptive immune response (vertebrates) > GO:humoral defense mechanism (sensu Vertebrata) ; GO:0016064
+MIPS_funcat:36.25.16.03.01 humoral response (B-cells) > GO:B cell mediated immunity ; GO:0019724
+MIPS_funcat:36.25.16.03.03 adaptive cell mediated response (T-cells) > GO:.
+MIPS_funcat:36.25.16.03.05 antigen presentation / processing > GO:antigen presentation ; GO:0019882
+MIPS_funcat:36.25.16.03.05 antigen presentation / processing > GO:antigen processing ; GO:0030333
+MIPS_funcat:36.25.16.03.07 immunological memory > GO:.
+MIPS_funcat:36.25.16.07 inflammatory response > GO:inflammatory response ; GO:0006954
+MIPS_funcat:36.25.16.09 blood coagulation > GO:blood coagulation ; GO:0007596
+MIPS_funcat:38 TRANSPOSABLE ELEMENTS, VIRAL AND PLASMID PROTEINS > GO:.
+MIPS_funcat:38.01 LTR retroelements (retroviral) > GO:.
+MIPS_funcat:38.02 non-LTR retroelements > GO:.
+MIPS_funcat:38.03 transposons > GO:.
+MIPS_funcat:38.05 viral proteins > GO:.
+MIPS_funcat:38.06 phage proteins > GO:.
+MIPS_funcat:38.07 proteins necessary for the integration or inhibition of transposon movement > GO:.
+MIPS_funcat:40 CELL FATE > GO:.
+MIPS_funcat:40.01 cell growth / morphogenesis > GO:cell growth ; GO:0016049
+MIPS_funcat:40.01 cell growth / morphogenesis > GO:cellular morphogenesis ; GO:0000902
+MIPS_funcat:40.01.01 non-directional cell growth > GO:isotropic cell growth ; GO:0051210
+MIPS_funcat:40.01.03 directional cell growth (morphogenesis) > GO:anisotropic cell growth ; GO:0051211
+MIPS_funcat:40.01.03.01 regulation of directional cell growth > GO:.
+MIPS_funcat:40.01.03.03 guidance of longitudinal cell extension (e.g. pollen tube guidance, axonal pathfinding) > GO:.
+MIPS_funcat:40.01.05 growth regulators / regulation of cell size > GO:regulation of cell size ; GO:0008361
+MIPS_funcat:40.01.05.01 interpretation of external signals that control cell growth > GO:regulation of cell growth by extracellular stimulus ; GO:0001560
+MIPS_funcat:40.01.05.02 interpretation of nuclear/cytoplasmic ratio to control cell growth > GO:regulation of cell growth by detection of nuclear:cytoplasmic ratio ; GO:0001559
+MIPS_funcat:40.02 cell differentiation > GO:cell differentiation ; GO:0030154
+MIPS_funcat:40.02.03 extracellular differentiation regulators > GO:.
+MIPS_funcat:40.02.03.01 cytokines (interleukines, colony stimulating factors, etc.) > GO:cytokine activity ; GO:0005125
+MIPS_funcat:40.02.03.03 chemokines > GO:chemokine activity ; GO:0008009
+MIPS_funcat:40.02.03.05 growth factors > GO:growth factor activity ; GO:0008083
+MIPS_funcat:40.02.03.07 trophic factors > GO:.
+MIPS_funcat:40.05 dedifferentiation > GO:.
+MIPS_funcat:40.10 cell death > GO:cell death ; GO:0008219
+MIPS_funcat:40.10.02 apoptosis (type I programmed cell death) > GO:apoptosis ; GO:0006915
+MIPS_funcat:40.10.02.01 anti-apoptosis > GO:anti-apoptosis ; GO:0006916
+MIPS_funcat:40.10.02.02 apoptotic program > GO:apoptotic program ; GO:0008632
+MIPS_funcat:40.10.02.02.01 apoptotic mitochondrial changes > GO:apoptotic mitochondrial changes ; GO:0008637
+MIPS_funcat:40.10.02.02.02 caspase activation > GO:caspase activation ; GO:0006919
+MIPS_funcat:40.10.02.02.03 disassembly of cell structures > GO:disassembly of cell structures during apoptosis ; GO:0006921
+MIPS_funcat:40.10.02.02.04 induction of proapoptotic gene products > GO:activation of pro-apoptotic gene products ; GO:0008633
+MIPS_funcat:40.10.02.02.05 repression of survival gene products > GO:negative regulation of survival gene product activity ; GO:0008634
+MIPS_funcat:40.10.02.03 induction of apoptosis > GO:induction of apoptosis ; GO:0006917
+MIPS_funcat:40.10.02.03.01 induction of apoptosis by extracellular signals > GO:induction of apoptosis by extracellular signals ; GO:0008624
+MIPS_funcat:40.10.02.03.02 induction of apoptosis by intracellular signals > GO:induction of apoptosis by intracellular signals ; GO:0008629
+MIPS_funcat:40.10.90 other programmed cell death > GO:nonapoptotic programmed cell death ; GO:0016244
+MIPS_funcat:40.20 cell aging > GO:cell aging ; GO:0007569
+MIPS_funcat:41 DEVELOPMENT (Systemic) > GO:development ; GO:0007275
+MIPS_funcat:41.01 fungal/microorganismic development > GO:.
+MIPS_funcat:41.01.01 mating (fertilization) > GO:.
+MIPS_funcat:41.01.03 tissue pattern formation > GO:pattern specification ; GO:0007389
+MIPS_funcat:41.01.03.01 fruit body development (sexually or asexually derived spores) > GO:fruiting body formation ; GO:0030582
+MIPS_funcat:41.01.03.03 mycelium development (hyphae, vegetative thallus) > GO:mycelium development ; GO:0043581
+MIPS_funcat:41.03 plant development > GO:.
+MIPS_funcat:41.03.01 gametophyte development > GO:gametophyte development ; GO:0048229
+MIPS_funcat:41.03.01.01 microspore development (male gametophyte) > GO:male gametophyte development ; GO:0009555
+MIPS_funcat:41.03.01.02 macrospore development (female gametophyte) > GO:female gametophyte development ; GO:0009553
+MIPS_funcat:41.03.02 fertilization (pollen hydration, pollen tube guidance, double fertilization of oocyte and endosperm) > GO:.
+MIPS_funcat:41.03.03 embryonal development > GO:embryonic development (sensu Magnoliophyta) ; GO:0009793
+MIPS_funcat:41.03.03.01 zygote development > GO:.
+MIPS_funcat:41.03.03.02 early embryo development (Dicotyledone pre-heart stages) > GO:.
+MIPS_funcat:41.03.03.03 mid-stage embryo development (Dicotyledone heart to torpedo) > GO:.
+MIPS_funcat:41.03.03.04 late-stage embryo development (Dicotyledone torpedo and later) > GO:.
+MIPS_funcat:41.03.03.05 mature embryo development > GO:.
+MIPS_funcat:41.03.04 endosperm development > GO:endosperm development ; GO:0009960
+MIPS_funcat:41.03.05 germination > GO:seed germination ; GO:0009845
+MIPS_funcat:41.03.06 vegetative development > GO:.
+MIPS_funcat:41.03.07 flower development > GO:flower development ; GO:0009908
+MIPS_funcat:41.03.08 fruit development and ripening > GO:fruit development ; GO:0010154
+MIPS_funcat:41.03.08 fruit development and ripening > GO:ripening ; GO:0009835
+MIPS_funcat:41.03.10 senescence > GO:senescence (sensu Magnoliophyta) ; GO:0010149
+MIPS_funcat:41.05 animal development > GO:.
+MIPS_funcat:41.05.01 fertilization > GO:fertilization (sensu Metazoa) ; GO:0007338
+MIPS_funcat:41.05.02 embryo implantation (mammalia) > GO:embryo implantation ; GO:0007566
+MIPS_funcat:41.05.03 early embryonic development > GO:embryonic development (sensu Metazoa) ; GO:0009792
+MIPS_funcat:41.05.03.01 morula development > GO:.
+MIPS_funcat:41.05.03.03 blastocyst (mammalia) > GO:blastocyst development ; GO:0001824
+MIPS_funcat:41.05.03.03.01 trophectoderm > GO:trophectodermal cell differentiation ; GO:0001829
+MIPS_funcat:41.05.03.03.03 inner cell mass > GO:inner cell mass cell differentiation ; GO:0001826
+MIPS_funcat:41.05.03.05 blastocoel development > GO:.
+MIPS_funcat:41.05.03.07 blastulation > GO:.
+MIPS_funcat:41.05.09 gastrulation > GO:gastrulation ; GO:0007369
+MIPS_funcat:41.05.10 late embryonic development > GO:.
+MIPS_funcat:41.05.11 extraembryonal tissue development > GO:.
+MIPS_funcat:41.05.13 neurogenesis > GO:neurogenesis ; GO:0048699
+MIPS_funcat:41.05.15 myogenesis > GO:striated muscle development ; GO:0007519
+MIPS_funcat:41.05.17 osteogenesis > GO:ossification ; GO:0001503
+MIPS_funcat:41.05.19 asymmetries and axis determination > GO:axis specification ; GO:0009798
+MIPS_funcat:41.05.19.01 vegetal pole determination > GO:.
+MIPS_funcat:41.05.19.03 animal pole determination > GO:.
+MIPS_funcat:41.05.19.05 anterior-posterior axis determination > GO:anterior/posterior axis specification ; GO:0009948
+MIPS_funcat:41.05.19.07 dorso-ventral axis determination > GO:dorsal/ventral axis specification ; GO:0009950
+MIPS_funcat:41.05.19.09 medio-lateral axis determination > GO:.
+MIPS_funcat:41.05.19.11 segment specification > GO:segment specification ; GO:0007379
+MIPS_funcat:41.05.21 extremities and appendages development > GO:appendage development ; GO:0048736
+MIPS_funcat:41.05.23 sex differentiation > GO:sex differentiation ; GO:0007548
+MIPS_funcat:41.05.25 gametogenesis > GO:gametogenesis ; GO:0007276
+MIPS_funcat:42 BIOGENESIS OF CELLULAR COMPONENTS > GO:cell organization and biogenesis ; GO:0016043
+MIPS_funcat:42.01 cell wall > GO:cell wall organization and biogenesis ; GO:0007047
+MIPS_funcat:42.02 eukaryotic plasma membrane > GO:plasma membrane organization and biogenesis ; GO:0007009
+MIPS_funcat:42.02.01 eukaryotic intracellular plasma membrane > GO:.
+MIPS_funcat:42.03 cytoplasm > GO:cytoplasm organization and biogenesis ; GO:0007028
+MIPS_funcat:42.04 cytoskeleton > GO:cytoskeleton organization and biogenesis ; GO:0007010
+MIPS_funcat:42.04.03 actin cytoskeleton > GO:actin cytoskeleton organization and biogenesis ; GO:0030036
+MIPS_funcat:42.04.05 microtubule cytoskeleton > GO:microtubule cytoskeleton organization and biogenesis ; GO:0000226
+MIPS_funcat:42.04.07 intermediate filaments > GO:intermediate filament cytoskeleton organization and biogenesis ; GO:0045104
+MIPS_funcat:42.05 centrosome > GO:centrosome organization and biogenesis ; GO:0051297
+MIPS_funcat:42.06 cell junction > GO:intercellular junction assembly ; GO:0007043
+MIPS_funcat:42.06.03 cell-substrate adherens junction > GO:cell-substrate junction assembly ; GO:0007044
+MIPS_funcat:42.06.04 intercellular junction (gap junction/adherens junction) > GO:intercellular junction assembly ; GO:0007043
+MIPS_funcat:42.07 endoplasmic reticulum > GO:endoplasmic reticulum organization and biogenesis ; GO:0007029
+MIPS_funcat:42.08 Golgi > GO:Golgi organization and biogenesis ; GO:0007030
+MIPS_funcat:42.09 intracellular transport vesicles > GO:.
+MIPS_funcat:42.10 nucleus > GO:nuclear organization and biogenesis ; GO:0006997
+MIPS_funcat:42.10.03 organization of chromosome structure > GO:chromosome organization and biogenesis ; GO:0051276
+MIPS_funcat:42.10.04 centromere / kinetochore > GO:kinetochore organization and biogenesis ; GO:0051383
+MIPS_funcat:42.10.05 nuclear membrane > GO:nuclear membrane organization and biogenesis ; GO:0006998
+MIPS_funcat:42.10.06 nuclear matrix > GO:nuclear matrix organization and biogenesis ; GO:0043578
+MIPS_funcat:42.10.07 nucleolus > GO:nucleolus organization and biogenesis ; GO:0007000
+MIPS_funcat:42.10.09 nuclear speckles > GO:nuclear speck organization and biogenesis ; GO:0035063
+MIPS_funcat:42.16 mitochondrion > GO:mitochondrion organization and biogenesis ; GO:0007005
+MIPS_funcat:42.19 peroxisome > GO:peroxisome organization and biogenesis ; GO:0007031
+MIPS_funcat:42.22 endosome > GO:endosome organization and biogenesis ; GO:0007032
+MIPS_funcat:42.25 vacuole or lysosome > GO:vacuole organization and biogenesis ; GO:0007033
+MIPS_funcat:42.25 vacuole or lysosome > GO:lysosome organization and biogenesis ; GO:0007040
+MIPS_funcat:42.26 plastid > GO:plastid organization and biogenesis ; GO:0009657
+MIPS_funcat:42.26.03 chloroplast > GO:chloroplast organization and biogenesis ; GO:0009658
+MIPS_funcat:42.26.05 amyloplast > GO:amyloplast organization and biogenesis ; GO:0009660
+MIPS_funcat:42.26.07 chromoplast > GO:chromoplast organization and biogenesis ; GO:0009661
+MIPS_funcat:42.26.09 elaioplast > GO:elaioplast organization and biogenesis ; GO:0043579
+MIPS_funcat:42.26.11 etioplast > GO:etioplast organization and biogenesis ; GO:0009662
+MIPS_funcat:42.26.13 leucoplast > GO:leucoplast organization and biogenesis ; GO:0009659
+MIPS_funcat:42.27 extracellular / secretion proteins > GO:.
+MIPS_funcat:42.27.01 extracellular matrix > GO:extracellular matrix organization and biogenesis ; GO:0030198
+MIPS_funcat:42.27.03 cell membrane or cell wall attached > GO:extrinsic to membrane ; GO:0019898
+MIPS_funcat:42.27.03 cell membrane or cell wall attached > GO:cell wall ; GO:0005618
+MIPS_funcat:42.28 periplasmatic space > GO:periplasmic space organization and biogenesis ; GO:0043580
+MIPS_funcat:42.29 bud / growth tip > GO:budding cell bud growth ; GO:0007117
+MIPS_funcat:42.30 prokaryotic cytoplasmic membrane > GO:.
+MIPS_funcat:42.32 flagellum > GO:flagellum biogenesis ; GO:0009296
+MIPS_funcat:42.33 pilus/fimbria > GO:pilus biogenesis ; GO:0009297
+MIPS_funcat:42.34 prokaryotic cell envelope structures > GO:cell envelope organization and biogenesis ; GO:0043163
+MIPS_funcat:42.34.01 bacterial outer membrane (only in Gram- bacteria) > GO:outer membrane biogenesis (sensu Gram-negative Bacteria) ; GO:0043165
+MIPS_funcat:42.34.03 capsule and slime layer > GO:slime layer organization and biogenesis ; GO:0045231
+MIPS_funcat:42.34.03 capsule and slime layer > GO:capsule organization and biogenesis ; GO:0045230
+MIPS_funcat:42.34.05 S-Layer > GO:S-layer organization and biogenesis ; GO:0045232
+MIPS_funcat:42.34.07 peptidoglycan layer or other prokaryotic cell wall > GO:cell wall (sensu Bacteria) ; GO:0009274
+MIPS_funcat:42.34.09 spore or cyst coat > GO:endospore coat ; GO:0043593
+MIPS_funcat:42.35 prokaryotic intracytoplasmic membrane > GO:.
+MIPS_funcat:42.35.03 prokaryotic vesicular intracytoplasmic membrane > GO:.
+MIPS_funcat:42.35.05 prokaryotic tubular intracytoplasmic membrane > GO:.
+MIPS_funcat:42.35.07 prokaryotic thylakoid-like and thylakoid membrane > GO:.
+MIPS_funcat:42.36 prokaryotic cell inclusions > GO:.
+MIPS_funcat:42.37 prokaryotic nucleoid > GO:bacterial nucleoid ; GO:0043590
+MIPS_funcat:43 CELL TYPE DIFFERENTIATION > GO:.
+MIPS_funcat:43.01 fungal/microorganismic cell type differentiation > GO:.
+MIPS_funcat:43.01.02 prokaryotic cell type differentiation > GO:.
+MIPS_funcat:43.01.02.01 development free living cell or mycelium > GO:mycelium development ; GO:0043581
+MIPS_funcat:43.01.02.02 development of sporangia and cystophore > GO:sporangium development ; GO:0043582
+MIPS_funcat:43.01.02.03 development of heterocyste > GO:heterocyst differentiation ; GO:0043158
+MIPS_funcat:43.01.02.05 sporulation and other development of resting stage > GO:.
+MIPS_funcat:43.01.02.05.01 development of endospore > GO:sporulation (sensu Bacteria) ; GO:0030436
+MIPS_funcat:43.01.02.05.03 development of exospore, cyst, akinete or other resting cell > GO:.
+MIPS_funcat:43.01.02.07 germination from resting stage > GO:spore germination ; GO:0009847
+MIPS_funcat:43.01.02.09 development of stalked or other sessile cell > GO:.
+MIPS_funcat:43.01.02.11 development of swarmer or other mobile cell > GO:.
+MIPS_funcat:43.01.02.13 biofilm development > GO:biofilm formation ; GO:0042710
+MIPS_funcat:43.01.03 fungal and other eukaryotic cell type differentiation > GO:.
+MIPS_funcat:43.01.03.01 development of free swimming or amoeboid cell > GO:.
+MIPS_funcat:43.01.03.02 development of mycelial or yeast-like cell > GO:.
+MIPS_funcat:43.01.03.03 development of thallic, plasmodial or sporangiophore cell > GO:.
+MIPS_funcat:43.01.03.05 budding, cell polarity and filament formation > GO:.
+MIPS_funcat:43.01.03.06 hyphae formation > GO:hyphal growth ; GO:0030448
+MIPS_funcat:43.01.03.07 development of conidia > GO:conidium formation ; GO:0048315
+MIPS_funcat:43.01.03.09 development of asco- basidio- or zygospore > GO:.
+MIPS_funcat:43.01.06 protist cell differentiation > GO:.
+MIPS_funcat:43.02 plant cell type differentiation > GO:.
+MIPS_funcat:43.02.01 stem cell/meristematic cell > GO:.
+MIPS_funcat:43.02.05 epidermal cell > GO:epidermal cell differentiation ; GO:0009913
+MIPS_funcat:43.02.05.01 stomata/guard cell > GO:guard cell differentiation ; GO:0010052
+MIPS_funcat:43.02.05.02 plant hair cell (trichome e.g. cotton) > GO:trichome differentiation (sensu Magnoliophyta) ; GO:0010026
+MIPS_funcat:43.02.05.03 root hair > GO:.
+MIPS_funcat:43.02.07 storage cell > GO:.
+MIPS_funcat:43.02.09 vascular cell > GO:.
+MIPS_funcat:43.02.09.01 sieve cell (phloem) > GO:.
+MIPS_funcat:43.02.09.02 companion cell (phloem) > GO:.
+MIPS_funcat:43.02.09.03 vessel element (xylem) > GO:.
+MIPS_funcat:43.02.11 mesenchymal / parenchymal cell > GO:.
+MIPS_funcat:43.02.13 strengthening cell > GO:.
+MIPS_funcat:43.02.13.01 sclerenchyma cell(dead) > GO:.
+MIPS_funcat:43.02.13.02 collenchyma cell (living) > GO:.
+MIPS_funcat:43.02.17 gametophytic cell > GO:gametophyte development ; GO:0048229
+MIPS_funcat:43.02.17.01 male gametophyte > GO:male gametophyte development ; GO:0009555
+MIPS_funcat:43.02.17.01.01 generative pollen cell > GO:formation of generative and vegetative cell ; GO:0009564
+MIPS_funcat:43.02.17.02 female gametophyte > GO:female gametophyte development ; GO:0009553
+MIPS_funcat:43.02.17.02.01 oocyte > GO:female gametophyte egg cell differentiation ; GO:0009560
+MIPS_funcat:43.02.17.02.03 central cell (2n) > GO:female gametophyte central cell differentiation ; GO:0009559
+MIPS_funcat:43.02.19 secretory cell > GO:.
+MIPS_funcat:43.03 animal cell type differentiation > GO:.
+MIPS_funcat:43.03.01 stem cell (toti- or pluripotent) > GO:.
+MIPS_funcat:43.03.02 germ cell > GO:germ cell development ; GO:0007281
+MIPS_funcat:43.03.03 pigment cell > GO:pigment cell differentiation ; GO:0050931
+MIPS_funcat:43.03.07 oxygen transporting cell (erythrocyte, etc.) > GO:erythrocyte differentiation ; GO:0030218
+MIPS_funcat:43.03.09 immune cell > GO:.
+MIPS_funcat:43.03.09.01 T-cell > GO:T cell differentiation ; GO:0030217
+MIPS_funcat:43.03.09.03 B-cell > GO:B cell differentiation ; GO:0030183
+MIPS_funcat:43.03.09.05 macrophage > GO:macrophage differentiation ; GO:0030225
+MIPS_funcat:43.03.09.07 dendritic cell > GO:dendritic cell differentiation ; GO:0043011
+MIPS_funcat:43.03.11 glia cell > GO:glial cell differentiation ; GO:0010001
+MIPS_funcat:43.03.13 neuron > GO:neuron differentiation ; GO:0030182
+MIPS_funcat:43.03.15 secretory cell (mastcell, endocrine cell, etc.) > GO:.
+MIPS_funcat:43.03.17 structural cell of tissue (fibroblast, osteoblast, etc.) > GO:.
+MIPS_funcat:43.03.18 storage cell (lipocyte, etc.) > GO:.
+MIPS_funcat:43.03.19 extracellular matrix forming cell (fibrocyte, chondrocyte, osteocyte) > GO:.
+MIPS_funcat:43.03.21 extracellular matrix degrading cell (chondroclast, osteoclast) > GO:.
+MIPS_funcat:43.03.23 sensory cell > GO:.
+MIPS_funcat:45 TISSUE DIFFERENTIATION > GO:.
+MIPS_funcat:45.01 fungal/microorganismic tissue > GO:.
+MIPS_funcat:45.01.01 reproductive tissue > GO:.
+MIPS_funcat:45.01.10 thallic tissue > GO:.
+MIPS_funcat:45.01.11 plectenchymatic tissue and tissue of primitive thalli (e.g. higher fungi) > GO:.
+MIPS_funcat:45.02 plant tissue > GO:.
+MIPS_funcat:45.02.01 meristematic tissue > GO:meristem development ; GO:0048507
+MIPS_funcat:45.02.01.01 shoot apical meristem > GO:primary shoot apical meristem specification ; GO:0010072
+MIPS_funcat:45.02.01.02 root meristem > GO:root meristem specification ; GO:0010071
+MIPS_funcat:45.02.05 parenchyma > GO:.
+MIPS_funcat:45.02.09 dermal tissue > GO:.
+MIPS_funcat:45.02.09.01 epidermis > GO:.
+MIPS_funcat:45.02.09.03 rhizodermis > GO:.
+MIPS_funcat:45.02.09.05 secondary dermal tissue (cork, phellem) > GO:.
+MIPS_funcat:45.02.09.07 endodermis (with casparian band) > GO:.
+MIPS_funcat:45.02.13 vascular tissue > GO:vascular tissue development (sensu Tracheophyta) ; GO:0010087
+MIPS_funcat:45.02.15 thallus > GO:.
+MIPS_funcat:45.03 animal tissue > GO:.
+MIPS_funcat:45.03.03 proliferative tissue (bone marrow, epidermis, etc.) > GO:.
+MIPS_funcat:45.03.05 connective tissue > GO:.
+MIPS_funcat:45.03.05.01 loose connective tissue / soft tissue > GO:.
+MIPS_funcat:45.03.05.03 fibrous connective tissue (tendons, ligaments) > GO:.
+MIPS_funcat:45.03.05.05 cartilage > GO:cartilage development ; GO:0051216
+MIPS_funcat:45.03.05.07 bone > GO:ossification ; GO:0001503
+MIPS_funcat:45.03.05.09 whole blood and lymph > GO:vasculature development ; GO:0001944
+MIPS_funcat:45.03.05.11 adipose tissue > GO:.
+MIPS_funcat:45.03.09 epithelium > GO:morphogenesis of an epithelium ; GO:0002009
+MIPS_funcat:45.03.12 muscle > GO:muscle development ; GO:0007517
+MIPS_funcat:45.03.12.01 striated muscle > GO:striated muscle development ; GO:0007519
+MIPS_funcat:45.03.12.02 smooth muscle > GO:smooth muscle development ; GO:0048745
+MIPS_funcat:45.03.12.03 heart muscle > GO:cardiac muscle development ; GO:0048738
+MIPS_funcat:45.03.15 reproductive tissue > GO:reproductive structure development ; GO:0048608
+MIPS_funcat:45.03.17 nervous tissue > GO:nervous system development ; GO:0007399
+MIPS_funcat:45.03.19 glandular tissue > GO:gland development ; GO:0048732
+MIPS_funcat:47 ORGAN DIFFERENTIATION > GO:.
+MIPS_funcat:47.01 fungal organ > GO:.
+MIPS_funcat:47.01.01 hyphe > GO:hyphal growth ; GO:0030448
+MIPS_funcat:47.01.03 reproductive organ > GO:.
+MIPS_funcat:47.01.03.01 fruit body > GO:fruiting body formation (sensu Fungi) ; GO:0030584
+MIPS_funcat:47.02 plant organ > GO:.
+MIPS_funcat:47.02.01 shoot > GO:shoot development ; GO:0048367
+MIPS_funcat:47.02.01.01 stem > GO:.
+MIPS_funcat:47.02.01.02 leaf > GO:leaf development ; GO:0048366
+MIPS_funcat:47.02.01.03 flower > GO:flower development ; GO:0009908
+MIPS_funcat:47.02.01.03.01 sepal > GO:sepal development ; GO:0048442
+MIPS_funcat:47.02.01.03.02 petal > GO:petal development ; GO:0048441
+MIPS_funcat:47.02.01.03.03 anther > GO:anther development ; GO:0048653
+MIPS_funcat:47.02.01.03.04 carpel > GO:carpel development ; GO:0048440
+MIPS_funcat:47.02.01.04 fruit > GO:fruit development ; GO:0010154
+MIPS_funcat:47.02.01.05 seed > GO:seed development ; GO:0048316
+MIPS_funcat:47.02.01.05.01 embryo > GO:embryonic development (sensu Magnoliophyta) ; GO:0009793
+MIPS_funcat:47.02.01.05.02 endosperm > GO:endosperm development ; GO:0009960
+MIPS_funcat:47.02.01.06 rhizome (potato tuber/onion) > GO:.
+MIPS_funcat:47.02.02 root > GO:root development ; GO:0048364
+MIPS_funcat:47.03 animal organ > GO:.
+MIPS_funcat:47.03.01 nervous system > GO:nervous system development ; GO:0007399
+MIPS_funcat:47.03.01.01 central nervous system > GO:central nervous system development ; GO:0007417
+MIPS_funcat:47.03.01.01.01 brain > GO:brain development ; GO:0007420
+MIPS_funcat:47.03.01.01.01.01 cerebrum > GO:.
+MIPS_funcat:47.03.01.01.01.02 cerebellum > GO:.
+MIPS_funcat:47.03.01.02 peripheral nervous system > GO:peripheral nervous system development ; GO:0007422
+MIPS_funcat:47.03.02 sensory organs > GO:.
+MIPS_funcat:47.03.02.01 ear > GO:ear development ; GO:0043583
+MIPS_funcat:47.03.02.02 eye > GO:eye development ; GO:0001654
+MIPS_funcat:47.03.02.03 nose > GO:nose development ; GO:0043584
+MIPS_funcat:47.03.02.04 tongue > GO:tongue development ; GO:0043586
+MIPS_funcat:47.03.02.05 skin > GO:skin development ; GO:0043588
+MIPS_funcat:47.03.03 vascular organs > GO:.
+MIPS_funcat:47.03.03.01 heart > GO:heart development ; GO:0007507
+MIPS_funcat:47.03.03.02 vessels > GO:vasculature development ; GO:0001944
+MIPS_funcat:47.03.05 immune system organs > GO:.
+MIPS_funcat:47.03.05.01 thymus > GO:thymus development ; GO:0048538
+MIPS_funcat:47.03.05.02 spleen > GO:spleen development ; GO:0048536
+MIPS_funcat:47.03.05.03 lymphatic system > GO:lymph vessel development ; GO:0001945
+MIPS_funcat:47.03.07 excretory apparatus > GO:.
+MIPS_funcat:47.03.07.01 kidney > GO:kidney development ; GO:0001822
+MIPS_funcat:47.03.07.03 malphigi > GO:.
+MIPS_funcat:47.03.07.05 pronephros (sensu Invertebrata) > GO:.
+MIPS_funcat:47.03.07.07 metanephros (sensu Invertebrata) > GO:.
+MIPS_funcat:47.03.09 respiratory system > GO:.
+MIPS_funcat:47.03.09.01 lung > GO:lung development ; GO:0030324
+MIPS_funcat:47.03.09.03 gill > GO:.
+MIPS_funcat:47.03.09.05 trachea (sensu Insecta) > GO:tracheal system development (sensu Insecta) ; GO:0007424
+MIPS_funcat:47.03.11 gastro-intestinal system > GO:.
+MIPS_funcat:47.03.11.01 teeth > GO:odontogenesis ; GO:0042476
+MIPS_funcat:47.03.11.02 oesophagus > GO:.
+MIPS_funcat:47.03.11.03 stomach > GO:.
+MIPS_funcat:47.03.11.05 intestine > GO:gut development ; GO:0048565
+MIPS_funcat:47.03.11.07 liver > GO:liver development ; GO:0001889
+MIPS_funcat:47.03.11.09 pancreas > GO:pancreas development ; GO:0031016
+MIPS_funcat:47.03.11.11 gastro-intestinal system accessory organs > GO:.
+MIPS_funcat:47.03.13 dermis/cuticula > GO:.
+MIPS_funcat:47.03.13.05 hair / feather follicule > GO:hair follicle development ; GO:0001942
+MIPS_funcat:47.03.15 reproductive apparatus > GO:.
+MIPS_funcat:47.03.15.01 female gonad (ovary) > GO:female gonad development ; GO:0008585
+MIPS_funcat:47.03.15.02 oviduct > GO:.
+MIPS_funcat:47.03.15.04 uterus > GO:.
+MIPS_funcat:47.03.15.04.03 cervix > GO:.
+MIPS_funcat:47.03.15.05 placenta > GO:placenta development ; GO:0001890
+MIPS_funcat:47.03.15.07 male gonad (testis) > GO:male gonad development ; GO:0008584
+MIPS_funcat:47.03.15.09 prostate > GO:prostate gland development ; GO:0030850
+MIPS_funcat:47.03.17 skeletal system > GO:skeletal development ; GO:0001501
+MIPS_funcat:47.03.19 non-organ cavities and their linings > GO:.
+MIPS_funcat:47.03.21 secretory organs (glands) > GO:gland development ; GO:0048732
+MIPS_funcat:47.03.21.01 mammary gland > GO:mammary gland development ; GO:0030879
+MIPS_funcat:47.03.21.02 salivary gland > GO:salivary gland development ; GO:0007431
+MIPS_funcat:47.03.21.03 endocrine organ > GO:.
+MIPS_funcat:47.03.21.03.01 adrenal gland > GO:adrenal gland development ; GO:0030325
+MIPS_funcat:47.03.21.03.02 pancreatic islet > GO:.
+MIPS_funcat:47.03.21.03.03 parathyroid > GO:.
+MIPS_funcat:47.03.21.03.04 pineal gland > GO:.
+MIPS_funcat:47.03.21.03.05 pituitary gland > GO:.
+MIPS_funcat:47.03.21.03.06 thyroid gland > GO:thyroid gland development ; GO:0030878
+MIPS_funcat:47.03.21.05 sweat (perspiratory) gland > GO:.
+MIPS_funcat:70 SUBCELLULAR LOCALIZATION > GO:.
+MIPS_funcat:70.01 cell wall > GO:cell wall ; GO:0005618
+MIPS_funcat:70.02 eukaryotic plasma membrane / membrane attached > GO:.
+MIPS_funcat:70.02.01 eukaryotic intracellular plasma membrane > GO:.
+MIPS_funcat:70.03 cytoplasm > GO:cytoplasm ; GO:0005737
+MIPS_funcat:70.04 cytoskeleton > GO:cytoskeleton ; GO:0005856
+MIPS_funcat:70.04.03 actin cytoskeleton > GO:actin cytoskeleton ; GO:0015629
+MIPS_funcat:70.04.05 microtubule cytoskeleton > GO:microtubule cytoskeleton ; GO:0015630
+MIPS_funcat:70.04.07 intermediate filaments > GO:intermediate filament cytoskeleton ; GO:0045111
+MIPS_funcat:70.05 centrosome > GO:centrosome ; GO:0005813
+MIPS_funcat:70.06 cell junction > GO:cell junction ; GO:0030054
+MIPS_funcat:70.06.03 cell-substrate adherens junction > GO:cell-substrate adherens junction ; GO:0005924
+MIPS_funcat:70.06.04 intercellular junction (gap junction/adherens junction) > GO:intercellular junction ; GO:0005911
+MIPS_funcat:70.07 endoplasmic reticulum > GO:endoplasmic reticulum ; GO:0005783
+MIPS_funcat:70.08 Golgi > GO:Golgi apparatus ; GO:0005794
+MIPS_funcat:70.09 intracellular transport vesicles > GO:transport vesicle ; GO:0030133
+MIPS_funcat:70.10 nucleus > GO:nucleus ; GO:0005634
+MIPS_funcat:70.10.03 chromosome > GO:chromosome ; GO:0005694
+MIPS_funcat:70.10.04 centromere / kinetochore > GO:chromosome, pericentric region ; GO:0000775
+MIPS_funcat:70.10.05 nuclear membrane > GO:nuclear envelope ; GO:0005635
+MIPS_funcat:70.10.06 nuclear matrix > GO:nuclear matrix ; GO:0016363
+MIPS_funcat:70.10.07 nucleolus > GO:nucleolus ; GO:0005730
+MIPS_funcat:70.10.09 nuclear speckles > GO:nuclear speck ; GO:0016607
+MIPS_funcat:70.16 mitochondrion > GO:mitochondrion ; GO:0005739
+MIPS_funcat:70.16.01 mitochondrial outer membrane > GO:mitochondrial outer membrane ; GO:0005741
+MIPS_funcat:70.16.03 mitochondrial intermembrane space > GO:mitochondrial intermembrane space ; GO:0005758
+MIPS_funcat:70.16.05 mitochondrial inner membrane > GO:mitochondrial inner membrane ; GO:0005743
+MIPS_funcat:70.16.07 mitochondrial matrix > GO:mitochondrial matrix ; GO:0005759
+MIPS_funcat:70.19 peroxisome > GO:peroxisome ; GO:0005777
+MIPS_funcat:70.22 endosome > GO:endosome ; GO:0005768
+MIPS_funcat:70.25 vacuole or lysosome > GO:lysosome ; GO:0005764
+MIPS_funcat:70.25 vacuole or lysosome > GO:vacuole ; GO:0005773
+MIPS_funcat:70.26 plastid > GO:plastid ; GO:0009536
+MIPS_funcat:70.26.03 chloroplast > GO:chloroplast ; GO:0009507
+MIPS_funcat:70.26.05 amyloplast > GO:amyloplast ; GO:0009501
+MIPS_funcat:70.26.07 chromoplast > GO:chromoplast ; GO:0009509
+MIPS_funcat:70.26.09 elaioplast > GO:elaioplast ; GO:0009545
+MIPS_funcat:70.26.11 etioplast > GO:etioplast ; GO:0009513
+MIPS_funcat:70.26.13 leucoplast > GO:leucoplast ; GO:0009516
+MIPS_funcat:70.27 extracellular / secretion proteins > GO:extracellular region ; GO:0005576
+MIPS_funcat:70.27.01 extracellular matrix component > GO:extracellular matrix ; GO:0031012
+MIPS_funcat:70.27.03 cell membrane or cell wall attached > GO:.
+MIPS_funcat:70.28 periplasmatic space > GO:periplasmic space ; GO:0042597
+MIPS_funcat:70.29 bud / growth tip > GO:bud ; GO:0005933
+MIPS_funcat:70.30 prokaryotic cytoplasmic membrane > GO:.
+MIPS_funcat:70.32 flagellum > GO:flagellum ; GO:0019861
+MIPS_funcat:70.33 pilus/fimbria > GO:fimbrium ; GO:0009289
+MIPS_funcat:70.34 prokaryotic cell envelope component > GO:cell envelope ; GO:0030313
+MIPS_funcat:70.34.01 bacterial outer membrane (only present in Gram- bacteria) > GO:outer membrane (sensu Gram-negative Bacteria) ; GO:0009279
+MIPS_funcat:70.34.03 capsule and slime layer > GO:capsule (sensu Bacteria) ; GO:0030113
+MIPS_funcat:70.34.03 capsule and slime layer > GO:slime layer ; GO:0030114
+MIPS_funcat:70.34.05 S-Layer > GO:S-layer ; GO:0030115
+MIPS_funcat:70.34.07 peptidoglycan layer or other prokaryotic cell wall > GO:cell wall (sensu Bacteria) ; GO:0009274
+MIPS_funcat:70.34.09 spore or cyst coat > GO:endospore coat ; GO:0043593
+MIPS_funcat:70.35 prokaryotic intracytoplasmic membrane > GO:.
+MIPS_funcat:70.35.03 prokaryotic vesicular intracytoplasmic membrane > GO:.
+MIPS_funcat:70.35.05 prokaryotic tubular intracytoplasmic membrane > GO:.
+MIPS_funcat:70.35.07 prokaryotic thylakoid-like and thylakoid membrane > GO:.
+MIPS_funcat:70.36 prokaryotic cell inclusions > GO:.
+MIPS_funcat:70.36.03 carboxysomes > GO:carboxysome ; GO:0031470
+MIPS_funcat:70.36.05 gas vesicles > GO:gas vesicle ; GO:0031411
+MIPS_funcat:70.36.07 sulfur globules or magnetosomes > GO:.
+MIPS_funcat:70.36.09 bacteriocins, rhapidosomes and protein crystals > GO:.
+MIPS_funcat:70.37 prokaryotic nucleoid > GO:bacterial nucleoid ; GO:0043590
+MIPS_funcat:73 CELL TYPE LOCALIZATION > GO:.
+MIPS_funcat:73.01 fungal / microorganismic cell type > GO:.
+MIPS_funcat:73.01.02 prokaryotic cell type > GO:.
+MIPS_funcat:73.01.02.01 free living cell or mycelium > GO:.
+MIPS_funcat:73.01.02.02 sporangial or cystophor cell > GO:.
+MIPS_funcat:73.01.02.03 heterocyste > GO:.
+MIPS_funcat:73.01.02.05 spores and other resting cell types > GO:.
+MIPS_funcat:73.01.02.05.01 endospore > GO:.
+MIPS_funcat:73.01.02.05.03 exospore, cyst, akinete or other resting cells > GO:.
+MIPS_funcat:73.01.02.11 swarmer and other mobile cells > GO:.
+MIPS_funcat:73.01.03 fungal and other eukaryotic cell types > GO:.
+MIPS_funcat:73.01.03.01 free swimming or amoeboid cell > GO:.
+MIPS_funcat:73.01.03.02 mycelial or yeast-like cell > GO:.
+MIPS_funcat:73.01.03.03 thallic, plasmodial or sporangiophore cell > GO:.
+MIPS_funcat:73.01.03.07 conidia > GO:.
+MIPS_funcat:73.01.03.09 asco- basidio- or zygospore > GO:.
+MIPS_funcat:73.02 plant cell type > GO:.
+MIPS_funcat:73.02.01 stem cell/meristematic cell > GO:.
+MIPS_funcat:73.02.05 specialized epidermal cell > GO:.
+MIPS_funcat:73.02.05.01 stomata/guard cell > GO:.
+MIPS_funcat:73.02.05.02 plant hair cell (trichome e.g. cotton) > GO:.
+MIPS_funcat:73.02.05.03 root hair > GO:.
+MIPS_funcat:73.02.07 storage cell > GO:.
+MIPS_funcat:73.02.09 vascular cell > GO:.
+MIPS_funcat:73.02.09.01 sieve cell (phloem) > GO:.
+MIPS_funcat:73.02.09.02 companion cell (phloem) > GO:.
+MIPS_funcat:73.02.09.03 vessel element (xylem) > GO:.
+MIPS_funcat:73.02.13 strengthening cell  > GO:.
+MIPS_funcat:73.02.13.01 sclerenchyma cell(dead) > GO:.
+MIPS_funcat:73.02.13.02 collenchyma cell (living) > GO:.
+MIPS_funcat:73.02.17 gametophytic cell  > GO:.
+MIPS_funcat:73.02.17.01 male gametophyte  > GO:.
+MIPS_funcat:73.02.17.01.01 generative pollen cell > GO:.
+MIPS_funcat:73.02.17.02 female gametophyte > GO:.
+MIPS_funcat:73.02.17.02.01 oocyte > GO:.
+MIPS_funcat:73.02.17.02.03 central cell (2n) > GO:.
+MIPS_funcat:73.02.19 secretory cell > GO:.
+MIPS_funcat:73.03 animal cell type > GO:.
+MIPS_funcat:73.03.01 stem cell (toti- or pluripotent) > GO:.
+MIPS_funcat:73.03.02 germ cell > GO:.
+MIPS_funcat:73.03.03 pigment cell > GO:.
+MIPS_funcat:73.03.07 oxygen transporting cell (erythrocyte, etc.) > GO:.
+MIPS_funcat:73.03.09 immune cell > GO:.
+MIPS_funcat:73.03.09.01 T-cell > GO:.
+MIPS_funcat:73.03.09.03 B-cell > GO:.
+MIPS_funcat:73.03.09.05 macrophage > GO:.
+MIPS_funcat:73.03.09.07 dendritic cell > GO:.
+MIPS_funcat:73.03.11 glia cell > GO:.
+MIPS_funcat:73.03.13 neuron > GO:.
+MIPS_funcat:73.03.15 secretory cell (mastcell, endocrine cell, etc.) > GO:.
+MIPS_funcat:73.03.17 structural cell of tissue (fibroblast, osteoblast, etc.) > GO:.
+MIPS_funcat:73.03.18 storage cell (lipocyte, etc.) > GO:.
+MIPS_funcat:73.03.19 extracellular matrix forming cell (fibrocyte, chondrocyte, osteocyte) > GO:.
+MIPS_funcat:73.03.21 extracellular matrix degrading cell (chondroclast, osteoclast) > GO:.
+MIPS_funcat:73.03.23 sensory cell > GO:.
+MIPS_funcat:75 TISSUE LOCALIZATION > GO:.
+MIPS_funcat:75.01 fungal/microorganismic tissue > GO:.
+MIPS_funcat:75.01.01 reproductive tissue > GO:.
+MIPS_funcat:75.01.10 thallic tissue > GO:.
+MIPS_funcat:75.01.11 plectenchymatic tissue and tissue of primitive thalli (e.g. higher fungi) > GO:.
+MIPS_funcat:75.02 plant tissue > GO:.
+MIPS_funcat:75.02.01 meristematic tissue > GO:.
+MIPS_funcat:75.02.01.01 shoot apical meristem > GO:.
+MIPS_funcat:75.02.01.02 root meristem > GO:.
+MIPS_funcat:75.02.05 parenchyma > GO:.
+MIPS_funcat:75.02.09 dermal tissue > GO:.
+MIPS_funcat:75.02.09.01 epidermis > GO:.
+MIPS_funcat:75.02.09.03 rhizodermis > GO:.
+MIPS_funcat:75.02.09.05 secondary dermal tissue (cork, phellem) > GO:.
+MIPS_funcat:75.02.09.07 endodermis (with casparian band) > GO:.
+MIPS_funcat:75.02.13 vascular tissue > GO:.
+MIPS_funcat:75.02.15 thallus > GO:.
+MIPS_funcat:75.03 animal tissue > GO:.
+MIPS_funcat:75.03.03 proliferative tissue > GO:.
+MIPS_funcat:75.03.03.01 bone marrow > GO:.
+MIPS_funcat:75.03.04 adipose tissue > GO:.
+MIPS_funcat:75.03.05 connective tissue > GO:.
+MIPS_funcat:75.03.05.01 loose connective tissue / soft tissue > GO:.
+MIPS_funcat:75.03.05.03 fibrous connective tissue (tendons, ligaments) > GO:.
+MIPS_funcat:75.03.06 cartilage > GO:.
+MIPS_funcat:75.03.07 bone > GO:.
+MIPS_funcat:75.03.08 whole blood and lymph > GO:.
+MIPS_funcat:75.03.09 epithelium > GO:.
+MIPS_funcat:75.03.12 muscle > GO:.
+MIPS_funcat:75.03.12.01 striated muscle > GO:.
+MIPS_funcat:75.03.12.02 smooth muscle > GO:.
+MIPS_funcat:75.03.12.03 heart muscle > GO:.
+MIPS_funcat:75.03.15 reproductive tissue > GO:.
+MIPS_funcat:75.03.17 nervous tissue > GO:.
+MIPS_funcat:75.03.19 glandular tissue > GO:.
+MIPS_funcat:77 ORGAN LOCALIZATION > GO:.
+MIPS_funcat:77.01 fungal organ > GO:.
+MIPS_funcat:77.01.01 hyphe > GO:.
+MIPS_funcat:77.01.03 reproductive organ > GO:.
+MIPS_funcat:77.01.03.01 fruit body > GO:.
+MIPS_funcat:77.02 plant organ > GO:.
+MIPS_funcat:77.02.01 shoot > GO:.
+MIPS_funcat:77.02.01.01 stem > GO:.
+MIPS_funcat:77.02.01.02 leaf > GO:.
+MIPS_funcat:77.02.01.03 flower > GO:.
+MIPS_funcat:77.02.01.03.01 sepal > GO:.
+MIPS_funcat:77.02.01.03.02 petal > GO:.
+MIPS_funcat:77.02.01.03.03 anther > GO:.
+MIPS_funcat:77.02.01.03.04 carpel > GO:.
+MIPS_funcat:77.02.01.04 fruit > GO:.
+MIPS_funcat:77.02.01.05 seed > GO:.
+MIPS_funcat:77.02.01.05.01 embryo > GO:.
+MIPS_funcat:77.02.01.05.02 endosperm > GO:.
+MIPS_funcat:77.02.01.06 rhizome (potato tuber/onion) > GO:.
+MIPS_funcat:77.02.02 root > GO:.
+MIPS_funcat:77.03 animal organ > GO:.
+MIPS_funcat:77.03.01 nervous system > GO:.
+MIPS_funcat:77.03.01.01 central nervous system > GO:.
+MIPS_funcat:77.03.01.01.01 brain > GO:.
+MIPS_funcat:77.03.01.01.01.01 cerebrum > GO:.
+MIPS_funcat:77.03.01.01.01.02 cerebellum > GO:.
+MIPS_funcat:77.03.01.02 peripheral nervous system > GO:.
+MIPS_funcat:77.03.02 sensory organs > GO:.
+MIPS_funcat:77.03.02.01 ear > GO:.
+MIPS_funcat:77.03.02.02 eye > GO:.
+MIPS_funcat:77.03.02.03 nose > GO:.
+MIPS_funcat:77.03.02.04 tongue > GO:.
+MIPS_funcat:77.03.02.05 skin > GO:.
+MIPS_funcat:77.03.03 vascular organs > GO:.
+MIPS_funcat:77.03.03.01 heart > GO:.
+MIPS_funcat:77.03.03.02 vessels > GO:.
+MIPS_funcat:77.03.05 immune system organs > GO:.
+MIPS_funcat:77.03.05.01 thymus > GO:.
+MIPS_funcat:77.03.05.02 spleen > GO:.
+MIPS_funcat:77.03.05.03 lymphatic system > GO:.
+MIPS_funcat:77.03.07 excretory apparatus > GO:.
+MIPS_funcat:77.03.07.01 kidney > GO:.
+MIPS_funcat:77.03.07.03 malphigi > GO:.
+MIPS_funcat:77.03.07.05 pronephros (sensu Invertebrata) > GO:.
+MIPS_funcat:77.03.07.07 metanephros (sensu Invertebrata) > GO:.
+MIPS_funcat:77.03.09 respiratory system > GO:.
+MIPS_funcat:77.03.09.01 lung > GO:.
+MIPS_funcat:77.03.09.03 gill > GO:.
+MIPS_funcat:77.03.09.05 trachea (sensu Insecta) > GO:.
+MIPS_funcat:77.03.11 gastro-intestinal system > GO:.
+MIPS_funcat:77.03.11.01 teeth > GO:.
+MIPS_funcat:77.03.11.02 oesophagus > GO:.
+MIPS_funcat:77.03.11.03 stomach > GO:.
+MIPS_funcat:77.03.11.05 intestine > GO:.
+MIPS_funcat:77.03.11.07 liver > GO:.
+MIPS_funcat:77.03.11.09 pancreas > GO:.
+MIPS_funcat:77.03.11.11 gastro-intestinal system accessory organs > GO:.
+MIPS_funcat:77.03.13 dermis/cuticula > GO:.
+MIPS_funcat:77.03.13.05 hair / feather follicule > GO:.
+MIPS_funcat:77.03.15 reproductive apparatus > GO:.
+MIPS_funcat:77.03.15.01 female gonad (ovary) > GO:.
+MIPS_funcat:77.03.15.02 oviduct > GO:.
+MIPS_funcat:77.03.15.04 uterus > GO:.
+MIPS_funcat:77.03.15.04.03 cervix > GO:.
+MIPS_funcat:77.03.15.05 placenta > GO:.
+MIPS_funcat:77.03.15.07 male gonad (testis) > GO:.
+MIPS_funcat:77.03.15.09 prostate > GO:.
+MIPS_funcat:77.03.17 skeletal system > GO:.
+MIPS_funcat:77.03.19 non organ cavities and their linings > GO:.
+MIPS_funcat:77.03.21 secretory organs (glands) > GO:.
+MIPS_funcat:77.03.21.01 mammary gland > GO:.
+MIPS_funcat:77.03.21.02 salivary gland > GO:.
+MIPS_funcat:77.03.21.03 endocrine organ > GO:.
+MIPS_funcat:77.03.21.03.01 adrenal gland > GO:.
+MIPS_funcat:77.03.21.03.02 pancreatic islet > GO:.
+MIPS_funcat:77.03.21.03.03 parathyroid > GO:.
+MIPS_funcat:77.03.21.03.04 pineal gland > GO:.
+MIPS_funcat:77.03.21.03.05 pituitary gland > GO:.
+MIPS_funcat:77.03.21.03.06 thyroid gland > GO:.
+MIPS_funcat:77.03.21.05 sweat (perspiratory) gland > GO:.
+MIPS_funcat:78 ubiquitous expression > GO:.
+MIPS_funcat:98 CLASSIFICATION NOT YET CLEAR-CUT > GO:.
+MIPS_funcat:99 UNCLASSIFIED PROTEINS > GO:.

@@ -1,4 +1,4 @@
-!version date: 2012/09/29 08:31:44
+!version date: 2012/10/06 08:38:55
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -2092,8 +2092,6 @@ Pfam:PF01105 EMP24_GP25L > GO:integral to membrane ; GO:0016021
 Pfam:PF01106 NifU > GO:iron ion binding ; GO:0005506
 Pfam:PF01106 NifU > GO:iron-sulfur cluster binding ; GO:0051536
 Pfam:PF01106 NifU > GO:iron-sulfur cluster assembly ; GO:0016226
-Pfam:PF01107 MP > GO:nucleic acid binding ; GO:0003676
-Pfam:PF01107 MP > GO:transport ; GO:0006810
 Pfam:PF01109 GM_CSF > GO:granulocyte macrophage colony-stimulating factor receptor binding ; GO:0005129
 Pfam:PF01109 GM_CSF > GO:growth factor activity ; GO:0008083
 Pfam:PF01109 GM_CSF > GO:immune response ; GO:0006955
@@ -2213,6 +2211,7 @@ Pfam:PF01175 Urocanase > GO:urocanate hydratase activity ; GO:0016153
 Pfam:PF01176 eIF-1a > GO:RNA binding ; GO:0003723
 Pfam:PF01176 eIF-1a > GO:translation initiation factor activity ; GO:0003743
 Pfam:PF01176 eIF-1a > GO:translational initiation ; GO:0006413
+Pfam:PF01177 Asp_Glu_race > GO:racemase activity, acting on amino acids and derivatives ; GO:0036361
 Pfam:PF01177 Asp_Glu_race > GO:nitrogen compound metabolic process ; GO:0006807
 Pfam:PF01179 Cu_amine_oxid > GO:copper ion binding ; GO:0005507
 Pfam:PF01179 Cu_amine_oxid > GO:primary amine oxidase activity ; GO:0008131
@@ -5865,6 +5864,8 @@ Pfam:PF03996 Hema_esterase > GO:viral entry into host cell via membrane fusion w
 Pfam:PF03996 Hema_esterase > GO:viral envelope ; GO:0019031
 Pfam:PF03998 Utp11 > GO:rRNA processing ; GO:0006364
 Pfam:PF03998 Utp11 > GO:small-subunit processome ; GO:0032040
+Pfam:PF03999 MAP65_ASE1 > GO:microtubule binding ; GO:0008017
+Pfam:PF03999 MAP65_ASE1 > GO:cytokinesis ; GO:0000910
 Pfam:PF04023 FeoA > GO:transition metal ion binding ; GO:0046914
 Pfam:PF04026 SpoVG > GO:sporulation resulting in formation of a cellular spore ; GO:0030435
 Pfam:PF04029 2-ph_phosp > GO:magnesium ion binding ; GO:0000287
@@ -6165,6 +6166,7 @@ Pfam:PF04364 DNA_pol3_chi > GO:DNA-directed DNA polymerase activity ; GO:0003887
 Pfam:PF04364 DNA_pol3_chi > GO:DNA replication ; GO:0006260
 Pfam:PF04369 Lactococcin > GO:defense response to bacterium ; GO:0042742
 Pfam:PF04369 Lactococcin > GO:extracellular region ; GO:0005576
+Pfam:PF04371 PAD_porph > GO:protein-arginine deiminase activity ; GO:0004668
 Pfam:PF04371 PAD_porph > GO:putrescine biosynthetic process ; GO:0009446
 Pfam:PF04376 ATE_N > GO:arginyltransferase activity ; GO:0004057
 Pfam:PF04376 ATE_N > GO:protein arginylation ; GO:0016598
@@ -7264,6 +7266,7 @@ Pfam:PF05547 Peptidase_M6 > GO:peptidase activity ; GO:0008233
 Pfam:PF05547 Peptidase_M6 > GO:proteolysis ; GO:0006508
 Pfam:PF05550 Peptidase_C53 > GO:viral reproduction ; GO:0016032
 Pfam:PF05550 Peptidase_C53 > GO:viral protein processing ; GO:0019082
+Pfam:PF05563 SpvD > GO:pathogenesis ; GO:0009405
 Pfam:PF05577 Peptidase_S28 > GO:serine-type peptidase activity ; GO:0008236
 Pfam:PF05577 Peptidase_S28 > GO:proteolysis ; GO:0006508
 Pfam:PF05578 Peptidase_S31 > GO:serine-type endopeptidase activity ; GO:0004252
@@ -7313,6 +7316,7 @@ Pfam:PF05680 ATP-synt_E > GO:ATP synthesis coupled proton transport ; GO:0015986
 Pfam:PF05680 ATP-synt_E > GO:mitochondrial proton-transporting ATP synthase complex, coupling factor F(o) ; GO:0000276
 Pfam:PF05681 Fumerase > GO:lyase activity ; GO:0016829
 Pfam:PF05683 Fumerase_C > GO:hydro-lyase activity ; GO:0016836
+Pfam:PF05690 ThiG > GO:2-iminoacetate synthase activity ; GO:0036355
 Pfam:PF05690 ThiG > GO:thiamine biosynthetic process ; GO:0009228
 Pfam:PF05693 Glycogen_syn > GO:glycogen (starch) synthase activity ; GO:0004373
 Pfam:PF05693 Glycogen_syn > GO:glycogen biosynthetic process ; GO:0005978
@@ -8159,7 +8163,7 @@ Pfam:PF06905 FAIM1 > GO:negative regulation of apoptotic process ; GO:0043066
 Pfam:PF06910 MEA1 > GO:spermatogenesis ; GO:0007283
 Pfam:PF06917 Pectate_lyase_2 > GO:carbon-oxygen lyase activity, acting on polysaccharides ; GO:0016837
 Pfam:PF06917 Pectate_lyase_2 > GO:pectin catabolic process ; GO:0045490
-Pfam:PF06917 Pectate_lyase_2 > GO:cytoplasm ; GO:0005737
+Pfam:PF06917 Pectate_lyase_2 > GO:periplasmic space ; GO:0042597
 Pfam:PF06925 MGDG_synth > GO:transferase activity, transferring hexosyl groups ; GO:0016758
 Pfam:PF06925 MGDG_synth > GO:glycolipid biosynthetic process ; GO:0009247
 Pfam:PF06929 Rotavirus_VP3 > GO:GTP binding ; GO:0005525
@@ -9425,6 +9429,7 @@ Pfam:PF08943 CsiD > GO:iron ion binding ; GO:0005506
 Pfam:PF08964 DUF1881 > GO:cell-cell adhesion ; GO:0016337
 Pfam:PF08964 DUF1881 > GO:membrane ; GO:0016020
 Pfam:PF08971 GlgS > GO:glycogen biosynthetic process ; GO:0005978
+Pfam:PF08988 DUF1895 > GO:pathogenesis ; GO:0009405
 Pfam:PF08990 Docking > GO:transferase activity ; GO:0016740
 Pfam:PF08990 Docking > GO:cofactor binding ; GO:0048037
 Pfam:PF08992 QH-AmDH_gamma > GO:oxidoreductase activity, acting on the CH-NH2 group of donors ; GO:0016638
@@ -9456,7 +9461,6 @@ Pfam:PF09019 EcoRII-C > GO:DNA binding ; GO:0003677
 Pfam:PF09019 EcoRII-C > GO:Type II site-specific deoxyribonuclease activity ; GO:0009036
 Pfam:PF09019 EcoRII-C > GO:DNA restriction-modification system ; GO:0009307
 Pfam:PF09020 YopE_N > GO:negative regulation of phagocytosis ; GO:0050765
-Pfam:PF09020 YopE_N > GO:membrane ; GO:0016020
 Pfam:PF09025 YopR_core > GO:pathogenesis ; GO:0009405
 Pfam:PF09025 YopR_core > GO:protein secretion by the type III secretion system ; GO:0030254
 Pfam:PF09025 YopR_core > GO:type III protein secretion system complex ; GO:0030257

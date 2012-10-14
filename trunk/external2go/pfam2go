@@ -1,4 +1,4 @@
-!version date: 2012/10/06 08:38:55
+!version date: 2012/10/13 08:34:19
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -291,7 +291,6 @@ Pfam:PF00169 PH > GO:protein binding ; GO:0005515
 Pfam:PF00169 PH > GO:phospholipid binding ; GO:0005543
 Pfam:PF00170 bZIP_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 Pfam:PF00170 bZIP_1 > GO:sequence-specific DNA binding ; GO:0043565
-Pfam:PF00170 bZIP_1 > GO:protein dimerization activity ; GO:0046983
 Pfam:PF00170 bZIP_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
 Pfam:PF00171 Aldedh > GO:oxidoreductase activity ; GO:0016491
 Pfam:PF00171 Aldedh > GO:metabolic process ; GO:0008152
@@ -1426,7 +1425,6 @@ Pfam:PF00745 GlutR_dimer > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF00747 Viral_DNA_bp > GO:single-stranded DNA binding ; GO:0003697
 Pfam:PF00747 Viral_DNA_bp > GO:DNA replication ; GO:0006260
 Pfam:PF00747 Viral_DNA_bp > GO:host cell nucleus ; GO:0042025
-Pfam:PF00748 Calpain_inhib > GO:calcium-dependent cysteine-type endopeptidase inhibitor activity ; GO:0010859
 Pfam:PF00749 tRNA-synt_1c > GO:nucleotide binding ; GO:0000166
 Pfam:PF00749 tRNA-synt_1c > GO:ATP binding ; GO:0005524
 Pfam:PF00749 tRNA-synt_1c > GO:ligase activity, forming aminoacyl-tRNA and related compounds ; GO:0016876
@@ -3006,8 +3004,7 @@ Pfam:PF01623 Carla_C4 > GO:regulation of transcription, DNA-dependent ; GO:00063
 Pfam:PF01624 MutS_I > GO:ATP binding ; GO:0005524
 Pfam:PF01624 MutS_I > GO:mismatched DNA binding ; GO:0030983
 Pfam:PF01624 MutS_I > GO:mismatch repair ; GO:0006298
-Pfam:PF01625 PMSR > GO:oxidoreductase activity, acting on a sulfur group of donors, disulfide as acceptor ; GO:0016671
-Pfam:PF01625 PMSR > GO:protein metabolic process ; GO:0019538
+Pfam:PF01625 PMSR > GO:peptide-methionine-(S)-S-oxide reductase activity ; GO:0008113
 Pfam:PF01625 PMSR > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF01627 Hpt > GO:signal transducer activity ; GO:0004871
 Pfam:PF01627 Hpt > GO:two-component signal transduction system (phosphorelay) ; GO:0000160
@@ -3026,7 +3023,7 @@ Pfam:PF01635 Corona_M > GO:viral infectious cycle ; GO:0019058
 Pfam:PF01637 Arch_ATPase > GO:ATP binding ; GO:0005524
 Pfam:PF01640 Peptidase_C10 > GO:cysteine-type peptidase activity ; GO:0008234
 Pfam:PF01640 Peptidase_C10 > GO:proteolysis ; GO:0006508
-Pfam:PF01641 SelR > GO:oxidoreductase activity, acting on a sulfur group of donors, disulfide as acceptor ; GO:0016671
+Pfam:PF01641 SelR > GO:peptide-methionine (R)-S-oxide reductase activity ; GO:0033743
 Pfam:PF01641 SelR > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF01642 MM_CoA_mutase > GO:intramolecular transferase activity ; GO:0016866
 Pfam:PF01642 MM_CoA_mutase > GO:cobalamin binding ; GO:0031419
@@ -3678,7 +3675,6 @@ Pfam:PF02137 A_deamin > GO:RNA binding ; GO:0003723
 Pfam:PF02137 A_deamin > GO:adenosine deaminase activity ; GO:0004000
 Pfam:PF02137 A_deamin > GO:RNA processing ; GO:0006396
 Pfam:PF02140 Gal_Lectin > GO:carbohydrate binding ; GO:0030246
-Pfam:PF02144 Rad1 > GO:damaged DNA binding ; GO:0003684
 Pfam:PF02144 Rad1 > GO:DNA repair ; GO:0006281
 Pfam:PF02144 Rad1 > GO:nucleus ; GO:0005634
 Pfam:PF02145 Rap_GAP > GO:GTPase activator activity ; GO:0005096
@@ -5866,6 +5862,9 @@ Pfam:PF03998 Utp11 > GO:rRNA processing ; GO:0006364
 Pfam:PF03998 Utp11 > GO:small-subunit processome ; GO:0032040
 Pfam:PF03999 MAP65_ASE1 > GO:microtubule binding ; GO:0008017
 Pfam:PF03999 MAP65_ASE1 > GO:cytokinesis ; GO:0000910
+Pfam:PF04005 Hus1 > GO:DNA damage checkpoint ; GO:0000077
+Pfam:PF04005 Hus1 > GO:DNA repair ; GO:0006281
+Pfam:PF04005 Hus1 > GO:checkpoint clamp complex ; GO:0030896
 Pfam:PF04023 FeoA > GO:transition metal ion binding ; GO:0046914
 Pfam:PF04026 SpoVG > GO:sporulation resulting in formation of a cellular spore ; GO:0030435
 Pfam:PF04029 2-ph_phosp > GO:magnesium ion binding ; GO:0000287
@@ -5998,7 +5997,8 @@ Pfam:PF04137 ERO1 > GO:endoplasmic reticulum membrane ; GO:0005789
 Pfam:PF04138 GtrA > GO:polysaccharide biosynthetic process ; GO:0000271
 Pfam:PF04138 GtrA > GO:transport ; GO:0006810
 Pfam:PF04138 GtrA > GO:integral to membrane ; GO:0016021
-Pfam:PF04139 Rad9 > GO:DNA repair ; GO:0006281
+Pfam:PF04139 Rad9 > GO:DNA damage checkpoint ; GO:0000077
+Pfam:PF04139 Rad9 > GO:checkpoint clamp complex ; GO:0030896
 Pfam:PF04140 ICMT > GO:protein C-terminal S-isoprenylcysteine carboxyl O-methyltransferase activity ; GO:0004671
 Pfam:PF04140 ICMT > GO:C-terminal protein methylation ; GO:0006481
 Pfam:PF04140 ICMT > GO:integral to membrane ; GO:0016021
@@ -6722,7 +6722,7 @@ Pfam:PF04963 Sigma54_CBD > GO:DNA-dependent transcription, initiation ; GO:00063
 Pfam:PF04966 OprB > GO:transporter activity ; GO:0005215
 Pfam:PF04966 OprB > GO:transport ; GO:0006810
 Pfam:PF04966 OprB > GO:integral to membrane ; GO:0016021
-Pfam:PF04973 NMN_transporter > GO:nicotinamide riboside transporter activity ; GO:0034257
+Pfam:PF04973 NMN_transporter > GO:nicotinamide riboside transmembrane transporter activity ; GO:0034257
 Pfam:PF04973 NMN_transporter > GO:nicotinamide riboside transport ; GO:0034258
 Pfam:PF04973 NMN_transporter > GO:membrane ; GO:0016020
 Pfam:PF04976 DmsC > GO:anaerobic electron transport chain ; GO:0019645
@@ -8558,7 +8558,6 @@ Pfam:PF07715 Plug > GO:transport ; GO:0006810
 Pfam:PF07715 Plug > GO:membrane ; GO:0016020
 Pfam:PF07716 bZIP_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 Pfam:PF07716 bZIP_2 > GO:sequence-specific DNA binding ; GO:0043565
-Pfam:PF07716 bZIP_2 > GO:protein dimerization activity ; GO:0046983
 Pfam:PF07716 bZIP_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
 Pfam:PF07718 Coatamer_beta_C > GO:structural molecule activity ; GO:0005198
 Pfam:PF07718 Coatamer_beta_C > GO:intracellular protein transport ; GO:0006886
@@ -10449,6 +10448,7 @@ Pfam:PF13892 DBINO > GO:hydrolase activity, acting on acid anhydrides ; GO:00168
 Pfam:PF13897 GOLD_2 > GO:transport ; GO:0006810
 Pfam:PF13897 GOLD_2 > GO:integral to membrane ; GO:0016021
 Pfam:PF13914 Phostensin > GO:phosphatase binding ; GO:0019902
+Pfam:PF13922 PHD_3 > GO:DNA binding ; GO:0003677
 Pfam:PF13929 mRNA_stabil > GO:mRNA stabilization ; GO:0048255
 Pfam:PF13931 Microtub_bind > GO:microtubule binding ; GO:0008017
 Pfam:PF13947 GUB_WAK_bind > GO:polysaccharide binding ; GO:0030247
@@ -10472,5 +10472,3 @@ Pfam:PF14138 COX16 > GO:mitochondrial membrane ; GO:0031966
 Pfam:PF14171 SpoIISA_toxin > GO:pathogenesis ; GO:0009405
 Pfam:PF14171 SpoIISA_toxin > GO:integral to membrane ; GO:0016021
 Pfam:PF14249 Tocopherol_cycl > GO:tocopherol cyclase activity ; GO:0009976
-Pfam:PF14429 DOCK-C2 > GO:guanyl-nucleotide exchange factor activity ; GO:0005085
-Pfam:PF14429 DOCK-C2 > GO:small GTPase mediated signal transduction ; GO:0007264

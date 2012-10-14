@@ -1,4 +1,4 @@
-!version date: 2012/10/06 08:38:55
+!version date: 2012/10/13 08:34:18
 !description: Mapping of GO terms to PROSITE entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://www.expasy.org/prosite/
 !citation: Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1383,6 +1383,7 @@ PROSITE:MF_00563 AdoHcyase > GO:one-carbon metabolic process ; GO:0006730
 PROSITE:MF_00564 RNase_PH > GO:tRNA binding ; GO:0000049
 PROSITE:MF_00564 RNase_PH > GO:tRNA-specific ribonuclease activity ; GO:0004549
 PROSITE:MF_00564 RNase_PH > GO:tRNA processing ; GO:0008033
+PROSITE:MF_00565 DltC > GO:D-alanyl carrier activity ; GO:0036370
 PROSITE:MF_00565 DltC > GO:teichoic acid biosynthetic process ; GO:0019350
 PROSITE:MF_00567 NadA_type1 > GO:transferase activity, transferring alkyl or aryl (other than methyl) groups ; GO:0016765
 PROSITE:MF_00568 NadA_type2 > GO:transferase activity, transferring alkyl or aryl (other than methyl) groups ; GO:0016765
@@ -2761,10 +2762,9 @@ PROSITE:MF_01397 NDH1_NuoCD_2 > GO:NADH dehydrogenase complex ; GO:0030964
 PROSITE:MF_01398 ATP_synth_b_bact > GO:hydrogen ion transmembrane transporter activity ; GO:0015078
 PROSITE:MF_01398 ATP_synth_b_bact > GO:ATP synthesis coupled proton transport ; GO:0015986
 PROSITE:MF_01398 ATP_synth_b_bact > GO:proton-transporting ATP synthase complex, coupling factor F(o) ; GO:0045263
-PROSITE:MF_01400 MsrB > GO:oxidoreductase activity, acting on a sulfur group of donors, disulfide as acceptor ; GO:0016671
+PROSITE:MF_01400 MsrB > GO:peptide-methionine (R)-S-oxide reductase activity ; GO:0033743
 PROSITE:MF_01400 MsrB > GO:oxidation-reduction process ; GO:0055114
-PROSITE:MF_01401 MsrA > GO:oxidoreductase activity, acting on a sulfur group of donors, disulfide as acceptor ; GO:0016671
-PROSITE:MF_01401 MsrA > GO:protein metabolic process ; GO:0019538
+PROSITE:MF_01401 MsrA > GO:peptide-methionine-(S)-S-oxide reductase activity ; GO:0008113
 PROSITE:MF_01401 MsrA > GO:oxidation-reduction process ; GO:0055114
 PROSITE:MF_01402_A ApgM_A > GO:phosphoglycerate mutase activity ; GO:0004619
 PROSITE:MF_01402_B ApgM_B > GO:phosphoglycerate mutase activity ; GO:0004619
@@ -3609,7 +3609,6 @@ PROSITE:MF_02128 TMP_kinase > GO:thiamine-phosphate kinase activity ; GO:0009030
 PROSITE:MF_02128 TMP_kinase > GO:thiamine biosynthetic process ; GO:0009228
 PROSITE:PS00011 GLA_1 > GO:calcium ion binding ; GO:0005509
 PROSITE:PS00011 GLA_1 > GO:extracellular region ; GO:0005576
-PROSITE:PS00012 PHOSPHOPANTETHEINE > GO:phosphopantetheine binding ; GO:0031177
 PROSITE:PS00019 ACTININ_1 > GO:actin binding ; GO:0003779
 PROSITE:PS00020 ACTININ_2 > GO:actin binding ; GO:0003779
 PROSITE:PS00026 CHIT_BIND_I_1 > GO:chitin binding ; GO:0008061

@@ -1,4 +1,4 @@
-!version date: 2012/10/13 08:34:19
+!version date: 2012/10/20 08:36:21
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -401,8 +401,9 @@ PRINTS:PR00173 EDTRNSPORT > GO:dicarboxylic acid transport ; GO:0006835
 PRINTS:PR00173 EDTRNSPORT > GO:membrane ; GO:0016020
 PRINTS:PR00174 LACYSMPORT > GO:transport ; GO:0006810
 PRINTS:PR00174 LACYSMPORT > GO:membrane ; GO:0016020
-PRINTS:PR00175 NAALASMPORT > GO:sodium:amino acid symporter activity ; GO:0005283
+PRINTS:PR00175 NAALASMPORT > GO:alanine:sodium symporter activity ; GO:0015655
 PRINTS:PR00175 NAALASMPORT > GO:sodium ion transport ; GO:0006814
+PRINTS:PR00175 NAALASMPORT > GO:alanine transport ; GO:0032328
 PRINTS:PR00175 NAALASMPORT > GO:membrane ; GO:0016020
 PRINTS:PR00176 NANEUSMPORT > GO:neurotransmitter:sodium symporter activity ; GO:0005328
 PRINTS:PR00176 NANEUSMPORT > GO:neurotransmitter transport ; GO:0006836
@@ -421,13 +422,13 @@ PRINTS:PR00180 CRETINALDHBP > GO:transport ; GO:0006810
 PRINTS:PR00180 CRETINALDHBP > GO:intracellular ; GO:0005622
 PRINTS:PR00181 MALTOSEBP > GO:maltose transmembrane transporter activity ; GO:0005363
 PRINTS:PR00181 MALTOSEBP > GO:maltose transport ; GO:0015768
-PRINTS:PR00182 ECOLNEIPORIN > GO:transporter activity ; GO:0005215
+PRINTS:PR00182 ECOLNEIPORIN > GO:porin activity ; GO:0015288
 PRINTS:PR00182 ECOLNEIPORIN > GO:transport ; GO:0006810
 PRINTS:PR00182 ECOLNEIPORIN > GO:membrane ; GO:0016020
-PRINTS:PR00183 ECOLIPORIN > GO:transporter activity ; GO:0005215
+PRINTS:PR00183 ECOLIPORIN > GO:porin activity ; GO:0015288
 PRINTS:PR00183 ECOLIPORIN > GO:transport ; GO:0006810
 PRINTS:PR00183 ECOLIPORIN > GO:membrane ; GO:0016020
-PRINTS:PR00184 NEISSPPORIN > GO:transporter activity ; GO:0005215
+PRINTS:PR00184 NEISSPPORIN > GO:porin activity ; GO:0015288
 PRINTS:PR00184 NEISSPPORIN > GO:transport ; GO:0006810
 PRINTS:PR00184 NEISSPPORIN > GO:membrane ; GO:0016020
 PRINTS:PR00185 EUKARYTPORIN > GO:voltage-gated anion channel activity ; GO:0008308
@@ -784,6 +785,7 @@ PRINTS:PR00379 INTEIN > GO:intein-mediated protein splicing ; GO:0016539
 PRINTS:PR00380 KINESINHEAVY > GO:microtubule motor activity ; GO:0003777
 PRINTS:PR00380 KINESINHEAVY > GO:ATP binding ; GO:0005524
 PRINTS:PR00380 KINESINHEAVY > GO:microtubule-based movement ; GO:0007018
+PRINTS:PR00380 KINESINHEAVY > GO:microtubule associated complex ; GO:0005875
 PRINTS:PR00381 KINESINLIGHT > GO:microtubule motor activity ; GO:0003777
 PRINTS:PR00381 KINESINLIGHT > GO:kinesin complex ; GO:0005871
 PRINTS:PR00382 LIPIDTRNSFER > GO:lipid binding ; GO:0008289
@@ -1956,7 +1958,7 @@ PRINTS:PR00855 PRSTNOIDFPR > GO:G-protein coupled receptor signaling pathway ; G
 PRINTS:PR00855 PRSTNOIDFPR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00856 PRSTNOIDIPR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00856 PRSTNOIDIPR > GO:integral to membrane ; GO:0016021
-PRINTS:PR00857 MELATONINR > GO:melatonin receptor activity ; GO:0008502
+PRINTS:PR00857 MELATONINR > GO:G-protein coupled receptor activity ; GO:0004930
 PRINTS:PR00857 MELATONINR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00857 MELATONINR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00858 MTCRUSTACEAN > GO:metal ion binding ; GO:0046872
@@ -2116,11 +2118,11 @@ PRINTS:PR00941 CDATPASE > GO:cation transport ; GO:0006812
 PRINTS:PR00941 CDATPASE > GO:membrane ; GO:0016020
 PRINTS:PR00942 CUATPASEI > GO:ATP binding ; GO:0005524
 PRINTS:PR00942 CUATPASEI > GO:copper-transporting ATPase activity ; GO:0043682
-PRINTS:PR00942 CUATPASEI > GO:ATP metabolic process ; GO:0046034
+PRINTS:PR00942 CUATPASEI > GO:copper ion transport ; GO:0006825
 PRINTS:PR00942 CUATPASEI > GO:membrane ; GO:0016020
 PRINTS:PR00943 CUATPASE > GO:ATP binding ; GO:0005524
 PRINTS:PR00943 CUATPASE > GO:copper-transporting ATPase activity ; GO:0043682
-PRINTS:PR00943 CUATPASE > GO:ATP metabolic process ; GO:0046034
+PRINTS:PR00943 CUATPASE > GO:copper ion transport ; GO:0006825
 PRINTS:PR00943 CUATPASE > GO:membrane ; GO:0016020
 PRINTS:PR00944 CUEXPORT > GO:copper ion transmembrane transporter activity ; GO:0005375
 PRINTS:PR00944 CUEXPORT > GO:copper ion binding ; GO:0005507
@@ -2705,7 +2707,7 @@ PRINTS:PR01149 MELATONIN1AR > GO:integral to membrane ; GO:0016021
 PRINTS:PR01150 MELATONIN1CR > GO:melatonin receptor activity ; GO:0008502
 PRINTS:PR01150 MELATONIN1CR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01150 MELATONIN1CR > GO:integral to membrane ; GO:0016021
-PRINTS:PR01151 MELATONIN1XR > GO:melatonin receptor activity ; GO:0008502
+PRINTS:PR01151 MELATONIN1XR > GO:G-protein coupled receptor activity ; GO:0004930
 PRINTS:PR01151 MELATONIN1XR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01151 MELATONIN1XR > GO:integral to membrane ; GO:0016021
 PRINTS:PR01152 PROTEASEAR2 > GO:thrombin receptor activity ; GO:0015057
@@ -4436,10 +4438,10 @@ PRINTS:PR01861 ADAMTS8 > GO:metallopeptidase activity ; GO:0008237
 PRINTS:PR01861 ADAMTS8 > GO:zinc ion binding ; GO:0008270
 PRINTS:PR01861 ADAMTS8 > GO:proteinaceous extracellular matrix ; GO:0005578
 PRINTS:PR01862 BCL2FAMILY > GO:regulation of apoptotic process ; GO:0042981
-PRINTS:PR01863 APOPREGBCL2 > GO:anti-apoptosis ; GO:0006916
+PRINTS:PR01863 APOPREGBCL2 > GO:negative regulation of apoptotic process ; GO:0043066
 PRINTS:PR01864 APOPREGBCLX > GO:regulation of apoptotic process ; GO:0042981
 PRINTS:PR01865 APOPREGBCLW > GO:regulation of apoptotic process ; GO:0042981
-PRINTS:PR01867 BCL2RLATEDA1 > GO:anti-apoptosis ; GO:0006916
+PRINTS:PR01867 BCL2RLATEDA1 > GO:negative regulation of apoptotic process ; GO:0043066
 PRINTS:PR01874 DNAREPAIRADA > GO:damaged DNA binding ; GO:0003684
 PRINTS:PR01874 DNAREPAIRADA > GO:ATP binding ; GO:0005524
 PRINTS:PR01874 DNAREPAIRADA > GO:DNA repair ; GO:0006281
@@ -4626,8 +4628,8 @@ PRINTS:PR02090 HAUSAUGMINL4 > GO:HAUS complex ; GO:0070652
 PRINTS:PR02091 HAUSAUGMINL5 > GO:spindle assembly ; GO:0051225
 PRINTS:PR02091 HAUSAUGMINL5 > GO:centrosome organization ; GO:0051297
 PRINTS:PR02091 HAUSAUGMINL5 > GO:HAUS complex ; GO:0070652
-PRINTS:PR02092 HEPBVIRUSXIP > GO:anti-apoptosis ; GO:0006916
 PRINTS:PR02092 HEPBVIRUSXIP > GO:viral genome replication ; GO:0019079
+PRINTS:PR02092 HEPBVIRUSXIP > GO:negative regulation of apoptotic process ; GO:0043066
 PRINTS:PR02092 HEPBVIRUSXIP > GO:negative regulation of cysteine-type endopeptidase activity involved in apoptotic process ; GO:0043154
 PRINTS:PR02092 HEPBVIRUSXIP > GO:cytoplasm ; GO:0005737
 PRINTS:PR02093 HDA1SUBUNIT3 > GO:histone deacetylase activity ; GO:0004407
@@ -4646,7 +4648,7 @@ PRINTS:PR02096 HTDHYDRTASE2 > GO:mitochondrion ; GO:0005739
 PRINTS:PR02097 HTLV1ZIPPER > GO:interspecies interaction between organisms ; GO:0044419
 PRINTS:PR02097 HTLV1ZIPPER > GO:host cell nucleus ; GO:0042025
 PRINTS:PR02099 PROTEINIBD2 > GO:mitotic cell cycle spindle assembly checkpoint ; GO:0007094
-PRINTS:PR02100 GENEIEX1 > GO:anti-apoptosis ; GO:0006916
+PRINTS:PR02100 GENEIEX1 > GO:negative regulation of apoptotic process ; GO:0043066
 PRINTS:PR02103 INPROXISOME1 > GO:peroxisome inheritance ; GO:0045033
 PRINTS:PR02103 INPROXISOME1 > GO:extrinsic to intraperoxisomal membrane ; GO:0005780
 PRINTS:PR02104 INPROXISOME2 > GO:peroxisome inheritance ; GO:0045033

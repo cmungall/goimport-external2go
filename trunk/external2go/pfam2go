@@ -1,4 +1,4 @@
-!version date: 2012/11/03 08:38:57
+!version date: 2012/11/10 08:49:10
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -26,9 +26,6 @@ Pfam:PF00015 MCPsignal > GO:signal transducer activity ; GO:0004871
 Pfam:PF00015 MCPsignal > GO:signal transduction ; GO:0007165
 Pfam:PF00015 MCPsignal > GO:membrane ; GO:0016020
 Pfam:PF00016 RuBisCO_large > GO:magnesium ion binding ; GO:0000287
-Pfam:PF00016 RuBisCO_large > GO:ribulose-bisphosphate carboxylase activity ; GO:0016984
-Pfam:PF00016 RuBisCO_large > GO:carbon fixation ; GO:0015977
-Pfam:PF00016 RuBisCO_large > GO:plastid ; GO:0009536
 Pfam:PF00017 SH2 > GO:protein binding ; GO:0005515
 Pfam:PF00018 SH3_1 > GO:protein binding ; GO:0005515
 Pfam:PF00019 TGF_beta > GO:growth factor activity ; GO:0008083
@@ -523,12 +520,7 @@ Pfam:PF00281 Ribosomal_L5 > GO:ribosome ; GO:0005840
 Pfam:PF00282 Pyridoxal_deC > GO:carboxy-lyase activity ; GO:0016831
 Pfam:PF00282 Pyridoxal_deC > GO:pyridoxal phosphate binding ; GO:0030170
 Pfam:PF00282 Pyridoxal_deC > GO:carboxylic acid metabolic process ; GO:0019752
-Pfam:PF00283 Cytochrom_B559 > GO:metal ion binding ; GO:0046872
 Pfam:PF00283 Cytochrom_B559 > GO:photosynthesis ; GO:0015979
-Pfam:PF00283 Cytochrom_B559 > GO:photosystem II ; GO:0009523
-Pfam:PF00283 Cytochrom_B559 > GO:plastid ; GO:0009536
-Pfam:PF00283 Cytochrom_B559 > GO:thylakoid ; GO:0009579
-Pfam:PF00283 Cytochrom_B559 > GO:integral to membrane ; GO:0016021
 Pfam:PF00284 Cytochrom_B559a > GO:metal ion binding ; GO:0046872
 Pfam:PF00284 Cytochrom_B559a > GO:photosynthesis ; GO:0015979
 Pfam:PF00284 Cytochrom_B559a > GO:photosystem II ; GO:0009523
@@ -972,8 +964,10 @@ Pfam:PF00501 AMP-binding > GO:catalytic activity ; GO:0003824
 Pfam:PF00501 AMP-binding > GO:metabolic process ; GO:0008152
 Pfam:PF00502 Phycobilisome > GO:photosynthesis ; GO:0015979
 Pfam:PF00502 Phycobilisome > GO:phycobilisome ; GO:0030089
+Pfam:PF00503 G-alpha > GO:GTPase activity ; GO:0003924
 Pfam:PF00503 G-alpha > GO:signal transducer activity ; GO:0004871
 Pfam:PF00503 G-alpha > GO:guanyl nucleotide binding ; GO:0019001
+Pfam:PF00503 G-alpha > GO:G-protein beta/gamma-subunit complex binding ; GO:0031683
 Pfam:PF00503 G-alpha > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 Pfam:PF00505 HMG_box > GO:protein binding ; GO:0005515
 Pfam:PF00506 Flu_NP > GO:structural molecule activity ; GO:0005198
@@ -1649,7 +1643,6 @@ Pfam:PF00866 Ring_hydroxyl_B > GO:catalytic activity ; GO:0003824
 Pfam:PF00866 Ring_hydroxyl_B > GO:cellular aromatic compound metabolic process ; GO:0006725
 Pfam:PF00866 Ring_hydroxyl_B > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF00867 XPG_I > GO:nuclease activity ; GO:0004518
-Pfam:PF00867 XPG_I > GO:DNA repair ; GO:0006281
 Pfam:PF00868 Transglut_N > GO:peptide cross-linking ; GO:0018149
 Pfam:PF00869 Flavi_glycoprot > GO:protein dimerization activity ; GO:0046983
 Pfam:PF00870 P53 > GO:transcription regulatory region DNA binding ; GO:0044212
@@ -2721,7 +2714,7 @@ Pfam:PF01459 Porin_3 > GO:mitochondrial outer membrane ; GO:0005741
 Pfam:PF01465 GRIP > GO:protein binding ; GO:0005515
 Pfam:PF01465 GRIP > GO:protein targeting to Golgi ; GO:0000042
 Pfam:PF01466 Skp1 > GO:ubiquitin-dependent protein catabolic process ; GO:0006511
-Pfam:PF01467 CTP_transf_2 > GO:nucleotidyltransferase activity ; GO:0016779
+Pfam:PF01467 CTP_transf_2 > GO:catalytic activity ; GO:0003824
 Pfam:PF01467 CTP_transf_2 > GO:biosynthetic process ; GO:0009058
 Pfam:PF01468 GA > GO:pathogenesis ; GO:0009405
 Pfam:PF01470 Peptidase_C15 > GO:proteolysis ; GO:0006508
@@ -4791,9 +4784,7 @@ Pfam:PF02938 GAD > GO:cytoplasm ; GO:0005737
 Pfam:PF02939 UcrQ > GO:ubiquinol-cytochrome-c reductase activity ; GO:0008121
 Pfam:PF02940 mRNA_triPase > GO:polynucleotide 5'-phosphatase activity ; GO:0004651
 Pfam:PF02940 mRNA_triPase > GO:transferase activity ; GO:0016740
-Pfam:PF02941 FeThRed_A > GO:ferredoxin-NAD(P) reductase activity ; GO:0008937
 Pfam:PF02941 FeThRed_A > GO:photosynthesis ; GO:0015979
-Pfam:PF02941 FeThRed_A > GO:plastid ; GO:0009536
 Pfam:PF02943 FeThRed_B > GO:ferredoxin-NAD(P) reductase activity ; GO:0008937
 Pfam:PF02943 FeThRed_B > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF02944 BESS > GO:DNA binding ; GO:0003677
@@ -5726,10 +5717,11 @@ Pfam:PF03846 SulA > GO:negative regulation of cell division ; GO:0051782
 Pfam:PF03846 SulA > GO:Gram-negative-bacterium-type cell wall ; GO:0009276
 Pfam:PF03847 TFIID_20kDa > GO:DNA-dependent transcription, initiation ; GO:0006352
 Pfam:PF03847 TFIID_20kDa > GO:transcription factor TFIID complex ; GO:0005669
-Pfam:PF03849 Tfb2 > GO:DNA repair ; GO:0006281
-Pfam:PF03849 Tfb2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+Pfam:PF03849 Tfb2 > GO:ATP-dependent DNA helicase activity ; GO:0004003
+Pfam:PF03849 Tfb2 > GO:nucleotide-excision repair ; GO:0006289
+Pfam:PF03849 Tfb2 > GO:core TFIIH complex ; GO:0000439
 Pfam:PF03849 Tfb2 > GO:nucleus ; GO:0005634
-Pfam:PF03850 Tfb4 > GO:DNA repair ; GO:0006281
+Pfam:PF03850 Tfb4 > GO:nucleotide-excision repair ; GO:0006289
 Pfam:PF03850 Tfb4 > GO:regulation of transcription, DNA-dependent ; GO:0006355
 Pfam:PF03850 Tfb4 > GO:core TFIIH complex ; GO:0000439
 Pfam:PF03851 UvdE > GO:endonuclease activity ; GO:0004519
@@ -6612,9 +6604,7 @@ Pfam:PF04834 Adeno_E3_14_5 > GO:integral to membrane ; GO:0016021
 Pfam:PF04838 Baculo_LEF5 > GO:regulation of transcription, DNA-dependent ; GO:0006355
 Pfam:PF04839 PSRP-3_Ycf65 > GO:structural constituent of ribosome ; GO:0003735
 Pfam:PF04839 PSRP-3_Ycf65 > GO:translation ; GO:0006412
-Pfam:PF04839 PSRP-3_Ycf65 > GO:intracellular ; GO:0005622
 Pfam:PF04839 PSRP-3_Ycf65 > GO:ribosome ; GO:0005840
-Pfam:PF04839 PSRP-3_Ycf65 > GO:plastid ; GO:0009536
 Pfam:PF04840 Vps16_C > GO:intracellular protein transport ; GO:0006886
 Pfam:PF04840 Vps16_C > GO:cytoplasm ; GO:0005737
 Pfam:PF04841 Vps16_N > GO:intracellular protein transport ; GO:0006886
@@ -7747,8 +7737,9 @@ Pfam:PF06327 DUF1053 > GO:cyclic nucleotide biosynthetic process ; GO:0009190
 Pfam:PF06327 DUF1053 > GO:integral to membrane ; GO:0016021
 Pfam:PF06330 TRI5 > GO:trichodiene synthase activity ; GO:0045482
 Pfam:PF06330 TRI5 > GO:sesquiterpenoid biosynthetic process ; GO:0016106
-Pfam:PF06331 Tbf5 > GO:DNA binding ; GO:0003677
 Pfam:PF06331 Tbf5 > GO:nucleotide-excision repair ; GO:0006289
+Pfam:PF06331 Tbf5 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+Pfam:PF06331 Tbf5 > GO:core TFIIH complex ; GO:0000439
 Pfam:PF06333 Med13_C > GO:RNA polymerase II transcription cofactor activity ; GO:0001104
 Pfam:PF06333 Med13_C > GO:regulation of transcription from RNA polymerase II promoter ; GO:0006357
 Pfam:PF06333 Med13_C > GO:mediator complex ; GO:0016592

@@ -1,4 +1,4 @@
-!version date: 2012/11/03 08:38:57
+!version date: 2012/11/10 08:49:11
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -681,8 +681,10 @@ PRINTS:PR00316 ENTEROVIROMP > GO:cell outer membrane ; GO:0009279
 PRINTS:PR00317 EPENDYMIN > GO:calcium ion binding ; GO:0005509
 PRINTS:PR00317 EPENDYMIN > GO:cell-matrix adhesion ; GO:0007160
 PRINTS:PR00317 EPENDYMIN > GO:extracellular region ; GO:0005576
+PRINTS:PR00318 GPROTEINA > GO:GTPase activity ; GO:0003924
 PRINTS:PR00318 GPROTEINA > GO:signal transducer activity ; GO:0004871
 PRINTS:PR00318 GPROTEINA > GO:guanyl nucleotide binding ; GO:0019001
+PRINTS:PR00318 GPROTEINA > GO:G-protein beta/gamma-subunit complex binding ; GO:0031683
 PRINTS:PR00318 GPROTEINA > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00321 GPROTEING > GO:signal transducer activity ; GO:0004871
 PRINTS:PR00321 GPROTEING > GO:G-protein coupled receptor signaling pathway ; GO:0007186
@@ -942,18 +944,33 @@ PRINTS:PR00437 SMALLCYTKCXC > GO:chemokine activity ; GO:0008009
 PRINTS:PR00437 SMALLCYTKCXC > GO:immune response ; GO:0006955
 PRINTS:PR00437 SMALLCYTKCXC > GO:extracellular region ; GO:0005576
 PRINTS:PR00439 11SGLOBULIN > GO:nutrient reservoir activity ; GO:0045735
+PRINTS:PR00440 GPROTEINA12 > GO:G-protein coupled receptor binding ; GO:0001664
+PRINTS:PR00440 GPROTEINA12 > GO:GTPase activity ; GO:0003924
 PRINTS:PR00440 GPROTEINA12 > GO:signal transducer activity ; GO:0004871
 PRINTS:PR00440 GPROTEINA12 > GO:GTP binding ; GO:0005525
+PRINTS:PR00440 GPROTEINA12 > GO:G-protein beta/gamma-subunit complex binding ; GO:0031683
+PRINTS:PR00440 GPROTEINA12 > GO:GTP catabolic process ; GO:0006184
 PRINTS:PR00440 GPROTEINA12 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR00440 GPROTEINA12 > GO:small GTPase mediated signal transduction ; GO:0007264
+PRINTS:PR00441 GPROTEINAI > GO:GTPase activity ; GO:0003924
 PRINTS:PR00441 GPROTEINAI > GO:signal transducer activity ; GO:0004871
 PRINTS:PR00441 GPROTEINAI > GO:GTP binding ; GO:0005525
+PRINTS:PR00441 GPROTEINAI > GO:G-protein beta/gamma-subunit complex binding ; GO:0031683
+PRINTS:PR00441 GPROTEINAI > GO:GTP catabolic process ; GO:0006184
 PRINTS:PR00441 GPROTEINAI > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR00441 GPROTEINAI > GO:adenylate cyclase-modulating G-protein coupled receptor signaling pathway ; GO:0007188
+PRINTS:PR00442 GPROTEINAQ > GO:G-protein coupled receptor binding ; GO:0001664
+PRINTS:PR00442 GPROTEINAQ > GO:GTPase activity ; GO:0003924
 PRINTS:PR00442 GPROTEINAQ > GO:signal transducer activity ; GO:0004871
 PRINTS:PR00442 GPROTEINAQ > GO:GTP binding ; GO:0005525
-PRINTS:PR00442 GPROTEINAQ > GO:protein ADP-ribosylation ; GO:0006471
+PRINTS:PR00442 GPROTEINAQ > GO:G-protein beta/gamma-subunit complex binding ; GO:0031683
+PRINTS:PR00442 GPROTEINAQ > GO:GTP catabolic process ; GO:0006184
 PRINTS:PR00442 GPROTEINAQ > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR00443 GPROTEINAS > GO:GTPase activity ; GO:0003924
 PRINTS:PR00443 GPROTEINAS > GO:signal transducer activity ; GO:0004871
 PRINTS:PR00443 GPROTEINAS > GO:GTP binding ; GO:0005525
+PRINTS:PR00443 GPROTEINAS > GO:G-protein beta/gamma-subunit complex binding ; GO:0031683
+PRINTS:PR00443 GPROTEINAS > GO:GTP catabolic process ; GO:0006184
 PRINTS:PR00443 GPROTEINAS > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00444 HIVVPRVPX > GO:viral infectious cycle ; GO:0019058
 PRINTS:PR00444 HIVVPRVPX > GO:host cell nucleus ; GO:0042025
@@ -1938,10 +1955,9 @@ PRINTS:PR00848 SPERMPH20 > GO:hyalurononglucosaminidase activity ; GO:0004415
 PRINTS:PR00848 SPERMPH20 > GO:fusion of sperm to egg plasma membrane ; GO:0007342
 PRINTS:PR00850 GLHYDRLASE59 > GO:galactosylceramidase activity ; GO:0004336
 PRINTS:PR00850 GLHYDRLASE59 > GO:galactosylceramide catabolic process ; GO:0006683
-PRINTS:PR00851 XRODRMPGMNTB > GO:DNA binding ; GO:0003677
 PRINTS:PR00851 XRODRMPGMNTB > GO:ATP-dependent DNA helicase activity ; GO:0004003
-PRINTS:PR00851 XRODRMPGMNTB > GO:ATP binding ; GO:0005524
 PRINTS:PR00851 XRODRMPGMNTB > GO:nucleotide-excision repair ; GO:0006289
+PRINTS:PR00851 XRODRMPGMNTB > GO:core TFIIH complex ; GO:0000439
 PRINTS:PR00852 XRODRMPGMNTD > GO:DNA binding ; GO:0003677
 PRINTS:PR00852 XRODRMPGMNTD > GO:ATP-dependent DNA helicase activity ; GO:0004003
 PRINTS:PR00852 XRODRMPGMNTD > GO:ATP binding ; GO:0005524
@@ -2807,12 +2823,6 @@ PRINTS:PR01184 ORNATIN > GO:regulation of blood coagulation ; GO:0030193
 PRINTS:PR01184 ORNATIN > GO:extracellular region ; GO:0005576
 PRINTS:PR01185 INTEGRINA > GO:cell adhesion ; GO:0007155
 PRINTS:PR01185 INTEGRINA > GO:integrin complex ; GO:0008305
-PRINTS:PR01186 INTEGRINB > GO:receptor activity ; GO:0004872
-PRINTS:PR01186 INTEGRINB > GO:receptor binding ; GO:0005102
-PRINTS:PR01186 INTEGRINB > GO:cell adhesion ; GO:0007155
-PRINTS:PR01186 INTEGRINB > GO:cell-matrix adhesion ; GO:0007160
-PRINTS:PR01186 INTEGRINB > GO:integrin-mediated signaling pathway ; GO:0007229
-PRINTS:PR01186 INTEGRINB > GO:integrin complex ; GO:0008305
 PRINTS:PR01187 ANIONEXHNGR1 > GO:inorganic anion exchanger activity ; GO:0005452
 PRINTS:PR01187 ANIONEXHNGR1 > GO:anion transport ; GO:0006820
 PRINTS:PR01187 ANIONEXHNGR1 > GO:membrane ; GO:0016020
@@ -2948,11 +2958,17 @@ PRINTS:PR01239 EP450IICYP52 > GO:iron ion binding ; GO:0005506
 PRINTS:PR01239 EP450IICYP52 > GO:oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen ; GO:0016712
 PRINTS:PR01239 EP450IICYP52 > GO:heme binding ; GO:0020037
 PRINTS:PR01239 EP450IICYP52 > GO:oxidation-reduction process ; GO:0055114
+PRINTS:PR01241 GPROTEINAFNG > GO:G-protein coupled receptor binding ; GO:0001664
+PRINTS:PR01241 GPROTEINAFNG > GO:GTPase activity ; GO:0003924
 PRINTS:PR01241 GPROTEINAFNG > GO:signal transducer activity ; GO:0004871
 PRINTS:PR01241 GPROTEINAFNG > GO:GTP binding ; GO:0005525
+PRINTS:PR01241 GPROTEINAFNG > GO:G-protein beta/gamma-subunit complex binding ; GO:0031683
+PRINTS:PR01241 GPROTEINAFNG > GO:GTP catabolic process ; GO:0006184
 PRINTS:PR01241 GPROTEINAFNG > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01241 GPROTEINAFNG > GO:adenylate cyclase-activating G-protein coupled receptor signaling pathway ; GO:0007189
 PRINTS:PR01242 GPROTEINAPLT > GO:signal transducer activity ; GO:0004871
 PRINTS:PR01242 GPROTEINAPLT > GO:GTP binding ; GO:0005525
+PRINTS:PR01242 GPROTEINAPLT > GO:GTP catabolic process ; GO:0006184
 PRINTS:PR01242 GPROTEINAPLT > GO:protein ADP-ribosylation ; GO:0006471
 PRINTS:PR01242 GPROTEINAPLT > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01243 NUCDPKINASE > GO:nucleoside diphosphate kinase activity ; GO:0004550
@@ -4086,7 +4102,6 @@ PRINTS:PR01695 IGHEPTARCPTR > GO:membrane ; GO:0016020
 PRINTS:PR01696 LCACHANNELB3 > GO:voltage-gated calcium channel activity ; GO:0005245
 PRINTS:PR01696 LCACHANNELB3 > GO:calcium ion transmembrane transport ; GO:0070588
 PRINTS:PR01696 LCACHANNELB3 > GO:voltage-gated calcium channel complex ; GO:0005891
-PRINTS:PR01697 PARVALBUMIN > GO:calcium ion binding ; GO:0005509
 PRINTS:PR01699 ORGNOHGLYASE > GO:alkylmercury lyase activity ; GO:0018836
 PRINTS:PR01699 ORGNOHGLYASE > GO:organomercury catabolic process ; GO:0046413
 PRINTS:PR01700 CD34ANTIGEN > GO:cell adhesion ; GO:0007155

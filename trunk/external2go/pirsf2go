@@ -1,4 +1,4 @@
-!version date: 2012/11/03 08:38:57
+!version date: 2012/11/10 08:49:11
 !description: Mapping of GO terms to PIRSF entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pir.georgetown.edu/pirsf/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1409,17 +1409,12 @@ PIRSF:PIRSF002486 CIP_VAC_C3L > GO:integral to membrane ; GO:0016021
 PIRSF:PIRSF002495 VWF > GO:cell adhesion ; GO:0007155
 PIRSF:PIRSF002495 VWF > GO:blood coagulation ; GO:0007596
 PIRSF:PIRSF002495 VWF > GO:proteinaceous extracellular matrix ; GO:0005578
-PIRSF:PIRSF002512 Integrin_B > GO:receptor activity ; GO:0004872
-PIRSF:PIRSF002512 Integrin_B > GO:receptor binding ; GO:0005102
-PIRSF:PIRSF002512 Integrin_B > GO:cell adhesion ; GO:0007155
-PIRSF:PIRSF002512 Integrin_B > GO:cell-matrix adhesion ; GO:0007160
-PIRSF:PIRSF002512 Integrin_B > GO:integrin-mediated signaling pathway ; GO:0007229
-PIRSF:PIRSF002512 Integrin_B > GO:integrin complex ; GO:0008305
 PIRSF:PIRSF002513 Integrin_B4 > GO:receptor activity ; GO:0004872
-PIRSF:PIRSF002513 Integrin_B4 > GO:receptor binding ; GO:0005102
 PIRSF:PIRSF002513 Integrin_B4 > GO:cell adhesion ; GO:0007155
 PIRSF:PIRSF002513 Integrin_B4 > GO:cell-matrix adhesion ; GO:0007160
 PIRSF:PIRSF002513 Integrin_B4 > GO:integrin-mediated signaling pathway ; GO:0007229
+PIRSF:PIRSF002513 Integrin_B4 > GO:hemidesmosome assembly ; GO:0031581
+PIRSF:PIRSF002513 Integrin_B4 > GO:cell motility ; GO:0048870
 PIRSF:PIRSF002513 Integrin_B4 > GO:integrin complex ; GO:0008305
 PIRSF:PIRSF002520 Serum_albumin_subgroup > GO:extracellular space ; GO:0005615
 PIRSF:PIRSF002527 ER-like_NR > GO:DNA binding ; GO:0003677
@@ -1581,6 +1576,7 @@ PIRSF:PIRSF003336 RadB > GO:ATP binding ; GO:0005524
 PIRSF:PIRSF003336 RadB > GO:DNA-dependent ATPase activity ; GO:0008094
 PIRSF:PIRSF003336 RadB > GO:DNA repair ; GO:0006281
 PIRSF:PIRSF003336 RadB > GO:DNA recombination ; GO:0006310
+PIRSF:PIRSF003338 MAT1_metazoa > GO:cell cycle ; GO:0007049
 PIRSF:PIRSF003338 MAT1_metazoa > GO:nucleus ; GO:0005634
 PIRSF:PIRSF003368 Large_T_antigen_polyomaV > GO:DNA replication origin binding ; GO:0003688
 PIRSF:PIRSF003368 Large_T_antigen_polyomaV > GO:ATP binding ; GO:0005524
@@ -2344,10 +2340,9 @@ PIRSF:PIRSF015892 N-myristl_transf > GO:glycylpeptide N-tetradecanoyltransferase
 PIRSF:PIRSF015892 N-myristl_transf > GO:N-terminal protein myristoylation ; GO:0006499
 PIRSF:PIRSF015894 Skb1_MeTrfase > GO:methyltransferase activity ; GO:0008168
 PIRSF:PIRSF015894 Skb1_MeTrfase > GO:protein methylation ; GO:0006479
-PIRSF:PIRSF015919 TFIIH_SSL1 > GO:zinc ion binding ; GO:0008270
-PIRSF:PIRSF015919 TFIIH_SSL1 > GO:DNA repair ; GO:0006281
-PIRSF:PIRSF015919 TFIIH_SSL1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
-PIRSF:PIRSF015919 TFIIH_SSL1 > GO:nucleus ; GO:0005634
+PIRSF:PIRSF015919 TFIIH_SSL1 > GO:nucleotide-excision repair ; GO:0006289
+PIRSF:PIRSF015919 TFIIH_SSL1 > GO:transcription, DNA-dependent ; GO:0006351
+PIRSF:PIRSF015919 TFIIH_SSL1 > GO:core TFIIH complex ; GO:0000439
 PIRSF:PIRSF015921 FA_sphinglp_des > GO:iron ion binding ; GO:0005506
 PIRSF:PIRSF015921 FA_sphinglp_des > GO:oxidoreductase activity, acting on paired donors, with oxidation of a pair of donors resulting in the reduction of molecular oxygen to two molecules of water ; GO:0016717
 PIRSF:PIRSF015921 FA_sphinglp_des > GO:heme binding ; GO:0020037
@@ -2867,8 +2862,7 @@ PIRSF:PIRSF034781 SecIII_sopE > GO:extracellular region ; GO:0005576
 PIRSF:PIRSF035805 TK_cell > GO:thymidine kinase activity ; GO:0004797
 PIRSF:PIRSF035805 TK_cell > GO:ATP binding ; GO:0005524
 PIRSF:PIRSF035859 ABC_tp_sb > GO:transporter activity ; GO:0005215
-PIRSF:PIRSF036292 Prenylcysteine_oxidase > GO:oxidoreductase activity, acting on a sulfur group of donors, oxygen as acceptor ; GO:0016670
-PIRSF:PIRSF036292 Prenylcysteine_oxidase > GO:oxidation-reduction process ; GO:0055114
+PIRSF:PIRSF036292 Prenylcysteine_oxidase > GO:prenylcysteine oxidase activity ; GO:0001735
 PIRSF:PIRSF036312 Fibrillin > GO:extracellular matrix structural constituent ; GO:0005201
 PIRSF:PIRSF036312 Fibrillin > GO:calcium ion binding ; GO:0005509
 PIRSF:PIRSF036312 Fibrillin > GO:proteinaceous extracellular matrix ; GO:0005578
@@ -3328,7 +3322,6 @@ PIRSF:PIRSF037736 SCO1 > GO:mitochondrial inner membrane ; GO:0005743
 PIRSF:PIRSF037748 RnhC > GO:ribonuclease H activity ; GO:0004523
 PIRSF:PIRSF037748 RnhC > GO:RNA metabolic process ; GO:0016070
 PIRSF:PIRSF037748 RnhC > GO:cytoplasm ; GO:0005737
-PIRSF:PIRSF037755 Mettl2_prd > GO:methyltransferase activity ; GO:0008168
 PIRSF:PIRSF037778 UCP037778_transp_RibU > GO:riboflavin transporter activity ; GO:0032217
 PIRSF:PIRSF037778 UCP037778_transp_RibU > GO:riboflavin transport ; GO:0032218
 PIRSF:PIRSF037778 UCP037778_transp_RibU > GO:plasma membrane ; GO:0005886

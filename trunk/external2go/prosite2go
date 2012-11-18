@@ -1,4 +1,4 @@
-!version date: 2012/11/10 08:49:11
+!version date: 2012/11/17 08:53:08
 !description: Mapping of GO terms to PROSITE entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://www.expasy.org/prosite/
 !citation: Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1664,7 +1664,7 @@ PROSITE:MF_00719 CobS > GO:cobalamin 5'-phosphate synthase activity ; GO:0008818
 PROSITE:MF_00719 CobS > GO:cobalamin biosynthetic process ; GO:0009236
 PROSITE:MF_00720 PriB > GO:single-stranded DNA binding ; GO:0003697
 PROSITE:MF_00720 PriB > GO:DNA replication ; GO:0006260
-PROSITE:MF_00720 PriB > GO:alpha DNA polymerase:primase complex ; GO:0005658
+PROSITE:MF_00720 PriB > GO:replisome ; GO:0030894
 PROSITE:MF_00721 Ribosomal_L14e > GO:structural constituent of ribosome ; GO:0003735
 PROSITE:MF_00721 Ribosomal_L14e > GO:translation ; GO:0006412
 PROSITE:MF_00721 Ribosomal_L14e > GO:ribosome ; GO:0005840
@@ -2371,7 +2371,7 @@ PROSITE:MF_01272 IsdG > GO:oxidation-reduction process ; GO:0055114
 PROSITE:MF_01273 Pantothen_kinase_2 > GO:pantothenate kinase activity ; GO:0004594
 PROSITE:MF_01273 Pantothen_kinase_2 > GO:ATP binding ; GO:0005524
 PROSITE:MF_01273 Pantothen_kinase_2 > GO:coenzyme A biosynthetic process ; GO:0015937
-PROSITE:MF_01274 Pantothen_kinase_3 > GO:positive regulation of transcription, DNA-dependent ; GO:0045893
+PROSITE:MF_01274 Pantothen_kinase_3 > GO:pantothenate kinase activity ; GO:0004594
 PROSITE:MF_01275 Aldedh_Prr > GO:aminobutyraldehyde dehydrogenase activity ; GO:0019145
 PROSITE:MF_01275 Aldedh_Prr > GO:NAD binding ; GO:0051287
 PROSITE:MF_01275 Aldedh_Prr > GO:putrescine catabolic process ; GO:0009447
@@ -4403,6 +4403,9 @@ PROSITE:PS00470 IDH_IMDH > GO:magnesium ion binding ; GO:0000287
 PROSITE:PS00470 IDH_IMDH > GO:oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor ; GO:0016616
 PROSITE:PS00470 IDH_IMDH > GO:NAD binding ; GO:0051287
 PROSITE:PS00470 IDH_IMDH > GO:oxidation-reduction process ; GO:0055114
+PROSITE:PS00471 SMALL_CYTOKINES_CXC > GO:chemokine activity ; GO:0008009
+PROSITE:PS00471 SMALL_CYTOKINES_CXC > GO:immune response ; GO:0006955
+PROSITE:PS00471 SMALL_CYTOKINES_CXC > GO:extracellular region ; GO:0005576
 PROSITE:PS00472 SMALL_CYTOKINES_CC > GO:chemokine activity ; GO:0008009
 PROSITE:PS00472 SMALL_CYTOKINES_CC > GO:immune response ; GO:0006955
 PROSITE:PS00472 SMALL_CYTOKINES_CC > GO:extracellular region ; GO:0005576

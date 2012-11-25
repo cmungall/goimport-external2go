@@ -1,4 +1,4 @@
-!version date: 2012/11/17 08:53:08
+!version date: 2012/11/24 08:32:37
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -648,6 +648,7 @@ Pfam:PF00343 Phosphorylase > GO:glycogen phosphorylase activity ; GO:0008184
 Pfam:PF00343 Phosphorylase > GO:carbohydrate metabolic process ; GO:0005975
 Pfam:PF00344 SecY > GO:protein transport ; GO:0015031
 Pfam:PF00344 SecY > GO:membrane ; GO:0016020
+Pfam:PF00345 Pili_assembly_N > GO:cell wall organization ; GO:0071555
 Pfam:PF00345 Pili_assembly_N > GO:outer membrane-bounded periplasmic space ; GO:0030288
 Pfam:PF00346 Complex1_49kDa > GO:oxidoreductase activity, acting on NADH or NADPH ; GO:0016651
 Pfam:PF00346 Complex1_49kDa > GO:quinone binding ; GO:0048038
@@ -681,7 +682,6 @@ Pfam:PF00358 PTS_EIIA_1 > GO:membrane ; GO:0016020
 Pfam:PF00359 PTS_EIIA_2 > GO:sugar:hydrogen symporter activity ; GO:0005351
 Pfam:PF00359 PTS_EIIA_2 > GO:transport ; GO:0006810
 Pfam:PF00359 PTS_EIIA_2 > GO:phosphoenolpyruvate-dependent sugar phosphotransferase system ; GO:0009401
-Pfam:PF00360 PHY > GO:G-protein coupled photoreceptor activity ; GO:0008020
 Pfam:PF00360 PHY > GO:regulation of transcription, DNA-dependent ; GO:0006355
 Pfam:PF00360 PHY > GO:detection of visible light ; GO:0009584
 Pfam:PF00360 PHY > GO:protein-chromophore linkage ; GO:0018298
@@ -3607,6 +3607,8 @@ Pfam:PF02106 Fanconi_C > GO:DNA repair ; GO:0006281
 Pfam:PF02107 FlgH > GO:motor activity ; GO:0003774
 Pfam:PF02107 FlgH > GO:ciliary or flagellar motility ; GO:0001539
 Pfam:PF02107 FlgH > GO:bacterial-type flagellum basal body, distal rod, L ring ; GO:0009427
+Pfam:PF02109 DAD > GO:dolichyl-diphosphooligosaccharide-protein glycotransferase activity ; GO:0004579
+Pfam:PF02109 DAD > GO:oligosaccharyltransferase complex ; GO:0008250
 Pfam:PF02109 DAD > GO:integral to membrane ; GO:0016021
 Pfam:PF02110 HK > GO:hydroxyethylthiazole kinase activity ; GO:0004417
 Pfam:PF02110 HK > GO:thiamine biosynthetic process ; GO:0009228
@@ -4483,6 +4485,7 @@ Pfam:PF02747 PCNA_C > GO:PCNA complex ; GO:0043626
 Pfam:PF02749 QRPTase_N > GO:transferase activity, transferring pentosyl groups ; GO:0016763
 Pfam:PF02751 TFIIA_gamma_C > GO:transcription initiation from RNA polymerase II promoter ; GO:0006367
 Pfam:PF02751 TFIIA_gamma_C > GO:transcription factor TFIIA complex ; GO:0005672
+Pfam:PF02753 Pili_assembly_C > GO:cell wall organization ; GO:0071555
 Pfam:PF02753 Pili_assembly_C > GO:outer membrane-bounded periplasmic space ; GO:0030288
 Pfam:PF02761 Cbl_N2 > GO:calcium ion binding ; GO:0005509
 Pfam:PF02765 Telo_bind > GO:DNA binding ; GO:0003677
@@ -5959,7 +5962,7 @@ Pfam:PF04108 APG17 > GO:autophagy ; GO:0006914
 Pfam:PF04110 APG12 > GO:autophagic vacuole assembly ; GO:0000045
 Pfam:PF04110 APG12 > GO:cytoplasm ; GO:0005737
 Pfam:PF04111 APG6 > GO:autophagy ; GO:0006914
-Pfam:PF04113 Gpi16 > GO:integral to membrane ; GO:0016021
+Pfam:PF04113 Gpi16 > GO:attachment of GPI anchor to protein ; GO:0016255
 Pfam:PF04113 Gpi16 > GO:GPI-anchor transamidase complex ; GO:0042765
 Pfam:PF04114 Gaa1 > GO:integral to membrane ; GO:0016021
 Pfam:PF04114 Gaa1 > GO:GPI-anchor transamidase complex ; GO:0042765
@@ -7272,6 +7275,8 @@ Pfam:PF05586 Ant_C > GO:receptor activity ; GO:0004872
 Pfam:PF05586 Ant_C > GO:integral to membrane ; GO:0016021
 Pfam:PF05587 Anth_Ig > GO:receptor activity ; GO:0004872
 Pfam:PF05587 Anth_Ig > GO:integral to membrane ; GO:0016021
+Pfam:PF05615 THOC7 > GO:mRNA processing ; GO:0006397
+Pfam:PF05615 THOC7 > GO:THO complex part of transcription export complex ; GO:0000445
 Pfam:PF05622 HOOK > GO:microtubule binding ; GO:0008017
 Pfam:PF05622 HOOK > GO:microtubule cytoskeleton organization ; GO:0000226
 Pfam:PF05622 HOOK > GO:cytoplasm ; GO:0005737
@@ -8538,6 +8543,7 @@ Pfam:PF07690 MFS_1 > GO:integral to membrane ; GO:0016021
 Pfam:PF07694 5TM-5TMR_LYT > GO:two-component sensor activity ; GO:0000155
 Pfam:PF07694 5TM-5TMR_LYT > GO:protein histidine kinase activity ; GO:0004673
 Pfam:PF07694 5TM-5TMR_LYT > GO:two-component signal transduction system (phosphorelay) ; GO:0000160
+Pfam:PF07694 5TM-5TMR_LYT > GO:cell wall organization ; GO:0071555
 Pfam:PF07694 5TM-5TMR_LYT > GO:integral to membrane ; GO:0016021
 Pfam:PF07700 HNOB > GO:heme binding ; GO:0020037
 Pfam:PF07701 HNOBA > GO:guanylate cyclase activity ; GO:0004383
@@ -9142,10 +9148,7 @@ Pfam:PF08440 Poty_PP > GO:structural molecule activity ; GO:0005198
 Pfam:PF08440 Poty_PP > GO:hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides ; GO:0016818
 Pfam:PF08440 Poty_PP > GO:RNA-protein covalent cross-linking ; GO:0018144
 Pfam:PF08445 FR47 > GO:transferase activity, transferring acyl groups other than amino-acyl groups ; GO:0016747
-Pfam:PF08446 PAS_2 > GO:G-protein coupled photoreceptor activity ; GO:0008020
 Pfam:PF08446 PAS_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
-Pfam:PF08446 PAS_2 > GO:detection of visible light ; GO:0009584
-Pfam:PF08446 PAS_2 > GO:protein-chromophore linkage ; GO:0018298
 Pfam:PF08447 PAS_3 > GO:protein binding ; GO:0005515
 Pfam:PF08449 UAA > GO:transmembrane transport ; GO:0055085
 Pfam:PF08451 A_deaminase_N > GO:extracellular space ; GO:0005615
@@ -10048,6 +10051,8 @@ Pfam:PF10484 MRP-S23 > GO:translation ; GO:0006412
 Pfam:PF10484 MRP-S23 > GO:ribosome ; GO:0005840
 Pfam:PF10501 Ribosomal_L50 > GO:mitochondrion ; GO:0005739
 Pfam:PF10508 Proteasom_PSMB > GO:protein binding involved in protein folding ; GO:0044183
+Pfam:PF10510 PIG-S > GO:attachment of GPI anchor to protein ; GO:0016255
+Pfam:PF10510 PIG-S > GO:GPI-anchor transamidase complex ; GO:0042765
 Pfam:PF10538 ITAM_Cys-rich > GO:signal transduction ; GO:0007165
 Pfam:PF10541 KASH > GO:actin binding ; GO:0003779
 Pfam:PF10541 KASH > GO:integral to membrane ; GO:0016021
@@ -10203,7 +10208,6 @@ Pfam:PF11806 DUF3327 > GO:enterochelin esterase activity ; GO:0008849
 Pfam:PF11806 DUF3327 > GO:iron ion transport ; GO:0006826
 Pfam:PF11806 DUF3327 > GO:cytoplasm ; GO:0005737
 Pfam:PF11808 DUF3329 > GO:protein histidine kinase activity ; GO:0004673
-Pfam:PF11825 Nuc_recep-AF1 > GO:protein binding ; GO:0005515
 Pfam:PF11837 DUF3357 > GO:beta-fructofuranosidase activity ; GO:0004564
 Pfam:PF11837 DUF3357 > GO:sucrose alpha-glucosidase activity ; GO:0004575
 Pfam:PF11851 DUF3371 > GO:regulation of transcription, DNA-dependent ; GO:0006355
@@ -10216,6 +10220,7 @@ Pfam:PF11889 DUF3409 > GO:hydrolase activity, acting on acid anhydrides ; GO:001
 Pfam:PF11889 DUF3409 > GO:nucleoside-triphosphatase activity ; GO:0017111
 Pfam:PF11889 DUF3409 > GO:serine-type exopeptidase activity ; GO:0070008
 Pfam:PF11890 DUF3410 > GO:protein dimerization activity ; GO:0046983
+Pfam:PF11894 DUF3414 > GO:nuclear pore ; GO:0005643
 Pfam:PF11896 DUF3416 > GO:hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553
 Pfam:PF11909 NdhN > GO:oxidoreductase activity, acting on NADH or NADPH, quinone or similar compound as acceptor ; GO:0016655
 Pfam:PF11909 NdhN > GO:oxidation-reduction process ; GO:0055114
@@ -10249,6 +10254,9 @@ Pfam:PF12090 Spt20 > GO:transcription cofactor activity ; GO:0003712
 Pfam:PF12090 Spt20 > GO:SAGA complex ; GO:0000124
 Pfam:PF12105 SpoU_methylas_C > GO:tRNA (guanosine-2'-O-)-methyltransferase activity ; GO:0009020
 Pfam:PF12106 Colicin_C > GO:ribonuclease activity ; GO:0004540
+Pfam:PF12109 CXCR4_N > GO:chemokine receptor activity ; GO:0004950
+Pfam:PF12109 CXCR4_N > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+Pfam:PF12109 CXCR4_N > GO:integral to membrane ; GO:0016021
 Pfam:PF12122 DUF3582 > GO:serine-type endopeptidase activity ; GO:0004252
 Pfam:PF12122 DUF3582 > GO:integral to membrane ; GO:0016021
 Pfam:PF12124 Nsp3_PL2pro > GO:cysteine-type endopeptidase activity ; GO:0004197

@@ -1,4 +1,4 @@
-!version date: 2012/11/17 08:53:08
+!version date: 2012/11/24 08:33:14
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -15,6 +15,8 @@ PRINTS:PR00005 APPLEDOMAIN > GO:protein binding ; GO:0005515
 PRINTS:PR00005 APPLEDOMAIN > GO:proteolysis ; GO:0006508
 PRINTS:PR00005 APPLEDOMAIN > GO:blood coagulation ; GO:0007596
 PRINTS:PR00005 APPLEDOMAIN > GO:extracellular region ; GO:0005576
+PRINTS:PR00006 COFILIN > GO:actin filament depolymerization ; GO:0030042
+PRINTS:PR00006 COFILIN > GO:actin cytoskeleton ; GO:0015629
 PRINTS:PR00014 FNTYPEIII > GO:protein binding ; GO:0005515
 PRINTS:PR00020 MAMDOMAIN > GO:membrane ; GO:0016020
 PRINTS:PR00022 SOMATOMEDINB > GO:scavenger receptor activity ; GO:0005044
@@ -907,8 +909,11 @@ PRINTS:PR00426 C5ANPHYLTXNR > GO:C5a anaphylatoxin receptor activity ; GO:000494
 PRINTS:PR00426 C5ANPHYLTXNR > GO:chemotaxis ; GO:0006935
 PRINTS:PR00426 C5ANPHYLTXNR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00426 C5ANPHYLTXNR > GO:integral to membrane ; GO:0016021
-PRINTS:PR00427 INTRLEUKIN8R > GO:interleukin-8 receptor activity ; GO:0004918
+PRINTS:PR00427 INTRLEUKIN8R > GO:C-X-C chemokine receptor activity ; GO:0016494
 PRINTS:PR00427 INTRLEUKIN8R > GO:chemotaxis ; GO:0006935
+PRINTS:PR00427 INTRLEUKIN8R > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR00427 INTRLEUKIN8R > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
+PRINTS:PR00427 INTRLEUKIN8R > GO:negative regulation of cAMP biosynthetic process ; GO:0030818
 PRINTS:PR00427 INTRLEUKIN8R > GO:integral to membrane ; GO:0016021
 PRINTS:PR00428 PROSTAGLNDNR > GO:prostaglandin receptor activity ; GO:0004955
 PRINTS:PR00428 PROSTAGLNDNR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
@@ -1287,7 +1292,10 @@ PRINTS:PR00563 ADRENRGCB3AR > GO:beta-adrenergic receptor activity ; GO:0004939
 PRINTS:PR00563 ADRENRGCB3AR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00563 ADRENRGCB3AR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00564 CXCCHMKINER5 > GO:C-X-C chemokine receptor activity ; GO:0016494
+PRINTS:PR00564 CXCCHMKINER5 > GO:chemotaxis ; GO:0006935
 PRINTS:PR00564 CXCCHMKINER5 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR00564 CXCCHMKINER5 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
+PRINTS:PR00564 CXCCHMKINER5 > GO:B cell activation ; GO:0042113
 PRINTS:PR00564 CXCCHMKINER5 > GO:integral to membrane ; GO:0016021
 PRINTS:PR00565 DOPAMINED1AR > GO:dopamine receptor activity ; GO:0004952
 PRINTS:PR00565 DOPAMINED1AR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
@@ -1310,11 +1318,18 @@ PRINTS:PR00570 ENDOTHELINAR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00571 ENDOTHELINBR > GO:endothelin receptor activity ; GO:0004962
 PRINTS:PR00571 ENDOTHELINBR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00571 ENDOTHELINBR > GO:integral to membrane ; GO:0016021
-PRINTS:PR00572 INTRLEUKN8AR > GO:interleukin-8 receptor activity ; GO:0004918
+PRINTS:PR00572 INTRLEUKN8AR > GO:C-X-C chemokine receptor activity ; GO:0016494
 PRINTS:PR00572 INTRLEUKN8AR > GO:chemotaxis ; GO:0006935
+PRINTS:PR00572 INTRLEUKN8AR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR00572 INTRLEUKN8AR > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
+PRINTS:PR00572 INTRLEUKN8AR > GO:negative regulation of cAMP biosynthetic process ; GO:0030818
+PRINTS:PR00572 INTRLEUKN8AR > GO:activation of phospholipase D activity ; GO:0031584
 PRINTS:PR00572 INTRLEUKN8AR > GO:integral to membrane ; GO:0016021
-PRINTS:PR00573 INTRLEUKN8BR > GO:interleukin-8 receptor activity ; GO:0004918
+PRINTS:PR00573 INTRLEUKN8BR > GO:C-X-C chemokine receptor activity ; GO:0016494
 PRINTS:PR00573 INTRLEUKN8BR > GO:chemotaxis ; GO:0006935
+PRINTS:PR00573 INTRLEUKN8BR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR00573 INTRLEUKN8BR > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
+PRINTS:PR00573 INTRLEUKN8BR > GO:negative regulation of cAMP biosynthetic process ; GO:0030818
 PRINTS:PR00573 INTRLEUKN8BR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00574 OPSINBLUE > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00574 OPSINBLUE > GO:phototransduction ; GO:0007602
@@ -1495,7 +1510,10 @@ PRINTS:PR00640 GASTRINRELPR > GO:bombesin receptor activity ; GO:0004946
 PRINTS:PR00640 GASTRINRELPR > GO:bombesin receptor signaling pathway ; GO:0031989
 PRINTS:PR00640 GASTRINRELPR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00641 CHEMOKINER7 > GO:C-C chemokine receptor activity ; GO:0016493
+PRINTS:PR00641 CHEMOKINER7 > GO:chemotaxis ; GO:0006935
+PRINTS:PR00641 CHEMOKINER7 > GO:immune response ; GO:0006955
 PRINTS:PR00641 CHEMOKINER7 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR00641 CHEMOKINER7 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR00641 CHEMOKINER7 > GO:integral to membrane ; GO:0016021
 PRINTS:PR00642 EDG1RECEPTOR > GO:sphingosine-1-phosphate receptor activity ; GO:0038036
 PRINTS:PR00642 EDG1RECEPTOR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
@@ -1506,7 +1524,10 @@ PRINTS:PR00644 GPRORPHANR > GO:G-protein coupled receptor activity ; GO:0004930
 PRINTS:PR00644 GPRORPHANR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00644 GPRORPHANR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00645 CXCCHMKINER4 > GO:C-X-C chemokine receptor activity ; GO:0016494
+PRINTS:PR00645 CXCCHMKINER4 > GO:chemotaxis ; GO:0006935
 PRINTS:PR00645 CXCCHMKINER4 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR00645 CXCCHMKINER4 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
+PRINTS:PR00645 CXCCHMKINER4 > GO:neutrophil activation ; GO:0042119
 PRINTS:PR00645 CXCCHMKINER4 > GO:integral to membrane ; GO:0016021
 PRINTS:PR00646 RDC1ORPHANR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00646 RDC1ORPHANR > GO:integral to membrane ; GO:0016021
@@ -1536,6 +1557,7 @@ PRINTS:PR00655 AUXINBINDNGP > GO:receptor activity ; GO:0004872
 PRINTS:PR00655 AUXINBINDNGP > GO:endoplasmic reticulum lumen ; GO:0005788
 PRINTS:PR00656 BCHLROPHYLLC > GO:photosynthesis ; GO:0015979
 PRINTS:PR00657 CCCHEMOKINER > GO:chemokine receptor activity ; GO:0004950
+PRINTS:PR00657 CCCHEMOKINER > GO:chemotaxis ; GO:0006935
 PRINTS:PR00657 CCCHEMOKINER > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00657 CCCHEMOKINER > GO:integral to membrane ; GO:0016021
 PRINTS:PR00658 CD44 > GO:cell adhesion ; GO:0007155
@@ -2198,6 +2220,7 @@ PRINTS:PR00967 ONCOGENEAML1 > GO:ATP binding ; GO:0005524
 PRINTS:PR00967 ONCOGENEAML1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PRINTS:PR00967 ONCOGENEAML1 > GO:nucleus ; GO:0005634
 PRINTS:PR00968 OUTRSURFACE > GO:cell outer membrane ; GO:0009279
+PRINTS:PR00969 CHAPERONPILI > GO:cell wall organization ; GO:0071555
 PRINTS:PR00969 CHAPERONPILI > GO:outer membrane-bounded periplasmic space ; GO:0030288
 PRINTS:PR00970 RIBTRNSFRASE > GO:NAD(P)+-protein-arginine ADP-ribosyltransferase activity ; GO:0003956
 PRINTS:PR00970 RIBTRNSFRASE > GO:protein ADP-ribosylation ; GO:0006471
@@ -2376,7 +2399,6 @@ PRINTS:PR01030 PENKBPRCRSR > GO:neuropeptide signaling pathway ; GO:0007218
 PRINTS:PR01031 ORPHNNPRCRSR > GO:neuropeptide signaling pathway ; GO:0007218
 PRINTS:PR01031 ORPHNNPRCRSR > GO:synaptic transmission ; GO:0007268
 PRINTS:PR01032 PHAGEIV > GO:membrane ; GO:0016020
-PRINTS:PR01033 PHYTOCHROME > GO:G-protein coupled photoreceptor activity ; GO:0008020
 PRINTS:PR01033 PHYTOCHROME > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PRINTS:PR01033 PHYTOCHROME > GO:detection of visible light ; GO:0009584
 PRINTS:PR01034 RIBOSOMALS12 > GO:structural constituent of ribosome ; GO:0003735
@@ -2601,22 +2623,43 @@ PRINTS:PR01104 ANPHYLATOXNR > GO:chemotaxis ; GO:0006935
 PRINTS:PR01104 ANPHYLATOXNR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01104 ANPHYLATOXNR > GO:integral to membrane ; GO:0016021
 PRINTS:PR01105 CXCCHMKINER6 > GO:C-X-C chemokine receptor activity ; GO:0016494
+PRINTS:PR01105 CXCCHMKINER6 > GO:chemotaxis ; GO:0006935
 PRINTS:PR01105 CXCCHMKINER6 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01105 CXCCHMKINER6 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR01105 CXCCHMKINER6 > GO:integral to membrane ; GO:0016021
 PRINTS:PR01106 CHEMOKINER1 > GO:C-C chemokine receptor activity ; GO:0016493
+PRINTS:PR01106 CHEMOKINER1 > GO:activation of MAPK activity ; GO:0000187
+PRINTS:PR01106 CHEMOKINER1 > GO:chemotaxis ; GO:0006935
+PRINTS:PR01106 CHEMOKINER1 > GO:immune response ; GO:0006955
 PRINTS:PR01106 CHEMOKINER1 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01106 CHEMOKINER1 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR01106 CHEMOKINER1 > GO:integral to membrane ; GO:0016021
 PRINTS:PR01107 CHEMOKINER2 > GO:C-C chemokine receptor activity ; GO:0016493
+PRINTS:PR01107 CHEMOKINER2 > GO:chemotaxis ; GO:0006935
+PRINTS:PR01107 CHEMOKINER2 > GO:immune response ; GO:0006955
 PRINTS:PR01107 CHEMOKINER2 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01107 CHEMOKINER2 > GO:negative regulation of adenylate cyclase activity ; GO:0007194
+PRINTS:PR01107 CHEMOKINER2 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
+PRINTS:PR01107 CHEMOKINER2 > GO:negative regulation of cAMP biosynthetic process ; GO:0030818
 PRINTS:PR01107 CHEMOKINER2 > GO:integral to membrane ; GO:0016021
 PRINTS:PR01108 CHEMOKINER3 > GO:C-C chemokine receptor activity ; GO:0016493
+PRINTS:PR01108 CHEMOKINER3 > GO:activation of MAPK activity ; GO:0000187
+PRINTS:PR01108 CHEMOKINER3 > GO:chemotaxis ; GO:0006935
 PRINTS:PR01108 CHEMOKINER3 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01108 CHEMOKINER3 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR01108 CHEMOKINER3 > GO:integral to membrane ; GO:0016021
 PRINTS:PR01109 CHEMOKINER4 > GO:C-C chemokine receptor activity ; GO:0016493
+PRINTS:PR01109 CHEMOKINER4 > GO:chemotaxis ; GO:0006935
+PRINTS:PR01109 CHEMOKINER4 > GO:immune response ; GO:0006955
 PRINTS:PR01109 CHEMOKINER4 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01109 CHEMOKINER4 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR01109 CHEMOKINER4 > GO:integral to membrane ; GO:0016021
 PRINTS:PR01110 CHEMOKINER5 > GO:C-C chemokine receptor activity ; GO:0016493
+PRINTS:PR01110 CHEMOKINER5 > GO:chemotaxis ; GO:0006935
+PRINTS:PR01110 CHEMOKINER5 > GO:immune response ; GO:0006955
 PRINTS:PR01110 CHEMOKINER5 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01110 CHEMOKINER5 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
+PRINTS:PR01110 CHEMOKINER5 > GO:negative regulation of cAMP biosynthetic process ; GO:0030818
 PRINTS:PR01110 CHEMOKINER5 > GO:integral to membrane ; GO:0016021
 PRINTS:PR01111 CLCHANNEL0 > GO:voltage-gated chloride channel activity ; GO:0005247
 PRINTS:PR01111 CLCHANNEL0 > GO:chloride transport ; GO:0006821
@@ -3664,16 +3707,27 @@ PRINTS:PR01528 EDG4RECEPTOR > GO:lysophosphatidic acid receptor activity ; GO:00
 PRINTS:PR01528 EDG4RECEPTOR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01528 EDG4RECEPTOR > GO:integral to membrane ; GO:0016021
 PRINTS:PR01529 CHEMOKINER6 > GO:C-C chemokine receptor activity ; GO:0016493
+PRINTS:PR01529 CHEMOKINER6 > GO:chemotaxis ; GO:0006935
+PRINTS:PR01529 CHEMOKINER6 > GO:immune response ; GO:0006955
 PRINTS:PR01529 CHEMOKINER6 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01529 CHEMOKINER6 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR01529 CHEMOKINER6 > GO:integral to membrane ; GO:0016021
 PRINTS:PR01530 CHEMOKINER8 > GO:C-C chemokine receptor activity ; GO:0016493
+PRINTS:PR01530 CHEMOKINER8 > GO:chemotaxis ; GO:0006935
+PRINTS:PR01530 CHEMOKINER8 > GO:immune response ; GO:0006955
 PRINTS:PR01530 CHEMOKINER8 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01530 CHEMOKINER8 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR01530 CHEMOKINER8 > GO:integral to membrane ; GO:0016021
 PRINTS:PR01531 CHEMOKINER9 > GO:C-C chemokine receptor activity ; GO:0016493
+PRINTS:PR01531 CHEMOKINER9 > GO:chemotaxis ; GO:0006935
+PRINTS:PR01531 CHEMOKINER9 > GO:immune response ; GO:0006955
 PRINTS:PR01531 CHEMOKINER9 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01531 CHEMOKINER9 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR01531 CHEMOKINER9 > GO:integral to membrane ; GO:0016021
 PRINTS:PR01532 CXCCHMKINER3 > GO:C-X-C chemokine receptor activity ; GO:0016494
+PRINTS:PR01532 CXCCHMKINER3 > GO:chemotaxis ; GO:0006935
 PRINTS:PR01532 CXCCHMKINER3 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01532 CXCCHMKINER3 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR01532 CXCCHMKINER3 > GO:integral to membrane ; GO:0016021
 PRINTS:PR01533 CYSLTRECPTR > GO:leukotriene receptor activity ; GO:0004974
 PRINTS:PR01533 CYSLTRECPTR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
@@ -3714,7 +3768,9 @@ PRINTS:PR01554 FIMREGULATRY > GO:regulation of transcription, DNA-dependent ; GO
 PRINTS:PR01555 FIMBRIALPAPE > GO:cell adhesion ; GO:0007155
 PRINTS:PR01555 FIMBRIALPAPE > GO:pilus ; GO:0009289
 PRINTS:PR01557 CHEMOKINER10 > GO:C-C chemokine receptor activity ; GO:0016493
+PRINTS:PR01557 CHEMOKINER10 > GO:chemotaxis ; GO:0006935
 PRINTS:PR01557 CHEMOKINER10 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01557 CHEMOKINER10 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR01557 CHEMOKINER10 > GO:integral to membrane ; GO:0016021
 PRINTS:PR01558 CHEMOKINER11 > GO:C-C chemokine receptor activity ; GO:0016493
 PRINTS:PR01558 CHEMOKINER11 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
@@ -3728,8 +3784,11 @@ PRINTS:PR01560 EDG7RECEPTOR > GO:integral to membrane ; GO:0016021
 PRINTS:PR01561 EDG8RECEPTOR > GO:sphingosine-1-phosphate receptor activity ; GO:0038036
 PRINTS:PR01561 EDG8RECEPTOR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01561 EDG8RECEPTOR > GO:integral to membrane ; GO:0016021
-PRINTS:PR01562 FRACTALKINER > GO:chemokine receptor activity ; GO:0004950
+PRINTS:PR01562 FRACTALKINER > GO:C-X3-C chemokine receptor activity ; GO:0016495
+PRINTS:PR01562 FRACTALKINER > GO:chemotaxis ; GO:0006935
+PRINTS:PR01562 FRACTALKINER > GO:cell adhesion ; GO:0007155
 PRINTS:PR01562 FRACTALKINER > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01562 FRACTALKINER > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR01562 FRACTALKINER > GO:integral to membrane ; GO:0016021
 PRINTS:PR01563 G2ARECEPTOR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01563 G2ARECEPTOR > GO:integral to membrane ; GO:0016021
@@ -3745,7 +3804,9 @@ PRINTS:PR01567 NEUROMEDNU2R > GO:neuromedin U receptor activity ; GO:0001607
 PRINTS:PR01567 NEUROMEDNU2R > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01567 NEUROMEDNU2R > GO:integral to membrane ; GO:0016021
 PRINTS:PR01568 LYMPHOTACTNR > GO:chemokine receptor activity ; GO:0004950
+PRINTS:PR01568 LYMPHOTACTNR > GO:chemotaxis ; GO:0006935
 PRINTS:PR01568 LYMPHOTACTNR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01568 LYMPHOTACTNR > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR01568 LYMPHOTACTNR > GO:integral to membrane ; GO:0016021
 PRINTS:PR01569 P2Y12PRNCPTR > GO:G-protein coupled purinergic nucleotide receptor activity ; GO:0045028
 PRINTS:PR01569 P2Y12PRNCPTR > GO:G-protein coupled purinergic nucleotide receptor signaling pathway ; GO:0035589

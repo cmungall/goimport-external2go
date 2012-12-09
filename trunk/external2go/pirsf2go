@@ -1,4 +1,4 @@
-!version date: 2012/11/24 08:33:23
+!version date: 2012/12/08 08:12:50
 !description: Mapping of GO terms to PIRSF entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pir.georgetown.edu/pirsf/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -820,9 +820,9 @@ PIRSF:PIRSF000858 SCOT-t > GO:CoA-transferase activity ; GO:0008410
 PIRSF:PIRSF000858 SCOT-t > GO:ketone body catabolic process ; GO:0046952
 PIRSF:PIRSF000862 Steryl_ester_lip > GO:hydrolase activity, acting on ester bonds ; GO:0016788
 PIRSF:PIRSF000868 14-3-3 > GO:protein domain specific binding ; GO:0019904
-PIRSF:PIRSF000876 RR_chemtxs_CheB > GO:two-component response regulator activity ; GO:0000156
+PIRSF:PIRSF000876 RR_chemtxs_CheB > GO:phosphorelay response regulator activity ; GO:0000156
 PIRSF:PIRSF000876 RR_chemtxs_CheB > GO:protein-glutamate methylesterase activity ; GO:0008984
-PIRSF:PIRSF000876 RR_chemtxs_CheB > GO:two-component signal transduction system (phosphorelay) ; GO:0000160
+PIRSF:PIRSF000876 RR_chemtxs_CheB > GO:phosphorelay signal transduction system ; GO:0000160
 PIRSF:PIRSF000876 RR_chemtxs_CheB > GO:chemotaxis ; GO:0006935
 PIRSF:PIRSF000876 RR_chemtxs_CheB > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF000882 DSB_repair_MRE11 > GO:exonuclease activity ; GO:0004527
@@ -1275,7 +1275,7 @@ PIRSF:PIRSF001997 PTPRR > GO:protein dephosphorylation ; GO:0006470
 PIRSF:PIRSF002004 Leukocyte_common_antigen > GO:protein tyrosine phosphatase activity ; GO:0004725
 PIRSF:PIRSF002004 Leukocyte_common_antigen > GO:T cell receptor signaling pathway ; GO:0050852
 PIRSF:PIRSF002006 PTPR_alpha_epsilon > GO:protein tyrosine phosphatase activity ; GO:0004725
-PIRSF:PIRSF002006 PTPR_alpha_epsilon > GO:protein phosphorylation ; GO:0006468
+PIRSF:PIRSF002006 PTPR_alpha_epsilon > GO:protein dephosphorylation ; GO:0006470
 PIRSF:PIRSF002023 PLA2_inhib_alpha/gamma > GO:phospholipase A2 inhibitor activity ; GO:0019834
 PIRSF:PIRSF002023 PLA2_inhib_alpha/gamma > GO:regulation of phospholipase A2 activity ; GO:0032429
 PIRSF:PIRSF002026 Nematode_globin > GO:iron ion binding ; GO:0005506
@@ -1436,9 +1436,9 @@ PIRSF:PIRSF002583 Hsp90 > GO:ATP binding ; GO:0005524
 PIRSF:PIRSF002583 Hsp90 > GO:unfolded protein binding ; GO:0051082
 PIRSF:PIRSF002583 Hsp90 > GO:protein folding ; GO:0006457
 PIRSF:PIRSF002583 Hsp90 > GO:response to stress ; GO:0006950
-PIRSF:PIRSF002595 RR_SKN7 > GO:two-component response regulator activity ; GO:0000156
+PIRSF:PIRSF002595 RR_SKN7 > GO:phosphorelay response regulator activity ; GO:0000156
 PIRSF:PIRSF002595 RR_SKN7 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PIRSF:PIRSF002595 RR_SKN7 > GO:two-component signal transduction system (phosphorelay) ; GO:0000160
+PIRSF:PIRSF002595 RR_SKN7 > GO:phosphorelay signal transduction system ; GO:0000160
 PIRSF:PIRSF002595 RR_SKN7 > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PIRSF:PIRSF002595 RR_SKN7 > GO:response to stress ; GO:0006950
 PIRSF:PIRSF002595 RR_SKN7 > GO:nucleus ; GO:0005634
@@ -1486,7 +1486,7 @@ PIRSF:PIRSF002936 CysDAde_trans > GO:sulfate adenylyltransferase (ATP) activity 
 PIRSF:PIRSF002936 CysDAde_trans > GO:sulfate reduction ; GO:0019419
 PIRSF:PIRSF002937 Res_reg_Spo0A > GO:DNA binding ; GO:0003677
 PIRSF:PIRSF002937 Res_reg_Spo0A > GO:calcium ion binding ; GO:0005509
-PIRSF:PIRSF002937 Res_reg_Spo0A > GO:two-component signal transduction system (phosphorelay) ; GO:0000160
+PIRSF:PIRSF002937 Res_reg_Spo0A > GO:phosphorelay signal transduction system ; GO:0000160
 PIRSF:PIRSF002937 Res_reg_Spo0A > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PIRSF:PIRSF002937 Res_reg_Spo0A > GO:regulation of sporulation resulting in formation of a cellular spore ; GO:0042173
 PIRSF:PIRSF002937 Res_reg_Spo0A > GO:detection of stimulus involved in sensory perception ; GO:0050906
@@ -1545,16 +1545,16 @@ PIRSF:PIRSF003161 FliG > GO:motor activity ; GO:0003774
 PIRSF:PIRSF003161 FliG > GO:ciliary or flagellar motility ; GO:0001539
 PIRSF:PIRSF003161 FliG > GO:chemotaxis ; GO:0006935
 PIRSF:PIRSF003161 FliG > GO:bacterial-type flagellum ; GO:0009288
-PIRSF:PIRSF003167 STHK_NarX/NarQ > GO:two-component sensor activity ; GO:0000155
+PIRSF:PIRSF003167 STHK_NarX/NarQ > GO:phosphorelay sensor kinase activity ; GO:0000155
 PIRSF:PIRSF003167 STHK_NarX/NarQ > GO:protein histidine kinase activity ; GO:0004673
-PIRSF:PIRSF003167 STHK_NarX/NarQ > GO:two-component signal transduction system (phosphorelay) ; GO:0000160
+PIRSF:PIRSF003167 STHK_NarX/NarQ > GO:phosphorelay signal transduction system ; GO:0000160
 PIRSF:PIRSF003167 STHK_NarX/NarQ > GO:integral to membrane ; GO:0016021
-PIRSF:PIRSF003169 STHK_DegS > GO:two-component sensor activity ; GO:0000155
+PIRSF:PIRSF003169 STHK_DegS > GO:phosphorelay sensor kinase activity ; GO:0000155
 PIRSF:PIRSF003169 STHK_DegS > GO:protein histidine kinase activity ; GO:0004673
-PIRSF:PIRSF003169 STHK_DegS > GO:two-component signal transduction system (phosphorelay) ; GO:0000160
-PIRSF:PIRSF003182 ArcB > GO:two-component sensor activity ; GO:0000155
+PIRSF:PIRSF003169 STHK_DegS > GO:phosphorelay signal transduction system ; GO:0000160
+PIRSF:PIRSF003182 ArcB > GO:phosphorelay sensor kinase activity ; GO:0000155
 PIRSF:PIRSF003182 ArcB > GO:protein histidine kinase activity ; GO:0004673
-PIRSF:PIRSF003182 ArcB > GO:two-component signal transduction system (phosphorelay) ; GO:0000160
+PIRSF:PIRSF003182 ArcB > GO:phosphorelay signal transduction system ; GO:0000160
 PIRSF:PIRSF003182 ArcB > GO:integral to membrane ; GO:0016021
 PIRSF:PIRSF003196 Trp_repressor > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PIRSF:PIRSF003217 Cro_protein > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
@@ -2069,7 +2069,7 @@ PIRSF:PIRSF006698 Septin > GO:septin complex ; GO:0031105
 PIRSF:PIRSF006704 TF_IIS > GO:regulation of transcription from RNA polymerase II promoter ; GO:0006357
 PIRSF:PIRSF006704 TF_IIS > GO:regulation of DNA-dependent transcription, elongation ; GO:0032784
 PIRSF:PIRSF006743 Exonuclease_Xnr1 > GO:5'-3' exonuclease activity ; GO:0008409
-PIRSF:PIRSF006743 Exonuclease_Xnr1 > GO:nucleobase-containing compound metabolic process ; GO:0006139
+PIRSF:PIRSF006743 Exonuclease_Xnr1 > GO:nuclear-transcribed mRNA catabolic process ; GO:0000956
 PIRSF:PIRSF006748 p53_MDM_2/4 > GO:negative regulation of apoptotic process ; GO:0043066
 PIRSF:PIRSF006748 p53_MDM_2/4 > GO:negative regulation of cell cycle arrest ; GO:0071157
 PIRSF:PIRSF006748 p53_MDM_2/4 > GO:nucleus ; GO:0005634
@@ -2515,7 +2515,6 @@ PIRSF:PIRSF017199 mRNA_splic_U5 > GO:mitosis ; GO:0007067
 PIRSF:PIRSF017199 mRNA_splic_U5 > GO:spliceosomal complex ; GO:0005681
 PIRSF:PIRSF017205 ERO1 > GO:oxidoreductase activity, acting on a sulfur group of donors, disulfide as acceptor ; GO:0016671
 PIRSF:PIRSF017205 ERO1 > GO:flavin adenine dinucleotide binding ; GO:0050660
-PIRSF:PIRSF017205 ERO1 > GO:protein thiol-disulfide exchange ; GO:0006467
 PIRSF:PIRSF017205 ERO1 > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF017205 ERO1 > GO:endoplasmic reticulum membrane ; GO:0005789
 PIRSF:PIRSF017228 Sphnglp_dlt4_des > GO:oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen ; GO:0016705
@@ -2713,7 +2712,7 @@ PIRSF:PIRSF025648 DDH > GO:lysine biosynthetic process via diaminopimelate ; GO:
 PIRSF:PIRSF025798 Cables > GO:cyclin-dependent protein kinase regulator activity ; GO:0016538
 PIRSF:PIRSF025798 Cables > GO:regulation of cell division ; GO:0051302
 PIRSF:PIRSF025798 Cables > GO:regulation of cell cycle ; GO:0051726
-PIRSF:PIRSF026389 Ethyln_sen_HK > GO:two-component sensor activity ; GO:0000155
+PIRSF:PIRSF026389 Ethyln_sen_HK > GO:phosphorelay sensor kinase activity ; GO:0000155
 PIRSF:PIRSF026389 Ethyln_sen_HK > GO:protein histidine kinase activity ; GO:0004673
 PIRSF:PIRSF026389 Ethyln_sen_HK > GO:ethylene mediated signaling pathway ; GO:0009873
 PIRSF:PIRSF026389 Ethyln_sen_HK > GO:endoplasmic reticulum membrane ; GO:0005789
@@ -2922,9 +2921,9 @@ PIRSF:PIRSF036429 P5C_syn > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF036432 Diphthine_synth > GO:diphthine synthase activity ; GO:0004164
 PIRSF:PIRSF036432 Diphthine_synth > GO:peptidyl-diphthamide biosynthetic process from peptidyl-histidine ; GO:0017183
 PIRSF:PIRSF036436 UCP036436 > GO:integral to membrane ; GO:0016021
-PIRSF:PIRSF036437 HK_TorS > GO:two-component sensor activity ; GO:0000155
+PIRSF:PIRSF036437 HK_TorS > GO:phosphorelay sensor kinase activity ; GO:0000155
 PIRSF:PIRSF036437 HK_TorS > GO:protein histidine kinase activity ; GO:0004673
-PIRSF:PIRSF036437 HK_TorS > GO:two-component signal transduction system (phosphorelay) ; GO:0000160
+PIRSF:PIRSF036437 HK_TorS > GO:phosphorelay signal transduction system ; GO:0000160
 PIRSF:PIRSF036437 HK_TorS > GO:integral to membrane ; GO:0016021
 PIRSF:PIRSF036440 ARG5-6 > GO:N-acetyl-gamma-glutamyl-phosphate reductase activity ; GO:0003942
 PIRSF:PIRSF036440 ARG5-6 > GO:acetylglutamate kinase activity ; GO:0003991
@@ -3253,11 +3252,11 @@ PIRSF:PIRSF037404 DNMT1 > GO:nucleus ; GO:0005634
 PIRSF:PIRSF037430 RNase_U2 > GO:RNA binding ; GO:0003723
 PIRSF:PIRSF037430 RNase_U2 > GO:ribonuclease activity ; GO:0004540
 PIRSF:PIRSF037430 RNase_U2 > GO:negative regulation of translation ; GO:0017148
-PIRSF:PIRSF037431 STHK_LiaS > GO:two-component sensor activity ; GO:0000155
+PIRSF:PIRSF037431 STHK_LiaS > GO:phosphorelay sensor kinase activity ; GO:0000155
 PIRSF:PIRSF037431 STHK_LiaS > GO:protein histidine kinase activity ; GO:0004673
-PIRSF:PIRSF037431 STHK_LiaS > GO:two-component signal transduction system (phosphorelay) ; GO:0000160
+PIRSF:PIRSF037431 STHK_LiaS > GO:phosphorelay signal transduction system ; GO:0000160
 PIRSF:PIRSF037431 STHK_LiaS > GO:integral to membrane ; GO:0016021
-PIRSF:PIRSF037432 STHK_NreB > GO:two-component sensor activity ; GO:0000155
+PIRSF:PIRSF037432 STHK_NreB > GO:phosphorelay sensor kinase activity ; GO:0000155
 PIRSF:PIRSF037432 STHK_NreB > GO:protein histidine kinase activity ; GO:0004673
 PIRSF:PIRSF037432 STHK_NreB > GO:iron ion binding ; GO:0005506
 PIRSF:PIRSF037432 STHK_NreB > GO:ATP binding ; GO:0005524
@@ -3295,8 +3294,8 @@ PIRSF:PIRSF037568 Rho_kinase > GO:protein serine/threonine kinase activity ; GO:
 PIRSF:PIRSF037568 Rho_kinase > GO:protein phosphorylation ; GO:0006468
 PIRSF:PIRSF037579 MAPKKK_SSK22 > GO:protein serine/threonine kinase activity ; GO:0004674
 PIRSF:PIRSF037595 Toll-like_receptor > GO:transmembrane signaling receptor activity ; GO:0004888
+PIRSF:PIRSF037595 Toll-like_receptor > GO:toll-like receptor signaling pathway ; GO:0002224
 PIRSF:PIRSF037595 Toll-like_receptor > GO:immune response ; GO:0006955
-PIRSF:PIRSF037595 Toll-like_receptor > GO:signal transduction ; GO:0007165
 PIRSF:PIRSF037595 Toll-like_receptor > GO:integral to membrane ; GO:0016021
 PIRSF:PIRSF037599 GDPMH > GO:GDP-mannose mannosyl hydrolase activity ; GO:0008727
 PIRSF:PIRSF037599 GDPMH > GO:lipopolysaccharide biosynthetic process ; GO:0009103
@@ -3491,11 +3490,9 @@ PIRSF:PIRSF038149 Pyruvate_Pi_dikinase_regulator > GO:phosphotransferase activit
 PIRSF:PIRSF038149 Pyruvate_Pi_dikinase_regulator > GO:chloroplast ; GO:0009507
 PIRSF:PIRSF038150 Metaxin > GO:protein targeting to mitochondrion ; GO:0006626
 PIRSF:PIRSF038150 Metaxin > GO:mitochondrial outer membrane ; GO:0005741
-PIRSF:PIRSF038165 MAPKKK12_MAPKKK13 > GO:magnesium ion binding ; GO:0000287
 PIRSF:PIRSF038165 MAPKKK12_MAPKKK13 > GO:MAP kinase kinase kinase activity ; GO:0004709
 PIRSF:PIRSF038165 MAPKKK12_MAPKKK13 > GO:ATP binding ; GO:0005524
-PIRSF:PIRSF038165 MAPKKK12_MAPKKK13 > GO:protein homodimerization activity ; GO:0042803
-PIRSF:PIRSF038165 MAPKKK12_MAPKKK13 > GO:protein phosphorylation ; GO:0006468
+PIRSF:PIRSF038165 MAPKKK12_MAPKKK13 > GO:activation of MAPKK activity ; GO:0000186
 PIRSF:PIRSF038165 MAPKKK12_MAPKKK13 > GO:protein autophosphorylation ; GO:0046777
 PIRSF:PIRSF038168 MAPKKK7 > GO:magnesium ion binding ; GO:0000287
 PIRSF:PIRSF038168 MAPKKK7 > GO:MAP kinase kinase kinase activity ; GO:0004709
@@ -3576,6 +3573,28 @@ PIRSF:PIRSF038996 FldA > GO:FMN binding ; GO:0010181
 PIRSF:PIRSF039003 IscX > GO:iron-sulfur cluster assembly ; GO:0016226
 PIRSF:PIRSF039012 ASP > GO:hydrolase activity, acting on ester bonds ; GO:0016788
 PIRSF:PIRSF039012 ASP > GO:metabolic process ; GO:0008152
+PIRSF:PIRSF500126 Pgk_euglenozoa > GO:phosphoglycerate kinase activity ; GO:0004618
+PIRSF:PIRSF500126 Pgk_euglenozoa > GO:glycolysis ; GO:0006096
 PIRSF:PIRSF500165 HMDI > GO:N5,N10-methenyltetrahydromethanopterin hydrogenase activity ; GO:0047068
 PIRSF:PIRSF500165 HMDI > GO:methanogenesis, from carbon dioxide ; GO:0019386
 PIRSF:PIRSF500165 HMDI > GO:oxidation-reduction process ; GO:0055114
+PIRSF:PIRSF500231 Oat_dag > GO:diacylglycerol O-acyltransferase activity ; GO:0004144
+PIRSF:PIRSF500231 Oat_dag > GO:triglyceride biosynthetic process ; GO:0019432
+PIRSF:PIRSF500720 TEF-5 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+PIRSF:PIRSF500720 TEF-5 > GO:hippo signaling cascade ; GO:0035329
+PIRSF:PIRSF500720 TEF-5 > GO:positive regulation of transcription from RNA polymerase II promoter ; GO:0045944
+PIRSF:PIRSF500741 MAPKKK12 > GO:MAP kinase kinase kinase activity ; GO:0004709
+PIRSF:PIRSF500741 MAPKKK12 > GO:activation of MAPKK activity ; GO:0000186
+PIRSF:PIRSF500741 MAPKKK12 > GO:JNK cascade ; GO:0007254
+PIRSF:PIRSF500741 MAPKKK12 > GO:protein autophosphorylation ; GO:0046777
+PIRSF:PIRSF500742 MAPKKK13 > GO:MAP kinase kinase kinase activity ; GO:0004709
+PIRSF:PIRSF500742 MAPKKK13 > GO:protein homodimerization activity ; GO:0042803
+PIRSF:PIRSF500742 MAPKKK13 > GO:activation of MAPKK activity ; GO:0000186
+PIRSF:PIRSF500742 MAPKKK13 > GO:JNK cascade ; GO:0007254
+PIRSF:PIRSF500742 MAPKKK13 > GO:protein autophosphorylation ; GO:0046777
+PIRSF:PIRSF500742 MAPKKK13 > GO:positive regulation of NF-kappaB transcription factor activity ; GO:0051092
+PIRSF:PIRSF500776 Hyaluronidase_3 > GO:hyaluronan catabolic process ; GO:0030214
+PIRSF:PIRSF500808 PTPR_alpha > GO:protein tyrosine phosphatase activity ; GO:0004725
+PIRSF:PIRSF500808 PTPR_alpha > GO:protein dephosphorylation ; GO:0006470
+PIRSF:PIRSF500951 SCGF_recepter > GO:Fc receptor signaling pathway ; GO:0038093
+PIRSF:PIRSF500951 SCGF_recepter > GO:Kit signaling pathway ; GO:0038109

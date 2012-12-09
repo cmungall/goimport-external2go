@@ -1,4 +1,4 @@
-!version date: 2012/11/24 08:32:54
+!version date: 2012/12/08 08:12:50
 !description: Mapping of GO terms to PROSITE entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://www.expasy.org/prosite/
 !citation: Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -248,9 +248,9 @@ PROSITE:MF_00096 MutS > GO:mismatch repair ; GO:0006298
 PROSITE:MF_00097 TMP_synthase > GO:thiamine-phosphate diphosphorylase activity ; GO:0004789
 PROSITE:MF_00097 TMP_synthase > GO:thiamine biosynthetic process ; GO:0009228
 PROSITE:MF_00098 Met_tRNA_synth_type1 > GO:methionine-tRNA ligase activity ; GO:0004825
-PROSITE:MF_00099 CheB_methylest > GO:two-component response regulator activity ; GO:0000156
+PROSITE:MF_00099 CheB_methylest > GO:phosphorelay response regulator activity ; GO:0000156
 PROSITE:MF_00099 CheB_methylest > GO:protein-glutamate methylesterase activity ; GO:0008984
-PROSITE:MF_00099 CheB_methylest > GO:two-component signal transduction system (phosphorelay) ; GO:0000160
+PROSITE:MF_00099 CheB_methylest > GO:phosphorelay signal transduction system ; GO:0000160
 PROSITE:MF_00099 CheB_methylest > GO:chemotaxis ; GO:0006935
 PROSITE:MF_00099 CheB_methylest > GO:cytoplasm ; GO:0005737
 PROSITE:MF_00100_A IF_2_A > GO:translation initiation factor activity ; GO:0003743
@@ -704,7 +704,6 @@ PROSITE:MF_00283 Phe_tRNA_synth_beta1 > GO:ATP binding ; GO:0005524
 PROSITE:MF_00283 Phe_tRNA_synth_beta1 > GO:phenylalanyl-tRNA aminoacylation ; GO:0006432
 PROSITE:MF_00283 Phe_tRNA_synth_beta1 > GO:cytoplasm ; GO:0005737
 PROSITE:MF_00284 Phe_tRNA_synth_beta2 > GO:phenylalanine-tRNA ligase activity ; GO:0004826
-PROSITE:MF_00285 KdpB > GO:magnesium ion binding ; GO:0000287
 PROSITE:MF_00285 KdpB > GO:ATP binding ; GO:0005524
 PROSITE:MF_00285 KdpB > GO:potassium-transporting ATPase activity ; GO:0008556
 PROSITE:MF_00285 KdpB > GO:potassium ion transport ; GO:0006813
@@ -2300,10 +2299,10 @@ PROSITE:MF_01244 Arch_DHQ_synthase > GO:aromatic amino acid family biosynthetic 
 PROSITE:MF_01244 Arch_DHQ_synthase > GO:oxidation-reduction process ; GO:0055114
 PROSITE:MF_01248 GlgX > GO:hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553
 PROSITE:MF_01248 GlgX > GO:glycogen metabolic process ; GO:0005977
-PROSITE:MF_01249 HPr_kinase > GO:two-component sensor activity ; GO:0000155
+PROSITE:MF_01249 HPr_kinase > GO:phosphorelay sensor kinase activity ; GO:0000155
 PROSITE:MF_01249 HPr_kinase > GO:protein kinase activity ; GO:0004672
 PROSITE:MF_01249 HPr_kinase > GO:ATP binding ; GO:0005524
-PROSITE:MF_01249 HPr_kinase > GO:two-component signal transduction system (phosphorelay) ; GO:0000160
+PROSITE:MF_01249 HPr_kinase > GO:phosphorelay signal transduction system ; GO:0000160
 PROSITE:MF_01249 HPr_kinase > GO:regulation of carbohydrate metabolic process ; GO:0006109
 PROSITE:MF_01250 Pyrophosphat_PpaX > GO:pyrophosphatase activity ; GO:0016462
 PROSITE:MF_01250 Pyrophosphat_PpaX > GO:metabolic process ; GO:0008152
@@ -2843,6 +2842,7 @@ PROSITE:MF_01441 Dps > GO:oxidation-reduction process ; GO:0055114
 PROSITE:MF_01443 PrpE > GO:bis(5'-nucleosyl)-tetraphosphatase (asymmetrical) activity ; GO:0004081
 PROSITE:MF_01443 PrpE > GO:nickel cation binding ; GO:0016151
 PROSITE:MF_01445 gcp > GO:metalloendopeptidase activity ; GO:0004222
+PROSITE:MF_01445 gcp > GO:threonylcarbamoyladenosine biosynthetic process ; GO:0070526
 PROSITE:MF_01447 Kae1_Bud32_arch > GO:metalloendopeptidase activity ; GO:0004222
 PROSITE:MF_01447 Kae1_Bud32_arch > GO:zinc ion binding ; GO:0008270
 PROSITE:MF_01451 AddA > GO:ATP-dependent DNA helicase activity ; GO:0004003
@@ -3410,6 +3410,8 @@ PROSITE:MF_01849 23SrRNA_methyltr_N > GO:rRNA processing ; GO:0006364
 PROSITE:MF_01849 23SrRNA_methyltr_N > GO:cytoplasm ; GO:0005737
 PROSITE:MF_01850 TtcA > GO:ATP binding ; GO:0005524
 PROSITE:MF_01850 TtcA > GO:tRNA processing ; GO:0008033
+PROSITE:MF_01852 RimN > GO:ATP binding ; GO:0005524
+PROSITE:MF_01852 RimN > GO:threonylcarbamoyladenosine biosynthetic process ; GO:0070526
 PROSITE:MF_01853 PelO > GO:hydrolase activity, acting on ester bonds ; GO:0016788
 PROSITE:MF_01854 FBPase_class3 > GO:fructose 1,6-bisphosphate 1-phosphatase activity ; GO:0042132
 PROSITE:MF_01854 FBPase_class3 > GO:gluconeogenesis ; GO:0006094
@@ -4274,16 +4276,12 @@ PROSITE:PS00388 PROTEASOME_A_1 > GO:proteasome core complex, alpha-subunit compl
 PROSITE:PS00389 ATPASE_DELTA > GO:hydrogen ion transporting ATP synthase activity, rotational mechanism ; GO:0046933
 PROSITE:PS00389 ATPASE_DELTA > GO:ATP synthesis coupled proton transport ; GO:0015986
 PROSITE:PS00389 ATPASE_DELTA > GO:membrane ; GO:0016020
-PROSITE:PS00390 ATPASE_NA_K_BETA_1 > GO:sodium:potassium-exchanging ATPase activity ; GO:0005391
 PROSITE:PS00390 ATPASE_NA_K_BETA_1 > GO:potassium ion transport ; GO:0006813
 PROSITE:PS00390 ATPASE_NA_K_BETA_1 > GO:sodium ion transport ; GO:0006814
-PROSITE:PS00390 ATPASE_NA_K_BETA_1 > GO:ATP metabolic process ; GO:0046034
-PROSITE:PS00390 ATPASE_NA_K_BETA_1 > GO:membrane ; GO:0016020
-PROSITE:PS00391 ATPASE_NA_K_BETA_2 > GO:sodium:potassium-exchanging ATPase activity ; GO:0005391
+PROSITE:PS00390 ATPASE_NA_K_BETA_1 > GO:sodium:potassium-exchanging ATPase complex ; GO:0005890
 PROSITE:PS00391 ATPASE_NA_K_BETA_2 > GO:potassium ion transport ; GO:0006813
 PROSITE:PS00391 ATPASE_NA_K_BETA_2 > GO:sodium ion transport ; GO:0006814
-PROSITE:PS00391 ATPASE_NA_K_BETA_2 > GO:ATP metabolic process ; GO:0046034
-PROSITE:PS00391 ATPASE_NA_K_BETA_2 > GO:membrane ; GO:0016020
+PROSITE:PS00391 ATPASE_NA_K_BETA_2 > GO:sodium:potassium-exchanging ATPase complex ; GO:0005890
 PROSITE:PS00392 DDC_GAD_HDC_YDC > GO:carboxy-lyase activity ; GO:0016831
 PROSITE:PS00393 PEPCASE_2 > GO:phosphoenolpyruvate carboxylase activity ; GO:0008964
 PROSITE:PS00393 PEPCASE_2 > GO:tricarboxylic acid cycle ; GO:0006099
@@ -4716,7 +4714,6 @@ PROSITE:PS00631 CYTOSOL_AP > GO:proteolysis ; GO:0006508
 PROSITE:PS00631 CYTOSOL_AP > GO:intracellular ; GO:0005622
 PROSITE:PS00632 RIBOSOMAL_S4 > GO:rRNA binding ; GO:0019843
 PROSITE:PS00632 RIBOSOMAL_S4 > GO:intracellular ; GO:0005622
-PROSITE:PS00636 DNAJ_1 > GO:heat shock protein binding ; GO:0031072
 PROSITE:PS00638 PII_GLNB_CTER > GO:enzyme regulator activity ; GO:0030234
 PROSITE:PS00638 PII_GLNB_CTER > GO:regulation of nitrogen utilization ; GO:0006808
 PROSITE:PS00641 COMPLEX1_75K_1 > GO:NADH dehydrogenase (ubiquinone) activity ; GO:0008137
@@ -6152,14 +6149,12 @@ PROSITE:PS50073 COPPER_FIST_2 > GO:sequence-specific DNA binding transcription f
 PROSITE:PS50073 COPPER_FIST_2 > GO:copper ion binding ; GO:0005507
 PROSITE:PS50073 COPPER_FIST_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PROSITE:PS50073 COPPER_FIST_2 > GO:nucleus ; GO:0005634
-PROSITE:PS50076 DNAJ_2 > GO:heat shock protein binding ; GO:0031072
 PROSITE:PS50078 POLO_BOX > GO:protein binding ; GO:0005515
 PROSITE:PS50081 ZF_DAG_PE_2 > GO:intracellular signal transduction ; GO:0035556
 PROSITE:PS50082 WD_REPEATS_2 > GO:protein binding ; GO:0005515
 PROSITE:PS50084 KH_TYPE_1 > GO:RNA binding ; GO:0003723
 PROSITE:PS50085 RAPGAP > GO:GTPase activator activity ; GO:0005096
 PROSITE:PS50085 RAPGAP > GO:regulation of small GTPase mediated signal transduction ; GO:0051056
-PROSITE:PS50085 RAPGAP > GO:intracellular ; GO:0005622
 PROSITE:PS50086 TBC_RABGAP > GO:Rab GTPase activator activity ; GO:0005097
 PROSITE:PS50086 TBC_RABGAP > GO:regulation of Rab GTPase activity ; GO:0032313
 PROSITE:PS50086 TBC_RABGAP > GO:intracellular ; GO:0005622
@@ -6174,20 +6169,19 @@ PROSITE:PS50103 ZF_C3H1 > GO:nucleic acid binding ; GO:0003676
 PROSITE:PS50103 ZF_C3H1 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS50104 TIR > GO:protein binding ; GO:0005515
 PROSITE:PS50104 TIR > GO:signal transduction ; GO:0007165
-PROSITE:PS50104 TIR > GO:intracellular ; GO:0005622
 PROSITE:PS50105 SAM_DOMAIN > GO:protein binding ; GO:0005515
 PROSITE:PS50106 PDZ > GO:protein binding ; GO:0005515
 PROSITE:PS50108 CRIB > GO:protein binding ; GO:0005515
-PROSITE:PS50110 RESPONSE_REGULATORY > GO:two-component response regulator activity ; GO:0000156
-PROSITE:PS50110 RESPONSE_REGULATORY > GO:two-component signal transduction system (phosphorelay) ; GO:0000160
+PROSITE:PS50110 RESPONSE_REGULATORY > GO:phosphorelay response regulator activity ; GO:0000156
+PROSITE:PS50110 RESPONSE_REGULATORY > GO:phosphorelay signal transduction system ; GO:0000160
 PROSITE:PS50110 RESPONSE_REGULATORY > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PROSITE:PS50111 CHEMOTAXIS_TRANSDUC_2 > GO:signal transducer activity ; GO:0004871
 PROSITE:PS50111 CHEMOTAXIS_TRANSDUC_2 > GO:signal transduction ; GO:0007165
 PROSITE:PS50111 CHEMOTAXIS_TRANSDUC_2 > GO:membrane ; GO:0016020
 PROSITE:PS50112 PAS > GO:signal transducer activity ; GO:0004871
 PROSITE:PS50112 PAS > GO:signal transduction ; GO:0007165
-PROSITE:PS50113 PAC > GO:two-component sensor activity ; GO:0000155
-PROSITE:PS50113 PAC > GO:two-component signal transduction system (phosphorelay) ; GO:0000160
+PROSITE:PS50113 PAC > GO:phosphorelay sensor kinase activity ; GO:0000155
+PROSITE:PS50113 PAC > GO:phosphorelay signal transduction system ; GO:0000160
 PROSITE:PS50114 GATA_ZN_FINGER_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS50114 GATA_ZN_FINGER_2 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS50114 GATA_ZN_FINGER_2 > GO:sequence-specific DNA binding ; GO:0043565
@@ -6198,9 +6192,9 @@ PROSITE:PS50115 ARFGAP > GO:regulation of ARF GTPase activity ; GO:0032312
 PROSITE:PS50118 HMG_BOX_2 > GO:protein binding ; GO:0005515
 PROSITE:PS50119 ZF_BBOX > GO:zinc ion binding ; GO:0008270
 PROSITE:PS50119 ZF_BBOX > GO:intracellular ; GO:0005622
-PROSITE:PS50122 CHEB > GO:two-component response regulator activity ; GO:0000156
+PROSITE:PS50122 CHEB > GO:phosphorelay response regulator activity ; GO:0000156
 PROSITE:PS50122 CHEB > GO:protein-glutamate methylesterase activity ; GO:0008984
-PROSITE:PS50122 CHEB > GO:two-component signal transduction system (phosphorelay) ; GO:0000160
+PROSITE:PS50122 CHEB > GO:phosphorelay signal transduction system ; GO:0000160
 PROSITE:PS50122 CHEB > GO:chemotaxis ; GO:0006935
 PROSITE:PS50122 CHEB > GO:cytoplasm ; GO:0005737
 PROSITE:PS50123 CHER > GO:S-adenosylmethionine-dependent methyltransferase activity ; GO:0008757
@@ -6520,7 +6514,7 @@ PROSITE:PS50892 V_SNARE > GO:integral to membrane ; GO:0016021
 PROSITE:PS50893 ABC_TRANSPORTER_2 > GO:ATP binding ; GO:0005524
 PROSITE:PS50893 ABC_TRANSPORTER_2 > GO:ATPase activity ; GO:0016887
 PROSITE:PS50894 HPT > GO:signal transducer activity ; GO:0004871
-PROSITE:PS50894 HPT > GO:two-component signal transduction system (phosphorelay) ; GO:0000160
+PROSITE:PS50894 HPT > GO:phosphorelay signal transduction system ; GO:0000160
 PROSITE:PS50895 SURF1 > GO:membrane ; GO:0016020
 PROSITE:PS50896 LISH > GO:protein binding ; GO:0005515
 PROSITE:PS50898 RBD > GO:receptor signaling protein activity ; GO:0005057
@@ -6860,6 +6854,7 @@ PROSITE:PS51158 ALPHA_KINASE > GO:protein serine/threonine kinase activity ; GO:
 PROSITE:PS51158 ALPHA_KINASE > GO:ATP binding ; GO:0005524
 PROSITE:PS51158 ALPHA_KINASE > GO:protein phosphorylation ; GO:0006468
 PROSITE:PS51159 CBM21 > GO:protein binding ; GO:0005515
+PROSITE:PS51163 YRDC > GO:double-stranded RNA binding ; GO:0003725
 PROSITE:PS51164 CBM1_2 > GO:hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553
 PROSITE:PS51164 CBM1_2 > GO:cellulose binding ; GO:0030248
 PROSITE:PS51164 CBM1_2 > GO:carbohydrate metabolic process ; GO:0005975
@@ -7247,7 +7242,7 @@ PROSITE:PS51423 MIRO > GO:intracellular ; GO:0005622
 PROSITE:PS51426 ABL > GO:protein histidine kinase activity ; GO:0004673
 PROSITE:PS51426 ABL > GO:signal transducer activity ; GO:0004871
 PROSITE:PS51426 ABL > GO:ATP binding ; GO:0005524
-PROSITE:PS51426 ABL > GO:two-component signal transduction system (phosphorelay) ; GO:0000160
+PROSITE:PS51426 ABL > GO:phosphorelay signal transduction system ; GO:0000160
 PROSITE:PS51426 ABL > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PROSITE:PS51426 ABL > GO:peptidyl-histidine phosphorylation ; GO:0018106
 PROSITE:PS51426 ABL > GO:plasma membrane ; GO:0005886

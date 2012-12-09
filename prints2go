@@ -1,4 +1,4 @@
-!version date: 2012/11/24 08:33:14
+!version date: 2012/12/08 08:12:51
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -279,16 +279,12 @@ PRINTS:PR00117 BARNASE > GO:endoribonuclease activity ; GO:0004521
 PRINTS:PR00118 BLACTAMASEA > GO:beta-lactamase activity ; GO:0008800
 PRINTS:PR00118 BLACTAMASEA > GO:beta-lactam antibiotic catabolic process ; GO:0030655
 PRINTS:PR00118 BLACTAMASEA > GO:response to antibiotic ; GO:0046677
-PRINTS:PR00119 CATATPASE > GO:ATP binding ; GO:0005524
-PRINTS:PR00119 CATATPASE > GO:ATPase activity, coupled to transmembrane movement of ions, phosphorylative mechanism ; GO:0015662
+PRINTS:PR00119 CATATPASE > GO:cation-transporting ATPase activity ; GO:0019829
 PRINTS:PR00119 CATATPASE > GO:cation transport ; GO:0006812
-PRINTS:PR00119 CATATPASE > GO:membrane ; GO:0016020
-PRINTS:PR00120 HATPASE > GO:ATP binding ; GO:0005524
-PRINTS:PR00120 HATPASE > GO:ATPase activity, coupled to transmembrane movement of ions, phosphorylative mechanism ; GO:0015662
-PRINTS:PR00120 HATPASE > GO:membrane ; GO:0016020
-PRINTS:PR00121 NAKATPASE > GO:ATPase activity, coupled to transmembrane movement of ions, phosphorylative mechanism ; GO:0015662
-PRINTS:PR00121 NAKATPASE > GO:ATP biosynthetic process ; GO:0006754
-PRINTS:PR00121 NAKATPASE > GO:membrane ; GO:0016020
+PRINTS:PR00119 CATATPASE > GO:integral to membrane ; GO:0016021
+PRINTS:PR00120 HATPASE > GO:cation-transporting ATPase activity ; GO:0019829
+PRINTS:PR00120 HATPASE > GO:cation transport ; GO:0006812
+PRINTS:PR00120 HATPASE > GO:integral to membrane ; GO:0016021
 PRINTS:PR00122 VACATPASE > GO:hydrogen ion transmembrane transporter activity ; GO:0015078
 PRINTS:PR00122 VACATPASE > GO:ATP hydrolysis coupled proton transport ; GO:0015991
 PRINTS:PR00122 VACATPASE > GO:proton-transporting V-type ATPase, V0 domain ; GO:0033179
@@ -762,6 +758,10 @@ PRINTS:PR00363 CYTOCHROMEB5 > GO:heme binding ; GO:0020037
 PRINTS:PR00364 DISEASERSIST > GO:defense response ; GO:0006952
 PRINTS:PR00366 ENDOTHELINR > GO:endothelin receptor activity ; GO:0004962
 PRINTS:PR00366 ENDOTHELINR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR00366 ENDOTHELINR > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
+PRINTS:PR00366 ENDOTHELINR > GO:regulation of blood pressure ; GO:0008217
+PRINTS:PR00366 ENDOTHELINR > GO:vasoconstriction ; GO:0042310
+PRINTS:PR00366 ENDOTHELINR > GO:enteric nervous system development ; GO:0048484
 PRINTS:PR00366 ENDOTHELINR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00367 ETHRSPELEMNT > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PRINTS:PR00367 ETHRSPELEMNT > GO:regulation of transcription, DNA-dependent ; GO:0006355
@@ -903,7 +903,9 @@ PRINTS:PR00424 ADENOSINER > GO:G-protein coupled adenosine receptor activity ; G
 PRINTS:PR00424 ADENOSINER > GO:adenosine receptor signaling pathway ; GO:0001973
 PRINTS:PR00424 ADENOSINER > GO:integral to membrane ; GO:0016021
 PRINTS:PR00425 BRADYKININR > GO:bradykinin receptor activity ; GO:0004947
+PRINTS:PR00425 BRADYKININR > GO:response to stress ; GO:0006950
 PRINTS:PR00425 BRADYKININR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR00425 BRADYKININR > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR00425 BRADYKININR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00426 C5ANPHYLTXNR > GO:C5a anaphylatoxin receptor activity ; GO:0004944
 PRINTS:PR00426 C5ANPHYLTXNR > GO:chemotaxis ; GO:0006935
@@ -1196,9 +1198,19 @@ PRINTS:PR00529 GNADOTRPHINR > GO:G-protein coupled receptor signaling pathway ; 
 PRINTS:PR00529 GNADOTRPHINR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00530 HISTAMINEH1R > GO:histamine receptor activity ; GO:0004969
 PRINTS:PR00530 HISTAMINEH1R > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR00530 HISTAMINEH1R > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
+PRINTS:PR00530 HISTAMINEH1R > GO:regulation of cAMP metabolic process ; GO:0030814
+PRINTS:PR00530 HISTAMINEH1R > GO:regulation of vascular permeability ; GO:0043114
+PRINTS:PR00530 HISTAMINEH1R > GO:positive regulation of vasoconstriction ; GO:0045907
+PRINTS:PR00530 HISTAMINEH1R > GO:eosinophil chemotaxis ; GO:0048245
+PRINTS:PR00530 HISTAMINEH1R > GO:regulation of synaptic transmission ; GO:0050804
 PRINTS:PR00530 HISTAMINEH1R > GO:integral to membrane ; GO:0016021
 PRINTS:PR00531 HISTAMINEH2R > GO:histamine receptor activity ; GO:0004969
+PRINTS:PR00531 HISTAMINEH2R > GO:gastric acid secretion ; GO:0001696
 PRINTS:PR00531 HISTAMINEH2R > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR00531 HISTAMINEH2R > GO:regulation of cAMP metabolic process ; GO:0030814
+PRINTS:PR00531 HISTAMINEH2R > GO:positive regulation of vasoconstriction ; GO:0045907
+PRINTS:PR00531 HISTAMINEH2R > GO:regulation of synaptic transmission ; GO:0050804
 PRINTS:PR00531 HISTAMINEH2R > GO:integral to membrane ; GO:0016021
 PRINTS:PR00532 KAPPAOPIOIDR > GO:dynorphin receptor activity ; GO:0038048
 PRINTS:PR00532 KAPPAOPIOIDR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
@@ -1314,9 +1326,16 @@ PRINTS:PR00569 DOPAMINED4R > GO:G-protein coupled receptor signaling pathway ; G
 PRINTS:PR00569 DOPAMINED4R > GO:integral to membrane ; GO:0016021
 PRINTS:PR00570 ENDOTHELINAR > GO:endothelin receptor activity ; GO:0004962
 PRINTS:PR00570 ENDOTHELINAR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR00570 ENDOTHELINAR > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
+PRINTS:PR00570 ENDOTHELINAR > GO:regulation of blood pressure ; GO:0008217
+PRINTS:PR00570 ENDOTHELINAR > GO:vasoconstriction ; GO:0042310
 PRINTS:PR00570 ENDOTHELINAR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00571 ENDOTHELINBR > GO:endothelin receptor activity ; GO:0004962
 PRINTS:PR00571 ENDOTHELINBR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR00571 ENDOTHELINBR > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
+PRINTS:PR00571 ENDOTHELINBR > GO:regulation of blood pressure ; GO:0008217
+PRINTS:PR00571 ENDOTHELINBR > GO:vasoconstriction ; GO:0042310
+PRINTS:PR00571 ENDOTHELINBR > GO:enteric nervous system development ; GO:0048484
 PRINTS:PR00571 ENDOTHELINBR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00572 INTRLEUKN8AR > GO:C-X-C chemokine receptor activity ; GO:0016494
 PRINTS:PR00572 INTRLEUKN8AR > GO:chemotaxis ; GO:0006935
@@ -1480,9 +1499,6 @@ PRINTS:PR00623 HISTONEH4 > GO:nucleus ; GO:0005634
 PRINTS:PR00624 HISTONEH5 > GO:DNA binding ; GO:0003677
 PRINTS:PR00624 HISTONEH5 > GO:nucleosome assembly ; GO:0006334
 PRINTS:PR00624 HISTONEH5 > GO:nucleosome ; GO:0000786
-PRINTS:PR00625 JDOMAIN > GO:heat shock protein binding ; GO:0031072
-PRINTS:PR00625 JDOMAIN > GO:unfolded protein binding ; GO:0051082
-PRINTS:PR00625 JDOMAIN > GO:protein folding ; GO:0006457
 PRINTS:PR00626 CALRETICULIN > GO:calcium ion binding ; GO:0005509
 PRINTS:PR00627 GTPRANTC4 > GO:GTPase activity ; GO:0003924
 PRINTS:PR00627 GTPRANTC4 > GO:GTP binding ; GO:0005525
@@ -1974,8 +1990,6 @@ PRINTS:PR00846 GLHYDRLASE56 > GO:hyalurononglucosaminidase activity ; GO:0004415
 PRINTS:PR00846 GLHYDRLASE56 > GO:carbohydrate metabolic process ; GO:0005975
 PRINTS:PR00847 HYALURONDASE > GO:hyalurononglucosaminidase activity ; GO:0004415
 PRINTS:PR00847 HYALURONDASE > GO:defense response ; GO:0006952
-PRINTS:PR00848 SPERMPH20 > GO:hyalurononglucosaminidase activity ; GO:0004415
-PRINTS:PR00848 SPERMPH20 > GO:fusion of sperm to egg plasma membrane ; GO:0007342
 PRINTS:PR00850 GLHYDRLASE59 > GO:galactosylceramidase activity ; GO:0004336
 PRINTS:PR00850 GLHYDRLASE59 > GO:galactosylceramide catabolic process ; GO:0006683
 PRINTS:PR00851 XRODRMPGMNTB > GO:ATP-dependent DNA helicase activity ; GO:0004003
@@ -1997,7 +2011,7 @@ PRINTS:PR00855 PRSTNOIDFPR > GO:G-protein coupled receptor signaling pathway ; G
 PRINTS:PR00855 PRSTNOIDFPR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00856 PRSTNOIDIPR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00856 PRSTNOIDIPR > GO:integral to membrane ; GO:0016021
-PRINTS:PR00857 MELATONINR > GO:G-protein coupled receptor activity ; GO:0004930
+PRINTS:PR00857 MELATONINR > GO:melatonin receptor activity ; GO:0008502
 PRINTS:PR00857 MELATONINR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00857 MELATONINR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00858 MTCRUSTACEAN > GO:metal ion binding ; GO:0046872
@@ -2149,22 +2163,14 @@ PRINTS:PR00937 TBOX > GO:nucleus ; GO:0005634
 PRINTS:PR00938 BRACHYURY > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PRINTS:PR00938 BRACHYURY > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PRINTS:PR00938 BRACHYURY > GO:nucleus ; GO:0005634
-PRINTS:PR00940 CATPATPASEA > GO:ATP binding ; GO:0005524
-PRINTS:PR00940 CATPATPASEA > GO:ATPase activity, coupled to transmembrane movement of ions, phosphorylative mechanism ; GO:0015662
-PRINTS:PR00940 CATPATPASEA > GO:ATP biosynthetic process ; GO:0006754
-PRINTS:PR00940 CATPATPASEA > GO:membrane ; GO:0016020
-PRINTS:PR00941 CDATPASE > GO:cation channel activity ; GO:0005261
-PRINTS:PR00941 CDATPASE > GO:ATP binding ; GO:0005524
+PRINTS:PR00940 CATPATPASEA > GO:cation-transporting ATPase activity ; GO:0019829
+PRINTS:PR00940 CATPATPASEA > GO:cation transport ; GO:0006812
+PRINTS:PR00940 CATPATPASEA > GO:integral to membrane ; GO:0016021
+PRINTS:PR00941 CDATPASE > GO:cation-transporting ATPase activity ; GO:0019829
 PRINTS:PR00941 CDATPASE > GO:cation transport ; GO:0006812
-PRINTS:PR00941 CDATPASE > GO:membrane ; GO:0016020
-PRINTS:PR00942 CUATPASEI > GO:copper ion transport ; GO:0006825
-PRINTS:PR00943 CUATPASE > GO:ATP binding ; GO:0005524
-PRINTS:PR00943 CUATPASE > GO:copper-transporting ATPase activity ; GO:0043682
-PRINTS:PR00943 CUATPASE > GO:copper ion transport ; GO:0006825
-PRINTS:PR00943 CUATPASE > GO:membrane ; GO:0016020
-PRINTS:PR00944 CUEXPORT > GO:copper ion transmembrane transporter activity ; GO:0005375
+PRINTS:PR00941 CDATPASE > GO:integral to membrane ; GO:0016021
 PRINTS:PR00944 CUEXPORT > GO:copper ion binding ; GO:0005507
-PRINTS:PR00944 CUEXPORT > GO:copper ion transmembrane transport ; GO:0035434
+PRINTS:PR00944 CUEXPORT > GO:copper ion transport ; GO:0006825
 PRINTS:PR00945 HGRDTASE > GO:oxidoreductase activity ; GO:0016491
 PRINTS:PR00945 HGRDTASE > GO:flavin adenine dinucleotide binding ; GO:0050660
 PRINTS:PR00945 HGRDTASE > GO:oxidation-reduction process ; GO:0055114
@@ -2297,10 +2303,14 @@ PRINTS:PR00991 6PFRUCTKNASE > GO:fructose 2,6-bisphosphate metabolic process ; G
 PRINTS:PR00992 ALARACEMASE > GO:alanine racemase activity ; GO:0008784
 PRINTS:PR00992 ALARACEMASE > GO:alanine metabolic process ; GO:0006522
 PRINTS:PR00993 BRADYKINNB1R > GO:bradykinin receptor activity ; GO:0004947
+PRINTS:PR00993 BRADYKINNB1R > GO:response to stress ; GO:0006950
 PRINTS:PR00993 BRADYKINNB1R > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR00993 BRADYKINNB1R > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR00993 BRADYKINNB1R > GO:integral to membrane ; GO:0016021
 PRINTS:PR00994 BRADYKINNB2R > GO:bradykinin receptor activity ; GO:0004947
+PRINTS:PR00994 BRADYKINNB2R > GO:response to stress ; GO:0006950
 PRINTS:PR00994 BRADYKINNB2R > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR00994 BRADYKINNB2R > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR00994 BRADYKINNB2R > GO:integral to membrane ; GO:0016021
 PRINTS:PR00995 CAPILLOPTASE > GO:serine-type endopeptidase activity ; GO:0004252
 PRINTS:PR00995 CAPILLOPTASE > GO:proteolysis ; GO:0006508
@@ -2500,6 +2510,7 @@ PRINTS:PR01063 MELNOCORTN5R > GO:G-protein coupled receptor signaling pathway ; 
 PRINTS:PR01063 MELNOCORTN5R > GO:integral to membrane ; GO:0016021
 PRINTS:PR01064 OREXINR > GO:orexin receptor activity ; GO:0016499
 PRINTS:PR01064 OREXINR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01064 OREXINR > GO:feeding behavior ; GO:0007631
 PRINTS:PR01064 OREXINR > GO:integral to membrane ; GO:0016021
 PRINTS:PR01065 P2Y3PRNOCPTR > GO:G-protein coupled purinergic nucleotide receptor activity ; GO:0045028
 PRINTS:PR01065 P2Y3PRNOCPTR > GO:G-protein coupled purinergic nucleotide receptor signaling pathway ; GO:0035589
@@ -3555,7 +3566,10 @@ PRINTS:PR01470 ERGCHANNEL > GO:voltage-gated potassium channel activity ; GO:000
 PRINTS:PR01470 ERGCHANNEL > GO:potassium ion transport ; GO:0006813
 PRINTS:PR01470 ERGCHANNEL > GO:membrane ; GO:0016020
 PRINTS:PR01471 HISTAMINEH3R > GO:histamine receptor activity ; GO:0004969
+PRINTS:PR01471 HISTAMINEH3R > GO:regulation of neurotransmitter levels ; GO:0001505
 PRINTS:PR01471 HISTAMINEH3R > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01471 HISTAMINEH3R > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
+PRINTS:PR01471 HISTAMINEH3R > GO:regulation of cAMP metabolic process ; GO:0030814
 PRINTS:PR01471 HISTAMINEH3R > GO:integral to membrane ; GO:0016021
 PRINTS:PR01472 ICAMVCAM1 > GO:cell-cell adhesion ; GO:0016337
 PRINTS:PR01472 ICAMVCAM1 > GO:membrane ; GO:0016020
@@ -3684,9 +3698,11 @@ PRINTS:PR01519 EPSLNTUBULIN > GO:microtubule-based movement ; GO:0007018
 PRINTS:PR01519 EPSLNTUBULIN > GO:microtubule ; GO:0005874
 PRINTS:PR01521 OREXIN1R > GO:orexin receptor activity ; GO:0016499
 PRINTS:PR01521 OREXIN1R > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01521 OREXIN1R > GO:feeding behavior ; GO:0007631
 PRINTS:PR01521 OREXIN1R > GO:integral to membrane ; GO:0016021
 PRINTS:PR01522 OREXIN2R > GO:orexin receptor activity ; GO:0016499
 PRINTS:PR01522 OREXIN2R > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01522 OREXIN2R > GO:feeding behavior ; GO:0007631
 PRINTS:PR01522 OREXIN2R > GO:integral to membrane ; GO:0016021
 PRINTS:PR01523 S1PRECEPTOR > GO:sphingosine-1-phosphate receptor activity ; GO:0038036
 PRINTS:PR01523 S1PRECEPTOR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
@@ -4349,9 +4365,9 @@ PRINTS:PR01778 KIMPTPASE > GO:protein tyrosine phosphatase activity ; GO:0004725
 PRINTS:PR01778 KIMPTPASE > GO:protein dephosphorylation ; GO:0006470
 PRINTS:PR01779 LANTIPROCESS > GO:serine-type endopeptidase activity ; GO:0004252
 PRINTS:PR01779 LANTIPROCESS > GO:proteolysis ; GO:0006508
-PRINTS:PR01780 LANTIREGPROT > GO:two-component sensor activity ; GO:0000155
+PRINTS:PR01780 LANTIREGPROT > GO:phosphorelay sensor kinase activity ; GO:0000155
 PRINTS:PR01780 LANTIREGPROT > GO:protein histidine kinase activity ; GO:0004673
-PRINTS:PR01780 LANTIREGPROT > GO:two-component signal transduction system (phosphorelay) ; GO:0000160
+PRINTS:PR01780 LANTIREGPROT > GO:phosphorelay signal transduction system ; GO:0000160
 PRINTS:PR01780 LANTIREGPROT > GO:membrane ; GO:0016020
 PRINTS:PR01781 LATPROTEIN > GO:signal transduction ; GO:0007165
 PRINTS:PR01781 LATPROTEIN > GO:membrane ; GO:0016020
@@ -4467,7 +4483,6 @@ PRINTS:PR01835 VEGFRECEPTR3 > GO:protein phosphorylation ; GO:0006468
 PRINTS:PR01835 VEGFRECEPTR3 > GO:vascular endothelial growth factor receptor signaling pathway ; GO:0048010
 PRINTS:PR01835 VEGFRECEPTR3 > GO:integral to plasma membrane ; GO:0005887
 PRINTS:PR01836 MGATPASE > GO:magnesium-importing ATPase activity ; GO:0015444
-PRINTS:PR01836 MGATPASE > GO:ATP biosynthetic process ; GO:0006754
 PRINTS:PR01836 MGATPASE > GO:magnesium ion transport ; GO:0015693
 PRINTS:PR01836 MGATPASE > GO:integral to membrane ; GO:0016021
 PRINTS:PR01837 MGTCSAPBPROT > GO:membrane ; GO:0016020

@@ -1,4 +1,4 @@
-!version date: 2013/01/12 08:52:59
+!version date: 2013/01/19 09:04:42
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -8,6 +8,8 @@ PRINTS:PR00001 GLABLOOD > GO:calcium ion binding ; GO:0005509
 PRINTS:PR00001 GLABLOOD > GO:extracellular region ; GO:0005576
 PRINTS:PR00002 GLABONE > GO:regulation of bone mineralization ; GO:0030500
 PRINTS:PR00002 GLABONE > GO:extracellular region ; GO:0005576
+PRINTS:PR00003 4DISULPHCORE > GO:peptidase inhibitor activity ; GO:0030414
+PRINTS:PR00003 4DISULPHCORE > GO:extracellular region ; GO:0005576
 PRINTS:PR00004 ANAPHYLATOXN > GO:inflammatory response ; GO:0006954
 PRINTS:PR00004 ANAPHYLATOXN > GO:complement activation ; GO:0006956
 PRINTS:PR00004 ANAPHYLATOXN > GO:extracellular region ; GO:0005576
@@ -1093,7 +1095,9 @@ PRINTS:PR00483 BACPHPHTASE > GO:acid phosphatase activity ; GO:0003993
 PRINTS:PR00483 BACPHPHTASE > GO:outer membrane-bounded periplasmic space ; GO:0030288
 PRINTS:PR00484 PBPGOBP > GO:odorant binding ; GO:0005549
 PRINTS:PR00484 PBPGOBP > GO:transport ; GO:0006810
-PRINTS:PR00485 MEALWORMBTLB > GO:extracellular space ; GO:0005615
+PRINTS:PR00485 MEALWORMBTLB > GO:odorant binding ; GO:0005549
+PRINTS:PR00485 MEALWORMBTLB > GO:sensory perception of chemical stimulus ; GO:0007606
+PRINTS:PR00485 MEALWORMBTLB > GO:extracellular region ; GO:0005576
 PRINTS:PR00487 FILAGGRIN > GO:structural molecule activity ; GO:0005198
 PRINTS:PR00488 5LPOXGNASEAP > GO:enzyme activator activity ; GO:0008047
 PRINTS:PR00488 5LPOXGNASEAP > GO:leukotriene metabolic process ; GO:0006691
@@ -1550,6 +1554,9 @@ PRINTS:PR00646 RDC1ORPHANR > GO:G-protein coupled receptor signaling pathway ; G
 PRINTS:PR00646 RDC1ORPHANR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00647 UROTENSIN2R > GO:urotensin II receptor activity ; GO:0001604
 PRINTS:PR00647 UROTENSIN2R > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR00647 UROTENSIN2R > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
+PRINTS:PR00647 UROTENSIN2R > GO:regulation of blood pressure ; GO:0008217
+PRINTS:PR00647 UROTENSIN2R > GO:regulation of vasodilation ; GO:0042312
 PRINTS:PR00647 UROTENSIN2R > GO:integral to membrane ; GO:0016021
 PRINTS:PR00648 GPR3ORPHANR > GO:G-protein coupled receptor activity ; GO:0004930
 PRINTS:PR00648 GPR3ORPHANR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
@@ -2227,7 +2234,7 @@ PRINTS:PR00967 ONCOGENEAML1 > GO:ATP binding ; GO:0005524
 PRINTS:PR00967 ONCOGENEAML1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PRINTS:PR00967 ONCOGENEAML1 > GO:nucleus ; GO:0005634
 PRINTS:PR00968 OUTRSURFACE > GO:cell outer membrane ; GO:0009279
-PRINTS:PR00969 CHAPERONPILI > GO:cell wall organization ; GO:0071555
+PRINTS:PR00969 CHAPERONPILI > GO:pilus organization ; GO:0043711
 PRINTS:PR00969 CHAPERONPILI > GO:outer membrane-bounded periplasmic space ; GO:0030288
 PRINTS:PR00970 RIBTRNSFRASE > GO:NAD(P)+-protein-arginine ADP-ribosyltransferase activity ; GO:0003956
 PRINTS:PR00970 RIBTRNSFRASE > GO:protein ADP-ribosylation ; GO:0006471
@@ -4530,6 +4537,7 @@ PRINTS:PR01850 GROUCHOFAMLY > GO:nucleus ; GO:0005634
 PRINTS:PR01851 CYSFIBREGLTR > GO:chloride channel activity ; GO:0005254
 PRINTS:PR01851 CYSFIBREGLTR > GO:ion transport ; GO:0006811
 PRINTS:PR01851 CYSFIBREGLTR > GO:membrane ; GO:0016020
+PRINTS:PR01855 NRPEPTIDEWR > GO:neuropeptide receptor activity ; GO:0008188
 PRINTS:PR01855 NRPEPTIDEWR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01855 NRPEPTIDEWR > GO:integral to membrane ; GO:0016021
 PRINTS:PR01857 ADAMTSFAMILY > GO:metallopeptidase activity ; GO:0008237

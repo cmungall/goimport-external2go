@@ -1,4 +1,4 @@
-!version date: 2013/01/12 08:52:59
+!version date: 2013/01/19 09:04:41
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -47,7 +47,6 @@ Pfam:PF00034 Cytochrom_C > GO:iron ion binding ; GO:0005506
 Pfam:PF00034 Cytochrom_C > GO:electron carrier activity ; GO:0009055
 Pfam:PF00034 Cytochrom_C > GO:heme binding ; GO:0020037
 Pfam:PF00035 dsrm > GO:double-stranded RNA binding ; GO:0003725
-Pfam:PF00035 dsrm > GO:intracellular ; GO:0005622
 Pfam:PF00037 Fer4 > GO:electron carrier activity ; GO:0009055
 Pfam:PF00037 Fer4 > GO:iron-sulfur cluster binding ; GO:0051536
 Pfam:PF00039 fn1 > GO:extracellular region ; GO:0005576
@@ -87,9 +86,6 @@ Pfam:PF00067 p450 > GO:electron carrier activity ; GO:0009055
 Pfam:PF00067 p450 > GO:oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen ; GO:0016705
 Pfam:PF00067 p450 > GO:heme binding ; GO:0020037
 Pfam:PF00067 p450 > GO:oxidation-reduction process ; GO:0055114
-Pfam:PF00068 Phospholip_A2_1 > GO:phospholipase A2 activity ; GO:0004623
-Pfam:PF00068 Phospholip_A2_1 > GO:calcium ion binding ; GO:0005509
-Pfam:PF00068 Phospholip_A2_1 > GO:lipid catabolic process ; GO:0016042
 Pfam:PF00069 Pkinase > GO:protein kinase activity ; GO:0004672
 Pfam:PF00069 Pkinase > GO:ATP binding ; GO:0005524
 Pfam:PF00069 Pkinase > GO:protein phosphorylation ; GO:0006468
@@ -645,7 +641,7 @@ Pfam:PF00344 SecY > GO:protein transport ; GO:0015031
 Pfam:PF00344 SecY > GO:membrane ; GO:0016020
 Pfam:PF00345 Pili_assembly_N > GO:cell wall organization ; GO:0071555
 Pfam:PF00345 Pili_assembly_N > GO:outer membrane-bounded periplasmic space ; GO:0030288
-Pfam:PF00346 Complex1_49kDa > GO:oxidoreductase activity, acting on NADH or NADPH ; GO:0016651
+Pfam:PF00346 Complex1_49kDa > GO:oxidoreductase activity, acting on NAD(P)H ; GO:0016651
 Pfam:PF00346 Complex1_49kDa > GO:quinone binding ; GO:0048038
 Pfam:PF00346 Complex1_49kDa > GO:NAD binding ; GO:0051287
 Pfam:PF00346 Complex1_49kDa > GO:oxidation-reduction process ; GO:0055114
@@ -786,7 +782,7 @@ Pfam:PF00416 Ribosomal_S13 > GO:ribosome ; GO:0005840
 Pfam:PF00418 Tubulin-binding > GO:tubulin binding ; GO:0015631
 Pfam:PF00419 Fimbrial > GO:cell adhesion ; GO:0007155
 Pfam:PF00419 Fimbrial > GO:pilus ; GO:0009289
-Pfam:PF00420 Oxidored_q2 > GO:oxidoreductase activity, acting on NADH or NADPH ; GO:0016651
+Pfam:PF00420 Oxidored_q2 > GO:oxidoreductase activity, acting on NAD(P)H ; GO:0016651
 Pfam:PF00420 Oxidored_q2 > GO:ATP synthesis coupled electron transport ; GO:0042773
 Pfam:PF00420 Oxidored_q2 > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF00421 PSII > GO:chlorophyll binding ; GO:0016168
@@ -959,7 +955,6 @@ Pfam:PF00503 G-alpha > GO:signal transducer activity ; GO:0004871
 Pfam:PF00503 G-alpha > GO:guanyl nucleotide binding ; GO:0019001
 Pfam:PF00503 G-alpha > GO:G-protein beta/gamma-subunit complex binding ; GO:0031683
 Pfam:PF00503 G-alpha > GO:G-protein coupled receptor signaling pathway ; GO:0007186
-Pfam:PF00505 HMG_box > GO:protein binding ; GO:0005515
 Pfam:PF00506 Flu_NP > GO:structural molecule activity ; GO:0005198
 Pfam:PF00507 Oxidored_q4 > GO:NADH dehydrogenase (ubiquinone) activity ; GO:0008137
 Pfam:PF00507 Oxidored_q4 > GO:oxidation-reduction process ; GO:0055114
@@ -1072,7 +1067,6 @@ Pfam:PF00562 RNA_pol_Rpb2_6 > GO:DNA-directed RNA polymerase activity ; GO:00038
 Pfam:PF00562 RNA_pol_Rpb2_6 > GO:transcription, DNA-dependent ; GO:0006351
 Pfam:PF00564 PB1 > GO:protein binding ; GO:0005515
 Pfam:PF00565 SNase > GO:nucleic acid binding ; GO:0003676
-Pfam:PF00565 SNase > GO:hydrolase activity, acting on ester bonds ; GO:0016788
 Pfam:PF00566 RabGAP-TBC > GO:Rab GTPase activator activity ; GO:0005097
 Pfam:PF00566 RabGAP-TBC > GO:regulation of Rab GTPase activity ; GO:0032313
 Pfam:PF00566 RabGAP-TBC > GO:intracellular ; GO:0005622
@@ -1266,7 +1260,6 @@ Pfam:PF00673 Ribosomal_L5_C > GO:intracellular ; GO:0005622
 Pfam:PF00673 Ribosomal_L5_C > GO:ribosome ; GO:0005840
 Pfam:PF00676 E1_dh > GO:oxidoreductase activity, acting on the aldehyde or oxo group of donors, disulfide as acceptor ; GO:0016624
 Pfam:PF00676 E1_dh > GO:metabolic process ; GO:0008152
-Pfam:PF00679 EFG_C > GO:GTP binding ; GO:0005525
 Pfam:PF00680 RdRP_1 > GO:RNA binding ; GO:0003723
 Pfam:PF00680 RdRP_1 > GO:RNA-directed RNA polymerase activity ; GO:0003968
 Pfam:PF00680 RdRP_1 > GO:transcription, DNA-dependent ; GO:0006351
@@ -1577,7 +1570,7 @@ Pfam:PF00846 Hanta_nucleocap > GO:viral nucleocapsid ; GO:0019013
 Pfam:PF00847 AP2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 Pfam:PF00847 AP2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
 Pfam:PF00848 Ring_hydroxyl_A > GO:iron ion binding ; GO:0005506
-Pfam:PF00848 Ring_hydroxyl_A > GO:oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NADH or NADPH as one donor, and incorporation of two atoms of oxygen into one donor ; GO:0016708
+Pfam:PF00848 Ring_hydroxyl_A > GO:oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of two atoms of oxygen into one donor ; GO:0016708
 Pfam:PF00848 Ring_hydroxyl_A > GO:2 iron, 2 sulfur cluster binding ; GO:0051537
 Pfam:PF00848 Ring_hydroxyl_A > GO:aromatic compound catabolic process ; GO:0019439
 Pfam:PF00848 Ring_hydroxyl_A > GO:oxidation-reduction process ; GO:0055114
@@ -2537,7 +2530,6 @@ Pfam:PF01368 DHH > GO:hydrolase activity ; GO:0016787
 Pfam:PF01368 DHH > GO:manganese ion binding ; GO:0030145
 Pfam:PF01369 Sec7 > GO:ARF guanyl-nucleotide exchange factor activity ; GO:0005086
 Pfam:PF01369 Sec7 > GO:regulation of ARF protein signal transduction ; GO:0032012
-Pfam:PF01369 Sec7 > GO:intracellular ; GO:0005622
 Pfam:PF01370 Epimerase > GO:catalytic activity ; GO:0003824
 Pfam:PF01370 Epimerase > GO:coenzyme binding ; GO:0050662
 Pfam:PF01370 Epimerase > GO:cellular metabolic process ; GO:0044237
@@ -2699,7 +2691,6 @@ Pfam:PF01467 CTP_transf_2 > GO:catalytic activity ; GO:0003824
 Pfam:PF01467 CTP_transf_2 > GO:biosynthetic process ; GO:0009058
 Pfam:PF01468 GA > GO:pathogenesis ; GO:0009405
 Pfam:PF01470 Peptidase_C15 > GO:proteolysis ; GO:0006508
-Pfam:PF01471 PG_binding_1 > GO:metabolic process ; GO:0008152
 Pfam:PF01472 PUA > GO:RNA binding ; GO:0003723
 Pfam:PF01474 DAHP_synth_2 > GO:3-deoxy-7-phosphoheptulonate synthase activity ; GO:0003849
 Pfam:PF01474 DAHP_synth_2 > GO:aromatic amino acid family biosynthetic process ; GO:0009073
@@ -2750,7 +2741,7 @@ Pfam:PF01507 PAPS_reduct > GO:metabolic process ; GO:0008152
 Pfam:PF01509 TruB_N > GO:RNA processing ; GO:0006396
 Pfam:PF01510 Amidase_2 > GO:N-acetylmuramoyl-L-alanine amidase activity ; GO:0008745
 Pfam:PF01510 Amidase_2 > GO:peptidoglycan catabolic process ; GO:0009253
-Pfam:PF01512 Complex1_51K > GO:oxidoreductase activity, acting on NADH or NADPH ; GO:0016651
+Pfam:PF01512 Complex1_51K > GO:oxidoreductase activity, acting on NAD(P)H ; GO:0016651
 Pfam:PF01512 Complex1_51K > GO:4 iron, 4 sulfur cluster binding ; GO:0051539
 Pfam:PF01513 NAD_kinase > GO:NAD+ kinase activity ; GO:0003951
 Pfam:PF01513 NAD_kinase > GO:NADP biosynthetic process ; GO:0006741
@@ -3374,9 +3365,6 @@ Pfam:PF01921 tRNA-synt_1f > GO:cytoplasm ; GO:0005737
 Pfam:PF01922 SRP19 > GO:7S RNA binding ; GO:0008312
 Pfam:PF01922 SRP19 > GO:SRP-dependent cotranslational protein targeting to membrane ; GO:0006614
 Pfam:PF01922 SRP19 > GO:signal recognition particle ; GO:0048500
-Pfam:PF01923 Cob_adeno_trans > GO:ATP binding ; GO:0005524
-Pfam:PF01923 Cob_adeno_trans > GO:cob(I)yrinic acid a,c-diamide adenosyltransferase activity ; GO:0008817
-Pfam:PF01923 Cob_adeno_trans > GO:cobalamin biosynthetic process ; GO:0009236
 Pfam:PF01924 HypD > GO:metal ion binding ; GO:0046872
 Pfam:PF01925 TauE > GO:integral to membrane ; GO:0016021
 Pfam:PF01926 MMR_HSR1 > GO:GTP binding ; GO:0005525
@@ -3543,6 +3531,8 @@ Pfam:PF02079 TP1 > GO:nucleus ; GO:0005634
 Pfam:PF02080 TrkA_C > GO:cation transmembrane transporter activity ; GO:0008324
 Pfam:PF02080 TrkA_C > GO:potassium ion transport ; GO:0006813
 Pfam:PF02083 Urotensin_II > GO:hormone activity ; GO:0005179
+Pfam:PF02083 Urotensin_II > GO:regulation of blood pressure ; GO:0008217
+Pfam:PF02083 Urotensin_II > GO:regulation of vasodilation ; GO:0042312
 Pfam:PF02083 Urotensin_II > GO:extracellular region ; GO:0005576
 Pfam:PF02084 Bindin > GO:fusion of sperm to egg plasma membrane ; GO:0007342
 Pfam:PF02085 Cytochrom_CIII > GO:electron carrier activity ; GO:0009055
@@ -4455,8 +4445,6 @@ Pfam:PF02747 PCNA_C > GO:PCNA complex ; GO:0043626
 Pfam:PF02749 QRPTase_N > GO:transferase activity, transferring pentosyl groups ; GO:0016763
 Pfam:PF02751 TFIIA_gamma_C > GO:transcription initiation from RNA polymerase II promoter ; GO:0006367
 Pfam:PF02751 TFIIA_gamma_C > GO:transcription factor TFIIA complex ; GO:0005672
-Pfam:PF02753 Pili_assembly_C > GO:cell wall organization ; GO:0071555
-Pfam:PF02753 Pili_assembly_C > GO:outer membrane-bounded periplasmic space ; GO:0030288
 Pfam:PF02761 Cbl_N2 > GO:calcium ion binding ; GO:0005509
 Pfam:PF02765 Telo_bind > GO:DNA binding ; GO:0003677
 Pfam:PF02765 Telo_bind > GO:telomere maintenance ; GO:0000723
@@ -4893,7 +4881,6 @@ Pfam:PF03063 Prismane > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF03063 Prismane > GO:cytoplasm ; GO:0005737
 Pfam:PF03065 Glyco_hydro_57 > GO:catalytic activity ; GO:0003824
 Pfam:PF03065 Glyco_hydro_57 > GO:carbohydrate metabolic process ; GO:0005975
-Pfam:PF03066 Nucleoplasmin > GO:nucleic acid binding ; GO:0003676
 Pfam:PF03067 Chitin_bind_3 > GO:viral capsid ; GO:0019028
 Pfam:PF03068 PAD > GO:protein-arginine deiminase activity ; GO:0004668
 Pfam:PF03068 PAD > GO:calcium ion binding ; GO:0005509
@@ -6462,7 +6449,7 @@ Pfam:PF04711 ApoA-II > GO:lipoprotein metabolic process ; GO:0042157
 Pfam:PF04711 ApoA-II > GO:extracellular region ; GO:0005576
 Pfam:PF04715 Anth_synt_I_N > GO:oxo-acid-lyase activity ; GO:0016833
 Pfam:PF04715 Anth_synt_I_N > GO:biosynthetic process ; GO:0009058
-Pfam:PF04716 ETC_C1_NDUFA5 > GO:oxidoreductase activity, acting on NADH or NADPH ; GO:0016651
+Pfam:PF04716 ETC_C1_NDUFA5 > GO:oxidoreductase activity, acting on NAD(P)H ; GO:0016651
 Pfam:PF04716 ETC_C1_NDUFA5 > GO:respiratory electron transport chain ; GO:0022904
 Pfam:PF04716 ETC_C1_NDUFA5 > GO:mitochondrial inner membrane ; GO:0005743
 Pfam:PF04718 ATP-synt_G > GO:hydrogen ion transmembrane transporter activity ; GO:0015078
@@ -6539,7 +6526,7 @@ Pfam:PF04799 Fzo_mitofusin > GO:GTP catabolic process ; GO:0006184
 Pfam:PF04799 Fzo_mitofusin > GO:mitochondrial fusion ; GO:0008053
 Pfam:PF04799 Fzo_mitofusin > GO:mitochondrial outer membrane ; GO:0005741
 Pfam:PF04799 Fzo_mitofusin > GO:integral to membrane ; GO:0016021
-Pfam:PF04800 ETC_C1_NDUFA4 > GO:oxidoreductase activity, acting on NADH or NADPH ; GO:0016651
+Pfam:PF04800 ETC_C1_NDUFA4 > GO:oxidoreductase activity, acting on NAD(P)H ; GO:0016651
 Pfam:PF04800 ETC_C1_NDUFA4 > GO:electron transport chain ; GO:0022900
 Pfam:PF04800 ETC_C1_NDUFA4 > GO:mitochondrial inner membrane ; GO:0005743
 Pfam:PF04801 Sin_N > GO:DNA-directed RNA polymerase activity ; GO:0003899
@@ -7466,7 +7453,7 @@ Pfam:PF05893 LuxC > GO:bioluminescence ; GO:0008218
 Pfam:PF05893 LuxC > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF05894 Podovirus_Gp16 > GO:ATP binding ; GO:0005524
 Pfam:PF05894 Podovirus_Gp16 > GO:viral capsid assembly ; GO:0019069
-Pfam:PF05896 NQRA > GO:oxidoreductase activity, acting on NADH or NADPH, quinone or similar compound as acceptor ; GO:0016655
+Pfam:PF05896 NQRA > GO:oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor ; GO:0016655
 Pfam:PF05896 NQRA > GO:sodium ion transport ; GO:0006814
 Pfam:PF05896 NQRA > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF05902 4_1_CTD > GO:actin binding ; GO:0003779
@@ -8562,6 +8549,7 @@ Pfam:PF07740 Toxin_12 > GO:extracellular region ; GO:0005576
 Pfam:PF07741 BRF1 > GO:zinc ion binding ; GO:0008270
 Pfam:PF07741 BRF1 > GO:positive regulation of transcription, DNA-dependent ; GO:0045893
 Pfam:PF07741 BRF1 > GO:nucleus ; GO:0005634
+Pfam:PF07743 HSCB_C > GO:protein oligomerization ; GO:0051259
 Pfam:PF07745 Glyco_hydro_53 > GO:glucosidase activity ; GO:0015926
 Pfam:PF07748 Glyco_hydro_38C > GO:mannosidase activity ; GO:0015923
 Pfam:PF07748 Glyco_hydro_38C > GO:mannose metabolic process ; GO:0006013
@@ -9087,7 +9075,7 @@ Pfam:PF08408 DNA_pol_B_3 > GO:DNA-directed DNA polymerase activity ; GO:0003887
 Pfam:PF08411 Exonuc_X-T_C > GO:exodeoxyribonuclease I activity ; GO:0008852
 Pfam:PF08411 Exonuc_X-T_C > GO:DNA repair ; GO:0006281
 Pfam:PF08414 NADPH_Ox > GO:peroxidase activity ; GO:0004601
-Pfam:PF08414 NADPH_Ox > GO:oxidoreductase activity, acting on NADH or NADPH, oxygen as acceptor ; GO:0050664
+Pfam:PF08414 NADPH_Ox > GO:oxidoreductase activity, acting on NAD(P)H, oxygen as acceptor ; GO:0050664
 Pfam:PF08414 NADPH_Ox > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF08416 PTB > GO:protein binding ; GO:0005515
 Pfam:PF08417 PaO > GO:chlorophyllide a oxygenase [overall] activity ; GO:0010277
@@ -9435,7 +9423,6 @@ Pfam:PF09004 DUF1891 > GO:methyltransferase activity ; GO:0008168
 Pfam:PF09004 DUF1891 > GO:oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, 2-oxoglutarate as one donor, and incorporation of one atom each of oxygen into both donors ; GO:0016706
 Pfam:PF09004 DUF1891 > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF09008 Head_binding > GO:pathogenesis ; GO:0009405
-Pfam:PF09011 DUF1898 > GO:protein binding ; GO:0005515
 Pfam:PF09013 YopH_N > GO:protein tyrosine phosphatase activity ; GO:0004725
 Pfam:PF09013 YopH_N > GO:protein dephosphorylation ; GO:0006470
 Pfam:PF09013 YopH_N > GO:pathogenesis ; GO:0009405
@@ -9720,7 +9707,7 @@ Pfam:PF09308 LuxQ-periplasm > GO:phosphatase activity ; GO:0016791
 Pfam:PF09317 DUF1974 > GO:acyl-CoA dehydrogenase activity ; GO:0003995
 Pfam:PF09317 DUF1974 > GO:fatty acid beta-oxidation using acyl-CoA dehydrogenase ; GO:0033539
 Pfam:PF09317 DUF1974 > GO:oxidation-reduction process ; GO:0055114
-Pfam:PF09326 DUF1982 > GO:oxidoreductase activity, acting on NADH or NADPH ; GO:0016651
+Pfam:PF09326 DUF1982 > GO:oxidoreductase activity, acting on NAD(P)H ; GO:0016651
 Pfam:PF09326 DUF1982 > GO:iron-sulfur cluster binding ; GO:0051536
 Pfam:PF09326 DUF1982 > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF09328 Phytochelatin_C > GO:glutathione gamma-glutamylcysteinyltransferase activity ; GO:0016756
@@ -10049,10 +10036,10 @@ Pfam:PF10660 MitoNEET_N > GO:2 iron, 2 sulfur cluster binding ; GO:0051537
 Pfam:PF10660 MitoNEET_N > GO:intracellular membrane-bounded organelle ; GO:0043231
 Pfam:PF10662 PduV-EutP > GO:ATP binding ; GO:0005524
 Pfam:PF10662 PduV-EutP > GO:cellular biogenic amine metabolic process ; GO:0006576
-Pfam:PF10664 NdhM > GO:oxidoreductase activity, acting on NADH or NADPH, quinone or similar compound as acceptor ; GO:0016655
+Pfam:PF10664 NdhM > GO:oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor ; GO:0016655
 Pfam:PF10664 NdhM > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF10672 Methyltrans_SAM > GO:methyltransferase activity ; GO:0008168
-Pfam:PF10716 NdhL > GO:oxidoreductase activity, acting on NADH or NADPH, quinone or similar compound as acceptor ; GO:0016655
+Pfam:PF10716 NdhL > GO:oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor ; GO:0016655
 Pfam:PF10716 NdhL > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF10717 ODV-E18 > GO:viral envelope ; GO:0019031
 Pfam:PF10729 CedA > GO:DNA binding ; GO:0003677
@@ -10174,10 +10161,10 @@ Pfam:PF11889 DUF3409 > GO:serine-type exopeptidase activity ; GO:0070008
 Pfam:PF11890 DUF3410 > GO:protein dimerization activity ; GO:0046983
 Pfam:PF11894 DUF3414 > GO:nuclear pore ; GO:0005643
 Pfam:PF11896 DUF3416 > GO:hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553
-Pfam:PF11909 NdhN > GO:oxidoreductase activity, acting on NADH or NADPH, quinone or similar compound as acceptor ; GO:0016655
+Pfam:PF11909 NdhN > GO:oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor ; GO:0016655
 Pfam:PF11909 NdhN > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF11909 NdhN > GO:membrane ; GO:0016020
-Pfam:PF11910 NdhO > GO:oxidoreductase activity, acting on NADH or NADPH, quinone or similar compound as acceptor ; GO:0016655
+Pfam:PF11910 NdhO > GO:oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor ; GO:0016655
 Pfam:PF11910 NdhO > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF11910 NdhO > GO:plasma membrane ; GO:0005886
 Pfam:PF11956 KCNQC3-Ank-G_bd > GO:potassium channel activity ; GO:0005267
@@ -10185,7 +10172,7 @@ Pfam:PF11956 KCNQC3-Ank-G_bd > GO:membrane ; GO:0016020
 Pfam:PF11960 DUF3474 > GO:oxidoreductase activity, acting on paired donors, with oxidation of a pair of donors resulting in the reduction of molecular oxygen to two molecules of water ; GO:0016717
 Pfam:PF11960 DUF3474 > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF11965 DUF3479 > GO:magnesium chelatase activity ; GO:0016851
-Pfam:PF11973 NQRA_SLBB > GO:oxidoreductase activity, acting on NADH or NADPH, quinone or similar compound as acceptor ; GO:0016655
+Pfam:PF11973 NQRA_SLBB > GO:oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor ; GO:0016655
 Pfam:PF11973 NQRA_SLBB > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF11975 Glyco_hydro_4C > GO:hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553
 Pfam:PF11991 Trp_DMAT > GO:tryptophan dimethylallyltransferase activity ; GO:0050364
@@ -10327,7 +10314,6 @@ Pfam:PF12639 Colicin-DNase > GO:endonuclease activity ; GO:0004519
 Pfam:PF12689 Acid_PPase > GO:phosphatase activity ; GO:0016791
 Pfam:PF12740 Chlorophyllase2 > GO:chlorophyllase activity ; GO:0047746
 Pfam:PF12740 Chlorophyllase2 > GO:chlorophyll catabolic process ; GO:0015996
-Pfam:PF12745 HGTP_anticodon2 > GO:tRNA binding ; GO:0000049
 Pfam:PF12753 Nro1 > GO:protein binding ; GO:0005515
 Pfam:PF12753 Nro1 > GO:nucleus ; GO:0005634
 Pfam:PF12766 Pyridox_oxase_2 > GO:FMN binding ; GO:0010181

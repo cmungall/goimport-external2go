@@ -1,4 +1,4 @@
-!version date: 2013/01/19 09:04:42
+!version date: 2013/01/26 07:59:55
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -448,6 +448,7 @@ PRINTS:PR00192 FACTINCAPB > GO:actin binding ; GO:0003779
 PRINTS:PR00192 FACTINCAPB > GO:actin cytoskeleton organization ; GO:0030036
 PRINTS:PR00192 FACTINCAPB > GO:cytoplasm ; GO:0005737
 PRINTS:PR00192 FACTINCAPB > GO:F-actin capping protein complex ; GO:0008290
+PRINTS:PR00192 FACTINCAPB > GO:WASH complex ; GO:0071203
 PRINTS:PR00193 MYOSINHEAVY > GO:motor activity ; GO:0003774
 PRINTS:PR00193 MYOSINHEAVY > GO:ATP binding ; GO:0005524
 PRINTS:PR00193 MYOSINHEAVY > GO:myosin complex ; GO:0016459
@@ -824,8 +825,7 @@ PRINTS:PR00390 PHPHLIPASEC > GO:intracellular signal transduction ; GO:0035556
 PRINTS:PR00391 PITRANSFER > GO:transport ; GO:0006810
 PRINTS:PR00391 PITRANSFER > GO:intracellular ; GO:0005622
 PRINTS:PR00392 PROFILIN > GO:actin binding ; GO:0003779
-PRINTS:PR00392 PROFILIN > GO:cytoskeleton organization ; GO:0007010
-PRINTS:PR00392 PROFILIN > GO:actin cytoskeleton ; GO:0015629
+PRINTS:PR00392 PROFILIN > GO:actin cytoskeleton organization ; GO:0030036
 PRINTS:PR00393 PTRHORMONER > GO:parathyroid hormone receptor activity ; GO:0004991
 PRINTS:PR00393 PTRHORMONER > GO:membrane ; GO:0016020
 PRINTS:PR00395 RIBOSOMALS2 > GO:structural constituent of ribosome ; GO:0003735
@@ -885,7 +885,7 @@ PRINTS:PR00417 PRTPISMRASEI > GO:DNA topoisomerase type I activity ; GO:0003917
 PRINTS:PR00417 PRTPISMRASEI > GO:DNA topological change ; GO:0006265
 PRINTS:PR00417 PRTPISMRASEI > GO:chromosome ; GO:0005694
 PRINTS:PR00418 TPI2FAMILY > GO:DNA binding ; GO:0003677
-PRINTS:PR00418 TPI2FAMILY > GO:DNA topoisomerase (ATP-hydrolyzing) activity ; GO:0003918
+PRINTS:PR00418 TPI2FAMILY > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
 PRINTS:PR00418 TPI2FAMILY > GO:ATP binding ; GO:0005524
 PRINTS:PR00418 TPI2FAMILY > GO:DNA topological change ; GO:0006265
 PRINTS:PR00418 TPI2FAMILY > GO:chromosome ; GO:0005694
@@ -1505,6 +1505,9 @@ PRINTS:PR00624 HISTONEH5 > GO:DNA binding ; GO:0003677
 PRINTS:PR00624 HISTONEH5 > GO:nucleosome assembly ; GO:0006334
 PRINTS:PR00624 HISTONEH5 > GO:nucleosome ; GO:0000786
 PRINTS:PR00626 CALRETICULIN > GO:calcium ion binding ; GO:0005509
+PRINTS:PR00626 CALRETICULIN > GO:unfolded protein binding ; GO:0051082
+PRINTS:PR00626 CALRETICULIN > GO:protein folding ; GO:0006457
+PRINTS:PR00626 CALRETICULIN > GO:endoplasmic reticulum ; GO:0005783
 PRINTS:PR00627 GTPRANTC4 > GO:GTPase activity ; GO:0003924
 PRINTS:PR00627 GTPRANTC4 > GO:GTP binding ; GO:0005525
 PRINTS:PR00627 GTPRANTC4 > GO:GTP catabolic process ; GO:0006184
@@ -1564,6 +1567,7 @@ PRINTS:PR00648 GPR3ORPHANR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00649 GPR6ORPHANR > GO:G-protein coupled receptor activity ; GO:0004930
 PRINTS:PR00649 GPR6ORPHANR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00649 GPR6ORPHANR > GO:integral to membrane ; GO:0016021
+PRINTS:PR00650 GPR12ORPHANR > GO:G-protein coupled receptor activity ; GO:0004930
 PRINTS:PR00650 GPR12ORPHANR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00650 GPR12ORPHANR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00651 5HT2BRECEPTR > GO:serotonin receptor activity ; GO:0004993
@@ -1596,7 +1600,6 @@ PRINTS:PR00661 ERMFAMILY > GO:extrinsic to membrane ; GO:0019898
 PRINTS:PR00662 G6PISOMERASE > GO:glucose-6-phosphate isomerase activity ; GO:0004347
 PRINTS:PR00662 G6PISOMERASE > GO:gluconeogenesis ; GO:0006094
 PRINTS:PR00662 G6PISOMERASE > GO:glycolysis ; GO:0006096
-PRINTS:PR00663 GALANINR > GO:galanin receptor activity ; GO:0004966
 PRINTS:PR00663 GALANINR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00663 GALANINR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00664 OCTOPAMINER > GO:octopamine receptor activity ; GO:0004989
@@ -2621,7 +2624,7 @@ PRINTS:PR01097 TRNSRECEPTRP > GO:calcium channel activity ; GO:0005262
 PRINTS:PR01097 TRNSRECEPTRP > GO:calcium ion transmembrane transport ; GO:0070588
 PRINTS:PR01097 TRNSRECEPTRP > GO:membrane ; GO:0016020
 PRINTS:PR01098 TOPISMRASE4B > GO:DNA binding ; GO:0003677
-PRINTS:PR01098 TOPISMRASE4B > GO:DNA topoisomerase (ATP-hydrolyzing) activity ; GO:0003918
+PRINTS:PR01098 TOPISMRASE4B > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
 PRINTS:PR01098 TOPISMRASE4B > GO:ATP binding ; GO:0005524
 PRINTS:PR01098 TOPISMRASE4B > GO:DNA topological change ; GO:0006265
 PRINTS:PR01098 TOPISMRASE4B > GO:chromosome ; GO:0005694
@@ -2807,12 +2810,12 @@ PRINTS:PR01157 P2YPURNOCPTR > GO:G-protein coupled purinergic nucleotide recepto
 PRINTS:PR01157 P2YPURNOCPTR > GO:G-protein coupled purinergic nucleotide receptor signaling pathway ; GO:0035589
 PRINTS:PR01157 P2YPURNOCPTR > GO:integral to membrane ; GO:0016021
 PRINTS:PR01158 TOPISMRASEII > GO:DNA binding ; GO:0003677
-PRINTS:PR01158 TOPISMRASEII > GO:DNA topoisomerase (ATP-hydrolyzing) activity ; GO:0003918
+PRINTS:PR01158 TOPISMRASEII > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
 PRINTS:PR01158 TOPISMRASEII > GO:ATP binding ; GO:0005524
 PRINTS:PR01158 TOPISMRASEII > GO:DNA topological change ; GO:0006265
 PRINTS:PR01158 TOPISMRASEII > GO:chromosome ; GO:0005694
 PRINTS:PR01159 DNAGYRASEB > GO:DNA binding ; GO:0003677
-PRINTS:PR01159 DNAGYRASEB > GO:DNA topoisomerase (ATP-hydrolyzing) activity ; GO:0003918
+PRINTS:PR01159 DNAGYRASEB > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
 PRINTS:PR01159 DNAGYRASEB > GO:ATP binding ; GO:0005524
 PRINTS:PR01159 DNAGYRASEB > GO:DNA topological change ; GO:0006265
 PRINTS:PR01159 DNAGYRASEB > GO:chromosome ; GO:0005694
@@ -3077,6 +3080,8 @@ PRINTS:PR01259 NACAEXCHNGR > GO:membrane ; GO:0016020
 PRINTS:PR01260 NACAEXCHNGR1 > GO:calcium:sodium antiporter activity ; GO:0005432
 PRINTS:PR01260 NACAEXCHNGR1 > GO:calcium ion transport ; GO:0006816
 PRINTS:PR01260 NACAEXCHNGR1 > GO:membrane ; GO:0016020
+PRINTS:PR01261 TAUPROTEIN > GO:microtubule binding ; GO:0008017
+PRINTS:PR01261 TAUPROTEIN > GO:microtubule ; GO:0005874
 PRINTS:PR01262 INNEXIN > GO:gap junction ; GO:0005921
 PRINTS:PR01263 INTCLCHANNEL > GO:voltage-gated chloride channel activity ; GO:0005247
 PRINTS:PR01263 INTCLCHANNEL > GO:chloride transport ; GO:0006821
@@ -3778,7 +3783,7 @@ PRINTS:PR01550 TOP6AFAMILY > GO:ATP binding ; GO:0005524
 PRINTS:PR01550 TOP6AFAMILY > GO:DNA metabolic process ; GO:0006259
 PRINTS:PR01550 TOP6AFAMILY > GO:chromosome ; GO:0005694
 PRINTS:PR01552 TPISMRASE6A > GO:DNA binding ; GO:0003677
-PRINTS:PR01552 TPISMRASE6A > GO:DNA topoisomerase (ATP-hydrolyzing) activity ; GO:0003918
+PRINTS:PR01552 TPISMRASE6A > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
 PRINTS:PR01552 TPISMRASE6A > GO:DNA topological change ; GO:0006265
 PRINTS:PR01552 TPISMRASE6A > GO:chromosome ; GO:0005694
 PRINTS:PR01553 TYPE4SSCAGA > GO:toxin transporter activity ; GO:0019534
@@ -4691,6 +4696,15 @@ PRINTS:PR01988 EXPORTERBACE > GO:membrane ; GO:0016020
 PRINTS:PR01989 EUOM20RECPTR > GO:protein targeting ; GO:0006605
 PRINTS:PR01989 EUOM20RECPTR > GO:intracellular protein transport ; GO:0006886
 PRINTS:PR01989 EUOM20RECPTR > GO:mitochondrial outer membrane translocase complex ; GO:0005742
+PRINTS:PR01991 GPR153GPR162 > GO:G-protein coupled receptor activity ; GO:0004930
+PRINTS:PR01991 GPR153GPR162 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01991 GPR153GPR162 > GO:integral to membrane ; GO:0016021
+PRINTS:PR01992 GPR153 > GO:G-protein coupled receptor activity ; GO:0004930
+PRINTS:PR01992 GPR153 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01992 GPR153 > GO:integral to membrane ; GO:0016021
+PRINTS:PR01993 GPR162 > GO:G-protein coupled receptor activity ; GO:0004930
+PRINTS:PR01993 GPR162 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01993 GPR162 > GO:integral to membrane ; GO:0016021
 PRINTS:PR02002 INSLNLIKEGF > GO:growth factor activity ; GO:0008083
 PRINTS:PR02002 INSLNLIKEGF > GO:extracellular space ; GO:0005615
 PRINTS:PR02003 BOMBYXIN > GO:growth factor activity ; GO:0008083
@@ -4776,8 +4790,10 @@ PRINTS:PR02105 INTSUBUNIT2 > GO:integrator complex ; GO:0032039
 PRINTS:PR02106 INTSUBUNIT10 > GO:snRNA processing ; GO:0016180
 PRINTS:PR02106 INTSUBUNIT10 > GO:integrator complex ; GO:0032039
 PRINTS:PR02108 MRGPCRFAMILY > GO:G-protein coupled receptor activity ; GO:0004930
+PRINTS:PR02108 MRGPCRFAMILY > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR02108 MRGPCRFAMILY > GO:integral to membrane ; GO:0016021
 PRINTS:PR02109 MRGPCRA > GO:G-protein coupled receptor activity ; GO:0004930
+PRINTS:PR02109 MRGPCRA > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR02109 MRGPCRA > GO:integral to membrane ; GO:0016021
 PRINTS:PR02110 MRGPCRD > GO:G-protein coupled receptor activity ; GO:0004930
 PRINTS:PR02110 MRGPCRD > GO:integral to membrane ; GO:0016021

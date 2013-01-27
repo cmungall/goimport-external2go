@@ -1,4 +1,4 @@
-!version date: 2013/01/19 09:04:42
+!version date: 2013/01/26 07:59:56
 !description: Mapping of GO terms to PIRSF entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pir.georgetown.edu/pirsf/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1510,10 +1510,12 @@ PIRSF:PIRSF003025 eIF5A > GO:positive regulation of translational elongation ; G
 PIRSF:PIRSF003025 eIF5A > GO:positive regulation of translational termination ; GO:0045905
 PIRSF:PIRSF003028 TF_GATA_4/5/6 > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PIRSF:PIRSF003033 Ku70 > GO:DNA binding ; GO:0003677
-PIRSF:PIRSF003033 Ku70 > GO:ATP-dependent DNA helicase activity ; GO:0004003
+PIRSF:PIRSF003033 Ku70 > GO:damaged DNA binding ; GO:0003684
+PIRSF:PIRSF003033 Ku70 > GO:telomeric DNA binding ; GO:0042162
+PIRSF:PIRSF003033 Ku70 > GO:telomere maintenance ; GO:0000723
 PIRSF:PIRSF003033 Ku70 > GO:double-strand break repair via nonhomologous end joining ; GO:0006303
 PIRSF:PIRSF003033 Ku70 > GO:nucleus ; GO:0005634
-PIRSF:PIRSF003033 Ku70 > GO:DNA-dependent protein kinase-DNA ligase 4 complex ; GO:0005958
+PIRSF:PIRSF003033 Ku70 > GO:Ku70:Ku80 complex ; GO:0043564
 PIRSF:PIRSF003047 TAF1_animal > GO:DNA binding ; GO:0003677
 PIRSF:PIRSF003047 TAF1_animal > GO:DNA-dependent transcription, initiation ; GO:0006352
 PIRSF:PIRSF003047 TAF1_animal > GO:regulation of transcription, DNA-dependent ; GO:0006355
@@ -2051,7 +2053,7 @@ PIRSF:PIRSF006540 Nop17p > GO:methyltransferase activity ; GO:0008168
 PIRSF:PIRSF006540 Nop17p > GO:rRNA processing ; GO:0006364
 PIRSF:PIRSF006540 Nop17p > GO:tRNA processing ; GO:0008033
 PIRSF:PIRSF006553 TopoVI_B > GO:DNA binding ; GO:0003677
-PIRSF:PIRSF006553 TopoVI_B > GO:DNA topoisomerase (ATP-hydrolyzing) activity ; GO:0003918
+PIRSF:PIRSF006553 TopoVI_B > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
 PIRSF:PIRSF006553 TopoVI_B > GO:DNA topological change ; GO:0006265
 PIRSF:PIRSF006553 TopoVI_B > GO:chromosome ; GO:0005694
 PIRSF:PIRSF006588 TyrRS_arch_euk > GO:tyrosine-tRNA ligase activity ; GO:0004831
@@ -2232,6 +2234,7 @@ PIRSF:PIRSF011312 Cell_cycle_HUS1 > GO:checkpoint clamp complex ; GO:0030896
 PIRSF:PIRSF011355 VP24 > GO:structural molecule activity ; GO:0005198
 PIRSF:PIRSF011355 VP24 > GO:viral reproduction ; GO:0016032
 PIRSF:PIRSF011355 VP24 > GO:membrane ; GO:0016020
+PIRSF:PIRSF011362 Fruiting_body_devlp_DevR > GO:defense response to virus ; GO:0051607
 PIRSF:PIRSF011368 Lipo_LPP20 > GO:cell outer membrane ; GO:0009279
 PIRSF:PIRSF011409 HObutyrate_olig_hydrol > GO:hydroxybutyrate-dimer hydrolase activity ; GO:0047989
 PIRSF:PIRSF011409 HObutyrate_olig_hydrol > GO:butyrate metabolic process ; GO:0019605
@@ -2423,7 +2426,9 @@ PIRSF:PIRSF016302 Man_a_manosd > GO:carbohydrate catabolic process ; GO:0016052
 PIRSF:PIRSF016305 LCM_mtfrase > GO:methyltransferase activity ; GO:0008168
 PIRSF:PIRSF016308 UBP > GO:omega peptidase activity ; GO:0008242
 PIRSF:PIRSF016315 ARP2/3_P21-Arc > GO:regulation of actin filament polymerization ; GO:0030833
+PIRSF:PIRSF016315 ARP2/3_P21-Arc > GO:Arp2/3 complex-mediated actin nucleation ; GO:0034314
 PIRSF:PIRSF016315 ARP2/3_P21-Arc > GO:cytoskeleton ; GO:0005856
+PIRSF:PIRSF016315 ARP2/3_P21-Arc > GO:Arp2/3 protein complex ; GO:0005885
 PIRSF:PIRSF016323 tRNA_m1G_mtfrase_met > GO:methyltransferase activity ; GO:0008168
 PIRSF:PIRSF016325 Phstyr_phstse_ac > GO:phosphatase activator activity ; GO:0019211
 PIRSF:PIRSF016379 ENT > GO:nucleoside transmembrane transporter activity ; GO:0005337
@@ -2472,11 +2477,13 @@ PIRSF:PIRSF016552 MtrD > GO:vesicle membrane ; GO:0012506
 PIRSF:PIRSF016557 Caps_synth_CpsB > GO:protein tyrosine phosphatase activity ; GO:0004725
 PIRSF:PIRSF016557 Caps_synth_CpsB > GO:manganese ion binding ; GO:0030145
 PIRSF:PIRSF016570 Ku80 > GO:DNA binding ; GO:0003677
-PIRSF:PIRSF016570 Ku80 > GO:ATP-dependent DNA helicase activity ; GO:0004003
+PIRSF:PIRSF016570 Ku80 > GO:damaged DNA binding ; GO:0003684
+PIRSF:PIRSF016570 Ku80 > GO:telomeric DNA binding ; GO:0042162
+PIRSF:PIRSF016570 Ku80 > GO:telomere maintenance ; GO:0000723
 PIRSF:PIRSF016570 Ku80 > GO:double-strand break repair via nonhomologous end joining ; GO:0006303
 PIRSF:PIRSF016570 Ku80 > GO:DNA recombination ; GO:0006310
 PIRSF:PIRSF016570 Ku80 > GO:nucleus ; GO:0005634
-PIRSF:PIRSF016570 Ku80 > GO:DNA-dependent protein kinase-DNA ligase 4 complex ; GO:0005958
+PIRSF:PIRSF016570 Ku80 > GO:Ku70:Ku80 complex ; GO:0043564
 PIRSF:PIRSF016573 Peptidase_M7 > GO:metalloendopeptidase activity ; GO:0004222
 PIRSF:PIRSF016573 Peptidase_M7 > GO:zinc ion binding ; GO:0008270
 PIRSF:PIRSF016573 Peptidase_M7 > GO:proteolysis ; GO:0006508
@@ -2606,6 +2613,7 @@ PIRSF:PIRSF018239 IGFBP_rP_mac25 > GO:regulation of cell growth ; GO:0001558
 PIRSF:PIRSF018239 IGFBP_rP_mac25 > GO:extracellular region ; GO:0005576
 PIRSF:PIRSF018249 MyrA_prd > GO:methyltransferase activity ; GO:0008168
 PIRSF:PIRSF018250 Saccharopine_DH_Lys > GO:saccharopine dehydrogenase (NAD+, L-lysine-forming) activity ; GO:0004754
+PIRSF:PIRSF018250 Saccharopine_DH_Lys > GO:lysine biosynthetic process ; GO:0009085
 PIRSF:PIRSF018267 VSR_endonuc > GO:endonuclease activity ; GO:0004519
 PIRSF:PIRSF018267 VSR_endonuc > GO:mismatch repair ; GO:0006298
 PIRSF:PIRSF018269 PC_trans_euk > GO:phosphatidate cytidylyltransferase activity ; GO:0004605
@@ -2708,6 +2716,8 @@ PIRSF:PIRSF022699 MND2 > GO:regulation of mitotic metaphase/anaphase transition 
 PIRSF:PIRSF022699 MND2 > GO:anaphase-promoting complex-dependent proteasomal ubiquitin-dependent protein catabolic process ; GO:0031145
 PIRSF:PIRSF022699 MND2 > GO:anaphase-promoting complex ; GO:0005680
 PIRSF:PIRSF022950 PPase_methylesterase_euk > GO:carboxylesterase activity ; GO:0004091
+PIRSF:PIRSF022993 Profilin_apicomplexa > GO:actin binding ; GO:0003779
+PIRSF:PIRSF022993 Profilin_apicomplexa > GO:actin cytoskeleton organization ; GO:0030036
 PIRSF:PIRSF023322 DUF841_euk > GO:membrane ; GO:0016020
 PIRSF:PIRSF023803 Ribonuclease_P_prd > GO:ribonuclease P activity ; GO:0004526
 PIRSF:PIRSF023803 Ribonuclease_P_prd > GO:RNA metabolic process ; GO:0016070
@@ -3126,6 +3136,8 @@ PIRSF:PIRSF036946 Arg_N-mtase > GO:methyltransferase activity ; GO:0008168
 PIRSF:PIRSF036946 Arg_N-mtase > GO:protein methylation ; GO:0006479
 PIRSF:PIRSF036947 Spt6 > GO:regulation of transcription from RNA polymerase II promoter ; GO:0006357
 PIRSF:PIRSF036947 Spt6 > GO:regulation of DNA-dependent transcription, elongation ; GO:0032784
+PIRSF:PIRSF036950 UCP036950 > GO:single-stranded telomeric DNA binding ; GO:0043047
+PIRSF:PIRSF036950 UCP036950 > GO:telomere maintenance via telomere lengthening ; GO:0010833
 PIRSF:PIRSF036951 Mas1 > GO:oxidoreductase activity ; GO:0016491
 PIRSF:PIRSF036951 Mas1 > GO:biosynthesis by symbiont of substance in host ; GO:0052007
 PIRSF:PIRSF036951 Mas1 > GO:oxidation-reduction process ; GO:0055114
@@ -3612,6 +3624,8 @@ PIRSF:PIRSF500204 RBP_purpurin > GO:retinoid binding ; GO:0005501
 PIRSF:PIRSF500204 RBP_purpurin > GO:transport ; GO:0006810
 PIRSF:PIRSF500231 Oat_dag > GO:diacylglycerol O-acyltransferase activity ; GO:0004144
 PIRSF:PIRSF500231 Oat_dag > GO:triglyceride biosynthetic process ; GO:0019432
+PIRSF:PIRSF500628 PTGIS > GO:prostaglandin-I synthase activity ; GO:0008116
+PIRSF:PIRSF500628 PTGIS > GO:prostaglandin biosynthetic process ; GO:0001516
 PIRSF:PIRSF500720 TEF-5 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PIRSF:PIRSF500720 TEF-5 > GO:hippo signaling cascade ; GO:0035329
 PIRSF:PIRSF500720 TEF-5 > GO:positive regulation of transcription from RNA polymerase II promoter ; GO:0045944
@@ -3640,10 +3654,15 @@ PIRSF:PIRSF500939 ERR1-2-3 > GO:steroid binding ; GO:0005496
 PIRSF:PIRSF500939 ERR1-2-3 > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PIRSF:PIRSF500939 ERR1-2-3 > GO:nucleus ; GO:0005634
 PIRSF:PIRSF500948 Beta-PDGF_receptor > GO:platelet-derived growth factor beta-receptor activity ; GO:0005019
+PIRSF:PIRSF500948 Beta-PDGF_receptor > GO:platelet-derived growth factor receptor signaling pathway ; GO:0048008
 PIRSF:PIRSF500950 Alpha-PDGF_receptor > GO:platelet-derived growth factor alpha-receptor activity ; GO:0005018
+PIRSF:PIRSF500951 SCGF_recepter > GO:receptor signaling protein tyrosine kinase activity ; GO:0004716
+PIRSF:PIRSF500951 SCGF_recepter > GO:cytokine binding ; GO:0019955
 PIRSF:PIRSF500951 SCGF_recepter > GO:Fc receptor signaling pathway ; GO:0038093
 PIRSF:PIRSF500951 SCGF_recepter > GO:Kit signaling pathway ; GO:0038109
 PIRSF:PIRSF501032 C-ets-2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+PIRSF:PIRSF501105 Protein_kin_C_theta > GO:protein serine/threonine kinase activity ; GO:0004674
+PIRSF:PIRSF501105 Protein_kin_C_theta > GO:protein kinase C activity ; GO:0004697
 PIRSF:PIRSF501106 Protein_kin_C_epsilon > GO:calcium-independent protein kinase C activity ; GO:0004699
 PIRSF:PIRSF501175 TDT > GO:DNA nucleotidylexotransferase activity ; GO:0003912
 PIRSF:PIRSF501176 DNApol_mu > GO:DNA-directed DNA polymerase activity ; GO:0003887

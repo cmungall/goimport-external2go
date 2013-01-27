@@ -1,4 +1,4 @@
-!version date: 2013/01/19 09:04:41
+!version date: 2013/01/26 07:59:55
 !description: Mapping of GO terms to PROSITE entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://www.expasy.org/prosite/
 !citation: Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -335,7 +335,7 @@ PROSITE:MF_00130 RecU > GO:DNA recombination ; GO:0006310
 PROSITE:MF_00130 RecU > GO:cytoplasm ; GO:0005737
 PROSITE:MF_00131 Trp_synth_alpha > GO:tryptophan synthase activity ; GO:0004834
 PROSITE:MF_00131 Trp_synth_alpha > GO:tryptophan metabolic process ; GO:0006568
-PROSITE:MF_00132 Top6A > GO:DNA topoisomerase (ATP-hydrolyzing) activity ; GO:0003918
+PROSITE:MF_00132 Top6A > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
 PROSITE:MF_00133 Trp_synth_beta > GO:tryptophan synthase activity ; GO:0004834
 PROSITE:MF_00133 Trp_synth_beta > GO:tryptophan biosynthetic process ; GO:0000162
 PROSITE:MF_00134_A IGPS_A > GO:indole-3-glycerol-phosphate synthase activity ; GO:0004425
@@ -784,7 +784,7 @@ PROSITE:MF_00320 RNApol_arch_D > GO:transcription, DNA-dependent ; GO:0006351
 PROSITE:MF_00321 GTPase_EngB > GO:GTP binding ; GO:0005525
 PROSITE:MF_00321 GTPase_EngB > GO:barrier septum assembly ; GO:0000917
 PROSITE:MF_00322 Top6B > GO:DNA binding ; GO:0003677
-PROSITE:MF_00322 Top6B > GO:DNA topoisomerase (ATP-hydrolyzing) activity ; GO:0003918
+PROSITE:MF_00322 Top6B > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
 PROSITE:MF_00322 Top6B > GO:DNA topological change ; GO:0006265
 PROSITE:MF_00322 Top6B > GO:chromosome ; GO:0005694
 PROSITE:MF_00323 Ferrochelatase > GO:ferrochelatase activity ; GO:0004325
@@ -3478,12 +3478,12 @@ PROSITE:MF_01895 RNase_R > GO:RNA binding ; GO:0003723
 PROSITE:MF_01895 RNase_R > GO:nuclease activity ; GO:0004518
 PROSITE:MF_01896 DNA_gyrase_inhibitor > GO:DNA topoisomerase (ATP-hydrolyzing) inhibitor activity ; GO:0008657
 PROSITE:MF_01897 GyrA > GO:DNA binding ; GO:0003677
-PROSITE:MF_01897 GyrA > GO:DNA topoisomerase (ATP-hydrolyzing) activity ; GO:0003918
+PROSITE:MF_01897 GyrA > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
 PROSITE:MF_01897 GyrA > GO:ATP binding ; GO:0005524
 PROSITE:MF_01897 GyrA > GO:DNA topological change ; GO:0006265
 PROSITE:MF_01897 GyrA > GO:chromosome ; GO:0005694
 PROSITE:MF_01898 GyrB > GO:DNA binding ; GO:0003677
-PROSITE:MF_01898 GyrB > GO:DNA topoisomerase (ATP-hydrolyzing) activity ; GO:0003918
+PROSITE:MF_01898 GyrB > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
 PROSITE:MF_01898 GyrB > GO:ATP binding ; GO:0005524
 PROSITE:MF_01898 GyrB > GO:DNA topological change ; GO:0006265
 PROSITE:MF_01898 GyrB > GO:chromosome ; GO:0005694
@@ -3915,7 +3915,7 @@ PROSITE:PS00176 TOPOISOMERASE_I_EUK > GO:DNA binding ; GO:0003677
 PROSITE:PS00176 TOPOISOMERASE_I_EUK > GO:DNA topoisomerase type I activity ; GO:0003917
 PROSITE:PS00176 TOPOISOMERASE_I_EUK > GO:DNA topological change ; GO:0006265
 PROSITE:PS00177 TOPOISOMERASE_II > GO:DNA binding ; GO:0003677
-PROSITE:PS00177 TOPOISOMERASE_II > GO:DNA topoisomerase (ATP-hydrolyzing) activity ; GO:0003918
+PROSITE:PS00177 TOPOISOMERASE_II > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
 PROSITE:PS00177 TOPOISOMERASE_II > GO:ATP binding ; GO:0005524
 PROSITE:PS00177 TOPOISOMERASE_II > GO:DNA topological change ; GO:0006265
 PROSITE:PS00178 AA_TRNA_LIGASE_I > GO:nucleotide binding ; GO:0000166
@@ -4307,8 +4307,6 @@ PROSITE:PS00411 KINESIN_MOTOR_DOMAIN1 > GO:microtubule-based movement ; GO:00070
 PROSITE:PS00412 NEUROMODULIN_1 > GO:regulation of growth ; GO:0040008
 PROSITE:PS00413 NEUROMODULIN_2 > GO:regulation of growth ; GO:0040008
 PROSITE:PS00414 PROFILIN > GO:actin binding ; GO:0003779
-PROSITE:PS00414 PROFILIN > GO:cytoskeleton organization ; GO:0007010
-PROSITE:PS00414 PROFILIN > GO:actin cytoskeleton ; GO:0015629
 PROSITE:PS00417 SYNAPTOBREVIN > GO:vesicle-mediated transport ; GO:0016192
 PROSITE:PS00417 SYNAPTOBREVIN > GO:integral to membrane ; GO:0016021
 PROSITE:PS00418 POTEX_CARLAVIRUS_COAT > GO:structural molecule activity ; GO:0005198

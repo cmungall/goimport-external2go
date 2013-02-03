@@ -1,9 +1,10 @@
-!version date: 2013/01/26 07:59:56
+!version date: 2013/02/02 09:02:08
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
 !contact:interhelp@ebi.ac.uk
 !
+Pfam:PF00001 7tm_1 > GO:G-protein coupled receptor activity ; GO:0004930
 Pfam:PF00001 7tm_1 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 Pfam:PF00001 7tm_1 > GO:integral to membrane ; GO:0016021
 Pfam:PF00002 7tm_2 > GO:G-protein coupled receptor activity ; GO:0004930
@@ -1638,8 +1639,6 @@ Pfam:PF00873 ACR_tran > GO:transporter activity ; GO:0005215
 Pfam:PF00873 ACR_tran > GO:transport ; GO:0006810
 Pfam:PF00873 ACR_tran > GO:membrane ; GO:0016020
 Pfam:PF00874 PRD > GO:regulation of transcription, DNA-dependent ; GO:0006355
-Pfam:PF00875 DNA_photolyase > GO:DNA photolyase activity ; GO:0003913
-Pfam:PF00875 DNA_photolyase > GO:DNA repair ; GO:0006281
 Pfam:PF00876 Innexin > GO:gap junction ; GO:0005921
 Pfam:PF00878 CIMR > GO:transporter activity ; GO:0005215
 Pfam:PF00878 CIMR > GO:transport ; GO:0006810
@@ -2670,7 +2669,7 @@ Pfam:PF01442 Apolipoprotein > GO:lipid binding ; GO:0008289
 Pfam:PF01442 Apolipoprotein > GO:lipid transport ; GO:0006869
 Pfam:PF01442 Apolipoprotein > GO:lipoprotein metabolic process ; GO:0042157
 Pfam:PF01442 Apolipoprotein > GO:extracellular region ; GO:0005576
-Pfam:PF01443 Viral_helicase1 > GO:helicase activity ; GO:0004386
+Pfam:PF01443 Viral_helicase1 > GO:ATP binding ; GO:0005524
 Pfam:PF01445 SH > GO:membrane ; GO:0016020
 Pfam:PF01446 Rep_1 > GO:DNA binding ; GO:0003677
 Pfam:PF01446 Rep_1 > GO:DNA replication ; GO:0006260
@@ -4244,6 +4243,7 @@ Pfam:PF02572 CobA_CobO_BtuR > GO:ATP binding ; GO:0005524
 Pfam:PF02572 CobA_CobO_BtuR > GO:cob(I)yrinic acid a,c-diamide adenosyltransferase activity ; GO:0008817
 Pfam:PF02572 CobA_CobO_BtuR > GO:cobalamin biosynthetic process ; GO:0009236
 Pfam:PF02574 S-methyl_trans > GO:homocysteine S-methyltransferase activity ; GO:0008898
+Pfam:PF02577 DNase-RNase > GO:nuclease activity ; GO:0004518
 Pfam:PF02580 Tyr_Deacylase > GO:hydrolase activity, acting on ester bonds ; GO:0016788
 Pfam:PF02580 Tyr_Deacylase > GO:D-amino acid catabolic process ; GO:0019478
 Pfam:PF02580 Tyr_Deacylase > GO:cytoplasm ; GO:0005737
@@ -4502,9 +4502,6 @@ Pfam:PF02788 RuBisCO_large_N > GO:carbon fixation ; GO:0015977
 Pfam:PF02789 Peptidase_M17_N > GO:aminopeptidase activity ; GO:0004177
 Pfam:PF02789 Peptidase_M17_N > GO:proteolysis ; GO:0006508
 Pfam:PF02789 Peptidase_M17_N > GO:intracellular ; GO:0005622
-Pfam:PF02790 COX2_TM > GO:cytochrome-c oxidase activity ; GO:0004129
-Pfam:PF02790 COX2_TM > GO:copper ion binding ; GO:0005507
-Pfam:PF02790 COX2_TM > GO:electron carrier activity ; GO:0009055
 Pfam:PF02790 COX2_TM > GO:electron transport chain ; GO:0022900
 Pfam:PF02790 COX2_TM > GO:integral to membrane ; GO:0016021
 Pfam:PF02792 Mago_nashi > GO:nucleus ; GO:0005634
@@ -4828,8 +4825,6 @@ Pfam:PF02996 Prefoldin > GO:unfolded protein binding ; GO:0051082
 Pfam:PF02996 Prefoldin > GO:protein folding ; GO:0006457
 Pfam:PF02996 Prefoldin > GO:prefoldin complex ; GO:0016272
 Pfam:PF02998 Lentiviral_Tat > GO:positive regulation of transcription, DNA-dependent ; GO:0045893
-Pfam:PF03000 NPH3 > GO:signal transducer activity ; GO:0004871
-Pfam:PF03000 NPH3 > GO:response to light stimulus ; GO:0009416
 Pfam:PF03002 Somatostatin > GO:hormone activity ; GO:0005179
 Pfam:PF03002 Somatostatin > GO:extracellular region ; GO:0005576
 Pfam:PF03006 HlyIII > GO:integral to membrane ; GO:0016021
@@ -6835,7 +6830,6 @@ Pfam:PF05139 Erythro_esteras > GO:response to antibiotic ; GO:0046677
 Pfam:PF05144 Phage_CRI > GO:DNA replication ; GO:0006260
 Pfam:PF05148 Methyltransf_8 > GO:methyltransferase activity ; GO:0008168
 Pfam:PF05149 Flagellar_rod > GO:calmodulin binding ; GO:0005516
-Pfam:PF05149 Flagellar_rod > GO:microtubule-based flagellum ; GO:0009434
 Pfam:PF05151 PsbM > GO:photosynthesis ; GO:0015979
 Pfam:PF05151 PsbM > GO:photosynthesis, light reaction ; GO:0019684
 Pfam:PF05151 PsbM > GO:photosystem II ; GO:0009523
@@ -8459,6 +8453,7 @@ Pfam:PF07580 Peptidase_M26_C > GO:cell wall ; GO:0005618
 Pfam:PF07645 EGF_CA > GO:calcium ion binding ; GO:0005509
 Pfam:PF07646 Kelch_2 > GO:protein binding ; GO:0005515
 Pfam:PF07647 SAM_2 > GO:protein binding ; GO:0005515
+Pfam:PF07648 Kazal_2 > GO:protein binding ; GO:0005515
 Pfam:PF07649 C1_3 > GO:protein-disulfide reductase activity ; GO:0047134
 Pfam:PF07649 C1_3 > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF07650 KH_2 > GO:RNA binding ; GO:0003723
@@ -10441,7 +10436,6 @@ Pfam:PF13741 MRP-S25 > GO:structural constituent of ribosome ; GO:0003735
 Pfam:PF13741 MRP-S25 > GO:mitochondrial small ribosomal subunit ; GO:0005763
 Pfam:PF13742 tRNA_anti_2 > GO:nucleic acid binding ; GO:0003676
 Pfam:PF13851 GAS > GO:cell motility ; GO:0048870
-Pfam:PF13851 GAS > GO:microtubule-based flagellum ; GO:0009434
 Pfam:PF13867 SAP30_Sin3_bdg > GO:protein binding ; GO:0005515
 Pfam:PF13869 NUDIX_2 > GO:mRNA binding ; GO:0003729
 Pfam:PF13869 NUDIX_2 > GO:mRNA polyadenylation ; GO:0006378

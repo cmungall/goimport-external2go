@@ -1,4 +1,4 @@
-!version date: 2013/01/26 07:59:55
+!version date: 2013/02/02 09:02:07
 !description: Mapping of GO terms to PROSITE entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://www.expasy.org/prosite/
 !citation: Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -4008,6 +4008,7 @@ PROSITE:PS00236 NEUROTR_ION_CHANNEL > GO:extracellular ligand-gated ion channel 
 PROSITE:PS00236 NEUROTR_ION_CHANNEL > GO:ion transport ; GO:0006811
 PROSITE:PS00236 NEUROTR_ION_CHANNEL > GO:integral to membrane ; GO:0016021
 PROSITE:PS00236 NEUROTR_ION_CHANNEL > GO:postsynaptic membrane ; GO:0045211
+PROSITE:PS00237 G_PROTEIN_RECEP_F1_1 > GO:G-protein coupled receptor activity ; GO:0004930
 PROSITE:PS00237 G_PROTEIN_RECEP_F1_1 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PROSITE:PS00237 G_PROTEIN_RECEP_F1_1 > GO:integral to membrane ; GO:0016021
 PROSITE:PS00238 OPSIN > GO:G-protein coupled receptor signaling pathway ; GO:0007186
@@ -6493,7 +6494,7 @@ PROSITE:PS50885 HAMP > GO:signal transducer activity ; GO:0004871
 PROSITE:PS50885 HAMP > GO:signal transduction ; GO:0007165
 PROSITE:PS50885 HAMP > GO:integral to membrane ; GO:0016021
 PROSITE:PS50886 TRBD > GO:tRNA binding ; GO:0000049
-PROSITE:PS50888 HLH > GO:protein dimerization activity ; GO:0046983
+PROSITE:PS50888 BHLH > GO:protein dimerization activity ; GO:0046983
 PROSITE:PS50889 S4 > GO:RNA binding ; GO:0003723
 PROSITE:PS50890 PUA > GO:RNA binding ; GO:0003723
 PROSITE:PS50892 V_SNARE > GO:vesicle-mediated transport ; GO:0016192
@@ -6611,6 +6612,8 @@ PROSITE:PS50995 HTH_MARR_2 > GO:regulation of transcription, DNA-dependent ; GO:
 PROSITE:PS50995 HTH_MARR_2 > GO:intracellular ; GO:0005622
 PROSITE:PS50998 GLA_2 > GO:calcium ion binding ; GO:0005509
 PROSITE:PS50998 GLA_2 > GO:extracellular region ; GO:0005576
+PROSITE:PS50999 COX2_TM > GO:electron transport chain ; GO:0022900
+PROSITE:PS50999 COX2_TM > GO:integral to membrane ; GO:0016021
 PROSITE:PS51000 HTH_DEOR_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS51000 HTH_DEOR_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PROSITE:PS51000 HTH_DEOR_2 > GO:intracellular ; GO:0005622
@@ -7274,6 +7277,7 @@ PROSITE:PS51463 P_GLUCOSE_ISOMERASE_3 > GO:gluconeogenesis ; GO:0006094
 PROSITE:PS51463 P_GLUCOSE_ISOMERASE_3 > GO:glycolysis ; GO:0006096
 PROSITE:PS51464 SIS > GO:carbohydrate binding ; GO:0030246
 PROSITE:PS51464 SIS > GO:carbohydrate metabolic process ; GO:0005975
+PROSITE:PS51465 KAZAL_2 > GO:protein binding ; GO:0005515
 PROSITE:PS51467 HARP > GO:helicase activity ; GO:0004386
 PROSITE:PS51467 HARP > GO:chromatin modification ; GO:0016568
 PROSITE:PS51467 HARP > GO:nucleus ; GO:0005634
@@ -7392,6 +7396,8 @@ PROSITE:PS51589 SAM_MT56_VP3 > GO:viral reproduction ; GO:0016032
 PROSITE:PS51589 SAM_MT56_VP3 > GO:viral nucleocapsid ; GO:0019013
 PROSITE:PS51591 RNA_CAP01_NS5_MT > GO:mRNA (guanine-N7-)-methyltransferase activity ; GO:0004482
 PROSITE:PS51591 RNA_CAP01_NS5_MT > GO:mRNA (nucleoside-2'-O-)-methyltransferase activity ; GO:0004483
+PROSITE:PS51595 SAM_MT_ERG6_1 > GO:S-adenosylmethionine-dependent methyltransferase activity ; GO:0008757
+PROSITE:PS51596 SAM_MT_ERG6_2 > GO:S-adenosylmethionine-dependent methyltransferase activity ; GO:0008757
 PROSITE:PS51597 SAM_HNMT > GO:histamine N-methyltransferase activity ; GO:0046539
 PROSITE:PS51598 SAM_CHO2 > GO:phosphatidylethanolamine N-methyltransferase activity ; GO:0004608
 PROSITE:PS51598 SAM_CHO2 > GO:phospholipid metabolic process ; GO:0006644
@@ -7417,6 +7423,7 @@ PROSITE:PS51612 SAM_MT57_VIR > GO:mRNA (nucleoside-2'-O-)-methyltransferase acti
 PROSITE:PS51612 SAM_MT57_VIR > GO:7-methylguanosine mRNA capping ; GO:0006370
 PROSITE:PS51612 SAM_MT57_VIR > GO:regulation of mRNA 3'-end processing ; GO:0031440
 PROSITE:PS51615 SAM_MT53 > GO:putrescine N-methyltransferase activity ; GO:0030750
+PROSITE:PS51616 SAM_NNMT_PNMT_TEMT_2 > GO:amine N-methyltransferase activity ; GO:0030748
 PROSITE:PS51620 SAM_TRM61 > GO:tRNA (adenine-N1-)-methyltransferase activity ; GO:0016429
 PROSITE:PS51620 SAM_TRM61 > GO:tRNA methylation ; GO:0030488
 PROSITE:PS51620 SAM_TRM61 > GO:tRNA (m1A) methyltransferase complex ; GO:0031515
@@ -7432,6 +7439,11 @@ PROSITE:PS51631 SAM_PRMT_2 > GO:methyltransferase activity ; GO:0008168
 PROSITE:PS51631 SAM_PRMT_2 > GO:protein methylation ; GO:0006479
 PROSITE:PS51632 SAM_PRMT_3 > GO:methyltransferase activity ; GO:0008168
 PROSITE:PS51632 SAM_PRMT_3 > GO:protein methylation ; GO:0006479
+PROSITE:PS51652 AV_MBD > GO:metal ion binding ; GO:0046872
+PROSITE:PS51653 CV_MBD > GO:metal ion binding ; GO:0046872
+PROSITE:PS51656 4FE4S > GO:iron-sulfur cluster binding ; GO:0051536
+PROSITE:PS51657 PSRV_HELICASE > GO:ATP binding ; GO:0005524
+PROSITE:PS51658 BFN > GO:nuclease activity ; GO:0004518
 PROSITE:PS60000 CHITOSANASE_46_80 > GO:chitosanase activity ; GO:0016977
 PROSITE:PS60000 CHITOSANASE_46_80 > GO:carbohydrate metabolic process ; GO:0005975
 PROSITE:PS60000 CHITOSANASE_46_80 > GO:extracellular region ; GO:0005576

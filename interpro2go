@@ -1,4 +1,4 @@
-!version date: 2013/02/09 09:06:21
+!version date: 2013/02/16 08:57:36
 !description: Mapping of GO terms to InterPro entries.
 !external resource: http://www.ebi.ac.uk/interpro
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -551,7 +551,7 @@ InterPro:IPR000297 Peptidyl-prolyl cis-trans isomerase, PpiC-type > GO:isomerase
 InterPro:IPR000298 Cytochrome c oxidase, subunit III > GO:heme-copper terminal oxidase activity ; GO:0015002
 InterPro:IPR000298 Cytochrome c oxidase, subunit III > GO:membrane ; GO:0016020
 InterPro:IPR000299 FERM domain > GO:cytoskeleton ; GO:0005856
-InterPro:IPR000300 Inositol polyphosphate-related phosphatase > GO:phosphatidylinositol phosphorylation ; GO:0046854
+InterPro:IPR000300 Inositol polyphosphate-related phosphatase > GO:phosphatidylinositol dephosphorylation ; GO:0046856
 InterPro:IPR000301 Tetraspanin > GO:integral to membrane ; GO:0016021
 InterPro:IPR000304 Pyrroline-5-carboxylate reductase > GO:pyrroline-5-carboxylate reductase activity ; GO:0004735
 InterPro:IPR000304 Pyrroline-5-carboxylate reductase > GO:proline biosynthetic process ; GO:0006561
@@ -6780,7 +6780,6 @@ InterPro:IPR003767 Malate/L-lactate dehydrogenase > GO:metabolic process ; GO:00
 InterPro:IPR003767 Malate/L-lactate dehydrogenase > GO:oxidation-reduction process ; GO:0055114
 InterPro:IPR003769 Adaptor protein ClpS, core > GO:protein catabolic process ; GO:0030163
 InterPro:IPR003775 Flagellar assembly factor FliW > GO:flagellum assembly ; GO:0009296
-InterPro:IPR003775 Flagellar assembly factor FliW > GO:flagellum ; GO:0019861
 InterPro:IPR003779 Carboxymuconolactone decarboxylase > GO:peroxiredoxin activity ; GO:0051920
 InterPro:IPR003779 Carboxymuconolactone decarboxylase > GO:oxidation-reduction process ; GO:0055114
 InterPro:IPR003780 Heme A synthase > GO:oxidoreductase activity, acting on the CH-CH group of donors ; GO:0016627
@@ -10951,20 +10950,18 @@ InterPro:IPR006295 DNA primase, DnaG > GO:DNA replication, synthesis of RNA prim
 InterPro:IPR006297 Elongation factor 4 > GO:GTP binding ; GO:0005525
 InterPro:IPR006298 GTP-binding protein TypA > GO:GTP binding ; GO:0005525
 InterPro:IPR006298 GTP-binding protein TypA > GO:intracellular ; GO:0005622
-InterPro:IPR006299 Flagellar basal-body rod protein FlgC > GO:flagellum ; GO:0019861
-InterPro:IPR006300 Flagellar basal-body rod protein FlgB > GO:flagellum ; GO:0019861
-InterPro:IPR006301 Flagellar biosynthesis protein FlhA > GO:protein transport ; GO:0015031
+InterPro:IPR006299 Flagellar basal-body rod protein FlgC > GO:bacterial-type flagellum basal body, rod ; GO:0030694
+InterPro:IPR006300 Flagellar basal-body rod protein FlgB > GO:bacterial-type flagellum basal body ; GO:0009425
+InterPro:IPR006301 Flagellar biosynthesis protein FlhA > GO:flagellum assembly ; GO:0009296
 InterPro:IPR006301 Flagellar biosynthesis protein FlhA > GO:integral to membrane ; GO:0016021
-InterPro:IPR006301 Flagellar biosynthesis protein FlhA > GO:flagellum ; GO:0019861
 InterPro:IPR006302 Type III secretion protein HrcV > GO:protein transport ; GO:0015031
 InterPro:IPR006302 Type III secretion protein HrcV > GO:integral to membrane ; GO:0016021
-InterPro:IPR006303 Flagellar biosynthesis protein FliR > GO:protein transport ; GO:0015031
+InterPro:IPR006303 Flagellar biosynthesis protein FliR > GO:flagellum assembly ; GO:0009296
 InterPro:IPR006303 Flagellar biosynthesis protein FliR > GO:integral to membrane ; GO:0016021
-InterPro:IPR006303 Flagellar biosynthesis protein FliR > GO:flagellum ; GO:0019861
 InterPro:IPR006304 Type III secretion protein SpaR/YscT > GO:transport ; GO:0006810
 InterPro:IPR006304 Type III secretion protein SpaR/YscT > GO:integral to membrane ; GO:0016021
+InterPro:IPR006305 Flagellar biosynthesis protein FliQ > GO:flagellum assembly ; GO:0009296
 InterPro:IPR006305 Flagellar biosynthesis protein FliQ > GO:integral to membrane ; GO:0016021
-InterPro:IPR006305 Flagellar biosynthesis protein FliQ > GO:flagellum ; GO:0019861
 InterPro:IPR006306 Type III secretion protein HrpO > GO:transport ; GO:0006810
 InterPro:IPR006306 Type III secretion protein HrpO > GO:integral to membrane ; GO:0016021
 InterPro:IPR006307 Type III secretion system, flagellar biosynthetic protein, EscU > GO:transport ; GO:0006810
@@ -12035,7 +12032,6 @@ InterPro:IPR007409 Restriction endonuclease, type I, HsdR, N-terminal > GO:DNA b
 InterPro:IPR007409 Restriction endonuclease, type I, HsdR, N-terminal > GO:endonuclease activity ; GO:0004519
 InterPro:IPR007409 Restriction endonuclease, type I, HsdR, N-terminal > GO:DNA modification ; GO:0006304
 InterPro:IPR007412 Anti-sigma-28 factor, FlgM > GO:negative regulation of transcription, DNA-dependent ; GO:0045892
-InterPro:IPR007412 Anti-sigma-28 factor, FlgM > GO:flagellum ; GO:0019861
 InterPro:IPR007415 Nitrogenase MoFe maturation protein, NifZ > GO:nitrogen fixation ; GO:0009399
 InterPro:IPR007421 ATPase, AAA-4 > GO:ATP binding ; GO:0005524
 InterPro:IPR007428 VacJ-like lipoprotein > GO:membrane ; GO:0016020
@@ -12385,7 +12381,6 @@ InterPro:IPR007803 Aspartyl/Asparaginyl beta-hydroxylase > GO:peptidyl-amino aci
 InterPro:IPR007803 Aspartyl/Asparaginyl beta-hydroxylase > GO:integral to endoplasmic reticulum membrane ; GO:0030176
 InterPro:IPR007805 Gas vesicle protein GvpK > GO:gas vesicle organization ; GO:0031412
 InterPro:IPR007809 FlgN-like domain > GO:flagellum assembly ; GO:0009296
-InterPro:IPR007809 FlgN-like domain > GO:flagellum ; GO:0019861
 InterPro:IPR007811 RNA polymerase III Rpc4 > GO:DNA binding ; GO:0003677
 InterPro:IPR007811 RNA polymerase III Rpc4 > GO:DNA-directed RNA polymerase activity ; GO:0003899
 InterPro:IPR007811 RNA polymerase III Rpc4 > GO:transcription from RNA polymerase III promoter ; GO:0006383
@@ -12460,7 +12455,6 @@ InterPro:IPR007875 Sprouty > GO:multicellular organismal development ; GO:000727
 InterPro:IPR007875 Sprouty > GO:regulation of signal transduction ; GO:0009966
 InterPro:IPR007875 Sprouty > GO:membrane ; GO:0016020
 InterPro:IPR007876 Neuraminyllactose-binding haemagglutinin precursor > GO:cell outer membrane ; GO:0009279
-InterPro:IPR007876 Neuraminyllactose-binding haemagglutinin precursor > GO:flagellum ; GO:0019861
 InterPro:IPR007880 Spiralin > GO:membrane ; GO:0016020
 InterPro:IPR007882 STOP/MAP6 > GO:calmodulin binding ; GO:0005516
 InterPro:IPR007882 STOP/MAP6 > GO:microtubule binding ; GO:0008017
@@ -13276,7 +13270,6 @@ InterPro:IPR008612 Mating pheromone, Euplotes octocarinatus > GO:pheromone activ
 InterPro:IPR008612 Mating pheromone, Euplotes octocarinatus > GO:cell communication ; GO:0007154
 InterPro:IPR008612 Mating pheromone, Euplotes octocarinatus > GO:extracellular region ; GO:0005576
 InterPro:IPR008614 Acidic fibroblast growth factor binding > GO:fibroblast growth factor binding ; GO:0017134
-InterPro:IPR008622 Flagellar protein FliT > GO:flagellum ; GO:0019861
 InterPro:IPR008626 Mediator complex, subunit Med15, fungi > GO:RNA polymerase II transcription cofactor activity ; GO:0001104
 InterPro:IPR008626 Mediator complex, subunit Med15, fungi > GO:regulation of transcription from RNA polymerase II promoter ; GO:0006357
 InterPro:IPR008626 Mediator complex, subunit Med15, fungi > GO:mediator complex ; GO:0016592
@@ -13936,7 +13929,6 @@ InterPro:IPR009194 Adenosylcobalamin biosynthesis, ATP:cob(I)alamin adenosyltran
 InterPro:IPR009194 Adenosylcobalamin biosynthesis, ATP:cob(I)alamin adenosyltransferase, EutT-type > GO:ethanolamine metabolic process ; GO:0006580
 InterPro:IPR009194 Adenosylcobalamin biosynthesis, ATP:cob(I)alamin adenosyltransferase, EutT-type > GO:cobalamin biosynthetic process ; GO:0009236
 InterPro:IPR009203 Cell wall assembly/cell proliferation-coordinating protein, KNR4 > GO:cell wall biogenesis ; GO:0042546
-InterPro:IPR009205 Predicted archaeal flagellar protein C > GO:flagellum ; GO:0019861
 InterPro:IPR009206 Nucleotidase, putative > GO:phosphatase activity ; GO:0016791
 InterPro:IPR009210 Predicted eukaryotic LigT > GO:regulation of transcription, DNA-dependent ; GO:0006355
 InterPro:IPR009210 Predicted eukaryotic LigT > GO:cytoplasm ; GO:0005737
@@ -14059,7 +14051,6 @@ InterPro:IPR009415 Omega-atracotoxin > GO:calcium channel inhibitor activity ; G
 InterPro:IPR009415 Omega-atracotoxin > GO:pathogenesis ; GO:0009405
 InterPro:IPR009415 Omega-atracotoxin > GO:extracellular region ; GO:0005576
 InterPro:IPR009419 Viral polyprotein, parechovirus P3A > GO:virion ; GO:0019012
-InterPro:IPR009420 Flagellar FlhE > GO:flagellum ; GO:0019861
 InterPro:IPR009422 Gemin6 > GO:spliceosomal complex assembly ; GO:0000245
 InterPro:IPR009422 Gemin6 > GO:nucleus ; GO:0005634
 InterPro:IPR009423 NADH:ubiquinone oxidoreductase, subunit b14.5b > GO:NADH dehydrogenase (ubiquinone) activity ; GO:0008137
@@ -14898,10 +14889,10 @@ InterPro:IPR010509 ABC transporter, N-terminal > GO:transport ; GO:0006810
 InterPro:IPR010509 ABC transporter, N-terminal > GO:membrane ; GO:0016020
 InterPro:IPR010513 KEN domain > GO:ribonuclease activity ; GO:0004540
 InterPro:IPR010513 KEN domain > GO:mRNA processing ; GO:0006397
-InterPro:IPR010514 COX aromatic rich > GO:cytochrome o ubiquinol oxidase activity ; GO:0008827
-InterPro:IPR010514 COX aromatic rich > GO:electron transport chain ; GO:0022900
-InterPro:IPR010514 COX aromatic rich > GO:oxidation-reduction process ; GO:0055114
-InterPro:IPR010514 COX aromatic rich > GO:integral to membrane ; GO:0016021
+InterPro:IPR010514 COX aromatic rich motif > GO:cytochrome o ubiquinol oxidase activity ; GO:0008827
+InterPro:IPR010514 COX aromatic rich motif > GO:electron transport chain ; GO:0022900
+InterPro:IPR010514 COX aromatic rich motif > GO:oxidation-reduction process ; GO:0055114
+InterPro:IPR010514 COX aromatic rich motif > GO:integral to membrane ; GO:0016021
 InterPro:IPR010515 Collagenase NC10/endostatin > GO:structural molecule activity ; GO:0005198
 InterPro:IPR010515 Collagenase NC10/endostatin > GO:cell adhesion ; GO:0007155
 InterPro:IPR010515 Collagenase NC10/endostatin > GO:extracellular matrix ; GO:0031012
@@ -15151,7 +15142,6 @@ InterPro:IPR010929 CDR ABC transporter > GO:ATP binding ; GO:0005524
 InterPro:IPR010929 CDR ABC transporter > GO:ATPase activity, coupled to transmembrane movement of substances ; GO:0042626
 InterPro:IPR010929 CDR ABC transporter > GO:transport ; GO:0006810
 InterPro:IPR010929 CDR ABC transporter > GO:integral to membrane ; GO:0016021
-InterPro:IPR010930 Flagellar basal-body/hook protein, C-terminal domain > GO:flagellum ; GO:0019861
 InterPro:IPR010932 Large T antigen, polyomavirus, C-terminal > GO:DNA binding ; GO:0003677
 InterPro:IPR010932 Large T antigen, polyomavirus, C-terminal > GO:ATP binding ; GO:0005524
 InterPro:IPR010932 Large T antigen, polyomavirus, C-terminal > GO:DNA replication ; GO:0006260
@@ -17536,7 +17526,6 @@ InterPro:IPR012951 Berberine/berberine-like > GO:oxidoreductase activity ; GO:00
 InterPro:IPR012951 Berberine/berberine-like > GO:flavin adenine dinucleotide binding ; GO:0050660
 InterPro:IPR012951 Berberine/berberine-like > GO:oxidation-reduction process ; GO:0055114
 InterPro:IPR012953 BOP1, N-terminal domain > GO:rRNA processing ; GO:0006364
-InterPro:IPR012953 BOP1, N-terminal domain > GO:regulation of cell cycle ; GO:0051726
 InterPro:IPR012955 CASP, C-terminal > GO:intra-Golgi vesicle-mediated transport ; GO:0006891
 InterPro:IPR012955 CASP, C-terminal > GO:integral to Golgi membrane ; GO:0030173
 InterPro:IPR012957 CHD, C-terminal 2 > GO:DNA binding ; GO:0003677
@@ -17848,7 +17837,6 @@ InterPro:IPR013370 Muconate/chloromuconate cycloisomerase > GO:muconate cycloiso
 InterPro:IPR013370 Muconate/chloromuconate cycloisomerase > GO:chloromuconate cycloisomerase activity ; GO:0018850
 InterPro:IPR013370 Muconate/chloromuconate cycloisomerase > GO:manganese ion binding ; GO:0030145
 InterPro:IPR013371 Homoserine kinase, putative > GO:phosphoglycerate mutase activity ; GO:0004619
-InterPro:IPR013373 Archaeal flagellin, N-terminal > GO:flagellum ; GO:0019861
 InterPro:IPR013374 ATPase, type IV, pilus assembly, PilB > GO:ATP binding ; GO:0005524
 InterPro:IPR013374 ATPase, type IV, pilus assembly, PilB > GO:protein transporter activity ; GO:0008565
 InterPro:IPR013374 ATPase, type IV, pilus assembly, PilB > GO:pilus assembly ; GO:0009297
@@ -23999,7 +23987,6 @@ InterPro:IPR022778 CDKN3 domain > GO:phosphoprotein phosphatase activity ; GO:00
 InterPro:IPR022778 CDKN3 domain > GO:protein tyrosine phosphatase activity ; GO:0004725
 InterPro:IPR022781 Flagellar biosynthesis protein, FliO > GO:flagellum organization ; GO:0043064
 InterPro:IPR022781 Flagellar biosynthesis protein, FliO > GO:integral to membrane ; GO:0016021
-InterPro:IPR022781 Flagellar biosynthesis protein, FliO > GO:flagellum ; GO:0019861
 InterPro:IPR022783 GC-rich sequence DNA-binding factor domain > GO:DNA binding ; GO:0003677
 InterPro:IPR022783 GC-rich sequence DNA-binding factor domain > GO:regulation of transcription, DNA-dependent ; GO:0006355
 InterPro:IPR022783 GC-rich sequence DNA-binding factor domain > GO:nucleus ; GO:0005634

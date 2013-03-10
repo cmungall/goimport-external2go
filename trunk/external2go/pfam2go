@@ -1,4 +1,4 @@
-!version date: 2013/03/02 09:19:43
+!version date: 2013/03/09 09:14:03
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -2066,7 +2066,7 @@ Pfam:PF01109 GM_CSF > GO:immune response ; GO:0006955
 Pfam:PF01109 GM_CSF > GO:extracellular region ; GO:0005576
 Pfam:PF01110 CNTF > GO:growth ; GO:0040007
 Pfam:PF01110 CNTF > GO:cytoplasm ; GO:0005737
-Pfam:PF01111 CKS > GO:cyclin-dependent protein kinase regulator activity ; GO:0016538
+Pfam:PF01111 CKS > GO:cyclin-dependent protein serine/threonine kinase regulator activity ; GO:0016538
 Pfam:PF01111 CKS > GO:cell cycle ; GO:0007049
 Pfam:PF01112 Asparaginase_2 > GO:hydrolase activity ; GO:0016787
 Pfam:PF01113 DapB_N > GO:dihydrodipicolinate reductase activity ; GO:0008839
@@ -2233,8 +2233,6 @@ Pfam:PF01200 Ribosomal_S28e > GO:structural constituent of ribosome ; GO:0003735
 Pfam:PF01200 Ribosomal_S28e > GO:translation ; GO:0006412
 Pfam:PF01200 Ribosomal_S28e > GO:intracellular ; GO:0005622
 Pfam:PF01200 Ribosomal_S28e > GO:ribosome ; GO:0005840
-Pfam:PF01202 SKI > GO:shikimate kinase activity ; GO:0004765
-Pfam:PF01202 SKI > GO:ATP binding ; GO:0005524
 Pfam:PF01204 Trehalase > GO:alpha,alpha-trehalase activity ; GO:0004555
 Pfam:PF01204 Trehalase > GO:trehalose metabolic process ; GO:0005991
 Pfam:PF01207 Dus > GO:tRNA dihydrouridine synthase activity ; GO:0017150
@@ -3714,12 +3712,10 @@ Pfam:PF02183 HALZ > GO:nucleus ; GO:0005634
 Pfam:PF02184 HAT > GO:RNA processing ; GO:0006396
 Pfam:PF02184 HAT > GO:intracellular ; GO:0005622
 Pfam:PF02185 HR1 > GO:signal transduction ; GO:0007165
-Pfam:PF02185 HR1 > GO:intracellular ; GO:0005622
 Pfam:PF02186 TFIIE_beta > GO:transcription initiation from RNA polymerase II promoter ; GO:0006367
 Pfam:PF02186 TFIIE_beta > GO:transcription factor TFIIE complex ; GO:0005673
 Pfam:PF02187 GAS2 > GO:cell cycle arrest ; GO:0007050
 Pfam:PF02188 GoLoco > GO:GTPase regulator activity ; GO:0030695
-Pfam:PF02188 GoLoco > GO:signal transduction ; GO:0007165
 Pfam:PF02189 ITAM > GO:transmembrane signaling receptor activity ; GO:0004888
 Pfam:PF02189 ITAM > GO:cell surface receptor signaling pathway ; GO:0007166
 Pfam:PF02189 ITAM > GO:membrane ; GO:0016020
@@ -3777,7 +3773,7 @@ Pfam:PF02233 PNTB > GO:NAD(P)+ transhydrogenase (AB-specific) activity ; GO:0008
 Pfam:PF02233 PNTB > GO:NADP binding ; GO:0050661
 Pfam:PF02233 PNTB > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF02233 PNTB > GO:integral to membrane ; GO:0016021
-Pfam:PF02234 CDI > GO:cyclin-dependent protein kinase inhibitor activity ; GO:0004861
+Pfam:PF02234 CDI > GO:cyclin-dependent protein serine/threonine kinase inhibitor activity ; GO:0004861
 Pfam:PF02234 CDI > GO:cell cycle arrest ; GO:0007050
 Pfam:PF02234 CDI > GO:nucleus ; GO:0005634
 Pfam:PF02236 Viral_DNA_bi > GO:DNA binding ; GO:0003677
@@ -7206,7 +7202,7 @@ Pfam:PF05547 Peptidase_M6 > GO:peptidase activity ; GO:0008233
 Pfam:PF05547 Peptidase_M6 > GO:proteolysis ; GO:0006508
 Pfam:PF05550 Peptidase_C53 > GO:viral reproduction ; GO:0016032
 Pfam:PF05550 Peptidase_C53 > GO:viral protein processing ; GO:0019082
-Pfam:PF05557 MAD > GO:mitotic cell cycle spindle assembly checkpoint ; GO:0007094
+Pfam:PF05557 MAD > GO:mitotic spindle assembly checkpoint ; GO:0007094
 Pfam:PF05563 SpvD > GO:pathogenesis ; GO:0009405
 Pfam:PF05577 Peptidase_S28 > GO:serine-type peptidase activity ; GO:0008236
 Pfam:PF05577 Peptidase_S28 > GO:proteolysis ; GO:0006508
@@ -9205,7 +9201,7 @@ Pfam:PF08612 Med20 > GO:RNA polymerase II transcription cofactor activity ; GO:0
 Pfam:PF08612 Med20 > GO:regulation of transcription from RNA polymerase II promoter ; GO:0006357
 Pfam:PF08612 Med20 > GO:mediator complex ; GO:0016592
 Pfam:PF08613 Cyclin > GO:protein kinase binding ; GO:0019901
-Pfam:PF08613 Cyclin > GO:regulation of cyclin-dependent protein kinase activity ; GO:0000079
+Pfam:PF08613 Cyclin > GO:regulation of cyclin-dependent protein serine/threonine kinase activity ; GO:0000079
 Pfam:PF08619 Nha1_C > GO:sodium:hydrogen antiporter activity ; GO:0015385
 Pfam:PF08619 Nha1_C > GO:sodium ion transport ; GO:0006814
 Pfam:PF08619 Nha1_C > GO:membrane ; GO:0016020
@@ -10189,6 +10185,7 @@ Pfam:PF12090 Spt20 > GO:transcription cofactor activity ; GO:0003712
 Pfam:PF12090 Spt20 > GO:SAGA complex ; GO:0000124
 Pfam:PF12105 SpoU_methylas_C > GO:tRNA (guanosine-2'-O-)-methyltransferase activity ; GO:0009020
 Pfam:PF12106 Colicin_C > GO:ribonuclease activity ; GO:0004540
+Pfam:PF12109 CXCR4_N > GO:cytokine binding ; GO:0019955
 Pfam:PF12122 DUF3582 > GO:serine-type endopeptidase activity ; GO:0004252
 Pfam:PF12122 DUF3582 > GO:integral to membrane ; GO:0016021
 Pfam:PF12124 Nsp3_PL2pro > GO:cysteine-type endopeptidase activity ; GO:0004197
@@ -10455,6 +10452,9 @@ Pfam:PF13971 MEI4-Rec24 > GO:meiotic DNA double-strand break formation ; GO:0042
 Pfam:PF13979 SopA_C > GO:ubiquitin-protein ligase activity ; GO:0004842
 Pfam:PF13979 SopA_C > GO:protein ubiquitination ; GO:0016567
 Pfam:PF13994 PgaD > GO:biofilm formation ; GO:0042710
+Pfam:PF14010 PEPcase_2 > GO:phosphoenolpyruvate carboxylase activity ; GO:0008964
+Pfam:PF14010 PEPcase_2 > GO:tricarboxylic acid cycle ; GO:0006099
+Pfam:PF14010 PEPcase_2 > GO:carbon fixation ; GO:0015977
 Pfam:PF14073 Cep57_CLD > GO:identical protein binding ; GO:0042802
 Pfam:PF14073 Cep57_CLD > GO:gamma-tubulin binding ; GO:0043015
 Pfam:PF14089 KbaA > GO:positive regulation of sporulation resulting in formation of a cellular spore ; GO:0045881

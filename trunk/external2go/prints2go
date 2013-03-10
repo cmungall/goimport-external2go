@@ -1,4 +1,4 @@
-!version date: 2013/03/02 09:19:48
+!version date: 2013/03/09 09:14:04
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -652,7 +652,7 @@ PRINTS:PR00293 SQUASHINHBTR > GO:serine-type endopeptidase inhibitor activity ; 
 PRINTS:PR00294 SSBTLNINHBTR > GO:serine-type endopeptidase inhibitor activity ; GO:0004867
 PRINTS:PR00295 STEFINA > GO:endopeptidase inhibitor activity ; GO:0004866
 PRINTS:PR00295 STEFINA > GO:intracellular ; GO:0005622
-PRINTS:PR00296 CYCLINKINASE > GO:cyclin-dependent protein kinase regulator activity ; GO:0016538
+PRINTS:PR00296 CYCLINKINASE > GO:cyclin-dependent protein serine/threonine kinase regulator activity ; GO:0016538
 PRINTS:PR00296 CYCLINKINASE > GO:cell cycle ; GO:0007049
 PRINTS:PR00297 CHAPERONIN10 > GO:protein folding ; GO:0006457
 PRINTS:PR00297 CHAPERONIN10 > GO:cytoplasm ; GO:0005737
@@ -2734,8 +2734,6 @@ PRINTS:PR01098 TOPISMRASE4B > GO:DNA topological change ; GO:0006265
 PRINTS:PR01098 TOPISMRASE4B > GO:chromosome ; GO:0005694
 PRINTS:PR01099 HYETHTZKNASE > GO:hydroxyethylthiazole kinase activity ; GO:0004417
 PRINTS:PR01099 HYETHTZKNASE > GO:thiamine biosynthetic process ; GO:0009228
-PRINTS:PR01100 SHIKIMTKNASE > GO:shikimate kinase activity ; GO:0004765
-PRINTS:PR01100 SHIKIMTKNASE > GO:ATP binding ; GO:0005524
 PRINTS:PR01101 5HTRECEPTOR > GO:serotonin receptor activity ; GO:0004993
 PRINTS:PR01101 5HTRECEPTOR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01101 5HTRECEPTOR > GO:behavior ; GO:0007610
@@ -2760,34 +2758,38 @@ PRINTS:PR01105 CXCCHMKINER6 > GO:G-protein coupled receptor signaling pathway ; 
 PRINTS:PR01105 CXCCHMKINER6 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR01105 CXCCHMKINER6 > GO:integral to membrane ; GO:0016021
 PRINTS:PR01106 CHEMOKINER1 > GO:C-C chemokine receptor activity ; GO:0016493
-PRINTS:PR01106 CHEMOKINER1 > GO:activation of MAPK activity ; GO:0000187
-PRINTS:PR01106 CHEMOKINER1 > GO:chemotaxis ; GO:0006935
+PRINTS:PR01106 CHEMOKINER1 > GO:inflammatory response ; GO:0006954
 PRINTS:PR01106 CHEMOKINER1 > GO:immune response ; GO:0006955
 PRINTS:PR01106 CHEMOKINER1 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01106 CHEMOKINER1 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
+PRINTS:PR01106 CHEMOKINER1 > GO:positive regulation of monocyte chemotaxis ; GO:0090026
 PRINTS:PR01106 CHEMOKINER1 > GO:integral to membrane ; GO:0016021
 PRINTS:PR01107 CHEMOKINER2 > GO:C-C chemokine receptor activity ; GO:0016493
-PRINTS:PR01107 CHEMOKINER2 > GO:chemotaxis ; GO:0006935
+PRINTS:PR01107 CHEMOKINER2 > GO:blood vessel remodeling ; GO:0001974
+PRINTS:PR01107 CHEMOKINER2 > GO:inflammatory response ; GO:0006954
 PRINTS:PR01107 CHEMOKINER2 > GO:immune response ; GO:0006955
 PRINTS:PR01107 CHEMOKINER2 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01107 CHEMOKINER2 > GO:negative regulation of adenylate cyclase activity ; GO:0007194
 PRINTS:PR01107 CHEMOKINER2 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR01107 CHEMOKINER2 > GO:negative regulation of cAMP biosynthetic process ; GO:0030818
+PRINTS:PR01107 CHEMOKINER2 > GO:positive regulation of monocyte chemotaxis ; GO:0090026
 PRINTS:PR01107 CHEMOKINER2 > GO:integral to membrane ; GO:0016021
 PRINTS:PR01108 CHEMOKINER3 > GO:C-C chemokine receptor activity ; GO:0016493
-PRINTS:PR01108 CHEMOKINER3 > GO:activation of MAPK activity ; GO:0000187
 PRINTS:PR01108 CHEMOKINER3 > GO:chemotaxis ; GO:0006935
+PRINTS:PR01108 CHEMOKINER3 > GO:inflammatory response ; GO:0006954
 PRINTS:PR01108 CHEMOKINER3 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01108 CHEMOKINER3 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR01108 CHEMOKINER3 > GO:integral to membrane ; GO:0016021
 PRINTS:PR01109 CHEMOKINER4 > GO:C-C chemokine receptor activity ; GO:0016493
 PRINTS:PR01109 CHEMOKINER4 > GO:chemotaxis ; GO:0006935
+PRINTS:PR01109 CHEMOKINER4 > GO:inflammatory response ; GO:0006954
 PRINTS:PR01109 CHEMOKINER4 > GO:immune response ; GO:0006955
 PRINTS:PR01109 CHEMOKINER4 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01109 CHEMOKINER4 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR01109 CHEMOKINER4 > GO:integral to membrane ; GO:0016021
 PRINTS:PR01110 CHEMOKINER5 > GO:C-C chemokine receptor activity ; GO:0016493
 PRINTS:PR01110 CHEMOKINER5 > GO:chemotaxis ; GO:0006935
+PRINTS:PR01110 CHEMOKINER5 > GO:inflammatory response ; GO:0006954
 PRINTS:PR01110 CHEMOKINER5 > GO:immune response ; GO:0006955
 PRINTS:PR01110 CHEMOKINER5 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01110 CHEMOKINER5 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
@@ -3843,6 +3845,7 @@ PRINTS:PR01529 CHEMOKINER6 > GO:chemotaxis ; GO:0006935
 PRINTS:PR01529 CHEMOKINER6 > GO:immune response ; GO:0006955
 PRINTS:PR01529 CHEMOKINER6 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01529 CHEMOKINER6 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
+PRINTS:PR01529 CHEMOKINER6 > GO:negative regulation of cAMP biosynthetic process ; GO:0030818
 PRINTS:PR01529 CHEMOKINER6 > GO:integral to membrane ; GO:0016021
 PRINTS:PR01530 CHEMOKINER8 > GO:C-C chemokine receptor activity ; GO:0016493
 PRINTS:PR01530 CHEMOKINER8 > GO:chemotaxis ; GO:0006935
@@ -3884,6 +3887,8 @@ PRINTS:PR01542 FMDVP1COAT > GO:structural molecule activity ; GO:0005198
 PRINTS:PR01542 FMDVP1COAT > GO:viral capsid ; GO:0019028
 PRINTS:PR01543 ANATRNSFRASE > GO:acetyltransferase activity ; GO:0016407
 PRINTS:PR01543 ANATRNSFRASE > GO:metabolic process ; GO:0008152
+PRINTS:PR01547 YEAST176DUF > GO:TOR signaling cascade ; GO:0031929
+PRINTS:PR01547 YEAST176DUF > GO:TORC1 complex ; GO:0031931
 PRINTS:PR01548 MEIOTICR114 > GO:reciprocal meiotic recombination ; GO:0007131
 PRINTS:PR01549 AUTOINDCRSYN > GO:signal transduction ; GO:0007165
 PRINTS:PR01550 TOP6AFAMILY > GO:DNA binding ; GO:0003677
@@ -4839,8 +4844,6 @@ PRINTS:PR02063 DNADAMAGECP1 > GO:cell cycle checkpoint ; GO:0000075
 PRINTS:PR02063 DNADAMAGECP1 > GO:recombinational repair ; GO:0000725
 PRINTS:PR02063 DNADAMAGECP1 > GO:meiosis ; GO:0007126
 PRINTS:PR02063 DNADAMAGECP1 > GO:intra-S DNA damage checkpoint ; GO:0031573
-PRINTS:PR02063 DNADAMAGECP1 > GO:mitotic cell cycle G1/S transition checkpoint ; GO:0031575
-PRINTS:PR02063 DNADAMAGECP1 > GO:G2/M transition checkpoint ; GO:0031576
 PRINTS:PR02063 DNADAMAGECP1 > GO:condensed nuclear chromosome ; GO:0000794
 PRINTS:PR02063 DNADAMAGECP1 > GO:checkpoint clamp complex ; GO:0030896
 PRINTS:PR02068 VOPPROTEIN1 > GO:cytoplasmic vesicle membrane ; GO:0030659
@@ -4875,7 +4878,7 @@ PRINTS:PR02092 HEPBVIRUSXIP > GO:cytoplasm ; GO:0005737
 PRINTS:PR02093 HDA1SUBUNIT3 > GO:histone deacetylase activity ; GO:0004407
 PRINTS:PR02093 HDA1SUBUNIT3 > GO:nucleus ; GO:0005634
 PRINTS:PR02093 HDA1SUBUNIT3 > GO:HDA1 complex ; GO:0070823
-PRINTS:PR02094 HEXIMFAMILY > GO:cyclin-dependent protein kinase inhibitor activity ; GO:0004861
+PRINTS:PR02094 HEXIMFAMILY > GO:cyclin-dependent protein serine/threonine kinase inhibitor activity ; GO:0004861
 PRINTS:PR02094 HEXIMFAMILY > GO:snRNA binding ; GO:0017069
 PRINTS:PR02094 HEXIMFAMILY > GO:negative regulation of transcription from RNA polymerase II promoter ; GO:0000122
 PRINTS:PR02094 HEXIMFAMILY > GO:nucleus ; GO:0005634
@@ -4887,7 +4890,7 @@ PRINTS:PR02096 HTDHYDRTASE2 > GO:fatty acid biosynthetic process ; GO:0006633
 PRINTS:PR02096 HTDHYDRTASE2 > GO:mitochondrion ; GO:0005739
 PRINTS:PR02097 HTLV1ZIPPER > GO:interspecies interaction between organisms ; GO:0044419
 PRINTS:PR02097 HTLV1ZIPPER > GO:host cell nucleus ; GO:0042025
-PRINTS:PR02099 PROTEINIBD2 > GO:mitotic cell cycle spindle assembly checkpoint ; GO:0007094
+PRINTS:PR02099 PROTEINIBD2 > GO:mitotic spindle assembly checkpoint ; GO:0007094
 PRINTS:PR02100 GENEIEX1 > GO:negative regulation of apoptotic process ; GO:0043066
 PRINTS:PR02103 INPROXISOME1 > GO:peroxisome inheritance ; GO:0045033
 PRINTS:PR02103 INPROXISOME1 > GO:extrinsic to intraperoxisomal membrane ; GO:0005780

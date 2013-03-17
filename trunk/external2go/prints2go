@@ -1,4 +1,4 @@
-!version date: 2013/03/09 09:14:04
+!version date: 2013/03/16 09:17:51
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1196,7 +1196,7 @@ PRINTS:PR00517 5HT2CRECEPTR > GO:negative regulation of locomotion ; GO:0040013
 PRINTS:PR00517 5HT2CRECEPTR > GO:response to chemical stimulus ; GO:0042221
 PRINTS:PR00517 5HT2CRECEPTR > GO:vasoconstriction ; GO:0042310
 PRINTS:PR00517 5HT2CRECEPTR > GO:positive regulation of diacylglycerol biosynthetic process ; GO:1900482
-PRINTS:PR00517 5HT2CRECEPTR > GO:integral to membrane ; GO:0016021
+PRINTS:PR00517 5HT2CRECEPTR > GO:integral to plasma membrane ; GO:0005887
 PRINTS:PR00518 5HT5ARECEPTR > GO:serotonin receptor activity ; GO:0004993
 PRINTS:PR00518 5HT5ARECEPTR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00518 5HT5ARECEPTR > GO:negative regulation of cAMP metabolic process ; GO:0030815
@@ -1204,7 +1204,7 @@ PRINTS:PR00518 5HT5ARECEPTR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00519 5HT5BRECEPTR > GO:serotonin receptor activity ; GO:0004993
 PRINTS:PR00519 5HT5BRECEPTR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00519 5HT5BRECEPTR > GO:response to chemical stimulus ; GO:0042221
-PRINTS:PR00519 5HT5BRECEPTR > GO:integral to membrane ; GO:0016021
+PRINTS:PR00519 5HT5BRECEPTR > GO:integral to plasma membrane ; GO:0005887
 PRINTS:PR00520 ACTROPHINR > GO:corticotropin receptor activity ; GO:0004978
 PRINTS:PR00520 ACTROPHINR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00520 ACTROPHINR > GO:integral to membrane ; GO:0016021
@@ -1617,6 +1617,7 @@ PRINTS:PR00640 GASTRINRELPR > GO:bombesin receptor signaling pathway ; GO:003198
 PRINTS:PR00640 GASTRINRELPR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00641 CHEMOKINER7 > GO:C-C chemokine receptor activity ; GO:0016493
 PRINTS:PR00641 CHEMOKINER7 > GO:chemotaxis ; GO:0006935
+PRINTS:PR00641 CHEMOKINER7 > GO:inflammatory response ; GO:0006954
 PRINTS:PR00641 CHEMOKINER7 > GO:immune response ; GO:0006955
 PRINTS:PR00641 CHEMOKINER7 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00641 CHEMOKINER7 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
@@ -1663,8 +1664,6 @@ PRINTS:PR00651 5HT2BRECEPTR > GO:vasoconstriction ; GO:0042310
 PRINTS:PR00651 5HT2BRECEPTR > GO:regulation of behavior ; GO:0050795
 PRINTS:PR00651 5HT2BRECEPTR > GO:calcium ion transport into cytosol ; GO:0060402
 PRINTS:PR00651 5HT2BRECEPTR > GO:positive regulation of diacylglycerol biosynthetic process ; GO:1900482
-PRINTS:PR00651 5HT2BRECEPTR > GO:cytoplasm ; GO:0005737
-PRINTS:PR00651 5HT2BRECEPTR > GO:plasma membrane ; GO:0005886
 PRINTS:PR00651 5HT2BRECEPTR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00652 5HT7RECEPTR > GO:serotonin receptor activity ; GO:0004993
 PRINTS:PR00652 5HT7RECEPTR > GO:smooth muscle contraction ; GO:0006939
@@ -2737,7 +2736,6 @@ PRINTS:PR01099 HYETHTZKNASE > GO:thiamine biosynthetic process ; GO:0009228
 PRINTS:PR01101 5HTRECEPTOR > GO:serotonin receptor activity ; GO:0004993
 PRINTS:PR01101 5HTRECEPTOR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01101 5HTRECEPTOR > GO:behavior ; GO:0007610
-PRINTS:PR01101 5HTRECEPTOR > GO:cell proliferation ; GO:0008283
 PRINTS:PR01101 5HTRECEPTOR > GO:integral to plasma membrane ; GO:0005887
 PRINTS:PR01102 5HT6RECEPTR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01102 5HT6RECEPTR > GO:positive regulation of cAMP metabolic process ; GO:0030816
@@ -3906,11 +3904,14 @@ PRINTS:PR01555 FIMBRIALPAPE > GO:cell adhesion ; GO:0007155
 PRINTS:PR01555 FIMBRIALPAPE > GO:pilus ; GO:0009289
 PRINTS:PR01557 CHEMOKINER10 > GO:C-C chemokine receptor activity ; GO:0016493
 PRINTS:PR01557 CHEMOKINER10 > GO:chemotaxis ; GO:0006935
+PRINTS:PR01557 CHEMOKINER10 > GO:immune response ; GO:0006955
 PRINTS:PR01557 CHEMOKINER10 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01557 CHEMOKINER10 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR01557 CHEMOKINER10 > GO:integral to membrane ; GO:0016021
-PRINTS:PR01558 CHEMOKINER11 > GO:C-C chemokine receptor activity ; GO:0016493
-PRINTS:PR01558 CHEMOKINER11 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01558 CHEMOKINER11 > GO:scavenger receptor activity ; GO:0005044
+PRINTS:PR01558 CHEMOKINER11 > GO:chemokine binding ; GO:0019956
+PRINTS:PR01558 CHEMOKINER11 > GO:chemotaxis ; GO:0006935
+PRINTS:PR01558 CHEMOKINER11 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR01558 CHEMOKINER11 > GO:integral to membrane ; GO:0016021
 PRINTS:PR01559 DUFFYANTIGEN > GO:chemokine binding ; GO:0019956
 PRINTS:PR01559 DUFFYANTIGEN > GO:integral to membrane ; GO:0016021
@@ -4441,8 +4442,6 @@ PRINTS:PR01752 UREASE > GO:nitrogen compound metabolic process ; GO:0006807
 PRINTS:PR01753 STREPKINASE > GO:serine-type endopeptidase activity ; GO:0004252
 PRINTS:PR01754 SACTRNSFRASE > GO:transferase activity, transferring acyl groups ; GO:0016746
 PRINTS:PR01754 SACTRNSFRASE > GO:metabolic process ; GO:0008152
-PRINTS:PR01755 SECFTRNLCASE > GO:P-P-bond-hydrolysis-driven protein transmembrane transporter activity ; GO:0015450
-PRINTS:PR01755 SECFTRNLCASE > GO:intracellular protein transport ; GO:0006886
 PRINTS:PR01756 OMADHESIN > GO:collagen binding ; GO:0005518
 PRINTS:PR01756 OMADHESIN > GO:cell adhesion ; GO:0007155
 PRINTS:PR01756 OMADHESIN > GO:pathogenesis ; GO:0009405

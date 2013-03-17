@@ -1,4 +1,4 @@
-!version date: 2013/03/09 09:14:03
+!version date: 2013/03/16 09:17:51
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -629,10 +629,6 @@ Pfam:PF00334 NDK > GO:CTP biosynthetic process ; GO:0006241
 Pfam:PF00335 Tetraspannin > GO:integral to membrane ; GO:0016021
 Pfam:PF00336 DNA_pol_viral_C > GO:ribonuclease H activity ; GO:0004523
 Pfam:PF00337 Gal-bind_lectin > GO:carbohydrate binding ; GO:0030246
-Pfam:PF00338 Ribosomal_S10 > GO:structural constituent of ribosome ; GO:0003735
-Pfam:PF00338 Ribosomal_S10 > GO:translation ; GO:0006412
-Pfam:PF00338 Ribosomal_S10 > GO:intracellular ; GO:0005622
-Pfam:PF00338 Ribosomal_S10 > GO:ribosome ; GO:0005840
 Pfam:PF00340 IL1 > GO:extracellular space ; GO:0005615
 Pfam:PF00341 PDGF > GO:growth factor activity ; GO:0008083
 Pfam:PF00341 PDGF > GO:membrane ; GO:0016020
@@ -1306,7 +1302,6 @@ Pfam:PF00705 PCNA_N > GO:PCNA complex ; GO:0043626
 Pfam:PF00706 Toxin_4 > GO:regulation of signal transduction ; GO:0009966
 Pfam:PF00706 Toxin_4 > GO:extracellular region ; GO:0005576
 Pfam:PF00707 IF3_C > GO:translational initiation ; GO:0006413
-Pfam:PF00709 Adenylsucc_synt > GO:magnesium ion binding ; GO:0000287
 Pfam:PF00709 Adenylsucc_synt > GO:adenylosuccinate synthase activity ; GO:0004019
 Pfam:PF00709 Adenylsucc_synt > GO:GTP binding ; GO:0005525
 Pfam:PF00709 Adenylsucc_synt > GO:purine nucleotide biosynthetic process ; GO:0006164
@@ -2069,7 +2064,7 @@ Pfam:PF01110 CNTF > GO:cytoplasm ; GO:0005737
 Pfam:PF01111 CKS > GO:cyclin-dependent protein serine/threonine kinase regulator activity ; GO:0016538
 Pfam:PF01111 CKS > GO:cell cycle ; GO:0007049
 Pfam:PF01112 Asparaginase_2 > GO:hydrolase activity ; GO:0016787
-Pfam:PF01113 DapB_N > GO:dihydrodipicolinate reductase activity ; GO:0008839
+Pfam:PF01113 DapB_N > GO:4-hydroxy-tetrahydrodipicolinate reductase ; GO:0008839
 Pfam:PF01113 DapB_N > GO:lysine biosynthetic process via diaminopimelate ; GO:0009089
 Pfam:PF01113 DapB_N > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF01114 Colipase > GO:enzyme activator activity ; GO:0008047
@@ -3614,7 +3609,8 @@ Pfam:PF02128 Peptidase_M36 > GO:zinc ion binding ; GO:0008270
 Pfam:PF02128 Peptidase_M36 > GO:extracellular space ; GO:0005615
 Pfam:PF02129 Peptidase_S15 > GO:aminopeptidase activity ; GO:0004177
 Pfam:PF02129 Peptidase_S15 > GO:proteolysis ; GO:0006508
-Pfam:PF02130 UPF0054 > GO:metal ion binding ; GO:0046872
+Pfam:PF02130 UPF0054 > GO:metalloendopeptidase activity ; GO:0004222
+Pfam:PF02130 UPF0054 > GO:rRNA processing ; GO:0006364
 Pfam:PF02133 Transp_cyt_pur > GO:nucleobase transmembrane transporter activity ; GO:0015205
 Pfam:PF02133 Transp_cyt_pur > GO:nucleobase transport ; GO:0015851
 Pfam:PF02133 Transp_cyt_pur > GO:membrane ; GO:0016020
@@ -6847,7 +6843,7 @@ Pfam:PF05162 Ribosomal_L41 > GO:ribosome ; GO:0005840
 Pfam:PF05165 GGDN > GO:GTP cyclohydrolase activity ; GO:0003933
 Pfam:PF05165 GGDN > GO:biosynthetic process ; GO:0009058
 Pfam:PF05171 HemS > GO:iron ion transport ; GO:0006826
-Pfam:PF05173 DapB_C > GO:dihydrodipicolinate reductase activity ; GO:0008839
+Pfam:PF05173 DapB_C > GO:4-hydroxy-tetrahydrodipicolinate reductase ; GO:0008839
 Pfam:PF05173 DapB_C > GO:lysine biosynthetic process via diaminopimelate ; GO:0009089
 Pfam:PF05173 DapB_C > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF05175 MTS > GO:methyltransferase activity ; GO:0008168
@@ -6952,6 +6948,7 @@ Pfam:PF05297 Herpes_LMP1 > GO:integral to membrane ; GO:0016021
 Pfam:PF05298 Bombinin > GO:defense response to bacterium ; GO:0042742
 Pfam:PF05298 Bombinin > GO:extracellular region ; GO:0005576
 Pfam:PF05301 Mec-17 > GO:tubulin N-acetyltransferase activity ; GO:0019799
+Pfam:PF05301 Mec-17 > GO:alpha-tubulin acetylation ; GO:0071929
 Pfam:PF05307 Bundlin > GO:pilus ; GO:0009289
 Pfam:PF05309 TraE > GO:conjugation ; GO:0000746
 Pfam:PF05313 Pox_P21 > GO:integral to membrane ; GO:0016021
@@ -7126,6 +7123,7 @@ Pfam:PF05464 Phi-29_GP4 > GO:regulation of transcription, DNA-dependent ; GO:000
 Pfam:PF05465 Halo_GVPC > GO:gas vesicle organization ; GO:0031412
 Pfam:PF05465 Halo_GVPC > GO:gas vesicle ; GO:0031411
 Pfam:PF05470 eIF-3c_N > GO:translation initiation factor activity ; GO:0003743
+Pfam:PF05470 eIF-3c_N > GO:translation initiation factor binding ; GO:0031369
 Pfam:PF05470 eIF-3c_N > GO:translational initiation ; GO:0006413
 Pfam:PF05470 eIF-3c_N > GO:eukaryotic translation initiation factor 3 complex ; GO:0005852
 Pfam:PF05472 Ter > GO:DNA binding ; GO:0003677
@@ -7430,7 +7428,6 @@ Pfam:PF05874 PBAN > GO:pheromone biosynthetic process ; GO:0042811
 Pfam:PF05875 Ceramidase > GO:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides ; GO:0016811
 Pfam:PF05875 Ceramidase > GO:ceramide metabolic process ; GO:0006672
 Pfam:PF05875 Ceramidase > GO:integral to membrane ; GO:0016021
-Pfam:PF05879 RHD3 > GO:hydrolase activity, acting on acid anhydrides ; GO:0016817
 Pfam:PF05881 CNPase > GO:2',3'-cyclic-nucleotide 3'-phosphodiesterase activity ; GO:0004113
 Pfam:PF05881 CNPase > GO:cyclic nucleotide catabolic process ; GO:0009214
 Pfam:PF05881 CNPase > GO:membrane ; GO:0016020
@@ -9861,6 +9858,8 @@ Pfam:PF09732 CactinC_cactus > GO:protein binding ; GO:0005515
 Pfam:PF09748 Med10 > GO:RNA polymerase II transcription cofactor activity ; GO:0001104
 Pfam:PF09748 Med10 > GO:regulation of transcription from RNA polymerase II promoter ; GO:0006357
 Pfam:PF09748 Med10 > GO:mediator complex ; GO:0016592
+Pfam:PF09749 HVSL > GO:nuclease activity ; GO:0004518
+Pfam:PF09749 HVSL > GO:mRNA processing ; GO:0006397
 Pfam:PF09764 Nt_Gln_amidase > GO:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides ; GO:0016811
 Pfam:PF09768 Peptidase_M76 > GO:metalloendopeptidase activity ; GO:0004222
 Pfam:PF09830 ATP_transf > GO:ATP adenylyltransferase activity ; GO:0003877

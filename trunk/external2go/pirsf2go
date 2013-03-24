@@ -1,4 +1,4 @@
-!version date: 2013/03/16 09:17:51
+!version date: 2013/03/23 08:25:57
 !description: Mapping of GO terms to PIRSF entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pir.georgetown.edu/pirsf/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1018,6 +1018,7 @@ PIRSF:PIRSF001296 K_ATPase_KdpC > GO:potassium-transporting ATPase activity ; GO
 PIRSF:PIRSF001296 K_ATPase_KdpC > GO:potassium ion transport ; GO:0006813
 PIRSF:PIRSF001296 K_ATPase_KdpC > GO:membrane ; GO:0016020
 PIRSF:PIRSF001327 Arsenical_pump-driving_ATPase > GO:ATP binding ; GO:0005524
+PIRSF:PIRSF001327 Arsenical_pump-driving_ATPase > GO:arsenite-transmembrane transporting ATPase activity ; GO:0015446
 PIRSF:PIRSF001327 Arsenical_pump-driving_ATPase > GO:ATPase activity ; GO:0016887
 PIRSF:PIRSF001327 Arsenical_pump-driving_ATPase > GO:detoxification of arsenic-containing substance ; GO:0071722
 PIRSF:PIRSF001330 IOD > GO:thyroxine 5'-deiodinase activity ; GO:0004800
@@ -1500,7 +1501,7 @@ PIRSF:PIRSF002939 RNA_polymerase_sigma-H_factor > GO:DNA binding ; GO:0003677
 PIRSF:PIRSF002939 RNA_polymerase_sigma-H_factor > GO:sigma factor activity ; GO:0016987
 PIRSF:PIRSF002939 RNA_polymerase_sigma-H_factor > GO:transcription, DNA-dependent ; GO:0006351
 PIRSF:PIRSF002984 Opacity > GO:membrane ; GO:0016020
-PIRSF:PIRSF003003 Colicin_im > GO:toxin binding ; GO:0015643
+PIRSF:PIRSF003003 Colicin_im > GO:toxic substance binding ; GO:0015643
 PIRSF:PIRSF003003 Colicin_im > GO:bacteriocin immunity ; GO:0030153
 PIRSF:PIRSF003025 eIF5A > GO:RNA binding ; GO:0003723
 PIRSF:PIRSF003025 eIF5A > GO:translation elongation factor activity ; GO:0003746
@@ -1538,7 +1539,7 @@ PIRSF:PIRSF003097 FtsX > GO:cell cycle ; GO:0007049
 PIRSF:PIRSF003097 FtsX > GO:integral to membrane ; GO:0016021
 PIRSF:PIRSF003101 FtsA > GO:cell cycle ; GO:0007049
 PIRSF:PIRSF003108 DinJ > GO:bacterial-type RNA polymerase core promoter proximal region sequence-specific DNA binding ; GO:0000986
-PIRSF:PIRSF003108 DinJ > GO:toxin binding ; GO:0015643
+PIRSF:PIRSF003108 DinJ > GO:toxic substance binding ; GO:0015643
 PIRSF:PIRSF003108 DinJ > GO:single-species biofilm formation ; GO:0044010
 PIRSF:PIRSF003128 RecN > GO:ATP binding ; GO:0005524
 PIRSF:PIRSF003128 RecN > GO:DNA repair ; GO:0006281
@@ -2412,6 +2413,9 @@ PIRSF:PIRSF016158 HMD > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF016184 PhzC_PhzF > GO:catalytic activity ; GO:0003824
 PIRSF:PIRSF016184 PhzC_PhzF > GO:biosynthetic process ; GO:0009058
 PIRSF:PIRSF016210 UCP016210 > GO:hydrolase activity, acting on ester bonds ; GO:0016788
+PIRSF:PIRSF016255 eIF3e_su6 > GO:translation initiation factor activity ; GO:0003743
+PIRSF:PIRSF016255 eIF3e_su6 > GO:cytoplasm ; GO:0005737
+PIRSF:PIRSF016255 eIF3e_su6 > GO:eukaryotic translation initiation factor 3 complex ; GO:0005852
 PIRSF:PIRSF016262 LPLase > GO:octanoyltransferase activity ; GO:0016415
 PIRSF:PIRSF016262 LPLase > GO:lipoate biosynthetic process ; GO:0009107
 PIRSF:PIRSF016262 LPLase > GO:cytoplasm ; GO:0005737
@@ -2420,7 +2424,8 @@ PIRSF:PIRSF016275 PolC_DP2 > GO:DNA-directed DNA polymerase activity ; GO:000388
 PIRSF:PIRSF016275 PolC_DP2 > GO:DNA replication ; GO:0006260
 PIRSF:PIRSF016275 PolC_DP2 > GO:DNA catabolic process ; GO:0006308
 PIRSF:PIRSF016281 EIF-3_zeta > GO:translation initiation factor activity ; GO:0003743
-PIRSF:PIRSF016281 EIF-3_zeta > GO:translational initiation ; GO:0006413
+PIRSF:PIRSF016281 EIF-3_zeta > GO:cytoplasm ; GO:0005737
+PIRSF:PIRSF016281 EIF-3_zeta > GO:eukaryotic translation initiation factor 3 complex ; GO:0005852
 PIRSF:PIRSF016302 Man_a_manosd > GO:mannan endo-1,6-alpha-mannosidase activity ; GO:0008496
 PIRSF:PIRSF016302 Man_a_manosd > GO:carbohydrate catabolic process ; GO:0016052
 PIRSF:PIRSF016305 LCM_mtfrase > GO:methyltransferase activity ; GO:0008168
@@ -3420,6 +3425,9 @@ PIRSF:PIRSF037942 Core_histone_macro-H2A > GO:DNA binding ; GO:0003677
 PIRSF:PIRSF037942 Core_histone_macro-H2A > GO:nucleosome assembly ; GO:0006334
 PIRSF:PIRSF037942 Core_histone_macro-H2A > GO:nucleosome ; GO:0000786
 PIRSF:PIRSF037942 Core_histone_macro-H2A > GO:nucleus ; GO:0005634
+PIRSF:PIRSF037949 Transl_init_eIF-3_RNA-bind > GO:translation initiation factor activity ; GO:0003743
+PIRSF:PIRSF037949 Transl_init_eIF-3_RNA-bind > GO:cytoplasm ; GO:0005737
+PIRSF:PIRSF037949 Transl_init_eIF-3_RNA-bind > GO:eukaryotic translation initiation factor 3 complex ; GO:0005852
 PIRSF:PIRSF037950 E3_ubiquit_lig_RNF8 > GO:acid-amino acid ligase activity ; GO:0016881
 PIRSF:PIRSF037950 E3_ubiquit_lig_RNF8 > GO:response to DNA damage stimulus ; GO:0006974
 PIRSF:PIRSF037950 E3_ubiquit_lig_RNF8 > GO:protein ubiquitination ; GO:0016567

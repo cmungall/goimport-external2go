@@ -1,4 +1,4 @@
-!version date: 2013/03/23 08:25:56
+!version date: 2013/03/30 09:19:16
 !description: Mapping of GO terms to SMART entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://smart.embl-heidelberg.de/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -308,7 +308,6 @@ SMART:SM00236 fCBD > GO:carbohydrate metabolic process ; GO:0005975
 SMART:SM00236 fCBD > GO:extracellular region ; GO:0005576
 SMART:SM00237 Calx_beta > GO:cell communication ; GO:0007154
 SMART:SM00237 Calx_beta > GO:integral to membrane ; GO:0016021
-SMART:SM00238 BIR > GO:intracellular ; GO:0005622
 SMART:SM00239 C2 > GO:protein binding ; GO:0005515
 SMART:SM00240 FHA > GO:protein binding ; GO:0005515
 SMART:SM00242 MYSc > GO:motor activity ; GO:0003774
@@ -367,7 +366,6 @@ SMART:SM00286 PTI > GO:serine-type endopeptidase inhibitor activity ; GO:0004867
 SMART:SM00290 ZnF_UBP > GO:zinc ion binding ; GO:0008270
 SMART:SM00291 ZnF_ZZ > GO:zinc ion binding ; GO:0008270
 SMART:SM00297 BROMO > GO:protein binding ; GO:0005515
-SMART:SM00298 CHROMO > GO:nucleus ; GO:0005634
 SMART:SM00299 CLH > GO:intracellular protein transport ; GO:0006886
 SMART:SM00299 CLH > GO:vesicle-mediated transport ; GO:0016192
 SMART:SM00300 ChSh > GO:nucleus ; GO:0005634
@@ -433,7 +431,6 @@ SMART:SM00341 HRDC > GO:intracellular ; GO:0005622
 SMART:SM00342 HTH_ARAC > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 SMART:SM00342 HTH_ARAC > GO:sequence-specific DNA binding ; GO:0043565
 SMART:SM00342 HTH_ARAC > GO:regulation of transcription, DNA-dependent ; GO:0006355
-SMART:SM00342 HTH_ARAC > GO:intracellular ; GO:0005622
 SMART:SM00343 ZnF_C2HC > GO:nucleic acid binding ; GO:0003676
 SMART:SM00343 ZnF_C2HC > GO:zinc ion binding ; GO:0008270
 SMART:SM00344 HTH_ASNC > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
@@ -463,8 +460,6 @@ SMART:SM00353 HLH > GO:protein dimerization activity ; GO:0046983
 SMART:SM00354 HTH_LACI > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 SMART:SM00354 HTH_LACI > GO:regulation of transcription, DNA-dependent ; GO:0006355
 SMART:SM00354 HTH_LACI > GO:intracellular ; GO:0005622
-SMART:SM00355 ZnF_C2H2 > GO:zinc ion binding ; GO:0008270
-SMART:SM00355 ZnF_C2H2 > GO:intracellular ; GO:0005622
 SMART:SM00356 ZnF_C3H1 > GO:nucleic acid binding ; GO:0003676
 SMART:SM00356 ZnF_C3H1 > GO:zinc ion binding ; GO:0008270
 SMART:SM00357 CSP > GO:nucleic acid binding ; GO:0003676
@@ -576,12 +571,10 @@ SMART:SM00433 TOP2c > GO:DNA binding ; GO:0003677
 SMART:SM00433 TOP2c > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
 SMART:SM00433 TOP2c > GO:ATP binding ; GO:0005524
 SMART:SM00433 TOP2c > GO:DNA topological change ; GO:0006265
-SMART:SM00433 TOP2c > GO:chromosome ; GO:0005694
 SMART:SM00434 TOP4c > GO:DNA binding ; GO:0003677
 SMART:SM00434 TOP4c > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
 SMART:SM00434 TOP4c > GO:ATP binding ; GO:0005524
 SMART:SM00434 TOP4c > GO:DNA topological change ; GO:0006265
-SMART:SM00434 TOP4c > GO:chromosome ; GO:0005694
 SMART:SM00435 TOPEUc > GO:DNA binding ; GO:0003677
 SMART:SM00435 TOPEUc > GO:DNA topoisomerase type I activity ; GO:0003917
 SMART:SM00435 TOPEUc > GO:DNA topological change ; GO:0006265
@@ -636,7 +629,6 @@ SMART:SM00472 MIR > GO:membrane ; GO:0016020
 SMART:SM00474 35EXOc > GO:nucleic acid binding ; GO:0003676
 SMART:SM00474 35EXOc > GO:3'-5' exonuclease activity ; GO:0008408
 SMART:SM00474 35EXOc > GO:nucleobase-containing compound metabolic process ; GO:0006139
-SMART:SM00474 35EXOc > GO:intracellular ; GO:0005622
 SMART:SM00475 53EXOc > GO:DNA binding ; GO:0003677
 SMART:SM00475 53EXOc > GO:5'-3' exonuclease activity ; GO:0008409
 SMART:SM00476 DNaseIc > GO:deoxyribonuclease activity ; GO:0004536
@@ -716,7 +708,6 @@ SMART:SM00520 BASIC > GO:muscle organ development ; GO:0007517
 SMART:SM00520 BASIC > GO:nucleus ; GO:0005634
 SMART:SM00521 CBF > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 SMART:SM00521 CBF > GO:regulation of transcription, DNA-dependent ; GO:0006355
-SMART:SM00521 CBF > GO:nucleus ; GO:0005634
 SMART:SM00523 DWA > GO:regulation of transcription, DNA-dependent ; GO:0006355
 SMART:SM00523 DWA > GO:intracellular ; GO:0005622
 SMART:SM00524 DWB > GO:regulation of transcription, DNA-dependent ; GO:0006355
@@ -1207,9 +1198,6 @@ SMART:SM00977 TilS_C > GO:ATP binding ; GO:0005524
 SMART:SM00977 TilS_C > GO:ligase activity, forming carbon-nitrogen bonds ; GO:0016879
 SMART:SM00977 TilS_C > GO:tRNA processing ; GO:0008033
 SMART:SM00977 TilS_C > GO:cytoplasm ; GO:0005737
-SMART:SM00978 Tim44 > GO:P-P-bond-hydrolysis-driven protein transmembrane transporter activity ; GO:0015450
-SMART:SM00978 Tim44 > GO:intracellular protein transport ; GO:0006886
-SMART:SM00978 Tim44 > GO:mitochondrial inner membrane presequence translocase complex ; GO:0005744
 SMART:SM00980 THAP > GO:nucleic acid binding ; GO:0003676
 SMART:SM00981 THUMP > GO:RNA binding ; GO:0003723
 SMART:SM00982 TRCF > GO:damaged DNA binding ; GO:0003684

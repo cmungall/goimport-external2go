@@ -1,4 +1,4 @@
-!version date: 2013/03/23 08:25:56
+!version date: 2013/03/30 09:19:16
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -890,7 +890,6 @@ PRINTS:PR00418 TPI2FAMILY > GO:DNA binding ; GO:0003677
 PRINTS:PR00418 TPI2FAMILY > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
 PRINTS:PR00418 TPI2FAMILY > GO:ATP binding ; GO:0005524
 PRINTS:PR00418 TPI2FAMILY > GO:DNA topological change ; GO:0006265
-PRINTS:PR00418 TPI2FAMILY > GO:chromosome ; GO:0005694
 PRINTS:PR00420 RNGMNOXGNASE > GO:oxidoreductase activity ; GO:0016491
 PRINTS:PR00420 RNGMNOXGNASE > GO:metabolic process ; GO:0008152
 PRINTS:PR00421 THIOREDOXIN > GO:electron carrier activity ; GO:0009055
@@ -1568,7 +1567,6 @@ PRINTS:PR00614 NIHGNASESMLL > GO:ferredoxin hydrogenase complex ; GO:0009375
 PRINTS:PR00615 CCAATSUBUNTA > GO:DNA binding ; GO:0003677
 PRINTS:PR00616 CCAATSUBUNTB > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PRINTS:PR00616 CCAATSUBUNTB > GO:regulation of transcription, DNA-dependent ; GO:0006355
-PRINTS:PR00616 CCAATSUBUNTB > GO:nucleus ; GO:0005634
 PRINTS:PR00617 COPPERFIST > GO:DNA binding ; GO:0003677
 PRINTS:PR00617 COPPERFIST > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PRINTS:PR00617 COPPERFIST > GO:copper ion binding ; GO:0005507
@@ -2104,8 +2102,6 @@ PRINTS:PR00842 GLHYDLASE14B > GO:beta-amylase activity ; GO:0016161
 PRINTS:PR00842 GLHYDLASE14B > GO:polysaccharide catabolic process ; GO:0000272
 PRINTS:PR00843 GLHYDRLASE30 > GO:glucosylceramidase activity ; GO:0004348
 PRINTS:PR00843 GLHYDRLASE30 > GO:sphingolipid metabolic process ; GO:0006665
-PRINTS:PR00843 GLHYDRLASE30 > GO:lysosome organization ; GO:0007040
-PRINTS:PR00843 GLHYDRLASE30 > GO:lysosome ; GO:0005764
 PRINTS:PR00844 GLHYDRLASE48 > GO:hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553
 PRINTS:PR00844 GLHYDRLASE48 > GO:carbohydrate metabolic process ; GO:0005975
 PRINTS:PR00845 GLHYDRLASE52 > GO:xylan 1,4-beta-xylosidase activity ; GO:0009044
@@ -2118,7 +2114,6 @@ PRINTS:PR00850 GLHYDRLASE59 > GO:galactosylceramidase activity ; GO:0004336
 PRINTS:PR00850 GLHYDRLASE59 > GO:galactosylceramide catabolic process ; GO:0006683
 PRINTS:PR00851 XRODRMPGMNTB > GO:ATP-dependent DNA helicase activity ; GO:0004003
 PRINTS:PR00851 XRODRMPGMNTB > GO:nucleotide-excision repair ; GO:0006289
-PRINTS:PR00851 XRODRMPGMNTB > GO:core TFIIH complex ; GO:0000439
 PRINTS:PR00852 XRODRMPGMNTD > GO:DNA binding ; GO:0003677
 PRINTS:PR00852 XRODRMPGMNTD > GO:ATP-dependent DNA helicase activity ; GO:0004003
 PRINTS:PR00852 XRODRMPGMNTD > GO:ATP binding ; GO:0005524
@@ -2539,9 +2534,6 @@ PRINTS:PR01034 RIBOSOMALS12 > GO:translation ; GO:0006412
 PRINTS:PR01034 RIBOSOMALS12 > GO:small ribosomal subunit ; GO:0015935
 PRINTS:PR01035 TCRTETA > GO:transporter activity ; GO:0005215
 PRINTS:PR01035 TCRTETA > GO:plasma membrane ; GO:0005886
-PRINTS:PR01037 TCRTETOQM > GO:GTP binding ; GO:0005525
-PRINTS:PR01037 TCRTETOQM > GO:response to antibiotic ; GO:0046677
-PRINTS:PR01037 TCRTETOQM > GO:intracellular ; GO:0005622
 PRINTS:PR01038 TRNASYNTHARG > GO:nucleotide binding ; GO:0000166
 PRINTS:PR01038 TRNASYNTHARG > GO:arginine-tRNA ligase activity ; GO:0004814
 PRINTS:PR01038 TRNASYNTHARG > GO:ATP binding ; GO:0005524
@@ -3011,10 +3003,8 @@ PRINTS:PR01180 ARGDCRBXLASE > GO:spermidine biosynthetic process ; GO:0008295
 PRINTS:PR01181 DAPDCRBXLASE > GO:diaminopimelate decarboxylase activity ; GO:0008836
 PRINTS:PR01181 DAPDCRBXLASE > GO:lysine biosynthetic process via diaminopimelate ; GO:0009089
 PRINTS:PR01182 ORNDCRBXLASE > GO:polyamine biosynthetic process ; GO:0006596
-PRINTS:PR01183 RIBORDTASEM1 > GO:ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor ; GO:0004748
 PRINTS:PR01183 RIBORDTASEM1 > GO:DNA replication ; GO:0006260
 PRINTS:PR01183 RIBORDTASEM1 > GO:oxidation-reduction process ; GO:0055114
-PRINTS:PR01183 RIBORDTASEM1 > GO:ribonucleoside-diphosphate reductase complex ; GO:0005971
 PRINTS:PR01184 ORNATIN > GO:cell adhesion ; GO:0007155
 PRINTS:PR01184 ORNATIN > GO:regulation of blood coagulation ; GO:0030193
 PRINTS:PR01184 ORNATIN > GO:extracellular region ; GO:0005576
@@ -3946,8 +3936,6 @@ PRINTS:PR01557 CHEMOKINER10 > GO:elevation of cytosolic calcium ion concentratio
 PRINTS:PR01557 CHEMOKINER10 > GO:integral to membrane ; GO:0016021
 PRINTS:PR01558 CHEMOKINER11 > GO:scavenger receptor activity ; GO:0005044
 PRINTS:PR01558 CHEMOKINER11 > GO:chemokine binding ; GO:0019956
-PRINTS:PR01558 CHEMOKINER11 > GO:chemotaxis ; GO:0006935
-PRINTS:PR01558 CHEMOKINER11 > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR01558 CHEMOKINER11 > GO:integral to membrane ; GO:0016021
 PRINTS:PR01559 DUFFYANTIGEN > GO:chemokine binding ; GO:0019956
 PRINTS:PR01559 DUFFYANTIGEN > GO:integral to membrane ; GO:0016021

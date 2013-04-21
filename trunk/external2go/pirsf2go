@@ -1,4 +1,4 @@
-!version date: 2013/04/13 09:01:33
+!version date: 2013/04/20 09:06:36
 !description: Mapping of GO terms to PIRSF entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pir.georgetown.edu/pirsf/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -64,7 +64,6 @@ PIRSF:PIRSF000036 PsbE > GO:photosynthetic electron transport chain ; GO:0009767
 PIRSF:PIRSF000036 PsbE > GO:photosynthesis ; GO:0015979
 PIRSF:PIRSF000036 PsbE > GO:photosynthesis, light reaction ; GO:0019684
 PIRSF:PIRSF000036 PsbE > GO:photosystem II ; GO:0009523
-PIRSF:PIRSF000036 PsbE > GO:plasma membrane-derived thylakoid photosystem II ; GO:0030096
 PIRSF:PIRSF000037 PsbF > GO:heme binding ; GO:0020037
 PIRSF:PIRSF000037 PsbF > GO:photosynthetic electron transport chain ; GO:0009767
 PIRSF:PIRSF000037 PsbF > GO:photosynthesis ; GO:0015979
@@ -375,7 +374,6 @@ PIRSF:PIRSF000332 FMO > GO:N,N-dimethylaniline monooxygenase activity ; GO:00044
 PIRSF:PIRSF000332 FMO > GO:flavin adenine dinucleotide binding ; GO:0050660
 PIRSF:PIRSF000332 FMO > GO:NADP binding ; GO:0050661
 PIRSF:PIRSF000332 FMO > GO:oxidation-reduction process ; GO:0055114
-PIRSF:PIRSF000332 FMO > GO:intrinsic to endoplasmic reticulum membrane ; GO:0031227
 PIRSF:PIRSF000333 NOS > GO:nitric-oxide synthase activity ; GO:0004517
 PIRSF:PIRSF000333 NOS > GO:iron ion binding ; GO:0005506
 PIRSF:PIRSF000333 NOS > GO:calmodulin binding ; GO:0005516
@@ -1305,16 +1303,12 @@ PIRSF:PIRSF002116 Ribosomal_S4 > GO:structural constituent of ribosome ; GO:0003
 PIRSF:PIRSF002116 Ribosomal_S4 > GO:translation ; GO:0006412
 PIRSF:PIRSF002116 Ribosomal_S4 > GO:intracellular ; GO:0005622
 PIRSF:PIRSF002116 Ribosomal_S4 > GO:ribosome ; GO:0005840
-PIRSF:PIRSF002122 RPS7p_RPS7a_RPS5e_RPS7o > GO:structural constituent of ribosome ; GO:0003735
 PIRSF:PIRSF002122 RPS7p_RPS7a_RPS5e_RPS7o > GO:translation ; GO:0006412
-PIRSF:PIRSF002122 RPS7p_RPS7a_RPS5e_RPS7o > GO:intracellular ; GO:0005622
-PIRSF:PIRSF002122 RPS7p_RPS7a_RPS5e_RPS7o > GO:ribosome ; GO:0005840
 PIRSF:PIRSF002129 Ribosom_S6_euk > GO:structural constituent of ribosome ; GO:0003735
 PIRSF:PIRSF002129 Ribosom_S6_euk > GO:translation ; GO:0006412
 PIRSF:PIRSF002129 Ribosom_S6_euk > GO:ribosome ; GO:0005840
 PIRSF:PIRSF002131 Ribosomal_S11 > GO:structural constituent of ribosome ; GO:0003735
 PIRSF:PIRSF002131 Ribosomal_S11 > GO:translation ; GO:0006412
-PIRSF:PIRSF002131 Ribosomal_S11 > GO:intracellular ; GO:0005622
 PIRSF:PIRSF002131 Ribosomal_S11 > GO:ribosome ; GO:0005840
 PIRSF:PIRSF002133 Ribosomal_S12/S23 > GO:structural constituent of ribosome ; GO:0003735
 PIRSF:PIRSF002133 Ribosomal_S12/S23 > GO:translation ; GO:0006412
@@ -1342,7 +1336,6 @@ PIRSF:PIRSF002158 Ribosomal_L2 > GO:intracellular ; GO:0005622
 PIRSF:PIRSF002158 Ribosomal_L2 > GO:ribosome ; GO:0005840
 PIRSF:PIRSF002161 Ribosomal_L5 > GO:structural constituent of ribosome ; GO:0003735
 PIRSF:PIRSF002161 Ribosomal_L5 > GO:translation ; GO:0006412
-PIRSF:PIRSF002161 Ribosomal_L5 > GO:intracellular ; GO:0005622
 PIRSF:PIRSF002161 Ribosomal_L5 > GO:ribosome ; GO:0005840
 PIRSF:PIRSF002162 Ribosomal_L6 > GO:structural constituent of ribosome ; GO:0003735
 PIRSF:PIRSF002162 Ribosomal_L6 > GO:rRNA binding ; GO:0019843
@@ -1450,6 +1443,7 @@ PIRSF:PIRSF002595 RR_SKN7 > GO:nucleus ; GO:0005634
 PIRSF:PIRSF002599 Cold_shock_A > GO:nucleic acid binding ; GO:0003676
 PIRSF:PIRSF002603 TEF > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PIRSF:PIRSF002603 TEF > GO:hippo signaling cascade ; GO:0035329
+PIRSF:PIRSF002724 Actobindin > GO:actin binding ; GO:0003779
 PIRSF:PIRSF002736 Citrt_lyas_gamma > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF002746 Gluconate_transporter > GO:gluconate transmembrane transporter activity ; GO:0015128
 PIRSF:PIRSF002746 Gluconate_transporter > GO:gluconate transmembrane transport ; GO:0035429
@@ -1580,7 +1574,6 @@ PIRSF:PIRSF003326 PET122 > GO:translational initiation ; GO:0006413
 PIRSF:PIRSF003326 PET122 > GO:mitochondrial envelope ; GO:0005740
 PIRSF:PIRSF003336 RadB > GO:damaged DNA binding ; GO:0003684
 PIRSF:PIRSF003336 RadB > GO:ATP binding ; GO:0005524
-PIRSF:PIRSF003336 RadB > GO:DNA-dependent ATPase activity ; GO:0008094
 PIRSF:PIRSF003336 RadB > GO:DNA repair ; GO:0006281
 PIRSF:PIRSF003336 RadB > GO:DNA recombination ; GO:0006310
 PIRSF:PIRSF003338 MAT1_metazoa > GO:cell cycle ; GO:0007049
@@ -1742,7 +1735,6 @@ PIRSF:PIRSF005023 CODH > GO:carbon-monoxide dehydrogenase (acceptor) activity ; 
 PIRSF:PIRSF005023 CODH > GO:4 iron, 4 sulfur cluster binding ; GO:0051539
 PIRSF:PIRSF005023 CODH > GO:generation of precursor metabolites and energy ; GO:0006091
 PIRSF:PIRSF005023 CODH > GO:oxidation-reduction process ; GO:0055114
-PIRSF:PIRSF005023 CODH > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF005052 P-loopkin > GO:ATP binding ; GO:0005524
 PIRSF:PIRSF005096 GALM > GO:isomerase activity ; GO:0016853
 PIRSF:PIRSF005096 GALM > GO:hexose metabolic process ; GO:0019318
@@ -2129,7 +2121,6 @@ PIRSF:PIRSF007945 SRB2 > GO:regulation of transcription from RNA polymerase II p
 PIRSF:PIRSF007945 SRB2 > GO:mediator complex ; GO:0016592
 PIRSF:PIRSF007949 VPS16 > GO:intracellular protein transport ; GO:0006886
 PIRSF:PIRSF007951 PIRSF007951 > GO:hemolysis by symbiont of host erythrocytes ; GO:0019836
-PIRSF:PIRSF007951 PIRSF007951 > GO:fruiting body development ; GO:0030582
 PIRSF:PIRSF007991 Strabismus > GO:multicellular organismal development ; GO:0007275
 PIRSF:PIRSF007991 Strabismus > GO:integral to membrane ; GO:0016021
 PIRSF:PIRSF008129 Noggin > GO:negative regulation of cell differentiation ; GO:0045596
@@ -2264,6 +2255,7 @@ PIRSF:PIRSF011791 Vps17 > GO:retromer complex ; GO:0030904
 PIRSF:PIRSF011791 Vps17 > GO:retromer complex, outer shell ; GO:0030905
 PIRSF:PIRSF011794 Rhamnogalacturonase_B > GO:carbon-oxygen lyase activity, acting on polysaccharides ; GO:0016837
 PIRSF:PIRSF011794 Rhamnogalacturonase_B > GO:carbohydrate metabolic process ; GO:0005975
+PIRSF:PIRSF011844 Suppressor_of_fused_protein > GO:transcription factor binding ; GO:0008134
 PIRSF:PIRSF011861 Biotinidase > GO:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides ; GO:0016811
 PIRSF:PIRSF012290 EutL_PduB > GO:response to external stimulus ; GO:0009605
 PIRSF:PIRSF012294 ATR_EutT > GO:ATP binding ; GO:0005524
@@ -2450,7 +2442,6 @@ PIRSF:PIRSF016477 Prefoldin_subunit_4 > GO:protein folding ; GO:0006457
 PIRSF:PIRSF016477 Prefoldin_subunit_4 > GO:prefoldin complex ; GO:0016272
 PIRSF:PIRSF016478 Coatomer_esu > GO:structural molecule activity ; GO:0005198
 PIRSF:PIRSF016478 Coatomer_esu > GO:retrograde vesicle-mediated transport, Golgi to ER ; GO:0006890
-PIRSF:PIRSF016478 Coatomer_esu > GO:COPI vesicle coat ; GO:0030126
 PIRSF:PIRSF016502 Urea_transporter > GO:urea transmembrane transporter activity ; GO:0015204
 PIRSF:PIRSF016502 Urea_transporter > GO:urea transmembrane transport ; GO:0071918
 PIRSF:PIRSF016502 Urea_transporter > GO:integral to membrane ; GO:0016021

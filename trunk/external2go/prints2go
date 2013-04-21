@@ -1,4 +1,4 @@
-!version date: 2013/04/13 09:01:33
+!version date: 2013/04/20 09:06:36
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -41,7 +41,6 @@ PRINTS:PR00030 HTHCRO > GO:regulation of transcription, DNA-dependent ; GO:00063
 PRINTS:PR00031 HTHREPRESSR > GO:transcription regulatory region sequence-specific DNA binding ; GO:0000976
 PRINTS:PR00032 HTHARAC > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PRINTS:PR00032 HTHARAC > GO:regulation of transcription, DNA-dependent ; GO:0006355
-PRINTS:PR00032 HTHARAC > GO:intracellular ; GO:0005622
 PRINTS:PR00033 HTHASNC > GO:sequence-specific DNA binding ; GO:0043565
 PRINTS:PR00033 HTHASNC > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PRINTS:PR00034 HTHCRP > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
@@ -49,17 +48,13 @@ PRINTS:PR00034 HTHCRP > GO:regulation of transcription, DNA-dependent ; GO:00063
 PRINTS:PR00034 HTHCRP > GO:intracellular ; GO:0005622
 PRINTS:PR00035 HTHGNTR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PRINTS:PR00035 HTHGNTR > GO:regulation of transcription, DNA-dependent ; GO:0006355
-PRINTS:PR00035 HTHGNTR > GO:intracellular ; GO:0005622
 PRINTS:PR00036 HTHLACI > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PRINTS:PR00036 HTHLACI > GO:regulation of transcription, DNA-dependent ; GO:0006355
-PRINTS:PR00036 HTHLACI > GO:intracellular ; GO:0005622
 PRINTS:PR00037 HTHLACR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PRINTS:PR00037 HTHLACR > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PRINTS:PR00037 HTHLACR > GO:intracellular ; GO:0005622
 PRINTS:PR00038 HTHLUXR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PRINTS:PR00038 HTHLUXR > GO:sequence-specific DNA binding ; GO:0043565
 PRINTS:PR00038 HTHLUXR > GO:regulation of transcription, DNA-dependent ; GO:0006355
-PRINTS:PR00038 HTHLUXR > GO:intracellular ; GO:0005622
 PRINTS:PR00039 HTHLYSR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PRINTS:PR00039 HTHLYSR > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PRINTS:PR00040 HTHMERR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
@@ -444,9 +439,9 @@ PRINTS:PR00188 PLANTGLOBIN > GO:heme binding ; GO:0020037
 PRINTS:PR00191 FACTINCAPA > GO:actin binding ; GO:0003779
 PRINTS:PR00191 FACTINCAPA > GO:actin cytoskeleton organization ; GO:0030036
 PRINTS:PR00191 FACTINCAPA > GO:F-actin capping protein complex ; GO:0008290
+PRINTS:PR00191 FACTINCAPA > GO:WASH complex ; GO:0071203
 PRINTS:PR00192 FACTINCAPB > GO:actin binding ; GO:0003779
 PRINTS:PR00192 FACTINCAPB > GO:actin cytoskeleton organization ; GO:0030036
-PRINTS:PR00192 FACTINCAPB > GO:cytoplasm ; GO:0005737
 PRINTS:PR00192 FACTINCAPB > GO:F-actin capping protein complex ; GO:0008290
 PRINTS:PR00192 FACTINCAPB > GO:WASH complex ; GO:0071203
 PRINTS:PR00193 MYOSINHEAVY > GO:motor activity ; GO:0003774
@@ -697,7 +692,6 @@ PRINTS:PR00322 G10 > GO:nucleus ; GO:0005634
 PRINTS:PR00323 GALLIDERMIN > GO:defense response to Gram-positive bacterium ; GO:0050830
 PRINTS:PR00324 NISIN > GO:defense response to Gram-positive bacterium ; GO:0050830
 PRINTS:PR00325 GERMIN > GO:manganese ion binding ; GO:0030145
-PRINTS:PR00325 GERMIN > GO:apoplast ; GO:0048046
 PRINTS:PR00326 GTP1OBG > GO:GTP binding ; GO:0005525
 PRINTS:PR00327 ICENUCLEATN > GO:cell outer membrane ; GO:0009279
 PRINTS:PR00328 SAR1GTPBP > GO:GTP binding ; GO:0005525
@@ -794,8 +788,8 @@ PRINTS:PR00378 LIIMPHPHTASE > GO:phosphatidylinositol phosphorylation ; GO:00468
 PRINTS:PR00379 INTEIN > GO:intein-mediated protein splicing ; GO:0016539
 PRINTS:PR00380 KINESINHEAVY > GO:microtubule motor activity ; GO:0003777
 PRINTS:PR00380 KINESINHEAVY > GO:ATP binding ; GO:0005524
+PRINTS:PR00380 KINESINHEAVY > GO:microtubule binding ; GO:0008017
 PRINTS:PR00380 KINESINHEAVY > GO:microtubule-based movement ; GO:0007018
-PRINTS:PR00380 KINESINHEAVY > GO:microtubule associated complex ; GO:0005875
 PRINTS:PR00381 KINESINLIGHT > GO:microtubule motor activity ; GO:0003777
 PRINTS:PR00381 KINESINLIGHT > GO:kinesin complex ; GO:0005871
 PRINTS:PR00382 LIPIDTRNSFER > GO:lipid binding ; GO:0008289
@@ -881,7 +875,6 @@ PRINTS:PR00415 ACONITASE > GO:metabolic process ; GO:0008152
 PRINTS:PR00416 EUTPISMRASEI > GO:DNA binding ; GO:0003677
 PRINTS:PR00416 EUTPISMRASEI > GO:DNA topoisomerase type I activity ; GO:0003917
 PRINTS:PR00416 EUTPISMRASEI > GO:DNA topological change ; GO:0006265
-PRINTS:PR00416 EUTPISMRASEI > GO:chromosome ; GO:0005694
 PRINTS:PR00417 PRTPISMRASEI > GO:DNA binding ; GO:0003677
 PRINTS:PR00417 PRTPISMRASEI > GO:DNA topoisomerase type I activity ; GO:0003917
 PRINTS:PR00417 PRTPISMRASEI > GO:DNA topological change ; GO:0006265
@@ -1504,10 +1497,19 @@ PRINTS:PR00592 CASENSINGR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00593 MTABOTROPICR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00593 MTABOTROPICR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00594 P2Y2PRNOCPTR > GO:G-protein coupled purinergic nucleotide receptor activity ; GO:0045028
-PRINTS:PR00594 P2Y2PRNOCPTR > GO:G-protein coupled purinergic nucleotide receptor signaling pathway ; GO:0035589
+PRINTS:PR00594 P2Y2PRNOCPTR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR00594 P2Y2PRNOCPTR > GO:phospholipase C-activating G-protein coupled receptor signaling pathway ; GO:0007200
+PRINTS:PR00594 P2Y2PRNOCPTR > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
+PRINTS:PR00594 P2Y2PRNOCPTR > GO:regulation of vasodilation ; GO:0042312
+PRINTS:PR00594 P2Y2PRNOCPTR > GO:positive regulation of mucus secretion ; GO:0070257
 PRINTS:PR00594 P2Y2PRNOCPTR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00595 P2Y1PRNOCPTR > GO:G-protein coupled purinergic nucleotide receptor activity ; GO:0045028
-PRINTS:PR00595 P2Y1PRNOCPTR > GO:G-protein coupled purinergic nucleotide receptor signaling pathway ; GO:0035589
+PRINTS:PR00595 P2Y1PRNOCPTR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR00595 P2Y1PRNOCPTR > GO:negative regulation of adenylate cyclase activity ; GO:0007194
+PRINTS:PR00595 P2Y1PRNOCPTR > GO:phospholipase C-activating G-protein coupled receptor signaling pathway ; GO:0007200
+PRINTS:PR00595 P2Y1PRNOCPTR > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
+PRINTS:PR00595 P2Y1PRNOCPTR > GO:platelet activation ; GO:0030168
+PRINTS:PR00595 P2Y1PRNOCPTR > GO:relaxation of muscle ; GO:0090075
 PRINTS:PR00595 P2Y1PRNOCPTR > GO:integral to membrane ; GO:0016021
 PRINTS:PR00597 GELSOLIN > GO:actin binding ; GO:0003779
 PRINTS:PR00598 HTHMARR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
@@ -1963,7 +1965,6 @@ PRINTS:PR00776 HEMOGLOBNASE > GO:proteolysis ; GO:0006508
 PRINTS:PR00777 HIRUDIN > GO:serine-type endopeptidase inhibitor activity ; GO:0004867
 PRINTS:PR00778 HTHARSR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PRINTS:PR00778 HTHARSR > GO:regulation of transcription, DNA-dependent ; GO:0006355
-PRINTS:PR00778 HTHARSR > GO:intracellular ; GO:0005622
 PRINTS:PR00779 INSP3RECEPTR > GO:inositol 1,4,5-trisphosphate-sensitive calcium-release channel activity ; GO:0005220
 PRINTS:PR00779 INSP3RECEPTR > GO:calcium ion transport ; GO:0006816
 PRINTS:PR00779 INSP3RECEPTR > GO:endoplasmic reticulum ; GO:0005783
@@ -2076,9 +2077,8 @@ PRINTS:PR00824 HEPLIPASE > GO:triglyceride lipase activity ; GO:0004806
 PRINTS:PR00824 HEPLIPASE > GO:lipid metabolic process ; GO:0006629
 PRINTS:PR00825 DOLALLERGEN > GO:phosphatidylcholine 1-acylhydrolase activity ; GO:0008970
 PRINTS:PR00825 DOLALLERGEN > GO:lipid metabolic process ; GO:0006629
-PRINTS:PR00828 FORMIN > GO:actin binding ; GO:0003779
-PRINTS:PR00828 FORMIN > GO:actin cytoskeleton organization ; GO:0030036
-PRINTS:PR00828 FORMIN > GO:actin cytoskeleton ; GO:0015629
+PRINTS:PR00828 FORMIN > GO:actin nucleation ; GO:0045010
+PRINTS:PR00828 FORMIN > GO:actin filament ; GO:0005884
 PRINTS:PR00829 LOLP1ALLERGN > GO:sexual reproduction ; GO:0019953
 PRINTS:PR00829 LOLP1ALLERGN > GO:extracellular region ; GO:0005576
 PRINTS:PR00830 ENDOLAPTASE > GO:ATP-dependent peptidase activity ; GO:0004176
@@ -2350,7 +2350,6 @@ PRINTS:PR00970 RIBTRNSFRASE > GO:NAD(P)+-protein-arginine ADP-ribosyltransferase
 PRINTS:PR00970 RIBTRNSFRASE > GO:protein ADP-ribosylation ; GO:0006471
 PRINTS:PR00971 RIBOSOMALS10 > GO:structural constituent of ribosome ; GO:0003735
 PRINTS:PR00971 RIBOSOMALS10 > GO:translation ; GO:0006412
-PRINTS:PR00971 RIBOSOMALS10 > GO:intracellular ; GO:0005622
 PRINTS:PR00971 RIBOSOMALS10 > GO:ribosome ; GO:0005840
 PRINTS:PR00972 RIBSOMALS12E > GO:structural constituent of ribosome ; GO:0003735
 PRINTS:PR00972 RIBSOMALS12E > GO:translation ; GO:0006412
@@ -2397,12 +2396,10 @@ PRINTS:PR00985 TRNASYNTHLEU > GO:nucleotide binding ; GO:0000166
 PRINTS:PR00985 TRNASYNTHLEU > GO:leucine-tRNA ligase activity ; GO:0004823
 PRINTS:PR00985 TRNASYNTHLEU > GO:ATP binding ; GO:0005524
 PRINTS:PR00985 TRNASYNTHLEU > GO:leucyl-tRNA aminoacylation ; GO:0006429
-PRINTS:PR00985 TRNASYNTHLEU > GO:cytoplasm ; GO:0005737
 PRINTS:PR00986 TRNASYNTHVAL > GO:nucleotide binding ; GO:0000166
 PRINTS:PR00986 TRNASYNTHVAL > GO:valine-tRNA ligase activity ; GO:0004832
 PRINTS:PR00986 TRNASYNTHVAL > GO:ATP binding ; GO:0005524
 PRINTS:PR00986 TRNASYNTHVAL > GO:valyl-tRNA aminoacylation ; GO:0006438
-PRINTS:PR00986 TRNASYNTHVAL > GO:cytoplasm ; GO:0005737
 PRINTS:PR00987 TRNASYNTHGLU > GO:nucleotide binding ; GO:0000166
 PRINTS:PR00987 TRNASYNTHGLU > GO:ATP binding ; GO:0005524
 PRINTS:PR00987 TRNASYNTHGLU > GO:ligase activity, forming aminoacyl-tRNA and related compounds ; GO:0016876
@@ -2537,7 +2534,6 @@ PRINTS:PR01038 TRNASYNTHARG > GO:nucleotide binding ; GO:0000166
 PRINTS:PR01038 TRNASYNTHARG > GO:arginine-tRNA ligase activity ; GO:0004814
 PRINTS:PR01038 TRNASYNTHARG > GO:ATP binding ; GO:0005524
 PRINTS:PR01038 TRNASYNTHARG > GO:arginyl-tRNA aminoacylation ; GO:0006420
-PRINTS:PR01038 TRNASYNTHARG > GO:cytoplasm ; GO:0005737
 PRINTS:PR01039 TRNASYNTHTRP > GO:nucleotide binding ; GO:0000166
 PRINTS:PR01039 TRNASYNTHTRP > GO:tryptophan-tRNA ligase activity ; GO:0004830
 PRINTS:PR01039 TRNASYNTHTRP > GO:ATP binding ; GO:0005524
@@ -2557,7 +2553,6 @@ PRINTS:PR01042 TRNASYNTHASP > GO:nucleotide binding ; GO:0000166
 PRINTS:PR01042 TRNASYNTHASP > GO:aminoacyl-tRNA ligase activity ; GO:0004812
 PRINTS:PR01042 TRNASYNTHASP > GO:ATP binding ; GO:0005524
 PRINTS:PR01042 TRNASYNTHASP > GO:tRNA aminoacylation for protein translation ; GO:0006418
-PRINTS:PR01042 TRNASYNTHASP > GO:cytoplasm ; GO:0005737
 PRINTS:PR01043 TRNASYNTHGLY > GO:nucleotide binding ; GO:0000166
 PRINTS:PR01043 TRNASYNTHGLY > GO:glycine-tRNA ligase activity ; GO:0004820
 PRINTS:PR01043 TRNASYNTHGLY > GO:ATP binding ; GO:0005524
@@ -2634,16 +2629,27 @@ PRINTS:PR01064 OREXINR > GO:G-protein coupled receptor signaling pathway ; GO:00
 PRINTS:PR01064 OREXINR > GO:feeding behavior ; GO:0007631
 PRINTS:PR01064 OREXINR > GO:integral to membrane ; GO:0016021
 PRINTS:PR01065 P2Y3PRNOCPTR > GO:G-protein coupled purinergic nucleotide receptor activity ; GO:0045028
-PRINTS:PR01065 P2Y3PRNOCPTR > GO:G-protein coupled purinergic nucleotide receptor signaling pathway ; GO:0035589
+PRINTS:PR01065 P2Y3PRNOCPTR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01065 P2Y3PRNOCPTR > GO:phospholipase C-activating G-protein coupled receptor signaling pathway ; GO:0007200
+PRINTS:PR01065 P2Y3PRNOCPTR > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR01065 P2Y3PRNOCPTR > GO:integral to membrane ; GO:0016021
 PRINTS:PR01066 P2Y4PRNOCPTR > GO:G-protein coupled purinergic nucleotide receptor activity ; GO:0045028
-PRINTS:PR01066 P2Y4PRNOCPTR > GO:G-protein coupled purinergic nucleotide receptor signaling pathway ; GO:0035589
+PRINTS:PR01066 P2Y4PRNOCPTR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01066 P2Y4PRNOCPTR > GO:phospholipase C-activating G-protein coupled receptor signaling pathway ; GO:0007200
+PRINTS:PR01066 P2Y4PRNOCPTR > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
+PRINTS:PR01066 P2Y4PRNOCPTR > GO:transepithelial chloride transport ; GO:0030321
+PRINTS:PR01066 P2Y4PRNOCPTR > GO:activation of phospholipase A2 activity ; GO:0032431
+PRINTS:PR01066 P2Y4PRNOCPTR > GO:positive regulation of inositol phosphate biosynthetic process ; GO:0060732
+PRINTS:PR01066 P2Y4PRNOCPTR > GO:regulation of ERK1 and ERK2 cascade ; GO:0070372
 PRINTS:PR01066 P2Y4PRNOCPTR > GO:integral to membrane ; GO:0016021
 PRINTS:PR01067 P2Y5ORPHANR > GO:G-protein coupled purinergic nucleotide receptor activity ; GO:0045028
 PRINTS:PR01067 P2Y5ORPHANR > GO:G-protein coupled purinergic nucleotide receptor signaling pathway ; GO:0035589
 PRINTS:PR01067 P2Y5ORPHANR > GO:integral to membrane ; GO:0016021
 PRINTS:PR01068 P2Y6PRNOCPTR > GO:G-protein coupled purinergic nucleotide receptor activity ; GO:0045028
-PRINTS:PR01068 P2Y6PRNOCPTR > GO:G-protein coupled purinergic nucleotide receptor signaling pathway ; GO:0035589
+PRINTS:PR01068 P2Y6PRNOCPTR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01068 P2Y6PRNOCPTR > GO:phospholipase C-activating G-protein coupled receptor signaling pathway ; GO:0007200
+PRINTS:PR01068 P2Y6PRNOCPTR > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
+PRINTS:PR01068 P2Y6PRNOCPTR > GO:chemokine secretion ; GO:0090195
 PRINTS:PR01068 P2Y6PRNOCPTR > GO:integral to membrane ; GO:0016021
 PRINTS:PR01069 ACCCTRFRASEA > GO:acetyl-CoA carboxylase activity ; GO:0003989
 PRINTS:PR01069 ACCCTRFRASEA > GO:fatty acid biosynthetic process ; GO:0006633
@@ -2933,7 +2939,7 @@ PRINTS:PR01156 PACAPRECEPTR > GO:vasoactive intestinal polypeptide receptor acti
 PRINTS:PR01156 PACAPRECEPTR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01156 PACAPRECEPTR > GO:membrane ; GO:0016020
 PRINTS:PR01157 P2YPURNOCPTR > GO:G-protein coupled purinergic nucleotide receptor activity ; GO:0045028
-PRINTS:PR01157 P2YPURNOCPTR > GO:G-protein coupled purinergic nucleotide receptor signaling pathway ; GO:0035589
+PRINTS:PR01157 P2YPURNOCPTR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01157 P2YPURNOCPTR > GO:integral to membrane ; GO:0016021
 PRINTS:PR01158 TOPISMRASEII > GO:DNA binding ; GO:0003677
 PRINTS:PR01158 TOPISMRASEII > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
@@ -2943,7 +2949,6 @@ PRINTS:PR01159 DNAGYRASEB > GO:DNA binding ; GO:0003677
 PRINTS:PR01159 DNAGYRASEB > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
 PRINTS:PR01159 DNAGYRASEB > GO:ATP binding ; GO:0005524
 PRINTS:PR01159 DNAGYRASEB > GO:DNA topological change ; GO:0006265
-PRINTS:PR01159 DNAGYRASEB > GO:chromosome ; GO:0005694
 PRINTS:PR01160 GABAARBETA > GO:GABA-A receptor activity ; GO:0004890
 PRINTS:PR01160 GABAARBETA > GO:ion channel activity ; GO:0005216
 PRINTS:PR01160 GABAARBETA > GO:ion transport ; GO:0006811
@@ -3471,8 +3476,9 @@ PRINTS:PR01371 BACYPHPHTASE > GO:protein dephosphorylation ; GO:0006470
 PRINTS:PR01372 YERSINIAYOPE > GO:GTPase activator activity ; GO:0005096
 PRINTS:PR01373 YERSSTKINASE > GO:protein serine/threonine kinase activity ; GO:0004674
 PRINTS:PR01373 YERSSTKINASE > GO:protein phosphorylation ; GO:0006468
-PRINTS:PR01374 TONBPROTEIN > GO:iron ion transmembrane transporter activity ; GO:0005381
-PRINTS:PR01374 TONBPROTEIN > GO:iron ion transmembrane transport ; GO:0034755
+PRINTS:PR01374 TONBPROTEIN > GO:siderophore transmembrane transporter activity ; GO:0015343
+PRINTS:PR01374 TONBPROTEIN > GO:energy transducer activity ; GO:0031992
+PRINTS:PR01374 TONBPROTEIN > GO:siderophore transport ; GO:0015891
 PRINTS:PR01374 TONBPROTEIN > GO:outer membrane-bounded periplasmic space ; GO:0030288
 PRINTS:PR01375 BACINVASINB > GO:pathogenesis ; GO:0009405
 PRINTS:PR01375 BACINVASINB > GO:extracellular region ; GO:0005576
@@ -4155,9 +4161,10 @@ PRINTS:PR01636 LVDCCALPHA1D > GO:voltage-gated calcium channel activity ; GO:000
 PRINTS:PR01636 LVDCCALPHA1D > GO:calcium ion transmembrane transport ; GO:0070588
 PRINTS:PR01636 LVDCCALPHA1D > GO:voltage-gated calcium channel complex ; GO:0005891
 PRINTS:PR01637 LOLP2ALLERGN > GO:extracellular region ; GO:0005576
+PRINTS:PR01638 MHCCLASSI > GO:peptide antigen binding ; GO:0042605
+PRINTS:PR01638 MHCCLASSI > GO:positive regulation of T cell mediated cytotoxicity ; GO:0001916
+PRINTS:PR01638 MHCCLASSI > GO:antigen processing and presentation of peptide antigen via MHC class I ; GO:0002474
 PRINTS:PR01638 MHCCLASSI > GO:immune response ; GO:0006955
-PRINTS:PR01638 MHCCLASSI > GO:antigen processing and presentation ; GO:0019882
-PRINTS:PR01638 MHCCLASSI > GO:membrane ; GO:0016020
 PRINTS:PR01638 MHCCLASSI > GO:MHC class I protein complex ; GO:0042612
 PRINTS:PR01639 PROFILINMAML > GO:actin binding ; GO:0003779
 PRINTS:PR01639 PROFILINMAML > GO:actin cytoskeleton organization ; GO:0030036

@@ -1,4 +1,4 @@
-!version date: 2013/04/27 09:00:16
+!version date: 2013/05/04 08:26:39
 !description: Mapping of GO terms to PROSITE entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://www.expasy.org/prosite/
 !citation: Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -875,8 +875,8 @@ PROSITE:MF_00356 DNApol_PolC > GO:DNA binding ; GO:0003677
 PROSITE:MF_00356 DNApol_PolC > GO:DNA-directed DNA polymerase activity ; GO:0003887
 PROSITE:MF_00356 DNApol_PolC > GO:DNA replication ; GO:0006260
 PROSITE:MF_00356 DNApol_PolC > GO:cytoplasm ; GO:0005737
-PROSITE:MF_00357 RNApol_bact_RpoE > GO:DNA binding ; GO:0003677
 PROSITE:MF_00357 RNApol_bact_RpoE > GO:transcription, DNA-dependent ; GO:0006351
+PROSITE:MF_00357 RNApol_bact_RpoE > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PROSITE:MF_00358 Ribosomal_S21 > GO:structural constituent of ribosome ; GO:0003735
 PROSITE:MF_00358 Ribosomal_S21 > GO:translation ; GO:0006412
 PROSITE:MF_00358 Ribosomal_S21 > GO:intracellular ; GO:0005622
@@ -3698,11 +3698,6 @@ PROSITE:MF_03106 Sulf_adenylyltr_euk > GO:sulfur amino acid metabolic process ; 
 PROSITE:MF_03107 3_ketoreductase > GO:ketoreductase activity ; GO:0045703
 PROSITE:MF_03107 3_ketoreductase > GO:fatty acid elongation ; GO:0030497
 PROSITE:MF_03107 3_ketoreductase > GO:endoplasmic reticulum ; GO:0005783
-PROSITE:MF_03110 Endonuc_su_Slx4 > GO:5'-flap endonuclease activity ; GO:0017108
-PROSITE:MF_03110 Endonuc_su_Slx4 > GO:DNA replication ; GO:0006260
-PROSITE:MF_03110 Endonuc_su_Slx4 > GO:DNA repair ; GO:0006281
-PROSITE:MF_03110 Endonuc_su_Slx4 > GO:nucleus ; GO:0005634
-PROSITE:MF_03110 Endonuc_su_Slx4 > GO:Slx1-Slx4 complex ; GO:0033557
 PROSITE:MF_03111 Coq4 > GO:ubiquinone biosynthetic process ; GO:0006744
 PROSITE:MF_03111 Coq4 > GO:mitochondrial inner membrane ; GO:0005743
 PROSITE:MF_03112 Asna1_Get3 > GO:ATP binding ; GO:0005524
@@ -4373,9 +4368,6 @@ PROSITE:PS00371 PTS_EIIA_TYPE_1_HIS > GO:sugar:hydrogen symporter activity ; GO:
 PROSITE:PS00371 PTS_EIIA_TYPE_1_HIS > GO:transport ; GO:0006810
 PROSITE:PS00371 PTS_EIIA_TYPE_1_HIS > GO:phosphoenolpyruvate-dependent sugar phosphotransferase system ; GO:0009401
 PROSITE:PS00371 PTS_EIIA_TYPE_1_HIS > GO:membrane ; GO:0016020
-PROSITE:PS00372 PTS_EIIA_TYPE_2_HIS > GO:sugar:hydrogen symporter activity ; GO:0005351
-PROSITE:PS00372 PTS_EIIA_TYPE_2_HIS > GO:transport ; GO:0006810
-PROSITE:PS00372 PTS_EIIA_TYPE_2_HIS > GO:phosphoenolpyruvate-dependent sugar phosphotransferase system ; GO:0009401
 PROSITE:PS00373 GART > GO:methyltransferase activity ; GO:0008168
 PROSITE:PS00374 MGMT > GO:methylated-DNA-[protein]-cysteine S-methyltransferase activity ; GO:0003908
 PROSITE:PS00374 MGMT > GO:DNA repair ; GO:0006281
@@ -6031,6 +6023,8 @@ PROSITE:PS01284 TNASE_2 > GO:nucleic acid binding ; GO:0003676
 PROSITE:PS01284 TNASE_2 > GO:nuclease activity ; GO:0004518
 PROSITE:PS01285 FA58C_1 > GO:cell adhesion ; GO:0007155
 PROSITE:PS01286 FA58C_2 > GO:cell adhesion ; GO:0007155
+PROSITE:PS01288 UPF0027 > GO:RNA ligase activity ; GO:0008452
+PROSITE:PS01288 UPF0027 > GO:RNA processing ; GO:0006396
 PROSITE:PS01289 TSC22 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS01289 TSC22 > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PROSITE:PS01290 ER > GO:cell cycle ; GO:0007049
@@ -6137,14 +6131,11 @@ PROSITE:PS01356 HEMATOPO_REC_S_F2 > GO:cytokine receptor activity ; GO:0004896
 PROSITE:PS01356 HEMATOPO_REC_S_F2 > GO:membrane ; GO:0016020
 PROSITE:PS01357 ZF_ZZ_1 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS01358 ZF_RANBP2_1 > GO:zinc ion binding ; GO:0008270
-PROSITE:PS01360 ZF_MYND_1 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS01361 ZF_DOF_1 > GO:DNA binding ; GO:0003677
 PROSITE:PS01361 ZF_DOF_1 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS01361 ZF_DOF_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PROSITE:PS40000 DM_1 > GO:sequence-specific DNA binding ; GO:0043565
 PROSITE:PS40000 DM_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
-PROSITE:PS40000 DM_1 > GO:sex differentiation ; GO:0007548
-PROSITE:PS40000 DM_1 > GO:nucleus ; GO:0005634
 PROSITE:PS50001 SH2 > GO:protein binding ; GO:0005515
 PROSITE:PS50002 SH3 > GO:protein binding ; GO:0005515
 PROSITE:PS50003 PH_DOMAIN > GO:protein binding ; GO:0005515
@@ -6514,8 +6505,6 @@ PROSITE:PS50807 GCM > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PROSITE:PS50808 ZF_BED > GO:DNA binding ; GO:0003677
 PROSITE:PS50809 DM_2 > GO:sequence-specific DNA binding ; GO:0043565
 PROSITE:PS50809 DM_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
-PROSITE:PS50809 DM_2 > GO:sex differentiation ; GO:0007548
-PROSITE:PS50809 DM_2 > GO:nucleus ; GO:0005634
 PROSITE:PS50810 FRATAXIN_2 > GO:ferric iron binding ; GO:0008199
 PROSITE:PS50810 FRATAXIN_2 > GO:iron-sulfur cluster assembly ; GO:0016226
 PROSITE:PS50811 WRKY > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
@@ -6561,9 +6550,7 @@ PROSITE:PS50861 AA_TRNA_LIGASE_II_GLYAB > GO:cytoplasm ; GO:0005737
 PROSITE:PS50862 AA_TRNA_LIGASE_II > GO:aminoacyl-tRNA ligase activity ; GO:0004812
 PROSITE:PS50862 AA_TRNA_LIGASE_II > GO:tRNA aminoacylation for protein translation ; GO:0006418
 PROSITE:PS50863 B3 > GO:DNA binding ; GO:0003677
-PROSITE:PS50863 B3 > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PROSITE:PS50864 SAND > GO:DNA binding ; GO:0003677
-PROSITE:PS50865 ZF_MYND_2 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS50866 GOLD > GO:transport ; GO:0006810
 PROSITE:PS50866 GOLD > GO:integral to membrane ; GO:0016021
 PROSITE:PS50867 PRE_SET > GO:zinc ion binding ; GO:0008270
@@ -6849,9 +6836,6 @@ PROSITE:PS51093 PTS_EIIA_TYPE_1 > GO:sugar:hydrogen symporter activity ; GO:0005
 PROSITE:PS51093 PTS_EIIA_TYPE_1 > GO:transport ; GO:0006810
 PROSITE:PS51093 PTS_EIIA_TYPE_1 > GO:phosphoenolpyruvate-dependent sugar phosphotransferase system ; GO:0009401
 PROSITE:PS51093 PTS_EIIA_TYPE_1 > GO:membrane ; GO:0016020
-PROSITE:PS51094 PTS_EIIA_TYPE_2 > GO:sugar:hydrogen symporter activity ; GO:0005351
-PROSITE:PS51094 PTS_EIIA_TYPE_2 > GO:transport ; GO:0006810
-PROSITE:PS51094 PTS_EIIA_TYPE_2 > GO:phosphoenolpyruvate-dependent sugar phosphotransferase system ; GO:0009401
 PROSITE:PS51095 PTS_EIIA_TYPE_3 > GO:sugar:hydrogen symporter activity ; GO:0005351
 PROSITE:PS51095 PTS_EIIA_TYPE_3 > GO:transport ; GO:0006810
 PROSITE:PS51095 PTS_EIIA_TYPE_3 > GO:phosphoenolpyruvate-dependent sugar phosphotransferase system ; GO:0009401

@@ -1,4 +1,4 @@
-!version date: 2013/04/27 09:00:18
+!version date: 2013/05/04 08:26:43
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -368,7 +368,8 @@ PRINTS:PR00162 RIESKE > GO:ubiquinol-cytochrome-c reductase activity ; GO:000812
 PRINTS:PR00162 RIESKE > GO:oxidation-reduction process ; GO:0055114
 PRINTS:PR00162 RIESKE > GO:membrane ; GO:0016020
 PRINTS:PR00163 RUBREDOXIN > GO:iron ion binding ; GO:0005506
-PRINTS:PR00164 ABC2TRNSPORT > GO:transporter activity ; GO:0005215
+PRINTS:PR00164 ABC2TRNSPORT > GO:ATP binding ; GO:0005524
+PRINTS:PR00164 ABC2TRNSPORT > GO:ATPase activity, coupled to transmembrane movement of substances ; GO:0042626
 PRINTS:PR00164 ABC2TRNSPORT > GO:transport ; GO:0006810
 PRINTS:PR00164 ABC2TRNSPORT > GO:membrane ; GO:0016020
 PRINTS:PR00165 ANIONEXCHNGR > GO:inorganic anion exchanger activity ; GO:0005452
@@ -2804,7 +2805,13 @@ PRINTS:PR01102 5HT6RECEPTR > GO:regulation of hormone secretion ; GO:0046883
 PRINTS:PR01102 5HT6RECEPTR > GO:cognition ; GO:0050890
 PRINTS:PR01102 5HT6RECEPTR > GO:integral to membrane ; GO:0016021
 PRINTS:PR01103 ADRENERGICR > GO:adrenergic receptor activity ; GO:0004935
+PRINTS:PR01103 ADRENERGICR > GO:activation of MAPKKK activity ; GO:0000185
+PRINTS:PR01103 ADRENERGICR > GO:regulation of muscle contraction ; GO:0006937
 PRINTS:PR01103 ADRENERGICR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01103 ADRENERGICR > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
+PRINTS:PR01103 ADRENERGICR > GO:regulation of vasoconstriction ; GO:0019229
+PRINTS:PR01103 ADRENERGICR > GO:regulation of cardiac muscle contraction ; GO:0055117
+PRINTS:PR01103 ADRENERGICR > GO:positive regulation of inositol phosphate biosynthetic process ; GO:0060732
 PRINTS:PR01103 ADRENERGICR > GO:integral to membrane ; GO:0016021
 PRINTS:PR01104 ANPHYLATOXNR > GO:anaphylatoxin receptor activity ; GO:0004942
 PRINTS:PR01104 ANPHYLATOXNR > GO:chemotaxis ; GO:0006935
@@ -3617,14 +3624,24 @@ PRINTS:PR01416 APJRECEPTOR > GO:integral to membrane ; GO:0016021
 PRINTS:PR01417 GHSRECEPTOR > GO:growth hormone-releasing hormone receptor activity ; GO:0016520
 PRINTS:PR01417 GHSRECEPTOR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01417 GHSRECEPTOR > GO:integral to membrane ; GO:0016021
+PRINTS:PR01418 GALANIN1R > GO:MAP kinase activity ; GO:0004707
 PRINTS:PR01418 GALANIN1R > GO:galanin receptor activity ; GO:0004966
 PRINTS:PR01418 GALANIN1R > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01418 GALANIN1R > GO:negative regulation of adenylate cyclase activity ; GO:0007194
+PRINTS:PR01418 GALANIN1R > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR01418 GALANIN1R > GO:integral to membrane ; GO:0016021
+PRINTS:PR01419 GALANIN2R > GO:MAP kinase activity ; GO:0004707
 PRINTS:PR01419 GALANIN2R > GO:galanin receptor activity ; GO:0004966
 PRINTS:PR01419 GALANIN2R > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01419 GALANIN2R > GO:negative regulation of adenylate cyclase activity ; GO:0007194
+PRINTS:PR01419 GALANIN2R > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
+PRINTS:PR01419 GALANIN2R > GO:inositol phosphate metabolic process ; GO:0043647
 PRINTS:PR01419 GALANIN2R > GO:integral to membrane ; GO:0016021
+PRINTS:PR01420 GALANIN3R > GO:MAP kinase activity ; GO:0004707
 PRINTS:PR01420 GALANIN3R > GO:galanin receptor activity ; GO:0004966
 PRINTS:PR01420 GALANIN3R > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01420 GALANIN3R > GO:negative regulation of adenylate cyclase activity ; GO:0007194
+PRINTS:PR01420 GALANIN3R > GO:elevation of cytosolic calcium ion concentration ; GO:0007204
 PRINTS:PR01420 GALANIN3R > GO:integral to membrane ; GO:0016021
 PRINTS:PR01421 GPR37ORPHANR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01421 GPR37ORPHANR > GO:integral to membrane ; GO:0016021

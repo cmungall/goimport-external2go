@@ -1,4 +1,4 @@
-!version date: 2013/05/04 08:26:39
+!version date: 2013/05/11 08:24:01
 !description: Mapping of GO terms to PROSITE entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://www.expasy.org/prosite/
 !citation: Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1414,6 +1414,7 @@ PROSITE:MF_00583_B RibP_PPkinase_B > GO:nucleotide biosynthetic process ; GO:000
 PROSITE:MF_00584 HTH_type_cro_C1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:MF_00584 HTH_type_cro_C1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PROSITE:MF_00586 GatD > GO:regulation of translational fidelity ; GO:0006450
+PROSITE:MF_00587 tRNA_methyltr_TrmY > GO:tRNA methyltransferase activity ; GO:0008175
 PROSITE:MF_00588 GatE > GO:carbon-nitrogen ligase activity, with glutamine as amido-N-donor ; GO:0016884
 PROSITE:MF_00589 PSII_PsbU > GO:photosynthesis ; GO:0015979
 PROSITE:MF_00589 PSII_PsbU > GO:photosystem II stabilization ; GO:0042549
@@ -3775,7 +3776,7 @@ PROSITE:PS00026 CHIT_BIND_I_1 > GO:chitin binding ; GO:0008061
 PROSITE:PS00027 HOMEOBOX_1 > GO:sequence-specific DNA binding ; GO:0043565
 PROSITE:PS00027 HOMEOBOX_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PROSITE:PS00027 HOMEOBOX_1 > GO:nucleus ; GO:0005634
-PROSITE:PS00028 ZINC_FINGER_C2H2_1 > GO:zinc ion binding ; GO:0008270
+PROSITE:PS00028 ZINC_FINGER_C2H2_1 > GO:metal ion binding ; GO:0046872
 PROSITE:PS00031 NUCLEAR_REC_DBD_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS00031 NUCLEAR_REC_DBD_1 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS00031 NUCLEAR_REC_DBD_1 > GO:sequence-specific DNA binding ; GO:0043565
@@ -4671,7 +4672,7 @@ PROSITE:PS00549 BACTERIOFERRITIN > GO:iron ion transport ; GO:0006826
 PROSITE:PS00549 BACTERIOFERRITIN > GO:cellular iron ion homeostasis ; GO:0006879
 PROSITE:PS00550 HEMERYTHRINS > GO:metal ion binding ; GO:0046872
 PROSITE:PS00551 MOLYBDOPTERIN_PROK_1 > GO:4 iron, 4 sulfur cluster binding ; GO:0051539
-PROSITE:PS00552 HTH_MERR_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+PROSITE:PS00552 HTH_MERR_1 > GO:DNA binding ; GO:0003677
 PROSITE:PS00552 HTH_MERR_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PROSITE:PS00554 TEA_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS00554 TEA_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
@@ -6132,7 +6133,6 @@ PROSITE:PS01356 HEMATOPO_REC_S_F2 > GO:membrane ; GO:0016020
 PROSITE:PS01357 ZF_ZZ_1 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS01358 ZF_RANBP2_1 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS01361 ZF_DOF_1 > GO:DNA binding ; GO:0003677
-PROSITE:PS01361 ZF_DOF_1 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS01361 ZF_DOF_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PROSITE:PS40000 DM_1 > GO:sequence-specific DNA binding ; GO:0043565
 PROSITE:PS40000 DM_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
@@ -6260,8 +6260,7 @@ PROSITE:PS50095 PLAT > GO:protein binding ; GO:0005515
 PROSITE:PS50096 IQ > GO:protein binding ; GO:0005515
 PROSITE:PS50097 BTB > GO:protein binding ; GO:0005515
 PROSITE:PS50102 RRM > GO:nucleic acid binding ; GO:0003676
-PROSITE:PS50103 ZF_C3H1 > GO:nucleic acid binding ; GO:0003676
-PROSITE:PS50103 ZF_C3H1 > GO:zinc ion binding ; GO:0008270
+PROSITE:PS50103 ZF_C3H1 > GO:metal ion binding ; GO:0046872
 PROSITE:PS50104 TIR > GO:protein binding ; GO:0005515
 PROSITE:PS50104 TIR > GO:signal transduction ; GO:0007165
 PROSITE:PS50105 SAM_DOMAIN > GO:protein binding ; GO:0005515
@@ -6306,7 +6305,6 @@ PROSITE:PS50134 ZF_TAZ > GO:zinc ion binding ; GO:0008270
 PROSITE:PS50134 ZF_TAZ > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PROSITE:PS50134 ZF_TAZ > GO:nucleus ; GO:0005634
 PROSITE:PS50135 ZF_ZZ_2 > GO:zinc ion binding ; GO:0008270
-PROSITE:PS50137 DS_RBD > GO:double-stranded RNA binding ; GO:0003725
 PROSITE:PS50138 BRCA2_REPEAT > GO:protein binding ; GO:0005515
 PROSITE:PS50138 BRCA2_REPEAT > GO:double-strand break repair ; GO:0006302
 PROSITE:PS50139 DRADA_REPEAT > GO:RNA binding ; GO:0003723
@@ -6327,7 +6325,7 @@ PROSITE:PS50152 25A_SYNTH_3 > GO:ATP binding ; GO:0005524
 PROSITE:PS50152 25A_SYNTH_3 > GO:transferase activity ; GO:0016740
 PROSITE:PS50152 25A_SYNTH_3 > GO:immune response ; GO:0006955
 PROSITE:PS50156 SSD > GO:integral to membrane ; GO:0016021
-PROSITE:PS50157 ZINC_FINGER_C2H2_2 > GO:zinc ion binding ; GO:0008270
+PROSITE:PS50157 ZINC_FINGER_C2H2_2 > GO:metal ion binding ; GO:0046872
 PROSITE:PS50158 ZF_CCHC > GO:nucleic acid binding ; GO:0003676
 PROSITE:PS50158 ZF_CCHC > GO:zinc ion binding ; GO:0008270
 PROSITE:PS50159 RIBOSOMAL_S13_2 > GO:RNA binding ; GO:0003723
@@ -6405,7 +6403,6 @@ PROSITE:PS50227 G_PROTEIN_RECEP_F2_3 > GO:G-protein coupled receptor activity ; 
 PROSITE:PS50227 G_PROTEIN_RECEP_F2_3 > GO:membrane ; GO:0016020
 PROSITE:PS50228 SUEL_LECTIN > GO:carbohydrate binding ; GO:0030246
 PROSITE:PS50229 WH1 > GO:protein binding ; GO:0005515
-PROSITE:PS50234 VWFA > GO:protein binding ; GO:0005515
 PROSITE:PS50235 UCH_2_3 > GO:ubiquitin thiolesterase activity ; GO:0004221
 PROSITE:PS50235 UCH_2_3 > GO:ubiquitin-dependent protein catabolic process ; GO:0006511
 PROSITE:PS50237 HECT > GO:ubiquitin-protein ligase activity ; GO:0004842
@@ -6574,7 +6571,6 @@ PROSITE:PS50881 S5_DSRBD > GO:structural constituent of ribosome ; GO:0003735
 PROSITE:PS50881 S5_DSRBD > GO:translation ; GO:0006412
 PROSITE:PS50881 S5_DSRBD > GO:ribosome ; GO:0005840
 PROSITE:PS50884 ZF_DOF_2 > GO:DNA binding ; GO:0003677
-PROSITE:PS50884 ZF_DOF_2 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS50884 ZF_DOF_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PROSITE:PS50885 HAMP > GO:signal transducer activity ; GO:0004871
 PROSITE:PS50885 HAMP > GO:signal transduction ; GO:0007165
@@ -6628,7 +6624,7 @@ PROSITE:PS50934 SWIRM > GO:protein binding ; GO:0005515
 PROSITE:PS50935 SSB > GO:single-stranded DNA binding ; GO:0003697
 PROSITE:PS50936 ENGC_GTPASE > GO:GTPase activity ; GO:0003924
 PROSITE:PS50936 ENGC_GTPASE > GO:GTP binding ; GO:0005525
-PROSITE:PS50937 HTH_MERR_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+PROSITE:PS50937 HTH_MERR_2 > GO:DNA binding ; GO:0003677
 PROSITE:PS50937 HTH_MERR_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PROSITE:PS50940 CHIT_BIND_II > GO:chitin binding ; GO:0008061
 PROSITE:PS50940 CHIT_BIND_II > GO:chitin metabolic process ; GO:0006030
@@ -7220,7 +7216,7 @@ PROSITE:PS51365 RENAL_DIPEPTIDASE_2 > GO:proteolysis ; GO:0006508
 PROSITE:PS51368 UREASE_3 > GO:urease activity ; GO:0009039
 PROSITE:PS51368 UREASE_3 > GO:nickel cation binding ; GO:0016151
 PROSITE:PS51368 UREASE_3 > GO:nitrogen compound metabolic process ; GO:0006807
-PROSITE:PS51371 CBS > GO:protein binding ; GO:0005515
+PROSITE:PS51371 CBS > GO:adenyl nucleotide binding ; GO:0030554
 PROSITE:PS51372 PRD_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PROSITE:PS51373 HIPIP > GO:electron carrier activity ; GO:0009055
 PROSITE:PS51373 HIPIP > GO:aerobic electron transport chain ; GO:0019646

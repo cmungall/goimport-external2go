@@ -1,4 +1,4 @@
-!version date: 2013/05/11 08:24:01
+!version date: 2013/05/25 08:34:08
 !description: Mapping of GO terms to PROSITE entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://www.expasy.org/prosite/
 !citation: Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1443,8 +1443,7 @@ PROSITE:MF_00600 CH60 > GO:cytoplasm ; GO:0005737
 PROSITE:MF_00601 EutC > GO:ethanolamine ammonia-lyase activity ; GO:0008851
 PROSITE:MF_00601 EutC > GO:cellular amino acid metabolic process ; GO:0006520
 PROSITE:MF_00602 ATP_gua_Ptrans > GO:phosphotransferase activity, nitrogenous group as acceptor ; GO:0016775
-PROSITE:MF_00605 TrmD > GO:RNA binding ; GO:0003723
-PROSITE:MF_00605 TrmD > GO:tRNA (guanine-N1-)-methyltransferase activity ; GO:0009019
+PROSITE:MF_00605 TrmD > GO:tRNA (guanine(37)-N(1))-methyltransferase activity ; GO:0052906
 PROSITE:MF_00605 TrmD > GO:tRNA processing ; GO:0008033
 PROSITE:MF_00606 UV_endonuclease > GO:endonuclease activity ; GO:0004519
 PROSITE:MF_00606 UV_endonuclease > GO:response to UV ; GO:0009411
@@ -2011,9 +2010,11 @@ PROSITE:MF_01057 tRNA_methyltr_TrmB > GO:tRNA modification ; GO:0006400
 PROSITE:MF_01059 Cyt_trehalase > GO:alpha,alpha-trehalase activity ; GO:0004555
 PROSITE:MF_01059 Cyt_trehalase > GO:trehalose catabolic process ; GO:0005993
 PROSITE:MF_01059 Cyt_trehalase > GO:cellular hyperosmotic response ; GO:0071474
+PROSITE:MF_01059 Cyt_trehalase > GO:cytoplasm ; GO:0005737
 PROSITE:MF_01060 Peripl_trehalase > GO:alpha,alpha-trehalase activity ; GO:0004555
 PROSITE:MF_01060 Peripl_trehalase > GO:trehalose catabolic process ; GO:0005993
 PROSITE:MF_01060 Peripl_trehalase > GO:cellular hyperosmotic response ; GO:0071474
+PROSITE:MF_01060 Peripl_trehalase > GO:periplasmic space ; GO:0042597
 PROSITE:MF_01061 DnaT > GO:DNA replication ; GO:0006260
 PROSITE:MF_01065 UPF0257 > GO:plasma membrane ; GO:0005886
 PROSITE:MF_01066 MdoC_OpgC > GO:transferase activity, transferring one-carbon groups ; GO:0016741
@@ -3679,7 +3680,7 @@ PROSITE:MF_03016 Ribosomal_S2_laminin_receptor > GO:laminin receptor activity ; 
 PROSITE:MF_03016 Ribosomal_S2_laminin_receptor > GO:translation ; GO:0006412
 PROSITE:MF_03016 Ribosomal_S2_laminin_receptor > GO:small ribosomal subunit ; GO:0015935
 PROSITE:MF_03021 Spastin > GO:microtubule-severing ATPase activity ; GO:0008568
-PROSITE:MF_03040 USB1 > GO:ribonuclease activity ; GO:0004540
+PROSITE:MF_03040 USB1 > GO:nuclease activity ; GO:0004518
 PROSITE:MF_03040 USB1 > GO:U6 snRNA 3'-end processing ; GO:0034477
 PROSITE:MF_03100 Endonuc_su_Slx1 > GO:5'-flap endonuclease activity ; GO:0017108
 PROSITE:MF_03100 Endonuc_su_Slx1 > GO:DNA repair ; GO:0006281
@@ -3699,6 +3700,11 @@ PROSITE:MF_03106 Sulf_adenylyltr_euk > GO:sulfur amino acid metabolic process ; 
 PROSITE:MF_03107 3_ketoreductase > GO:ketoreductase activity ; GO:0045703
 PROSITE:MF_03107 3_ketoreductase > GO:fatty acid elongation ; GO:0030497
 PROSITE:MF_03107 3_ketoreductase > GO:endoplasmic reticulum ; GO:0005783
+PROSITE:MF_03110 Endonuc_su_Slx4 > GO:5'-flap endonuclease activity ; GO:0017108
+PROSITE:MF_03110 Endonuc_su_Slx4 > GO:DNA replication ; GO:0006260
+PROSITE:MF_03110 Endonuc_su_Slx4 > GO:DNA repair ; GO:0006281
+PROSITE:MF_03110 Endonuc_su_Slx4 > GO:nucleus ; GO:0005634
+PROSITE:MF_03110 Endonuc_su_Slx4 > GO:Slx1-Slx4 complex ; GO:0033557
 PROSITE:MF_03111 Coq4 > GO:ubiquinone biosynthetic process ; GO:0006744
 PROSITE:MF_03111 Coq4 > GO:mitochondrial inner membrane ; GO:0005743
 PROSITE:MF_03112 Asna1_Get3 > GO:ATP binding ; GO:0005524
@@ -4274,6 +4280,7 @@ PROSITE:PS00327 BACTERIAL_OPSIN_RET > GO:ion channel activity ; GO:0005216
 PROSITE:PS00327 BACTERIAL_OPSIN_RET > GO:ion transport ; GO:0006811
 PROSITE:PS00327 BACTERIAL_OPSIN_RET > GO:membrane ; GO:0016020
 PROSITE:PS00331 MALIC_ENZYMES > GO:oxidoreductase activity ; GO:0016491
+PROSITE:PS00331 MALIC_ENZYMES > GO:malate dehydrogenase (oxaloacetate-decarboxylating) activity ; GO:0016619
 PROSITE:PS00331 MALIC_ENZYMES > GO:metal ion binding ; GO:0046872
 PROSITE:PS00331 MALIC_ENZYMES > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS00332 SOD_CU_ZN_2 > GO:superoxide dismutase activity ; GO:0004784
@@ -4630,6 +4637,7 @@ PROSITE:PS00531 RNASE_T2_2 > GO:ribonuclease T2 activity ; GO:0033897
 PROSITE:PS00532 PEPCK_ATP > GO:phosphoenolpyruvate carboxykinase (ATP) activity ; GO:0004612
 PROSITE:PS00532 PEPCK_ATP > GO:ATP binding ; GO:0005524
 PROSITE:PS00532 PEPCK_ATP > GO:gluconeogenesis ; GO:0006094
+PROSITE:PS00533 PORPHOBILINOGEN_DEAM > GO:hydroxymethylbilane synthase activity ; GO:0004418
 PROSITE:PS00533 PORPHOBILINOGEN_DEAM > GO:peptidyl-pyrromethane cofactor linkage ; GO:0018160
 PROSITE:PS00533 PORPHOBILINOGEN_DEAM > GO:tetrapyrrole biosynthetic process ; GO:0033014
 PROSITE:PS00534 FERROCHELATASE > GO:ferrochelatase activity ; GO:0004325
@@ -5183,8 +5191,11 @@ PROSITE:PS00805 CALRETICULIN_REPEAT > GO:calcium ion binding ; GO:0005509
 PROSITE:PS00806 ALDOLASE_CLASS_II_2 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS00806 ALDOLASE_CLASS_II_2 > GO:aldehyde-lyase activity ; GO:0016832
 PROSITE:PS00806 ALDOLASE_CLASS_II_2 > GO:carbohydrate metabolic process ; GO:0005975
+PROSITE:PS00808 ADP_GLC_PYROPHOSPH_1 > GO:glucose-1-phosphate adenylyltransferase activity ; GO:0008878
 PROSITE:PS00808 ADP_GLC_PYROPHOSPH_1 > GO:glycogen biosynthetic process ; GO:0005978
+PROSITE:PS00809 ADP_GLC_PYROPHOSPH_2 > GO:glucose-1-phosphate adenylyltransferase activity ; GO:0008878
 PROSITE:PS00809 ADP_GLC_PYROPHOSPH_2 > GO:glycogen biosynthetic process ; GO:0005978
+PROSITE:PS00810 ADP_GLC_PYROPHOSPH_3 > GO:glucose-1-phosphate adenylyltransferase activity ; GO:0008878
 PROSITE:PS00810 ADP_GLC_PYROPHOSPH_3 > GO:glycogen biosynthetic process ; GO:0005978
 PROSITE:PS00811 OLEOSINS > GO:monolayer-surrounded lipid storage body ; GO:0012511
 PROSITE:PS00811 OLEOSINS > GO:integral to membrane ; GO:0016021
@@ -5490,7 +5501,7 @@ PROSITE:PS00972 UCH_2_1 > GO:ubiquitin thiolesterase activity ; GO:0004221
 PROSITE:PS00972 UCH_2_1 > GO:ubiquitin-dependent protein catabolic process ; GO:0006511
 PROSITE:PS00973 UCH_2_2 > GO:ubiquitin thiolesterase activity ; GO:0004221
 PROSITE:PS00973 UCH_2_2 > GO:ubiquitin-dependent protein catabolic process ; GO:0006511
-PROSITE:PS00974 MANNITOL_DHGENASE > GO:mannitol-1-phosphate 5-dehydrogenase activity ; GO:0008926
+PROSITE:PS00974 MANNITOL_DHGENASE > GO:mannitol metabolic process ; GO:0019594
 PROSITE:PS00974 MANNITOL_DHGENASE > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS00975 NMT_1 > GO:glycylpeptide N-tetradecanoyltransferase activity ; GO:0004379
 PROSITE:PS00976 NMT_2 > GO:glycylpeptide N-tetradecanoyltransferase activity ; GO:0004379

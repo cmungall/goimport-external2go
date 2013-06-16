@@ -1,4 +1,4 @@
-!version date: 2013/06/08 16:46:07
+!version date: 2013/06/15 17:08:38
 !description: Mapping of GO terms to InterPro entries.
 !external resource: http://www.ebi.ac.uk/interpro
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -397,6 +397,7 @@ InterPro:IPR000214 Zinc finger, DNA glycosylase/AP lyase-type > GO:DNA-(apurinic
 InterPro:IPR000214 Zinc finger, DNA glycosylase/AP lyase-type > GO:zinc ion binding ; GO:0008270
 InterPro:IPR000214 Zinc finger, DNA glycosylase/AP lyase-type > GO:hydrolase activity, hydrolyzing N-glycosyl compounds ; GO:0016799
 InterPro:IPR000214 Zinc finger, DNA glycosylase/AP lyase-type > GO:DNA repair ; GO:0006281
+InterPro:IPR000215 Serpin family > GO:extracellular space ; GO:0005615
 InterPro:IPR000217 Tubulin > GO:microtubule-based process ; GO:0007017
 InterPro:IPR000217 Tubulin > GO:microtubule ; GO:0005874
 InterPro:IPR000218 Ribosomal protein L14b/L23e > GO:structural constituent of ribosome ; GO:0003735
@@ -3163,9 +3164,9 @@ InterPro:IPR001656 Pseudouridine synthase, TruD > GO:pseudouridine synthesis ; G
 InterPro:IPR001656 Pseudouridine synthase, TruD > GO:RNA modification ; GO:0009451
 InterPro:IPR001657 Hedgehog protein > GO:cell communication ; GO:0007154
 InterPro:IPR001657 Hedgehog protein > GO:multicellular organismal development ; GO:0007275
-InterPro:IPR001658 Gonadotrophin releasing hormone receptor > GO:gonadotropin-releasing hormone receptor activity ; GO:0004968
-InterPro:IPR001658 Gonadotrophin releasing hormone receptor > GO:G-protein coupled receptor signaling pathway ; GO:0007186
-InterPro:IPR001658 Gonadotrophin releasing hormone receptor > GO:integral to membrane ; GO:0016021
+InterPro:IPR001658 Gonadotrophin releasing hormone receptor family > GO:protein-hormone receptor activity ; GO:0016500
+InterPro:IPR001658 Gonadotrophin releasing hormone receptor family > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+InterPro:IPR001658 Gonadotrophin releasing hormone receptor family > GO:integral to membrane ; GO:0016021
 InterPro:IPR001660 Sterile alpha motif domain > GO:protein binding ; GO:0005515
 InterPro:IPR001661 Glycoside hydrolase, family 37 > GO:alpha,alpha-trehalase activity ; GO:0004555
 InterPro:IPR001661 Glycoside hydrolase, family 37 > GO:trehalose metabolic process ; GO:0005991
@@ -4060,9 +4061,9 @@ InterPro:IPR002119 Histone H2A > GO:DNA binding ; GO:0003677
 InterPro:IPR002119 Histone H2A > GO:nucleosome assembly ; GO:0006334
 InterPro:IPR002119 Histone H2A > GO:nucleosome ; GO:0000786
 InterPro:IPR002119 Histone H2A > GO:nucleus ; GO:0005634
-InterPro:IPR002120 Thyrotrophin-releasing hormone receptor > GO:thyrotropin-releasing hormone receptor activity ; GO:0004997
-InterPro:IPR002120 Thyrotrophin-releasing hormone receptor > GO:G-protein coupled receptor signaling pathway ; GO:0007186
-InterPro:IPR002120 Thyrotrophin-releasing hormone receptor > GO:integral to membrane ; GO:0016021
+InterPro:IPR002120 Thyrotropin-releasing hormone receptor > GO:thyrotropin-releasing hormone receptor activity ; GO:0004997
+InterPro:IPR002120 Thyrotropin-releasing hormone receptor > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+InterPro:IPR002120 Thyrotropin-releasing hormone receptor > GO:integral to membrane ; GO:0016021
 InterPro:IPR002121 HRDC domain > GO:nucleic acid binding ; GO:0003676
 InterPro:IPR002121 HRDC domain > GO:intracellular ; GO:0005622
 InterPro:IPR002122 Melanocortin 3 receptor > GO:melanocortin receptor activity ; GO:0004977
@@ -4085,9 +4086,9 @@ InterPro:IPR002129 Pyridoxal phosphate-dependent decarboxylase > GO:pyridoxal ph
 InterPro:IPR002129 Pyridoxal phosphate-dependent decarboxylase > GO:carboxylic acid metabolic process ; GO:0019752
 InterPro:IPR002130 Cyclophilin-like peptidyl-prolyl cis-trans isomerase domain > GO:peptidyl-prolyl cis-trans isomerase activity ; GO:0003755
 InterPro:IPR002130 Cyclophilin-like peptidyl-prolyl cis-trans isomerase domain > GO:protein folding ; GO:0006457
-InterPro:IPR002131 Glycoprotein hormone receptor > GO:protein-hormone receptor activity ; GO:0016500
-InterPro:IPR002131 Glycoprotein hormone receptor > GO:G-protein coupled receptor signaling pathway ; GO:0007186
-InterPro:IPR002131 Glycoprotein hormone receptor > GO:integral to membrane ; GO:0016021
+InterPro:IPR002131 Glycoprotein hormone receptor family > GO:protein-hormone receptor activity ; GO:0016500
+InterPro:IPR002131 Glycoprotein hormone receptor family > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+InterPro:IPR002131 Glycoprotein hormone receptor family > GO:integral to membrane ; GO:0016021
 InterPro:IPR002132 Ribosomal protein L5 > GO:structural constituent of ribosome ; GO:0003735
 InterPro:IPR002132 Ribosomal protein L5 > GO:translation ; GO:0006412
 InterPro:IPR002132 Ribosomal protein L5 > GO:ribosome ; GO:0005840
@@ -4409,9 +4410,9 @@ InterPro:IPR002272 Follicle-stimulating hormone receptor > GO:follicle-stimulati
 InterPro:IPR002272 Follicle-stimulating hormone receptor > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 InterPro:IPR002272 Follicle-stimulating hormone receptor > GO:integral to membrane ; GO:0016021
 InterPro:IPR002273 Lutropin-choriogonadotropic hormone receptor > GO:luteinizing hormone receptor activity ; GO:0004964
-InterPro:IPR002273 Lutropin-choriogonadotropic hormone receptor > GO:luteinizing hormone signaling pathway ; GO:0042700
+InterPro:IPR002273 Lutropin-choriogonadotropic hormone receptor > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 InterPro:IPR002273 Lutropin-choriogonadotropic hormone receptor > GO:integral to membrane ; GO:0016021
-InterPro:IPR002274 Thyrotropin receptor > GO:protein-hormone receptor activity ; GO:0016500
+InterPro:IPR002274 Thyrotropin receptor > GO:thyroid-stimulating hormone receptor activity ; GO:0004996
 InterPro:IPR002274 Thyrotropin receptor > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 InterPro:IPR002274 Thyrotropin receptor > GO:integral to membrane ; GO:0016021
 InterPro:IPR002275 G protein-coupled receptor 1 orphan > GO:G-protein coupled receptor signaling pathway ; GO:0007186
@@ -12040,7 +12041,7 @@ InterPro:IPR007601 Baculovirus polyhedron envelope protein PEP, C-terminal > GO:
 InterPro:IPR007601 Baculovirus polyhedron envelope protein PEP, C-terminal > GO:viral envelope ; GO:0019031
 InterPro:IPR007602 Bluetongue virus nonstructural protein NS2 > GO:RNA binding ; GO:0003723
 InterPro:IPR007605 Microvirus lysis protein (E) > GO:enzyme inhibitor activity ; GO:0004857
-InterPro:IPR007605 Microvirus lysis protein (E) > GO:modulation by virus of host cellular process ; GO:0019054
+InterPro:IPR007605 Microvirus lysis protein (E) > GO:modulation by virus of host process ; GO:0019054
 InterPro:IPR007610 Broad bean mottle virus, Gp1, N-terminal > GO:RNA binding ; GO:0003723
 InterPro:IPR007610 Broad bean mottle virus, Gp1, N-terminal > GO:RNA-directed RNA polymerase activity ; GO:0003968
 InterPro:IPR007610 Broad bean mottle virus, Gp1, N-terminal > GO:transcription, DNA-dependent ; GO:0006351
@@ -13747,8 +13748,9 @@ InterPro:IPR009143 Wnt-6 protein > GO:receptor binding ; GO:0005102
 InterPro:IPR009143 Wnt-6 protein > GO:multicellular organismal development ; GO:0007275
 InterPro:IPR009143 Wnt-6 protein > GO:Wnt receptor signaling pathway ; GO:0016055
 InterPro:IPR009143 Wnt-6 protein > GO:extracellular region ; GO:0005576
-InterPro:IPR009144 Thyrotropin-releasing hormone receptor > GO:G-protein coupled receptor signaling pathway ; GO:0007186
-InterPro:IPR009144 Thyrotropin-releasing hormone receptor > GO:integral to membrane ; GO:0016021
+InterPro:IPR009144 Thyrotropin-releasing hormone receptor family > GO:thyrotropin-releasing hormone receptor activity ; GO:0004997
+InterPro:IPR009144 Thyrotropin-releasing hormone receptor family > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+InterPro:IPR009144 Thyrotropin-releasing hormone receptor family > GO:integral to membrane ; GO:0016021
 InterPro:IPR009145 U2 auxiliary factor small subunit > GO:RNA binding ; GO:0003723
 InterPro:IPR009145 U2 auxiliary factor small subunit > GO:nucleus ; GO:0005634
 InterPro:IPR009146 Groucho/transducin-like enhancer > GO:regulation of transcription, DNA-dependent ; GO:0006355
@@ -20119,11 +20121,11 @@ InterPro:IPR016256 Serine/threonine-protein kinase Rad53 > GO:DNA replication in
 InterPro:IPR016256 Serine/threonine-protein kinase Rad53 > GO:DNA repair ; GO:0006281
 InterPro:IPR016256 Serine/threonine-protein kinase Rad53 > GO:deoxyribonucleoside triphosphate biosynthetic process ; GO:0009202
 InterPro:IPR016256 Serine/threonine-protein kinase Rad53 > GO:nucleus ; GO:0005634
-InterPro:IPR016257 Tyrosine-protein kinase, ephrin receptor > GO:ephrin receptor activity ; GO:0005003
-InterPro:IPR016257 Tyrosine-protein kinase, ephrin receptor > GO:ATP binding ; GO:0005524
-InterPro:IPR016257 Tyrosine-protein kinase, ephrin receptor > GO:protein phosphorylation ; GO:0006468
-InterPro:IPR016257 Tyrosine-protein kinase, ephrin receptor > GO:transmembrane receptor protein tyrosine kinase signaling pathway ; GO:0007169
-InterPro:IPR016257 Tyrosine-protein kinase, ephrin receptor > GO:integral to plasma membrane ; GO:0005887
+InterPro:IPR016257 Ephrin receptor type-A /type-B > GO:ephrin receptor activity ; GO:0005003
+InterPro:IPR016257 Ephrin receptor type-A /type-B > GO:ATP binding ; GO:0005524
+InterPro:IPR016257 Ephrin receptor type-A /type-B > GO:protein phosphorylation ; GO:0006468
+InterPro:IPR016257 Ephrin receptor type-A /type-B > GO:transmembrane receptor protein tyrosine kinase signaling pathway ; GO:0007169
+InterPro:IPR016257 Ephrin receptor type-A /type-B > GO:integral to plasma membrane ; GO:0005887
 InterPro:IPR016260 Bifunctional 6-phosphofructo-2-kinase/fructose-2, 6-bisphosphate 2-phosphatase > GO:fructose-2,6-bisphosphate 2-phosphatase activity ; GO:0004331
 InterPro:IPR016260 Bifunctional 6-phosphofructo-2-kinase/fructose-2, 6-bisphosphate 2-phosphatase > GO:fructose 2,6-bisphosphate metabolic process ; GO:0006003
 InterPro:IPR016261 Folic acid synthesis protein > GO:2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase activity ; GO:0003848
@@ -24647,7 +24649,7 @@ InterPro:IPR023786 3-(3-hydroxy-phenyl)propionate/3-hydroxycinnamic acid hydroxy
 InterPro:IPR023786 3-(3-hydroxy-phenyl)propionate/3-hydroxycinnamic acid hydroxylase > GO:3-(3-hydroxy)phenylpropionate catabolic process ; GO:0019622
 InterPro:IPR023786 3-(3-hydroxy-phenyl)propionate/3-hydroxycinnamic acid hydroxylase > GO:oxidation-reduction process ; GO:0055114
 InterPro:IPR023787 Type III secretion system flagellar brake protein YcgR > GO:cyclic-di-GMP binding ; GO:0035438
-InterPro:IPR023787 Type III secretion system flagellar brake protein YcgR > GO:regulation of bacterial flagellum cell motility by regulation of motor speed ; GO:0071945
+InterPro:IPR023787 Type III secretion system flagellar brake protein YcgR > GO:regulation of bacterial-type flagellar cell motility by regulation of motor speed ; GO:0071945
 InterPro:IPR023788 D-tagatose-bisphosphate aldolase, class II, subunit KbaY > GO:zinc ion binding ; GO:0008270
 InterPro:IPR023788 D-tagatose-bisphosphate aldolase, class II, subunit KbaY > GO:tagatose-bisphosphate aldolase activity ; GO:0009025
 InterPro:IPR023788 D-tagatose-bisphosphate aldolase, class II, subunit KbaY > GO:carbohydrate metabolic process ; GO:0005975
@@ -25733,7 +25735,7 @@ InterPro:IPR026733 Rootletin > GO:ciliary rootlet ; GO:0035253
 InterPro:IPR026739 AP complex subunit beta > GO:vesicle-mediated transport ; GO:0016192
 InterPro:IPR026740 AP-3 complex subunit beta > GO:vesicle-mediated transport ; GO:0016192
 InterPro:IPR026740 AP-3 complex subunit beta > GO:AP-3 adaptor complex ; GO:0030123
-InterPro:IPR026741 Protein strawberry notch-like > GO:regulation of transcription, DNA-dependent ; GO:0006355
+InterPro:IPR026741 Protein strawberry notch > GO:regulation of transcription, DNA-dependent ; GO:0006355
 InterPro:IPR026742 Centrosomal protein kizuna > GO:spindle organization ; GO:0007051
 InterPro:IPR026742 Centrosomal protein kizuna > GO:centrosome ; GO:0005813
 InterPro:IPR026743 Sperm equatorial segment protein 1 > GO:acrosome reaction ; GO:0007340
@@ -27106,3 +27108,25 @@ InterPro:IPR027809 C5a anaphylatoxin chemotactic receptor > GO:integral to membr
 InterPro:IPR027810 C5a anaphylatoxin chemotactic receptor C5L2 > GO:C5a anaphylatoxin receptor activity ; GO:0004944
 InterPro:IPR027810 C5a anaphylatoxin chemotactic receptor C5L2 > GO:chemotaxis ; GO:0006935
 InterPro:IPR027810 C5a anaphylatoxin chemotactic receptor C5L2 > GO:integral to membrane ; GO:0016021
+InterPro:IPR027928 Vascular endothelial growth factor, heparin-binding domain > GO:growth factor activity ; GO:0008083
+InterPro:IPR027929 D-amino acid oxidase activator > GO:negative regulation of D-amino-acid oxidase activity ; GO:1900758
+InterPro:IPR027938 Adipogenin > GO:fat cell differentiation ; GO:0045444
+InterPro:IPR027939 NMT1/THI5 family > GO:thiamine biosynthetic process ; GO:0009228
+InterPro:IPR027946 Oligogalacturonate lyase domain > GO:oligogalacturonide lyase activity ; GO:0047487
+InterPro:IPR027946 Oligogalacturonate lyase domain > GO:pectin catabolic process ; GO:0045490
+InterPro:IPR027969 Small membrane A-kinase anchor protein > GO:protein kinase A regulatory subunit binding ; GO:0034237
+InterPro:IPR027976 TATA box-binding protein-associated factor 1D > GO:RNA polymerase transcription factor SL1 complex ; GO:0005668
+InterPro:IPR027982 Gonadotropin-releasing hormone receptor > GO:gonadotropin-releasing hormone receptor activity ; GO:0004968
+InterPro:IPR027982 Gonadotropin-releasing hormone receptor > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+InterPro:IPR027982 Gonadotropin-releasing hormone receptor > GO:integral to membrane ; GO:0016021
+InterPro:IPR027983 Gonadotropin-releasing hormone receptor 2 > GO:gonadotropin-releasing hormone receptor activity ; GO:0004968
+InterPro:IPR027983 Gonadotropin-releasing hormone receptor 2 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+InterPro:IPR027983 Gonadotropin-releasing hormone receptor 2 > GO:integral to membrane ; GO:0016021
+InterPro:IPR027985 Rab15 effector > GO:receptor recycling ; GO:0001881
+InterPro:IPR028016 Hydroxycarboxylic acid receptor 1 > GO:nicotinic acid receptor activity ; GO:0070553
+InterPro:IPR028016 Hydroxycarboxylic acid receptor 1 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+InterPro:IPR028016 Hydroxycarboxylic acid receptor 1 > GO:integral to membrane ; GO:0016021
+InterPro:IPR028017 Hydroxycarboxylic acid receptor 2/3 > GO:nicotinic acid receptor activity ; GO:0070553
+InterPro:IPR028017 Hydroxycarboxylic acid receptor 2/3 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+InterPro:IPR028017 Hydroxycarboxylic acid receptor 2/3 > GO:integral to membrane ; GO:0016021
+InterPro:IPR028029 Signal transducer CD24 > GO:cell adhesion ; GO:0007155

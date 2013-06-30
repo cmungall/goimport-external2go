@@ -1,4 +1,4 @@
-!version date: 2013/06/22 16:34:06
+!version date: 2013/06/29 17:20:27
 !description: Mapping of GO terms to InterPro entries.
 !external resource: http://www.ebi.ac.uk/interpro
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -416,10 +416,10 @@ InterPro:IPR000223 Peptidase S26A, signal peptidase I > GO:proteolysis ; GO:0006
 InterPro:IPR000223 Peptidase S26A, signal peptidase I > GO:membrane ; GO:0016020
 InterPro:IPR000224 Phosphoprotein, vesiculovirus > GO:RNA-directed RNA polymerase activity ; GO:0003968
 InterPro:IPR000225 Armadillo > GO:protein binding ; GO:0005515
-InterPro:IPR000226 Interleukin-7/interleukin-9 > GO:cytokine receptor binding ; GO:0005126
-InterPro:IPR000226 Interleukin-7/interleukin-9 > GO:growth factor activity ; GO:0008083
-InterPro:IPR000226 Interleukin-7/interleukin-9 > GO:immune response ; GO:0006955
-InterPro:IPR000226 Interleukin-7/interleukin-9 > GO:extracellular region ; GO:0005576
+InterPro:IPR000226 Interleukin-7/interleukin-9 family > GO:cytokine receptor binding ; GO:0005126
+InterPro:IPR000226 Interleukin-7/interleukin-9 family > GO:growth factor activity ; GO:0008083
+InterPro:IPR000226 Interleukin-7/interleukin-9 family > GO:immune response ; GO:0006955
+InterPro:IPR000226 Interleukin-7/interleukin-9 family > GO:extracellular region ; GO:0005576
 InterPro:IPR000227 Angiotensinogen > GO:regulation of systemic arterial blood pressure by renin-angiotensin ; GO:0003081
 InterPro:IPR000228 RNA 3'-terminal phosphate cyclase > GO:RNA processing ; GO:0006396
 InterPro:IPR000229 Arenavirus nucleocapsid protein > GO:viral nucleocapsid ; GO:0019013
@@ -1843,9 +1843,9 @@ InterPro:IPR000981 Neurohypophysial hormone > GO:neurohypophyseal hormone activi
 InterPro:IPR000981 Neurohypophysial hormone > GO:extracellular region ; GO:0005576
 InterPro:IPR000982 Viral matrix protein > GO:structural molecule activity ; GO:0005198
 InterPro:IPR000982 Viral matrix protein > GO:virion assembly ; GO:0019068
-InterPro:IPR000983 Bacterial general secretion pathway protein G > GO:protein transporter activity ; GO:0008565
-InterPro:IPR000983 Bacterial general secretion pathway protein G > GO:protein secretion by the type II secretion system ; GO:0015628
-InterPro:IPR000983 Bacterial general secretion pathway protein G > GO:type II protein secretion system complex ; GO:0015627
+InterPro:IPR000983 Bacterial general secretion pathway protein G-type pilin > GO:protein transporter activity ; GO:0008565
+InterPro:IPR000983 Bacterial general secretion pathway protein G-type pilin > GO:protein secretion by the type II secretion system ; GO:0015628
+InterPro:IPR000983 Bacterial general secretion pathway protein G-type pilin > GO:type II protein secretion system complex ; GO:0015627
 InterPro:IPR000984 G protein-coupled receptor 3 > GO:integral to membrane ; GO:0016021
 InterPro:IPR000986 Neuropeptide Y6 receptor > GO:neuropeptide Y receptor activity ; GO:0004983
 InterPro:IPR000986 Neuropeptide Y6 receptor > GO:G-protein coupled receptor signaling pathway ; GO:0007186
@@ -3119,9 +3119,8 @@ InterPro:IPR001631 DNA topoisomerase I > GO:DNA topological change ; GO:0006265
 InterPro:IPR001634 Adenosine receptor > GO:G-protein coupled adenosine receptor activity ; GO:0001609
 InterPro:IPR001634 Adenosine receptor > GO:adenosine receptor signaling pathway ; GO:0001973
 InterPro:IPR001634 Adenosine receptor > GO:integral to membrane ; GO:0016021
-InterPro:IPR001635 Flagellar hook-length control protein > GO:motor activity ; GO:0003774
-InterPro:IPR001635 Flagellar hook-length control protein > GO:flagellum assembly ; GO:0009296
-InterPro:IPR001635 Flagellar hook-length control protein > GO:bacterial-type flagellum hook ; GO:0009424
+InterPro:IPR001635 Flagellar hook-length control protein FliK > GO:bacterial-type flagellum assembly ; GO:0044780
+InterPro:IPR001635 Flagellar hook-length control protein FliK > GO:bacterial-type flagellum hook ; GO:0009424
 InterPro:IPR001636 SAICAR synthetase > GO:phosphoribosylaminoimidazolesuccinocarboxamide synthase activity ; GO:0004639
 InterPro:IPR001636 SAICAR synthetase > GO:purine nucleotide biosynthetic process ; GO:0006164
 InterPro:IPR001638 Extracellular solute-binding protein, family 3 > GO:transporter activity ; GO:0005215
@@ -4207,8 +4206,8 @@ InterPro:IPR002189 F-actin-capping protein subunit alpha > GO:actin binding ; GO
 InterPro:IPR002189 F-actin-capping protein subunit alpha > GO:actin cytoskeleton organization ; GO:0030036
 InterPro:IPR002189 F-actin-capping protein subunit alpha > GO:F-actin capping protein complex ; GO:0008290
 InterPro:IPR002189 F-actin-capping protein subunit alpha > GO:WASH complex ; GO:0071203
-InterPro:IPR002191 Bacterial export protein FliQ, family 3 > GO:protein secretion ; GO:0009306
-InterPro:IPR002191 Bacterial export protein FliQ, family 3 > GO:membrane ; GO:0016020
+InterPro:IPR002191 Bacterial export protein family 3 > GO:protein secretion ; GO:0009306
+InterPro:IPR002191 Bacterial export protein family 3 > GO:membrane ; GO:0016020
 InterPro:IPR002192 Pyruvate phosphate dikinase, PEP/pyruvate-binding > GO:ATP binding ; GO:0005524
 InterPro:IPR002192 Pyruvate phosphate dikinase, PEP/pyruvate-binding > GO:kinase activity ; GO:0016301
 InterPro:IPR002192 Pyruvate phosphate dikinase, PEP/pyruvate-binding > GO:phosphorylation ; GO:0016310
@@ -4247,7 +4246,7 @@ InterPro:IPR002207 Plant ascorbate peroxidase > GO:response to oxidative stress 
 InterPro:IPR002207 Plant ascorbate peroxidase > GO:oxidation-reduction process ; GO:0055114
 InterPro:IPR002208 SecY/SEC61-alpha family > GO:protein transport ; GO:0015031
 InterPro:IPR002208 SecY/SEC61-alpha family > GO:membrane ; GO:0016020
-InterPro:IPR002209 Heparin-binding growth factor family > GO:growth factor activity ; GO:0008083
+InterPro:IPR002209 Fibroblast growth factor family > GO:growth factor activity ; GO:0008083
 InterPro:IPR002210 Major capsid L1 (late) protein, Papillomavirus > GO:structural molecule activity ; GO:0005198
 InterPro:IPR002210 Major capsid L1 (late) protein, Papillomavirus > GO:viral capsid ; GO:0019028
 InterPro:IPR002211 Lymphocyte-specific protein > GO:signal transducer activity ; GO:0004871
@@ -4675,7 +4674,7 @@ InterPro:IPR002368 Outer membrane protein, OmpA > GO:structural molecule activit
 InterPro:IPR002368 Outer membrane protein, OmpA > GO:cell outer membrane ; GO:0009279
 InterPro:IPR002368 Outer membrane protein, OmpA > GO:integral to membrane ; GO:0016021
 InterPro:IPR002371 Flagellar hook-associated protein, FlgK > GO:structural molecule activity ; GO:0005198
-InterPro:IPR002371 Flagellar hook-associated protein, FlgK > GO:flagellum assembly ; GO:0009296
+InterPro:IPR002371 Flagellar hook-associated protein, FlgK > GO:bacterial-type flagellum assembly ; GO:0044780
 InterPro:IPR002371 Flagellar hook-associated protein, FlgK > GO:bacterial-type flagellum hook ; GO:0009424
 InterPro:IPR002373 cAMP/cGMP-dependent protein kinase > GO:cAMP-dependent protein kinase regulator activity ; GO:0008603
 InterPro:IPR002373 cAMP/cGMP-dependent protein kinase > GO:regulation of protein phosphorylation ; GO:0001932
@@ -6082,18 +6081,18 @@ InterPro:IPR003291 GPCR, family 2, glucagon receptor > GO:membrane ; GO:0016020
 InterPro:IPR003292 GPCR, family 2, glucagon-like peptide-1 receptor > GO:G-protein coupled peptide receptor activity ; GO:0008528
 InterPro:IPR003292 GPCR, family 2, glucagon-like peptide-1 receptor > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 InterPro:IPR003292 GPCR, family 2, glucagon-like peptide-1 receptor > GO:membrane ; GO:0016020
-InterPro:IPR003294 Interleukin-1, alpha/beta > GO:interleukin-1 receptor binding ; GO:0005149
-InterPro:IPR003294 Interleukin-1, alpha/beta > GO:inflammatory response ; GO:0006954
-InterPro:IPR003294 Interleukin-1, alpha/beta > GO:immune response ; GO:0006955
-InterPro:IPR003294 Interleukin-1, alpha/beta > GO:extracellular region ; GO:0005576
-InterPro:IPR003295 Interleukin-1, alpha IL1A > GO:interleukin-1 receptor binding ; GO:0005149
-InterPro:IPR003295 Interleukin-1, alpha IL1A > GO:inflammatory response ; GO:0006954
-InterPro:IPR003295 Interleukin-1, alpha IL1A > GO:immune response ; GO:0006955
-InterPro:IPR003295 Interleukin-1, alpha IL1A > GO:extracellular region ; GO:0005576
-InterPro:IPR003296 Interleukin-1, beta IL1B > GO:interleukin-1 receptor binding ; GO:0005149
-InterPro:IPR003296 Interleukin-1, beta IL1B > GO:inflammatory response ; GO:0006954
-InterPro:IPR003296 Interleukin-1, beta IL1B > GO:immune response ; GO:0006955
-InterPro:IPR003296 Interleukin-1, beta IL1B > GO:extracellular region ; GO:0005576
+InterPro:IPR003294 Interleukin-1 alpha/beta > GO:interleukin-1 receptor binding ; GO:0005149
+InterPro:IPR003294 Interleukin-1 alpha/beta > GO:inflammatory response ; GO:0006954
+InterPro:IPR003294 Interleukin-1 alpha/beta > GO:immune response ; GO:0006955
+InterPro:IPR003294 Interleukin-1 alpha/beta > GO:extracellular region ; GO:0005576
+InterPro:IPR003295 Interleukin-1 alpha > GO:interleukin-1 receptor binding ; GO:0005149
+InterPro:IPR003295 Interleukin-1 alpha > GO:inflammatory response ; GO:0006954
+InterPro:IPR003295 Interleukin-1 alpha > GO:immune response ; GO:0006955
+InterPro:IPR003295 Interleukin-1 alpha > GO:extracellular region ; GO:0005576
+InterPro:IPR003296 Interleukin-1 beta > GO:interleukin-1 receptor binding ; GO:0005149
+InterPro:IPR003296 Interleukin-1 beta > GO:inflammatory response ; GO:0006954
+InterPro:IPR003296 Interleukin-1 beta > GO:immune response ; GO:0006955
+InterPro:IPR003296 Interleukin-1 beta > GO:extracellular region ; GO:0005576
 InterPro:IPR003297 Interleukin-1 receptor antagonist / Interleukin-36 > GO:interleukin-1 receptor binding ; GO:0005149
 InterPro:IPR003298 Apical membrane antigen 1 > GO:pathogenesis ; GO:0009405
 InterPro:IPR003298 Apical membrane antigen 1 > GO:membrane ; GO:0016020
@@ -6285,9 +6284,9 @@ InterPro:IPR003440 Glycosyl transferase, family 48 > GO:membrane ; GO:0016020
 InterPro:IPR003441 NAC domain > GO:DNA binding ; GO:0003677
 InterPro:IPR003441 NAC domain > GO:regulation of transcription, DNA-dependent ; GO:0006355
 InterPro:IPR003442 tRNA threonylcarbamoyl adenosine modification protein TsaE > GO:threonylcarbamoyladenosine biosynthetic process ; GO:0070526
-InterPro:IPR003443 Interleukin-15-like > GO:cytokine receptor binding ; GO:0005126
-InterPro:IPR003443 Interleukin-15-like > GO:immune response ; GO:0006955
-InterPro:IPR003443 Interleukin-15-like > GO:extracellular region ; GO:0005576
+InterPro:IPR003443 Interleukin-15/Interleukin-21 family > GO:cytokine receptor binding ; GO:0005126
+InterPro:IPR003443 Interleukin-15/Interleukin-21 family > GO:immune response ; GO:0006955
+InterPro:IPR003443 Interleukin-15/Interleukin-21 family > GO:extracellular region ; GO:0005576
 InterPro:IPR003445 Cation transporter > GO:cation transmembrane transporter activity ; GO:0008324
 InterPro:IPR003445 Cation transporter > GO:cation transport ; GO:0006812
 InterPro:IPR003445 Cation transporter > GO:transmembrane transport ; GO:0055085
@@ -6325,8 +6324,7 @@ InterPro:IPR003476 Glycoside hydrolase, family 42 > GO:carbohydrate metabolic pr
 InterPro:IPR003477 mRNA interferase PemK-like protein > GO:DNA binding ; GO:0003677
 InterPro:IPR003478 Outer capsid sigma 1s > GO:virus-host interaction ; GO:0019048
 InterPro:IPR003480 Transferase > GO:transferase activity, transferring acyl groups other than amino-acyl groups ; GO:0016747
-InterPro:IPR003481 Flagellar hook-associated protein 2, N-terminal > GO:flagellum assembly ; GO:0009296
-InterPro:IPR003481 Flagellar hook-associated protein 2, N-terminal > GO:bacterial-type flagellum ; GO:0009288
+InterPro:IPR003481 Flagellar hook-associated protein 2, N-terminal > GO:bacterial-type flagellum hook ; GO:0009424
 InterPro:IPR003484 N-acyltransferase NodA > GO:transferase activity, transferring acyl groups ; GO:0016746
 InterPro:IPR003484 N-acyltransferase NodA > GO:nodulation ; GO:0009877
 InterPro:IPR003484 N-acyltransferase NodA > GO:cytosol ; GO:0005829
@@ -6475,9 +6473,9 @@ InterPro:IPR003570 Cytochrome c-type biogenesis protein NrfE > GO:cytochrome com
 InterPro:IPR003570 Cytochrome c-type biogenesis protein NrfE > GO:membrane ; GO:0016020
 InterPro:IPR003571 Snake toxin > GO:extracellular region ; GO:0005576
 InterPro:IPR003572 Snake cytotoxin > GO:extracellular region ; GO:0005576
-InterPro:IPR003573 Interleukin-6/G-CSF/MGF > GO:cytokine activity ; GO:0005125
-InterPro:IPR003573 Interleukin-6/G-CSF/MGF > GO:immune response ; GO:0006955
-InterPro:IPR003573 Interleukin-6/G-CSF/MGF > GO:extracellular region ; GO:0005576
+InterPro:IPR003573 Interleukin-6/Interleukin-23/GCSF/MGF > GO:cytokine activity ; GO:0005125
+InterPro:IPR003573 Interleukin-6/Interleukin-23/GCSF/MGF > GO:immune response ; GO:0006955
+InterPro:IPR003573 Interleukin-6/Interleukin-23/GCSF/MGF > GO:extracellular region ; GO:0005576
 InterPro:IPR003574 Interleukin-6 > GO:interleukin-6 receptor binding ; GO:0005138
 InterPro:IPR003574 Interleukin-6 > GO:immune response ; GO:0006955
 InterPro:IPR003574 Interleukin-6 > GO:extracellular region ; GO:0005576
@@ -6648,7 +6646,6 @@ InterPro:IPR003710 Ketopantoate reductase ApbA/PanE > GO:pantothenate biosynthet
 InterPro:IPR003710 Ketopantoate reductase ApbA/PanE > GO:oxidation-reduction process ; GO:0055114
 InterPro:IPR003710 Ketopantoate reductase ApbA/PanE > GO:cytoplasm ; GO:0005737
 InterPro:IPR003712 Cyanate lyase, C-terminal > GO:cyanate metabolic process ; GO:0009439
-InterPro:IPR003713 Flagellar protein FliS > GO:flagellum assembly ; GO:0009296
 InterPro:IPR003713 Flagellar protein FliS > GO:bacterial-type flagellum ; GO:0009288
 InterPro:IPR003714 PhoH-like protein > GO:ATP binding ; GO:0005524
 InterPro:IPR003715 Polysaccharide export protein > GO:polysaccharide transmembrane transporter activity ; GO:0015159
@@ -6730,7 +6727,7 @@ InterPro:IPR003767 Malate/L-lactate dehydrogenase > GO:oxidoreductase activity ;
 InterPro:IPR003767 Malate/L-lactate dehydrogenase > GO:metabolic process ; GO:0008152
 InterPro:IPR003767 Malate/L-lactate dehydrogenase > GO:oxidation-reduction process ; GO:0055114
 InterPro:IPR003769 Adaptor protein ClpS, core > GO:protein catabolic process ; GO:0030163
-InterPro:IPR003775 Flagellar assembly factor FliW > GO:flagellum assembly ; GO:0009296
+InterPro:IPR003775 Flagellar assembly factor FliW > GO:bacterial-type flagellum assembly ; GO:0044780
 InterPro:IPR003779 Carboxymuconolactone decarboxylase > GO:peroxiredoxin activity ; GO:0051920
 InterPro:IPR003779 Carboxymuconolactone decarboxylase > GO:oxidation-reduction process ; GO:0055114
 InterPro:IPR003780 Heme A synthase > GO:oxidoreductase activity, acting on the CH-CH group of donors ; GO:0016627
@@ -7210,13 +7207,13 @@ InterPro:IPR004072 Vomeronasal receptor, type 1 > GO:integral to membrane ; GO:0
 InterPro:IPR004073 GPCR, family 3, vomeronasal receptor, type 2 > GO:G-protein coupled receptor activity ; GO:0004930
 InterPro:IPR004073 GPCR, family 3, vomeronasal receptor, type 2 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 InterPro:IPR004073 GPCR, family 3, vomeronasal receptor, type 2 > GO:integral to membrane ; GO:0016021
-InterPro:IPR004074 Interleukin-1 receptor, type I/II > GO:interleukin-1 receptor activity ; GO:0004908
-InterPro:IPR004075 Interleukin-1 receptor, type I/Toll precursor > GO:transmembrane signaling receptor activity ; GO:0004888
-InterPro:IPR004075 Interleukin-1 receptor, type I/Toll precursor > GO:signal transduction ; GO:0007165
-InterPro:IPR004075 Interleukin-1 receptor, type I/Toll precursor > GO:innate immune response ; GO:0045087
-InterPro:IPR004075 Interleukin-1 receptor, type I/Toll precursor > GO:intrinsic to membrane ; GO:0031224
+InterPro:IPR004074 Interleukin-1 receptor type I/II > GO:interleukin-1 receptor activity ; GO:0004908
+InterPro:IPR004075 Interleukin-1 receptor type I/Toll precursor > GO:transmembrane signaling receptor activity ; GO:0004888
+InterPro:IPR004075 Interleukin-1 receptor type I/Toll precursor > GO:signal transduction ; GO:0007165
+InterPro:IPR004075 Interleukin-1 receptor type I/Toll precursor > GO:innate immune response ; GO:0045087
+InterPro:IPR004075 Interleukin-1 receptor type I/Toll precursor > GO:intrinsic to membrane ; GO:0031224
 InterPro:IPR004076 Interleukin-1 receptor type 1 > GO:interleukin-1, Type I, activating receptor activity ; GO:0004909
-InterPro:IPR004077 Interleukin-1 receptor, type II > GO:interleukin-1, Type II, blocking receptor activity ; GO:0004910
+InterPro:IPR004077 Interleukin-1 receptor type II > GO:interleukin-1, Type II, blocking receptor activity ; GO:0004910
 InterPro:IPR004078 Interleukin-1 binding protein > GO:interleukin-1 binding ; GO:0019966
 InterPro:IPR004078 Interleukin-1 binding protein > GO:virus-host interaction ; GO:0019048
 InterPro:IPR004079 Gonadoliberin I precursor > GO:gonadotropin hormone-releasing hormone activity ; GO:0005183
@@ -7494,10 +7491,10 @@ InterPro:IPR004276 Glycosyl transferase, family 28 > GO:transferase activity, tr
 InterPro:IPR004276 Glycosyl transferase, family 28 > GO:carbohydrate metabolic process ; GO:0005975
 InterPro:IPR004276 Glycosyl transferase, family 28 > GO:lipid glycosylation ; GO:0030259
 InterPro:IPR004277 Phosphatidyl serine synthase > GO:phosphatidylserine biosynthetic process ; GO:0006659
-InterPro:IPR004281 Interleukin-12 alpha subunit > GO:interleukin-12 receptor binding ; GO:0005143
-InterPro:IPR004281 Interleukin-12 alpha subunit > GO:growth factor activity ; GO:0008083
-InterPro:IPR004281 Interleukin-12 alpha subunit > GO:immune response ; GO:0006955
-InterPro:IPR004281 Interleukin-12 alpha subunit > GO:extracellular region ; GO:0005576
+InterPro:IPR004281 Interleukin-12 alpha > GO:interleukin-12 receptor binding ; GO:0005143
+InterPro:IPR004281 Interleukin-12 alpha > GO:growth factor activity ; GO:0008083
+InterPro:IPR004281 Interleukin-12 alpha > GO:immune response ; GO:0006955
+InterPro:IPR004281 Interleukin-12 alpha > GO:extracellular region ; GO:0005576
 InterPro:IPR004282 Chloroplast envelope membrane protein, CemA > GO:integral to membrane ; GO:0016021
 InterPro:IPR004283 Late expression factor 2 > GO:viral transcription ; GO:0019083
 InterPro:IPR004288 Competence protein, ComC > GO:pheromone activity ; GO:0005186
@@ -10852,15 +10849,15 @@ InterPro:IPR006297 Elongation factor 4 > GO:GTP binding ; GO:0005525
 InterPro:IPR006298 GTP-binding protein TypA > GO:GTP binding ; GO:0005525
 InterPro:IPR006299 Flagellar basal-body rod protein FlgC > GO:bacterial-type flagellum basal body, rod ; GO:0030694
 InterPro:IPR006300 Flagellar basal-body rod protein FlgB > GO:bacterial-type flagellum basal body ; GO:0009425
-InterPro:IPR006301 Flagellar biosynthesis protein FlhA > GO:flagellum assembly ; GO:0009296
+InterPro:IPR006301 Flagellar biosynthesis protein FlhA > GO:bacterial-type flagellum assembly ; GO:0044780
 InterPro:IPR006301 Flagellar biosynthesis protein FlhA > GO:integral to membrane ; GO:0016021
 InterPro:IPR006302 Type III secretion protein HrcV > GO:protein transport ; GO:0015031
 InterPro:IPR006302 Type III secretion protein HrcV > GO:integral to membrane ; GO:0016021
-InterPro:IPR006303 Flagellar biosynthesis protein FliR > GO:flagellum assembly ; GO:0009296
+InterPro:IPR006303 Flagellar biosynthesis protein FliR > GO:bacterial-type flagellum assembly ; GO:0044780
 InterPro:IPR006303 Flagellar biosynthesis protein FliR > GO:integral to membrane ; GO:0016021
 InterPro:IPR006304 Type III secretion protein SpaR/YscT > GO:transport ; GO:0006810
 InterPro:IPR006304 Type III secretion protein SpaR/YscT > GO:integral to membrane ; GO:0016021
-InterPro:IPR006305 Flagellar biosynthesis protein FliQ > GO:flagellum assembly ; GO:0009296
+InterPro:IPR006305 Flagellar biosynthesis protein FliQ > GO:bacterial-type flagellum assembly ; GO:0044780
 InterPro:IPR006305 Flagellar biosynthesis protein FliQ > GO:integral to membrane ; GO:0016021
 InterPro:IPR006306 Type III secretion protein HrpO > GO:transport ; GO:0006810
 InterPro:IPR006306 Type III secretion protein HrpO > GO:integral to membrane ; GO:0016021
@@ -12274,7 +12271,7 @@ InterPro:IPR007802 Cytochrome b6/f complex subunit VI > GO:electron carrier acti
 InterPro:IPR007802 Cytochrome b6/f complex subunit VI > GO:cytochrome b6f complex ; GO:0009512
 InterPro:IPR007803 Aspartyl/Asparaginyl beta-hydroxylase > GO:peptidyl-amino acid modification ; GO:0018193
 InterPro:IPR007805 Gas vesicle protein GvpK > GO:gas vesicle organization ; GO:0031412
-InterPro:IPR007809 FlgN-like domain > GO:flagellum assembly ; GO:0009296
+InterPro:IPR007809 FlgN-like domain > GO:bacterial-type flagellum assembly ; GO:0044780
 InterPro:IPR007811 RNA polymerase III Rpc4 > GO:DNA binding ; GO:0003677
 InterPro:IPR007811 RNA polymerase III Rpc4 > GO:DNA-directed RNA polymerase activity ; GO:0003899
 InterPro:IPR007811 RNA polymerase III Rpc4 > GO:transcription from RNA polymerase III promoter ; GO:0006383
@@ -12367,9 +12364,6 @@ InterPro:IPR007905 Emopamil-binding > GO:cholestenol delta-isomerase activity ; 
 InterPro:IPR007905 Emopamil-binding > GO:sterol metabolic process ; GO:0016125
 InterPro:IPR007905 Emopamil-binding > GO:endoplasmic reticulum ; GO:0005783
 InterPro:IPR007905 Emopamil-binding > GO:integral to membrane ; GO:0016021
-InterPro:IPR007911 Flagellar transcriptional activator FlhD, domain > GO:DNA binding ; GO:0003677
-InterPro:IPR007911 Flagellar transcriptional activator FlhD, domain > GO:flagellum assembly ; GO:0009296
-InterPro:IPR007911 Flagellar transcriptional activator FlhD, domain > GO:positive regulation of transcription, DNA-dependent ; GO:0045893
 InterPro:IPR007925 Relaxosome protein TraM > GO:DNA binding ; GO:0003677
 InterPro:IPR007925 Relaxosome protein TraM > GO:conjugation ; GO:0000746
 InterPro:IPR007933 Transcription activator CII > GO:DNA binding ; GO:0003677
@@ -12387,8 +12381,8 @@ InterPro:IPR007939 Copper resistance B precursor > GO:cellular copper ion homeos
 InterPro:IPR007939 Copper resistance B precursor > GO:cell outer membrane ; GO:0009279
 InterPro:IPR007943 Aspartyl beta-hydroxylase/Triadin domain > GO:membrane ; GO:0016020
 InterPro:IPR007944 Flagellar transcriptional activator FlhC > GO:DNA binding ; GO:0003677
-InterPro:IPR007944 Flagellar transcriptional activator FlhC > GO:regulation of flagellum assembly ; GO:0030092
 InterPro:IPR007944 Flagellar transcriptional activator FlhC > GO:positive regulation of transcription, DNA-dependent ; GO:0045893
+InterPro:IPR007944 Flagellar transcriptional activator FlhC > GO:regulation of bacterial-type flagellum assembly ; GO:1902208
 InterPro:IPR007945 Neuroendocrine 7B2 precursor > GO:neuropeptide signaling pathway ; GO:0007218
 InterPro:IPR007945 Neuroendocrine 7B2 precursor > GO:secretory granule ; GO:0030141
 InterPro:IPR007956 Malonyl-CoA decarboxylase > GO:malonyl-CoA decarboxylase activity ; GO:0050080
@@ -14191,7 +14185,7 @@ InterPro:IPR009958 Conotoxin, alpha-type > GO:pathogenesis ; GO:0009405
 InterPro:IPR009958 Conotoxin, alpha-type > GO:extracellular region ; GO:0005576
 InterPro:IPR009967 Flagellum biosynthesis repressor FlbT > GO:mRNA 5'-UTR binding ; GO:0048027
 InterPro:IPR009967 Flagellum biosynthesis repressor FlbT > GO:mRNA catabolic process ; GO:0006402
-InterPro:IPR009967 Flagellum biosynthesis repressor FlbT > GO:negative regulation of flagellum assembly ; GO:0045718
+InterPro:IPR009967 Flagellum biosynthesis repressor FlbT > GO:negative regulation of bacterial-type flagellum assembly ; GO:1902209
 InterPro:IPR009970 Histone H1-like nucleoprotein HC2 > GO:DNA binding ; GO:0003677
 InterPro:IPR009970 Histone H1-like nucleoprotein HC2 > GO:chromosome condensation ; GO:0030261
 InterPro:IPR009976 Exocyst complex component Sec10-like > GO:exocytosis ; GO:0006887
@@ -14676,9 +14670,9 @@ InterPro:IPR010336 Baculoviridae ME53 > GO:zinc ion binding ; GO:0008270
 InterPro:IPR010339 TIP49, C-terminal > GO:DNA helicase activity ; GO:0003678
 InterPro:IPR010339 TIP49, C-terminal > GO:ATP binding ; GO:0005524
 InterPro:IPR010340 Herpesvirus UL11/UL32 > GO:structural molecule activity ; GO:0005198
-InterPro:IPR010345 Interleukin-17 > GO:cytokine activity ; GO:0005125
-InterPro:IPR010345 Interleukin-17 > GO:inflammatory response ; GO:0006954
-InterPro:IPR010345 Interleukin-17 > GO:extracellular region ; GO:0005576
+InterPro:IPR010345 Interleukin-17 family > GO:cytokine activity ; GO:0005125
+InterPro:IPR010345 Interleukin-17 family > GO:inflammatory response ; GO:0006954
+InterPro:IPR010345 Interleukin-17 family > GO:extracellular region ; GO:0005576
 InterPro:IPR010346 Lipoprotein Rz1 > GO:viral entry into host cell via membrane fusion with the plasma membrane ; GO:0019064
 InterPro:IPR010346 Lipoprotein Rz1 > GO:outer membrane ; GO:0019867
 InterPro:IPR010347 Tyrosyl-DNA phosphodiesterase > GO:phosphoric diester hydrolase activity ; GO:0008081
@@ -14993,7 +14987,7 @@ InterPro:IPR010808 Signal transduction histidine kinase, P2 response regulator-b
 InterPro:IPR010809 Flagellar hook-associated 2, C-terminal > GO:cell adhesion ; GO:0007155
 InterPro:IPR010809 Flagellar hook-associated 2, C-terminal > GO:bacterial-type flagellum ; GO:0009288
 InterPro:IPR010810 Flagellin hook, IN motif > GO:cellular component movement ; GO:0006928
-InterPro:IPR010810 Flagellin hook, IN motif > GO:flagellum organization ; GO:0043064
+InterPro:IPR010810 Flagellin hook, IN motif > GO:bacterial-type flagellum organization ; GO:0044781
 InterPro:IPR010810 Flagellin hook, IN motif > GO:bacterial-type flagellum ; GO:0009288
 InterPro:IPR010812 Hypersensitivity response secretion-like, HrpJ > GO:pathogenesis ; GO:0009405
 InterPro:IPR010812 Hypersensitivity response secretion-like, HrpJ > GO:secretion ; GO:0046903
@@ -15007,9 +15001,9 @@ InterPro:IPR010826 Phlebovirus glycoprotein G1 > GO:virion ; GO:0019012
 InterPro:IPR010827 Surface antigen variable number > GO:outer membrane ; GO:0019867
 InterPro:IPR010828 Alcohol acetyltransferase > GO:alcohol O-acetyltransferase activity ; GO:0004026
 InterPro:IPR010828 Alcohol acetyltransferase > GO:alcohol metabolic process ; GO:0006066
-InterPro:IPR010831 Interleukin 23 alpha subunit p19 > GO:cytokine activity ; GO:0005125
-InterPro:IPR010831 Interleukin 23 alpha subunit p19 > GO:immune response ; GO:0006955
-InterPro:IPR010831 Interleukin 23 alpha subunit p19 > GO:extracellular region ; GO:0005576
+InterPro:IPR010831 Interleukin-23 alpha > GO:cytokine activity ; GO:0005125
+InterPro:IPR010831 Interleukin-23 alpha > GO:immune response ; GO:0006955
+InterPro:IPR010831 Interleukin-23 alpha > GO:extracellular region ; GO:0005576
 InterPro:IPR010855 Cytomegalovirus IE1 > GO:regulation of viral reproduction ; GO:0050792
 InterPro:IPR010855 Cytomegalovirus IE1 > GO:host cell nucleus ; GO:0042025
 InterPro:IPR010857 Zona-pellucida-binding > GO:binding of sperm to zona pellucida ; GO:0007339
@@ -17272,13 +17266,13 @@ InterPro:IPR012833 Ribonucleoside-triphosphate reductase, anaerobic > GO:oxidore
 InterPro:IPR012833 Ribonucleoside-triphosphate reductase, anaerobic > GO:DNA replication ; GO:0006260
 InterPro:IPR012833 Ribonucleoside-triphosphate reductase, anaerobic > GO:oxidation-reduction process ; GO:0055114
 InterPro:IPR012834 Flagellar basal-body rod FlgG > GO:cellular component movement ; GO:0006928
-InterPro:IPR012834 Flagellar basal-body rod FlgG > GO:flagellum organization ; GO:0043064
+InterPro:IPR012834 Flagellar basal-body rod FlgG > GO:bacterial-type flagellum organization ; GO:0044781
 InterPro:IPR012834 Flagellar basal-body rod FlgG > GO:bacterial-type flagellum basal body, distal rod ; GO:0009426
 InterPro:IPR012835 Flagellar hook FlgE > GO:cellular component movement ; GO:0006928
-InterPro:IPR012835 Flagellar hook FlgE > GO:flagellum organization ; GO:0043064
+InterPro:IPR012835 Flagellar hook FlgE > GO:bacterial-type flagellum organization ; GO:0044781
 InterPro:IPR012835 Flagellar hook FlgE > GO:bacterial-type flagellum ; GO:0009288
 InterPro:IPR012836 Flagellar basal-body rod FlgF > GO:cellular component movement ; GO:0006928
-InterPro:IPR012836 Flagellar basal-body rod FlgF > GO:flagellum organization ; GO:0043064
+InterPro:IPR012836 Flagellar basal-body rod FlgF > GO:bacterial-type flagellum organization ; GO:0044781
 InterPro:IPR012836 Flagellar basal-body rod FlgF > GO:bacterial-type flagellum ; GO:0009288
 InterPro:IPR012837 Ribonucleoside-triphosphate reductase activating, anaerobic > GO:[formate-C-acetyltransferase]-activating enzyme activity ; GO:0043365
 InterPro:IPR012837 Ribonucleoside-triphosphate reductase activating, anaerobic > GO:4 iron, 4 sulfur cluster binding ; GO:0051539
@@ -17717,10 +17711,10 @@ InterPro:IPR013375 O-phosphoseryl-tRNA:Cys-tRNA synthase, archaea > GO:Sep-tRNA:
 InterPro:IPR013376 Glutathione peroxidase Gpx7, putative > GO:glutathione peroxidase activity ; GO:0004602
 InterPro:IPR013376 Glutathione peroxidase Gpx7, putative > GO:response to oxidative stress ; GO:0006979
 InterPro:IPR013376 Glutathione peroxidase Gpx7, putative > GO:oxidation-reduction process ; GO:0055114
-InterPro:IPR013377 Flagellar protein FlgJ type-2 > GO:hydrolase activity, acting on glycosyl bonds ; GO:0016798
-InterPro:IPR013377 Flagellar protein FlgJ type-2 > GO:ciliary or bacterial-type flagellar motility ; GO:0001539
-InterPro:IPR013377 Flagellar protein FlgJ type-2 > GO:flagellum assembly ; GO:0009296
-InterPro:IPR013377 Flagellar protein FlgJ type-2 > GO:bacterial-type flagellum ; GO:0009288
+InterPro:IPR013377 Flagellar rod assembly protein/muramidase FlgJ > GO:hydrolase activity, acting on glycosyl bonds ; GO:0016798
+InterPro:IPR013377 Flagellar rod assembly protein/muramidase FlgJ > GO:ciliary or bacterial-type flagellar motility ; GO:0001539
+InterPro:IPR013377 Flagellar rod assembly protein/muramidase FlgJ > GO:bacterial-type flagellum assembly ; GO:0044780
+InterPro:IPR013377 Flagellar rod assembly protein/muramidase FlgJ > GO:bacterial-type flagellum ; GO:0009288
 InterPro:IPR013380 ATPase, type III secretion system, H+-transporting > GO:ATP binding ; GO:0005524
 InterPro:IPR013380 ATPase, type III secretion system, H+-transporting > GO:proton-transporting ATPase activity, rotational mechanism ; GO:0046961
 InterPro:IPR013380 ATPase, type III secretion system, H+-transporting > GO:ATP biosynthetic process ; GO:0006754
@@ -19129,9 +19123,9 @@ InterPro:IPR015317 Alpha-haemoglobin stabilising protein > GO:protein folding ; 
 InterPro:IPR015317 Alpha-haemoglobin stabilising protein > GO:hemoglobin metabolic process ; GO:0020027
 InterPro:IPR015317 Alpha-haemoglobin stabilising protein > GO:hemopoiesis ; GO:0030097
 InterPro:IPR015317 Alpha-haemoglobin stabilising protein > GO:protein stabilization ; GO:0050821
-InterPro:IPR015319 Interleukin-4 receptor alpha chain, N-terminal > GO:cytokine receptor activity ; GO:0004896
-InterPro:IPR015319 Interleukin-4 receptor alpha chain, N-terminal > GO:production of molecular mediator involved in inflammatory response ; GO:0002532
-InterPro:IPR015319 Interleukin-4 receptor alpha chain, N-terminal > GO:integral to membrane ; GO:0016021
+InterPro:IPR015319 Interleukin-4 receptor alpha, N-terminal > GO:cytokine receptor activity ; GO:0004896
+InterPro:IPR015319 Interleukin-4 receptor alpha, N-terminal > GO:production of molecular mediator involved in inflammatory response ; GO:0002532
+InterPro:IPR015319 Interleukin-4 receptor alpha, N-terminal > GO:integral to membrane ; GO:0016021
 InterPro:IPR015320 DNA topoisomerase VI, subunit B, transducer > GO:DNA binding ; GO:0003677
 InterPro:IPR015320 DNA topoisomerase VI, subunit B, transducer > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
 InterPro:IPR015320 DNA topoisomerase VI, subunit B, transducer > GO:DNA topological change ; GO:0006265
@@ -20095,12 +20089,12 @@ InterPro:IPR016246 Tyrosine-protein kinase, insulin-like receptor > GO:integral 
 InterPro:IPR016247 Tyrosine-protein kinase, receptor ROR > GO:transmembrane receptor protein tyrosine kinase activity ; GO:0004714
 InterPro:IPR016247 Tyrosine-protein kinase, receptor ROR > GO:ATP binding ; GO:0005524
 InterPro:IPR016247 Tyrosine-protein kinase, receptor ROR > GO:transmembrane receptor protein tyrosine kinase signaling pathway ; GO:0007169
-InterPro:IPR016248 Tyrosine-protein kinase, fibroblast growth factor receptor > GO:fibroblast growth factor-activated receptor activity ; GO:0005007
-InterPro:IPR016248 Tyrosine-protein kinase, fibroblast growth factor receptor > GO:ATP binding ; GO:0005524
-InterPro:IPR016248 Tyrosine-protein kinase, fibroblast growth factor receptor > GO:protein phosphorylation ; GO:0006468
-InterPro:IPR016248 Tyrosine-protein kinase, fibroblast growth factor receptor > GO:positive regulation of cell proliferation ; GO:0008284
-InterPro:IPR016248 Tyrosine-protein kinase, fibroblast growth factor receptor > GO:fibroblast growth factor receptor signaling pathway ; GO:0008543
-InterPro:IPR016248 Tyrosine-protein kinase, fibroblast growth factor receptor > GO:integral to membrane ; GO:0016021
+InterPro:IPR016248 Fibroblast growth factor receptor family > GO:fibroblast growth factor-activated receptor activity ; GO:0005007
+InterPro:IPR016248 Fibroblast growth factor receptor family > GO:ATP binding ; GO:0005524
+InterPro:IPR016248 Fibroblast growth factor receptor family > GO:protein phosphorylation ; GO:0006468
+InterPro:IPR016248 Fibroblast growth factor receptor family > GO:positive regulation of cell proliferation ; GO:0008284
+InterPro:IPR016248 Fibroblast growth factor receptor family > GO:fibroblast growth factor receptor signaling pathway ; GO:0008543
+InterPro:IPR016248 Fibroblast growth factor receptor family > GO:integral to membrane ; GO:0016021
 InterPro:IPR016250 Tyrosine-protein kinase, non-receptor Fes, subgroup > GO:protein tyrosine kinase activity ; GO:0004713
 InterPro:IPR016250 Tyrosine-protein kinase, non-receptor Fes, subgroup > GO:peptidyl-tyrosine phosphorylation ; GO:0018108
 InterPro:IPR016251 Tyrosine-protein kinase, non-receptor Jak/Tyk2 > GO:non-membrane spanning protein tyrosine kinase activity ; GO:0004715
@@ -20791,7 +20785,7 @@ InterPro:IPR017335 E3 ubiquitin ligase, RNF8 > GO:nucleus ; GO:0005634
 InterPro:IPR017336 Snurportin-1 > GO:snRNA import into nucleus ; GO:0061015
 InterPro:IPR017336 Snurportin-1 > GO:nucleus ; GO:0005634
 InterPro:IPR017336 Snurportin-1 > GO:cytoplasm ; GO:0005737
-InterPro:IPR017338 Heparin-binding growth factor 15/19/21 > GO:fibroblast growth factor receptor binding ; GO:0005104
+InterPro:IPR017338 Fibroblast growth factor 15/19/21 > GO:fibroblast growth factor receptor binding ; GO:0005104
 InterPro:IPR017340 U1 small nuclear ribonucleoprotein C > GO:spliceosomal snRNP assembly ; GO:0000387
 InterPro:IPR017340 U1 small nuclear ribonucleoprotein C > GO:mRNA splicing, via spliceosome ; GO:0000398
 InterPro:IPR017340 U1 small nuclear ribonucleoprotein C > GO:U1 snRNP ; GO:0005685
@@ -21461,10 +21455,10 @@ InterPro:IPR018047 Ammonium transporter, conserved site > GO:membrane ; GO:00160
 InterPro:IPR018048 CXC chemokine, conserved site > GO:chemokine activity ; GO:0008009
 InterPro:IPR018048 CXC chemokine, conserved site > GO:immune response ; GO:0006955
 InterPro:IPR018048 CXC chemokine, conserved site > GO:extracellular region ; GO:0005576
-InterPro:IPR018049 Interleukin-7/-9, conserved site > GO:cytokine receptor binding ; GO:0005126
-InterPro:IPR018049 Interleukin-7/-9, conserved site > GO:growth factor activity ; GO:0008083
-InterPro:IPR018049 Interleukin-7/-9, conserved site > GO:immune response ; GO:0006955
-InterPro:IPR018049 Interleukin-7/-9, conserved site > GO:extracellular region ; GO:0005576
+InterPro:IPR018049 Interleukin-7/Interleukin-9, conserved site > GO:cytokine receptor binding ; GO:0005126
+InterPro:IPR018049 Interleukin-7/Interleukin-9, conserved site > GO:growth factor activity ; GO:0008083
+InterPro:IPR018049 Interleukin-7/Interleukin-9, conserved site > GO:immune response ; GO:0006955
+InterPro:IPR018049 Interleukin-7/Interleukin-9, conserved site > GO:extracellular region ; GO:0005576
 InterPro:IPR018050 Phosphomannose isomerase, type I, conserved site > GO:mannose-6-phosphate isomerase activity ; GO:0004476
 InterPro:IPR018051 Surfactant-associated polypeptide, palmitoylation site > GO:respiratory gaseous exchange ; GO:0007585
 InterPro:IPR018051 Surfactant-associated polypeptide, palmitoylation site > GO:extracellular region ; GO:0005576
@@ -22649,16 +22643,12 @@ InterPro:IPR020003 ATPase, alpha/beta subunit, nucleotide-binding domain, active
 InterPro:IPR020004 UDP-N-acetylglucosamine 2-epimerase,UDP-hydrolysing > GO:UDP-N-acetylglucosamine 2-epimerase activity ; GO:0008761
 InterPro:IPR020004 UDP-N-acetylglucosamine 2-epimerase,UDP-hydrolysing > GO:N-acylmannosamine kinase activity ; GO:0009384
 InterPro:IPR020004 UDP-N-acetylglucosamine 2-epimerase,UDP-hydrolysing > GO:N-acetylneuraminate biosynthetic process ; GO:0046380
-InterPro:IPR020005 Flagellar export ATPase, FliI, clade 1 > GO:ATP binding ; GO:0005524
-InterPro:IPR020005 Flagellar export ATPase, FliI, clade 1 > GO:hydrolase activity, acting on acid anhydrides, catalyzing transmembrane movement of substances ; GO:0016820
-InterPro:IPR020005 Flagellar export ATPase, FliI, clade 1 > GO:ATPase activity ; GO:0016887
-InterPro:IPR020005 Flagellar export ATPase, FliI, clade 1 > GO:ATP catabolic process ; GO:0006200
-InterPro:IPR020005 Flagellar export ATPase, FliI, clade 1 > GO:flagellum assembly ; GO:0009296
-InterPro:IPR020005 Flagellar export ATPase, FliI, clade 1 > GO:ATP synthesis coupled proton transport ; GO:0015986
-InterPro:IPR020005 Flagellar export ATPase, FliI, clade 1 > GO:cytoplasm ; GO:0005737
-InterPro:IPR020005 Flagellar export ATPase, FliI, clade 1 > GO:proton-transporting two-sector ATPase complex, catalytic domain ; GO:0033178
+InterPro:IPR020005 Flagellar export ATPase FliI, clade 1 > GO:ATPase activity ; GO:0016887
+InterPro:IPR020005 Flagellar export ATPase FliI, clade 1 > GO:ciliary or bacterial-type flagellar motility ; GO:0001539
+InterPro:IPR020005 Flagellar export ATPase FliI, clade 1 > GO:ATP catabolic process ; GO:0006200
+InterPro:IPR020005 Flagellar export ATPase FliI, clade 1 > GO:bacterial-type flagellum assembly ; GO:0044780
 InterPro:IPR020006 Signal-recognition particle (SRP)-type GTPase > GO:GTP binding ; GO:0005525
-InterPro:IPR020006 Signal-recognition particle (SRP)-type GTPase > GO:flagellum organization ; GO:0043064
+InterPro:IPR020006 Signal-recognition particle (SRP)-type GTPase > GO:bacterial-type flagellum organization ; GO:0044781
 InterPro:IPR020006 Signal-recognition particle (SRP)-type GTPase > GO:plasma membrane ; GO:0005886
 InterPro:IPR020021 Glycosyl amidation-associated protein, WbuZ > GO:oxo-acid-lyase activity ; GO:0016833
 InterPro:IPR020024 L-seryl-tRNA(Sec) kinase, archaea > GO:kinase activity ; GO:0016301
@@ -23516,6 +23506,7 @@ InterPro:IPR022245 Rubivirus non-structural protein > GO:cysteine-type endopepti
 InterPro:IPR022245 Rubivirus non-structural protein > GO:hydrolase activity, acting on acid anhydrides ; GO:0016817
 InterPro:IPR022245 Rubivirus non-structural protein > GO:nucleoside-triphosphatase activity ; GO:0017111
 InterPro:IPR022247 Casein kinase 1 gamma C-terminal > GO:protein serine/threonine kinase activity ; GO:0004674
+InterPro:IPR022259 Accessory Sec system protein Asp3 > GO:protein transport ; GO:0015031
 InterPro:IPR022270 Beta-carotene 15,15'-monooxygenase, Brp/Blh family > GO:oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen ; GO:0016702
 InterPro:IPR022270 Beta-carotene 15,15'-monooxygenase, Brp/Blh family > GO:oxidation-reduction process ; GO:0055114
 InterPro:IPR022278 Phosphoserine aminotransferase > GO:O-phospho-L-serine:2-oxoglutarate aminotransferase activity ; GO:0004648
@@ -23641,15 +23632,14 @@ InterPro:IPR022422 Protein import receptor MAS20, metazoan > GO:intracellular pr
 InterPro:IPR022422 Protein import receptor MAS20, metazoan > GO:mitochondrial outer membrane translocase complex ; GO:0005742
 InterPro:IPR022423 Neurohypophysial hormone, conserved site > GO:neurohypophyseal hormone activity ; GO:0005185
 InterPro:IPR022423 Neurohypophysial hormone, conserved site > GO:extracellular region ; GO:0005576
-InterPro:IPR022425 Flagellar export ATPase, FliI, clade 2 > GO:ATPase activity ; GO:0016887
-InterPro:IPR022425 Flagellar export ATPase, FliI, clade 2 > GO:ciliary or bacterial-type flagellar motility ; GO:0001539
-InterPro:IPR022425 Flagellar export ATPase, FliI, clade 2 > GO:ATP catabolic process ; GO:0006200
-InterPro:IPR022425 Flagellar export ATPase, FliI, clade 2 > GO:flagellum assembly ; GO:0009296
-InterPro:IPR022425 Flagellar export ATPase, FliI, clade 2 > GO:bacterial-type flagellum ; GO:0009288
-InterPro:IPR022426 Flagellum-specific ATP synthase > GO:ATPase activity ; GO:0016887
-InterPro:IPR022426 Flagellum-specific ATP synthase > GO:flagellum organization ; GO:0043064
-InterPro:IPR022426 Flagellum-specific ATP synthase > GO:bacterial-type flagellum ; GO:0009288
-InterPro:IPR022426 Flagellum-specific ATP synthase > GO:type III protein secretion system complex ; GO:0030257
+InterPro:IPR022425 Flagellar export ATPase FliI, clade 2 > GO:ATPase activity ; GO:0016887
+InterPro:IPR022425 Flagellar export ATPase FliI, clade 2 > GO:ciliary or bacterial-type flagellar motility ; GO:0001539
+InterPro:IPR022425 Flagellar export ATPase FliI, clade 2 > GO:ATP catabolic process ; GO:0006200
+InterPro:IPR022425 Flagellar export ATPase FliI, clade 2 > GO:bacterial-type flagellum assembly ; GO:0044780
+InterPro:IPR022426 Flagellum-specific ATP synthase FliI, clade 3 > GO:ATPase activity ; GO:0016887
+InterPro:IPR022426 Flagellum-specific ATP synthase FliI, clade 3 > GO:bacterial-type flagellum organization ; GO:0044781
+InterPro:IPR022426 Flagellum-specific ATP synthase FliI, clade 3 > GO:bacterial-type flagellum ; GO:0009288
+InterPro:IPR022426 Flagellum-specific ATP synthase FliI, clade 3 > GO:type III protein secretion system complex ; GO:0030257
 InterPro:IPR022429 Alanine-tRNA ligase, archaea > GO:nucleotide binding ; GO:0000166
 InterPro:IPR022429 Alanine-tRNA ligase, archaea > GO:alanyl-tRNA aminoacylation ; GO:0006419
 InterPro:IPR022429 Alanine-tRNA ligase, archaea > GO:cytoplasm ; GO:0005737
@@ -23844,7 +23834,7 @@ InterPro:IPR022768 Fascin domain > GO:protein binding, bridging ; GO:0030674
 InterPro:IPR022768 Fascin domain > GO:actin filament binding ; GO:0051015
 InterPro:IPR022778 CDKN3 domain > GO:phosphoprotein phosphatase activity ; GO:0004721
 InterPro:IPR022778 CDKN3 domain > GO:protein tyrosine phosphatase activity ; GO:0004725
-InterPro:IPR022781 Flagellar biosynthesis protein, FliO > GO:flagellum organization ; GO:0043064
+InterPro:IPR022781 Flagellar biosynthesis protein, FliO > GO:bacterial-type flagellum organization ; GO:0044781
 InterPro:IPR022781 Flagellar biosynthesis protein, FliO > GO:integral to membrane ; GO:0016021
 InterPro:IPR022783 GC-rich sequence DNA-binding factor domain > GO:DNA binding ; GO:0003677
 InterPro:IPR022783 GC-rich sequence DNA-binding factor domain > GO:regulation of transcription, DNA-dependent ; GO:0006355
@@ -24307,8 +24297,7 @@ InterPro:IPR023556 Acetyl-lysine deacetylase > GO:hydrolase activity, acting on 
 InterPro:IPR023556 Acetyl-lysine deacetylase > GO:lysine biosynthetic process ; GO:0009085
 InterPro:IPR023556 Acetyl-lysine deacetylase > GO:cytoplasm ; GO:0005737
 InterPro:IPR023557 4-deoxy-4-formamido-L-arabinose-phosphoundecaprenol deformylase ArnD, probable > GO:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides ; GO:0016811
-InterPro:IPR023559 Flagellar transcriptional activator FlhD > GO:DNA binding ; GO:0003677
-InterPro:IPR023559 Flagellar transcriptional activator FlhD > GO:flagellum assembly ; GO:0009296
+InterPro:IPR023559 Flagellar transcriptional activator FlhD > GO:bacterial-type flagellum assembly ; GO:0044780
 InterPro:IPR023559 Flagellar transcriptional activator FlhD > GO:positive regulation of transcription, DNA-dependent ; GO:0045893
 InterPro:IPR023563 Ribosomal protein L13, conserved site > GO:structural constituent of ribosome ; GO:0003735
 InterPro:IPR023563 Ribosomal protein L13, conserved site > GO:translation ; GO:0006412
@@ -24851,10 +24840,10 @@ InterPro:IPR024136 Superoxide dismutase, Cu/Zn > GO:zinc ion binding ; GO:000827
 InterPro:IPR024136 Superoxide dismutase, Cu/Zn > GO:superoxide metabolic process ; GO:0006801
 InterPro:IPR024136 Superoxide dismutase, Cu/Zn > GO:oxidation-reduction process ; GO:0055114
 InterPro:IPR024139 Pre-B-cell leukemia transcription factor-interacting protein 1 > GO:negative regulation of transcription, DNA-dependent ; GO:0045892
-InterPro:IPR024140 Phorbol-12-myristate-13-acetate-induced protein 1/Noxa > GO:release of cytochrome c from mitochondria ; GO:0001836
-InterPro:IPR024140 Phorbol-12-myristate-13-acetate-induced protein 1/Noxa > GO:induction of apoptosis ; GO:0006917
-InterPro:IPR024140 Phorbol-12-myristate-13-acetate-induced protein 1/Noxa > GO:activation of cysteine-type endopeptidase activity involved in apoptotic process ; GO:0006919
-InterPro:IPR024140 Phorbol-12-myristate-13-acetate-induced protein 1/Noxa > GO:response to DNA damage stimulus ; GO:0006974
+InterPro:IPR024140 Phorbol-12-myristate-13-acetate-induced protein 1 > GO:release of cytochrome c from mitochondria ; GO:0001836
+InterPro:IPR024140 Phorbol-12-myristate-13-acetate-induced protein 1 > GO:induction of apoptosis ; GO:0006917
+InterPro:IPR024140 Phorbol-12-myristate-13-acetate-induced protein 1 > GO:activation of cysteine-type endopeptidase activity involved in apoptotic process ; GO:0006919
+InterPro:IPR024140 Phorbol-12-myristate-13-acetate-induced protein 1 > GO:response to DNA damage stimulus ; GO:0006974
 InterPro:IPR024141 Superoxide dismutase (Cu/Zn), extracellular > GO:superoxide dismutase activity ; GO:0004784
 InterPro:IPR024141 Superoxide dismutase (Cu/Zn), extracellular > GO:copper ion binding ; GO:0005507
 InterPro:IPR024141 Superoxide dismutase (Cu/Zn), extracellular > GO:zinc ion binding ; GO:0008270
@@ -25159,8 +25148,6 @@ InterPro:IPR024945 Spt5 C-terminal domain > GO:protein binding ; GO:0005515
 InterPro:IPR024947 Calcium channel flower > GO:calcium channel activity ; GO:0005262
 InterPro:IPR024947 Calcium channel flower > GO:synaptic vesicle endocytosis ; GO:0048488
 InterPro:IPR024947 Calcium channel flower > GO:integral to synaptic vesicle membrane ; GO:0030285
-InterPro:IPR024950 Dual specificity phosphatase > GO:protein tyrosine/serine/threonine phosphatase activity ; GO:0008138
-InterPro:IPR024950 Dual specificity phosphatase > GO:protein dephosphorylation ; GO:0006470
 InterPro:IPR024951 Sulphate adenylyltransferase catalytic domain > GO:sulfate adenylyltransferase (ATP) activity ; GO:0004781
 InterPro:IPR024956 tRNAHis guanylyltransferase catalytic domain > GO:magnesium ion binding ; GO:0000287
 InterPro:IPR024956 tRNAHis guanylyltransferase catalytic domain > GO:tRNA guanylyltransferase activity ; GO:0008193
@@ -25415,8 +25402,8 @@ InterPro:IPR026202 Golgin subfamily B member 1 > GO:Golgi apparatus ; GO:0005794
 InterPro:IPR026203 Intracellular hyaluronic acid binding protein > GO:hyaluronic acid binding ; GO:0005540
 InterPro:IPR026206 HAUS augmin-like complex subunit 3 > GO:spindle assembly ; GO:0051225
 InterPro:IPR026206 HAUS augmin-like complex subunit 3 > GO:HAUS complex ; GO:0070652
-InterPro:IPR026207 Interleukin-27 subunit alpha > GO:interleukin-27 receptor binding ; GO:0045523
-InterPro:IPR026207 Interleukin-27 subunit alpha > GO:regulation of T cell proliferation ; GO:0042129
+InterPro:IPR026207 Interleukin-27 alpha > GO:interleukin-27 receptor binding ; GO:0045523
+InterPro:IPR026207 Interleukin-27 alpha > GO:regulation of T cell proliferation ; GO:0042129
 InterPro:IPR026208 Wolframin > GO:calcium ion homeostasis ; GO:0055074
 InterPro:IPR026208 Wolframin > GO:endoplasmic reticulum ; GO:0005783
 InterPro:IPR026211 GIGANTEA > GO:regulation of photoperiodism, flowering ; GO:2000028
@@ -25472,9 +25459,9 @@ InterPro:IPR026236 Integrator complex subunit 2 > GO:integrator complex ; GO:003
 InterPro:IPR026241 GLC7-interacting protein 4 > GO:protein phosphatase 1 binding ; GO:0008157
 InterPro:IPR026241 GLC7-interacting protein 4 > GO:protein phosphatase type 1 regulator activity ; GO:0008599
 InterPro:IPR026241 GLC7-interacting protein 4 > GO:cytoplasm ; GO:0005737
-InterPro:IPR026242 HAUS augmin-like complex subunit 2 > GO:spindle assembly ; GO:0051225
-InterPro:IPR026242 HAUS augmin-like complex subunit 2 > GO:centrosome organization ; GO:0051297
-InterPro:IPR026242 HAUS augmin-like complex subunit 2 > GO:HAUS complex ; GO:0070652
+InterPro:IPR026242 HAUS augmin-like complex subunit 2, Metazoa > GO:spindle assembly ; GO:0051225
+InterPro:IPR026242 HAUS augmin-like complex subunit 2, Metazoa > GO:centrosome organization ; GO:0051297
+InterPro:IPR026242 HAUS augmin-like complex subunit 2, Metazoa > GO:HAUS complex ; GO:0070652
 InterPro:IPR026243 HAUS augmin-like complex subunit 1 > GO:spindle assembly ; GO:0051225
 InterPro:IPR026243 HAUS augmin-like complex subunit 1 > GO:centrosome organization ; GO:0051297
 InterPro:IPR026243 HAUS augmin-like complex subunit 1 > GO:HAUS complex ; GO:0070652
@@ -25558,16 +25545,9 @@ InterPro:IPR026305 Negative elongation factor A > GO:negative regulation of tran
 InterPro:IPR026305 Negative elongation factor A > GO:NELF complex ; GO:0032021
 InterPro:IPR026306 Round spermatid basic protein 1 > GO:nucleus ; GO:0005634
 InterPro:IPR026308 Apoptosis regulator BAK > GO:positive regulation of apoptotic process ; GO:0043065
-InterPro:IPR026310 Ragulator complex protein LAMTOR1 > GO:regulation of receptor recycling ; GO:0001919
-InterPro:IPR026310 Ragulator complex protein LAMTOR1 > GO:endosome organization ; GO:0007032
-InterPro:IPR026310 Ragulator complex protein LAMTOR1 > GO:lysosome organization ; GO:0007040
-InterPro:IPR026310 Ragulator complex protein LAMTOR1 > GO:positive regulation of TOR signaling cascade ; GO:0032008
-InterPro:IPR026310 Ragulator complex protein LAMTOR1 > GO:cholesterol homeostasis ; GO:0042632
-InterPro:IPR026310 Ragulator complex protein LAMTOR1 > GO:positive regulation of MAPK cascade ; GO:0043410
-InterPro:IPR026310 Ragulator complex protein LAMTOR1 > GO:cellular response to amino acid stimulus ; GO:0071230
-InterPro:IPR026310 Ragulator complex protein LAMTOR1 > GO:lysosome ; GO:0005764
-InterPro:IPR026310 Ragulator complex protein LAMTOR1 > GO:late endosome membrane ; GO:0031902
-InterPro:IPR026310 Ragulator complex protein LAMTOR1 > GO:membrane raft ; GO:0045121
+InterPro:IPR026310 LAMTOR1/MEH1 > GO:positive regulation of TOR signaling cascade ; GO:0032008
+InterPro:IPR026310 LAMTOR1/MEH1 > GO:cellular response to amino acid stimulus ; GO:0071230
+InterPro:IPR026310 LAMTOR1/MEH1 > GO:late endosome membrane ; GO:0031902
 InterPro:IPR026312 Apoptotic regulator, Bcl-2-like protein 10 > GO:negative regulation of apoptotic process ; GO:0043066
 InterPro:IPR026313 Apoptosis regulator NR13 > GO:negative regulation of apoptotic process ; GO:0043066
 InterPro:IPR026314 YLP motif-containing protein 1 > GO:nucleus ; GO:0005634
@@ -25784,6 +25764,7 @@ InterPro:IPR026774 2'-5'-oligoadenylate synthase > GO:defense response to virus 
 InterPro:IPR026777 Plasma membrane fusion protein PRM1 > GO:plasma membrane fusion involved in cytogamy ; GO:0032220
 InterPro:IPR026777 Plasma membrane fusion protein PRM1 > GO:mating projection tip ; GO:0043332
 InterPro:IPR026778 MLLT11 family > GO:apoptotic signaling pathway ; GO:0097190
+InterPro:IPR026779 Calcium/calmodulin-dependent protein kinase II inhibitor > GO:protein kinase inhibitor activity ; GO:0004860
 InterPro:IPR026781 Proline-rich nuclear receptor coactivator 2 > GO:nuclear-transcribed mRNA catabolic process, nonsense-mediated decay ; GO:0000184
 InterPro:IPR026784 Constitutive coactivator of PPAR-gamma > GO:nucleus ; GO:0005634
 InterPro:IPR026787 Acrosomal protein SP-10 > GO:acrosomal vesicle ; GO:0001669
@@ -27160,6 +27141,88 @@ InterPro:IPR028137 Syncollin > GO:exocytosis ; GO:0006887
 InterPro:IPR028137 Syncollin > GO:secretory granule membrane ; GO:0030667
 InterPro:IPR028138 Neuropeptide S precursor protein > GO:extracellular region ; GO:0005576
 InterPro:IPR028140 Protein TraM > GO:quorum sensing ; GO:0009372
+InterPro:IPR028142 IL-1 family/FGF family > GO:receptor binding ; GO:0005102
 InterPro:IPR028145 Synaptonemal complex central element protein 3 > GO:synaptonemal complex assembly ; GO:0007130
 InterPro:IPR028145 Synaptonemal complex central element protein 3 > GO:reciprocal meiotic recombination ; GO:0007131
 InterPro:IPR028145 Synaptonemal complex central element protein 3 > GO:spermatogenesis ; GO:0007283
+InterPro:IPR028160 Ribosome biogenesis protein, Slx9 > GO:maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA) ; GO:0000462
+InterPro:IPR028160 Ribosome biogenesis protein, Slx9 > GO:nucleolus ; GO:0005730
+InterPro:IPR028160 Ribosome biogenesis protein, Slx9 > GO:90S preribosome ; GO:0030686
+InterPro:IPR028160 Ribosome biogenesis protein, Slx9 > GO:preribosome, small subunit precursor ; GO:0030688
+InterPro:IPR028161 Siroheme biosynthesis protein Met8 > GO:ferrochelatase activity ; GO:0004325
+InterPro:IPR028161 Siroheme biosynthesis protein Met8 > GO:precorrin-2 dehydrogenase activity ; GO:0043115
+InterPro:IPR028161 Siroheme biosynthesis protein Met8 > GO:siroheme biosynthetic process ; GO:0019354
+InterPro:IPR028174 Fibroblast growth factor receptor 1 > GO:fibroblast growth factor-activated receptor activity ; GO:0005007
+InterPro:IPR028174 Fibroblast growth factor receptor 1 > GO:limb development ; GO:0060173
+InterPro:IPR028175 Fibroblast growth factor receptor 2 > GO:fibroblast growth factor-activated receptor activity ; GO:0005007
+InterPro:IPR028175 Fibroblast growth factor receptor 2 > GO:embryonic cranial skeleton morphogenesis ; GO:0048701
+InterPro:IPR028176 Fibroblast growth factor receptor 3 > GO:fibroblast growth factor-activated receptor activity ; GO:0005007
+InterPro:IPR028176 Fibroblast growth factor receptor 3 > GO:skeletal system development ; GO:0001501
+InterPro:IPR028177 Fibroblast growth factor receptor 4 > GO:fibroblast growth factor-activated receptor activity ; GO:0005007
+InterPro:IPR028179 Tight junction-associated protein 1 > GO:tight junction ; GO:0005923
+InterPro:IPR028180 Werner syndrome ATP-dependent helicase > GO:ATP-dependent DNA helicase activity ; GO:0004003
+InterPro:IPR028180 Werner syndrome ATP-dependent helicase > GO:3'-5' exonuclease activity ; GO:0008408
+InterPro:IPR028180 Werner syndrome ATP-dependent helicase > GO:telomere maintenance ; GO:0000723
+InterPro:IPR028180 Werner syndrome ATP-dependent helicase > GO:double-strand break repair ; GO:0006302
+InterPro:IPR028180 Werner syndrome ATP-dependent helicase > GO:DNA recombination ; GO:0006310
+InterPro:IPR028180 Werner syndrome ATP-dependent helicase > GO:cell aging ; GO:0007569
+InterPro:IPR028181 SLP adapter and CSK-interacting membrane protein > GO:immunological synapse ; GO:0001772
+InterPro:IPR028181 SLP adapter and CSK-interacting membrane protein > GO:integral to membrane ; GO:0016021
+InterPro:IPR028181 SLP adapter and CSK-interacting membrane protein > GO:tetraspanin-enriched microdomain ; GO:0097197
+InterPro:IPR028184 Transcription cofactor vestigial-like protein 4 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+InterPro:IPR028192 Bcl-2-modifying factor > GO:apoptotic process ; GO:0006915
+InterPro:IPR028196 Keratinocyte differentiation-associated protein > GO:extracellular region ; GO:0005576
+InterPro:IPR028205 Late cornified envelope protein > GO:epidermis development ; GO:0008544
+InterPro:IPR028209 Ragulator complex protein LAMTOR1 > GO:regulation of receptor recycling ; GO:0001919
+InterPro:IPR028209 Ragulator complex protein LAMTOR1 > GO:lysosome organization ; GO:0007040
+InterPro:IPR028209 Ragulator complex protein LAMTOR1 > GO:positive regulation of TOR signaling cascade ; GO:0032008
+InterPro:IPR028209 Ragulator complex protein LAMTOR1 > GO:endosome localization ; GO:0032439
+InterPro:IPR028209 Ragulator complex protein LAMTOR1 > GO:cholesterol homeostasis ; GO:0042632
+InterPro:IPR028209 Ragulator complex protein LAMTOR1 > GO:positive regulation of MAPK cascade ; GO:0043410
+InterPro:IPR028209 Ragulator complex protein LAMTOR1 > GO:cellular response to amino acid stimulus ; GO:0071230
+InterPro:IPR028209 Ragulator complex protein LAMTOR1 > GO:late endosome membrane ; GO:0031902
+InterPro:IPR028209 Ragulator complex protein LAMTOR1 > GO:membrane raft ; GO:0045121
+InterPro:IPR028209 Ragulator complex protein LAMTOR1 > GO:Ragulator complex ; GO:0071986
+InterPro:IPR028210 Fibroblast growth factor 1 > GO:fibroblast growth factor receptor binding ; GO:0005104
+InterPro:IPR028210 Fibroblast growth factor 1 > GO:fibroblast growth factor receptor signaling pathway ; GO:0008543
+InterPro:IPR028210 Fibroblast growth factor 1 > GO:extracellular region ; GO:0005576
+InterPro:IPR028211 Pre-mRNA-splicing factor Ntr2 > GO:spliceosomal complex disassembly ; GO:0000390
+InterPro:IPR028211 Pre-mRNA-splicing factor Ntr2 > GO:U2-type post-mRNA release spliceosomal complex ; GO:0071008
+InterPro:IPR028221 Junctional protein associated with coronary artery disease > GO:cell-cell junction ; GO:0005911
+InterPro:IPR028222 AP-5 complex subunit zeta-1 > GO:AP-5 adaptor complex ; GO:0044599
+InterPro:IPR028223 Fibroblast growth factor 2 > GO:fibroblast growth factor receptor binding ; GO:0005104
+InterPro:IPR028223 Fibroblast growth factor 2 > GO:fibroblast growth factor receptor signaling pathway ; GO:0008543
+InterPro:IPR028223 Fibroblast growth factor 2 > GO:extracellular region ; GO:0005576
+InterPro:IPR028226 Protein LIN37 > GO:mitotic cell cycle ; GO:0000278
+InterPro:IPR028232 Fibroblast growth factor 3 > GO:fibroblast growth factor receptor binding ; GO:0005104
+InterPro:IPR028232 Fibroblast growth factor 3 > GO:fibroblast growth factor receptor signaling pathway ; GO:0008543
+InterPro:IPR028232 Fibroblast growth factor 3 > GO:extracellular region ; GO:0005576
+InterPro:IPR028233 Cilia BBSome complex subunit 10 > GO:BBSome ; GO:0034464
+InterPro:IPR028239 Fibroblast growth factor 4 > GO:fibroblast growth factor receptor binding ; GO:0005104
+InterPro:IPR028239 Fibroblast growth factor 4 > GO:fibroblast growth factor receptor signaling pathway ; GO:0008543
+InterPro:IPR028239 Fibroblast growth factor 4 > GO:extracellular region ; GO:0005576
+InterPro:IPR028240 Fibroblast growth factor 5 > GO:fibroblast growth factor receptor binding ; GO:0005104
+InterPro:IPR028240 Fibroblast growth factor 5 > GO:fibroblast growth factor receptor signaling pathway ; GO:0008543
+InterPro:IPR028240 Fibroblast growth factor 5 > GO:extracellular region ; GO:0005576
+InterPro:IPR028242 Fibroblast growth factor 6 > GO:fibroblast growth factor receptor binding ; GO:0005104
+InterPro:IPR028242 Fibroblast growth factor 6 > GO:fibroblast growth factor receptor signaling pathway ; GO:0008543
+InterPro:IPR028242 Fibroblast growth factor 6 > GO:extracellular region ; GO:0005576
+InterPro:IPR028246 Cation channel sperm-associated protein, subunit gamma > GO:CatSper complex ; GO:0036128
+InterPro:IPR028246 Cation channel sperm-associated protein, subunit gamma > GO:sperm principal piece ; GO:0097228
+InterPro:IPR028247 Fibroblast growth factor 7 > GO:fibroblast growth factor receptor binding ; GO:0005104
+InterPro:IPR028247 Fibroblast growth factor 7 > GO:fibroblast growth factor receptor signaling pathway ; GO:0008543
+InterPro:IPR028247 Fibroblast growth factor 7 > GO:extracellular region ; GO:0005576
+InterPro:IPR028249 Fibroblast growth factor 8 > GO:fibroblast growth factor receptor binding ; GO:0005104
+InterPro:IPR028249 Fibroblast growth factor 8 > GO:fibroblast growth factor receptor signaling pathway ; GO:0008543
+InterPro:IPR028249 Fibroblast growth factor 8 > GO:extracellular region ; GO:0005576
+InterPro:IPR028251 Fibroblast growth factor 9 > GO:fibroblast growth factor receptor binding ; GO:0005104
+InterPro:IPR028251 Fibroblast growth factor 9 > GO:fibroblast growth factor receptor signaling pathway ; GO:0008543
+InterPro:IPR028251 Fibroblast growth factor 9 > GO:extracellular region ; GO:0005576
+InterPro:IPR028252 Fibroblast growth factor 10 > GO:fibroblast growth factor receptor binding ; GO:0005104
+InterPro:IPR028252 Fibroblast growth factor 10 > GO:fibroblast growth factor receptor signaling pathway ; GO:0008543
+InterPro:IPR028252 Fibroblast growth factor 10 > GO:extracellular region ; GO:0005576
+InterPro:IPR028253 Fibroblast growth factor 11 > GO:growth factor activity ; GO:0008083
+InterPro:IPR028253 Fibroblast growth factor 11 > GO:extracellular region ; GO:0005576
+InterPro:IPR028254 Fibroblast growth factor 12 > GO:fibroblast growth factor receptor binding ; GO:0005104
+InterPro:IPR028254 Fibroblast growth factor 12 > GO:fibroblast growth factor receptor signaling pathway ; GO:0008543
+InterPro:IPR028254 Fibroblast growth factor 12 > GO:extracellular region ; GO:0005576

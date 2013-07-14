@@ -1,4 +1,4 @@
-!version date: 2013/07/06 11:22:17
+!version date: 2013/07/13 11:23:59
 !description: Mapping of GO terms to PRODOM entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://prodom.prabi.fr/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -39,7 +39,7 @@ ProDom:PD001117 Gemini_AL2 > GO:viral capsid ; GO:0019028
 ProDom:PD001127 OM_lipoprot_Borrelia > GO:cell outer membrane ; GO:0009279
 ProDom:PD001149 Lipoprotein_6 > GO:defense response ; GO:0006952
 ProDom:PD001149 Lipoprotein_6 > GO:cell outer membrane ; GO:0009279
-ProDom:PD001172 Gemini_AL3 > GO:viral reproduction ; GO:0016032
+ProDom:PD001172 Gemini_AL3 > GO:viral process ; GO:0016032
 ProDom:PD001179 RNAP_asu_C > GO:DNA binding ; GO:0003677
 ProDom:PD001179 RNAP_asu_C > GO:DNA-directed RNA polymerase activity ; GO:0003899
 ProDom:PD001179 RNAP_asu_C > GO:transcription, DNA-dependent ; GO:0006351
@@ -51,7 +51,7 @@ ProDom:PD001295 Ribosomal_S17 > GO:intracellular ; GO:0005622
 ProDom:PD001295 Ribosomal_S17 > GO:ribosome ; GO:0005840
 ProDom:PD001306 Peptidase_C3 > GO:peptidase activity ; GO:0008233
 ProDom:PD001306 Peptidase_C3 > GO:proteolysis ; GO:0006508
-ProDom:PD001306 Peptidase_C3 > GO:viral reproduction ; GO:0016032
+ProDom:PD001306 Peptidase_C3 > GO:viral process ; GO:0016032
 ProDom:PD001326 Ribosomal_L7/L12_C > GO:structural constituent of ribosome ; GO:0003735
 ProDom:PD001326 Ribosomal_L7/L12_C > GO:translation ; GO:0006412
 ProDom:PD001326 Ribosomal_L7/L12_C > GO:intracellular ; GO:0005622
@@ -111,13 +111,13 @@ ProDom:PD002841 Ribosomal_L44e > GO:intracellular ; GO:0005622
 ProDom:PD002841 Ribosomal_L44e > GO:ribosome ; GO:0005840
 ProDom:PD002938 Capsid_VP2_Orbivir > GO:structural molecule activity ; GO:0005198
 ProDom:PD002938 Capsid_VP2_Orbivir > GO:viral capsid ; GO:0019028
-ProDom:PD002978 Gemini_V1 > GO:virus-host interaction ; GO:0019048
+ProDom:PD002978 Gemini_V1 > GO:modulation by virus of host morphology or physiology ; GO:0019048
 ProDom:PD002978 Gemini_V1 > GO:negative regulation of gene silencing by RNA ; GO:0060967
 ProDom:PD002978 Gemini_V1 > GO:host cell cytoplasm ; GO:0030430
 ProDom:PD002998 Chitin_synth > GO:chitin synthase activity ; GO:0004100
 ProDom:PD002998 Chitin_synth > GO:chitin biosynthetic process ; GO:0006031
 ProDom:PD003056 Tospo_nucleocap > GO:viral nucleocapsid ; GO:0019013
-ProDom:PD003091 Peptidase_C53 > GO:viral reproduction ; GO:0016032
+ProDom:PD003091 Peptidase_C53 > GO:viral process ; GO:0016032
 ProDom:PD003091 Peptidase_C53 > GO:viral protein processing ; GO:0019082
 ProDom:PD003101 Ribosomal_L34 > GO:structural constituent of ribosome ; GO:0003735
 ProDom:PD003101 Ribosomal_L34 > GO:translation ; GO:0006412
@@ -375,7 +375,7 @@ ProDom:PD009396 Ribosomal_L27e > GO:structural constituent of ribosome ; GO:0003
 ProDom:PD009396 Ribosomal_L27e > GO:translation ; GO:0006412
 ProDom:PD009396 Ribosomal_L27e > GO:intracellular ; GO:0005622
 ProDom:PD009396 Ribosomal_L27e > GO:ribosome ; GO:0005840
-ProDom:PD009661 Rhabdo_M2 > GO:viral reproduction ; GO:0016032
+ProDom:PD009661 Rhabdo_M2 > GO:viral process ; GO:0016032
 ProDom:PD009661 Rhabdo_M2 > GO:viral envelope ; GO:0019031
 ProDom:PD009844 Endotoxin_CytB > GO:pathogenesis ; GO:0009405
 ProDom:PD009844 Endotoxin_CytB > GO:extracellular region ; GO:0005576
@@ -430,7 +430,7 @@ ProDom:PD010559 RNA-binding_CRM > GO:RNA binding ; GO:0003723
 ProDom:PD010562 Keratin_matx > GO:structural molecule activity ; GO:0005198
 ProDom:PD010562 Keratin_matx > GO:keratin filament ; GO:0045095
 ProDom:PD010669 UL35 > GO:viral capsid ; GO:0019028
-ProDom:PD010756 Pox_A28 > GO:viral reproduction ; GO:0016032
+ProDom:PD010756 Pox_A28 > GO:viral process ; GO:0016032
 ProDom:PD010756 Pox_A28 > GO:viral envelope ; GO:0019031
 ProDom:PD010908 Spo0A_C > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 ProDom:PD010908 Spo0A_C > GO:calcium ion binding ; GO:0005509
@@ -502,7 +502,7 @@ ProDom:PD013172 S-ribosylhomocysteinase > GO:quorum sensing ; GO:0009372
 ProDom:PD013243 RNA_pol_18kDa_poxviral > GO:DNA binding ; GO:0003677
 ProDom:PD013243 RNA_pol_18kDa_poxviral > GO:DNA-directed RNA polymerase activity ; GO:0003899
 ProDom:PD013243 RNA_pol_18kDa_poxviral > GO:viral transcription ; GO:0019083
-ProDom:PD013365 Spike_G > GO:virus-host interaction ; GO:0019048
+ProDom:PD013365 Spike_G > GO:modulation by virus of host morphology or physiology ; GO:0019048
 ProDom:PD013585 DNA_repair_Rad10 > GO:damaged DNA binding ; GO:0003684
 ProDom:PD013585 DNA_repair_Rad10 > GO:endonuclease activity ; GO:0004519
 ProDom:PD013585 DNA_repair_Rad10 > GO:DNA repair ; GO:0006281
@@ -898,9 +898,10 @@ ProDom:PD649346 Pico_P2B > GO:nucleotidyltransferase activity ; GO:0016779
 ProDom:PD649346 Pico_P2B > GO:hydrolase activity ; GO:0016787
 ProDom:PD649346 Pico_P2B > GO:RNA-protein covalent cross-linking ; GO:0018144
 ProDom:PD649346 Pico_P2B > GO:virion ; GO:0019012
+ProDom:PD684821 PD684821 > GO:sensory perception of sound ; GO:0007605
 ProDom:PD686873 Antimicrobial_6 > GO:defense response to fungus ; GO:0050832
 ProDom:PD686873 Antimicrobial_6 > GO:extracellular region ; GO:0005576
-ProDom:PD694051 Peptidase_C41 > GO:viral reproduction ; GO:0016032
+ProDom:PD694051 Peptidase_C41 > GO:viral process ; GO:0016032
 ProDom:PD694051 Peptidase_C41 > GO:viral protein processing ; GO:0019082
 ProDom:PD736966 Ergtoxin > GO:potassium channel inhibitor activity ; GO:0019870
 ProDom:PD736966 Ergtoxin > GO:pathogenesis ; GO:0009405

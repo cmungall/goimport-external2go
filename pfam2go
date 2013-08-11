@@ -1,4 +1,4 @@
-!version date: 2013/08/03 11:49:22
+!version date: 2013/08/10 11:05:52
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -659,7 +659,6 @@ Pfam:PF00360 PHY > GO:regulation of transcription, DNA-dependent ; GO:0006355
 Pfam:PF00360 PHY > GO:detection of visible light ; GO:0009584
 Pfam:PF00360 PHY > GO:protein-chromophore linkage ; GO:0018298
 Pfam:PF00361 Oxidored_q1 > GO:NADH dehydrogenase (ubiquinone) activity ; GO:0008137
-Pfam:PF00361 Oxidored_q1 > GO:ATP synthesis coupled electron transport ; GO:0042773
 Pfam:PF00361 Oxidored_q1 > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF00363 Casein > GO:transporter activity ; GO:0005215
 Pfam:PF00363 Casein > GO:transport ; GO:0006810
@@ -1476,11 +1475,6 @@ Pfam:PF00825 Ribonuclease_P > GO:tRNA processing ; GO:0008033
 Pfam:PF00827 Ribosomal_L15e > GO:structural constituent of ribosome ; GO:0003735
 Pfam:PF00827 Ribosomal_L15e > GO:translation ; GO:0006412
 Pfam:PF00827 Ribosomal_L15e > GO:ribosome ; GO:0005840
-Pfam:PF00829 Ribosomal_L21p > GO:RNA binding ; GO:0003723
-Pfam:PF00829 Ribosomal_L21p > GO:structural constituent of ribosome ; GO:0003735
-Pfam:PF00829 Ribosomal_L21p > GO:translation ; GO:0006412
-Pfam:PF00829 Ribosomal_L21p > GO:intracellular ; GO:0005622
-Pfam:PF00829 Ribosomal_L21p > GO:ribosome ; GO:0005840
 Pfam:PF00830 Ribosomal_L28 > GO:structural constituent of ribosome ; GO:0003735
 Pfam:PF00830 Ribosomal_L28 > GO:translation ; GO:0006412
 Pfam:PF00830 Ribosomal_L28 > GO:intracellular ; GO:0005622
@@ -2264,8 +2258,6 @@ Pfam:PF01255 Prenyltransf > GO:transferase activity, transferring alkyl or aryl 
 Pfam:PF01257 2Fe-2S_thioredx > GO:oxidoreductase activity ; GO:0016491
 Pfam:PF01257 2Fe-2S_thioredx > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF01258 zf-dskA_traR > GO:zinc ion binding ; GO:0008270
-Pfam:PF01259 SAICAR_synt > GO:phosphoribosylaminoimidazolesuccinocarboxamide synthase activity ; GO:0004639
-Pfam:PF01259 SAICAR_synt > GO:purine nucleotide biosynthetic process ; GO:0006164
 Pfam:PF01263 Aldose_epim > GO:isomerase activity ; GO:0016853
 Pfam:PF01263 Aldose_epim > GO:carbohydrate metabolic process ; GO:0005975
 Pfam:PF01264 Chorismate_synt > GO:chorismate synthase activity ; GO:0004107
@@ -6493,6 +6485,7 @@ Pfam:PF04893 Yip1 > GO:membrane ; GO:0016020
 Pfam:PF04898 Glu_syn_central > GO:glutamate synthase activity ; GO:0015930
 Pfam:PF04898 Glu_syn_central > GO:nitrogen compound metabolic process ; GO:0006807
 Pfam:PF04898 Glu_syn_central > GO:oxidation-reduction process ; GO:0055114
+Pfam:PF04900 Fcf1 > GO:small-subunit processome ; GO:0032040
 Pfam:PF04901 RAMP > GO:protein transporter activity ; GO:0008565
 Pfam:PF04901 RAMP > GO:intracellular protein transport ; GO:0006886
 Pfam:PF04901 RAMP > GO:regulation of G-protein coupled receptor protein signaling pathway ; GO:0008277
@@ -7226,10 +7219,9 @@ Pfam:PF05800 GvpO > GO:gas vesicle organization ; GO:0031412
 Pfam:PF05805 L6_membrane > GO:integral to membrane ; GO:0016021
 Pfam:PF05806 Noggin > GO:negative regulation of cell differentiation ; GO:0045596
 Pfam:PF05808 Podoplanin > GO:integral to membrane ; GO:0016021
-Pfam:PF05817 Ribophorin_II > GO:dolichyl-diphosphooligosaccharide-protein glycotransferase activity ; GO:0004579
-Pfam:PF05817 Ribophorin_II > GO:protein N-linked glycosylation via asparagine ; GO:0018279
-Pfam:PF05817 Ribophorin_II > GO:endoplasmic reticulum membrane ; GO:0005789
+Pfam:PF05817 Ribophorin_II > GO:protein N-linked glycosylation ; GO:0006487
 Pfam:PF05817 Ribophorin_II > GO:oligosaccharyltransferase complex ; GO:0008250
+Pfam:PF05817 Ribophorin_II > GO:integral to membrane ; GO:0016021
 Pfam:PF05818 TraT > GO:regulation of conjugation ; GO:0046999
 Pfam:PF05818 TraT > GO:outer membrane ; GO:0019867
 Pfam:PF05819 NolX > GO:nodulation ; GO:0009877
@@ -7855,6 +7847,7 @@ Pfam:PF06623 MHC_I_C > GO:immune response ; GO:0006955
 Pfam:PF06623 MHC_I_C > GO:antigen processing and presentation ; GO:0019882
 Pfam:PF06623 MHC_I_C > GO:membrane ; GO:0016020
 Pfam:PF06623 MHC_I_C > GO:MHC class I protein complex ; GO:0042612
+Pfam:PF06624 RAMP4 > GO:endoplasmic reticulum ; GO:0005783
 Pfam:PF06631 DUF1154 > GO:phosphatidylinositol phospholipase C activity ; GO:0004435
 Pfam:PF06631 DUF1154 > GO:calcium ion binding ; GO:0005509
 Pfam:PF06631 DUF1154 > GO:lipid metabolic process ; GO:0006629
@@ -7933,6 +7926,7 @@ Pfam:PF06769 Plasmid_Txe > GO:endonuclease activity ; GO:0004519
 Pfam:PF06769 Plasmid_Txe > GO:RNA catabolic process ; GO:0006401
 Pfam:PF06777 DUF1227 > GO:nucleus ; GO:0005634
 Pfam:PF06783 UPF0239 > GO:integral to membrane ; GO:0016021
+Pfam:PF06784 UPF0240 > GO:mitochondrial respiratory chain complex I assembly ; GO:0032981
 Pfam:PF06788 UPF0257 > GO:plasma membrane ; GO:0005886
 Pfam:PF06800 Sugar_transport > GO:carbohydrate transmembrane transporter activity ; GO:0015144
 Pfam:PF06800 Sugar_transport > GO:carbohydrate transmembrane transport ; GO:0034219

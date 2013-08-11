@@ -1,4 +1,4 @@
-!version date: 2013/08/03 11:49:20
+!version date: 2013/08/10 11:05:54
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -383,9 +383,7 @@ PRINTS:PR00167 CACHANNEL > GO:voltage-gated calcium channel complex ; GO:0005891
 PRINTS:PR00168 KCNECHANNEL > GO:voltage-gated potassium channel activity ; GO:0005249
 PRINTS:PR00168 KCNECHANNEL > GO:ion transport ; GO:0006811
 PRINTS:PR00168 KCNECHANNEL > GO:membrane ; GO:0016020
-PRINTS:PR00169 KCHANNEL > GO:voltage-gated potassium channel activity ; GO:0005249
 PRINTS:PR00169 KCHANNEL > GO:potassium ion transport ; GO:0006813
-PRINTS:PR00169 KCHANNEL > GO:voltage-gated potassium channel complex ; GO:0008076
 PRINTS:PR00170 NACHANNEL > GO:voltage-gated sodium channel activity ; GO:0005248
 PRINTS:PR00170 NACHANNEL > GO:sodium ion transport ; GO:0006814
 PRINTS:PR00170 NACHANNEL > GO:voltage-gated sodium channel complex ; GO:0001518
@@ -1039,7 +1037,7 @@ PRINTS:PR00467 MAMLPOXGNASE > GO:iron ion binding ; GO:0005506
 PRINTS:PR00467 MAMLPOXGNASE > GO:oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen ; GO:0016702
 PRINTS:PR00467 MAMLPOXGNASE > GO:oxidation-reduction process ; GO:0055114
 PRINTS:PR00468 PLTLPOXGNASE > GO:iron ion binding ; GO:0005506
-PRINTS:PR00468 PLTLPOXGNASE > GO:lipoxygenase activity ; GO:0016165
+PRINTS:PR00468 PLTLPOXGNASE > GO:linoleate 13S-lipoxygenase activity ; GO:0016165
 PRINTS:PR00468 PLTLPOXGNASE > GO:oxidation-reduction process ; GO:0055114
 PRINTS:PR00469 PNDRDTASEII > GO:oxidoreductase activity ; GO:0016491
 PRINTS:PR00469 PNDRDTASEII > GO:oxidation-reduction process ; GO:0055114
@@ -1938,7 +1936,7 @@ PRINTS:PR00792 PEPSIN > GO:proteolysis ; GO:0006508
 PRINTS:PR00793 PROAMNOPTASE > GO:peptidase activity ; GO:0008233
 PRINTS:PR00793 PROAMNOPTASE > GO:proteolysis ; GO:0006508
 PRINTS:PR00794 RIBONUCLEASE > GO:nucleic acid binding ; GO:0003676
-PRINTS:PR00794 RIBONUCLEASE > GO:pancreatic ribonuclease activity ; GO:0004522
+PRINTS:PR00794 RIBONUCLEASE > GO:endoribonuclease activity, producing 3'-phosphomonoesters ; GO:0016892
 PRINTS:PR00796 SPIKEPROTEIN > GO:viral envelope ; GO:0019031
 PRINTS:PR00797 STREPTOPAIN > GO:cysteine-type peptidase activity ; GO:0008234
 PRINTS:PR00797 STREPTOPAIN > GO:proteolysis ; GO:0006508
@@ -4081,6 +4079,9 @@ PRINTS:PR01651 SECGEXPORT > GO:P-P-bond-hydrolysis-driven protein transmembrane 
 PRINTS:PR01651 SECGEXPORT > GO:protein secretion ; GO:0009306
 PRINTS:PR01651 SECGEXPORT > GO:integral to membrane ; GO:0016021
 PRINTS:PR01652 SHAPEPROTEIN > GO:cell morphogenesis ; GO:0000902
+PRINTS:PR01654 TRHRECEPTOR2 > GO:thyrotropin-releasing hormone receptor activity ; GO:0004997
+PRINTS:PR01654 TRHRECEPTOR2 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
+PRINTS:PR01654 TRHRECEPTOR2 > GO:integral to membrane ; GO:0016021
 PRINTS:PR01655 UDPGLUCOSER > GO:G-protein coupled purinergic nucleotide receptor activity ; GO:0045028
 PRINTS:PR01655 UDPGLUCOSER > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01655 UDPGLUCOSER > GO:integral to membrane ; GO:0016021
@@ -4179,12 +4180,6 @@ PRINTS:PR01680 TNFACTORR6 > GO:apoptotic process ; GO:0006915
 PRINTS:PR01680 TNFACTORR6 > GO:immune response ; GO:0006955
 PRINTS:PR01680 TNFACTORR6 > GO:signal transduction ; GO:0007165
 PRINTS:PR01680 TNFACTORR6 > GO:membrane ; GO:0016020
-PRINTS:PR01681 FASLIGAND > GO:tumor necrosis factor receptor binding ; GO:0005164
-PRINTS:PR01681 FASLIGAND > GO:apoptotic process ; GO:0006915
-PRINTS:PR01681 FASLIGAND > GO:immune response ; GO:0006955
-PRINTS:PR01681 FASLIGAND > GO:signal transduction ; GO:0007165
-PRINTS:PR01681 FASLIGAND > GO:extracellular region ; GO:0005576
-PRINTS:PR01681 FASLIGAND > GO:membrane ; GO:0016020
 PRINTS:PR01682 FMRFAMIDEPEP > GO:neuropeptide hormone activity ; GO:0005184
 PRINTS:PR01683 EP450ICYP1A > GO:iron ion binding ; GO:0005506
 PRINTS:PR01683 EP450ICYP1A > GO:oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen ; GO:0016712

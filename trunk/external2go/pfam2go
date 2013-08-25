@@ -1,4 +1,4 @@
-!version date: 2013/08/17 11:09:54
+!version date: 2013/08/24 11:14:25
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1243,7 +1243,6 @@ Pfam:PF00693 Herpes_TK > GO:ATP binding ; GO:0005524
 Pfam:PF00693 Herpes_TK > GO:TMP biosynthetic process ; GO:0006230
 Pfam:PF00694 Aconitase_C > GO:metabolic process ; GO:0008152
 Pfam:PF00695 vMSA > GO:viral process ; GO:0016032
-Pfam:PF00696 AA_kinase > GO:cellular amino acid biosynthetic process ; GO:0008652
 Pfam:PF00697 PRAI > GO:phosphoribosylanthranilate isomerase activity ; GO:0004640
 Pfam:PF00697 PRAI > GO:tryptophan metabolic process ; GO:0006568
 Pfam:PF00700 Flagellin_C > GO:structural molecule activity ; GO:0005198
@@ -5816,9 +5815,8 @@ Pfam:PF04136 Sec34 > GO:cis-Golgi network ; GO:0005801
 Pfam:PF04136 Sec34 > GO:membrane ; GO:0016020
 Pfam:PF04137 ERO1 > GO:protein disulfide isomerase activity ; GO:0003756
 Pfam:PF04137 ERO1 > GO:oxidoreductase activity, acting on a sulfur group of donors, disulfide as acceptor ; GO:0016671
-Pfam:PF04137 ERO1 > GO:flavin adenine dinucleotide binding ; GO:0050660
 Pfam:PF04137 ERO1 > GO:oxidation-reduction process ; GO:0055114
-Pfam:PF04137 ERO1 > GO:endoplasmic reticulum membrane ; GO:0005789
+Pfam:PF04137 ERO1 > GO:endoplasmic reticulum ; GO:0005783
 Pfam:PF04138 GtrA > GO:polysaccharide biosynthetic process ; GO:0000271
 Pfam:PF04138 GtrA > GO:transport ; GO:0006810
 Pfam:PF04138 GtrA > GO:integral to membrane ; GO:0016021
@@ -9024,7 +9022,7 @@ Pfam:PF08526 PAD_N > GO:calcium ion binding ; GO:0005509
 Pfam:PF08526 PAD_N > GO:cytoplasm ; GO:0005737
 Pfam:PF08527 PAD_M > GO:protein-arginine deiminase activity ; GO:0004668
 Pfam:PF08527 PAD_M > GO:calcium ion binding ; GO:0005509
-Pfam:PF08527 PAD_M > GO:peptidyl-citrulline biosynthetic process from peptidyl-arginine ; GO:0018101
+Pfam:PF08527 PAD_M > GO:protein citrullination ; GO:0018101
 Pfam:PF08527 PAD_M > GO:cytoplasm ; GO:0005737
 Pfam:PF08529 NusA_N > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 Pfam:PF08529 NusA_N > GO:regulation of DNA-dependent transcription, termination ; GO:0031554
@@ -9194,8 +9192,6 @@ Pfam:PF08815 Nuc_rec_co-act > GO:transcription coactivator activity ; GO:0003713
 Pfam:PF08815 Nuc_rec_co-act > GO:nuclear hormone receptor binding ; GO:0035257
 Pfam:PF08815 Nuc_rec_co-act > GO:regulation of transcription, DNA-dependent ; GO:0006355
 Pfam:PF08815 Nuc_rec_co-act > GO:nucleus ; GO:0005634
-Pfam:PF08816 Ivy > GO:negative regulation of catalytic activity ; GO:0043086
-Pfam:PF08816 Ivy > GO:periplasmic space ; GO:0042597
 Pfam:PF08825 E2_bind > GO:ATP binding ; GO:0005524
 Pfam:PF08825 E2_bind > GO:acid-amino acid ligase activity ; GO:0016881
 Pfam:PF08825 E2_bind > GO:protein neddylation ; GO:0045116
@@ -9927,6 +9923,9 @@ Pfam:PF10796 Anti-adapt_IraP > GO:cytoplasm ; GO:0005737
 Pfam:PF10798 YmgB > GO:biofilm formation ; GO:0042710
 Pfam:PF10798 YmgB > GO:cellular response to acid ; GO:0071229
 Pfam:PF10808 DUF2542 > GO:integral to membrane ; GO:0016021
+Pfam:PF10890 DUF2741 > GO:electron transport chain ; GO:0022900
+Pfam:PF10890 DUF2741 > GO:mitochondrial inner membrane ; GO:0005743
+Pfam:PF10890 DUF2741 > GO:respiratory chain ; GO:0070469
 Pfam:PF10954 DUF2755 > GO:integral to membrane ; GO:0016021
 Pfam:PF11023 DUF2614 > GO:integral to plasma membrane ; GO:0005887
 Pfam:PF11045 YbjM > GO:integral to membrane ; GO:0016021
@@ -10359,7 +10358,6 @@ Pfam:PF13947 GUB_WAK_bind > GO:polysaccharide binding ; GO:0030247
 Pfam:PF13949 ALIX_LYPXL_bnd > GO:protein binding ; GO:0005515
 Pfam:PF13954 PapC_N > GO:protein binding ; GO:0005515
 Pfam:PF13965 SID-1_RNA_chan > GO:RNA transmembrane transporter activity ; GO:0051033
-Pfam:PF13965 SID-1_RNA_chan > GO:RNA interference ; GO:0016246
 Pfam:PF13965 SID-1_RNA_chan > GO:dsRNA transport ; GO:0033227
 Pfam:PF13965 SID-1_RNA_chan > GO:integral to membrane ; GO:0016021
 Pfam:PF13971 Mei4 > GO:DNA recombination ; GO:0006310
@@ -10429,6 +10427,9 @@ Pfam:PF14978 MRP-63 > GO:mitochondrial ribosome ; GO:0005761
 Pfam:PF14984 CD24 > GO:cell adhesion ; GO:0007155
 Pfam:PF14993 Neuropeptide_S > GO:neuropeptide signaling pathway ; GO:0007218
 Pfam:PF14993 Neuropeptide_S > GO:extracellular region ; GO:0005576
+Pfam:PF15003 HAUS2 > GO:microtubule organizing center organization ; GO:0031023
+Pfam:PF15003 HAUS2 > GO:spindle assembly ; GO:0051225
+Pfam:PF15003 HAUS2 > GO:HAUS complex ; GO:0070652
 Pfam:PF15036 IL34 > GO:macrophage colony-stimulating factor receptor binding ; GO:0005157
 Pfam:PF15036 IL34 > GO:positive regulation of protein phosphorylation ; GO:0001934
 Pfam:PF15036 IL34 > GO:positive regulation of cell proliferation ; GO:0008284

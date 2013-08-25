@@ -1,4 +1,4 @@
-!version date: 2013/08/17 11:09:54
+!version date: 2013/08/24 11:14:25
 !description: Mapping of GO terms to PIRSF entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pir.georgetown.edu/pirsf/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -233,6 +233,10 @@ PIRSF:PIRSF000164 DHO_oxidase > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF000166 Coproporphyri_ox > GO:coproporphyrinogen oxidase activity ; GO:0004109
 PIRSF:PIRSF000166 Coproporphyri_ox > GO:porphyrin-containing compound biosynthetic process ; GO:0006779
 PIRSF:PIRSF000166 Coproporphyri_ox > GO:oxidation-reduction process ; GO:0055114
+PIRSF:PIRSF000167 HemN > GO:coproporphyrinogen oxidase activity ; GO:0004109
+PIRSF:PIRSF000167 HemN > GO:porphyrin-containing compound biosynthetic process ; GO:0006779
+PIRSF:PIRSF000167 HemN > GO:oxidation-reduction process ; GO:0055114
+PIRSF:PIRSF000167 HemN > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF000168 Acyl-CoA_oxidase > GO:acyl-CoA oxidase activity ; GO:0003997
 PIRSF:PIRSF000168 Acyl-CoA_oxidase > GO:flavin adenine dinucleotide binding ; GO:0050660
 PIRSF:PIRSF000168 Acyl-CoA_oxidase > GO:fatty acid metabolic process ; GO:0006631
@@ -469,10 +473,8 @@ PIRSF:PIRSF000429 Ac-CoA_Ac_transf > GO:transferase activity, transferring acyl 
 PIRSF:PIRSF000429 Ac-CoA_Ac_transf > GO:metabolic process ; GO:0008152
 PIRSF:PIRSF000431 Glycerol-3-P_O-acyltransfrase > GO:glycerol-3-phosphate O-acyltransferase activity ; GO:0004366
 PIRSF:PIRSF000431 Glycerol-3-P_O-acyltransfrase > GO:glycerophospholipid metabolic process ; GO:0006650
-PIRSF:PIRSF000437 GPAT_DHAPAT > GO:glycerol-3-phosphate O-acyltransferase activity ; GO:0004366
-PIRSF:PIRSF000437 GPAT_DHAPAT > GO:phospholipid biosynthetic process ; GO:0008654
+PIRSF:PIRSF000437 GPAT_DHAPAT > GO:O-acyltransferase activity ; GO:0008374
 PIRSF:PIRSF000437 GPAT_DHAPAT > GO:cellular lipid metabolic process ; GO:0044255
-PIRSF:PIRSF000437 GPAT_DHAPAT > GO:membrane ; GO:0016020
 PIRSF:PIRSF000439 Oat_ACAT_DAG_ARE > GO:O-acyltransferase activity ; GO:0008374
 PIRSF:PIRSF000440 CAT > GO:chloramphenicol O-acetyltransferase activity ; GO:0008811
 PIRSF:PIRSF000441 CysE > GO:serine O-acetyltransferase activity ; GO:0009001
@@ -548,6 +550,8 @@ PIRSF:PIRSF000514 Pentafunct_AroM > GO:ATP binding ; GO:0005524
 PIRSF:PIRSF000514 Pentafunct_AroM > GO:aromatic amino acid family biosynthetic process ; GO:0009073
 PIRSF:PIRSF000514 Pentafunct_AroM > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF000517 Tyr_transaminase > GO:transaminase activity ; GO:0008483
+PIRSF:PIRSF000521 Transaminase_4ab_Lys_Orn > GO:transaminase activity ; GO:0008483
+PIRSF:PIRSF000521 Transaminase_4ab_Lys_Orn > GO:pyridoxal phosphate binding ; GO:0030170
 PIRSF:PIRSF000525 SerC > GO:O-phospho-L-serine:2-oxoglutarate aminotransferase activity ; GO:0004648
 PIRSF:PIRSF000525 SerC > GO:L-serine biosynthetic process ; GO:0006564
 PIRSF:PIRSF000530 Galactokinase > GO:galactokinase activity ; GO:0004335
@@ -1237,6 +1241,7 @@ PIRSF:PIRSF001866 Mating_factor_alpha > GO:extracellular region ; GO:0005576
 PIRSF:PIRSF001875 Alpha-defensin > GO:defense response ; GO:0006952
 PIRSF:PIRSF001875 Alpha-defensin > GO:extracellular space ; GO:0005615
 PIRSF:PIRSF001882 Curtatoxin > GO:pathogenesis ; GO:0009405
+PIRSF:PIRSF001892 CyaE > GO:transporter activity ; GO:0005215
 PIRSF:PIRSF001905 Anenome_toxin > GO:regulation of signal transduction ; GO:0009966
 PIRSF:PIRSF001905 Anenome_toxin > GO:extracellular region ; GO:0005576
 PIRSF:PIRSF001924 Shigella_toxin_subunit_A > GO:rRNA N-glycosylase activity ; GO:0030598
@@ -1979,6 +1984,8 @@ PIRSF:PIRSF006294 PEP_crbxkin > GO:gluconeogenesis ; GO:0006094
 PIRSF:PIRSF006304 GatC > GO:galactitol transmembrane transporter activity ; GO:0015577
 PIRSF:PIRSF006304 GatC > GO:galactitol transport ; GO:0015796
 PIRSF:PIRSF006305 Maf > GO:cytoplasm ; GO:0005737
+PIRSF:PIRSF006324 LeuE > GO:amino acid transport ; GO:0006865
+PIRSF:PIRSF006324 LeuE > GO:membrane ; GO:0016020
 PIRSF:PIRSF006325 MeTrfase_bac > GO:tRNA (uracil) methyltransferase activity ; GO:0016300
 PIRSF:PIRSF006325 MeTrfase_bac > GO:tRNA wobble uridine modification ; GO:0002098
 PIRSF:PIRSF006334 Cdd_plus_pseudo > GO:cytidine deaminase activity ; GO:0004126
@@ -2058,6 +2065,10 @@ PIRSF:PIRSF006630 NADS_GAT > GO:NAD+ synthase (glutamine-hydrolyzing) activity ;
 PIRSF:PIRSF006630 NADS_GAT > GO:ATP binding ; GO:0005524
 PIRSF:PIRSF006630 NADS_GAT > GO:NAD biosynthetic process ; GO:0009435
 PIRSF:PIRSF006641 CHP00092 > GO:GTP binding ; GO:0005525
+PIRSF:PIRSF006648 DrrB > GO:ATP binding ; GO:0005524
+PIRSF:PIRSF006648 DrrB > GO:ATPase activity, coupled to transmembrane movement of substances ; GO:0042626
+PIRSF:PIRSF006648 DrrB > GO:transport ; GO:0006810
+PIRSF:PIRSF006648 DrrB > GO:membrane ; GO:0016020
 PIRSF:PIRSF006655 DHQ_synth > GO:3-dehydroquinate synthase activity ; GO:0003856
 PIRSF:PIRSF006655 DHQ_synth > GO:oxidoreductase activity ; GO:0016491
 PIRSF:PIRSF006655 DHQ_synth > GO:aromatic amino acid family biosynthetic process ; GO:0009073
@@ -2531,9 +2542,8 @@ PIRSF:PIRSF017199 mRNA_splic_U5 > GO:mitosis ; GO:0007067
 PIRSF:PIRSF017199 mRNA_splic_U5 > GO:spliceosomal complex ; GO:0005681
 PIRSF:PIRSF017205 ERO1 > GO:protein disulfide isomerase activity ; GO:0003756
 PIRSF:PIRSF017205 ERO1 > GO:oxidoreductase activity, acting on a sulfur group of donors, disulfide as acceptor ; GO:0016671
-PIRSF:PIRSF017205 ERO1 > GO:flavin adenine dinucleotide binding ; GO:0050660
 PIRSF:PIRSF017205 ERO1 > GO:oxidation-reduction process ; GO:0055114
-PIRSF:PIRSF017205 ERO1 > GO:endoplasmic reticulum membrane ; GO:0005789
+PIRSF:PIRSF017205 ERO1 > GO:endoplasmic reticulum ; GO:0005783
 PIRSF:PIRSF017228 Sphnglp_dlt4_des > GO:oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen ; GO:0016705
 PIRSF:PIRSF017228 Sphnglp_dlt4_des > GO:fatty acid biosynthetic process ; GO:0006633
 PIRSF:PIRSF017228 Sphnglp_dlt4_des > GO:oxidation-reduction process ; GO:0055114
@@ -3602,6 +3612,7 @@ PIRSF:PIRSF038972 Trm12 > GO:wybutosine biosynthetic process ; GO:0031591
 PIRSF:PIRSF038981 GRP > GO:taste receptor activity ; GO:0008527
 PIRSF:PIRSF038981 GRP > GO:detection of chemical stimulus involved in sensory perception of taste ; GO:0050912
 PIRSF:PIRSF038981 GRP > GO:integral to membrane ; GO:0016021
+PIRSF:PIRSF038992 Aldolase_Ia > GO:lyase activity ; GO:0016829
 PIRSF:PIRSF038994 NagA > GO:N-acetylglucosamine-6-phosphate deacetylase activity ; GO:0008448
 PIRSF:PIRSF038994 NagA > GO:N-acetylglucosamine metabolic process ; GO:0006044
 PIRSF:PIRSF038995 SRP68 > GO:signal recognition particle binding ; GO:0005047
@@ -3613,14 +3624,27 @@ PIRSF:PIRSF038996 FldA > GO:FMN binding ; GO:0010181
 PIRSF:PIRSF039003 IscX > GO:iron-sulfur cluster assembly ; GO:0016226
 PIRSF:PIRSF039012 ASP > GO:hydrolase activity, acting on ester bonds ; GO:0016788
 PIRSF:PIRSF039012 ASP > GO:metabolic process ; GO:0008152
+PIRSF:PIRSF500063 DHAPAT > GO:glycerone-phosphate O-acyltransferase activity ; GO:0016287
+PIRSF:PIRSF500063 DHAPAT > GO:ether lipid biosynthetic process ; GO:0008611
+PIRSF:PIRSF500063 DHAPAT > GO:peroxisome ; GO:0005777
+PIRSF:PIRSF500064 GPAT > GO:glycerol-3-phosphate O-acyltransferase activity ; GO:0004366
+PIRSF:PIRSF500064 GPAT > GO:phospholipid biosynthetic process ; GO:0008654
+PIRSF:PIRSF500064 GPAT > GO:plasma membrane ; GO:0005886
 PIRSF:PIRSF500101 ER-a > GO:DNA binding ; GO:0003677
 PIRSF:PIRSF500101 ER-a > GO:steroid binding ; GO:0005496
 PIRSF:PIRSF500101 ER-a > GO:estrogen receptor activity ; GO:0030284
 PIRSF:PIRSF500101 ER-a > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PIRSF:PIRSF500101 ER-a > GO:steroid hormone mediated signaling pathway ; GO:0043401
 PIRSF:PIRSF500101 ER-a > GO:nucleus ; GO:0005634
+PIRSF:PIRSF500102 ER-b > GO:estrogen receptor activity ; GO:0030284
+PIRSF:PIRSF500102 ER-b > GO:intracellular estrogen receptor signaling pathway ; GO:0030520
 PIRSF:PIRSF500126 Pgk_euglenozoa > GO:phosphoglycerate kinase activity ; GO:0004618
 PIRSF:PIRSF500126 Pgk_euglenozoa > GO:glycolysis ; GO:0006096
+PIRSF:PIRSF500133 UDPglc_DH_euk > GO:UDP-glucose 6-dehydrogenase activity ; GO:0003979
+PIRSF:PIRSF500134 UDPglc_DH_bac > GO:UDP-glucose 6-dehydrogenase activity ; GO:0003979
+PIRSF:PIRSF500134 UDPglc_DH_bac > GO:polysaccharide biosynthetic process ; GO:0000271
+PIRSF:PIRSF500135 GDPman_DH > GO:GDP-mannose 6-dehydrogenase activity ; GO:0047919
+PIRSF:PIRSF500135 GDPman_DH > GO:alginic acid biosynthetic process ; GO:0042121
 PIRSF:PIRSF500144 IODI_III > GO:thyroxine 5'-deiodinase activity ; GO:0004800
 PIRSF:PIRSF500165 HMDI > GO:N5,N10-methenyltetrahydromethanopterin hydrogenase activity ; GO:0047068
 PIRSF:PIRSF500165 HMDI > GO:methanogenesis, from carbon dioxide ; GO:0019386

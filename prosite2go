@@ -1,4 +1,4 @@
-!version date: 2013/08/17 11:09:54
+!version date: 2013/08/24 11:14:25
 !description: Mapping of GO terms to PROSITE entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://www.expasy.org/prosite/
 !citation: Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -971,8 +971,7 @@ PROSITE:MF_00392 LpxB > GO:lipid-A-disaccharide synthase activity ; GO:0008915
 PROSITE:MF_00392 LpxB > GO:lipid A biosynthetic process ; GO:0009245
 PROSITE:MF_00393 Glyc3P_acyltrans > GO:glycerol-3-phosphate O-acyltransferase activity ; GO:0004366
 PROSITE:MF_00393 Glyc3P_acyltrans > GO:phospholipid biosynthetic process ; GO:0008654
-PROSITE:MF_00393 Glyc3P_acyltrans > GO:cellular lipid metabolic process ; GO:0044255
-PROSITE:MF_00393 Glyc3P_acyltrans > GO:membrane ; GO:0016020
+PROSITE:MF_00393 Glyc3P_acyltrans > GO:plasma membrane ; GO:0005886
 PROSITE:MF_00394 NAD_Glyc3P_dehydrog > GO:glycerol-3-phosphate dehydrogenase [NAD+] activity ; GO:0004367
 PROSITE:MF_00394 NAD_Glyc3P_dehydrog > GO:glycerol-3-phosphate metabolic process ; GO:0006072
 PROSITE:MF_00394 NAD_Glyc3P_dehydrog > GO:oxidation-reduction process ; GO:0055114
@@ -6140,6 +6139,7 @@ PROSITE:PS50001 SH2 > GO:protein binding ; GO:0005515
 PROSITE:PS50002 SH3 > GO:protein binding ; GO:0005515
 PROSITE:PS50003 PH_DOMAIN > GO:protein binding ; GO:0005515
 PROSITE:PS50003 PH_DOMAIN > GO:phospholipid binding ; GO:0005543
+PROSITE:PS50004 C2 > GO:protein binding ; GO:0005515
 PROSITE:PS50005 TPR > GO:protein binding ; GO:0005515
 PROSITE:PS50006 FHA_DOMAIN > GO:protein binding ; GO:0005515
 PROSITE:PS50008 PIPLC_Y_DOMAIN > GO:phosphatidylinositol phospholipase C activity ; GO:0004435
@@ -6614,6 +6614,11 @@ PROSITE:PS50925 BLUF > GO:FAD binding ; GO:0071949
 PROSITE:PS50928 ABC_TM1 > GO:transporter activity ; GO:0005215
 PROSITE:PS50928 ABC_TM1 > GO:transport ; GO:0006810
 PROSITE:PS50928 ABC_TM1 > GO:membrane ; GO:0016020
+PROSITE:PS50929 ABC_TM1F > GO:ATP binding ; GO:0005524
+PROSITE:PS50929 ABC_TM1F > GO:ATPase activity, coupled to transmembrane movement of substances ; GO:0042626
+PROSITE:PS50929 ABC_TM1F > GO:transport ; GO:0006810
+PROSITE:PS50929 ABC_TM1F > GO:transmembrane transport ; GO:0055085
+PROSITE:PS50929 ABC_TM1F > GO:integral to membrane ; GO:0016021
 PROSITE:PS50930 HTH_LYTTR > GO:DNA binding ; GO:0003677
 PROSITE:PS50931 HTH_LYSR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS50931 HTH_LYSR > GO:regulation of transcription, DNA-dependent ; GO:0006355

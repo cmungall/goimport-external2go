@@ -1,4 +1,4 @@
-!version date: 2013/08/24 11:14:25
+!version date: 2013/08/31 10:45:03
 !description: Mapping of GO terms to PIRSF entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pir.georgetown.edu/pirsf/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -167,7 +167,6 @@ PIRSF:PIRSF000118 Ilv5_plant > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF000119 Ilv5_fungal > GO:ketol-acid reductoisomerase activity ; GO:0004455
 PIRSF:PIRSF000119 Ilv5_fungal > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF000124 UDPglc_GDPman_dh > GO:oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor ; GO:0016616
-PIRSF:PIRSF000124 UDPglc_GDPman_dh > GO:NAD binding ; GO:0051287
 PIRSF:PIRSF000124 UDPglc_GDPman_dh > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF000126 11-beta-HSD1 > GO:oxidoreductase activity ; GO:0016491
 PIRSF:PIRSF000126 11-beta-HSD1 > GO:metabolic process ; GO:0008152
@@ -2277,7 +2276,7 @@ PIRSF:PIRSF012294 ATR_EutT > GO:ethanolamine metabolic process ; GO:0006580
 PIRSF:PIRSF012294 ATR_EutT > GO:cobalamin biosynthetic process ; GO:0009236
 PIRSF:PIRSF012296 EutS_PduU > GO:ethanolamine metabolic process ; GO:0006580
 PIRSF:PIRSF013171 Pur_nuclsid_perm > GO:transmembrane transport ; GO:0055085
-PIRSF:PIRSF013220 UCP013220 > GO:single-stranded DNA specific 5'-3' exodeoxyribonuclease activity ; GO:0045145
+PIRSF:PIRSF013220 UCP013220 > GO:single-stranded DNA 5'-3' exodeoxyribonuclease activity ; GO:0045145
 PIRSF:PIRSF013220 UCP013220 > GO:mitochondrial genome maintenance ; GO:0000002
 PIRSF:PIRSF013220 UCP013220 > GO:mitochondrion ; GO:0005739
 PIRSF:PIRSF013286 MED6_fungi > GO:RNA polymerase II transcription cofactor activity ; GO:0001104
@@ -3645,7 +3644,17 @@ PIRSF:PIRSF500134 UDPglc_DH_bac > GO:UDP-glucose 6-dehydrogenase activity ; GO:0
 PIRSF:PIRSF500134 UDPglc_DH_bac > GO:polysaccharide biosynthetic process ; GO:0000271
 PIRSF:PIRSF500135 GDPman_DH > GO:GDP-mannose 6-dehydrogenase activity ; GO:0047919
 PIRSF:PIRSF500135 GDPman_DH > GO:alginic acid biosynthetic process ; GO:0042121
+PIRSF:PIRSF500136 UDP_ManNAc_DH > GO:oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor ; GO:0016628
+PIRSF:PIRSF500136 UDP_ManNAc_DH > GO:polysaccharide biosynthetic process ; GO:0000271
+PIRSF:PIRSF500136 UDP_ManNAc_DH > GO:oxidation-reduction process ; GO:0055114
+PIRSF:PIRSF500138 GPI8 > GO:GPI-anchor transamidase activity ; GO:0003923
+PIRSF:PIRSF500138 GPI8 > GO:attachment of GPI anchor to protein ; GO:0016255
+PIRSF:PIRSF500138 GPI8 > GO:GPI-anchor transamidase complex ; GO:0042765
 PIRSF:PIRSF500144 IODI_III > GO:thyroxine 5'-deiodinase activity ; GO:0004800
+PIRSF:PIRSF500154 RPB6 > GO:DNA-directed RNA polymerase activity ; GO:0003899
+PIRSF:PIRSF500154 RPB6 > GO:transcription, DNA-dependent ; GO:0006351
+PIRSF:PIRSF500154 RPB6 > GO:nucleus ; GO:0005634
+PIRSF:PIRSF500154 RPB6 > GO:DNA-directed RNA polymerase II, core complex ; GO:0005665
 PIRSF:PIRSF500165 HMDI > GO:N5,N10-methenyltetrahydromethanopterin hydrogenase activity ; GO:0047068
 PIRSF:PIRSF500165 HMDI > GO:methanogenesis, from carbon dioxide ; GO:0019386
 PIRSF:PIRSF500165 HMDI > GO:oxidation-reduction process ; GO:0055114
@@ -3653,6 +3662,7 @@ PIRSF:PIRSF500175 Glu_ADT_D > GO:regulation of translational fidelity ; GO:00064
 PIRSF:PIRSF500204 RBP_purpurin > GO:transporter activity ; GO:0005215
 PIRSF:PIRSF500204 RBP_purpurin > GO:retinoid binding ; GO:0005501
 PIRSF:PIRSF500204 RBP_purpurin > GO:transport ; GO:0006810
+PIRSF:PIRSF500217 AlgI > GO:alginic acid biosynthetic process ; GO:0042121
 PIRSF:PIRSF500231 Oat_dag > GO:diacylglycerol O-acyltransferase activity ; GO:0004144
 PIRSF:PIRSF500231 Oat_dag > GO:triglyceride biosynthetic process ; GO:0019432
 PIRSF:PIRSF500628 PTGIS > GO:prostaglandin-I synthase activity ; GO:0008116
@@ -3679,10 +3689,9 @@ PIRSF:PIRSF500776 Hyaluronidase_3 > GO:hyaluronan catabolic process ; GO:0030214
 PIRSF:PIRSF500784 TAG1 > GO:negative regulation of cell proliferation ; GO:0008285
 PIRSF:PIRSF500793 Folate_transporter_1 > GO:folic acid transporter activity ; GO:0008517
 PIRSF:PIRSF500793 Folate_transporter_1 > GO:methotrexate transporter activity ; GO:0015350
-PIRSF:PIRSF500793 Folate_transporter_1 > GO:folic acid metabolic process ; GO:0046655
+PIRSF:PIRSF500793 Folate_transporter_1 > GO:folic acid transport ; GO:0015884
+PIRSF:PIRSF500793 Folate_transporter_1 > GO:methotrexate transport ; GO:0051958
 PIRSF:PIRSF500793 Folate_transporter_1 > GO:integral to plasma membrane ; GO:0005887
-PIRSF:PIRSF500794 Thiamine_transporter_1 > GO:thiamine uptake transmembrane transporter activity ; GO:0015403
-PIRSF:PIRSF500794 Thiamine_transporter_1 > GO:thiamine transport ; GO:0015888
 PIRSF:PIRSF500794 Thiamine_transporter_1 > GO:integral to membrane ; GO:0016021
 PIRSF:PIRSF500795 Thiamine_transporter_2 > GO:thiamine uptake transmembrane transporter activity ; GO:0015403
 PIRSF:PIRSF500795 Thiamine_transporter_2 > GO:thiamine transport ; GO:0015888

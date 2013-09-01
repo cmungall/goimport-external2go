@@ -1,4 +1,4 @@
-!version date: 2013/08/24 11:14:25
+!version date: 2013/08/31 10:45:01
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1230,10 +1230,6 @@ Pfam:PF00684 DnaJ_CXXCXGXG > GO:heat shock protein binding ; GO:0031072
 Pfam:PF00684 DnaJ_CXXCXGXG > GO:unfolded protein binding ; GO:0051082
 Pfam:PF00685 Sulfotransfer_1 > GO:sulfotransferase activity ; GO:0008146
 Pfam:PF00686 CBM_20 > GO:starch binding ; GO:2001070
-Pfam:PF00687 Ribosomal_L1 > GO:RNA binding ; GO:0003723
-Pfam:PF00687 Ribosomal_L1 > GO:structural constituent of ribosome ; GO:0003735
-Pfam:PF00687 Ribosomal_L1 > GO:translation ; GO:0006412
-Pfam:PF00687 Ribosomal_L1 > GO:large ribosomal subunit ; GO:0015934
 Pfam:PF00688 TGFb_propeptide > GO:growth factor activity ; GO:0008083
 Pfam:PF00688 TGFb_propeptide > GO:growth ; GO:0040007
 Pfam:PF00692 dUTPase > GO:hydrolase activity ; GO:0016787
@@ -3199,6 +3195,7 @@ Pfam:PF01844 HNH > GO:endonuclease activity ; GO:0004519
 Pfam:PF01845 CcdB > GO:DNA topoisomerase (ATP-hydrolyzing) inhibitor activity ; GO:0008657
 Pfam:PF01845 CcdB > GO:plasmid maintenance ; GO:0006276
 Pfam:PF01848 HOK_GEF > GO:membrane ; GO:0016020
+Pfam:PF01852 START > GO:lipid binding ; GO:0008289
 Pfam:PF01853 MOZ_SAS > GO:transferase activity, transferring acyl groups other than amino-acyl groups ; GO:0016747
 Pfam:PF01853 MOZ_SAS > GO:regulation of transcription, DNA-dependent ; GO:0006355
 Pfam:PF01853 MOZ_SAS > GO:nucleus ; GO:0005634
@@ -4213,6 +4210,8 @@ Pfam:PF02654 CobS > GO:cobalamin 5'-phosphate synthase activity ; GO:0008818
 Pfam:PF02654 CobS > GO:cobalamin biosynthetic process ; GO:0009236
 Pfam:PF02655 ATP-grasp_3 > GO:ATP binding ; GO:0005524
 Pfam:PF02655 ATP-grasp_3 > GO:metal ion binding ; GO:0046872
+Pfam:PF02660 G3P_acyltransf > GO:acyl-phosphate glycerol-3-phosphate acyltransferase activity ; GO:0043772
+Pfam:PF02660 G3P_acyltransf > GO:phospholipid biosynthetic process ; GO:0008654
 Pfam:PF02660 G3P_acyltransf > GO:plasma membrane ; GO:0005886
 Pfam:PF02662 FlpD > GO:methanogenesis ; GO:0015948
 Pfam:PF02662 FlpD > GO:oxidation-reduction process ; GO:0055114
@@ -4473,7 +4472,6 @@ Pfam:PF02844 GARS_N > GO:purine nucleobase biosynthetic process ; GO:0009113
 Pfam:PF02845 CUE > GO:protein binding ; GO:0005515
 Pfam:PF02852 Pyr_redox_dim > GO:cell redox homeostasis ; GO:0045454
 Pfam:PF02852 Pyr_redox_dim > GO:oxidation-reduction process ; GO:0055114
-Pfam:PF02854 MIF4G > GO:DNA binding ; GO:0003677
 Pfam:PF02854 MIF4G > GO:RNA binding ; GO:0003723
 Pfam:PF02854 MIF4G > GO:protein binding ; GO:0005515
 Pfam:PF02861 Clp_N > GO:protein metabolic process ; GO:0019538
@@ -9728,7 +9726,7 @@ Pfam:PF09749 HVSL > GO:nuclease activity ; GO:0004518
 Pfam:PF09749 HVSL > GO:U6 snRNA 3'-end processing ; GO:0034477
 Pfam:PF09764 Nt_Gln_amidase > GO:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides ; GO:0016811
 Pfam:PF09768 Peptidase_M76 > GO:metalloendopeptidase activity ; GO:0004222
-Pfam:PF09810 Exo5 > GO:single-stranded DNA specific 5'-3' exodeoxyribonuclease activity ; GO:0045145
+Pfam:PF09810 Exo5 > GO:single-stranded DNA 5'-3' exodeoxyribonuclease activity ; GO:0045145
 Pfam:PF09830 ATP_transf > GO:ATP adenylyltransferase activity ; GO:0003877
 Pfam:PF09907 DUF2136 > GO:hydrolase activity, acting on ester bonds ; GO:0016788
 Pfam:PF10018 Med4 > GO:RNA polymerase II transcription cofactor activity ; GO:0001104
@@ -10429,7 +10427,6 @@ Pfam:PF14993 Neuropeptide_S > GO:neuropeptide signaling pathway ; GO:0007218
 Pfam:PF14993 Neuropeptide_S > GO:extracellular region ; GO:0005576
 Pfam:PF15003 HAUS2 > GO:microtubule organizing center organization ; GO:0031023
 Pfam:PF15003 HAUS2 > GO:spindle assembly ; GO:0051225
-Pfam:PF15003 HAUS2 > GO:HAUS complex ; GO:0070652
 Pfam:PF15036 IL34 > GO:macrophage colony-stimulating factor receptor binding ; GO:0005157
 Pfam:PF15036 IL34 > GO:positive regulation of protein phosphorylation ; GO:0001934
 Pfam:PF15036 IL34 > GO:positive regulation of cell proliferation ; GO:0008284

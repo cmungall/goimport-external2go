@@ -1,4 +1,4 @@
-!version date: 2013/08/31 10:45:01
+!version date: 2013/09/07 11:43:08
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -3333,7 +3333,8 @@ Pfam:PF02007 MtrH > GO:one-carbon metabolic process ; GO:0006730
 Pfam:PF02008 zf-CXXC > GO:DNA binding ; GO:0003677
 Pfam:PF02008 zf-CXXC > GO:zinc ion binding ; GO:0008270
 Pfam:PF02011 Glyco_hydro_48 > GO:hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553
-Pfam:PF02011 Glyco_hydro_48 > GO:carbohydrate metabolic process ; GO:0005975
+Pfam:PF02011 Glyco_hydro_48 > GO:cellulase activity ; GO:0008810
+Pfam:PF02011 Glyco_hydro_48 > GO:cellulose catabolic process ; GO:0030245
 Pfam:PF02015 Glyco_hydro_45 > GO:cellulase activity ; GO:0008810
 Pfam:PF02015 Glyco_hydro_45 > GO:carbohydrate metabolic process ; GO:0005975
 Pfam:PF02017 CIDE-N > GO:apoptotic process ; GO:0006915
@@ -4983,7 +4984,12 @@ Pfam:PF03273 Baculo_gp64 > GO:viral envelope ; GO:0019031
 Pfam:PF03274 Foamy_BEL > GO:viral process ; GO:0016032
 Pfam:PF03274 Foamy_BEL > GO:positive regulation of transcription, DNA-dependent ; GO:0045893
 Pfam:PF03275 GLF > GO:UDP-galactopyranose mutase activity ; GO:0008767
+Pfam:PF03276 Gag_spuma > GO:viral release from host cell ; GO:0019076
+Pfam:PF03276 Gag_spuma > GO:viral entry into host cell ; GO:0046718
+Pfam:PF03276 Gag_spuma > GO:microtubule-dependent intracellular transport of viral material to nucleus ; GO:0075521
 Pfam:PF03276 Gag_spuma > GO:viral capsid ; GO:0019028
+Pfam:PF03276 Gag_spuma > GO:host cell cytoplasm ; GO:0030430
+Pfam:PF03276 Gag_spuma > GO:host cell nucleus ; GO:0042025
 Pfam:PF03278 IpaB_EvcA > GO:pathogenesis ; GO:0009405
 Pfam:PF03279 Lip_A_acyltrans > GO:transferase activity, transferring acyl groups ; GO:0016746
 Pfam:PF03279 Lip_A_acyltrans > GO:lipopolysaccharide core region biosynthetic process ; GO:0009244
@@ -5052,6 +5058,7 @@ Pfam:PF03352 Adenine_glyco > GO:DNA-3-methyladenine glycosylase activity ; GO:00
 Pfam:PF03352 Adenine_glyco > GO:base-excision repair ; GO:0006284
 Pfam:PF03355 Pox_TAP > GO:regulation of transcription, DNA-dependent ; GO:0006355
 Pfam:PF03357 Snf7 > GO:protein transport ; GO:0015031
+Pfam:PF03358 FMN_red > GO:oxidoreductase activity ; GO:0016491
 Pfam:PF03359 GKAP > GO:cell-cell signaling ; GO:0007267
 Pfam:PF03360 Glyco_transf_43 > GO:galactosylgalactosylxylosylprotein 3-beta-glucuronosyltransferase activity ; GO:0015018
 Pfam:PF03360 Glyco_transf_43 > GO:membrane ; GO:0016020
@@ -9296,7 +9303,6 @@ Pfam:PF09030 Creb_binding > GO:histone acetylation ; GO:0016573
 Pfam:PF09030 Creb_binding > GO:histone acetyltransferase complex ; GO:0000123
 Pfam:PF09030 Creb_binding > GO:nucleus ; GO:0005634
 Pfam:PF09034 TRADD_N > GO:signal transducer activity ; GO:0004871
-Pfam:PF09034 TRADD_N > GO:induction of apoptosis ; GO:0006917
 Pfam:PF09034 TRADD_N > GO:positive regulation of I-kappaB kinase/NF-kappaB cascade ; GO:0043123
 Pfam:PF09034 TRADD_N > GO:cytoplasm ; GO:0005737
 Pfam:PF09036 Bcr-Abl_Oligo > GO:protein serine/threonine kinase activity ; GO:0004674
@@ -9313,7 +9319,6 @@ Pfam:PF09048 Cro > GO:regulation of transcription, DNA-dependent ; GO:0006355
 Pfam:PF09055 Sod_Ni > GO:superoxide dismutase activity ; GO:0004784
 Pfam:PF09055 Sod_Ni > GO:nickel cation binding ; GO:0016151
 Pfam:PF09055 Sod_Ni > GO:antioxidant activity ; GO:0016209
-Pfam:PF09057 Smac_DIABLO > GO:induction of apoptosis ; GO:0006917
 Pfam:PF09057 Smac_DIABLO > GO:activation of cysteine-type endopeptidase activity involved in apoptotic process ; GO:0006919
 Pfam:PF09057 Smac_DIABLO > GO:mitochondrion ; GO:0005739
 Pfam:PF09061 Stirrup > GO:hydrolase activity, acting on ester bonds ; GO:0016788
@@ -9670,6 +9675,9 @@ Pfam:PF09520 RE_TdeIII > GO:DNA restriction-modification system ; GO:0009307
 Pfam:PF09521 RE_NgoPII > GO:DNA binding ; GO:0003677
 Pfam:PF09521 RE_NgoPII > GO:Type II site-specific deoxyribonuclease activity ; GO:0009036
 Pfam:PF09521 RE_NgoPII > GO:DNA restriction-modification system ; GO:0009307
+Pfam:PF09547 Spore_IV_A > GO:ATP binding ; GO:0005524
+Pfam:PF09547 Spore_IV_A > GO:ATPase activity ; GO:0016887
+Pfam:PF09547 Spore_IV_A > GO:sporulation ; GO:0043934
 Pfam:PF09553 RE_Eco47II > GO:DNA binding ; GO:0003677
 Pfam:PF09553 RE_Eco47II > GO:Type II site-specific deoxyribonuclease activity ; GO:0009036
 Pfam:PF09553 RE_Eco47II > GO:DNA restriction-modification system ; GO:0009307
@@ -9864,7 +9872,6 @@ Pfam:PF10557 Cullin_Nedd8 > GO:ubiquitin-dependent protein catabolic process ; G
 Pfam:PF10557 Cullin_Nedd8 > GO:cullin-RING ubiquitin ligase complex ; GO:0031461
 Pfam:PF10568 Tom37 > GO:protein targeting to mitochondrion ; GO:0006626
 Pfam:PF10568 Tom37 > GO:mitochondrial outer membrane ; GO:0005741
-Pfam:PF10576 EndIII_4Fe-2S > GO:endonuclease activity ; GO:0004519
 Pfam:PF10576 EndIII_4Fe-2S > GO:4 iron, 4 sulfur cluster binding ; GO:0051539
 Pfam:PF10579 Rapsyn_N > GO:zinc ion binding ; GO:0008270
 Pfam:PF10579 Rapsyn_N > GO:acetylcholine receptor binding ; GO:0033130
@@ -10098,7 +10105,6 @@ Pfam:PF12189 VirE1 > GO:protein folding ; GO:0006457
 Pfam:PF12189 VirE1 > GO:pathogenesis ; GO:0009405
 Pfam:PF12199 efb-c > GO:complement binding ; GO:0001848
 Pfam:PF12199 efb-c > GO:extracellular space ; GO:0005615
-Pfam:PF12201 bcl-2I13 > GO:induction of apoptosis ; GO:0006917
 Pfam:PF12231 Rif1_N > GO:telomere maintenance ; GO:0000723
 Pfam:PF12235 FXR1P_C > GO:RNA binding ; GO:0003723
 Pfam:PF12242 Eno-Rase_NADH_b > GO:oxidoreductase activity ; GO:0016491
@@ -10444,7 +10450,6 @@ Pfam:PF15127 DUF4565 > GO:protein kinase A regulatory subunit binding ; GO:00342
 Pfam:PF15138 Syncollin > GO:exocytosis ; GO:0006887
 Pfam:PF15138 Syncollin > GO:secretory granule membrane ; GO:0030667
 Pfam:PF15150 PMAIP1 > GO:release of cytochrome c from mitochondria ; GO:0001836
-Pfam:PF15150 PMAIP1 > GO:induction of apoptosis ; GO:0006917
 Pfam:PF15150 PMAIP1 > GO:activation of cysteine-type endopeptidase activity involved in apoptotic process ; GO:0006919
 Pfam:PF15150 PMAIP1 > GO:response to DNA damage stimulus ; GO:0006974
 Pfam:PF15170 CaM-KIIN > GO:protein kinase inhibitor activity ; GO:0004860

@@ -1,4 +1,4 @@
-!version date: 2013/09/07 11:43:08
+!version date: 2013/09/14 12:24:15
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -48,7 +48,6 @@ Pfam:PF00034 Cytochrom_C > GO:iron ion binding ; GO:0005506
 Pfam:PF00034 Cytochrom_C > GO:electron carrier activity ; GO:0009055
 Pfam:PF00034 Cytochrom_C > GO:heme binding ; GO:0020037
 Pfam:PF00036 EF-hand_1 > GO:calcium ion binding ; GO:0005509
-Pfam:PF00037 Fer4 > GO:electron carrier activity ; GO:0009055
 Pfam:PF00037 Fer4 > GO:iron-sulfur cluster binding ; GO:0051536
 Pfam:PF00038 Filament > GO:structural molecule activity ; GO:0005198
 Pfam:PF00038 Filament > GO:intermediate filament ; GO:0005882
@@ -85,7 +84,6 @@ Pfam:PF00064 Neur > GO:virion membrane ; GO:0055036
 Pfam:PF00066 Notch > GO:cell differentiation ; GO:0030154
 Pfam:PF00066 Notch > GO:membrane ; GO:0016020
 Pfam:PF00067 p450 > GO:iron ion binding ; GO:0005506
-Pfam:PF00067 p450 > GO:electron carrier activity ; GO:0009055
 Pfam:PF00067 p450 > GO:oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen ; GO:0016705
 Pfam:PF00067 p450 > GO:heme binding ; GO:0020037
 Pfam:PF00067 p450 > GO:oxidation-reduction process ; GO:0055114
@@ -2839,7 +2837,6 @@ Pfam:PF01599 Ribosomal_S27 > GO:intracellular ; GO:0005622
 Pfam:PF01599 Ribosomal_S27 > GO:ribosome ; GO:0005840
 Pfam:PF01600 Corona_S1 > GO:viral entry into host cell via membrane fusion with the plasma membrane ; GO:0019064
 Pfam:PF01600 Corona_S1 > GO:membrane ; GO:0016020
-Pfam:PF01601 Corona_S2 > GO:cellular membrane fusion ; GO:0006944
 Pfam:PF01601 Corona_S2 > GO:virion attachment, binding of host cell surface receptor ; GO:0046813
 Pfam:PF01601 Corona_S2 > GO:integral to membrane ; GO:0016021
 Pfam:PF01601 Corona_S2 > GO:viral envelope ; GO:0019031
@@ -3921,7 +3918,7 @@ Pfam:PF02395 Peptidase_S6 > GO:proteolysis ; GO:0006508
 Pfam:PF02399 Herpes_ori_bp > GO:DNA replication origin binding ; GO:0003688
 Pfam:PF02399 Herpes_ori_bp > GO:ATP binding ; GO:0005524
 Pfam:PF02399 Herpes_ori_bp > GO:DNA replication ; GO:0006260
-Pfam:PF02401 LYTB > GO:isopentenyl diphosphate biosynthetic process, mevalonate-independent pathway ; GO:0019288
+Pfam:PF02401 LYTB > GO:isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway ; GO:0019288
 Pfam:PF02401 LYTB > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF02402 Lysis_col > GO:pathogenesis ; GO:0009405
 Pfam:PF02402 Lysis_col > GO:cytolysis ; GO:0019835
@@ -6044,7 +6041,6 @@ Pfam:PF04451 Capsid_NCLDV > GO:viral capsid ; GO:0019028
 Pfam:PF04452 Methyltrans_RNA > GO:methyltransferase activity ; GO:0008168
 Pfam:PF04452 Methyltrans_RNA > GO:rRNA processing ; GO:0006364
 Pfam:PF04453 OstA_C > GO:response to organic substance ; GO:0010033
-Pfam:PF04453 OstA_C > GO:cellular membrane organization ; GO:0016044
 Pfam:PF04453 OstA_C > GO:outer membrane ; GO:0019867
 Pfam:PF04454 Linocin_M18 > GO:peptidase activity ; GO:0008233
 Pfam:PF04454 Linocin_M18 > GO:defense response to bacterium ; GO:0042742
@@ -7577,6 +7573,7 @@ Pfam:PF06351 Allene_ox_cyc > GO:isomerase activity ; GO:0016853
 Pfam:PF06351 Allene_ox_cyc > GO:chloroplast ; GO:0009507
 Pfam:PF06355 Aegerolysin > GO:hemolysis by symbiont of host erythrocytes ; GO:0019836
 Pfam:PF06357 Omega-toxin > GO:calcium channel inhibitor activity ; GO:0019855
+Pfam:PF06357 Omega-toxin > GO:defense response ; GO:0006952
 Pfam:PF06357 Omega-toxin > GO:pathogenesis ; GO:0009405
 Pfam:PF06357 Omega-toxin > GO:extracellular region ; GO:0005576
 Pfam:PF06363 Picorna_P3A > GO:virion ; GO:0019012
@@ -8163,7 +8160,6 @@ Pfam:PF07347 CI-B14_5a > GO:mitochondrial inner membrane ; GO:0005743
 Pfam:PF07348 Syd > GO:internal side of plasma membrane ; GO:0009898
 Pfam:PF07352 Phage_Mu_Gam > GO:double-stranded DNA binding ; GO:0003690
 Pfam:PF07352 Phage_Mu_Gam > GO:DNA protection ; GO:0042262
-Pfam:PF07353 Uroplakin_II > GO:cellular membrane organization ; GO:0016044
 Pfam:PF07353 Uroplakin_II > GO:integral to endoplasmic reticulum membrane ; GO:0030176
 Pfam:PF07354 Sp38 > GO:binding of sperm to zona pellucida ; GO:0007339
 Pfam:PF07354 Sp38 > GO:extracellular region ; GO:0005576
@@ -8475,8 +8471,6 @@ Pfam:PF07837 FTCD_N > GO:transferase activity ; GO:0016740
 Pfam:PF07837 FTCD_N > GO:metabolic process ; GO:0008152
 Pfam:PF07839 CaM_binding > GO:calmodulin binding ; GO:0005516
 Pfam:PF07840 FadR_C > GO:fatty-acyl-CoA binding ; GO:0000062
-Pfam:PF07840 FadR_C > GO:DNA binding ; GO:0003677
-Pfam:PF07840 FadR_C > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 Pfam:PF07840 FadR_C > GO:regulation of fatty acid metabolic process ; GO:0019217
 Pfam:PF07842 GCFC > GO:DNA binding ; GO:0003677
 Pfam:PF07842 GCFC > GO:regulation of transcription, DNA-dependent ; GO:0006355
@@ -9303,8 +9297,8 @@ Pfam:PF09030 Creb_binding > GO:histone acetylation ; GO:0016573
 Pfam:PF09030 Creb_binding > GO:histone acetyltransferase complex ; GO:0000123
 Pfam:PF09030 Creb_binding > GO:nucleus ; GO:0005634
 Pfam:PF09034 TRADD_N > GO:signal transducer activity ; GO:0004871
+Pfam:PF09034 TRADD_N > GO:protein binding ; GO:0005515
 Pfam:PF09034 TRADD_N > GO:positive regulation of I-kappaB kinase/NF-kappaB cascade ; GO:0043123
-Pfam:PF09034 TRADD_N > GO:cytoplasm ; GO:0005737
 Pfam:PF09036 Bcr-Abl_Oligo > GO:protein serine/threonine kinase activity ; GO:0004674
 Pfam:PF09036 Bcr-Abl_Oligo > GO:GTPase activator activity ; GO:0005096
 Pfam:PF09036 Bcr-Abl_Oligo > GO:protein phosphorylation ; GO:0006468
@@ -9319,6 +9313,7 @@ Pfam:PF09048 Cro > GO:regulation of transcription, DNA-dependent ; GO:0006355
 Pfam:PF09055 Sod_Ni > GO:superoxide dismutase activity ; GO:0004784
 Pfam:PF09055 Sod_Ni > GO:nickel cation binding ; GO:0016151
 Pfam:PF09055 Sod_Ni > GO:antioxidant activity ; GO:0016209
+Pfam:PF09057 Smac_DIABLO > GO:apoptotic process ; GO:0006915
 Pfam:PF09057 Smac_DIABLO > GO:activation of cysteine-type endopeptidase activity involved in apoptotic process ; GO:0006919
 Pfam:PF09057 Smac_DIABLO > GO:mitochondrion ; GO:0005739
 Pfam:PF09061 Stirrup > GO:hydrolase activity, acting on ester bonds ; GO:0016788
@@ -10105,6 +10100,7 @@ Pfam:PF12189 VirE1 > GO:protein folding ; GO:0006457
 Pfam:PF12189 VirE1 > GO:pathogenesis ; GO:0009405
 Pfam:PF12199 efb-c > GO:complement binding ; GO:0001848
 Pfam:PF12199 efb-c > GO:extracellular space ; GO:0005615
+Pfam:PF12201 bcl-2I13 > GO:apoptotic process ; GO:0006915
 Pfam:PF12231 Rif1_N > GO:telomere maintenance ; GO:0000723
 Pfam:PF12235 FXR1P_C > GO:RNA binding ; GO:0003723
 Pfam:PF12242 Eno-Rase_NADH_b > GO:oxidoreductase activity ; GO:0016491
@@ -10203,13 +10199,9 @@ Pfam:PF12761 End3 > GO:endocytosis ; GO:0006897
 Pfam:PF12761 End3 > GO:actin filament organization ; GO:0007015
 Pfam:PF12766 Pyridox_oxase_2 > GO:FMN binding ; GO:0010181
 Pfam:PF12767 SAGA-Tad1 > GO:SAGA-type complex ; GO:0070461
-Pfam:PF12797 Fer4_2 > GO:electron carrier activity ; GO:0009055
 Pfam:PF12797 Fer4_2 > GO:iron-sulfur cluster binding ; GO:0051536
-Pfam:PF12798 Fer4_3 > GO:electron carrier activity ; GO:0009055
 Pfam:PF12798 Fer4_3 > GO:iron-sulfur cluster binding ; GO:0051536
-Pfam:PF12800 Fer4_4 > GO:electron carrier activity ; GO:0009055
 Pfam:PF12800 Fer4_4 > GO:iron-sulfur cluster binding ; GO:0051536
-Pfam:PF12801 Fer4_5 > GO:electron carrier activity ; GO:0009055
 Pfam:PF12801 Fer4_5 > GO:iron-sulfur cluster binding ; GO:0051536
 Pfam:PF12814 Mcp5_PH > GO:protein binding ; GO:0005515
 Pfam:PF12814 Mcp5_PH > GO:phospholipid binding ; GO:0005543
@@ -10219,9 +10211,7 @@ Pfam:PF12822 DUF3816 > GO:transporter activity ; GO:0005215
 Pfam:PF12833 HTH_18 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 Pfam:PF12833 HTH_18 > GO:sequence-specific DNA binding ; GO:0043565
 Pfam:PF12833 HTH_18 > GO:regulation of transcription, DNA-dependent ; GO:0006355
-Pfam:PF12837 Fer4_6 > GO:electron carrier activity ; GO:0009055
 Pfam:PF12837 Fer4_6 > GO:iron-sulfur cluster binding ; GO:0051536
-Pfam:PF12838 Fer4_7 > GO:electron carrier activity ; GO:0009055
 Pfam:PF12838 Fer4_7 > GO:iron-sulfur cluster binding ; GO:0051536
 Pfam:PF12859 Apc1 > GO:anaphase-promoting complex ; GO:0005680
 Pfam:PF12861 zf-Apc11 > GO:ubiquitin-protein ligase activity ; GO:0004842
@@ -10450,6 +10440,7 @@ Pfam:PF15127 DUF4565 > GO:protein kinase A regulatory subunit binding ; GO:00342
 Pfam:PF15138 Syncollin > GO:exocytosis ; GO:0006887
 Pfam:PF15138 Syncollin > GO:secretory granule membrane ; GO:0030667
 Pfam:PF15150 PMAIP1 > GO:release of cytochrome c from mitochondria ; GO:0001836
+Pfam:PF15150 PMAIP1 > GO:apoptotic process ; GO:0006915
 Pfam:PF15150 PMAIP1 > GO:activation of cysteine-type endopeptidase activity involved in apoptotic process ; GO:0006919
 Pfam:PF15150 PMAIP1 > GO:response to DNA damage stimulus ; GO:0006974
 Pfam:PF15170 CaM-KIIN > GO:protein kinase inhibitor activity ; GO:0004860

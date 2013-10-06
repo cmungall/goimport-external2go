@@ -1,4 +1,4 @@
-!version date: 2013/09/28 10:54:01
+!version date: 2013/10/05 11:04:52
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -273,8 +273,6 @@ Pfam:PF00166 Cpn10 > GO:protein folding ; GO:0006457
 Pfam:PF00166 Cpn10 > GO:cytoplasm ; GO:0005737
 Pfam:PF00167 FGF > GO:growth factor activity ; GO:0008083
 Pfam:PF00168 C2 > GO:protein binding ; GO:0005515
-Pfam:PF00169 PH > GO:protein binding ; GO:0005515
-Pfam:PF00169 PH > GO:phospholipid binding ; GO:0005543
 Pfam:PF00170 bZIP_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 Pfam:PF00170 bZIP_1 > GO:sequence-specific DNA binding ; GO:0043565
 Pfam:PF00170 bZIP_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
@@ -1303,7 +1301,6 @@ Pfam:PF00728 Glyco_hydro_20 > GO:carbohydrate metabolic process ; GO:0005975
 Pfam:PF00729 Viral_coat > GO:structural molecule activity ; GO:0005198
 Pfam:PF00729 Viral_coat > GO:viral capsid ; GO:0019028
 Pfam:PF00730 HhH-GPD > GO:base-excision repair ; GO:0006284
-Pfam:PF00731 AIRC > GO:5-(carboxyamino)imidazole ribonucleotide mutase activity ; GO:0034023
 Pfam:PF00731 AIRC > GO:'de novo' IMP biosynthetic process ; GO:0006189
 Pfam:PF00732 GMC_oxred_N > GO:oxidoreductase activity, acting on CH-OH group of donors ; GO:0016614
 Pfam:PF00732 GMC_oxred_N > GO:flavin adenine dinucleotide binding ; GO:0050660
@@ -3651,7 +3648,7 @@ Pfam:PF02216 B > GO:immunoglobulin binding ; GO:0019865
 Pfam:PF02216 B > GO:pathogenesis ; GO:0009405
 Pfam:PF02217 T_Ag_DNA_bind > GO:DNA replication origin binding ; GO:0003688
 Pfam:PF02217 T_Ag_DNA_bind > GO:DNA replication ; GO:0006260
-Pfam:PF02219 MTHFR > GO:methylenetetrahydrofolate reductase (NADPH) activity ; GO:0004489
+Pfam:PF02219 MTHFR > GO:methylenetetrahydrofolate reductase (NAD(P)H) activity ; GO:0004489
 Pfam:PF02219 MTHFR > GO:methionine metabolic process ; GO:0006555
 Pfam:PF02219 MTHFR > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF02224 Cytidylate_kin > GO:cytidylate kinase activity ; GO:0004127
@@ -4448,6 +4445,7 @@ Pfam:PF02826 2-Hacid_dh_C > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF02827 PKI > GO:cAMP-dependent protein kinase inhibitor activity ; GO:0004862
 Pfam:PF02827 PKI > GO:negative regulation of protein kinase activity ; GO:0006469
 Pfam:PF02829 3H > GO:small molecule binding ; GO:0036094
+Pfam:PF02831 gpW > GO:viral life cycle ; GO:0019058
 Pfam:PF02833 DHHA2 > GO:pyrophosphatase activity ; GO:0016462
 Pfam:PF02833 DHHA2 > GO:cytoplasm ; GO:0005737
 Pfam:PF02836 Glyco_hydro_2_C > GO:hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553
@@ -4623,7 +4621,7 @@ Pfam:PF02939 UcrQ > GO:ubiquinol-cytochrome-c reductase activity ; GO:0008121
 Pfam:PF02940 mRNA_triPase > GO:polynucleotide 5'-phosphatase activity ; GO:0004651
 Pfam:PF02940 mRNA_triPase > GO:transferase activity ; GO:0016740
 Pfam:PF02941 FeThRed_A > GO:photosynthesis ; GO:0015979
-Pfam:PF02943 FeThRed_B > GO:ferredoxin-NAD(P) reductase activity ; GO:0008937
+Pfam:PF02943 FeThRed_B > GO:oxidoreductase activity, acting on iron-sulfur proteins as donors ; GO:0016730
 Pfam:PF02943 FeThRed_B > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF02944 BESS > GO:DNA binding ; GO:0003677
 Pfam:PF02947 Flt3_lig > GO:cytokine activity ; GO:0005125
@@ -4970,9 +4968,7 @@ Pfam:PF03261 CDK5_activator > GO:cyclin-dependent protein kinase 5 activator act
 Pfam:PF03261 CDK5_activator > GO:cyclin-dependent protein kinase 5 holoenzyme complex ; GO:0016533
 Pfam:PF03265 DNase_II > GO:deoxyribonuclease II activity ; GO:0004531
 Pfam:PF03265 DNase_II > GO:DNA metabolic process ; GO:0006259
-Pfam:PF03266 NTPase_1 > GO:ATP binding ; GO:0005524
-Pfam:PF03266 NTPase_1 > GO:transferase activity ; GO:0016740
-Pfam:PF03266 NTPase_1 > GO:nucleotide phosphatase activity ; GO:0019204
+Pfam:PF03266 NTPase_1 > GO:nucleotide phosphatase activity ; GO:0098519
 Pfam:PF03271 EB1 > GO:microtubule binding ; GO:0008017
 Pfam:PF03272 Enhancin > GO:viral process ; GO:0016032
 Pfam:PF03273 Baculo_gp64 > GO:modulation by virus of host morphology or physiology ; GO:0019048
@@ -5107,6 +5103,7 @@ Pfam:PF03405 FA_desaturase_2 > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF03408 Foamy_virus_ENV > GO:viral envelope ; GO:0019031
 Pfam:PF03410 Peptidase_M44 > GO:metalloendopeptidase activity ; GO:0004222
 Pfam:PF03410 Peptidase_M44 > GO:zinc ion binding ; GO:0008270
+Pfam:PF03410 Peptidase_M44 > GO:viral life cycle ; GO:0019058
 Pfam:PF03411 Peptidase_M74 > GO:serine-type endopeptidase activity ; GO:0004252
 Pfam:PF03411 Peptidase_M74 > GO:proteolysis ; GO:0006508
 Pfam:PF03411 Peptidase_M74 > GO:outer membrane-bounded periplasmic space ; GO:0030288
@@ -6086,6 +6083,7 @@ Pfam:PF04522 DUF585 > GO:RNA binding ; GO:0003723
 Pfam:PF04522 DUF585 > GO:RNA-directed RNA polymerase activity ; GO:0003968
 Pfam:PF04522 DUF585 > GO:transcription, DNA-dependent ; GO:0006351
 Pfam:PF04523 Herpes_U30 > GO:virion assembly ; GO:0019068
+Pfam:PF04537 Herpes_UL55 > GO:viral life cycle ; GO:0019058
 Pfam:PF04539 Sigma70_r3 > GO:DNA binding ; GO:0003677
 Pfam:PF04539 Sigma70_r3 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 Pfam:PF04539 Sigma70_r3 > GO:sigma factor activity ; GO:0016987
@@ -6096,6 +6094,7 @@ Pfam:PF04542 Sigma70_r2 > GO:sequence-specific DNA binding transcription factor 
 Pfam:PF04542 Sigma70_r2 > GO:sigma factor activity ; GO:0016987
 Pfam:PF04542 Sigma70_r2 > GO:DNA-dependent transcription, initiation ; GO:0006352
 Pfam:PF04542 Sigma70_r2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+Pfam:PF04544 Herpes_UL20 > GO:viral life cycle ; GO:0019058
 Pfam:PF04545 Sigma70_r4 > GO:DNA binding ; GO:0003677
 Pfam:PF04545 Sigma70_r4 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 Pfam:PF04545 Sigma70_r4 > GO:sigma factor activity ; GO:0016987
@@ -10061,6 +10060,8 @@ Pfam:PF12052 VGCC_beta4Aa_N > GO:voltage-gated calcium channel complex ; GO:0005
 Pfam:PF12062 HSNSD > GO:[heparan sulfate]-glucosamine N-sulfotransferase activity ; GO:0015016
 Pfam:PF12062 HSNSD > GO:hydrolase activity ; GO:0016787
 Pfam:PF12063 DUF3543 > GO:protein serine/threonine kinase activity ; GO:0004674
+Pfam:PF12070 DUF3550 > GO:transcription corepressor activity ; GO:0003714
+Pfam:PF12070 DUF3550 > GO:transcription, DNA-dependent ; GO:0006351
 Pfam:PF12090 Spt20 > GO:transcription cofactor activity ; GO:0003712
 Pfam:PF12090 Spt20 > GO:SAGA complex ; GO:0000124
 Pfam:PF12105 SpoU_methylas_C > GO:tRNA (guanosine-2'-O-)-methyltransferase activity ; GO:0009020

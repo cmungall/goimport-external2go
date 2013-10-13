@@ -1,4 +1,4 @@
-!version date: 2013/10/05 11:04:52
+!version date: 2013/10/12 14:42:57
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -2211,8 +2211,6 @@ Pfam:PF01241 PSI_PSAK > GO:membrane ; GO:0016020
 Pfam:PF01243 Pyridox_oxidase > GO:pyridoxamine-phosphate oxidase activity ; GO:0004733
 Pfam:PF01243 Pyridox_oxidase > GO:FMN binding ; GO:0010181
 Pfam:PF01243 Pyridox_oxidase > GO:oxidation-reduction process ; GO:0055114
-Pfam:PF01244 Peptidase_M19 > GO:metalloexopeptidase activity ; GO:0008235
-Pfam:PF01244 Peptidase_M19 > GO:dipeptidyl-peptidase activity ; GO:0008239
 Pfam:PF01244 Peptidase_M19 > GO:dipeptidase activity ; GO:0016805
 Pfam:PF01244 Peptidase_M19 > GO:proteolysis ; GO:0006508
 Pfam:PF01245 Ribosomal_L19 > GO:structural constituent of ribosome ; GO:0003735
@@ -4968,7 +4966,7 @@ Pfam:PF03261 CDK5_activator > GO:cyclin-dependent protein kinase 5 activator act
 Pfam:PF03261 CDK5_activator > GO:cyclin-dependent protein kinase 5 holoenzyme complex ; GO:0016533
 Pfam:PF03265 DNase_II > GO:deoxyribonuclease II activity ; GO:0004531
 Pfam:PF03265 DNase_II > GO:DNA metabolic process ; GO:0006259
-Pfam:PF03266 NTPase_1 > GO:nucleotide phosphatase activity ; GO:0098519
+Pfam:PF03266 NTPase_1 > GO:nucleotide phosphatase activity, acting on free nucleotides ; GO:0098519
 Pfam:PF03271 EB1 > GO:microtubule binding ; GO:0008017
 Pfam:PF03272 Enhancin > GO:viral process ; GO:0016032
 Pfam:PF03273 Baculo_gp64 > GO:modulation by virus of host morphology or physiology ; GO:0019048
@@ -4978,7 +4976,7 @@ Pfam:PF03274 Foamy_BEL > GO:positive regulation of transcription, DNA-dependent 
 Pfam:PF03275 GLF > GO:UDP-galactopyranose mutase activity ; GO:0008767
 Pfam:PF03276 Gag_spuma > GO:viral release from host cell ; GO:0019076
 Pfam:PF03276 Gag_spuma > GO:viral entry into host cell ; GO:0046718
-Pfam:PF03276 Gag_spuma > GO:microtubule-dependent intracellular transport of viral material to nucleus ; GO:0075521
+Pfam:PF03276 Gag_spuma > GO:microtubule-dependent intracellular transport of viral material towards nucleus ; GO:0075521
 Pfam:PF03276 Gag_spuma > GO:viral capsid ; GO:0019028
 Pfam:PF03276 Gag_spuma > GO:host cell cytoplasm ; GO:0030430
 Pfam:PF03276 Gag_spuma > GO:host cell nucleus ; GO:0042025
@@ -7197,6 +7195,8 @@ Pfam:PF05778 Apo-CIII > GO:lipoprotein metabolic process ; GO:0042157
 Pfam:PF05778 Apo-CIII > GO:extracellular region ; GO:0005576
 Pfam:PF05782 ECM1 > GO:extracellular region ; GO:0005576
 Pfam:PF05784 Herpes_UL82_83 > GO:pathogenesis ; GO:0009405
+Pfam:PF05786 Cnd2 > GO:mitotic chromosome condensation ; GO:0007076
+Pfam:PF05786 Cnd2 > GO:condensin complex ; GO:0000796
 Pfam:PF05788 Orbi_VP1 > GO:RNA binding ; GO:0003723
 Pfam:PF05788 Orbi_VP1 > GO:RNA-directed RNA polymerase activity ; GO:0003968
 Pfam:PF05788 Orbi_VP1 > GO:transcription, DNA-dependent ; GO:0006351
@@ -7832,7 +7832,7 @@ Pfam:PF06616 BsuBI_PstI_RE > GO:DNA binding ; GO:0003677
 Pfam:PF06616 BsuBI_PstI_RE > GO:Type II site-specific deoxyribonuclease activity ; GO:0009036
 Pfam:PF06616 BsuBI_PstI_RE > GO:DNA restriction-modification system ; GO:0009307
 Pfam:PF06617 M-inducer_phosp > GO:protein tyrosine phosphatase activity ; GO:0004725
-Pfam:PF06617 M-inducer_phosp > GO:M phase of mitotic cell cycle ; GO:0000087
+Pfam:PF06617 M-inducer_phosp > GO:mitotic M phase ; GO:0000087
 Pfam:PF06617 M-inducer_phosp > GO:protein dephosphorylation ; GO:0006470
 Pfam:PF06617 M-inducer_phosp > GO:intracellular ; GO:0005622
 Pfam:PF06621 SIM_C > GO:DNA binding ; GO:0003677

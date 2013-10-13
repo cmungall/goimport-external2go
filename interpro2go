@@ -1,4 +1,4 @@
-!version date: 2013/10/05 11:04:57
+!version date: 2013/10/12 14:42:57
 !description: Mapping of GO terms to InterPro entries.
 !external resource: http://www.ebi.ac.uk/interpro
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -308,10 +308,10 @@ InterPro:IPR000178 Translation initiation factor aIF-2, bacterial-like > GO:tran
 InterPro:IPR000178 Translation initiation factor aIF-2, bacterial-like > GO:GTP binding ; GO:0005525
 InterPro:IPR000178 Translation initiation factor aIF-2, bacterial-like > GO:translational initiation ; GO:0006413
 InterPro:IPR000178 Translation initiation factor aIF-2, bacterial-like > GO:intracellular ; GO:0005622
-InterPro:IPR000180 Peptidase M19, renal dipeptidase, active site > GO:metalloexopeptidase activity ; GO:0008235
-InterPro:IPR000180 Peptidase M19, renal dipeptidase, active site > GO:dipeptidyl-peptidase activity ; GO:0008239
-InterPro:IPR000180 Peptidase M19, renal dipeptidase, active site > GO:dipeptidase activity ; GO:0016805
-InterPro:IPR000180 Peptidase M19, renal dipeptidase, active site > GO:proteolysis ; GO:0006508
+InterPro:IPR000180 Renal dipeptidase, active site > GO:metalloexopeptidase activity ; GO:0008235
+InterPro:IPR000180 Renal dipeptidase, active site > GO:dipeptidyl-peptidase activity ; GO:0008239
+InterPro:IPR000180 Renal dipeptidase, active site > GO:dipeptidase activity ; GO:0016805
+InterPro:IPR000180 Renal dipeptidase, active site > GO:proteolysis ; GO:0006508
 InterPro:IPR000181 Formylmethionine deformylase > GO:iron ion binding ; GO:0005506
 InterPro:IPR000181 Formylmethionine deformylase > GO:peptide deformylase activity ; GO:0042586
 InterPro:IPR000182 GNAT domain > GO:N-acetyltransferase activity ; GO:0008080
@@ -1412,7 +1412,7 @@ InterPro:IPR000748 Pseudouridine synthase, RsuA/RluB/E/F > GO:RNA modification ;
 InterPro:IPR000749 ATP:guanido phosphotransferase > GO:transferase activity, transferring phosphorus-containing groups ; GO:0016772
 InterPro:IPR000750 Proenkephalin B > GO:neuropeptide signaling pathway ; GO:0007218
 InterPro:IPR000751 M-phase inducer phosphatase > GO:protein tyrosine phosphatase activity ; GO:0004725
-InterPro:IPR000751 M-phase inducer phosphatase > GO:M phase of mitotic cell cycle ; GO:0000087
+InterPro:IPR000751 M-phase inducer phosphatase > GO:mitotic M phase ; GO:0000087
 InterPro:IPR000751 M-phase inducer phosphatase > GO:protein dephosphorylation ; GO:0006470
 InterPro:IPR000751 M-phase inducer phosphatase > GO:intracellular ; GO:0005622
 InterPro:IPR000752 Flavivirus non-structural protein NS2A > GO:double-stranded RNA binding ; GO:0003725
@@ -1780,9 +1780,9 @@ InterPro:IPR000943 RNA polymerase sigma-70 > GO:sequence-specific DNA binding tr
 InterPro:IPR000943 RNA polymerase sigma-70 > GO:sigma factor activity ; GO:0016987
 InterPro:IPR000943 RNA polymerase sigma-70 > GO:DNA-dependent transcription, initiation ; GO:0006352
 InterPro:IPR000943 RNA polymerase sigma-70 > GO:regulation of transcription, DNA-dependent ; GO:0006355
-InterPro:IPR000945 Dopamine-beta-monooxygenase > GO:dopamine beta-monooxygenase activity ; GO:0004500
-InterPro:IPR000945 Dopamine-beta-monooxygenase > GO:catecholamine metabolic process ; GO:0006584
-InterPro:IPR000945 Dopamine-beta-monooxygenase > GO:oxidation-reduction process ; GO:0055114
+InterPro:IPR000945 Dopamine beta-hydroxylase-related > GO:dopamine beta-monooxygenase activity ; GO:0004500
+InterPro:IPR000945 Dopamine beta-hydroxylase-related > GO:catecholamine metabolic process ; GO:0006584
+InterPro:IPR000945 Dopamine beta-hydroxylase-related > GO:oxidation-reduction process ; GO:0055114
 InterPro:IPR000948 Ribosomal protein L7Ae, prokaryotes > GO:structural constituent of ribosome ; GO:0003735
 InterPro:IPR000948 Ribosomal protein L7Ae, prokaryotes > GO:translation ; GO:0006412
 InterPro:IPR000948 Ribosomal protein L7Ae, prokaryotes > GO:intracellular ; GO:0005622
@@ -3782,7 +3782,7 @@ InterPro:IPR001970 Na+/H+ exchanger, isoform 1 (NHE1) > GO:integral to membrane 
 InterPro:IPR001971 Ribosomal protein S11 > GO:structural constituent of ribosome ; GO:0003735
 InterPro:IPR001971 Ribosomal protein S11 > GO:translation ; GO:0006412
 InterPro:IPR001971 Ribosomal protein S11 > GO:ribosome ; GO:0005840
-InterPro:IPR001972 Stomatin > GO:membrane ; GO:0016020
+InterPro:IPR001972 Stomatin family > GO:membrane ; GO:0016020
 InterPro:IPR001973 P2Y6 purinoceptor > GO:G-protein coupled purinergic nucleotide receptor activity ; GO:0045028
 InterPro:IPR001973 P2Y6 purinoceptor > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 InterPro:IPR001973 P2Y6 purinoceptor > GO:integral to membrane ; GO:0016021
@@ -4860,9 +4860,9 @@ InterPro:IPR002471 Peptidase S9, serine active site > GO:serine-type endopeptida
 InterPro:IPR002471 Peptidase S9, serine active site > GO:proteolysis ; GO:0006508
 InterPro:IPR002472 Palmitoyl protein thioesterase > GO:palmitoyl-(protein) hydrolase activity ; GO:0008474
 InterPro:IPR002472 Palmitoyl protein thioesterase > GO:cellular protein modification process ; GO:0006464
-InterPro:IPR002473 CXC chemokine, interleukin 8 > GO:cytokine activity ; GO:0005125
-InterPro:IPR002473 CXC chemokine, interleukin 8 > GO:immune response ; GO:0006955
-InterPro:IPR002473 CXC chemokine, interleukin 8 > GO:extracellular region ; GO:0005576
+InterPro:IPR002473 CXC chemokine, interleukin 8-related > GO:cytokine activity ; GO:0005125
+InterPro:IPR002473 CXC chemokine, interleukin 8-related > GO:immune response ; GO:0006955
+InterPro:IPR002473 CXC chemokine, interleukin 8-related > GO:extracellular region ; GO:0005576
 InterPro:IPR002475 Bcl2-like > GO:regulation of apoptotic process ; GO:0042981
 InterPro:IPR002478 Pseudouridine synthase/archaeosine transglycosylase > GO:RNA binding ; GO:0003723
 InterPro:IPR002480 DAHP synthetase, class II > GO:3-deoxy-7-phosphoheptulonate synthase activity ; GO:0003849
@@ -8655,7 +8655,7 @@ InterPro:IPR004944 Cyclin-dependent kinase 5 activator > GO:cyclin-dependent pro
 InterPro:IPR004944 Cyclin-dependent kinase 5 activator > GO:cyclin-dependent protein kinase 5 holoenzyme complex ; GO:0016533
 InterPro:IPR004947 Deoxyribonuclease II > GO:deoxyribonuclease II activity ; GO:0004531
 InterPro:IPR004947 Deoxyribonuclease II > GO:DNA metabolic process ; GO:0006259
-InterPro:IPR004948 Nucleoside-triphosphatase, THEP1 type > GO:nucleotide phosphatase activity ; GO:0098519
+InterPro:IPR004948 Nucleoside-triphosphatase, THEP1 type > GO:nucleotide phosphatase activity, acting on free nucleotides ; GO:0098519
 InterPro:IPR004953 EB1, C-terminal > GO:microtubule binding ; GO:0008017
 InterPro:IPR004954 Peptidase M60, viral enhancin protein > GO:viral process ; GO:0016032
 InterPro:IPR004955 Baculovirus Gp64, envelope glycoprotein > GO:modulation by virus of host morphology or physiology ; GO:0019048
@@ -8664,7 +8664,7 @@ InterPro:IPR004956 Foamy virus BEL 1/2 protein > GO:viral process ; GO:0016032
 InterPro:IPR004956 Foamy virus BEL 1/2 protein > GO:positive regulation of transcription, DNA-dependent ; GO:0045893
 InterPro:IPR004957 Gag polyprotein > GO:viral release from host cell ; GO:0019076
 InterPro:IPR004957 Gag polyprotein > GO:viral entry into host cell ; GO:0046718
-InterPro:IPR004957 Gag polyprotein > GO:microtubule-dependent intracellular transport of viral material to nucleus ; GO:0075521
+InterPro:IPR004957 Gag polyprotein > GO:microtubule-dependent intracellular transport of viral material towards nucleus ; GO:0075521
 InterPro:IPR004957 Gag polyprotein > GO:viral capsid ; GO:0019028
 InterPro:IPR004957 Gag polyprotein > GO:host cell cytoplasm ; GO:0030430
 InterPro:IPR004957 Gag polyprotein > GO:host cell nucleus ; GO:0042025
@@ -11152,7 +11152,7 @@ InterPro:IPR006543 Histidinol-phosphate phosphatase > GO:phosphatase activity ; 
 InterPro:IPR006544 Cation-transporting P-type ATPase, subfamily  V > GO:ATPase activity ; GO:0016887
 InterPro:IPR006544 Cation-transporting P-type ATPase, subfamily  V > GO:cation transport ; GO:0006812
 InterPro:IPR006544 Cation-transporting P-type ATPase, subfamily  V > GO:integral to membrane ; GO:0016021
-InterPro:IPR006545 EYA > GO:multicellular organismal development ; GO:0007275
+InterPro:IPR006545 EYA domain > GO:multicellular organismal development ; GO:0007275
 InterPro:IPR006546 Sex-lethal splicing factor > GO:RNA binding ; GO:0003723
 InterPro:IPR006547 Nitrate reductase, beta subunit > GO:nitrate reductase activity ; GO:0008940
 InterPro:IPR006547 Nitrate reductase, beta subunit > GO:nitrate metabolic process ; GO:0042126
@@ -12798,10 +12798,8 @@ InterPro:IPR008255 Pyridine nucleotide-disulphide oxidoreductase, class-II, acti
 InterPro:IPR008255 Pyridine nucleotide-disulphide oxidoreductase, class-II, active site > GO:oxidation-reduction process ; GO:0055114
 InterPro:IPR008256 Peptidase S1B, glutamyl endopeptidase I > GO:serine-type peptidase activity ; GO:0008236
 InterPro:IPR008256 Peptidase S1B, glutamyl endopeptidase I > GO:proteolysis ; GO:0006508
-InterPro:IPR008257 Peptidase M19, renal dipeptidase > GO:metalloexopeptidase activity ; GO:0008235
-InterPro:IPR008257 Peptidase M19, renal dipeptidase > GO:dipeptidyl-peptidase activity ; GO:0008239
-InterPro:IPR008257 Peptidase M19, renal dipeptidase > GO:dipeptidase activity ; GO:0016805
-InterPro:IPR008257 Peptidase M19, renal dipeptidase > GO:proteolysis ; GO:0006508
+InterPro:IPR008257 Renal dipeptidase family > GO:dipeptidase activity ; GO:0016805
+InterPro:IPR008257 Renal dipeptidase family > GO:proteolysis ; GO:0006508
 InterPro:IPR008259 FMN-dependent alpha-hydroxy acid dehydrogenase, active site > GO:oxidoreductase activity ; GO:0016491
 InterPro:IPR008259 FMN-dependent alpha-hydroxy acid dehydrogenase, active site > GO:oxidation-reduction process ; GO:0055114
 InterPro:IPR008261 Iodothyronine deiodinase, active site > GO:thyroxine 5'-deiodinase activity ; GO:0004800
@@ -15423,7 +15421,6 @@ InterPro:IPR011302 ISC system FeS cluster assembly, IscA scaffold > GO:iron-sulf
 InterPro:IPR011303 Electron transport complex, RnfD > GO:electron transport chain ; GO:0022900
 InterPro:IPR011303 Electron transport complex, RnfD > GO:integral to membrane ; GO:0016021
 InterPro:IPR011304 L-lactate dehydrogenase > GO:L-lactate dehydrogenase activity ; GO:0004459
-InterPro:IPR011304 L-lactate dehydrogenase > GO:glycolysis ; GO:0006096
 InterPro:IPR011304 L-lactate dehydrogenase > GO:oxidation-reduction process ; GO:0055114
 InterPro:IPR011304 L-lactate dehydrogenase > GO:cytoplasm ; GO:0005737
 InterPro:IPR011307 Tetrahydromethanopterin S-methyltransferase, subunit F > GO:tetrahydromethanopterin S-methyltransferase activity ; GO:0030269
@@ -19233,6 +19230,9 @@ InterPro:IPR015452 Cyclin B3, G2/mitotic-specific > GO:regulation of G2/M transi
 InterPro:IPR015453 Cyclin A, G2/mitotic-specific > GO:protein kinase binding ; GO:0019901
 InterPro:IPR015453 Cyclin A, G2/mitotic-specific > GO:regulation of cyclin-dependent protein serine/threonine kinase activity ; GO:0000079
 InterPro:IPR015453 Cyclin A, G2/mitotic-specific > GO:regulation of G2/M transition of mitotic cell cycle ; GO:0010389
+InterPro:IPR015455 Thrombospondin-2 > GO:heparin binding ; GO:0008201
+InterPro:IPR015455 Thrombospondin-2 > GO:negative regulation of angiogenesis ; GO:0016525
+InterPro:IPR015455 Thrombospondin-2 > GO:extracellular matrix ; GO:0031012
 InterPro:IPR015459 Ubiquitin-protein ligase E3 MDM2 > GO:negative regulation of transcription from RNA polymerase II promoter ; GO:0000122
 InterPro:IPR015459 Ubiquitin-protein ligase E3 MDM2 > GO:protein ubiquitination ; GO:0016567
 InterPro:IPR015470 Caspase-3 > GO:cysteine-type endopeptidase activity ; GO:0004197
@@ -23792,6 +23792,8 @@ InterPro:IPR022804 Ribosomal protein L5, archaeal > GO:ribosome ; GO:0005840
 InterPro:IPR022805 Phosphoenolpyruvate carboxylase, bacterial/plant-type > GO:phosphoenolpyruvate carboxylase activity ; GO:0008964
 InterPro:IPR022805 Phosphoenolpyruvate carboxylase, bacterial/plant-type > GO:tricarboxylic acid cycle ; GO:0006099
 InterPro:IPR022805 Phosphoenolpyruvate carboxylase, bacterial/plant-type > GO:carbon fixation ; GO:0015977
+InterPro:IPR022816 Condensin complex subunit 2/barren > GO:mitotic chromosome condensation ; GO:0007076
+InterPro:IPR022816 Condensin complex subunit 2/barren > GO:condensin complex ; GO:0000796
 InterPro:IPR022826 3-deoxy-D-manno-octulosonic acid kinase > GO:phosphotransferase activity, alcohol group as acceptor ; GO:0016773
 InterPro:IPR022827 Phycoerythrobilin:ferredoxin oxidoreductase > GO:phycoerythrobilin:ferredoxin oxidoreductase activity ; GO:0050618
 InterPro:IPR022827 Phycoerythrobilin:ferredoxin oxidoreductase > GO:phytochromobilin biosynthetic process ; GO:0010024
@@ -24883,8 +24885,6 @@ InterPro:IPR024703 Fascin, metazoans > GO:protein binding, bridging ; GO:0030674
 InterPro:IPR024703 Fascin, metazoans > GO:actin filament binding ; GO:0051015
 InterPro:IPR024704 Structural maintenance of chromosomes protein > GO:DNA repair ; GO:0006281
 InterPro:IPR024704 Structural maintenance of chromosomes protein > GO:DNA recombination ; GO:0006310
-InterPro:IPR024704 Structural maintenance of chromosomes protein > GO:sister chromatid cohesion ; GO:0007062
-InterPro:IPR024704 Structural maintenance of chromosomes protein > GO:chromosome condensation ; GO:0030261
 InterPro:IPR024707 Ferredoxin-thioredoxin reductase, beta subunit > GO:oxidoreductase activity, acting on iron-sulfur proteins as donors ; GO:0016730
 InterPro:IPR024707 Ferredoxin-thioredoxin reductase, beta subunit > GO:oxidation-reduction process ; GO:0055114
 InterPro:IPR024708 Catalase active site > GO:catalase activity ; GO:0004096
@@ -27417,3 +27417,127 @@ InterPro:IPR028453 Allograft inflammatory factor 1-like > GO:actin filament bind
 InterPro:IPR028453 Allograft inflammatory factor 1-like > GO:inflammatory response ; GO:0006954
 InterPro:IPR028453 Allograft inflammatory factor 1-like > GO:ruffle assembly ; GO:0097178
 InterPro:IPR028458 Twinfilin > GO:actin binding ; GO:0003779
+InterPro:IPR028459 Tyrosine-protein kinase Fgr > GO:protein tyrosine kinase activity ; GO:0004713
+InterPro:IPR028459 Tyrosine-protein kinase Fgr > GO:innate immune response ; GO:0045087
+InterPro:IPR028460 Tyramine beta-hydroxylase > GO:oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced ascorbate as one donor, and incorporation of one atom of oxygen ; GO:0016715
+InterPro:IPR028461 Dopamine beta-hydroxylase > GO:dopamine beta-monooxygenase activity ; GO:0004500
+InterPro:IPR028461 Dopamine beta-hydroxylase > GO:synaptic transmission ; GO:0007268
+InterPro:IPR028461 Dopamine beta-hydroxylase > GO:dopamine catabolic process ; GO:0042420
+InterPro:IPR028461 Dopamine beta-hydroxylase > GO:norepinephrine biosynthetic process ; GO:0042421
+InterPro:IPR028461 Dopamine beta-hydroxylase > GO:glucose homeostasis ; GO:0042593
+InterPro:IPR028462 Desmoplakin > GO:cell adhesion molecule binding ; GO:0050839
+InterPro:IPR028462 Desmoplakin > GO:cell-cell adhesion ; GO:0016337
+InterPro:IPR028462 Desmoplakin > GO:cell junction ; GO:0030054
+InterPro:IPR028466 DNA topoisomerase II-alpha > GO:magnesium ion binding ; GO:0000287
+InterPro:IPR028466 DNA topoisomerase II-alpha > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
+InterPro:IPR028466 DNA topoisomerase II-alpha > GO:DNA binding, bending ; GO:0008301
+InterPro:IPR028466 DNA topoisomerase II-alpha > GO:DNA topological change ; GO:0006265
+InterPro:IPR028466 DNA topoisomerase II-alpha > GO:nucleus ; GO:0005634
+InterPro:IPR028467 DNA topoisomerase II-beta > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
+InterPro:IPR028467 DNA topoisomerase II-beta > GO:DNA binding, bending ; GO:0008301
+InterPro:IPR028467 DNA topoisomerase II-beta > GO:DNA topological change ; GO:0006265
+InterPro:IPR028469 Interleukin-8 > GO:interleukin-8 receptor binding ; GO:0005153
+InterPro:IPR028469 Interleukin-8 > GO:chemokine activity ; GO:0008009
+InterPro:IPR028469 Interleukin-8 > GO:neutrophil chemotaxis ; GO:0030593
+InterPro:IPR028469 Interleukin-8 > GO:neutrophil activation ; GO:0042119
+InterPro:IPR028469 Interleukin-8 > GO:extracellular region ; GO:0005576
+InterPro:IPR028470 CXC chemokine 15 > GO:chemokine activity ; GO:0008009
+InterPro:IPR028470 CXC chemokine 15 > GO:neutrophil chemotaxis ; GO:0030593
+InterPro:IPR028470 CXC chemokine 15 > GO:extracellular region ; GO:0005576
+InterPro:IPR028471 Eyes absent homologue 1 > GO:protein tyrosine phosphatase activity ; GO:0004725
+InterPro:IPR028471 Eyes absent homologue 1 > GO:organ morphogenesis ; GO:0009887
+InterPro:IPR028471 Eyes absent homologue 1 > GO:peptidyl-tyrosine dephosphorylation ; GO:0035335
+InterPro:IPR028471 Eyes absent homologue 1 > GO:ear morphogenesis ; GO:0042471
+InterPro:IPR028472 Eyes absent family > GO:protein tyrosine phosphatase activity ; GO:0004725
+InterPro:IPR028473 Eyes absent homologue 2 > GO:protein tyrosine phosphatase activity ; GO:0004725
+InterPro:IPR028473 Eyes absent homologue 2 > GO:striated muscle tissue development ; GO:0014706
+InterPro:IPR028474 Protein S100-A8 > GO:calcium ion binding ; GO:0005509
+InterPro:IPR028474 Protein S100-A8 > GO:microtubule binding ; GO:0008017
+InterPro:IPR028474 Protein S100-A8 > GO:zinc ion binding ; GO:0008270
+InterPro:IPR028474 Protein S100-A8 > GO:Toll-like receptor 4 binding ; GO:0035662
+InterPro:IPR028474 Protein S100-A8 > GO:arachidonic acid binding ; GO:0050544
+InterPro:IPR028474 Protein S100-A8 > GO:RAGE receptor binding ; GO:0050786
+InterPro:IPR028474 Protein S100-A8 > GO:innate immune response ; GO:0045087
+InterPro:IPR028474 Protein S100-A8 > GO:regulation of inflammatory response ; GO:0050727
+InterPro:IPR028475 S100-A9 > GO:calcium ion binding ; GO:0005509
+InterPro:IPR028475 S100-A9 > GO:microtubule binding ; GO:0008017
+InterPro:IPR028475 S100-A9 > GO:zinc ion binding ; GO:0008270
+InterPro:IPR028475 S100-A9 > GO:Toll-like receptor 4 binding ; GO:0035662
+InterPro:IPR028475 S100-A9 > GO:arachidonic acid binding ; GO:0050544
+InterPro:IPR028475 S100-A9 > GO:RAGE receptor binding ; GO:0050786
+InterPro:IPR028475 S100-A9 > GO:innate immune response ; GO:0045087
+InterPro:IPR028475 S100-A9 > GO:regulation of inflammatory response ; GO:0050727
+InterPro:IPR028476 Protein S100-A10 > GO:cell migration ; GO:0016477
+InterPro:IPR028478 Eyes absent homologue 4 > GO:sensory perception of sound ; GO:0007605
+InterPro:IPR028479 Eyes absent homologue 3 > GO:protein tyrosine phosphatase activity ; GO:0004725
+InterPro:IPR028479 Eyes absent homologue 3 > GO:transcription factor complex ; GO:0005667
+InterPro:IPR028481 Protein S100-B > GO:calcium ion binding ; GO:0005509
+InterPro:IPR028481 Protein S100-B > GO:zinc ion binding ; GO:0008270
+InterPro:IPR028481 Protein S100-B > GO:astrocyte differentiation ; GO:0048708
+InterPro:IPR028482 Protein S100-A11 > GO:calcium ion binding ; GO:0005509
+InterPro:IPR028482 Protein S100-A11 > GO:calcium-dependent protein binding ; GO:0048306
+InterPro:IPR028482 Protein S100-A11 > GO:regulation of cell proliferation ; GO:0042127
+InterPro:IPR028483 Sodium/hydrogen exchanger 10 > GO:sperm motility ; GO:0030317
+InterPro:IPR028484 P2X receptor > GO:extracellular ATP-gated cation channel activity ; GO:0004931
+InterPro:IPR028484 P2X receptor > GO:regulation of calcium-mediated signaling ; GO:0050848
+InterPro:IPR028485 Protein S100-A16 > GO:calcium ion binding ; GO:0005509
+InterPro:IPR028486 Protein S100-A1 > GO:calcium ion binding ; GO:0005509
+InterPro:IPR028487 Protein S100-A13 > GO:copper ion binding ; GO:0005507
+InterPro:IPR028487 Protein S100-A13 > GO:calcium ion binding ; GO:0005509
+InterPro:IPR028488 Protein S100-A3 > GO:calcium ion binding ; GO:0005509
+InterPro:IPR028488 Protein S100-A3 > GO:zinc ion binding ; GO:0008270
+InterPro:IPR028489 Protein S100-G > GO:calcium ion binding ; GO:0005509
+InterPro:IPR028491 Sedoheptulokinase > GO:sedoheptulokinase activity ; GO:0050277
+InterPro:IPR028491 Sedoheptulokinase > GO:carbohydrate metabolic process ; GO:0005975
+InterPro:IPR028491 Sedoheptulokinase > GO:phosphorylation ; GO:0016310
+InterPro:IPR028492 Cartilage oligomeric matrix protein > GO:extracellular matrix structural constituent ; GO:0005201
+InterPro:IPR028492 Cartilage oligomeric matrix protein > GO:extracellular matrix organization ; GO:0030198
+InterPro:IPR028492 Cartilage oligomeric matrix protein > GO:proteinaceous extracellular matrix ; GO:0005578
+InterPro:IPR028494 Protein S100-P > GO:calcium ion binding ; GO:0005509
+InterPro:IPR028494 Protein S100-P > GO:RAGE receptor binding ; GO:0050786
+InterPro:IPR028498 Cdc42-interacting protein 4 > GO:endocytosis ; GO:0006897
+InterPro:IPR028498 Cdc42-interacting protein 4 > GO:actin cytoskeleton organization ; GO:0030036
+InterPro:IPR028499 Thrombospondin-1 > GO:heparin binding ; GO:0008201
+InterPro:IPR028499 Thrombospondin-1 > GO:extracellular matrix binding ; GO:0050840
+InterPro:IPR028499 Thrombospondin-1 > GO:inflammatory response ; GO:0006954
+InterPro:IPR028499 Thrombospondin-1 > GO:negative regulation of angiogenesis ; GO:0016525
+InterPro:IPR028499 Thrombospondin-1 > GO:extracellular space ; GO:0005615
+InterPro:IPR028502 Plenty of SH3 domains protein 1 > GO:apoptotic process ; GO:0006915
+InterPro:IPR028502 Plenty of SH3 domains protein 1 > GO:regulation of JNK cascade ; GO:0046328
+InterPro:IPR028506 c-Cbl associated protein > GO:actin filament organization ; GO:0007015
+InterPro:IPR028506 c-Cbl associated protein > GO:insulin receptor signaling pathway ; GO:0008286
+InterPro:IPR028507 Thrombospondin-3 > GO:heparin binding ; GO:0008201
+InterPro:IPR028507 Thrombospondin-3 > GO:extracellular region ; GO:0005576
+InterPro:IPR028509 Podocin > GO:excretion ; GO:0007588
+InterPro:IPR028509 Podocin > GO:actin cytoskeleton reorganization ; GO:0031532
+InterPro:IPR028509 Podocin > GO:integral to plasma membrane ; GO:0005887
+InterPro:IPR028510 Vinexin > GO:actin filament organization ; GO:0007015
+InterPro:IPR028510 Vinexin > GO:cell adhesion ; GO:0007155
+InterPro:IPR028516 Arg/Abl-interacting protein 2 > GO:actin filament organization ; GO:0007015
+InterPro:IPR028516 Arg/Abl-interacting protein 2 > GO:cell migration ; GO:0016477
+InterPro:IPR028518 PACSIN1 > GO:actin filament organization ; GO:0007015
+InterPro:IPR028518 PACSIN1 > GO:neuron development ; GO:0048666
+InterPro:IPR028518 PACSIN1 > GO:membrane tubulation ; GO:0097320
+InterPro:IPR028520 Stomatin-like protein 2 > GO:mitochondrial calcium ion transport ; GO:0006851
+InterPro:IPR028520 Stomatin-like protein 2 > GO:mitochondrion organization ; GO:0007005
+InterPro:IPR028520 Stomatin-like protein 2 > GO:mitochondrial ATP synthesis coupled proton transport ; GO:0042776
+InterPro:IPR028520 Stomatin-like protein 2 > GO:T cell receptor signaling pathway ; GO:0050852
+InterPro:IPR028520 Stomatin-like protein 2 > GO:mitochondrion ; GO:0005739
+InterPro:IPR028521 PACSIN2 > GO:actin cytoskeleton organization ; GO:0030036
+InterPro:IPR028521 PACSIN2 > GO:caveola assembly ; GO:0070836
+InterPro:IPR028521 PACSIN2 > GO:membrane tubulation ; GO:0097320
+InterPro:IPR028522 Protein Unc-1 > GO:response to drug ; GO:0042493
+InterPro:IPR028524 Cytoplasmic protein NCK2 > GO:protein kinase regulator activity ; GO:0019887
+InterPro:IPR028526 Cytoplasmic protein NCK1 > GO:protein kinase regulator activity ; GO:0019887
+InterPro:IPR028529 Mechanosensory protein 2 > GO:mechanosensory behavior ; GO:0007638
+InterPro:IPR028529 Mechanosensory protein 2 > GO:response to mechanical stimulus ; GO:0009612
+InterPro:IPR028530 Protein vav > GO:small GTPase mediated signal transduction ; GO:0007264
+InterPro:IPR028531 Dipeptidase 2 > GO:exopeptidase activity ; GO:0008238
+InterPro:IPR028531 Dipeptidase 2 > GO:membrane ; GO:0016020
+InterPro:IPR028532 Formin-binding protein 1 > GO:endocytosis ; GO:0006897
+InterPro:IPR028533 Dipeptidase 3 > GO:peptidase activity ; GO:0008233
+InterPro:IPR028533 Dipeptidase 3 > GO:membrane ; GO:0016020
+InterPro:IPR028534 Hematopoietic lineage cell-specific protein > GO:actin binding ; GO:0003779
+InterPro:IPR028534 Hematopoietic lineage cell-specific protein > GO:actin filament polymerization ; GO:0030041
+InterPro:IPR028536 Dipeptidase 1-like > GO:dipeptidase activity ; GO:0016805
+InterPro:IPR028536 Dipeptidase 1-like > GO:proteolysis ; GO:0006508

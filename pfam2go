@@ -1,4 +1,4 @@
-!version date: 2013/10/12 14:42:57
+!version date: 2013/10/19 12:18:23
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1066,8 +1066,6 @@ Pfam:PF00583 Acetyltransf_1 > GO:N-acetyltransferase activity ; GO:0008080
 Pfam:PF00584 SecE > GO:protein targeting ; GO:0006605
 Pfam:PF00584 SecE > GO:intracellular protein transport ; GO:0006886
 Pfam:PF00584 SecE > GO:membrane ; GO:0016020
-Pfam:PF00585 Thr_dehydrat_C > GO:L-threonine ammonia-lyase activity ; GO:0004794
-Pfam:PF00585 Thr_dehydrat_C > GO:isoleucine biosynthetic process ; GO:0009097
 Pfam:PF00586 AIRS > GO:catalytic activity ; GO:0003824
 Pfam:PF00587 tRNA-synt_2b > GO:nucleotide binding ; GO:0000166
 Pfam:PF00587 tRNA-synt_2b > GO:aminoacyl-tRNA ligase activity ; GO:0004812
@@ -2985,7 +2983,7 @@ Pfam:PF01716 MSP > GO:calcium ion binding ; GO:0005509
 Pfam:PF01716 MSP > GO:photosynthesis ; GO:0015979
 Pfam:PF01716 MSP > GO:photosystem II stabilization ; GO:0042549
 Pfam:PF01716 MSP > GO:photosystem II ; GO:0009523
-Pfam:PF01716 MSP > GO:oxygen evolving complex ; GO:0009654
+Pfam:PF01716 MSP > GO:photosystem II oxygen evolving complex ; GO:0009654
 Pfam:PF01716 MSP > GO:extrinsic to membrane ; GO:0019898
 Pfam:PF01717 Meth_synt_2 > GO:5-methyltetrahydropteroyltriglutamate-homocysteine S-methyltransferase activity ; GO:0003871
 Pfam:PF01717 Meth_synt_2 > GO:methionine biosynthetic process ; GO:0009086
@@ -3115,7 +3113,7 @@ Pfam:PF01788 PsbJ > GO:membrane ; GO:0016020
 Pfam:PF01789 PsbP > GO:calcium ion binding ; GO:0005509
 Pfam:PF01789 PsbP > GO:photosynthesis ; GO:0015979
 Pfam:PF01789 PsbP > GO:photosystem II ; GO:0009523
-Pfam:PF01789 PsbP > GO:oxygen evolving complex ; GO:0009654
+Pfam:PF01789 PsbP > GO:photosystem II oxygen evolving complex ; GO:0009654
 Pfam:PF01789 PsbP > GO:extrinsic to membrane ; GO:0019898
 Pfam:PF01790 LGT > GO:transferase activity, transferring glycosyl groups ; GO:0016757
 Pfam:PF01790 LGT > GO:protein lipoylation ; GO:0009249
@@ -5588,7 +5586,7 @@ Pfam:PF03901 Glyco_transf_22 > GO:transferase activity, transferring glycosyl gr
 Pfam:PF03910 Adeno_PV > GO:virion ; GO:0019012
 Pfam:PF03912 Psb28 > GO:photosynthesis ; GO:0015979
 Pfam:PF03912 Psb28 > GO:photosystem II ; GO:0009523
-Pfam:PF03912 Psb28 > GO:oxygen evolving complex ; GO:0009654
+Pfam:PF03912 Psb28 > GO:photosystem II oxygen evolving complex ; GO:0009654
 Pfam:PF03912 Psb28 > GO:membrane ; GO:0016020
 Pfam:PF03917 GSH_synth_ATP > GO:glutathione synthase activity ; GO:0004363
 Pfam:PF03917 GSH_synth_ATP > GO:ATP binding ; GO:0005524
@@ -5984,8 +5982,8 @@ Pfam:PF04376 ATE_N > GO:arginyltransferase activity ; GO:0004057
 Pfam:PF04376 ATE_N > GO:protein arginylation ; GO:0016598
 Pfam:PF04377 ATE_C > GO:arginyltransferase activity ; GO:0004057
 Pfam:PF04377 ATE_C > GO:protein arginylation ; GO:0016598
-Pfam:PF04378 RsmJ > GO:methyltransferase activity ; GO:0008168
-Pfam:PF04378 RsmJ > GO:rRNA processing ; GO:0006364
+Pfam:PF04378 RsmJ > GO:rRNA methyltransferase activity ; GO:0008649
+Pfam:PF04378 RsmJ > GO:rRNA base methylation ; GO:0070475
 Pfam:PF04381 RdgC > GO:DNA recombination ; GO:0006310
 Pfam:PF04382 SAB > GO:cytoskeletal protein binding ; GO:0008092
 Pfam:PF04382 SAB > GO:cortical actin cytoskeleton organization ; GO:0030866
@@ -6332,7 +6330,7 @@ Pfam:PF04724 Glyco_transf_17 > GO:protein N-linked glycosylation ; GO:0006487
 Pfam:PF04724 Glyco_transf_17 > GO:membrane ; GO:0016020
 Pfam:PF04725 PsbR > GO:photosynthesis ; GO:0015979
 Pfam:PF04725 PsbR > GO:photosystem II ; GO:0009523
-Pfam:PF04725 PsbR > GO:oxygen evolving complex ; GO:0009654
+Pfam:PF04725 PsbR > GO:photosystem II oxygen evolving complex ; GO:0009654
 Pfam:PF04725 PsbR > GO:thylakoid membrane ; GO:0042651
 Pfam:PF04726 Microvir_J > GO:DNA binding ; GO:0003677
 Pfam:PF04727 ELMO_CED12 > GO:phagocytosis ; GO:0006909
@@ -7174,7 +7172,7 @@ Pfam:PF05753 TRAP_beta > GO:integral to membrane ; GO:0016021
 Pfam:PF05757 PsbQ > GO:calcium ion binding ; GO:0005509
 Pfam:PF05757 PsbQ > GO:photosynthesis ; GO:0015979
 Pfam:PF05757 PsbQ > GO:photosystem II ; GO:0009523
-Pfam:PF05757 PsbQ > GO:oxygen evolving complex ; GO:0009654
+Pfam:PF05757 PsbQ > GO:photosystem II oxygen evolving complex ; GO:0009654
 Pfam:PF05757 PsbQ > GO:extrinsic to membrane ; GO:0019898
 Pfam:PF05764 YL1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
 Pfam:PF05764 YL1 > GO:nucleus ; GO:0005634
@@ -7769,7 +7767,7 @@ Pfam:PF06512 Na_trans_assoc > GO:voltage-gated sodium channel complex ; GO:00015
 Pfam:PF06514 PsbU > GO:photosynthesis ; GO:0015979
 Pfam:PF06514 PsbU > GO:photosystem II stabilization ; GO:0042549
 Pfam:PF06514 PsbU > GO:photosystem II ; GO:0009523
-Pfam:PF06514 PsbU > GO:oxygen evolving complex ; GO:0009654
+Pfam:PF06514 PsbU > GO:photosystem II oxygen evolving complex ; GO:0009654
 Pfam:PF06514 PsbU > GO:extrinsic to membrane ; GO:0019898
 Pfam:PF06516 NUP > GO:transmembrane transport ; GO:0055085
 Pfam:PF06519 TolA > GO:transporter activity ; GO:0005215
@@ -9202,7 +9200,6 @@ Pfam:PF08845 SymE_toxin > GO:RNA binding ; GO:0003723
 Pfam:PF08845 SymE_toxin > GO:hydrolase activity, acting on ester bonds ; GO:0016788
 Pfam:PF08845 SymE_toxin > GO:RNA metabolic process ; GO:0016070
 Pfam:PF08845 SymE_toxin > GO:cytoplasm ; GO:0005737
-Pfam:PF08879 WRC > GO:protein binding ; GO:0005515
 Pfam:PF08880 QLQ > GO:ATP binding ; GO:0005524
 Pfam:PF08880 QLQ > GO:hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides ; GO:0016818
 Pfam:PF08880 QLQ > GO:regulation of transcription, DNA-dependent ; GO:0006355

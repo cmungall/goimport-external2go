@@ -1,4 +1,4 @@
-!version date: 2013/10/19 12:18:23
+!version date: 2013/10/26 12:27:56
 !description: Mapping of GO terms to PROSITE entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://www.expasy.org/prosite/
 !citation: Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -90,8 +90,8 @@ PROSITE:MF_00037 MurB > GO:UDP-N-acetylmuramate dehydrogenase activity ; GO:0008
 PROSITE:MF_00037 MurB > GO:oxidation-reduction process ; GO:0055114
 PROSITE:MF_00038 MraY > GO:phospho-N-acetylmuramoyl-pentapeptide-transferase activity ; GO:0008963
 PROSITE:MF_00038 MraY > GO:membrane ; GO:0016020
-PROSITE:MF_00039 Put_adenyl_kinase > GO:adenylate kinase activity ; GO:0004017
-PROSITE:MF_00039 Put_adenyl_kinase > GO:ATP binding ; GO:0005524
+PROSITE:MF_00039 Adenylate_kinase_AK6 > GO:adenylate kinase activity ; GO:0004017
+PROSITE:MF_00039 Adenylate_kinase_AK6 > GO:ATP binding ; GO:0005524
 PROSITE:MF_00040 RRF > GO:translation ; GO:0006412
 PROSITE:MF_00041 Cys_tRNA_synth > GO:cysteine-tRNA ligase activity ; GO:0004817
 PROSITE:MF_00041 Cys_tRNA_synth > GO:ATP binding ; GO:0005524
@@ -230,8 +230,9 @@ PROSITE:MF_00090 PIMT > GO:cellular protein modification process ; GO:0006464
 PROSITE:MF_00091 LuxS > GO:iron ion binding ; GO:0005506
 PROSITE:MF_00091 LuxS > GO:S-ribosylhomocysteine lyase activity ; GO:0043768
 PROSITE:MF_00091 LuxS > GO:quorum sensing ; GO:0009372
+PROSITE:MF_00092 MutS2 > GO:DNA binding ; GO:0003677
 PROSITE:MF_00092 MutS2 > GO:ATPase activity ; GO:0016887
-PROSITE:MF_00092 MutS2 > GO:mismatched DNA binding ; GO:0030983
+PROSITE:MF_00092 MutS2 > GO:negative regulation of DNA recombination ; GO:0045910
 PROSITE:MF_00093 Rel_fac_1 > GO:translation release factor activity, codon specific ; GO:0016149
 PROSITE:MF_00093 Rel_fac_1 > GO:translational termination ; GO:0006415
 PROSITE:MF_00093 Rel_fac_1 > GO:cytoplasm ; GO:0005737
@@ -327,7 +328,10 @@ PROSITE:MF_00130 RecU > GO:DNA recombination ; GO:0006310
 PROSITE:MF_00130 RecU > GO:cytoplasm ; GO:0005737
 PROSITE:MF_00131 Trp_synth_alpha > GO:tryptophan synthase activity ; GO:0004834
 PROSITE:MF_00131 Trp_synth_alpha > GO:tryptophan metabolic process ; GO:0006568
+PROSITE:MF_00132 Top6A > GO:DNA binding ; GO:0003677
 PROSITE:MF_00132 Top6A > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
+PROSITE:MF_00132 Top6A > GO:DNA topological change ; GO:0006265
+PROSITE:MF_00132 Top6A > GO:chromosome ; GO:0005694
 PROSITE:MF_00133 Trp_synth_beta > GO:tryptophan synthase activity ; GO:0004834
 PROSITE:MF_00133 Trp_synth_beta > GO:tryptophan biosynthetic process ; GO:0000162
 PROSITE:MF_00134_A IGPS_A > GO:indole-3-glycerol-phosphate synthase activity ; GO:0004425
@@ -653,7 +657,7 @@ PROSITE:MF_00261 RNApol_arch_L > GO:DNA-directed RNA polymerase activity ; GO:00
 PROSITE:MF_00261 RNApol_arch_L > GO:transcription, DNA-dependent ; GO:0006351
 PROSITE:MF_00262 MinE > GO:regulation of barrier septum assembly ; GO:0032955
 PROSITE:MF_00262 MinE > GO:cell division ; GO:0051301
-PROSITE:MF_00265 VapC > GO:ribonuclease activity ; GO:0004540
+PROSITE:MF_00265 VapC_Nob1 > GO:ribonuclease activity ; GO:0004540
 PROSITE:MF_00267 MinC > GO:barrier septum assembly ; GO:0000917
 PROSITE:MF_00267 MinC > GO:regulation of cell cycle ; GO:0051726
 PROSITE:MF_00268 RecA > GO:single-stranded DNA binding ; GO:0003697
@@ -670,9 +674,9 @@ PROSITE:MF_00270 Ribosomal_S18 > GO:ribosome ; GO:0005840
 PROSITE:MF_00271 ATP_synth_D_arch > GO:ATPase activity, coupled to transmembrane movement of substances ; GO:0042626
 PROSITE:MF_00272 GcvH > GO:glycine catabolic process ; GO:0006546
 PROSITE:MF_00272 GcvH > GO:glycine cleavage complex ; GO:0005960
-PROSITE:MF_00273 Ribosomal_LX > GO:structural constituent of ribosome ; GO:0003735
-PROSITE:MF_00273 Ribosomal_LX > GO:translation ; GO:0006412
-PROSITE:MF_00273 Ribosomal_LX > GO:ribosome ; GO:0005840
+PROSITE:MF_00273 Ribosomal_L18Ae > GO:structural constituent of ribosome ; GO:0003735
+PROSITE:MF_00273 Ribosomal_L18Ae > GO:translation ; GO:0006412
+PROSITE:MF_00273 Ribosomal_L18Ae > GO:ribosome ; GO:0005840
 PROSITE:MF_00275 KdpA > GO:potassium-transporting ATPase activity ; GO:0008556
 PROSITE:MF_00275 KdpA > GO:potassium ion transport ; GO:0006813
 PROSITE:MF_00275 KdpA > GO:plasma membrane ; GO:0005886
@@ -713,6 +717,10 @@ PROSITE:MF_00291_A Ribosomal_S2_A > GO:ribosome ; GO:0005840
 PROSITE:MF_00291_B Ribosomal_S2_B > GO:structural constituent of ribosome ; GO:0003735
 PROSITE:MF_00291_B Ribosomal_S2_B > GO:translation ; GO:0006412
 PROSITE:MF_00291_B Ribosomal_S2_B > GO:small ribosomal subunit ; GO:0015935
+PROSITE:MF_00292 Ribosomal_S28e > GO:structural constituent of ribosome ; GO:0003735
+PROSITE:MF_00292 Ribosomal_S28e > GO:translation ; GO:0006412
+PROSITE:MF_00292 Ribosomal_S28e > GO:intracellular ; GO:0005622
+PROSITE:MF_00292 Ribosomal_S28e > GO:ribosome ; GO:0005840
 PROSITE:MF_00293 PSII_PsbN > GO:photosynthesis ; GO:0015979
 PROSITE:MF_00293 PSII_PsbN > GO:photosystem II ; GO:0009523
 PROSITE:MF_00293 PSII_PsbN > GO:photosystem II reaction center ; GO:0009539
@@ -907,6 +915,10 @@ PROSITE:MF_00368 Ribosomal_L7_L12 > GO:ribosome ; GO:0005840
 PROSITE:MF_00370 Shik_kinase_arch > GO:shikimate kinase activity ; GO:0004765
 PROSITE:MF_00370 Shik_kinase_arch > GO:aromatic amino acid family biosynthetic process ; GO:0009073
 PROSITE:MF_00370 Shik_kinase_arch > GO:cytoplasm ; GO:0005737
+PROSITE:MF_00371 Ribosomal_S27e > GO:structural constituent of ribosome ; GO:0003735
+PROSITE:MF_00371 Ribosomal_S27e > GO:translation ; GO:0006412
+PROSITE:MF_00371 Ribosomal_S27e > GO:intracellular ; GO:0005622
+PROSITE:MF_00371 Ribosomal_S27e > GO:ribosome ; GO:0005840
 PROSITE:MF_00372 HutI > GO:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in cyclic amides ; GO:0016812
 PROSITE:MF_00372 HutI > GO:histidine catabolic process to glutamate and formamide ; GO:0019556
 PROSITE:MF_00372 HutI > GO:cytoplasm ; GO:0005737
@@ -1123,7 +1135,7 @@ PROSITE:MF_00452 PEPCK_GTP > GO:gluconeogenesis ; GO:0006094
 PROSITE:MF_00453 PEPCK_ATP > GO:phosphoenolpyruvate carboxykinase (ATP) activity ; GO:0004612
 PROSITE:MF_00453 PEPCK_ATP > GO:ATP binding ; GO:0005524
 PROSITE:MF_00453 PEPCK_ATP > GO:gluconeogenesis ; GO:0006094
-PROSITE:MF_00454 CrcB > GO:membrane ; GO:0016020
+PROSITE:MF_00454 CrcB > GO:integral to membrane ; GO:0016021
 PROSITE:MF_00455 Xylose_isom_A > GO:xylose isomerase activity ; GO:0009045
 PROSITE:MF_00455 Xylose_isom_A > GO:carbohydrate metabolic process ; GO:0005975
 PROSITE:MF_00456 ProB > GO:glutamate 5-kinase activity ; GO:0004349
@@ -1500,8 +1512,6 @@ PROSITE:MF_00629 Ribosomal_L39e > GO:structural constituent of ribosome ; GO:000
 PROSITE:MF_00629 Ribosomal_L39e > GO:translation ; GO:0006412
 PROSITE:MF_00629 Ribosomal_L39e > GO:intracellular ; GO:0005622
 PROSITE:MF_00629 Ribosomal_L39e > GO:ribosome ; GO:0005840
-PROSITE:MF_00631 CrgA > GO:cell division ; GO:0051301
-PROSITE:MF_00631 CrgA > GO:integral to membrane ; GO:0016021
 PROSITE:MF_00633 Cytb6_f_cytb6 > GO:iron ion binding ; GO:0005506
 PROSITE:MF_00633 Cytb6_f_cytb6 > GO:heme binding ; GO:0020037
 PROSITE:MF_00633 Cytb6_f_cytb6 > GO:electron transporter, transferring electrons within cytochrome b6/f complex of photosystem II activity ; GO:0045158
@@ -1550,7 +1560,7 @@ PROSITE:MF_00650 Malonate_MdcG > GO:nucleotidyltransferase activity ; GO:0016779
 PROSITE:MF_00651 HJR_YqgF > GO:hydrolase activity, acting on ester bonds ; GO:0016788
 PROSITE:MF_00651 HJR_YqgF > GO:DNA repair ; GO:0006281
 PROSITE:MF_00651 HJR_YqgF > GO:DNA recombination ; GO:0006310
-PROSITE:MF_00651 HJR_YqgF > GO:response to DNA damage stimulus ; GO:0006974
+PROSITE:MF_00651 HJR_YqgF > GO:cellular response to DNA damage stimulus ; GO:0006974
 PROSITE:MF_00651 HJR_YqgF > GO:cytoplasm ; GO:0005737
 PROSITE:MF_00653 PQQ_syn_PqqB > GO:transport ; GO:0006810
 PROSITE:MF_00653 PQQ_syn_PqqB > GO:pyrroloquinoline quinone biosynthetic process ; GO:0018189
@@ -1566,7 +1576,7 @@ PROSITE:MF_00658 23SrRNA_methyltr_H > GO:rRNA processing ; GO:0006364
 PROSITE:MF_00658 23SrRNA_methyltr_H > GO:cytoplasm ; GO:0005737
 PROSITE:MF_00660 PqqE > GO:4 iron, 4 sulfur cluster binding ; GO:0051539
 PROSITE:MF_00660 PqqE > GO:pyrroloquinoline quinone biosynthetic process ; GO:0018189
-PROSITE:MF_00661 Helicase_RhlB > GO:ATP-dependent RNA helicase activity ; GO:0004004
+PROSITE:MF_00661 DEAD_helicase_RhlB > GO:ATP-dependent RNA helicase activity ; GO:0004004
 PROSITE:MF_00662 PS_decarb_type1 > GO:phosphatidylserine decarboxylase activity ; GO:0004609
 PROSITE:MF_00662 PS_decarb_type1 > GO:phospholipid biosynthetic process ; GO:0008654
 PROSITE:MF_00663 PS_decarb_type2 > GO:phosphatidylserine decarboxylase activity ; GO:0004609
@@ -1616,8 +1626,6 @@ PROSITE:MF_00698 Aminopeptidase_S15 > GO:aminopeptidase activity ; GO:0004177
 PROSITE:MF_00698 Aminopeptidase_S15 > GO:proteolysis ; GO:0006508
 PROSITE:MF_00700 DNA_primase_arc_S > GO:nucleotidyltransferase activity ; GO:0016779
 PROSITE:MF_00701 DNA_primase_arc_L > GO:nucleotidyltransferase activity ; GO:0016779
-PROSITE:MF_00703 Thymid_phosp_2 > GO:thymidine phosphorylase activity ; GO:0009032
-PROSITE:MF_00703 Thymid_phosp_2 > GO:pyrimidine nucleobase metabolic process ; GO:0006206
 PROSITE:MF_00704 Aspartoacylase > GO:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides ; GO:0016811
 PROSITE:MF_00705 IMP_cyclohydrol > GO:IMP cyclohydrolase activity ; GO:0003937
 PROSITE:MF_00705 IMP_cyclohydrol > GO:purine nucleotide biosynthetic process ; GO:0006164
@@ -1678,12 +1686,6 @@ PROSITE:MF_00734 LacD > GO:tagatose-6-phosphate kinase activity ; GO:0009024
 PROSITE:MF_00734 LacD > GO:lactose catabolic process via tagatose-6-phosphate ; GO:0019512
 PROSITE:MF_00735 Methyltr_PrmA > GO:protein methyltransferase activity ; GO:0008276
 PROSITE:MF_00735 Methyltr_PrmA > GO:protein methylation ; GO:0006479
-PROSITE:MF_00736_A Ribosomal_L11_A > GO:structural constituent of ribosome ; GO:0003735
-PROSITE:MF_00736_A Ribosomal_L11_A > GO:translation ; GO:0006412
-PROSITE:MF_00736_A Ribosomal_L11_A > GO:ribosome ; GO:0005840
-PROSITE:MF_00736_B Ribosomal_L11_B > GO:structural constituent of ribosome ; GO:0003735
-PROSITE:MF_00736_B Ribosomal_L11_B > GO:translation ; GO:0006412
-PROSITE:MF_00736_B Ribosomal_L11_B > GO:ribosome ; GO:0005840
 PROSITE:MF_00737 Formimidoylglutam > GO:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amidines ; GO:0016813
 PROSITE:MF_00737 Formimidoylglutam > GO:formimidoylglutamase activity ; GO:0050415
 PROSITE:MF_00737 Formimidoylglutam > GO:histidine catabolic process ; GO:0006548
@@ -1913,8 +1915,8 @@ PROSITE:MF_01009 Thiosulf_sulfurtr > GO:cytoplasm ; GO:0005737
 PROSITE:MF_01010 23SrRNA_methyltr_RlmD > GO:RNA binding ; GO:0003723
 PROSITE:MF_01010 23SrRNA_methyltr_RlmD > GO:RNA methyltransferase activity ; GO:0008173
 PROSITE:MF_01010 23SrRNA_methyltr_RlmD > GO:RNA processing ; GO:0006396
-PROSITE:MF_01011 tRNA_methyltr_TrmA > GO:S-adenosylmethionine-dependent tRNA (m5U54) methyltransferase activity ; GO:0030697
-PROSITE:MF_01011 tRNA_methyltr_TrmA > GO:tRNA processing ; GO:0008033
+PROSITE:MF_01011 RNA_methyltr_TrmA > GO:S-adenosylmethionine-dependent tRNA (m5U54) methyltransferase activity ; GO:0030697
+PROSITE:MF_01011 RNA_methyltr_TrmA > GO:RNA processing ; GO:0006396
 PROSITE:MF_01012 23SrRNA_methyltr_RlmC > GO:rRNA (uridine) methyltransferase activity ; GO:0016436
 PROSITE:MF_01012 23SrRNA_methyltr_RlmC > GO:RNA metabolic process ; GO:0016070
 PROSITE:MF_01013 HisF > GO:imidazoleglycerol-phosphate synthase activity ; GO:0000107
@@ -1922,8 +1924,8 @@ PROSITE:MF_01013 HisF > GO:histidine biosynthetic process ; GO:0000105
 PROSITE:MF_01013 HisF > GO:cytoplasm ; GO:0005737
 PROSITE:MF_01014 HisA > GO:1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide isomerase activity ; GO:0003949
 PROSITE:MF_01014 HisA > GO:histidine biosynthetic process ; GO:0000105
-PROSITE:MF_01017 Flav_WrbA > GO:FMN binding ; GO:0010181
-PROSITE:MF_01017 Flav_WrbA > GO:negative regulation of transcription, DNA-dependent ; GO:0045892
+PROSITE:MF_01017 NQOR > GO:FMN binding ; GO:0010181
+PROSITE:MF_01017 NQOR > GO:negative regulation of transcription, DNA-dependent ; GO:0045892
 PROSITE:MF_01018 HisG_Short > GO:ATP phosphoribosyltransferase activity ; GO:0003879
 PROSITE:MF_01018 HisG_Short > GO:histidine biosynthetic process ; GO:0000105
 PROSITE:MF_01019 HisIE > GO:phosphoribosyl-AMP cyclohydrolase activity ; GO:0004635
@@ -2019,6 +2021,10 @@ PROSITE:MF_01070 MdoB_OpgB > GO:glucan biosynthetic process ; GO:0009250
 PROSITE:MF_01070 MdoB_OpgB > GO:plasma membrane ; GO:0005886
 PROSITE:MF_01072 MdoH_OpgH > GO:transferase activity, transferring hexosyl groups ; GO:0016758
 PROSITE:MF_01073 MatP > GO:sequence-specific DNA binding ; GO:0043565
+PROSITE:MF_01075 NhaP2 > GO:potassium:hydrogen antiporter activity ; GO:0015386
+PROSITE:MF_01075 NhaP2 > GO:potassium ion transport ; GO:0006813
+PROSITE:MF_01075 NhaP2 > GO:cell volume homeostasis ; GO:0006884
+PROSITE:MF_01075 NhaP2 > GO:integral to membrane ; GO:0016021
 PROSITE:MF_01080 TruB_bact > GO:RNA binding ; GO:0003723
 PROSITE:MF_01080 TruB_bact > GO:pseudouridine synthase activity ; GO:0009982
 PROSITE:MF_01080 TruB_bact > GO:pseudouridine synthesis ; GO:0001522
@@ -2061,7 +2067,7 @@ PROSITE:MF_01102 MnmC > GO:methyltransferase activity ; GO:0008168
 PROSITE:MF_01102 MnmC > GO:oxidoreductase activity, acting on the CH-NH group of donors ; GO:0016645
 PROSITE:MF_01102 MnmC > GO:tRNA processing ; GO:0008033
 PROSITE:MF_01102 MnmC > GO:oxidation-reduction process ; GO:0055114
-PROSITE:MF_01104 Syd > GO:internal side of plasma membrane ; GO:0009898
+PROSITE:MF_01104 Syd > GO:cytoplasmic side of plasma membrane ; GO:0009898
 PROSITE:MF_01105 N_acetyl_glu_synth > GO:acetyl-CoA:L-glutamate N-acetyltransferase activity ; GO:0004042
 PROSITE:MF_01105 N_acetyl_glu_synth > GO:arginine biosynthetic process ; GO:0006526
 PROSITE:MF_01105 N_acetyl_glu_synth > GO:cytoplasm ; GO:0005737
@@ -2292,7 +2298,6 @@ PROSITE:MF_01244 Arch_DHQ_synthase > GO:oxidation-reduction process ; GO:0055114
 PROSITE:MF_01248 GlgX > GO:hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553
 PROSITE:MF_01248 GlgX > GO:glycogen metabolic process ; GO:0005977
 PROSITE:MF_01249 HPr_kinase > GO:phosphorelay sensor kinase activity ; GO:0000155
-PROSITE:MF_01249 HPr_kinase > GO:protein kinase activity ; GO:0004672
 PROSITE:MF_01249 HPr_kinase > GO:ATP binding ; GO:0005524
 PROSITE:MF_01249 HPr_kinase > GO:phosphorelay signal transduction system ; GO:0000160
 PROSITE:MF_01249 HPr_kinase > GO:regulation of carbohydrate metabolic process ; GO:0006109
@@ -2314,7 +2319,6 @@ PROSITE:MF_01254 Fucose_iso > GO:fucose catabolic process ; GO:0019317
 PROSITE:MF_01254 Fucose_iso > GO:cytoplasm ; GO:0005737
 PROSITE:MF_01255 Ectoine_synth > GO:ectoine synthase activity ; GO:0033990
 PROSITE:MF_01255 Ectoine_synth > GO:ectoine biosynthetic process ; GO:0019491
-PROSITE:MF_01256 YfiT_hydrol > GO:hydrolase activity ; GO:0016787
 PROSITE:MF_01257 CofD > GO:magnesium ion binding ; GO:0000287
 PROSITE:MF_01257 CofD > GO:phosphotransferase activity, for other substituted phosphate groups ; GO:0016780
 PROSITE:MF_01257 CofD > GO:cofactor biosynthetic process ; GO:0051188
@@ -2358,9 +2362,9 @@ PROSITE:MF_01270 AnhMurNAc_kinase > GO:phosphotransferase activity, alcohol grou
 PROSITE:MF_01270 AnhMurNAc_kinase > GO:amino sugar metabolic process ; GO:0006040
 PROSITE:MF_01270 AnhMurNAc_kinase > GO:peptidoglycan turnover ; GO:0009254
 PROSITE:MF_01271 GlcNAc_kinase > GO:N-acetylglucosamine kinase activity ; GO:0045127
-PROSITE:MF_01272 IsdG > GO:heme oxygenase (decyclizing) activity ; GO:0004392
-PROSITE:MF_01272 IsdG > GO:iron assimilation ; GO:0033212
-PROSITE:MF_01272 IsdG > GO:oxidation-reduction process ; GO:0055114
+PROSITE:MF_01272 Heme_degrading_monooxygenase > GO:heme oxygenase (decyclizing) activity ; GO:0004392
+PROSITE:MF_01272 Heme_degrading_monooxygenase > GO:iron assimilation ; GO:0033212
+PROSITE:MF_01272 Heme_degrading_monooxygenase > GO:oxidation-reduction process ; GO:0055114
 PROSITE:MF_01273 Pantothen_kinase_2 > GO:pantothenate kinase activity ; GO:0004594
 PROSITE:MF_01273 Pantothen_kinase_2 > GO:ATP binding ; GO:0005524
 PROSITE:MF_01273 Pantothen_kinase_2 > GO:coenzyme A biosynthetic process ; GO:0015937
@@ -2585,9 +2589,9 @@ PROSITE:MF_01341_B Ribosomal_L15_B > GO:large ribosomal subunit ; GO:0015934
 PROSITE:MF_01342 Ribosomal_L16 > GO:structural constituent of ribosome ; GO:0003735
 PROSITE:MF_01342 Ribosomal_L16 > GO:rRNA binding ; GO:0019843
 PROSITE:MF_01342 Ribosomal_L16 > GO:translation ; GO:0006412
-PROSITE:MF_01343_B Ribosomal_S15_S13e_B > GO:structural constituent of ribosome ; GO:0003735
-PROSITE:MF_01343_B Ribosomal_S15_S13e_B > GO:translation ; GO:0006412
-PROSITE:MF_01343_B Ribosomal_S15_S13e_B > GO:ribosome ; GO:0005840
+PROSITE:MF_01343_B Ribosomal_S15_B > GO:structural constituent of ribosome ; GO:0003735
+PROSITE:MF_01343_B Ribosomal_S15_B > GO:translation ; GO:0006412
+PROSITE:MF_01343_B Ribosomal_S15_B > GO:ribosome ; GO:0005840
 PROSITE:MF_01344 Cytb6_f_subIV > GO:electron transporter, transferring electrons within the cyclic electron transport pathway of photosynthesis activity ; GO:0045156
 PROSITE:MF_01344 Cytb6_f_subIV > GO:photosynthetic electron transport chain ; GO:0009767
 PROSITE:MF_01344 Cytb6_f_subIV > GO:thylakoid membrane ; GO:0042651
@@ -2819,8 +2823,8 @@ PROSITE:MF_01441 Dps > GO:oxidoreductase activity, oxidizing metal ions ; GO:001
 PROSITE:MF_01441 Dps > GO:oxidation-reduction process ; GO:0055114
 PROSITE:MF_01443 PrpE > GO:bis(5'-nucleosyl)-tetraphosphatase (asymmetrical) activity ; GO:0004081
 PROSITE:MF_01443 PrpE > GO:nickel cation binding ; GO:0016151
-PROSITE:MF_01445 gcp > GO:metalloendopeptidase activity ; GO:0004222
-PROSITE:MF_01445 gcp > GO:threonylcarbamoyladenosine biosynthetic process ; GO:0070526
+PROSITE:MF_01445 TsaD > GO:metalloendopeptidase activity ; GO:0004222
+PROSITE:MF_01445 TsaD > GO:threonylcarbamoyladenosine biosynthetic process ; GO:0070526
 PROSITE:MF_01447 Kae1_Bud32_arch > GO:metalloendopeptidase activity ; GO:0004222
 PROSITE:MF_01447 Kae1_Bud32_arch > GO:zinc ion binding ; GO:0008270
 PROSITE:MF_01451 AddA > GO:ATP-dependent DNA helicase activity ; GO:0004003
@@ -3082,7 +3086,6 @@ PROSITE:MF_01618 FadI > GO:transferase activity, transferring acyl groups ; GO:0
 PROSITE:MF_01618 FadI > GO:fatty acid metabolic process ; GO:0006631
 PROSITE:MF_01618 FadI > GO:lipid catabolic process ; GO:0016042
 PROSITE:MF_01618 FadI > GO:cytoplasm ; GO:0005737
-PROSITE:MF_01619 NAD_malic_enz > GO:malate dehydrogenase (oxaloacetate-decarboxylating) activity ; GO:0016619
 PROSITE:MF_01619 NAD_malic_enz > GO:oxidation-reduction process ; GO:0055114
 PROSITE:MF_01620 FadA > GO:acetyl-CoA C-acyltransferase activity ; GO:0003988
 PROSITE:MF_01620 FadA > GO:fatty acid metabolic process ; GO:0006631
@@ -3395,8 +3398,8 @@ PROSITE:MF_01849 RNA_methyltr_RlmN > GO:tRNA methylation ; GO:0030488
 PROSITE:MF_01849 RNA_methyltr_RlmN > GO:rRNA base methylation ; GO:0070475
 PROSITE:MF_01850 TtcA > GO:ATP binding ; GO:0005524
 PROSITE:MF_01850 TtcA > GO:tRNA processing ; GO:0008033
-PROSITE:MF_01852 RimN > GO:ATP binding ; GO:0005524
-PROSITE:MF_01852 RimN > GO:threonylcarbamoyladenosine biosynthetic process ; GO:0070526
+PROSITE:MF_01852 TsaC > GO:ATP binding ; GO:0005524
+PROSITE:MF_01852 TsaC > GO:threonylcarbamoyladenosine biosynthetic process ; GO:0070526
 PROSITE:MF_01853 PelO > GO:hydrolase activity, acting on ester bonds ; GO:0016788
 PROSITE:MF_01854 FBPase_class3 > GO:fructose 1,6-bisphosphate 1-phosphatase activity ; GO:0042132
 PROSITE:MF_01854 FBPase_class3 > GO:gluconeogenesis ; GO:0006094
@@ -3434,6 +3437,9 @@ PROSITE:MF_01880 PTR2_DtpD_subfam > GO:integral to plasma membrane ; GO:0005887
 PROSITE:MF_01882 Propion_kin_subfam2 > GO:propionate kinase activity ; GO:0008980
 PROSITE:MF_01882 Propion_kin_subfam2 > GO:propionate catabolic process ; GO:0019543
 PROSITE:MF_01882 Propion_kin_subfam2 > GO:propanediol catabolic process ; GO:0051144
+PROSITE:MF_01883 MdcB > GO:ATP binding ; GO:0005524
+PROSITE:MF_01883 MdcB > GO:triphosphoribosyl-dephospho-CoA synthase activity ; GO:0046917
+PROSITE:MF_01883 MdcB > GO:phosphorylation ; GO:0016310
 PROSITE:MF_01884 Rho > GO:RNA binding ; GO:0003723
 PROSITE:MF_01884 Rho > GO:ATP binding ; GO:0005524
 PROSITE:MF_01884 Rho > GO:RNA-dependent ATPase activity ; GO:0008186
@@ -3557,7 +3563,7 @@ PROSITE:MF_02009 Tyr_tRNA_synth_type4 > GO:ATP binding ; GO:0005524
 PROSITE:MF_02009 Tyr_tRNA_synth_type4 > GO:tyrosyl-tRNA aminoacylation ; GO:0006437
 PROSITE:MF_02009 Tyr_tRNA_synth_type4 > GO:cytoplasm ; GO:0005737
 PROSITE:MF_02010 IraD > GO:anti-sigma factor antagonist activity ; GO:0043856
-PROSITE:MF_02010 IraD > GO:response to DNA damage stimulus ; GO:0006974
+PROSITE:MF_02010 IraD > GO:cellular response to DNA damage stimulus ; GO:0006974
 PROSITE:MF_02013 ZapA_type2 > GO:cell cycle ; GO:0007049
 PROSITE:MF_02013 ZapA_type2 > GO:cell division ; GO:0051301
 PROSITE:MF_02016 MltF > GO:carbon-oxygen lyase activity, acting on polysaccharides ; GO:0016837
@@ -3567,6 +3573,7 @@ PROSITE:MF_02100 Methyltr_YrrT > GO:methyltransferase activity ; GO:0008168
 PROSITE:MF_02101 DHNA_CoA_hydrolase > GO:thiolester hydrolase activity ; GO:0016790
 PROSITE:MF_02102 PTCase > GO:putrescine carbamoyltransferase activity ; GO:0050231
 PROSITE:MF_02102 PTCase > GO:putrescine biosynthetic process from arginine via N-carbamoylputrescine ; GO:0033390
+PROSITE:MF_02105 LutA > GO:lactate metabolic process ; GO:0006089
 PROSITE:MF_02109 Cya_synthase > GO:transferase activity, transferring alkyl or aryl (other than methyl) groups ; GO:0016765
 PROSITE:MF_02111 Pup_ligase > GO:ligase activity, forming carbon-nitrogen bonds ; GO:0016879
 PROSITE:MF_02111 Pup_ligase > GO:proteasomal protein catabolic process ; GO:0010498
@@ -4268,7 +4275,6 @@ PROSITE:PS00327 BACTERIAL_OPSIN_RET > GO:ion channel activity ; GO:0005216
 PROSITE:PS00327 BACTERIAL_OPSIN_RET > GO:ion transport ; GO:0006811
 PROSITE:PS00327 BACTERIAL_OPSIN_RET > GO:membrane ; GO:0016020
 PROSITE:PS00331 MALIC_ENZYMES > GO:oxidoreductase activity ; GO:0016491
-PROSITE:PS00331 MALIC_ENZYMES > GO:malate dehydrogenase (oxaloacetate-decarboxylating) activity ; GO:0016619
 PROSITE:PS00331 MALIC_ENZYMES > GO:metal ion binding ; GO:0046872
 PROSITE:PS00331 MALIC_ENZYMES > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS00332 SOD_CU_ZN_2 > GO:superoxide dismutase activity ; GO:0004784
@@ -5452,10 +5458,6 @@ PROSITE:PS00958 TRANSALDOLASE_2 > GO:carbohydrate metabolic process ; GO:0005975
 PROSITE:PS00959 HISTONE_H3_2 > GO:DNA binding ; GO:0003677
 PROSITE:PS00959 HISTONE_H3_2 > GO:nucleosome assembly ; GO:0006334
 PROSITE:PS00959 HISTONE_H3_2 > GO:nucleosome ; GO:0000786
-PROSITE:PS00961 RIBOSOMAL_S28E > GO:structural constituent of ribosome ; GO:0003735
-PROSITE:PS00961 RIBOSOMAL_S28E > GO:translation ; GO:0006412
-PROSITE:PS00961 RIBOSOMAL_S28E > GO:intracellular ; GO:0005622
-PROSITE:PS00961 RIBOSOMAL_S28E > GO:ribosome ; GO:0005840
 PROSITE:PS00962 RIBOSOMAL_S2_1 > GO:structural constituent of ribosome ; GO:0003735
 PROSITE:PS00962 RIBOSOMAL_S2_1 > GO:translation ; GO:0006412
 PROSITE:PS00962 RIBOSOMAL_S2_1 > GO:ribosome ; GO:0005840

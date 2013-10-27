@@ -1,4 +1,4 @@
-!version date: 2013/10/19 12:18:25
+!version date: 2013/10/26 12:27:57
 !description: Mapping of GO terms to PIRSF entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pir.georgetown.edu/pirsf/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -132,7 +132,6 @@ PIRSF:PIRSF000105 HCDH > GO:NAD+ binding ; GO:0070403
 PIRSF:PIRSF000105 HCDH > GO:fatty acid metabolic process ; GO:0006631
 PIRSF:PIRSF000105 HCDH > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF000106 ME > GO:malic enzyme activity ; GO:0004470
-PIRSF:PIRSF000106 ME > GO:malate dehydrogenase (oxaloacetate-decarboxylating) activity ; GO:0016619
 PIRSF:PIRSF000106 ME > GO:malate metabolic process ; GO:0006108
 PIRSF:PIRSF000106 ME > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF000108 IDH_NADP > GO:isocitrate dehydrogenase (NADP+) activity ; GO:0004450
@@ -1885,8 +1884,9 @@ PIRSF:PIRSF005813 MSH2 > GO:mismatched DNA binding ; GO:0030983
 PIRSF:PIRSF005813 MSH2 > GO:mismatch repair ; GO:0006298
 PIRSF:PIRSF005813 MSH2 > GO:MutSalpha complex ; GO:0032301
 PIRSF:PIRSF005813 MSH2 > GO:MutSbeta complex ; GO:0032302
+PIRSF:PIRSF005814 MutS_YshD > GO:DNA binding ; GO:0003677
 PIRSF:PIRSF005814 MutS_YshD > GO:ATPase activity ; GO:0016887
-PIRSF:PIRSF005814 MutS_YshD > GO:mismatched DNA binding ; GO:0030983
+PIRSF:PIRSF005814 MutS_YshD > GO:negative regulation of DNA recombination ; GO:0045910
 PIRSF:PIRSF005825 PufQ > GO:photosynthesis ; GO:0015979
 PIRSF:PIRSF005825 PufQ > GO:bacteriochlorophyll biosynthetic process ; GO:0030494
 PIRSF:PIRSF005859 PBR > GO:integral to membrane ; GO:0016021
@@ -3078,7 +3078,7 @@ PIRSF:PIRSF036665 Sulf1 > GO:Golgi apparatus ; GO:0005794
 PIRSF:PIRSF036665 Sulf1 > GO:cell surface ; GO:0009986
 PIRSF:PIRSF036666 G6S > GO:N-acetylglucosamine-6-sulfatase activity ; GO:0008449
 PIRSF:PIRSF036666 G6S > GO:glycosaminoglycan metabolic process ; GO:0030203
-PIRSF:PIRSF036684 ME_PTA > GO:malate dehydrogenase (oxaloacetate-decarboxylating) (NADP+) activity ; GO:0004473
+PIRSF:PIRSF036684 ME_PTA > GO:malate dehydrogenase (decarboxylating) (NADP+) activity ; GO:0004473
 PIRSF:PIRSF036684 ME_PTA > GO:oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor ; GO:0016616
 PIRSF:PIRSF036684 ME_PTA > GO:manganese ion binding ; GO:0030145
 PIRSF:PIRSF036684 ME_PTA > GO:metal ion binding ; GO:0046872
@@ -3436,7 +3436,7 @@ PIRSF:PIRSF037949 Transl_init_eIF-3_RNA-bind > GO:translation initiation factor 
 PIRSF:PIRSF037949 Transl_init_eIF-3_RNA-bind > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF037949 Transl_init_eIF-3_RNA-bind > GO:eukaryotic translation initiation factor 3 complex ; GO:0005852
 PIRSF:PIRSF037950 E3_ubiquit_lig_RNF8 > GO:acid-amino acid ligase activity ; GO:0016881
-PIRSF:PIRSF037950 E3_ubiquit_lig_RNF8 > GO:response to DNA damage stimulus ; GO:0006974
+PIRSF:PIRSF037950 E3_ubiquit_lig_RNF8 > GO:cellular response to DNA damage stimulus ; GO:0006974
 PIRSF:PIRSF037950 E3_ubiquit_lig_RNF8 > GO:protein ubiquitination ; GO:0016567
 PIRSF:PIRSF037950 E3_ubiquit_lig_RNF8 > GO:cell division ; GO:0051301
 PIRSF:PIRSF037950 E3_ubiquit_lig_RNF8 > GO:nucleus ; GO:0005634

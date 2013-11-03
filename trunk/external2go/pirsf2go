@@ -1,4 +1,4 @@
-!version date: 2013/10/26 12:27:57
+!version date: 2013/11/02 13:40:20
 !description: Mapping of GO terms to PIRSF entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pir.georgetown.edu/pirsf/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -132,6 +132,7 @@ PIRSF:PIRSF000105 HCDH > GO:NAD+ binding ; GO:0070403
 PIRSF:PIRSF000105 HCDH > GO:fatty acid metabolic process ; GO:0006631
 PIRSF:PIRSF000105 HCDH > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF000106 ME > GO:malic enzyme activity ; GO:0004470
+PIRSF:PIRSF000106 ME > GO:malate dehydrogenase (decarboxylating) (NAD+) activity ; GO:0004471
 PIRSF:PIRSF000106 ME > GO:malate metabolic process ; GO:0006108
 PIRSF:PIRSF000106 ME > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF000108 IDH_NADP > GO:isocitrate dehydrogenase (NADP+) activity ; GO:0004450
@@ -1743,7 +1744,6 @@ PIRSF:PIRSF005149 IPC-B_HD > GO:sphingolipid metabolic process ; GO:0006665
 PIRSF:PIRSF005149 IPC-B_HD > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF005149 IPC-B_HD > GO:endoplasmic reticulum ; GO:0005783
 PIRSF:PIRSF005198 Antiviral_helicase_SKI2 > GO:hydrolase activity, acting on acid anhydrides ; GO:0016817
-PIRSF:PIRSF005211 Ab_hydro_YheT > GO:carboxylesterase activity ; GO:0004091
 PIRSF:PIRSF005216 Pyruvoyl-dep_arg_deCO2ase > GO:arginine decarboxylase activity ; GO:0008792
 PIRSF:PIRSF005216 Pyruvoyl-dep_arg_deCO2ase > GO:arginine catabolic process ; GO:0006527
 PIRSF:PIRSF005225 LAG1_LAC1 > GO:integral to membrane ; GO:0016021
@@ -2203,6 +2203,8 @@ PIRSF:PIRSF009467 Ureas_acces_UreF > GO:nitrogen compound metabolic process ; GO
 PIRSF:PIRSF009533 FlbT > GO:mRNA 5'-UTR binding ; GO:0048027
 PIRSF:PIRSF009533 FlbT > GO:mRNA catabolic process ; GO:0006402
 PIRSF:PIRSF009533 FlbT > GO:negative regulation of bacterial-type flagellum assembly ; GO:1902209
+PIRSF:PIRSF009564 HNS-dep_expression_A > GO:cellular response to acidity ; GO:0071468
+PIRSF:PIRSF009564 HNS-dep_expression_A > GO:outer membrane-bounded periplasmic space ; GO:0030288
 PIRSF:PIRSF010045 DUF850_TM_euk > GO:membrane ; GO:0016020
 PIRSF:PIRSF010076 Psome_chaperone-1 > GO:proteasome assembly ; GO:0043248
 PIRSF:PIRSF010076 Psome_chaperone-1 > GO:endoplasmic reticulum ; GO:0005783
@@ -2579,7 +2581,6 @@ PIRSF:PIRSF017340 Nudix_hydro > GO:hydrolase activity, acting on acid anhydrides
 PIRSF:PIRSF017385 CtaF > GO:cytochrome-c oxidase activity ; GO:0004129
 PIRSF:PIRSF017385 CtaF > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF017385 CtaF > GO:integral to membrane ; GO:0016021
-PIRSF:PIRSF017388 Esterase_lipase > GO:carboxylesterase activity ; GO:0004091
 PIRSF:PIRSF017570 Histone_H3-K79_MeTrfase > GO:histone-lysine N-methyltransferase activity ; GO:0018024
 PIRSF:PIRSF017570 Histone_H3-K79_MeTrfase > GO:nucleus ; GO:0005634
 PIRSF:PIRSF017632 Acid_ceramidase-like > GO:lipid metabolic process ; GO:0006629
@@ -2720,7 +2721,6 @@ PIRSF:PIRSF022632 UCP022632 > GO:COP9 signalosome ; GO:0008180
 PIRSF:PIRSF022699 MND2 > GO:regulation of mitotic metaphase/anaphase transition ; GO:0030071
 PIRSF:PIRSF022699 MND2 > GO:anaphase-promoting complex-dependent proteasomal ubiquitin-dependent protein catabolic process ; GO:0031145
 PIRSF:PIRSF022699 MND2 > GO:anaphase-promoting complex ; GO:0005680
-PIRSF:PIRSF022950 PPase_methylesterase_euk > GO:carboxylesterase activity ; GO:0004091
 PIRSF:PIRSF022993 Profilin_apicomplexa > GO:actin binding ; GO:0003779
 PIRSF:PIRSF022993 Profilin_apicomplexa > GO:actin cytoskeleton organization ; GO:0030036
 PIRSF:PIRSF023322 DUF841_euk > GO:membrane ; GO:0016020
@@ -3237,7 +3237,6 @@ PIRSF:PIRSF037249 Histone_Lys_mtfrase_SET > GO:histone-lysine N-methyltransferas
 PIRSF:PIRSF037249 Histone_Lys_mtfrase_SET > GO:regulation of transcription, DNA-dependent ; GO:0006355
 PIRSF:PIRSF037249 Histone_Lys_mtfrase_SET > GO:histone lysine methylation ; GO:0034968
 PIRSF:PIRSF037249 Histone_Lys_mtfrase_SET > GO:chromosome ; GO:0005694
-PIRSF:PIRSF037251 Arylacetamide_deacetylase > GO:carboxylesterase activity ; GO:0004091
 PIRSF:PIRSF037251 Arylacetamide_deacetylase > GO:integral to membrane ; GO:0016021
 PIRSF:PIRSF037274 PIP5K_plant_prd > GO:ATP binding ; GO:0005524
 PIRSF:PIRSF037274 PIP5K_plant_prd > GO:1-phosphatidylinositol-4-phosphate 5-kinase activity ; GO:0016308
@@ -3334,8 +3333,8 @@ PIRSF:PIRSF037595 Toll-like_receptor > GO:transmembrane signaling receptor activ
 PIRSF:PIRSF037595 Toll-like_receptor > GO:toll-like receptor signaling pathway ; GO:0002224
 PIRSF:PIRSF037595 Toll-like_receptor > GO:immune response ; GO:0006955
 PIRSF:PIRSF037595 Toll-like_receptor > GO:integral to membrane ; GO:0016021
+PIRSF:PIRSF037599 GDPMH > GO:magnesium ion binding ; GO:0000287
 PIRSF:PIRSF037599 GDPMH > GO:GDP-mannose mannosyl hydrolase activity ; GO:0008727
-PIRSF:PIRSF037599 GDPMH > GO:lipopolysaccharide biosynthetic process ; GO:0009103
 PIRSF:PIRSF037610 BLOC-1_complex_muted_subunit > GO:transport vesicle ; GO:0030133
 PIRSF:PIRSF037610 BLOC-1_complex_muted_subunit > GO:BLOC-1 complex ; GO:0031083
 PIRSF:PIRSF037618 RNA_Mtase_bacteria_prd > GO:rRNA (guanine-N2-)-methyltransferase activity ; GO:0008990

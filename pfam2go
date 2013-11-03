@@ -1,4 +1,4 @@
-!version date: 2013/10/26 12:27:56
+!version date: 2013/11/02 13:40:17
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -702,7 +702,7 @@ Pfam:PF00389 2-Hacid_dh > GO:oxidoreductase activity, acting on the CH-OH group 
 Pfam:PF00389 2-Hacid_dh > GO:NAD binding ; GO:0051287
 Pfam:PF00389 2-Hacid_dh > GO:metabolic process ; GO:0008152
 Pfam:PF00389 2-Hacid_dh > GO:oxidation-reduction process ; GO:0055114
-Pfam:PF00390 malic > GO:oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor ; GO:0016616
+Pfam:PF00390 malic > GO:malate dehydrogenase (decarboxylating) (NAD+) activity ; GO:0004471
 Pfam:PF00390 malic > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF00391 PEP-utilizers > GO:transferase activity, transferring phosphorus-containing groups ; GO:0016772
 Pfam:PF00391 PEP-utilizers > GO:phosphorylation ; GO:0016310
@@ -1020,7 +1020,6 @@ Pfam:PF00556 LHC > GO:electron transporter, transferring electrons within the cy
 Pfam:PF00556 LHC > GO:photosynthesis, light reaction ; GO:0019684
 Pfam:PF00556 LHC > GO:integral to membrane ; GO:0016021
 Pfam:PF00556 LHC > GO:plasma membrane light-harvesting complex ; GO:0030077
-Pfam:PF00557 Peptidase_M24 > GO:cellular process ; GO:0009987
 Pfam:PF00558 Vpu > GO:cation channel activity ; GO:0005261
 Pfam:PF00558 Vpu > GO:viral release from host cell ; GO:0019076
 Pfam:PF00558 Vpu > GO:receptor catabolic process ; GO:0032801
@@ -5569,7 +5568,6 @@ Pfam:PF03882 KicB > GO:DNA replication ; GO:0006260
 Pfam:PF03882 KicB > GO:chromosome segregation ; GO:0007059
 Pfam:PF03882 KicB > GO:cytoplasm ; GO:0005737
 Pfam:PF03884 DUF329 > GO:zinc ion binding ; GO:0008270
-Pfam:PF03893 Lipase3_N > GO:carboxylesterase activity ; GO:0004091
 Pfam:PF03893 Lipase3_N > GO:lipid catabolic process ; GO:0016042
 Pfam:PF03894 XFP > GO:aldehyde-lyase activity ; GO:0016832
 Pfam:PF03894 XFP > GO:carbohydrate metabolic process ; GO:0005975
@@ -5606,7 +5604,7 @@ Pfam:PF03945 Endotoxin_N > GO:pathogenesis ; GO:0009405
 Pfam:PF03947 Ribosomal_L2_C > GO:structural constituent of ribosome ; GO:0003735
 Pfam:PF03947 Ribosomal_L2_C > GO:translation ; GO:0006412
 Pfam:PF03947 Ribosomal_L2_C > GO:ribosome ; GO:0005840
-Pfam:PF03949 Malic_M > GO:oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor ; GO:0016616
+Pfam:PF03949 Malic_M > GO:malate dehydrogenase (decarboxylating) (NAD+) activity ; GO:0004471
 Pfam:PF03949 Malic_M > GO:NAD binding ; GO:0051287
 Pfam:PF03949 Malic_M > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF03950 tRNA-synt_1c_C > GO:nucleotide binding ; GO:0000166
@@ -9092,7 +9090,6 @@ Pfam:PF08657 DASH_Spc34 > GO:DASH complex ; GO:0042729
 Pfam:PF08658 Rad54_N > GO:hydrolase activity, acting on acid anhydrides ; GO:0016817
 Pfam:PF08671 SinI > GO:protein dimerization activity ; GO:0046983
 Pfam:PF08671 SinI > GO:regulation of transcription, DNA-dependent ; GO:0006355
-Pfam:PF08674 AChE_tetra > GO:carboxylesterase activity ; GO:0004091
 Pfam:PF08674 AChE_tetra > GO:membrane ; GO:0016020
 Pfam:PF08675 RNA_bind > GO:RNA binding ; GO:0003723
 Pfam:PF08675 RNA_bind > GO:poly(A)-specific ribonuclease activity ; GO:0004535
@@ -9506,7 +9503,7 @@ Pfam:PF09272 Hepsin-SRCR > GO:serine-type endopeptidase activity ; GO:0004252
 Pfam:PF09272 Hepsin-SRCR > GO:serine-type exopeptidase activity ; GO:0070008
 Pfam:PF09280 XPC-binding > GO:damaged DNA binding ; GO:0003684
 Pfam:PF09280 XPC-binding > GO:nucleotide-excision repair ; GO:0006289
-Pfam:PF09280 XPC-binding > GO:proteasomal ubiquitin-dependent protein catabolic process ; GO:0043161
+Pfam:PF09280 XPC-binding > GO:proteasome-mediated ubiquitin-dependent protein catabolic process ; GO:0043161
 Pfam:PF09281 Taq-exonuc > GO:nucleoside binding ; GO:0001882
 Pfam:PF09281 Taq-exonuc > GO:DNA-directed DNA polymerase activity ; GO:0003887
 Pfam:PF09281 Taq-exonuc > GO:DNA replication ; GO:0006260
@@ -9927,6 +9924,7 @@ Pfam:PF11112 PyocinActivator > GO:regulation of transcription, DNA-dependent ; G
 Pfam:PF11264 ThylakoidFormat > GO:thylakoid membrane organization ; GO:0010027
 Pfam:PF11264 ThylakoidFormat > GO:photosynthesis ; GO:0015979
 Pfam:PF11264 ThylakoidFormat > GO:photosystem II ; GO:0009523
+Pfam:PF11266 DUF3066 > GO:aldehyde decarbonylase activity ; GO:0071771
 Pfam:PF11365 DUF3166 > GO:regulation of autophagy ; GO:0010506
 Pfam:PF11365 DUF3166 > GO:extracellular space ; GO:0005615
 Pfam:PF11380 DUF3184 > GO:transferase activity, transferring phosphorus-containing groups ; GO:0016772
@@ -10034,6 +10032,7 @@ Pfam:PF11956 KCNQC3-Ank-G_bd > GO:membrane ; GO:0016020
 Pfam:PF11960 DUF3474 > GO:oxidoreductase activity, acting on paired donors, with oxidation of a pair of donors resulting in the reduction of molecular oxygen to two molecules of water ; GO:0016717
 Pfam:PF11960 DUF3474 > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF11965 DUF3479 > GO:magnesium chelatase activity ; GO:0016851
+Pfam:PF11968 DUF3321 > GO:rRNA (adenine) methyltransferase activity ; GO:0016433
 Pfam:PF11973 NQRA_SLBB > GO:oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor ; GO:0016655
 Pfam:PF11973 NQRA_SLBB > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF11975 Glyco_hydro_4C > GO:hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553
@@ -10257,6 +10256,7 @@ Pfam:PF13307 Helicase_C_2 > GO:ATP binding ; GO:0005524
 Pfam:PF13307 Helicase_C_2 > GO:ATP-dependent helicase activity ; GO:0008026
 Pfam:PF13307 Helicase_C_2 > GO:hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides ; GO:0016818
 Pfam:PF13307 Helicase_C_2 > GO:nucleobase-containing compound metabolic process ; GO:0006139
+Pfam:PF13326 PSII_Pbs27 > GO:photosystem II assembly ; GO:0010207
 Pfam:PF13361 UvrD_C > GO:ATP binding ; GO:0005524
 Pfam:PF13361 UvrD_C > GO:hydrolase activity ; GO:0016787
 Pfam:PF13380 CoA_binding_2 > GO:cofactor binding ; GO:0048037

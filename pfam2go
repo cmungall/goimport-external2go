@@ -1,4 +1,4 @@
-!version date: 2013/11/16 12:17:42
+!version date: 2013/11/23 12:13:21
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -451,7 +451,7 @@ Pfam:PF00255 GSHPx > GO:glutathione peroxidase activity ; GO:0004602
 Pfam:PF00255 GSHPx > GO:response to oxidative stress ; GO:0006979
 Pfam:PF00255 GSHPx > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF00257 Dehydrin > GO:response to stress ; GO:0006950
-Pfam:PF00257 Dehydrin > GO:response to water stimulus ; GO:0009415
+Pfam:PF00257 Dehydrin > GO:response to water ; GO:0009415
 Pfam:PF00258 Flavodoxin_1 > GO:FMN binding ; GO:0010181
 Pfam:PF00258 Flavodoxin_1 > GO:oxidoreductase activity ; GO:0016491
 Pfam:PF00260 Protamine_P1 > GO:DNA binding ; GO:0003677
@@ -1400,9 +1400,7 @@ Pfam:PF00781 DAGK_cat > GO:protein kinase C-activating G-protein coupled recepto
 Pfam:PF00782 DSPc > GO:protein tyrosine/serine/threonine phosphatase activity ; GO:0008138
 Pfam:PF00782 DSPc > GO:protein dephosphorylation ; GO:0006470
 Pfam:PF00784 MyTH4 > GO:cytoskeleton ; GO:0005856
-Pfam:PF00787 PX > GO:protein binding ; GO:0005515
 Pfam:PF00787 PX > GO:phosphatidylinositol binding ; GO:0035091
-Pfam:PF00787 PX > GO:cell communication ; GO:0007154
 Pfam:PF00788 RA > GO:signal transduction ; GO:0007165
 Pfam:PF00789 UBX > GO:protein binding ; GO:0005515
 Pfam:PF00790 VHS > GO:intracellular protein transport ; GO:0006886
@@ -2537,7 +2535,7 @@ Pfam:PF01422 zf-NF-X1 > GO:regulation of transcription, DNA-dependent ; GO:00063
 Pfam:PF01422 zf-NF-X1 > GO:nucleus ; GO:0005634
 Pfam:PF01424 R3H > GO:nucleic acid binding ; GO:0003676
 Pfam:PF01425 Amidase > GO:carbon-nitrogen ligase activity, with glutamine as amido-N-donor ; GO:0016884
-Pfam:PF01426 BAH > GO:DNA binding ; GO:0003677
+Pfam:PF01426 BAH > GO:chromatin binding ; GO:0003682
 Pfam:PF01427 Peptidase_M15 > GO:metallopeptidase activity ; GO:0008237
 Pfam:PF01427 Peptidase_M15 > GO:dipeptidase activity ; GO:0016805
 Pfam:PF01427 Peptidase_M15 > GO:proteolysis ; GO:0006508
@@ -5344,13 +5342,14 @@ Pfam:PF03630 Fumble > GO:ATP binding ; GO:0005524
 Pfam:PF03630 Fumble > GO:coenzyme A biosynthetic process ; GO:0015937
 Pfam:PF03632 Glyco_hydro_65m > GO:catalytic activity ; GO:0003824
 Pfam:PF03632 Glyco_hydro_65m > GO:carbohydrate metabolic process ; GO:0005975
+Pfam:PF03635 Vps35 > GO:protein transport ; GO:0015031
+Pfam:PF03635 Vps35 > GO:retrograde transport, endosome to Golgi ; GO:0042147
+Pfam:PF03635 Vps35 > GO:retromer complex ; GO:0030904
 Pfam:PF03636 Glyco_hydro_65N > GO:catalytic activity ; GO:0003824
 Pfam:PF03636 Glyco_hydro_65N > GO:carbohydrate metabolic process ; GO:0005975
 Pfam:PF03639 Glyco_hydro_81 > GO:glucan endo-1,3-beta-glucanase activity, C-3 substituted reducing group ; GO:0052861
 Pfam:PF03639 Glyco_hydro_81 > GO:glucan endo-1,4-beta-glucanase activity, C-3 substituted reducing group ; GO:0052862
 Pfam:PF03639 Glyco_hydro_81 > GO:cell wall macromolecule catabolic process ; GO:0016998
-Pfam:PF03643 Vps26 > GO:vacuolar transport ; GO:0007034
-Pfam:PF03643 Vps26 > GO:retromer complex ; GO:0030904
 Pfam:PF03644 Glyco_hydro_85 > GO:mannosyl-glycoprotein endo-beta-N-acetylglucosaminidase activity ; GO:0033925
 Pfam:PF03644 Glyco_hydro_85 > GO:cytoplasm ; GO:0005737
 Pfam:PF03647 Tmemb_14 > GO:membrane ; GO:0016020
@@ -5375,7 +5374,6 @@ Pfam:PF03688 Nepo_coat_C > GO:viral capsid ; GO:0019028
 Pfam:PF03689 Nepo_coat_N > GO:viral capsid ; GO:0019028
 Pfam:PF03694 Erg28 > GO:integral to membrane ; GO:0016021
 Pfam:PF03699 UPF0182 > GO:integral to membrane ; GO:0016021
-Pfam:PF03700 Sorting_nexin > GO:protein transporter activity ; GO:0008565
 Pfam:PF03700 Sorting_nexin > GO:intracellular protein transport ; GO:0006886
 Pfam:PF03702 UPF0075 > GO:ATP binding ; GO:0005524
 Pfam:PF03702 UPF0075 > GO:phosphotransferase activity, alcohol group as acceptor ; GO:0016773
@@ -7747,7 +7745,7 @@ Pfam:PF06506 PrpR_N > GO:ATP binding ; GO:0005524
 Pfam:PF06506 PrpR_N > GO:phosphorelay signal transduction system ; GO:0000160
 Pfam:PF06507 Auxin_resp > GO:DNA binding ; GO:0003677
 Pfam:PF06507 Auxin_resp > GO:regulation of transcription, DNA-dependent ; GO:0006355
-Pfam:PF06507 Auxin_resp > GO:response to hormone stimulus ; GO:0009725
+Pfam:PF06507 Auxin_resp > GO:response to hormone ; GO:0009725
 Pfam:PF06507 Auxin_resp > GO:nucleus ; GO:0005634
 Pfam:PF06511 IpaD > GO:pathogenesis ; GO:0009405
 Pfam:PF06512 Na_trans_assoc > GO:voltage-gated sodium channel activity ; GO:0005248

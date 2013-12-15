@@ -1,4 +1,4 @@
-!version date: 2013/12/07 13:36:42
+!version date: 2013/12/14 14:31:18
 !description: Mapping of GO terms to PROSITE entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://www.expasy.org/prosite/
 !citation: Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -189,7 +189,7 @@ PROSITE:MF_00072 Rel_fac_3 > GO:GTP binding ; GO:0005525
 PROSITE:MF_00072 Rel_fac_3 > GO:translation release factor activity, codon specific ; GO:0016149
 PROSITE:MF_00072 Rel_fac_3 > GO:translational termination ; GO:0006415
 PROSITE:MF_00072 Rel_fac_3 > GO:cytoplasm ; GO:0005737
-PROSITE:MF_00073 NusB > GO:DNA-dependent transcription, termination ; GO:0006353
+PROSITE:MF_00073 NusB > GO:DNA-templated transcription, termination ; GO:0006353
 PROSITE:MF_00074 16SrRNA_methyltr_G > GO:rRNA methyltransferase activity ; GO:0008649
 PROSITE:MF_00074 16SrRNA_methyltr_G > GO:rRNA processing ; GO:0006364
 PROSITE:MF_00074 16SrRNA_methyltr_G > GO:cytoplasm ; GO:0005737
@@ -205,7 +205,7 @@ PROSITE:MF_00079 HisG_Long > GO:histidine biosynthetic process ; GO:0000105
 PROSITE:MF_00080 IF_3 > GO:translation initiation factor activity ; GO:0003743
 PROSITE:MF_00080 IF_3 > GO:translational initiation ; GO:0006413
 PROSITE:MF_00081 HrcA > GO:DNA binding ; GO:0003677
-PROSITE:MF_00081 HrcA > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_00081 HrcA > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_00082_A ArgB_A > GO:acetylglutamate kinase activity ; GO:0003991
 PROSITE:MF_00082_A ArgB_A > GO:arginine biosynthetic process ; GO:0006526
 PROSITE:MF_00082_A ArgB_A > GO:cytoplasm ; GO:0005737
@@ -273,7 +273,7 @@ PROSITE:MF_00104 RNase_III > GO:ribonuclease III activity ; GO:0004525
 PROSITE:MF_00104 RNase_III > GO:rRNA catabolic process ; GO:0016075
 PROSITE:MF_00105 GreA_GreB > GO:DNA binding ; GO:0003677
 PROSITE:MF_00105 GreA_GreB > GO:RNA polymerase binding ; GO:0070063
-PROSITE:MF_00105 GreA_GreB > GO:regulation of DNA-dependent transcription, elongation ; GO:0032784
+PROSITE:MF_00105 GreA_GreB > GO:regulation of DNA-templated transcription, elongation ; GO:0032784
 PROSITE:MF_00106 UxuA > GO:mannonate dehydratase activity ; GO:0008927
 PROSITE:MF_00106 UxuA > GO:glucuronate catabolic process ; GO:0006064
 PROSITE:MF_00107 IspF > GO:2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase activity ; GO:0008685
@@ -414,7 +414,7 @@ PROSITE:MF_00165 Thymidylate_kinase > GO:thymidylate kinase activity ; GO:000479
 PROSITE:MF_00165 Thymidylate_kinase > GO:ATP binding ; GO:0005524
 PROSITE:MF_00165 Thymidylate_kinase > GO:dTDP biosynthetic process ; GO:0006233
 PROSITE:MF_00166 DNA_binding_Fis > GO:DNA binding ; GO:0003677
-PROSITE:MF_00166 DNA_binding_Fis > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_00166 DNA_binding_Fis > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_00167 CsrA > GO:RNA binding ; GO:0003723
 PROSITE:MF_00167 CsrA > GO:regulation of carbohydrate metabolic process ; GO:0006109
 PROSITE:MF_00167 CsrA > GO:mRNA catabolic process ; GO:0006402
@@ -431,7 +431,7 @@ PROSITE:MF_00171 TruA > GO:RNA modification ; GO:0009451
 PROSITE:MF_00172 Meth_synth > GO:5-methyltetrahydropteroyltriglutamate-homocysteine S-methyltransferase activity ; GO:0003871
 PROSITE:MF_00172 Meth_synth > GO:methionine biosynthetic process ; GO:0009086
 PROSITE:MF_00173 Arg_repressor > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:MF_00173 Arg_repressor > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_00173 Arg_repressor > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_00174 EF_P_modif_A > GO:lysine-tRNA ligase activity ; GO:0004824
 PROSITE:MF_00174 EF_P_modif_A > GO:ATP binding ; GO:0005524
 PROSITE:MF_00174 EF_P_modif_A > GO:lysyl-tRNA aminoacylation ; GO:0006430
@@ -673,9 +673,6 @@ PROSITE:MF_00270 Ribosomal_S18 > GO:ribosome ; GO:0005840
 PROSITE:MF_00271 ATP_synth_D_arch > GO:ATPase activity, coupled to transmembrane movement of substances ; GO:0042626
 PROSITE:MF_00272 GcvH > GO:glycine catabolic process ; GO:0006546
 PROSITE:MF_00272 GcvH > GO:glycine cleavage complex ; GO:0005960
-PROSITE:MF_00273 Ribosomal_L18Ae > GO:structural constituent of ribosome ; GO:0003735
-PROSITE:MF_00273 Ribosomal_L18Ae > GO:translation ; GO:0006412
-PROSITE:MF_00273 Ribosomal_L18Ae > GO:ribosome ; GO:0005840
 PROSITE:MF_00275 KdpA > GO:potassium-transporting ATPase activity ; GO:0008556
 PROSITE:MF_00275 KdpA > GO:potassium ion transport ; GO:0006813
 PROSITE:MF_00275 KdpA > GO:plasma membrane ; GO:0005886
@@ -882,7 +879,7 @@ PROSITE:MF_00356 DNApol_PolC > GO:DNA-directed DNA polymerase activity ; GO:0003
 PROSITE:MF_00356 DNApol_PolC > GO:DNA replication ; GO:0006260
 PROSITE:MF_00356 DNApol_PolC > GO:cytoplasm ; GO:0005737
 PROSITE:MF_00357 RNApol_bact_RpoE > GO:transcription, DNA-templated ; GO:0006351
-PROSITE:MF_00357 RNApol_bact_RpoE > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_00357 RNApol_bact_RpoE > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_00358 Ribosomal_S21 > GO:structural constituent of ribosome ; GO:0003735
 PROSITE:MF_00358 Ribosomal_S21 > GO:translation ; GO:0006412
 PROSITE:MF_00358 Ribosomal_S21 > GO:intracellular ; GO:0005622
@@ -949,11 +946,11 @@ PROSITE:MF_00379 GTPase_MnmE > GO:tRNA modification ; GO:0006400
 PROSITE:MF_00379 GTPase_MnmE > GO:intracellular ; GO:0005622
 PROSITE:MF_00380 IHF_alpha > GO:DNA binding ; GO:0003677
 PROSITE:MF_00380 IHF_alpha > GO:DNA recombination ; GO:0006310
-PROSITE:MF_00380 IHF_alpha > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_00380 IHF_alpha > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_00380 IHF_alpha > GO:regulation of translation ; GO:0006417
 PROSITE:MF_00381 IHF_beta > GO:DNA binding ; GO:0003677
 PROSITE:MF_00381 IHF_beta > GO:DNA recombination ; GO:0006310
-PROSITE:MF_00381 IHF_beta > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_00381 IHF_beta > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_00381 IHF_beta > GO:chromosome ; GO:0005694
 PROSITE:MF_00382 Ribosomal_L20 > GO:structural constituent of ribosome ; GO:0003735
 PROSITE:MF_00382 Ribosomal_L20 > GO:rRNA binding ; GO:0019843
@@ -1015,7 +1012,7 @@ PROSITE:MF_00406 FabZ > GO:fatty acid biosynthetic process ; GO:0006633
 PROSITE:MF_00406 FabZ > GO:cytoplasm ; GO:0005737
 PROSITE:MF_00407 DNA_ligase > GO:DNA ligase (ATP) activity ; GO:0003910
 PROSITE:MF_00408 TATA_bind_prot_arch > GO:DNA binding ; GO:0003677
-PROSITE:MF_00408 TATA_bind_prot_arch > GO:DNA-dependent transcription, initiation ; GO:0006352
+PROSITE:MF_00408 TATA_bind_prot_arch > GO:DNA-templated transcription, initiation ; GO:0006352
 PROSITE:MF_00409 LpxK > GO:ATP binding ; GO:0005524
 PROSITE:MF_00409 LpxK > GO:tetraacyldisaccharide 4'-kinase activity ; GO:0009029
 PROSITE:MF_00409 LpxK > GO:lipid A biosynthetic process ; GO:0009245
@@ -1098,7 +1095,7 @@ PROSITE:MF_00435 IlvC > GO:oxidoreductase activity ; GO:0016491
 PROSITE:MF_00435 IlvC > GO:branched-chain amino acid biosynthetic process ; GO:0009082
 PROSITE:MF_00435 IlvC > GO:oxidation-reduction process ; GO:0055114
 PROSITE:MF_00436 Lsm_Hfq > GO:RNA binding ; GO:0003723
-PROSITE:MF_00436 Lsm_Hfq > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_00436 Lsm_Hfq > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_00437 Ycf4 > GO:photosynthesis ; GO:0015979
 PROSITE:MF_00437 Ycf4 > GO:photosystem I ; GO:0009522
 PROSITE:MF_00437 Ycf4 > GO:thylakoid ; GO:0009579
@@ -1108,7 +1105,7 @@ PROSITE:MF_00438 PSII_PsbM > GO:photosynthesis, light reaction ; GO:0019684
 PROSITE:MF_00438 PSII_PsbM > GO:photosystem II ; GO:0009523
 PROSITE:MF_00438 PSII_PsbM > GO:integral to membrane ; GO:0016021
 PROSITE:MF_00440 NrdR > GO:zinc ion binding ; GO:0008270
-PROSITE:MF_00440 NrdR > GO:negative regulation of transcription, DNA-dependent ; GO:0045892
+PROSITE:MF_00440 NrdR > GO:negative regulation of transcription, DNA-templated ; GO:0045892
 PROSITE:MF_00441 PSII_PsbK > GO:photosynthesis ; GO:0015979
 PROSITE:MF_00441 PSII_PsbK > GO:photosystem II ; GO:0009523
 PROSITE:MF_00441 PSII_PsbK > GO:photosystem II reaction center ; GO:0009539
@@ -1172,10 +1169,10 @@ PROSITE:MF_00473 G6P_isomerase > GO:glycolysis ; GO:0006096
 PROSITE:MF_00474 PSI_PsaK > GO:photosynthesis ; GO:0015979
 PROSITE:MF_00474 PSI_PsaK > GO:photosystem I ; GO:0009522
 PROSITE:MF_00474 PSI_PsaK > GO:thylakoid membrane ; GO:0042651
-PROSITE:MF_00475 Trp_repressor > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_00475 Trp_repressor > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_00476 NikR > GO:DNA binding ; GO:0003677
 PROSITE:MF_00476 NikR > GO:nickel cation binding ; GO:0016151
-PROSITE:MF_00476 NikR > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_00476 NikR > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_00476 NikR > GO:response to nickel cation ; GO:0010045
 PROSITE:MF_00478 RnfE > GO:electron transport chain ; GO:0022900
 PROSITE:MF_00478 RnfE > GO:membrane ; GO:0016020
@@ -1420,7 +1417,7 @@ PROSITE:MF_00583_B RibP_PPkinase_B > GO:magnesium ion binding ; GO:0000287
 PROSITE:MF_00583_B RibP_PPkinase_B > GO:ribose phosphate diphosphokinase activity ; GO:0004749
 PROSITE:MF_00583_B RibP_PPkinase_B > GO:nucleotide biosynthetic process ; GO:0009165
 PROSITE:MF_00584 HTH_type_cro_C1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:MF_00584 HTH_type_cro_C1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_00584 HTH_type_cro_C1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_00586 GatD > GO:regulation of translational fidelity ; GO:0006450
 PROSITE:MF_00587 tRNA_methyltr_TrmY > GO:tRNA methyltransferase activity ; GO:0008175
 PROSITE:MF_00588 GatE > GO:carbon-nitrogen ligase activity, with glutamine as amido-N-donor ; GO:0016884
@@ -1489,7 +1486,7 @@ PROSITE:MF_00620 HTH_type_tfx > GO:DNA binding ; GO:0003677
 PROSITE:MF_00621 HTH_type_CodY > GO:DNA binding ; GO:0003677
 PROSITE:MF_00621 HTH_type_CodY > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:MF_00621 HTH_type_CodY > GO:GTP binding ; GO:0005525
-PROSITE:MF_00621 HTH_type_CodY > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_00621 HTH_type_CodY > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_00622 Exosome_Exonucl_2 > GO:3'-5' exonuclease activity ; GO:0008408
 PROSITE:MF_00622 Exosome_Exonucl_2 > GO:RNA catabolic process ; GO:0006401
 PROSITE:MF_00622 Exosome_Exonucl_2 > GO:cytoplasm ; GO:0005737
@@ -1523,12 +1520,12 @@ PROSITE:MF_00637 Anti_sigma_F > GO:ATP binding ; GO:0005524
 PROSITE:MF_00637 Anti_sigma_F > GO:sigma factor antagonist activity ; GO:0016989
 PROSITE:MF_00637 Anti_sigma_F > GO:protein phosphorylation ; GO:0006468
 PROSITE:MF_00637 Anti_sigma_F > GO:sporulation resulting in formation of a cellular spore ; GO:0030435
-PROSITE:MF_00637 Anti_sigma_F > GO:negative regulation of transcription, DNA-dependent ; GO:0045892
+PROSITE:MF_00637 Anti_sigma_F > GO:negative regulation of transcription, DNA-templated ; GO:0045892
 PROSITE:MF_00638 Anti_sigma_B > GO:protein serine/threonine kinase activity ; GO:0004674
 PROSITE:MF_00638 Anti_sigma_B > GO:ATP binding ; GO:0005524
 PROSITE:MF_00638 Anti_sigma_B > GO:sigma factor antagonist activity ; GO:0016989
 PROSITE:MF_00638 Anti_sigma_B > GO:protein phosphorylation ; GO:0006468
-PROSITE:MF_00638 Anti_sigma_B > GO:negative regulation of transcription, DNA-dependent ; GO:0045892
+PROSITE:MF_00638 Anti_sigma_B > GO:negative regulation of transcription, DNA-templated ; GO:0045892
 PROSITE:MF_00639 MurD > GO:ATP binding ; GO:0005524
 PROSITE:MF_00639 MurD > GO:UDP-N-acetylmuramoylalanine-D-glutamate ligase activity ; GO:0008764
 PROSITE:MF_00639 MurD > GO:regulation of cell shape ; GO:0008360
@@ -1669,7 +1666,7 @@ PROSITE:MF_00724 FliE > GO:structural molecule activity ; GO:0005198
 PROSITE:MF_00724 FliE > GO:ciliary or bacterial-type flagellar motility ; GO:0001539
 PROSITE:MF_00724 FliE > GO:bacterial-type flagellum ; GO:0009288
 PROSITE:MF_00725 FlhD > GO:bacterial-type flagellum assembly ; GO:0044780
-PROSITE:MF_00725 FlhD > GO:positive regulation of transcription, DNA-dependent ; GO:0045893
+PROSITE:MF_00725 FlhD > GO:positive regulation of transcription, DNA-templated ; GO:0045893
 PROSITE:MF_00727 Tgl > GO:protein-glutamine gamma-glutamyltransferase activity ; GO:0003810
 PROSITE:MF_00728 EzrA > GO:septin ring assembly ; GO:0000921
 PROSITE:MF_00728 EzrA > GO:septin ring ; GO:0005940
@@ -1710,7 +1707,7 @@ PROSITE:MF_00743 FumaraseC > GO:fumarate hydratase activity ; GO:0004333
 PROSITE:MF_00743 FumaraseC > GO:fumarate metabolic process ; GO:0006106
 PROSITE:MF_00743 FumaraseC > GO:tricarboxylic acid cycle enzyme complex ; GO:0045239
 PROSITE:MF_00744 MetJ > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:MF_00744 MetJ > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_00744 MetJ > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_00744 MetJ > GO:methionine metabolic process ; GO:0006555
 PROSITE:MF_00747 AceK > GO:[isocitrate dehydrogenase (NADP+)] kinase activity ; GO:0008772
 PROSITE:MF_00747 AceK > GO:phosphatase activity ; GO:0016791
@@ -1790,8 +1787,8 @@ PROSITE:MF_00795 CutC > GO:copper ion binding ; GO:0005507
 PROSITE:MF_00795 CutC > GO:copper ion homeostasis ; GO:0055070
 PROSITE:MF_00796 NTPase_1 > GO:nucleotide phosphatase activity, acting on free nucleotides ; GO:0098519
 PROSITE:MF_00798 Trp_attenuator > GO:RNA binding ; GO:0003723
-PROSITE:MF_00798 Trp_attenuator > GO:DNA-dependent transcription, termination ; GO:0006353
-PROSITE:MF_00798 Trp_attenuator > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_00798 Trp_attenuator > GO:DNA-templated transcription, termination ; GO:0006353
+PROSITE:MF_00798 Trp_attenuator > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_00801 Endonuclease_5 > GO:endonuclease activity ; GO:0004519
 PROSITE:MF_00801 Endonuclease_5 > GO:DNA repair ; GO:0006281
 PROSITE:MF_00802 GlnE > GO:[glutamate-ammonia-ligase] adenylyltransferase activity ; GO:0008882
@@ -1896,7 +1893,7 @@ PROSITE:MF_00920 FtsY > GO:SRP-dependent cotranslational protein targeting to me
 PROSITE:MF_00926 DksA > GO:zinc ion binding ; GO:0008270
 PROSITE:MF_00929 Cellobiose_2_epim > GO:cellobiose epimerase activity ; GO:0047736
 PROSITE:MF_00930 GreB > GO:DNA binding ; GO:0003677
-PROSITE:MF_00930 GreB > GO:regulation of DNA-dependent transcription, elongation ; GO:0032784
+PROSITE:MF_00930 GreB > GO:regulation of DNA-templated transcription, elongation ; GO:0032784
 PROSITE:MF_00931 Aldeh_decarbonylase > GO:aldehyde decarbonylase activity ; GO:0071771
 PROSITE:MF_00933 Arylsulfotrans_AssT > GO:aryl sulfotransferase activity ; GO:0004062
 PROSITE:MF_00934 23SrRNA_methyltr_J > GO:rRNA methyltransferase activity ; GO:0008649
@@ -1935,10 +1932,10 @@ PROSITE:MF_00946 HdeA > GO:cellular response to acidity ; GO:0071468
 PROSITE:MF_00946 HdeA > GO:outer membrane-bounded periplasmic space ; GO:0030288
 PROSITE:MF_00947 HdeB > GO:unfolded protein binding ; GO:0051082
 PROSITE:MF_00947 HdeB > GO:response to pH ; GO:0009268
-PROSITE:MF_00948 NusG > GO:regulation of DNA-dependent transcription, elongation ; GO:0032784
-PROSITE:MF_00949 Spt4_arch > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_00948 NusG > GO:regulation of DNA-templated transcription, elongation ; GO:0032784
+PROSITE:MF_00949 Spt4_arch > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_00950 Spt5_arch > GO:translation elongation factor activity ; GO:0003746
-PROSITE:MF_00951 RfaH > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_00951 RfaH > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_00952 Topoisom_1_prok > GO:DNA binding ; GO:0003677
 PROSITE:MF_00952 Topoisom_1_prok > GO:DNA topoisomerase activity ; GO:0003916
 PROSITE:MF_00952 Topoisom_1_prok > GO:DNA topological change ; GO:0006265
@@ -1958,24 +1955,24 @@ PROSITE:MF_00957 PolyA_pol > GO:mRNA polyadenylation ; GO:0006378
 PROSITE:MF_00959 Sigma70_RpoS > GO:DNA binding ; GO:0003677
 PROSITE:MF_00959 Sigma70_RpoS > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:MF_00959 Sigma70_RpoS > GO:sigma factor activity ; GO:0016987
-PROSITE:MF_00959 Sigma70_RpoS > GO:DNA-dependent transcription, initiation ; GO:0006352
-PROSITE:MF_00959 Sigma70_RpoS > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_00959 Sigma70_RpoS > GO:DNA-templated transcription, initiation ; GO:0006352
+PROSITE:MF_00959 Sigma70_RpoS > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_00960 ADH_synthase > GO:hydro-lyase activity ; GO:0016836
 PROSITE:MF_00960 ADH_synthase > GO:aromatic amino acid family biosynthetic process ; GO:0009073
 PROSITE:MF_00961 Sigma70_RpoH > GO:DNA binding ; GO:0003677
 PROSITE:MF_00961 Sigma70_RpoH > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:MF_00961 Sigma70_RpoH > GO:zinc ion binding ; GO:0008270
 PROSITE:MF_00961 Sigma70_RpoH > GO:sigma factor activity ; GO:0016987
-PROSITE:MF_00961 Sigma70_RpoH > GO:DNA-dependent transcription, initiation ; GO:0006352
-PROSITE:MF_00961 Sigma70_RpoH > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_00961 Sigma70_RpoH > GO:DNA-templated transcription, initiation ; GO:0006352
+PROSITE:MF_00961 Sigma70_RpoH > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_00961 Sigma70_RpoH > GO:response to heat ; GO:0009408
 PROSITE:MF_00962 Sigma70_FliA > GO:DNA binding ; GO:0003677
 PROSITE:MF_00962 Sigma70_FliA > GO:DNA-directed RNA polymerase activity ; GO:0003899
 PROSITE:MF_00962 Sigma70_FliA > GO:sigma factor activity ; GO:0016987
-PROSITE:MF_00962 Sigma70_FliA > GO:DNA-dependent transcription, initiation ; GO:0006352
-PROSITE:MF_00962 Sigma70_FliA > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_00962 Sigma70_FliA > GO:DNA-templated transcription, initiation ; GO:0006352
+PROSITE:MF_00962 Sigma70_FliA > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_00963 Sigma70_RpoD_SigA > GO:sigma factor activity ; GO:0016987
-PROSITE:MF_00963 Sigma70_RpoD_SigA > GO:DNA-dependent transcription, initiation ; GO:0006352
+PROSITE:MF_00963 Sigma70_RpoD_SigA > GO:DNA-templated transcription, initiation ; GO:0006352
 PROSITE:MF_00964 DEAD_helicase_DeaD > GO:ATP-dependent RNA helicase activity ; GO:0004004
 PROSITE:MF_00964 DEAD_helicase_DeaD > GO:ribosomal large subunit assembly ; GO:0000027
 PROSITE:MF_00964 DEAD_helicase_DeaD > GO:cellular response to cold ; GO:0070417
@@ -1992,6 +1989,10 @@ PROSITE:MF_00969 TRCF > GO:damaged DNA binding ; GO:0003684
 PROSITE:MF_00969 TRCF > GO:helicase activity ; GO:0004386
 PROSITE:MF_00969 TRCF > GO:ATP binding ; GO:0005524
 PROSITE:MF_00969 TRCF > GO:DNA repair ; GO:0006281
+PROSITE:MF_00970 RNase_E > GO:ribonuclease E activity ; GO:0008995
+PROSITE:MF_00970 RNase_E > GO:RNA processing ; GO:0006396
+PROSITE:MF_00972 tRNA_aden_deaminase > GO:tRNA-specific adenosine deaminase activity ; GO:0008251
+PROSITE:MF_00972 tRNA_aden_deaminase > GO:tRNA wobble adenosine to inosine editing ; GO:0002100
 PROSITE:MF_01000 BtuF > GO:cobalamin binding ; GO:0031419
 PROSITE:MF_01000 BtuF > GO:cobalamin transport ; GO:0015889
 PROSITE:MF_01000 BtuF > GO:periplasmic space ; GO:0042597
@@ -2025,7 +2026,7 @@ PROSITE:MF_01013 HisF > GO:cytoplasm ; GO:0005737
 PROSITE:MF_01014 HisA > GO:1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide isomerase activity ; GO:0003949
 PROSITE:MF_01014 HisA > GO:histidine biosynthetic process ; GO:0000105
 PROSITE:MF_01017 NQOR > GO:FMN binding ; GO:0010181
-PROSITE:MF_01017 NQOR > GO:negative regulation of transcription, DNA-dependent ; GO:0045892
+PROSITE:MF_01017 NQOR > GO:negative regulation of transcription, DNA-templated ; GO:0045892
 PROSITE:MF_01018 HisG_Short > GO:ATP phosphoribosyltransferase activity ; GO:0003879
 PROSITE:MF_01018 HisG_Short > GO:histidine biosynthetic process ; GO:0000105
 PROSITE:MF_01019 HisIE > GO:phosphoribosyl-AMP cyclohydrolase activity ; GO:0004635
@@ -2212,7 +2213,7 @@ PROSITE:MF_01129 PPase_energized_pump > GO:inorganic diphosphatase activity ; GO
 PROSITE:MF_01129 PPase_energized_pump > GO:hydrogen-translocating pyrophosphatase activity ; GO:0009678
 PROSITE:MF_01129 PPase_energized_pump > GO:proton transport ; GO:0015992
 PROSITE:MF_01129 PPase_energized_pump > GO:membrane ; GO:0016020
-PROSITE:MF_01132 SpxA > GO:negative regulation of transcription, DNA-dependent ; GO:0045892
+PROSITE:MF_01132 SpxA > GO:negative regulation of transcription, DNA-templated ; GO:0045892
 PROSITE:MF_01133 RuBisCO_L_type3 > GO:ribulose-bisphosphate carboxylase activity ; GO:0016984
 PROSITE:MF_01133 RuBisCO_L_type3 > GO:carbon fixation ; GO:0015977
 PROSITE:MF_01134 CdhB > GO:methanogenesis, from acetate ; GO:0019385
@@ -2283,9 +2284,9 @@ PROSITE:MF_01175 tRNA_modifying_YgfZ > GO:folic acid binding ; GO:0005542
 PROSITE:MF_01175 tRNA_modifying_YgfZ > GO:RNA modification ; GO:0009451
 PROSITE:MF_01176 HTH_type_IscR > GO:double-stranded DNA binding ; GO:0003690
 PROSITE:MF_01176 HTH_type_IscR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:MF_01176 HTH_type_IscR > GO:regulation of transcription, DNA-dependent ; GO:0006355
-PROSITE:MF_01177 HTH_type_NsrR > GO:negative regulation of transcription, DNA-dependent ; GO:0045892
-PROSITE:MF_01178 Crl > GO:positive regulation of transcription, DNA-dependent ; GO:0045893
+PROSITE:MF_01176 HTH_type_IscR > GO:regulation of transcription, DNA-templated ; GO:0006355
+PROSITE:MF_01177 HTH_type_NsrR > GO:negative regulation of transcription, DNA-templated ; GO:0045892
+PROSITE:MF_01178 Crl > GO:positive regulation of transcription, DNA-templated ; GO:0045893
 PROSITE:MF_01178 Crl > GO:cytoplasm ; GO:0005737
 PROSITE:MF_01179 SulA > GO:SOS response ; GO:0009432
 PROSITE:MF_01179 SulA > GO:negative regulation of cell division ; GO:0051782
@@ -2315,6 +2316,7 @@ PROSITE:MF_01186 LptE_RlpB > GO:outer membrane ; GO:0019867
 PROSITE:MF_01189 MFS_NepI > GO:purine nucleoside transmembrane transporter activity ; GO:0015211
 PROSITE:MF_01189 MFS_NepI > GO:purine nucleoside transmembrane transport ; GO:0015860
 PROSITE:MF_01189 MFS_NepI > GO:integral to membrane ; GO:0016021
+PROSITE:MF_01192 Xni > GO:flap endonuclease activity ; GO:0048256
 PROSITE:MF_01193 Endoribonucl_SymE > GO:RNA binding ; GO:0003723
 PROSITE:MF_01193 Endoribonucl_SymE > GO:endoribonuclease activity ; GO:0004521
 PROSITE:MF_01193 Endoribonucl_SymE > GO:RNA metabolic process ; GO:0016070
@@ -2374,7 +2376,7 @@ PROSITE:MF_01230 Haloalk_dehal_type1 > GO:haloalkane dehalogenase activity ; GO:
 PROSITE:MF_01231 Haloalk_dehal_type2 > GO:haloalkane dehalogenase activity ; GO:0018786
 PROSITE:MF_01233 HTH_type_HdfR > GO:DNA binding ; GO:0003677
 PROSITE:MF_01233 HTH_type_HdfR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:MF_01233 HTH_type_HdfR > GO:negative regulation of transcription, DNA-dependent ; GO:0045892
+PROSITE:MF_01233 HTH_type_HdfR > GO:negative regulation of transcription, DNA-templated ; GO:0045892
 PROSITE:MF_01234 ManNAc_kinase > GO:ATP binding ; GO:0005524
 PROSITE:MF_01234 ManNAc_kinase > GO:zinc ion binding ; GO:0008270
 PROSITE:MF_01234 ManNAc_kinase > GO:N-acylmannosamine kinase activity ; GO:0009384
@@ -2477,7 +2479,7 @@ PROSITE:MF_01275 Aldedh_Prr > GO:oxidation-reduction process ; GO:0055114
 PROSITE:MF_01276 Putres_aminotrans_3 > GO:pyridoxal phosphate binding ; GO:0030170
 PROSITE:MF_01276 Putres_aminotrans_3 > GO:butane-1,4-diamine:2-oxoglutarate aminotransferase activity ; GO:0033094
 PROSITE:MF_01276 Putres_aminotrans_3 > GO:putrescine catabolic process ; GO:0009447
-PROSITE:MF_01277 HTH_type_PurR > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_01277 HTH_type_PurR > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_01278 Ser_tRNA_synth_type2 > GO:nucleotide binding ; GO:0000166
 PROSITE:MF_01278 Ser_tRNA_synth_type2 > GO:serine-tRNA ligase activity ; GO:0004828
 PROSITE:MF_01278 Ser_tRNA_synth_type2 > GO:ATP binding ; GO:0005524
@@ -2568,7 +2570,7 @@ PROSITE:MF_01312 NorV > GO:nitric oxide reductase activity ; GO:0016966
 PROSITE:MF_01313 NorW > GO:oxidoreductase activity, acting on iron-sulfur proteins as donors, NAD or NADP as acceptor ; GO:0016731
 PROSITE:MF_01313 NorW > GO:oxidation-reduction process ; GO:0055114
 PROSITE:MF_01314 NorR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:MF_01314 NorR > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_01314 NorR > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_01315 Ribosomal_S13_S18 > GO:RNA binding ; GO:0003723
 PROSITE:MF_01315 Ribosomal_S13_S18 > GO:structural constituent of ribosome ; GO:0003735
 PROSITE:MF_01315 Ribosomal_S13_S18 > GO:translation ; GO:0006412
@@ -2978,6 +2980,8 @@ PROSITE:MF_01478 Ribosomal_L12_arch > GO:ribosome ; GO:0005840
 PROSITE:MF_01480 Cas9 > GO:endonuclease activity ; GO:0004519
 PROSITE:MF_01481 PSII_Psb27 > GO:photosystem II assembly ; GO:0010207
 PROSITE:MF_01482 Mca > GO:mycothiol metabolic process ; GO:0010126
+PROSITE:MF_01483 RbpA > GO:bacterial-type RNA polymerase core enzyme binding ; GO:0001000
+PROSITE:MF_01483 RbpA > GO:positive regulation of transcription, DNA-templated ; GO:0045893
 PROSITE:MF_01500 MtrG > GO:tetrahydromethanopterin S-methyltransferase activity ; GO:0030269
 PROSITE:MF_01500 MtrG > GO:methanogenesis ; GO:0015948
 PROSITE:MF_01500 MtrG > GO:integral to membrane ; GO:0016021
@@ -3024,10 +3028,10 @@ PROSITE:MF_01532 RhaT > GO:hexose transport ; GO:0008645
 PROSITE:MF_01532 RhaT > GO:integral to membrane ; GO:0016021
 PROSITE:MF_01533 HTH_type_RhaR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:MF_01533 HTH_type_RhaR > GO:rhamnose metabolic process ; GO:0019299
-PROSITE:MF_01533 HTH_type_RhaR > GO:positive regulation of transcription, DNA-dependent ; GO:0045893
+PROSITE:MF_01533 HTH_type_RhaR > GO:positive regulation of transcription, DNA-templated ; GO:0045893
 PROSITE:MF_01533 HTH_type_RhaR > GO:cytoplasm ; GO:0005737
 PROSITE:MF_01534 HTH_type_RhaS > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:MF_01534 HTH_type_RhaS > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_01534 HTH_type_RhaS > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_01534 HTH_type_RhaS > GO:rhamnose metabolic process ; GO:0019299
 PROSITE:MF_01535 Rhamnulokinase > GO:rhamnulokinase activity ; GO:0008993
 PROSITE:MF_01535 Rhamnulokinase > GO:rhamnose catabolic process ; GO:0019301
@@ -3075,7 +3079,7 @@ PROSITE:MF_01559 L_lact_dehydr > GO:FMN binding ; GO:0010181
 PROSITE:MF_01559 L_lact_dehydr > GO:lactate metabolic process ; GO:0006089
 PROSITE:MF_01559 L_lact_dehydr > GO:oxidation-reduction process ; GO:0055114
 PROSITE:MF_01561 YcdX_phosphat > GO:zinc ion binding ; GO:0008270
-PROSITE:MF_01563 HTH_type_UlaR > GO:negative regulation of transcription, DNA-dependent ; GO:0045892
+PROSITE:MF_01563 HTH_type_UlaR > GO:negative regulation of transcription, DNA-templated ; GO:0045892
 PROSITE:MF_01563 HTH_type_UlaR > GO:cytoplasm ; GO:0005737
 PROSITE:MF_01564 Thiourid_synth_B > GO:tRNA wobble position uridine thiolation ; GO:0002143
 PROSITE:MF_01564 Thiourid_synth_B > GO:cytoplasm ; GO:0005737
@@ -3167,7 +3171,7 @@ PROSITE:MF_01605 6P_gluconolactonase > GO:pentose-phosphate shunt ; GO:0006098
 PROSITE:MF_01606 RIC_YtfE > GO:response to stress ; GO:0006950
 PROSITE:MF_01606 RIC_YtfE > GO:protein repair ; GO:0030091
 PROSITE:MF_01607 HTH_type_YidZ > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:MF_01607 HTH_type_YidZ > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_01607 HTH_type_YidZ > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_01608 CoA_diS_reduct > GO:CoA-disulfide reductase activity ; GO:0050451
 PROSITE:MF_01608 CoA_diS_reduct > GO:oxidation-reduction process ; GO:0055114
 PROSITE:MF_01609 Carbox_amine_ligase > GO:ligase activity, forming carbon-nitrogen bonds ; GO:0016879
@@ -3446,7 +3450,7 @@ PROSITE:MF_01810 YidC_type1 > GO:integral to membrane ; GO:0016021
 PROSITE:MF_01813 UbiE_methyltran > GO:methyltransferase activity ; GO:0008168
 PROSITE:MF_01814 Transcrip_fact_FapR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:MF_01814 Transcrip_fact_FapR > GO:negative regulation of fatty acid biosynthetic process ; GO:0045717
-PROSITE:MF_01814 Transcrip_fact_FapR > GO:negative regulation of transcription, DNA-dependent ; GO:0045892
+PROSITE:MF_01814 Transcrip_fact_FapR > GO:negative regulation of transcription, DNA-templated ; GO:0045892
 PROSITE:MF_01815 FabH > GO:3-oxoacyl-[acyl-carrier-protein] synthase activity ; GO:0004315
 PROSITE:MF_01815 FabH > GO:fatty acid biosynthetic process ; GO:0006633
 PROSITE:MF_01816 Recomb_XerS > GO:DNA recombination ; GO:0006310
@@ -3459,7 +3463,7 @@ PROSITE:MF_01818 RNase_Z_BN > GO:endoribonuclease activity, producing 5'-phospho
 PROSITE:MF_01818 RNase_Z_BN > GO:tRNA 3'-trailer cleavage ; GO:0042779
 PROSITE:MF_01820 GTPase_RsgA > GO:GTPase activity ; GO:0003924
 PROSITE:MF_01820 GTPase_RsgA > GO:GTP binding ; GO:0005525
-PROSITE:MF_01821 Helicase_RapA > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_01821 Helicase_RapA > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_01824 PdxS > GO:pyridoxal phosphate biosynthetic process ; GO:0042823
 PROSITE:MF_01825 PdxB > GO:4-phosphoerythronate dehydrogenase activity ; GO:0033711
 PROSITE:MF_01825 PdxB > GO:pyridoxine biosynthetic process ; GO:0008615
@@ -3476,7 +3480,7 @@ PROSITE:MF_01836 KaiC > GO:magnesium ion binding ; GO:0000287
 PROSITE:MF_01836 KaiC > GO:DNA binding ; GO:0003677
 PROSITE:MF_01836 KaiC > GO:protein serine/threonine kinase activity ; GO:0004674
 PROSITE:MF_01836 KaiC > GO:ATP binding ; GO:0005524
-PROSITE:MF_01836 KaiC > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_01836 KaiC > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_01836 KaiC > GO:regulation of circadian rhythm ; GO:0042752
 PROSITE:MF_01837 Kinase_SasA > GO:transferase activity, transferring phosphorus-containing groups ; GO:0016772
 PROSITE:MF_01838 TER_reductase > GO:oxidoreductase activity ; GO:0016491
@@ -3505,7 +3509,6 @@ PROSITE:MF_01848 23SrRNA_methyltr_F > GO:rRNA processing ; GO:0006364
 PROSITE:MF_01848 23SrRNA_methyltr_F > GO:cytoplasm ; GO:0005737
 PROSITE:MF_01849 RNA_methyltr_RlmN > GO:tRNA methylation ; GO:0030488
 PROSITE:MF_01849 RNA_methyltr_RlmN > GO:rRNA base methylation ; GO:0070475
-PROSITE:MF_01850 TtcA > GO:ATP binding ; GO:0005524
 PROSITE:MF_01850 TtcA > GO:tRNA processing ; GO:0008033
 PROSITE:MF_01852 TsaC > GO:ATP binding ; GO:0005524
 PROSITE:MF_01852 TsaC > GO:threonylcarbamoyladenosine biosynthetic process ; GO:0070526
@@ -3552,7 +3555,7 @@ PROSITE:MF_01883 MdcB > GO:phosphorylation ; GO:0016310
 PROSITE:MF_01884 Rho > GO:RNA binding ; GO:0003723
 PROSITE:MF_01884 Rho > GO:ATP binding ; GO:0005524
 PROSITE:MF_01884 Rho > GO:RNA-dependent ATPase activity ; GO:0008186
-PROSITE:MF_01884 Rho > GO:DNA-dependent transcription, termination ; GO:0006353
+PROSITE:MF_01884 Rho > GO:DNA-templated transcription, termination ; GO:0006353
 PROSITE:MF_01885 tRNA_methyltr_TrmL > GO:methyltransferase activity ; GO:0008168
 PROSITE:MF_01885 tRNA_methyltr_TrmL > GO:RNA methylation ; GO:0001510
 PROSITE:MF_01886 tRNA_acetyltr_TmcA > GO:tRNA binding ; GO:0000049
@@ -3560,7 +3563,7 @@ PROSITE:MF_01886 tRNA_acetyltr_TmcA > GO:tRNA N-acetyltransferase activity ; GO:
 PROSITE:MF_01886 tRNA_acetyltr_TmcA > GO:tRNA wobble cytosine modification ; GO:0002101
 PROSITE:MF_01886 tRNA_acetyltr_TmcA > GO:tRNA acetylation ; GO:0051391
 PROSITE:MF_01891 FhlC > GO:DNA binding ; GO:0003677
-PROSITE:MF_01891 FhlC > GO:positive regulation of transcription, DNA-dependent ; GO:0045893
+PROSITE:MF_01891 FhlC > GO:positive regulation of transcription, DNA-templated ; GO:0045893
 PROSITE:MF_01891 FhlC > GO:regulation of bacterial-type flagellum assembly ; GO:1902208
 PROSITE:MF_01892 tRNA_Ile2__agm2C_synt > GO:ligase activity, forming carbon-nitrogen bonds ; GO:0016879
 PROSITE:MF_01892 tRNA_Ile2__agm2C_synt > GO:tRNA wobble cytosine modification ; GO:0002101
@@ -3600,12 +3603,12 @@ PROSITE:MF_01906 3HBOH > GO:hydroxybutyrate-dimer hydrolase activity ; GO:004798
 PROSITE:MF_01906 3HBOH > GO:butyrate metabolic process ; GO:0019605
 PROSITE:MF_01906 3HBOH > GO:extracellular space ; GO:0005615
 PROSITE:MF_01907 Leader_Thr > GO:threonine biosynthetic process ; GO:0009088
-PROSITE:MF_01907 Leader_Thr > GO:regulation of DNA-dependent transcription, termination ; GO:0031554
+PROSITE:MF_01907 Leader_Thr > GO:regulation of DNA-templated transcription, termination ; GO:0031554
 PROSITE:MF_01907 Leader_Thr > GO:transcriptional attenuation by ribosome ; GO:0031556
 PROSITE:MF_01908 Cyc_PG_syn > GO:cyclic 2,3-diphosphoglycerate synthetase activity ; GO:0036356
 PROSITE:MF_01908 Cyc_PG_syn > GO:gluconeogenesis ; GO:0006094
 PROSITE:MF_01908 Cyc_PG_syn > GO:cytoplasm ; GO:0005737
-PROSITE:MF_01909 TFE_arch > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_01909 TFE_arch > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_01910 RNA_binding_AU_1 > GO:RNA binding ; GO:0003723
 PROSITE:MF_01950 AcpH > GO:[acyl-carrier-protein] phosphodiesterase activity ; GO:0008770
 PROSITE:MF_01950 AcpH > GO:fatty acid biosynthetic process ; GO:0006633
@@ -3813,7 +3816,7 @@ PROSITE:MF_03029 WDR12 > GO:ribosome biogenesis ; GO:0042254
 PROSITE:MF_03030 MGME1 > GO:single-stranded DNA exodeoxyribonuclease activity ; GO:0008297
 PROSITE:MF_03030 MGME1 > GO:mitochondrial DNA repair ; GO:0043504
 PROSITE:MF_03031 AGO2 > GO:endoribonuclease activity, cleaving siRNA-paired mRNA ; GO:0070551
-PROSITE:MF_03031 AGO2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:MF_03031 AGO2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:MF_03031 AGO2 > GO:gene silencing by RNA ; GO:0031047
 PROSITE:MF_03031 AGO2 > GO:RISC complex ; GO:0016442
 PROSITE:MF_03032 AGO3 > GO:gene silencing by RNA ; GO:0031047
@@ -3845,6 +3848,34 @@ PROSITE:MF_03043 QTRD1 > GO:queuosine biosynthetic process ; GO:0008616
 PROSITE:MF_03044 BMT2 > GO:rRNA (adenine) methyltransferase activity ; GO:0016433
 PROSITE:MF_03045 DIS3L2 > GO:3'-5'-exoribonuclease activity ; GO:0000175
 PROSITE:MF_03045 DIS3L2 > GO:nuclear-transcribed mRNA catabolic process, exonucleolytic, 3'-5' ; GO:0034427
+PROSITE:MF_03046 ENY2_Sus1 > GO:transcription coactivator activity ; GO:0003713
+PROSITE:MF_03046 ENY2_Sus1 > GO:mRNA export from nucleus ; GO:0006406
+PROSITE:MF_03046 ENY2_Sus1 > GO:positive regulation of transcription, DNA-templated ; GO:0045893
+PROSITE:MF_03046 ENY2_Sus1 > GO:SAGA complex ; GO:0000124
+PROSITE:MF_03046 ENY2_Sus1 > GO:nuclear pore ; GO:0005643
+PROSITE:MF_03048 Urm1 > GO:tRNA thio-modification ; GO:0034227
+PROSITE:MF_03048 Urm1 > GO:cytoplasm ; GO:0005737
+PROSITE:MF_03049 MOCS3_Uba4 > GO:thiosulfate sulfurtransferase activity ; GO:0004792
+PROSITE:MF_03049 MOCS3_Uba4 > GO:tRNA wobble position uridine thiolation ; GO:0002143
+PROSITE:MF_03049 MOCS3_Uba4 > GO:Mo-molybdopterin cofactor biosynthetic process ; GO:0006777
+PROSITE:MF_03049 MOCS3_Uba4 > GO:cytosol ; GO:0005829
+PROSITE:MF_03050 MOCOS > GO:Mo-molybdopterin cofactor sulfurase activity ; GO:0008265
+PROSITE:MF_03050 MOCOS > GO:molybdopterin cofactor metabolic process ; GO:0043545
+PROSITE:MF_03051 MOCS2A > GO:Mo-molybdopterin cofactor biosynthetic process ; GO:0006777
+PROSITE:MF_03051 MOCS2A > GO:cytosol ; GO:0005829
+PROSITE:MF_03052 MOC2B > GO:Mo-molybdopterin synthase activity ; GO:0030366
+PROSITE:MF_03052 MOC2B > GO:Mo-molybdopterin cofactor biosynthetic process ; GO:0006777
+PROSITE:MF_03052 MOC2B > GO:cytosol ; GO:0005829
+PROSITE:MF_03053 CTU1 > GO:tRNA binding ; GO:0000049
+PROSITE:MF_03053 CTU1 > GO:tRNA wobble uridine modification ; GO:0002098
+PROSITE:MF_03053 CTU1 > GO:tRNA thio-modification ; GO:0034227
+PROSITE:MF_03054 CTU2 > GO:tRNA binding ; GO:0000049
+PROSITE:MF_03054 CTU2 > GO:tRNA wobble uridine modification ; GO:0002098
+PROSITE:MF_03054 CTU2 > GO:tRNA thio-modification ; GO:0034227
+PROSITE:MF_03055 tRNA_methyltr_TrmB_euk > GO:tRNA (guanine-N7-)-methyltransferase activity ; GO:0008176
+PROSITE:MF_03056 TRM82 > GO:RNA (guanine-N7)-methylation ; GO:0036265
+PROSITE:MF_03057 SDHAF2 > GO:protein-FAD linkage ; GO:0018293
+PROSITE:MF_03057 SDHAF2 > GO:mitochondrion ; GO:0005739
 PROSITE:MF_03100 Endonuc_su_Slx1 > GO:5'-flap endonuclease activity ; GO:0017108
 PROSITE:MF_03100 Endonuc_su_Slx1 > GO:DNA repair ; GO:0006281
 PROSITE:MF_03100 Endonuc_su_Slx1 > GO:Slx1-Slx4 complex ; GO:0033557
@@ -3956,38 +3987,47 @@ PROSITE:MF_03172 Adenylate_kinase_UMP_CMP_kin > GO:nucleotide phosphorylation ; 
 PROSITE:MF_03175 MetAP_2_euk > GO:aminopeptidase activity ; GO:0004177
 PROSITE:MF_03175 MetAP_2_euk > GO:metalloexopeptidase activity ; GO:0008235
 PROSITE:MF_03175 MetAP_2_euk > GO:proteolysis ; GO:0006508
+PROSITE:MF_03176 PIF1 > GO:DNA helicase activity ; GO:0003678
+PROSITE:MF_03176 PIF1 > GO:telomere maintenance ; GO:0000723
+PROSITE:MF_03176 PIF1 > GO:DNA repair ; GO:0006281
+PROSITE:MF_03177 RRM3 > GO:ATP-dependent DNA helicase activity ; GO:0004003
+PROSITE:MF_03177 RRM3 > GO:telomere maintenance ; GO:0000723
+PROSITE:MF_03177 RRM3 > GO:DNA replication ; GO:0006260
+PROSITE:MF_03177 RRM3 > GO:replication fork ; GO:0005657
+PROSITE:MF_03177 RRM3 > GO:nuclear telomeric heterochromatin ; GO:0005724
+PROSITE:MF_03178 NDOR1 > GO:NADPH-hemoprotein reductase activity ; GO:0003958
 PROSITE:PS00011 GLA_1 > GO:calcium ion binding ; GO:0005509
 PROSITE:PS00011 GLA_1 > GO:extracellular region ; GO:0005576
 PROSITE:PS00019 ACTININ_1 > GO:actin binding ; GO:0003779
 PROSITE:PS00020 ACTININ_2 > GO:actin binding ; GO:0003779
 PROSITE:PS00026 CHIT_BIND_I_1 > GO:chitin binding ; GO:0008061
 PROSITE:PS00027 HOMEOBOX_1 > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:PS00027 HOMEOBOX_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00027 HOMEOBOX_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00027 HOMEOBOX_1 > GO:nucleus ; GO:0005634
 PROSITE:PS00028 ZINC_FINGER_C2H2_1 > GO:metal ion binding ; GO:0046872
 PROSITE:PS00031 NUCLEAR_REC_DBD_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS00031 NUCLEAR_REC_DBD_1 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS00031 NUCLEAR_REC_DBD_1 > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:PS00031 NUCLEAR_REC_DBD_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00031 NUCLEAR_REC_DBD_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00031 NUCLEAR_REC_DBD_1 > GO:nucleus ; GO:0005634
 PROSITE:PS00032 ANTENNAPEDIA > GO:DNA binding ; GO:0003677
 PROSITE:PS00032 ANTENNAPEDIA > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS00032 ANTENNAPEDIA > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00032 ANTENNAPEDIA > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00034 PAIRED_1 > GO:DNA binding ; GO:0003677
-PROSITE:PS00034 PAIRED_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00034 PAIRED_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00035 POU_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS00035 POU_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00035 POU_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00036 BZIP_BASIC > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS00036 BZIP_BASIC > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:PS00036 BZIP_BASIC > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00036 BZIP_BASIC > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00039 DEAD_ATP_HELICASE > GO:nucleic acid binding ; GO:0003676
 PROSITE:PS00039 DEAD_ATP_HELICASE > GO:ATP binding ; GO:0005524
 PROSITE:PS00039 DEAD_ATP_HELICASE > GO:ATP-dependent helicase activity ; GO:0008026
 PROSITE:PS00041 HTH_ARAC_FAMILY_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS00041 HTH_ARAC_FAMILY_1 > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:PS00041 HTH_ARAC_FAMILY_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00041 HTH_ARAC_FAMILY_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00042 HTH_CRP_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS00042 HTH_CRP_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00042 HTH_CRP_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00042 HTH_CRP_1 > GO:intracellular ; GO:0005622
 PROSITE:PS00045 HISTONE_LIKE > GO:DNA binding ; GO:0003677
 PROSITE:PS00046 HISTONE_H2A > GO:DNA binding ; GO:0003677
@@ -4192,7 +4232,7 @@ PROSITE:PS00134 TRYPSIN_HIS > GO:serine-type endopeptidase activity ; GO:0004252
 PROSITE:PS00134 TRYPSIN_HIS > GO:proteolysis ; GO:0006508
 PROSITE:PS00135 TRYPSIN_SER > GO:serine-type endopeptidase activity ; GO:0004252
 PROSITE:PS00135 TRYPSIN_SER > GO:proteolysis ; GO:0006508
-PROSITE:PS00140 UCH_1 > GO:ubiquitin thiolesterase activity ; GO:0004221
+PROSITE:PS00140 UCH_1 > GO:ubiquitin-specific protease activity ; GO:0004843
 PROSITE:PS00140 UCH_1 > GO:ubiquitin-dependent protein catabolic process ; GO:0006511
 PROSITE:PS00140 UCH_1 > GO:intracellular ; GO:0005622
 PROSITE:PS00141 ASP_PROTEASE > GO:aspartic-type endopeptidase activity ; GO:0004190
@@ -4273,8 +4313,6 @@ PROSITE:PS00191 CYTOCHROME_B5_1 > GO:heme binding ; GO:0020037
 PROSITE:PS00194 THIOREDOXIN_1 > GO:cell redox homeostasis ; GO:0045454
 PROSITE:PS00195 GLUTAREDOXIN_1 > GO:electron carrier activity ; GO:0009055
 PROSITE:PS00195 GLUTAREDOXIN_1 > GO:cell redox homeostasis ; GO:0045454
-PROSITE:PS00196 COPPER_BLUE > GO:copper ion binding ; GO:0005507
-PROSITE:PS00196 COPPER_BLUE > GO:electron carrier activity ; GO:0009055
 PROSITE:PS00197 2FE2S_FER_1 > GO:2 iron, 2 sulfur cluster binding ; GO:0051537
 PROSITE:PS00201 FLAVODOXIN > GO:electron carrier activity ; GO:0009055
 PROSITE:PS00201 FLAVODOXIN > GO:FMN binding ; GO:0010181
@@ -4477,32 +4515,32 @@ PROSITE:PS00341 SURFACT_PALMYTOYL > GO:extracellular region ; GO:0005576
 PROSITE:PS00344 GATA_ZN_FINGER_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS00344 GATA_ZN_FINGER_1 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS00344 GATA_ZN_FINGER_1 > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:PS00344 GATA_ZN_FINGER_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00344 GATA_ZN_FINGER_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00345 ETS_DOMAIN_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS00345 ETS_DOMAIN_1 > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:PS00345 ETS_DOMAIN_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00345 ETS_DOMAIN_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00346 ETS_DOMAIN_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS00346 ETS_DOMAIN_2 > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:PS00346 ETS_DOMAIN_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00346 ETS_DOMAIN_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00347 PARP_ZN_FINGER_1 > GO:DNA binding ; GO:0003677
 PROSITE:PS00347 PARP_ZN_FINGER_1 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS00348 P53 > GO:DNA binding ; GO:0003677
 PROSITE:PS00348 P53 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS00348 P53 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00348 P53 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00348 P53 > GO:apoptotic process ; GO:0006915
 PROSITE:PS00348 P53 > GO:nucleus ; GO:0005634
 PROSITE:PS00350 MADS_BOX_1 > GO:DNA binding ; GO:0003677
 PROSITE:PS00350 MADS_BOX_1 > GO:protein dimerization activity ; GO:0046983
 PROSITE:PS00351 TFIID > GO:DNA binding ; GO:0003677
-PROSITE:PS00351 TFIID > GO:DNA-dependent transcription, initiation ; GO:0006352
+PROSITE:PS00351 TFIID > GO:DNA-templated transcription, initiation ; GO:0006352
 PROSITE:PS00353 HMG_BOX_1 > GO:DNA binding ; GO:0003677
 PROSITE:PS00353 HMG_BOX_1 > GO:nucleus ; GO:0005634
-PROSITE:PS00354 HMGI_Y > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00354 HMGI_Y > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00355 HMG14_17 > GO:nucleosomal DNA binding ; GO:0031492
 PROSITE:PS00355 HMG14_17 > GO:chromatin ; GO:0000785
 PROSITE:PS00355 HMG14_17 > GO:nucleus ; GO:0005634
 PROSITE:PS00356 HTH_LACI_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS00356 HTH_LACI_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00356 HTH_LACI_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00357 HISTONE_H2B > GO:DNA binding ; GO:0003677
 PROSITE:PS00357 HISTONE_H2B > GO:nucleosome assembly ; GO:0006334
 PROSITE:PS00357 HISTONE_H2B > GO:nucleosome ; GO:0000786
@@ -4644,7 +4682,7 @@ PROSITE:PS00433 PHOSPHOFRUCTOKINASE > GO:glycolysis ; GO:0006096
 PROSITE:PS00433 PHOSPHOFRUCTOKINASE > GO:6-phosphofructokinase complex ; GO:0005945
 PROSITE:PS00434 HSF_DOMAIN > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS00434 HSF_DOMAIN > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:PS00434 HSF_DOMAIN > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00434 HSF_DOMAIN > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00434 HSF_DOMAIN > GO:nucleus ; GO:0005634
 PROSITE:PS00436 PEROXIDASE_2 > GO:peroxidase activity ; GO:0004601
 PROSITE:PS00436 PEROXIDASE_2 > GO:oxidation-reduction process ; GO:0055114
@@ -4685,14 +4723,14 @@ PROSITE:PS00462 G_GLU_TRANSPEPTIDASE > GO:gamma-glutamyltransferase activity ; G
 PROSITE:PS00462 G_GLU_TRANSPEPTIDASE > GO:glutathione metabolic process ; GO:0006749
 PROSITE:PS00463 ZN2_CY6_FUNGAL_1 > GO:sequence-specific DNA binding RNA polymerase II transcription factor activity ; GO:0000981
 PROSITE:PS00463 ZN2_CY6_FUNGAL_1 > GO:zinc ion binding ; GO:0008270
-PROSITE:PS00463 ZN2_CY6_FUNGAL_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00463 ZN2_CY6_FUNGAL_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00463 ZN2_CY6_FUNGAL_1 > GO:nucleus ; GO:0005634
 PROSITE:PS00464 RIBOSOMAL_L22 > GO:structural constituent of ribosome ; GO:0003735
 PROSITE:PS00464 RIBOSOMAL_L22 > GO:translation ; GO:0006412
 PROSITE:PS00464 RIBOSOMAL_L22 > GO:intracellular ; GO:0005622
 PROSITE:PS00464 RIBOSOMAL_L22 > GO:ribosome ; GO:0005840
 PROSITE:PS00465 POU_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS00465 POU_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00465 POU_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00466 ZF_TFIIS_1 > GO:nucleic acid binding ; GO:0003676
 PROSITE:PS00466 ZF_TFIIS_1 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS00466 ZF_TFIIS_1 > GO:transcription, DNA-templated ; GO:0006351
@@ -4856,9 +4894,9 @@ PROSITE:PS00549 BACTERIOFERRITIN > GO:cellular iron ion homeostasis ; GO:0006879
 PROSITE:PS00550 HEMERYTHRINS > GO:metal ion binding ; GO:0046872
 PROSITE:PS00551 MOLYBDOPTERIN_PROK_1 > GO:4 iron, 4 sulfur cluster binding ; GO:0051539
 PROSITE:PS00552 HTH_MERR_1 > GO:DNA binding ; GO:0003677
-PROSITE:PS00552 HTH_MERR_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00552 HTH_MERR_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00554 TEA_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS00554 TEA_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00554 TEA_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00554 TEA_1 > GO:nucleus ; GO:0005634
 PROSITE:PS00555 ICOSAH_VIR_COAT_S > GO:structural molecule activity ; GO:0005198
 PROSITE:PS00555 ICOSAH_VIR_COAT_S > GO:viral capsid ; GO:0019028
@@ -4958,7 +4996,7 @@ PROSITE:PS00599 AA_TRANSFER_CLASS_2 > GO:metabolic process ; GO:0008152
 PROSITE:PS00600 AA_TRANSFER_CLASS_3 > GO:transaminase activity ; GO:0008483
 PROSITE:PS00600 AA_TRANSFER_CLASS_3 > GO:pyridoxal phosphate binding ; GO:0030170
 PROSITE:PS00601 IRF_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS00601 IRF_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00601 IRF_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00602 ALDOLASE_CLASS_II_1 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS00602 ALDOLASE_CLASS_II_1 > GO:aldehyde-lyase activity ; GO:0016832
 PROSITE:PS00602 ALDOLASE_CLASS_II_1 > GO:carbohydrate metabolic process ; GO:0005975
@@ -4993,7 +5031,7 @@ PROSITE:PS00620 PTN_MK_2 > GO:growth factor activity ; GO:0008083
 PROSITE:PS00621 TISSUE_FACTOR > GO:blood coagulation ; GO:0007596
 PROSITE:PS00621 TISSUE_FACTOR > GO:integral to membrane ; GO:0016021
 PROSITE:PS00622 HTH_LUXR_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS00622 HTH_LUXR_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00622 HTH_LUXR_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00623 GMC_OXRED_1 > GO:oxidoreductase activity, acting on CH-OH group of donors ; GO:0016614
 PROSITE:PS00623 GMC_OXRED_1 > GO:flavin adenine dinucleotide binding ; GO:0050660
 PROSITE:PS00623 GMC_OXRED_1 > GO:oxidation-reduction process ; GO:0055114
@@ -5049,17 +5087,17 @@ PROSITE:PS00652 TNFR_NGFR_1 > GO:protein binding ; GO:0005515
 PROSITE:PS00653 GLYCOSYL_HYDROL_F1_2 > GO:hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553
 PROSITE:PS00653 GLYCOSYL_HYDROL_F1_2 > GO:carbohydrate metabolic process ; GO:0005975
 PROSITE:PS00654 PRD_1 > GO:RNA binding ; GO:0003723
-PROSITE:PS00654 PRD_1 > GO:positive regulation of transcription, DNA-dependent ; GO:0045893
+PROSITE:PS00654 PRD_1 > GO:positive regulation of transcription, DNA-templated ; GO:0045893
 PROSITE:PS00655 GLYCOSYL_HYDROL_F6_1 > GO:hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553
 PROSITE:PS00655 GLYCOSYL_HYDROL_F6_1 > GO:carbohydrate metabolic process ; GO:0005975
 PROSITE:PS00656 GLYCOSYL_HYDROL_F6_2 > GO:hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553
 PROSITE:PS00656 GLYCOSYL_HYDROL_F6_2 > GO:carbohydrate metabolic process ; GO:0005975
 PROSITE:PS00657 FORK_HEAD_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS00657 FORK_HEAD_1 > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:PS00657 FORK_HEAD_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00657 FORK_HEAD_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00658 FORK_HEAD_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS00658 FORK_HEAD_2 > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:PS00658 FORK_HEAD_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00658 FORK_HEAD_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00659 GLYCOSYL_HYDROL_F5 > GO:hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553
 PROSITE:PS00659 GLYCOSYL_HYDROL_F5 > GO:carbohydrate metabolic process ; GO:0005975
 PROSITE:PS00662 T2SP_E > GO:ATP binding ; GO:0005524
@@ -5102,7 +5140,7 @@ PROSITE:PS00683 RHODANESE_2 > GO:thiosulfate sulfurtransferase activity ; GO:000
 PROSITE:PS00684 SASP_2 > GO:double-stranded DNA binding ; GO:0003690
 PROSITE:PS00684 SASP_2 > GO:DNA topological change ; GO:0006265
 PROSITE:PS00685 NFYB_HAP3 > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:PS00685 NFYB_HAP3 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00685 NFYB_HAP3 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00685 NFYB_HAP3 > GO:nucleus ; GO:0005634
 PROSITE:PS00686 NFYA_HAP2_1 > GO:DNA binding ; GO:0003677
 PROSITE:PS00686 NFYA_HAP2_1 > GO:CCAAT-binding factor complex ; GO:0016602
@@ -5163,25 +5201,25 @@ PROSITE:PS00712 RIBOSOMAL_S17E > GO:ribosome ; GO:0005840
 PROSITE:PS00715 SIGMA70_1 > GO:DNA binding ; GO:0003677
 PROSITE:PS00715 SIGMA70_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS00715 SIGMA70_1 > GO:sigma factor activity ; GO:0016987
-PROSITE:PS00715 SIGMA70_1 > GO:DNA-dependent transcription, initiation ; GO:0006352
-PROSITE:PS00715 SIGMA70_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00715 SIGMA70_1 > GO:DNA-templated transcription, initiation ; GO:0006352
+PROSITE:PS00715 SIGMA70_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00716 SIGMA70_2 > GO:DNA binding ; GO:0003677
 PROSITE:PS00716 SIGMA70_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS00716 SIGMA70_2 > GO:sigma factor activity ; GO:0016987
-PROSITE:PS00716 SIGMA70_2 > GO:DNA-dependent transcription, initiation ; GO:0006352
-PROSITE:PS00716 SIGMA70_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00716 SIGMA70_2 > GO:DNA-templated transcription, initiation ; GO:0006352
+PROSITE:PS00716 SIGMA70_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00717 SIGMA54_1 > GO:DNA binding ; GO:0003677
 PROSITE:PS00717 SIGMA54_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS00717 SIGMA54_1 > GO:DNA-directed RNA polymerase activity ; GO:0003899
 PROSITE:PS00717 SIGMA54_1 > GO:sigma factor activity ; GO:0016987
-PROSITE:PS00717 SIGMA54_1 > GO:DNA-dependent transcription, initiation ; GO:0006352
-PROSITE:PS00717 SIGMA54_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00717 SIGMA54_1 > GO:DNA-templated transcription, initiation ; GO:0006352
+PROSITE:PS00717 SIGMA54_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00718 SIGMA54_2 > GO:DNA binding ; GO:0003677
 PROSITE:PS00718 SIGMA54_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS00718 SIGMA54_2 > GO:DNA-directed RNA polymerase activity ; GO:0003899
 PROSITE:PS00718 SIGMA54_2 > GO:sigma factor activity ; GO:0016987
-PROSITE:PS00718 SIGMA54_2 > GO:DNA-dependent transcription, initiation ; GO:0006352
-PROSITE:PS00718 SIGMA54_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00718 SIGMA54_2 > GO:DNA-templated transcription, initiation ; GO:0006352
+PROSITE:PS00718 SIGMA54_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00720 RASGEF > GO:guanyl-nucleotide exchange factor activity ; GO:0005085
 PROSITE:PS00720 RASGEF > GO:small GTPase mediated signal transduction ; GO:0007264
 PROSITE:PS00721 FTHFS_1 > GO:formate-tetrahydrofolate ligase activity ; GO:0004329
@@ -5407,9 +5445,9 @@ PROSITE:PS00828 RIBOSOMAL_L36 > GO:translation ; GO:0006412
 PROSITE:PS00828 RIBOSOMAL_L36 > GO:intracellular ; GO:0005622
 PROSITE:PS00828 RIBOSOMAL_L36 > GO:ribosome ; GO:0005840
 PROSITE:PS00829 GREAB_1 > GO:DNA binding ; GO:0003677
-PROSITE:PS00829 GREAB_1 > GO:regulation of DNA-dependent transcription, elongation ; GO:0032784
+PROSITE:PS00829 GREAB_1 > GO:regulation of DNA-templated transcription, elongation ; GO:0032784
 PROSITE:PS00830 GREAB_2 > GO:DNA binding ; GO:0003677
-PROSITE:PS00830 GREAB_2 > GO:regulation of DNA-dependent transcription, elongation ; GO:0032784
+PROSITE:PS00830 GREAB_2 > GO:regulation of DNA-templated transcription, elongation ; GO:0032784
 PROSITE:PS00831 RIBOSOMAL_L27 > GO:structural constituent of ribosome ; GO:0003735
 PROSITE:PS00831 RIBOSOMAL_L27 > GO:translation ; GO:0006412
 PROSITE:PS00831 RIBOSOMAL_L27 > GO:intracellular ; GO:0005622
@@ -5446,7 +5484,7 @@ PROSITE:PS00840 SUMT_2 > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS00841 XPG_1 > GO:hydrolase activity, acting on ester bonds ; GO:0016788
 PROSITE:PS00842 XPG_2 > GO:hydrolase activity, acting on ester bonds ; GO:0016788
 PROSITE:PS00846 HTH_ARSR_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS00846 HTH_ARSR_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00846 HTH_ARSR_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00846 HTH_ARSR_1 > GO:intracellular ; GO:0005622
 PROSITE:PS00847 MCM_1 > GO:DNA binding ; GO:0003677
 PROSITE:PS00847 MCM_1 > GO:ATP binding ; GO:0005524
@@ -5509,7 +5547,7 @@ PROSITE:PS00887 ILVD_EDD_2 > GO:catalytic activity ; GO:0003824
 PROSITE:PS00887 ILVD_EDD_2 > GO:metabolic process ; GO:0008152
 PROSITE:PS00893 NUDIX_BOX > GO:hydrolase activity ; GO:0016787
 PROSITE:PS00894 HTH_DEOR_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS00894 HTH_DEOR_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS00894 HTH_DEOR_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00894 HTH_DEOR_1 > GO:intracellular ; GO:0005622
 PROSITE:PS00895 3_HYDROXYISOBUT_DH > GO:3-hydroxyisobutyrate dehydrogenase activity ; GO:0008442
 PROSITE:PS00895 3_HYDROXYISOBUT_DH > GO:valine metabolic process ; GO:0006573
@@ -5663,9 +5701,9 @@ PROSITE:PS00971 TP2_2 > GO:DNA binding ; GO:0003677
 PROSITE:PS00971 TP2_2 > GO:spermatogenesis ; GO:0007283
 PROSITE:PS00971 TP2_2 > GO:nucleosome ; GO:0000786
 PROSITE:PS00971 TP2_2 > GO:nucleus ; GO:0005634
-PROSITE:PS00972 UCH_2_1 > GO:ubiquitin thiolesterase activity ; GO:0004221
+PROSITE:PS00972 UCH_2_1 > GO:ubiquitin-specific protease activity ; GO:0004843
 PROSITE:PS00972 UCH_2_1 > GO:ubiquitin-dependent protein catabolic process ; GO:0006511
-PROSITE:PS00973 UCH_2_2 > GO:ubiquitin thiolesterase activity ; GO:0004221
+PROSITE:PS00973 UCH_2_2 > GO:ubiquitin-specific protease activity ; GO:0004843
 PROSITE:PS00973 UCH_2_2 > GO:ubiquitin-dependent protein catabolic process ; GO:0006511
 PROSITE:PS00974 MANNITOL_DHGENASE > GO:mannitol metabolic process ; GO:0019594
 PROSITE:PS00974 MANNITOL_DHGENASE > GO:oxidation-reduction process ; GO:0055114
@@ -5817,8 +5855,8 @@ PROSITE:PS01062 HMG_COA_LYASE > GO:hydroxymethylglutaryl-CoA lyase activity ; GO
 PROSITE:PS01063 SIGMA70_ECF > GO:DNA binding ; GO:0003677
 PROSITE:PS01063 SIGMA70_ECF > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS01063 SIGMA70_ECF > GO:sigma factor activity ; GO:0016987
-PROSITE:PS01063 SIGMA70_ECF > GO:DNA-dependent transcription, initiation ; GO:0006352
-PROSITE:PS01063 SIGMA70_ECF > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS01063 SIGMA70_ECF > GO:DNA-templated transcription, initiation ; GO:0006352
+PROSITE:PS01063 SIGMA70_ECF > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS01064 PYRIDOX_OXIDASE > GO:oxidoreductase activity, acting on the CH-NH2 group of donors ; GO:0016638
 PROSITE:PS01064 PYRIDOX_OXIDASE > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS01065 ETF_BETA > GO:electron carrier activity ; GO:0009055
@@ -5919,7 +5957,7 @@ PROSITE:PS01116 XANTH_URACIL_PERMASE > GO:membrane ; GO:0016020
 PROSITE:PS01119 COPPER_FIST_1 > GO:DNA binding ; GO:0003677
 PROSITE:PS01119 COPPER_FIST_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS01119 COPPER_FIST_1 > GO:copper ion binding ; GO:0005507
-PROSITE:PS01119 COPPER_FIST_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS01119 COPPER_FIST_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS01119 COPPER_FIST_1 > GO:nucleus ; GO:0005634
 PROSITE:PS01120 UREASE_1 > GO:urease activity ; GO:0009039
 PROSITE:PS01120 UREASE_1 > GO:nickel cation binding ; GO:0016151
@@ -5932,7 +5970,7 @@ PROSITE:PS01123 TNASE_1 > GO:nucleic acid binding ; GO:0003676
 PROSITE:PS01123 TNASE_1 > GO:nuclease activity ; GO:0004518
 PROSITE:PS01124 HTH_ARAC_FAMILY_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS01124 HTH_ARAC_FAMILY_2 > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:PS01124 HTH_ARAC_FAMILY_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS01124 HTH_ARAC_FAMILY_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS01126 EF_TS_1 > GO:translation elongation factor activity ; GO:0003746
 PROSITE:PS01126 EF_TS_1 > GO:translational elongation ; GO:0006414
 PROSITE:PS01126 EF_TS_1 > GO:intracellular ; GO:0005622
@@ -6081,7 +6119,7 @@ PROSITE:PS01194 RIBOSOMAL_L15E > GO:ribosome ; GO:0005840
 PROSITE:PS01195 PEPT_TRNA_HYDROL_1 > GO:aminoacyl-tRNA hydrolase activity ; GO:0004045
 PROSITE:PS01196 PEPT_TRNA_HYDROL_2 > GO:aminoacyl-tRNA hydrolase activity ; GO:0004045
 PROSITE:PS01204 REL_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS01204 REL_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS01204 REL_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS01204 REL_1 > GO:nucleus ; GO:0005634
 PROSITE:PS01205 T4_DEIODINASE > GO:thyroxine 5'-deiodinase activity ; GO:0004800
 PROSITE:PS01205 T4_DEIODINASE > GO:oxidation-reduction process ; GO:0055114
@@ -6163,7 +6201,7 @@ PROSITE:PS01260 BH4_1 > GO:regulation of apoptotic process ; GO:0042981
 PROSITE:PS01262 IF1A > GO:translation initiation factor activity ; GO:0003743
 PROSITE:PS01262 IF1A > GO:translational initiation ; GO:0006413
 PROSITE:PS01264 TBOX_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS01264 TBOX_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS01264 TBOX_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS01264 TBOX_2 > GO:nucleus ; GO:0005634
 PROSITE:PS01265 TPX > GO:oxidoreductase activity, acting on peroxide as acceptor ; GO:0016684
 PROSITE:PS01265 TPX > GO:oxidation-reduction process ; GO:0055114
@@ -6188,7 +6226,7 @@ PROSITE:PS01278 MTTASE_RADICAL > GO:4 iron, 4 sulfur cluster binding ; GO:005153
 PROSITE:PS01279 PCMT > GO:protein-L-isoaspartate (D-aspartate) O-methyltransferase activity ; GO:0004719
 PROSITE:PS01279 PCMT > GO:cellular protein modification process ; GO:0006464
 PROSITE:PS01283 TBOX_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS01283 TBOX_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS01283 TBOX_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS01283 TBOX_1 > GO:nucleus ; GO:0005634
 PROSITE:PS01284 TNASE_2 > GO:nucleic acid binding ; GO:0003676
 PROSITE:PS01284 TNASE_2 > GO:nuclease activity ; GO:0004518
@@ -6197,7 +6235,7 @@ PROSITE:PS01286 FA58C_2 > GO:cell adhesion ; GO:0007155
 PROSITE:PS01288 UPF0027 > GO:RNA ligase activity ; GO:0008452
 PROSITE:PS01288 UPF0027 > GO:RNA processing ; GO:0006396
 PROSITE:PS01289 TSC22 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS01289 TSC22 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS01289 TSC22 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS01290 ER > GO:cell cycle ; GO:0007049
 PROSITE:PS01291 ART > GO:NAD(P)+-protein-arginine ADP-ribosyltransferase activity ; GO:0003956
 PROSITE:PS01291 ART > GO:protein ADP-ribosylation ; GO:0006471
@@ -6303,9 +6341,9 @@ PROSITE:PS01356 HEMATOPO_REC_S_F2 > GO:membrane ; GO:0016020
 PROSITE:PS01357 ZF_ZZ_1 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS01358 ZF_RANBP2_1 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS01361 ZF_DOF_1 > GO:DNA binding ; GO:0003677
-PROSITE:PS01361 ZF_DOF_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS01361 ZF_DOF_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS40000 DM_1 > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:PS40000 DM_1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS40000 DM_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50001 SH2 > GO:protein binding ; GO:0005515
 PROSITE:PS50002 SH3 > GO:protein binding ; GO:0005515
 PROSITE:PS50004 C2 > GO:protein binding ; GO:0005515
@@ -6342,26 +6380,26 @@ PROSITE:PS50035 PLD > GO:metabolic process ; GO:0008152
 PROSITE:PS50038 FZ > GO:protein binding ; GO:0005515
 PROSITE:PS50039 FORK_HEAD_3 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS50039 FORK_HEAD_3 > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:PS50039 FORK_HEAD_3 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50039 FORK_HEAD_3 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50040 EF1G_C > GO:translation elongation factor activity ; GO:0003746
 PROSITE:PS50040 EF1G_C > GO:translational elongation ; GO:0006414
 PROSITE:PS50040 EF1G_C > GO:eukaryotic translation elongation factor 1 complex ; GO:0005853
 PROSITE:PS50041 C_TYPE_LECTIN_2 > GO:carbohydrate binding ; GO:0030246
 PROSITE:PS50043 HTH_LUXR_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS50043 HTH_LUXR_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50043 HTH_LUXR_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50044 SIGMA54_3 > GO:DNA binding ; GO:0003677
 PROSITE:PS50044 SIGMA54_3 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS50044 SIGMA54_3 > GO:DNA-directed RNA polymerase activity ; GO:0003899
 PROSITE:PS50044 SIGMA54_3 > GO:sigma factor activity ; GO:0016987
-PROSITE:PS50044 SIGMA54_3 > GO:DNA-dependent transcription, initiation ; GO:0006352
-PROSITE:PS50044 SIGMA54_3 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50044 SIGMA54_3 > GO:DNA-templated transcription, initiation ; GO:0006352
+PROSITE:PS50044 SIGMA54_3 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50045 SIGMA54_INTERACT_4 > GO:ATP binding ; GO:0005524
 PROSITE:PS50045 SIGMA54_INTERACT_4 > GO:transcription factor binding ; GO:0008134
-PROSITE:PS50045 SIGMA54_INTERACT_4 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50045 SIGMA54_INTERACT_4 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50046 PHYTOCHROME_2 > GO:protein-chromophore linkage ; GO:0018298
 PROSITE:PS50048 ZN2_CY6_FUNGAL_2 > GO:sequence-specific DNA binding RNA polymerase II transcription factor activity ; GO:0000981
 PROSITE:PS50048 ZN2_CY6_FUNGAL_2 > GO:zinc ion binding ; GO:0008270
-PROSITE:PS50048 ZN2_CY6_FUNGAL_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50048 ZN2_CY6_FUNGAL_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50048 ZN2_CY6_FUNGAL_2 > GO:nucleus ; GO:0005634
 PROSITE:PS50049 TNF_2 > GO:tumor necrosis factor receptor binding ; GO:0005164
 PROSITE:PS50049 TNF_2 > GO:immune response ; GO:0006955
@@ -6386,7 +6424,7 @@ PROSITE:PS50059 FKBP_PPIASE > GO:protein folding ; GO:0006457
 PROSITE:PS50060 MAM_2 > GO:membrane ; GO:0016020
 PROSITE:PS50061 ETS_DOMAIN_3 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS50061 ETS_DOMAIN_3 > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:PS50061 ETS_DOMAIN_3 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50061 ETS_DOMAIN_3 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50062 BCL2_FAMILY > GO:regulation of apoptotic process ; GO:0042981
 PROSITE:PS50063 BH4_2 > GO:regulation of apoptotic process ; GO:0042981
 PROSITE:PS50064 PARP_ZN_FINGER_2 > GO:DNA binding ; GO:0003677
@@ -6407,13 +6445,13 @@ PROSITE:PS50069 CULLIN_2 > GO:ubiquitin-dependent protein catabolic process ; GO
 PROSITE:PS50069 CULLIN_2 > GO:cullin-RING ubiquitin ligase complex ; GO:0031461
 PROSITE:PS50071 HOMEOBOX_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS50071 HOMEOBOX_2 > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:PS50071 HOMEOBOX_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50071 HOMEOBOX_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50072 CSA_PPIASE_2 > GO:peptidyl-prolyl cis-trans isomerase activity ; GO:0003755
 PROSITE:PS50072 CSA_PPIASE_2 > GO:protein folding ; GO:0006457
 PROSITE:PS50073 COPPER_FIST_2 > GO:DNA binding ; GO:0003677
 PROSITE:PS50073 COPPER_FIST_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS50073 COPPER_FIST_2 > GO:copper ion binding ; GO:0005507
-PROSITE:PS50073 COPPER_FIST_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50073 COPPER_FIST_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50073 COPPER_FIST_2 > GO:nucleus ; GO:0005634
 PROSITE:PS50078 POLO_BOX > GO:protein binding ; GO:0005515
 PROSITE:PS50081 ZF_DAG_PE_2 > GO:intracellular signal transduction ; GO:0035556
@@ -6437,7 +6475,7 @@ PROSITE:PS50105 SAM_DOMAIN > GO:protein binding ; GO:0005515
 PROSITE:PS50106 PDZ > GO:protein binding ; GO:0005515
 PROSITE:PS50110 RESPONSE_REGULATORY > GO:phosphorelay response regulator activity ; GO:0000156
 PROSITE:PS50110 RESPONSE_REGULATORY > GO:phosphorelay signal transduction system ; GO:0000160
-PROSITE:PS50110 RESPONSE_REGULATORY > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50110 RESPONSE_REGULATORY > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50111 CHEMOTAXIS_TRANSDUC_2 > GO:signal transducer activity ; GO:0004871
 PROSITE:PS50111 CHEMOTAXIS_TRANSDUC_2 > GO:signal transduction ; GO:0007165
 PROSITE:PS50111 CHEMOTAXIS_TRANSDUC_2 > GO:membrane ; GO:0016020
@@ -6448,7 +6486,7 @@ PROSITE:PS50113 PAC > GO:phosphorelay signal transduction system ; GO:0000160
 PROSITE:PS50114 GATA_ZN_FINGER_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS50114 GATA_ZN_FINGER_2 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS50114 GATA_ZN_FINGER_2 > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:PS50114 GATA_ZN_FINGER_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50114 GATA_ZN_FINGER_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50115 ARFGAP > GO:ARF GTPase activator activity ; GO:0008060
 PROSITE:PS50115 ARFGAP > GO:zinc ion binding ; GO:0008270
 PROSITE:PS50115 ARFGAP > GO:regulation of ARF GTPase activity ; GO:0032312
@@ -6471,7 +6509,7 @@ PROSITE:PS50132 RGS > GO:termination of G-protein coupled receptor signaling pat
 PROSITE:PS50134 ZF_TAZ > GO:transcription cofactor activity ; GO:0003712
 PROSITE:PS50134 ZF_TAZ > GO:histone acetyltransferase activity ; GO:0004402
 PROSITE:PS50134 ZF_TAZ > GO:zinc ion binding ; GO:0008270
-PROSITE:PS50134 ZF_TAZ > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50134 ZF_TAZ > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50134 ZF_TAZ > GO:nucleus ; GO:0005634
 PROSITE:PS50135 ZF_ZZ_2 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS50138 BRCA2_REPEAT > GO:protein binding ; GO:0005515
@@ -6560,7 +6598,7 @@ PROSITE:PS50215 ADAM_MEPRO > GO:proteolysis ; GO:0006508
 PROSITE:PS50216 ZF_DHHC > GO:zinc ion binding ; GO:0008270
 PROSITE:PS50217 BZIP > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS50217 BZIP > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:PS50217 BZIP > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50217 BZIP > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50219 CNH > GO:small GTPase regulator activity ; GO:0005083
 PROSITE:PS50221 GPS > GO:neuropeptide signaling pathway ; GO:0007218
 PROSITE:PS50221 GPS > GO:membrane ; GO:0016020
@@ -6569,8 +6607,6 @@ PROSITE:PS50225 SOCS > GO:intracellular signal transduction ; GO:0035556
 PROSITE:PS50227 G_PROTEIN_RECEP_F2_3 > GO:G-protein coupled receptor activity ; GO:0004930
 PROSITE:PS50227 G_PROTEIN_RECEP_F2_3 > GO:membrane ; GO:0016020
 PROSITE:PS50228 SUEL_LECTIN > GO:carbohydrate binding ; GO:0030246
-PROSITE:PS50235 UCH_2_3 > GO:ubiquitin thiolesterase activity ; GO:0004221
-PROSITE:PS50235 UCH_2_3 > GO:ubiquitin-dependent protein catabolic process ; GO:0006511
 PROSITE:PS50236 CHCR > GO:intracellular protein transport ; GO:0006886
 PROSITE:PS50236 CHCR > GO:vesicle-mediated transport ; GO:0016192
 PROSITE:PS50237 HECT > GO:ubiquitin-protein ligase activity ; GO:0004842
@@ -6582,12 +6618,12 @@ PROSITE:PS50244 S5A_REDUCTASE > GO:lipid metabolic process ; GO:0006629
 PROSITE:PS50244 S5A_REDUCTASE > GO:cytoplasm ; GO:0005737
 PROSITE:PS50244 S5A_REDUCTASE > GO:integral to membrane ; GO:0016021
 PROSITE:PS50252 TBOX_3 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS50252 TBOX_3 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50252 TBOX_3 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50252 TBOX_3 > GO:nucleus ; GO:0005634
 PROSITE:PS50253 COX3 > GO:heme-copper terminal oxidase activity ; GO:0015002
 PROSITE:PS50253 COX3 > GO:membrane ; GO:0016020
 PROSITE:PS50254 REL_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS50254 REL_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50254 REL_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50254 REL_2 > GO:nucleus ; GO:0005634
 PROSITE:PS50255 CYTOCHROME_B5_2 > GO:heme binding ; GO:0020037
 PROSITE:PS50256 PIR_REPEAT_2 > GO:structural constituent of cell wall ; GO:0005199
@@ -6659,22 +6695,22 @@ PROSITE:PS50600 ULP_PROTEASE > GO:cysteine-type peptidase activity ; GO:0008234
 PROSITE:PS50600 ULP_PROTEASE > GO:proteolysis ; GO:0006508
 PROSITE:PS50800 SAP > GO:nucleic acid binding ; GO:0003676
 PROSITE:PS50804 SCAN_BOX > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS50804 SCAN_BOX > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50804 SCAN_BOX > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50804 SCAN_BOX > GO:nucleus ; GO:0005634
 PROSITE:PS50805 KRAB > GO:nucleic acid binding ; GO:0003676
-PROSITE:PS50805 KRAB > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50805 KRAB > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50805 KRAB > GO:intracellular ; GO:0005622
-PROSITE:PS50806 KRAB_RELATED > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50806 KRAB_RELATED > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50807 GCM > GO:DNA binding ; GO:0003677
-PROSITE:PS50807 GCM > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50807 GCM > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50808 ZF_BED > GO:DNA binding ; GO:0003677
 PROSITE:PS50809 DM_2 > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:PS50809 DM_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50809 DM_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50810 FRATAXIN_2 > GO:ferric iron binding ; GO:0008199
 PROSITE:PS50810 FRATAXIN_2 > GO:iron-sulfur cluster assembly ; GO:0016226
 PROSITE:PS50811 WRKY > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS50811 WRKY > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:PS50811 WRKY > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50811 WRKY > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50816 NAF > GO:signal transduction ; GO:0007165
 PROSITE:PS50817 INTEIN_N_TER > GO:intein-mediated protein splicing ; GO:0016539
 PROSITE:PS50818 INTEIN_C_TER > GO:intein-mediated protein splicing ; GO:0016539
@@ -6741,7 +6777,7 @@ PROSITE:PS50881 S5_DSRBD > GO:structural constituent of ribosome ; GO:0003735
 PROSITE:PS50881 S5_DSRBD > GO:translation ; GO:0006412
 PROSITE:PS50881 S5_DSRBD > GO:ribosome ; GO:0005840
 PROSITE:PS50884 ZF_DOF_2 > GO:DNA binding ; GO:0003677
-PROSITE:PS50884 ZF_DOF_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50884 ZF_DOF_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50885 HAMP > GO:signal transducer activity ; GO:0004871
 PROSITE:PS50885 HAMP > GO:signal transduction ; GO:0007165
 PROSITE:PS50885 HAMP > GO:integral to membrane ; GO:0016021
@@ -6792,15 +6828,15 @@ PROSITE:PS50929 ABC_TM1F > GO:transmembrane transport ; GO:0055085
 PROSITE:PS50929 ABC_TM1F > GO:integral to membrane ; GO:0016021
 PROSITE:PS50930 HTH_LYTTR > GO:DNA binding ; GO:0003677
 PROSITE:PS50931 HTH_LYSR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS50931 HTH_LYSR > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50931 HTH_LYSR > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50932 HTH_LACI_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS50932 HTH_LACI_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50932 HTH_LACI_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50934 SWIRM > GO:protein binding ; GO:0005515
 PROSITE:PS50935 SSB > GO:single-stranded DNA binding ; GO:0003697
 PROSITE:PS50936 ENGC_GTPASE > GO:GTPase activity ; GO:0003924
 PROSITE:PS50936 ENGC_GTPASE > GO:GTP binding ; GO:0005525
 PROSITE:PS50937 HTH_MERR_2 > GO:DNA binding ; GO:0003677
-PROSITE:PS50937 HTH_MERR_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50937 HTH_MERR_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50940 CHIT_BIND_II > GO:chitin binding ; GO:0008061
 PROSITE:PS50940 CHIT_BIND_II > GO:chitin metabolic process ; GO:0006030
 PROSITE:PS50940 CHIT_BIND_II > GO:extracellular region ; GO:0005576
@@ -6809,16 +6845,16 @@ PROSITE:PS50943 HTH_CROC1 > GO:sequence-specific DNA binding ; GO:0043565
 PROSITE:PS50944 HTH_DTXR > GO:DNA binding ; GO:0003677
 PROSITE:PS50945 I_LWEQ > GO:actin binding ; GO:0003779
 PROSITE:PS50949 HTH_GNTR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS50949 HTH_GNTR > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50949 HTH_GNTR > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50950 ZF_THAP > GO:nucleic acid binding ; GO:0003676
 PROSITE:PS50951 SARAH > GO:signal transduction ; GO:0007165
 PROSITE:PS50952 KIX > GO:transcription cofactor activity ; GO:0003712
-PROSITE:PS50952 KIX > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50952 KIX > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50953 KID > GO:protein binding ; GO:0005515
-PROSITE:PS50953 KID > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50953 KID > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50955 LEM_LIKE > GO:DNA binding ; GO:0003677
 PROSITE:PS50956 HTH_ASNC_2 > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:PS50956 HTH_ASNC_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50956 HTH_ASNC_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50957 JOSEPHIN > GO:omega peptidase activity ; GO:0008242
 PROSITE:PS50958 SMB_2 > GO:scavenger receptor activity ; GO:0005044
 PROSITE:PS50958 SMB_2 > GO:polysaccharide binding ; GO:0030247
@@ -6851,7 +6887,7 @@ PROSITE:PS50984 TRUD > GO:pseudouridine synthase activity ; GO:0009982
 PROSITE:PS50984 TRUD > GO:pseudouridine synthesis ; GO:0001522
 PROSITE:PS50984 TRUD > GO:RNA modification ; GO:0009451
 PROSITE:PS50987 HTH_ARSR_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS50987 HTH_ARSR_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50987 HTH_ARSR_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50988 TROVE > GO:RNA binding ; GO:0003723
 PROSITE:PS50988 TROVE > GO:ribonucleoprotein complex ; GO:0030529
 PROSITE:PS50989 COA_CT_CTER > GO:ligase activity ; GO:0016874
@@ -6862,14 +6898,14 @@ PROSITE:PS50990 PEPTIDASE_C39 > GO:integral to membrane ; GO:0016021
 PROSITE:PS50991 PYR_CT > GO:catalytic activity ; GO:0003824
 PROSITE:PS50994 INTEGRASE > GO:DNA integration ; GO:0015074
 PROSITE:PS50995 HTH_MARR_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS50995 HTH_MARR_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS50995 HTH_MARR_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50995 HTH_MARR_2 > GO:intracellular ; GO:0005622
 PROSITE:PS50998 GLA_2 > GO:calcium ion binding ; GO:0005509
 PROSITE:PS50998 GLA_2 > GO:extracellular region ; GO:0005576
 PROSITE:PS50999 COX2_TM > GO:electron transport chain ; GO:0022900
 PROSITE:PS50999 COX2_TM > GO:integral to membrane ; GO:0016021
 PROSITE:PS51000 HTH_DEOR_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS51000 HTH_DEOR_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51000 HTH_DEOR_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51000 HTH_DEOR_2 > GO:intracellular ; GO:0005622
 PROSITE:PS51002 CYTB_NTER > GO:electron carrier activity ; GO:0009055
 PROSITE:PS51002 CYTB_NTER > GO:oxidoreductase activity ; GO:0016491
@@ -6879,7 +6915,7 @@ PROSITE:PS51003 CYTB_CTER > GO:oxidoreductase activity ; GO:0016491
 PROSITE:PS51003 CYTB_CTER > GO:membrane ; GO:0016020
 PROSITE:PS51004 SEMA > GO:protein binding ; GO:0005515
 PROSITE:PS51005 NAC > GO:DNA binding ; GO:0003677
-PROSITE:PS51005 NAC > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51005 NAC > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51006 SPERMIDINE_SYNTHASE_2 > GO:catalytic activity ; GO:0003824
 PROSITE:PS51007 CYTC > GO:electron carrier activity ; GO:0009055
 PROSITE:PS51007 CYTC > GO:heme binding ; GO:0020037
@@ -6917,15 +6953,15 @@ PROSITE:PS51027 INTEGRASE_DBD > GO:nucleic acid binding ; GO:0003676
 PROSITE:PS51030 NUCLEAR_REC_DBD_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS51030 NUCLEAR_REC_DBD_2 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS51030 NUCLEAR_REC_DBD_2 > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:PS51030 NUCLEAR_REC_DBD_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51030 NUCLEAR_REC_DBD_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51030 NUCLEAR_REC_DBD_2 > GO:nucleus ; GO:0005634
 PROSITE:PS51031 BESS > GO:DNA binding ; GO:0003677
 PROSITE:PS51032 AP2_ERF > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS51032 AP2_ERF > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51032 AP2_ERF > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51035 BAG > GO:chaperone binding ; GO:0051087
 PROSITE:PS51036 ZF_A20 > GO:DNA binding ; GO:0003677
 PROSITE:PS51036 ZF_A20 > GO:zinc ion binding ; GO:0008270
-PROSITE:PS51037 YEATS > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51037 YEATS > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51037 YEATS > GO:nucleus ; GO:0005634
 PROSITE:PS51038 BAH > GO:chromatin binding ; GO:0003682
 PROSITE:PS51039 ZF_AN1 > GO:zinc ion binding ; GO:0008270
@@ -6942,13 +6978,13 @@ PROSITE:PS51051 DSL > GO:cell communication ; GO:0007154
 PROSITE:PS51051 DSL > GO:membrane ; GO:0016020
 PROSITE:PS51052 CYCLOTIDE > GO:defense response ; GO:0006952
 PROSITE:PS51054 ORANGE > GO:DNA binding ; GO:0003677
-PROSITE:PS51054 ORANGE > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51054 ORANGE > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51055 ITAM_1 > GO:transmembrane signaling receptor activity ; GO:0004888
 PROSITE:PS51055 ITAM_1 > GO:cell surface receptor signaling pathway ; GO:0007166
 PROSITE:PS51055 ITAM_1 > GO:membrane ; GO:0016020
 PROSITE:PS51056 ITAM_2 > GO:signal transduction ; GO:0007165
 PROSITE:PS51057 PAIRED_2 > GO:DNA binding ; GO:0003677
-PROSITE:PS51057 PAIRED_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51057 PAIRED_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51058 ZF_CXXC > GO:DNA binding ; GO:0003677
 PROSITE:PS51058 ZF_CXXC > GO:zinc ion binding ; GO:0008270
 PROSITE:PS51059 PARP_CATALYTIC > GO:NAD+ ADP-ribosyltransferase activity ; GO:0003950
@@ -6957,9 +6993,9 @@ PROSITE:PS51060 PARP_ALPHA_HD > GO:protein ADP-ribosylation ; GO:0006471
 PROSITE:PS51061 R3H > GO:nucleic acid binding ; GO:0003676
 PROSITE:PS51062 RUNT > GO:DNA binding ; GO:0003677
 PROSITE:PS51062 RUNT > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS51062 RUNT > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51062 RUNT > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51063 HTH_CRP_2 > GO:DNA binding ; GO:0003677
-PROSITE:PS51063 HTH_CRP_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51063 HTH_CRP_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51064 IRS_PTB > GO:insulin receptor binding ; GO:0005158
 PROSITE:PS51066 ZF_FPG_2 > GO:DNA-(apurinic or apyrimidinic site) lyase activity ; GO:0003906
 PROSITE:PS51066 ZF_FPG_2 > GO:zinc ion binding ; GO:0008270
@@ -6972,21 +7008,21 @@ PROSITE:PS51068 FPG_CAT > GO:hydrolase activity, hydrolyzing N-glycosyl compound
 PROSITE:PS51068 FPG_CAT > GO:base-excision repair ; GO:0006284
 PROSITE:PS51070 SHD > GO:endocytosis ; GO:0006897
 PROSITE:PS51071 HTH_RPIR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS51071 HTH_RPIR > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51071 HTH_RPIR > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51075 MH1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS51075 MH1 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51075 MH1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51075 MH1 > GO:transforming growth factor beta receptor signaling pathway ; GO:0007179
 PROSITE:PS51075 MH1 > GO:intracellular ; GO:0005622
 PROSITE:PS51075 MH1 > GO:transcription factor complex ; GO:0005667
-PROSITE:PS51076 MH2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51076 MH2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51076 MH2 > GO:intracellular ; GO:0005622
 PROSITE:PS51077 HTH_ICLR > GO:DNA binding ; GO:0003677
-PROSITE:PS51077 HTH_ICLR > GO:regulation of transcription, DNA-dependent ; GO:0006355
-PROSITE:PS51079 MBT > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51077 HTH_ICLR > GO:regulation of transcription, DNA-templated ; GO:0006355
+PROSITE:PS51079 MBT > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51079 MBT > GO:nucleus ; GO:0005634
 PROSITE:PS51080 CTF_NFI_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS51080 CTF_NFI_2 > GO:DNA replication ; GO:0006260
-PROSITE:PS51080 CTF_NFI_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51080 CTF_NFI_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51080 CTF_NFI_2 > GO:nucleus ; GO:0005634
 PROSITE:PS51081 ZF_SIAH > GO:zinc ion binding ; GO:0008270
 PROSITE:PS51082 WH2 > GO:actin binding ; GO:0003779
@@ -6994,7 +7030,7 @@ PROSITE:PS51084 HIT_2 > GO:catalytic activity ; GO:0003824
 PROSITE:PS51085 2FE2S_FER_2 > GO:electron carrier activity ; GO:0009055
 PROSITE:PS51085 2FE2S_FER_2 > GO:iron-sulfur cluster binding ; GO:0051536
 PROSITE:PS51088 TEA_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS51088 TEA_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51088 TEA_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51088 TEA_2 > GO:nucleus ; GO:0005634
 PROSITE:PS51089 HP > GO:actin binding ; GO:0003779
 PROSITE:PS51089 HP > GO:cytoskeleton organization ; GO:0007010
@@ -7039,7 +7075,7 @@ PROSITE:PS51108 PTS_EIID > GO:integral to membrane ; GO:0016021
 PROSITE:PS51113 ZF_BTK > GO:intracellular signal transduction ; GO:0035556
 PROSITE:PS51114 FBA > GO:protein catabolic process ; GO:0030163
 PROSITE:PS51119 TAFH > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS51119 TAFH > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51119 TAFH > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51121 NTA > GO:laminin binding ; GO:0043236
 PROSITE:PS51121 NTA > GO:G-protein coupled acetylcholine receptor signaling pathway ; GO:0007213
 PROSITE:PS51121 NTA > GO:receptor clustering ; GO:0043113
@@ -7072,7 +7108,7 @@ PROSITE:PS51149 GLY_RADICAL_2 > GO:catalytic activity ; GO:0003824
 PROSITE:PS51149 GLY_RADICAL_2 > GO:metabolic process ; GO:0008152
 PROSITE:PS51150 AGOUTI_2 > GO:receptor binding ; GO:0005102
 PROSITE:PS51152 NFYA_HAP2_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS51152 NFYA_HAP2_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51152 NFYA_HAP2_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51155 CHIT_BIND_RR_2 > GO:structural constituent of cuticle ; GO:0042302
 PROSITE:PS51157 ZF_UBR > GO:ubiquitin-protein ligase activity ; GO:0004842
 PROSITE:PS51157 ZF_UBR > GO:zinc ion binding ; GO:0008270
@@ -7106,7 +7142,7 @@ PROSITE:PS51176 PDH_ADH > GO:tyrosine biosynthetic process ; GO:0006571
 PROSITE:PS51176 PDH_ADH > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS51178 PASTA > GO:penicillin binding ; GO:0008658
 PROSITE:PS51179 POU_3 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS51179 POU_3 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51179 POU_3 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51181 PPASE_TENSIN > GO:protein binding ; GO:0005515
 PROSITE:PS51182 C2_TENSIN > GO:protein binding ; GO:0005515
 PROSITE:PS51184 JMJC > GO:protein binding ; GO:0005515
@@ -7253,7 +7289,7 @@ PROSITE:PS51281 TAP_C > GO:mRNA transport ; GO:0051028
 PROSITE:PS51281 TAP_C > GO:nucleus ; GO:0005634
 PROSITE:PS51282 DWNN > GO:zinc ion binding ; GO:0008270
 PROSITE:PS51282 DWNN > GO:nucleus ; GO:0005634
-PROSITE:PS51283 DUSP > GO:ubiquitin thiolesterase activity ; GO:0004221
+PROSITE:PS51283 DUSP > GO:ubiquitin-specific protease activity ; GO:0004843
 PROSITE:PS51285 AGC_KINASE_CTER > GO:protein serine/threonine kinase activity ; GO:0004674
 PROSITE:PS51285 AGC_KINASE_CTER > GO:ATP binding ; GO:0005524
 PROSITE:PS51285 AGC_KINASE_CTER > GO:protein phosphorylation ; GO:0006468
@@ -7275,19 +7311,19 @@ PROSITE:PS51296 RIESKE > GO:oxidoreductase activity ; GO:0016491
 PROSITE:PS51296 RIESKE > GO:2 iron, 2 sulfur cluster binding ; GO:0051537
 PROSITE:PS51296 RIESKE > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS51297 K_BOX > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS51297 K_BOX > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51297 K_BOX > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51297 K_BOX > GO:nucleus ; GO:0005634
 PROSITE:PS51298 ZNUC > GO:zinc transporting ATPase activity ; GO:0015633
 PROSITE:PS51298 ZNUC > GO:zinc ion transport ; GO:0006829
 PROSITE:PS51298 ZNUC > GO:plasma membrane ; GO:0005886
 PROSITE:PS51299 HTH_APSES > GO:DNA binding ; GO:0003677
 PROSITE:PS51299 HTH_APSES > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS51299 HTH_APSES > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51299 HTH_APSES > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51300 NIRD > GO:nitrite reductase [NAD(P)H] activity ; GO:0008942
 PROSITE:PS51300 NIRD > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS51302 SIM_C > GO:DNA binding ; GO:0003677
 PROSITE:PS51302 SIM_C > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS51302 SIM_C > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51302 SIM_C > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51302 SIM_C > GO:nucleus ; GO:0005634
 PROSITE:PS51303 PET > GO:zinc ion binding ; GO:0008270
 PROSITE:PS51304 GALECTIN > GO:carbohydrate binding ; GO:0030246
@@ -7372,7 +7408,7 @@ PROSITE:PS51355 GLUTATHIONE_PEROXID_3 > GO:oxidation-reduction process ; GO:0055
 PROSITE:PS51359 COX5B_2 > GO:cytochrome-c oxidase activity ; GO:0004129
 PROSITE:PS51359 COX5B_2 > GO:mitochondrial envelope ; GO:0005740
 PROSITE:PS51360 PLUS3 > GO:DNA binding ; GO:0003677
-PROSITE:PS51360 PLUS3 > GO:DNA-dependent transcription, initiation ; GO:0006352
+PROSITE:PS51360 PLUS3 > GO:DNA-templated transcription, initiation ; GO:0006352
 PROSITE:PS51360 PLUS3 > GO:histone modification ; GO:0016570
 PROSITE:PS51360 PLUS3 > GO:nucleus ; GO:0005634
 PROSITE:PS51361 TENEURIN_N > GO:signal transduction ; GO:0007165
@@ -7385,7 +7421,7 @@ PROSITE:PS51368 UREASE_3 > GO:urease activity ; GO:0009039
 PROSITE:PS51368 UREASE_3 > GO:nickel cation binding ; GO:0016151
 PROSITE:PS51368 UREASE_3 > GO:nitrogen compound metabolic process ; GO:0006807
 PROSITE:PS51371 CBS > GO:adenyl nucleotide binding ; GO:0030554
-PROSITE:PS51372 PRD_2 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51372 PRD_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51373 HIPIP > GO:electron carrier activity ; GO:0009055
 PROSITE:PS51373 HIPIP > GO:aerobic electron transport chain ; GO:0019646
 PROSITE:PS51378 INVERT_DEFENSINS > GO:defense response ; GO:0006952
@@ -7447,7 +7483,6 @@ PROSITE:PS51418 RAN > GO:signal transduction ; GO:0007165
 PROSITE:PS51420 RHO > GO:GTP binding ; GO:0005525
 PROSITE:PS51420 RHO > GO:small GTPase mediated signal transduction ; GO:0007264
 PROSITE:PS51420 RHO > GO:intracellular ; GO:0005622
-PROSITE:PS51421 RAS > GO:GTPase activity ; GO:0003924
 PROSITE:PS51421 RAS > GO:GTP binding ; GO:0005525
 PROSITE:PS51421 RAS > GO:GTP catabolic process ; GO:0006184
 PROSITE:PS51421 RAS > GO:signal transduction ; GO:0007165
@@ -7462,7 +7497,7 @@ PROSITE:PS51426 ABL > GO:protein histidine kinase activity ; GO:0004673
 PROSITE:PS51426 ABL > GO:signal transducer activity ; GO:0004871
 PROSITE:PS51426 ABL > GO:ATP binding ; GO:0005524
 PROSITE:PS51426 ABL > GO:phosphorelay signal transduction system ; GO:0000160
-PROSITE:PS51426 ABL > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51426 ABL > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51426 ABL > GO:peptidyl-histidine phosphorylation ; GO:0018106
 PROSITE:PS51426 ABL > GO:plasma membrane ; GO:0005886
 PROSITE:PS51426 ABL > GO:integral to membrane ; GO:0016021
@@ -7524,7 +7559,7 @@ PROSITE:PS51471 FE2OG_OXY > GO:oxidoreductase activity, acting on paired donors,
 PROSITE:PS51471 FE2OG_OXY > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS51475 PROTEASOME_ALPHA_2 > GO:threonine-type endopeptidase activity ; GO:0004298
 PROSITE:PS51476 PROTEASOME_BETA_2 > GO:threonine-type endopeptidase activity ; GO:0004298
-PROSITE:PS51477 PAH > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51477 PAH > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51477 PAH > GO:nucleus ; GO:0005634
 PROSITE:PS51480 DHAL > GO:glycerone kinase activity ; GO:0004371
 PROSITE:PS51480 DHAL > GO:glycerol metabolic process ; GO:0006071
@@ -7542,7 +7577,7 @@ PROSITE:PS51495 GLUE > GO:phosphatidylinositol-3-phosphate binding ; GO:0032266
 PROSITE:PS51495 GLUE > GO:ubiquitin binding ; GO:0043130
 PROSITE:PS51499 APO > GO:RNA binding ; GO:0003723
 PROSITE:PS51500 SIN > GO:protein dimerization activity ; GO:0046983
-PROSITE:PS51500 SIN > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51500 SIN > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51501 ZF_DNL > GO:zinc ion binding ; GO:0008270
 PROSITE:PS51504 H15 > GO:DNA binding ; GO:0003677
 PROSITE:PS51504 H15 > GO:nucleosome assembly ; GO:0006334
@@ -7558,7 +7593,7 @@ PROSITE:PS51510 PHOSPHAGEN_KINASE_C > GO:transferase activity, transferring phos
 PROSITE:PS51515 BIN3_SAM > GO:methyltransferase activity ; GO:0008168
 PROSITE:PS51517 NDT80 > GO:DNA binding ; GO:0003677
 PROSITE:PS51526 RFX_DBD > GO:DNA binding ; GO:0003677
-PROSITE:PS51526 RFX_DBD > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51526 RFX_DBD > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51527 FLAVIVIRUS_NS2B > GO:serine-type endopeptidase activity ; GO:0004252
 PROSITE:PS51527 FLAVIVIRUS_NS2B > GO:virion ; GO:0019012
 PROSITE:PS51528 FLAVIVIRUS_NS3PRO > GO:RNA binding ; GO:0003723
@@ -7601,7 +7636,7 @@ PROSITE:PS51565 SAM_MT43_SETD3 > GO:peptidyl-lysine methylation ; GO:0018022
 PROSITE:PS51567 SAM_MT43_SUVAR420_1 > GO:histone methyltransferase activity (H4-K20 specific) ; GO:0042799
 PROSITE:PS51567 SAM_MT43_SUVAR420_1 > GO:histone H4-K20 methylation ; GO:0034770
 PROSITE:PS51568 SAM_MT43_SET2_1 > GO:histone methyltransferase activity (H3-K36 specific) ; GO:0046975
-PROSITE:PS51568 SAM_MT43_SET2_1 > GO:DNA-dependent transcription, elongation ; GO:0006354
+PROSITE:PS51568 SAM_MT43_SET2_1 > GO:DNA-templated transcription, elongation ; GO:0006354
 PROSITE:PS51568 SAM_MT43_SET2_1 > GO:histone H3-K36 methylation ; GO:0010452
 PROSITE:PS51569 DOT1 > GO:histone-lysine N-methyltransferase activity ; GO:0018024
 PROSITE:PS51570 SAM_MT43_SUVAR420_2 > GO:histone methyltransferase activity (H4-K20 specific) ; GO:0042799
@@ -7615,7 +7650,7 @@ PROSITE:PS51574 SAM_MT43_2 > GO:histone lysine methylation ; GO:0034968
 PROSITE:PS51575 SAM_MT43_SUVAR39_2 > GO:histone methylation ; GO:0016571
 PROSITE:PS51576 SAM_MT43_EZ > GO:PcG protein complex ; GO:0031519
 PROSITE:PS51577 SAM_MT43_SET7 > GO:histone-lysine N-methyltransferase activity ; GO:0018024
-PROSITE:PS51577 SAM_MT43_SET7 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51577 SAM_MT43_SET7 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51577 SAM_MT43_SET7 > GO:histone lysine methylation ; GO:0034968
 PROSITE:PS51577 SAM_MT43_SET7 > GO:chromosome ; GO:0005694
 PROSITE:PS51579 SAM_MT43_SUVAR39_3 > GO:histone-lysine N-methyltransferase activity ; GO:0018024
@@ -7665,6 +7700,7 @@ PROSITE:PS51620 SAM_TRM61 > GO:tRNA methylation ; GO:0030488
 PROSITE:PS51620 SAM_TRM61 > GO:tRNA (m1A) methyltransferase complex ; GO:0031515
 PROSITE:PS51622 SAM_MT_RNA_M5U_2 > GO:S-adenosylmethionine-dependent tRNA (m5U54) methyltransferase activity ; GO:0030697
 PROSITE:PS51622 SAM_MT_RNA_M5U_2 > GO:tRNA processing ; GO:0008033
+PROSITE:PS51625 SAM_MT_TRMB > GO:tRNA (guanine-N7-)-methyltransferase activity ; GO:0008176
 PROSITE:PS51626 SAM_MT_TRM1 > GO:RNA binding ; GO:0003723
 PROSITE:PS51626 SAM_MT_TRM1 > GO:tRNA (guanine-N2-)-methyltransferase activity ; GO:0004809
 PROSITE:PS51626 SAM_MT_TRM1 > GO:tRNA processing ; GO:0008033
@@ -7678,7 +7714,7 @@ PROSITE:PS51662 BP_PHYTASE > GO:3-phytase activity ; GO:0016158
 PROSITE:PS51663 STATHMIN_3 > GO:regulation of microtubule polymerization or depolymerization ; GO:0031110
 PROSITE:PS51666 QLQ > GO:ATP binding ; GO:0005524
 PROSITE:PS51666 QLQ > GO:hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides ; GO:0016818
-PROSITE:PS51666 QLQ > GO:regulation of transcription, DNA-dependent ; GO:0006355
+PROSITE:PS51666 QLQ > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51666 QLQ > GO:nucleus ; GO:0005634
 PROSITE:PS51669 4FE4S_MOW_BIS_MGD > GO:oxidoreductase activity ; GO:0016491
 PROSITE:PS51669 4FE4S_MOW_BIS_MGD > GO:oxidation-reduction process ; GO:0055114

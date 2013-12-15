@@ -1,4 +1,4 @@
-!version date: 2013/12/07 13:36:42
+!version date: 2013/12/14 14:31:18
 !description: Mapping of GO terms to PRODOM entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://prodom.prabi.fr/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -15,7 +15,7 @@ ProDom:PD000609 Chitin_bd_1 > GO:chitin binding ; GO:0008061
 ProDom:PD000672 E2_early_recog_prot_C > GO:DNA binding ; GO:0003677
 ProDom:PD000672 E2_early_recog_prot_C > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 ProDom:PD000672 E2_early_recog_prot_C > GO:regulation of DNA replication ; GO:0006275
-ProDom:PD000672 E2_early_recog_prot_C > GO:regulation of transcription, DNA-dependent ; GO:0006355
+ProDom:PD000672 E2_early_recog_prot_C > GO:regulation of transcription, DNA-templated ; GO:0006355
 ProDom:PD000672 E2_early_recog_prot_C > GO:host cell nucleus ; GO:0042025
 ProDom:PD000741 Matrix > GO:structural molecule activity ; GO:0005198
 ProDom:PD000741 Matrix > GO:virion assembly ; GO:0019068
@@ -322,12 +322,12 @@ ProDom:PD006739 Adeno_GP19K > GO:regulation of defense response to virus by viru
 ProDom:PD006802 Thermostable_hemolysn_vibrio > GO:hemolysis by symbiont of host erythrocytes ; GO:0019836
 ProDom:PD006802 Thermostable_hemolysn_vibrio > GO:extracellular region ; GO:0005576
 ProDom:PD007152 TSC-22_Dip_Bun > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-ProDom:PD007152 TSC-22_Dip_Bun > GO:regulation of transcription, DNA-dependent ; GO:0006355
-ProDom:PD007170 FaeA > GO:regulation of transcription, DNA-dependent ; GO:0006355
+ProDom:PD007152 TSC-22_Dip_Bun > GO:regulation of transcription, DNA-templated ; GO:0006355
+ProDom:PD007170 FaeA > GO:regulation of transcription, DNA-templated ; GO:0006355
 ProDom:PD007170 FaeA > GO:pilus ; GO:0009289
 ProDom:PD007225 Colicin_pyocin > GO:toxic substance binding ; GO:0015643
 ProDom:PD007225 Colicin_pyocin > GO:bacteriocin immunity ; GO:0030153
-ProDom:PD007233 Lentiviral_Tat > GO:positive regulation of transcription, DNA-dependent ; GO:0045893
+ProDom:PD007233 Lentiviral_Tat > GO:positive regulation of transcription, DNA-templated ; GO:0045893
 ProDom:PD007270 Cyt_c_oxidase_su5b > GO:cytochrome-c oxidase activity ; GO:0004129
 ProDom:PD007270 Cyt_c_oxidase_su5b > GO:mitochondrial envelope ; GO:0005740
 ProDom:PD007327 Rib_bd_factA > GO:rRNA processing ; GO:0006364
@@ -338,7 +338,7 @@ ProDom:PD007349 GM_colony-stim-fac > GO:extracellular region ; GO:0005576
 ProDom:PD007402 Arg_repress > GO:arginine binding ; GO:0034618
 ProDom:PD007402 Arg_repress > GO:protein oligomerization ; GO:0051259
 ProDom:PD007478 Znf_Dof > GO:DNA binding ; GO:0003677
-ProDom:PD007478 Znf_Dof > GO:regulation of transcription, DNA-dependent ; GO:0006355
+ProDom:PD007478 Znf_Dof > GO:regulation of transcription, DNA-templated ; GO:0006355
 ProDom:PD007559 CN_Hdrtase_asu/SCN_Hdrlase_gsu > GO:catalytic activity ; GO:0003824
 ProDom:PD007559 CN_Hdrtase_asu/SCN_Hdrlase_gsu > GO:transition metal ion binding ; GO:0046914
 ProDom:PD007559 CN_Hdrtase_asu/SCN_Hdrlase_gsu > GO:nitrogen compound metabolic process ; GO:0006807
@@ -433,12 +433,12 @@ ProDom:PD010756 Pox_A28 > GO:viral process ; GO:0016032
 ProDom:PD010756 Pox_A28 > GO:viral envelope ; GO:0019031
 ProDom:PD010908 Spo0A_C > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 ProDom:PD010908 Spo0A_C > GO:calcium ion binding ; GO:0005509
-ProDom:PD010908 Spo0A_C > GO:regulation of transcription, DNA-dependent ; GO:0006355
+ProDom:PD010908 Spo0A_C > GO:regulation of transcription, DNA-templated ; GO:0006355
 ProDom:PD010908 Spo0A_C > GO:regulation of sporulation resulting in formation of a cellular spore ; GO:0042173
 ProDom:PD010908 Spo0A_C > GO:cytoplasm ; GO:0005737
 ProDom:PD011053 PhzA_PhzB > GO:antibiotic biosynthetic process ; GO:0017000
 ProDom:PD011159 Herpes_UL55 > GO:viral life cycle ; GO:0019058
-ProDom:PD011171 Pox_TAP > GO:regulation of transcription, DNA-dependent ; GO:0006355
+ProDom:PD011171 Pox_TAP > GO:regulation of transcription, DNA-templated ; GO:0006355
 ProDom:PD011187 RNA_Pol_22kDa_poxvir > GO:DNA binding ; GO:0003677
 ProDom:PD011187 RNA_Pol_22kDa_poxvir > GO:DNA-directed RNA polymerase activity ; GO:0003899
 ProDom:PD011187 RNA_Pol_22kDa_poxvir > GO:viral transcription ; GO:0019083
@@ -471,7 +471,7 @@ ProDom:PD012565 MtrB_MeTrfase > GO:methanogenesis ; GO:0015948
 ProDom:PD012565 MtrB_MeTrfase > GO:integral to membrane ; GO:0016021
 ProDom:PD012578 PD012578 > GO:DNA topoisomerase (ATP-hydrolyzing) inhibitor activity ; GO:0008657
 ProDom:PD012578 PD012578 > GO:plasmid maintenance ; GO:0006276
-ProDom:PD012582 Trp_repress_bac > GO:regulation of transcription, DNA-dependent ; GO:0006355
+ProDom:PD012582 Trp_repress_bac > GO:regulation of transcription, DNA-templated ; GO:0006355
 ProDom:PD012644 Polyketide_synth_cyclase > GO:polyketide biosynthetic process ; GO:0030639
 ProDom:PD012670 Ribosomal_L35Ae > GO:structural constituent of ribosome ; GO:0003735
 ProDom:PD012670 Ribosomal_L35Ae > GO:translation ; GO:0006412
@@ -491,7 +491,7 @@ ProDom:PD012915 RNA_Pol_19kDa_poxvir > GO:DNA binding ; GO:0003677
 ProDom:PD012915 RNA_Pol_19kDa_poxvir > GO:DNA-directed RNA polymerase activity ; GO:0003899
 ProDom:PD012915 RNA_Pol_19kDa_poxvir > GO:transcription, DNA-templated ; GO:0006351
 ProDom:PD012942 Arch_fla_DE > GO:ciliary or bacterial-type flagellar motility ; GO:0001539
-ProDom:PD012998 PD012998 > GO:DNA-dependent transcription, initiation ; GO:0006352
+ProDom:PD012998 PD012998 > GO:DNA-templated transcription, initiation ; GO:0006352
 ProDom:PD012998 PD012998 > GO:transcription factor TFIID complex ; GO:0005669
 ProDom:PD013079 Peptidase_A9_cat > GO:aspartic-type endopeptidase activity ; GO:0004190
 ProDom:PD013079 Peptidase_A9_cat > GO:proteolysis ; GO:0006508
@@ -529,7 +529,7 @@ ProDom:PD014178 Microvir_H > GO:viral capsid ; GO:0019028
 ProDom:PD014243 Telomere_repeat-bd_fac_dimer > GO:telomeric DNA binding ; GO:0042162
 ProDom:PD014243 Telomere_repeat-bd_fac_dimer > GO:protein homodimerization activity ; GO:0042803
 ProDom:PD014393 GCM_motif > GO:DNA binding ; GO:0003677
-ProDom:PD014393 GCM_motif > GO:regulation of transcription, DNA-dependent ; GO:0006355
+ProDom:PD014393 GCM_motif > GO:regulation of transcription, DNA-templated ; GO:0006355
 ProDom:PD014453 Phytoreo_S7 > GO:virion ; GO:0019012
 ProDom:PD014636 Melittin/Api_allergen > GO:protein kinase inhibitor activity ; GO:0004860
 ProDom:PD014636 Melittin/Api_allergen > GO:extracellular region ; GO:0005576
@@ -555,7 +555,7 @@ ProDom:PD015453 Ribosomal_PSRP3/Ycf65 > GO:structural constituent of ribosome ; 
 ProDom:PD015453 Ribosomal_PSRP3/Ycf65 > GO:translation ; GO:0006412
 ProDom:PD015453 Ribosomal_PSRP3/Ycf65 > GO:ribosome ; GO:0005840
 ProDom:PD015582 Flagellar_transcriptional_act > GO:bacterial-type flagellum assembly ; GO:0044780
-ProDom:PD015582 Flagellar_transcriptional_act > GO:positive regulation of transcription, DNA-dependent ; GO:0045893
+ProDom:PD015582 Flagellar_transcriptional_act > GO:positive regulation of transcription, DNA-templated ; GO:0045893
 ProDom:PD015693 Fumarate_red_D > GO:fumarate metabolic process ; GO:0006106
 ProDom:PD015693 Fumarate_red_D > GO:membrane ; GO:0016020
 ProDom:PD015804 MPTase_inhib_I38 > GO:endopeptidase inhibitor activity ; GO:0004866
@@ -565,7 +565,7 @@ ProDom:PD015842 PTS_IIA_glucitol/sorbitol-sp > GO:phosphoenolpyruvate-dependent 
 ProDom:PD015842 PTS_IIA_glucitol/sorbitol-sp > GO:cytoplasm ; GO:0005737
 ProDom:PD015892 Phi-29_GP4 > GO:DNA-directed RNA polymerase activity ; GO:0003899
 ProDom:PD015892 Phi-29_GP4 > GO:sigma factor activity ; GO:0016987
-ProDom:PD015892 Phi-29_GP4 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+ProDom:PD015892 Phi-29_GP4 > GO:regulation of transcription, DNA-templated ; GO:0006355
 ProDom:PD015900 Fumarate_red_C > GO:membrane ; GO:0016020
 ProDom:PD016028 Peptidase_M7 > GO:metalloendopeptidase activity ; GO:0004222
 ProDom:PD016028 Peptidase_M7 > GO:zinc ion binding ; GO:0008270
@@ -575,7 +575,7 @@ ProDom:PD016189 tRNA-Thr_ED_arc > GO:threonine-tRNA ligase activity ; GO:0004829
 ProDom:PD016189 tRNA-Thr_ED_arc > GO:ATP binding ; GO:0005524
 ProDom:PD016189 tRNA-Thr_ED_arc > GO:zinc ion binding ; GO:0008270
 ProDom:PD016189 tRNA-Thr_ED_arc > GO:cytoplasm ; GO:0005737
-ProDom:PD016258 AalphaY_MD_bd > GO:regulation of transcription, DNA-dependent ; GO:0006355
+ProDom:PD016258 AalphaY_MD_bd > GO:regulation of transcription, DNA-templated ; GO:0006355
 ProDom:PD016258 AalphaY_MD_bd > GO:sexual reproduction ; GO:0019953
 ProDom:PD016331 Bact_scaffold_pD > GO:viral procapsid maturation ; GO:0046797
 ProDom:PD016584 DUF127 > GO:tRNA methyltransferase activity ; GO:0008175
@@ -584,12 +584,12 @@ ProDom:PD016584 DUF127 > GO:cytoplasm ; GO:0005737
 ProDom:PD016590 NeurotensiN > GO:neuropeptide hormone activity ; GO:0005184
 ProDom:PD016590 NeurotensiN > GO:extracellular region ; GO:0005576
 ProDom:PD016592 FlhC > GO:DNA binding ; GO:0003677
-ProDom:PD016592 FlhC > GO:positive regulation of transcription, DNA-dependent ; GO:0045893
+ProDom:PD016592 FlhC > GO:positive regulation of transcription, DNA-templated ; GO:0045893
 ProDom:PD016592 FlhC > GO:regulation of bacterial-type flagellum assembly ; GO:1902208
 ProDom:PD016677 Coagulin > GO:hemolymph coagulation ; GO:0042381
 ProDom:PD016677 Coagulin > GO:extracellular region ; GO:0005576
 ProDom:PD016683 Flag1_repressor > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-ProDom:PD016683 Flag1_repressor > GO:regulation of transcription, DNA-dependent ; GO:0006355
+ProDom:PD016683 Flag1_repressor > GO:regulation of transcription, DNA-templated ; GO:0006355
 ProDom:PD017229 BioW > GO:ATP binding ; GO:0005524
 ProDom:PD017229 BioW > GO:6-carboxyhexanoate-CoA ligase activity ; GO:0042410
 ProDom:PD017229 BioW > GO:biotin biosynthetic process ; GO:0009102
@@ -606,11 +606,11 @@ ProDom:PD017907 DHQ_synth_pro-type > GO:oxidation-reduction process ; GO:0055114
 ProDom:PD018364 Lara_isomerase > GO:L-arabinose isomerase activity ; GO:0008733
 ProDom:PD018364 Lara_isomerase > GO:metabolic process ; GO:0008152
 ProDom:PD018365 TF_STE > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-ProDom:PD018365 TF_STE > GO:regulation of transcription, DNA-dependent ; GO:0006355
+ProDom:PD018365 TF_STE > GO:regulation of transcription, DNA-templated ; GO:0006355
 ProDom:PD018365 TF_STE > GO:nucleus ; GO:0005634
 ProDom:PD018707 ErmC > GO:response to antibiotic ; GO:0046677
 ProDom:PD019076 Metallthion_Pro > GO:metal ion binding ; GO:0046872
-ProDom:PD019197 DNA-dir_RNA_pol_RpoE2_arc > GO:regulation of transcription, DNA-dependent ; GO:0006355
+ProDom:PD019197 DNA-dir_RNA_pol_RpoE2_arc > GO:regulation of transcription, DNA-templated ; GO:0006355
 ProDom:PD019231 Cyt_c_oxidase_su5c > GO:mitochondrial respiratory chain ; GO:0005746
 ProDom:PD019250 RNA_pol_7kDa_chordopoxvir > GO:DNA binding ; GO:0003677
 ProDom:PD019250 RNA_pol_7kDa_chordopoxvir > GO:DNA-directed RNA polymerase activity ; GO:0003899
@@ -626,7 +626,7 @@ ProDom:PD020235 Gar1_RNA_bd > GO:pseudouridine synthesis ; GO:0001522
 ProDom:PD020235 Gar1_RNA_bd > GO:ribosome biogenesis ; GO:0042254
 ProDom:PD020235 Gar1_RNA_bd > GO:box H/ACA snoRNP complex ; GO:0031429
 ProDom:PD020365 Met_repressor_MetJ > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-ProDom:PD020365 Met_repressor_MetJ > GO:regulation of transcription, DNA-dependent ; GO:0006355
+ProDom:PD020365 Met_repressor_MetJ > GO:regulation of transcription, DNA-templated ; GO:0006355
 ProDom:PD020365 Met_repressor_MetJ > GO:methionine metabolic process ; GO:0006555
 ProDom:PD020518 Head_decor_prot > GO:viral capsid ; GO:0019028
 ProDom:PD021604 SV_autoAg > GO:extracellular region ; GO:0005576
@@ -680,7 +680,7 @@ ProDom:PD028462 TEBP_beta > GO:chromosome, telomeric region ; GO:0000781
 ProDom:PD028559 GTP_CycHdrlase_I_reg > GO:negative regulation of biosynthetic process ; GO:0009890
 ProDom:PD029191 Fe_traffick_prot_YggX > GO:iron ion binding ; GO:0005506
 ProDom:PD029816 PuR_N > GO:DNA binding ; GO:0003677
-ProDom:PD029816 PuR_N > GO:regulation of transcription, DNA-dependent ; GO:0006355
+ProDom:PD029816 PuR_N > GO:regulation of transcription, DNA-templated ; GO:0006355
 ProDom:PD030553 Immunomodulatory_FIP-Fve_fun > GO:carbohydrate binding ; GO:0030246
 ProDom:PD030553 Immunomodulatory_FIP-Fve_fun > GO:regulation of immune system process ; GO:0002682
 ProDom:PD031229 Phage_attach > GO:virion assembly ; GO:0019068
@@ -699,7 +699,7 @@ ProDom:PD037044 EBNA1_DNA_bd > GO:DNA binding ; GO:0003677
 ProDom:PD037044 EBNA1_DNA_bd > GO:DNA replication origin binding ; GO:0003688
 ProDom:PD037044 EBNA1_DNA_bd > GO:DNA replication ; GO:0006260
 ProDom:PD037044 EBNA1_DNA_bd > GO:regulation of DNA replication ; GO:0006275
-ProDom:PD037044 EBNA1_DNA_bd > GO:positive regulation of transcription, DNA-dependent ; GO:0045893
+ProDom:PD037044 EBNA1_DNA_bd > GO:positive regulation of transcription, DNA-templated ; GO:0045893
 ProDom:PD037044 EBNA1_DNA_bd > GO:host cell nucleus ; GO:0042025
 ProDom:PD037532 hSer_lactone_synthase_LuxM_C > GO:transferase activity, transferring acyl groups other than amino-acyl groups ; GO:0016747
 ProDom:PD037847 EVI_S2A > GO:integral to membrane ; GO:0016021
@@ -753,7 +753,7 @@ ProDom:PD052893 Tom6 > GO:mitochondrial outer membrane translocase complex ; GO:
 ProDom:PD054489 Cortexin > GO:intrinsic to membrane ; GO:0031224
 ProDom:PD054490 GlgS > GO:glycogen biosynthetic process ; GO:0005978
 ProDom:PD054632 HTH_lambda_Cro > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-ProDom:PD054632 HTH_lambda_Cro > GO:regulation of transcription, DNA-dependent ; GO:0006355
+ProDom:PD054632 HTH_lambda_Cro > GO:regulation of transcription, DNA-templated ; GO:0006355
 ProDom:PD056240 Cytochrome_b-c1_8 > GO:electron transport chain ; GO:0022900
 ProDom:PD056240 Cytochrome_b-c1_8 > GO:mitochondrial inner membrane ; GO:0005743
 ProDom:PD056240 Cytochrome_b-c1_8 > GO:respiratory chain ; GO:0070469
@@ -774,7 +774,7 @@ ProDom:PD068053 DUF1938 > GO:cytoplasm ; GO:0005737
 ProDom:PD068438 Antimic_MiAMP1 > GO:defense response ; GO:0006952
 ProDom:PD068438 Antimic_MiAMP1 > GO:negative regulation of growth ; GO:0045926
 ProDom:PD068630 Inner_membrane_protein_YaiY > GO:integral to membrane ; GO:0016021
-ProDom:PD069311 Transcription_reg_protein_PrtN > GO:regulation of transcription, DNA-dependent ; GO:0006355
+ProDom:PD069311 Transcription_reg_protein_PrtN > GO:regulation of transcription, DNA-templated ; GO:0006355
 ProDom:PD069352 Ribosomal_L6_chp > GO:structural constituent of ribosome ; GO:0003735
 ProDom:PD069352 Ribosomal_L6_chp > GO:rRNA binding ; GO:0019843
 ProDom:PD069352 Ribosomal_L6_chp > GO:translation ; GO:0006412
@@ -860,18 +860,18 @@ ProDom:PD336606 Adhes-Ig-like > GO:membrane ; GO:0016020
 ProDom:PD339292 LAB_N > GO:lipid-A-disaccharide synthase activity ; GO:0008915
 ProDom:PD339292 LAB_N > GO:lipid A biosynthetic process ; GO:0009245
 ProDom:PD339506 UPF0240 > GO:mitochondrial respiratory chain complex I assembly ; GO:0032981
-ProDom:PD342192 Nab_N > GO:negative regulation of transcription, DNA-dependent ; GO:0045892
+ProDom:PD342192 Nab_N > GO:negative regulation of transcription, DNA-templated ; GO:0045892
 ProDom:PD342192 Nab_N > GO:nucleus ; GO:0005634
 ProDom:PD355092 Churchill > GO:zinc ion binding ; GO:0008270
 ProDom:PD355092 Churchill > GO:multicellular organismal development ; GO:0007275
-ProDom:PD355092 Churchill > GO:positive regulation of transcription, DNA-dependent ; GO:0045893
+ProDom:PD355092 Churchill > GO:positive regulation of transcription, DNA-templated ; GO:0045893
 ProDom:PD355753 UPF0295 > GO:integral to plasma membrane ; GO:0005887
 ProDom:PD377005 Anthrax_toxin_rcpt_C > GO:receptor activity ; GO:0004872
 ProDom:PD377005 Anthrax_toxin_rcpt_C > GO:integral to membrane ; GO:0016021
 ProDom:PD398536 DASH_Dam1 > GO:attachment of spindle microtubules to kinetochore ; GO:0008608
 ProDom:PD398536 DASH_Dam1 > GO:DASH complex ; GO:0042729
 ProDom:PD398536 DASH_Dam1 > GO:mitotic spindle ; GO:0072686
-ProDom:PD407430 Baculo_LEF-11 > GO:regulation of transcription, DNA-dependent ; GO:0006355
+ProDom:PD407430 Baculo_LEF-11 > GO:regulation of transcription, DNA-templated ; GO:0006355
 ProDom:PD407430 Baculo_LEF-11 > GO:viral life cycle ; GO:0019058
 ProDom:PD407686 Thiostrepton-R_Mease_TSNR_N > GO:rRNA methyltransferase activity ; GO:0008649
 ProDom:PD407686 Thiostrepton-R_Mease_TSNR_N > GO:response to antibiotic ; GO:0046677
@@ -880,7 +880,7 @@ ProDom:PD455741 PD455741 > GO:response to stress ; GO:0006950
 ProDom:PD455741 PD455741 > GO:digestion ; GO:0007586
 ProDom:PD455741 PD455741 > GO:extracellular space ; GO:0005615
 ProDom:PD469575 3H_domain > GO:small molecule binding ; GO:0036094
-ProDom:PD492828 DMAP1 > GO:negative regulation of transcription, DNA-dependent ; GO:0045892
+ProDom:PD492828 DMAP1 > GO:negative regulation of transcription, DNA-templated ; GO:0045892
 ProDom:PD492828 DMAP1 > GO:nucleus ; GO:0005634
 ProDom:PD581744 Antimicrobial_3 > GO:hemolysis by symbiont of host erythrocytes ; GO:0019836
 ProDom:PD581744 Antimicrobial_3 > GO:extracellular region ; GO:0005576

@@ -1,10 +1,10 @@
-!version date: 2013/12/14 14:31:19
+!version date: 2014/01/04 13:40:04
 !description: Mapping of GO terms to SMART entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://smart.embl-heidelberg.de/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
 !contact:interhelp@ebi.ac.uk
 !
-SMART:SM00002 PLP > GO:integral to membrane ; GO:0016021
+SMART:SM00002 PLP > GO:integral component of membrane ; GO:0016021
 SMART:SM00003 NH > GO:neurohypophyseal hormone activity ; GO:0005185
 SMART:SM00003 NH > GO:extracellular region ; GO:0005576
 SMART:SM00004 NL > GO:cell differentiation ; GO:0030154
@@ -301,7 +301,7 @@ SMART:SM00236 fCBD > GO:cellulose binding ; GO:0030248
 SMART:SM00236 fCBD > GO:carbohydrate metabolic process ; GO:0005975
 SMART:SM00236 fCBD > GO:extracellular region ; GO:0005576
 SMART:SM00237 Calx_beta > GO:cell communication ; GO:0007154
-SMART:SM00237 Calx_beta > GO:integral to membrane ; GO:0016021
+SMART:SM00237 Calx_beta > GO:integral component of membrane ; GO:0016021
 SMART:SM00239 C2 > GO:protein binding ; GO:0005515
 SMART:SM00240 FHA > GO:protein binding ; GO:0005515
 SMART:SM00242 MYSc > GO:motor activity ; GO:0003774
@@ -369,7 +369,7 @@ SMART:SM00303 GPS > GO:neuropeptide signaling pathway ; GO:0007218
 SMART:SM00303 GPS > GO:membrane ; GO:0016020
 SMART:SM00304 HAMP > GO:signal transducer activity ; GO:0004871
 SMART:SM00304 HAMP > GO:signal transduction ; GO:0007165
-SMART:SM00304 HAMP > GO:integral to membrane ; GO:0016021
+SMART:SM00304 HAMP > GO:integral component of membrane ; GO:0016021
 SMART:SM00307 ILWEQ > GO:actin binding ; GO:0003779
 SMART:SM00308 LH2 > GO:protein binding ; GO:0005515
 SMART:SM00309 PAH > GO:hormone activity ; GO:0005179
@@ -764,7 +764,7 @@ SMART:SM00586 ZnF_DBF > GO:zinc ion binding ; GO:0008270
 SMART:SM00591 RWD > GO:protein binding ; GO:0005515
 SMART:SM00592 BRK > GO:protein binding ; GO:0005515
 SMART:SM00592 BRK > GO:hydrolase activity, acting on acid anhydrides ; GO:0016817
-SMART:SM00602 VPS10 > GO:integral to membrane ; GO:0016021
+SMART:SM00602 VPS10 > GO:integral component of membrane ; GO:0016021
 SMART:SM00606 CBD_IV > GO:carbohydrate binding ; GO:0030246
 SMART:SM00608 ACR > GO:metalloendopeptidase activity ; GO:0004222
 SMART:SM00608 ACR > GO:proteolysis ; GO:0006508
@@ -832,8 +832,8 @@ SMART:SM00667 LisH > GO:protein binding ; GO:0005515
 SMART:SM00678 WWE > GO:zinc ion binding ; GO:0008270
 SMART:SM00680 CLIP > GO:serine-type endopeptidase activity ; GO:0004252
 SMART:SM00692 DM3 > GO:nucleic acid binding ; GO:0003676
-SMART:SM00693 DysFN > GO:integral to membrane ; GO:0016021
-SMART:SM00694 DysFC > GO:integral to membrane ; GO:0016021
+SMART:SM00693 DysFN > GO:integral component of membrane ; GO:0016021
+SMART:SM00694 DysFC > GO:integral component of membrane ; GO:0016021
 SMART:SM00695 DUSP > GO:ubiquitin-specific protease activity ; GO:0004843
 SMART:SM00701 PGRP > GO:zinc ion binding ; GO:0008270
 SMART:SM00701 PGRP > GO:N-acetylmuramoyl-L-alanine amidase activity ; GO:0008745
@@ -853,11 +853,11 @@ SMART:SM00719 Plus3 > GO:histone modification ; GO:0016570
 SMART:SM00719 Plus3 > GO:nucleus ; GO:0005634
 SMART:SM00721 BAR > GO:protein binding ; GO:0005515
 SMART:SM00721 BAR > GO:cytoplasm ; GO:0005737
-SMART:SM00724 TLC > GO:integral to membrane ; GO:0016021
+SMART:SM00724 TLC > GO:integral component of membrane ; GO:0016021
 SMART:SM00729 Elp3 > GO:catalytic activity ; GO:0003824
 SMART:SM00729 Elp3 > GO:iron-sulfur cluster binding ; GO:0051536
 SMART:SM00730 PSN > GO:aspartic-type endopeptidase activity ; GO:0004190
-SMART:SM00730 PSN > GO:integral to membrane ; GO:0016021
+SMART:SM00730 PSN > GO:integral component of membrane ; GO:0016021
 SMART:SM00732 YqgFc > GO:hydrolase activity, acting on ester bonds ; GO:0016788
 SMART:SM00732 YqgFc > GO:nucleobase-containing compound metabolic process ; GO:0006139
 SMART:SM00734 ZnF_Rad18 > GO:DNA binding ; GO:0003677
@@ -883,7 +883,7 @@ SMART:SM00769 WHy > GO:response to desiccation ; GO:0009269
 SMART:SM00770 Zn_dep_PLPC > GO:phospholipase C activity ; GO:0004629
 SMART:SM00770 Zn_dep_PLPC > GO:zinc ion binding ; GO:0008270
 SMART:SM00771 ZipA_C > GO:barrier septum assembly ; GO:0000917
-SMART:SM00771 ZipA_C > GO:integral to membrane ; GO:0016021
+SMART:SM00771 ZipA_C > GO:integral component of membrane ; GO:0016021
 SMART:SM00774 WRKY > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 SMART:SM00774 WRKY > GO:sequence-specific DNA binding ; GO:0043565
 SMART:SM00774 WRKY > GO:regulation of transcription, DNA-templated ; GO:0006355
@@ -1231,7 +1231,7 @@ SMART:SM01051 CAMSAP_CKK > GO:microtubule binding ; GO:0008017
 SMART:SM01053 CaMBD > GO:calmodulin binding ; GO:0005516
 SMART:SM01053 CaMBD > GO:calcium-activated potassium channel activity ; GO:0015269
 SMART:SM01053 CaMBD > GO:potassium ion transport ; GO:0006813
-SMART:SM01053 CaMBD > GO:integral to membrane ; GO:0016021
+SMART:SM01053 CaMBD > GO:integral component of membrane ; GO:0016021
 SMART:SM01054 CaM_binding > GO:calmodulin binding ; GO:0005516
 SMART:SM01059 CAT > GO:chloramphenicol O-acetyltransferase activity ; GO:0008811
 SMART:SM01060 Catalase > GO:catalase activity ; GO:0004096
@@ -1248,7 +1248,7 @@ SMART:SM01067 CBM_3 > GO:carbohydrate metabolic process ; GO:0005975
 SMART:SM01071 CDC37_N > GO:protein kinase binding ; GO:0019901
 SMART:SM01076 CG-1 > GO:DNA binding ; GO:0003677
 SMART:SM01076 CG-1 > GO:nucleus ; GO:0005634
-SMART:SM01077 Cg6151-P > GO:integral to membrane ; GO:0016021
+SMART:SM01077 Cg6151-P > GO:integral component of membrane ; GO:0016021
 SMART:SM01084 CKS > GO:cyclin-dependent protein serine/threonine kinase regulator activity ; GO:0016538
 SMART:SM01084 CKS > GO:cell cycle ; GO:0007049
 SMART:SM01085 CK_II_beta > GO:protein kinase regulator activity ; GO:0019887

@@ -1,4 +1,4 @@
-!version date: 2014/02/22 12:26:01
+!version date: 2014/03/01 12:25:05
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -10369,6 +10369,7 @@ Pfam:PF14552 Tautomerase_2 > GO:isomerase activity ; GO:0016853
 Pfam:PF14552 Tautomerase_2 > GO:cellular aromatic compound metabolic process ; GO:0006725
 Pfam:PF14554 VEGF_C > GO:heparin binding ; GO:0008201
 Pfam:PF14560 Ubiquitin_2 > GO:protein binding ; GO:0005515
+Pfam:PF14565 IL22 > GO:extracellular region ; GO:0005576
 Pfam:PF14572 Pribosyl_synth > GO:magnesium ion binding ; GO:0000287
 Pfam:PF14572 Pribosyl_synth > GO:ribose phosphate diphosphokinase activity ; GO:0004749
 Pfam:PF14572 Pribosyl_synth > GO:nucleotide biosynthetic process ; GO:0009165
@@ -10384,8 +10385,13 @@ Pfam:PF14633 SH2_2 > GO:protein binding ; GO:0005515
 Pfam:PF14634 zf-RING_5 > GO:protein binding ; GO:0005515
 Pfam:PF14634 zf-RING_5 > GO:zinc ion binding ; GO:0008270
 Pfam:PF14641 HTH_44 > GO:DNA binding ; GO:0003677
+Pfam:PF14659 Phage_int_SAM_3 > GO:DNA binding ; GO:0003677
+Pfam:PF14659 Phage_int_SAM_3 > GO:DNA integration ; GO:0015074
 Pfam:PF14672 LCE > GO:epidermis development ; GO:0008544
 Pfam:PF14676 FANCI_S2 > GO:DNA repair ; GO:0006281
+Pfam:PF14718 SLT_L > GO:hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553
+Pfam:PF14718 SLT_L > GO:periplasmic space ; GO:0042597
+Pfam:PF14724 mit_SMPDase > GO:sphingomyelin phosphodiesterase D activity ; GO:0050290
 Pfam:PF14736 N_Asn_amidohyd > GO:protein-N-terminal asparagine amidohydrolase activity ; GO:0008418
 Pfam:PF14764 SPG48 > GO:AP-5 adaptor complex ; GO:0044599
 Pfam:PF14777 BBIP10 > GO:cilium assembly ; GO:0042384
@@ -10403,21 +10409,33 @@ Pfam:PF14860 DrrA_P4M > GO:Rab GTPase binding ; GO:0017137
 Pfam:PF14860 DrrA_P4M > GO:pathogenesis ; GO:0009405
 Pfam:PF14860 DrrA_P4M > GO:regulation of Rab GTPase activity ; GO:0032313
 Pfam:PF14860 DrrA_P4M > GO:host cell cytoplasmic vesicle ; GO:0044161
+Pfam:PF14861 Antimicrobial21 > GO:defense response to fungus ; GO:0050832
 Pfam:PF14862 Defensin_big > GO:defense response to Gram-negative bacterium ; GO:0050829
 Pfam:PF14862 Defensin_big > GO:defense response to Gram-positive bacterium ; GO:0050830
+Pfam:PF14863 Alkyl_sulf_dimr > GO:protein dimerization activity ; GO:0046983
+Pfam:PF14865 Macin > GO:defense response ; GO:0006952
+Pfam:PF14867 Lantibiotic_a > GO:defense response to Gram-positive bacterium ; GO:0050830
 Pfam:PF14876 RSF > GO:cellular respiration ; GO:0045333
 Pfam:PF14876 RSF > GO:nucleus ; GO:0005634
 Pfam:PF14876 RSF > GO:mitochondrion ; GO:0005739
 Pfam:PF14942 Muted > GO:transport vesicle ; GO:0030133
 Pfam:PF14942 Muted > GO:BLOC-1 complex ; GO:0031083
+Pfam:PF14943 MRP-S26 > GO:mitochondrial small ribosomal subunit ; GO:0005763
 Pfam:PF14972 Mito_morph_reg > GO:mitochondrion organization ; GO:0007005
 Pfam:PF14972 Mito_morph_reg > GO:integral component of mitochondrial inner membrane ; GO:0031305
 Pfam:PF14978 MRP-63 > GO:mitochondrial ribosome ; GO:0005761
 Pfam:PF14984 CD24 > GO:cell adhesion ; GO:0007155
+Pfam:PF14991 MLANA > GO:melanosome ; GO:0042470
 Pfam:PF14993 Neuropeptide_S > GO:neuropeptide signaling pathway ; GO:0007218
 Pfam:PF14993 Neuropeptide_S > GO:extracellular region ; GO:0005576
+Pfam:PF14996 RMP > GO:visual perception ; GO:0007601
+Pfam:PF14999 Shadoo > GO:anchored component of membrane ; GO:0031225
 Pfam:PF15003 HAUS2 > GO:microtubule organizing center organization ; GO:0031023
 Pfam:PF15003 HAUS2 > GO:spindle assembly ; GO:0051225
+Pfam:PF15009 TMEM173 > GO:activation of innate immune response ; GO:0002218
+Pfam:PF15009 TMEM173 > GO:positive regulation of type I interferon production ; GO:0032481
+Pfam:PF15014 CLN5 > GO:neurogenesis ; GO:0022008
+Pfam:PF15014 CLN5 > GO:lysosome ; GO:0005764
 Pfam:PF15020 CATSPERD > GO:CatSper complex ; GO:0036128
 Pfam:PF15036 IL34 > GO:macrophage colony-stimulating factor receptor binding ; GO:0005157
 Pfam:PF15036 IL34 > GO:positive regulation of protein phosphorylation ; GO:0001934
@@ -10435,13 +10453,27 @@ Pfam:PF15096 G6B > GO:integral component of membrane ; GO:0016021
 Pfam:PF15127 DUF4565 > GO:protein kinase A regulatory subunit binding ; GO:0034237
 Pfam:PF15138 Syncollin > GO:exocytosis ; GO:0006887
 Pfam:PF15138 Syncollin > GO:secretory granule membrane ; GO:0030667
+Pfam:PF15146 FANCAA > GO:DNA repair ; GO:0006281
+Pfam:PF15146 FANCAA > GO:Fanconi anaemia nuclear complex ; GO:0043240
 Pfam:PF15149 CATSPERB > GO:CatSper complex ; GO:0036128
 Pfam:PF15150 PMAIP1 > GO:release of cytochrome c from mitochondria ; GO:0001836
 Pfam:PF15150 PMAIP1 > GO:apoptotic process ; GO:0006915
 Pfam:PF15150 PMAIP1 > GO:activation of cysteine-type endopeptidase activity involved in apoptotic process ; GO:0006919
 Pfam:PF15150 PMAIP1 > GO:cellular response to DNA damage stimulus ; GO:0006974
+Pfam:PF15151 RGCC > GO:regulation of cell cycle ; GO:0051726
+Pfam:PF15163 Meiosis_expr > GO:nucleus ; GO:0005634
+Pfam:PF15168 TRIQK > GO:endoplasmic reticulum membrane ; GO:0005789
 Pfam:PF15170 CaM-KIIN > GO:protein kinase inhibitor activity ; GO:0004860
+Pfam:PF15172 Prolactin_RP > GO:hormone activity ; GO:0005179
+Pfam:PF15177 IL28A > GO:cytokine activity ; GO:0005125
+Pfam:PF15177 IL28A > GO:interleukin-28 receptor binding ; GO:0032003
+Pfam:PF15177 IL28A > GO:positive regulation of JAK-STAT cascade ; GO:0046427
+Pfam:PF15177 IL28A > GO:positive regulation of immune response ; GO:0050778
+Pfam:PF15177 IL28A > GO:defense response to virus ; GO:0051607
+Pfam:PF15178 TOM_sub5 > GO:mitochondrial outer membrane translocase complex ; GO:0005742
+Pfam:PF15180 NPBW > GO:G-protein coupled receptor binding ; GO:0001664
 Pfam:PF15182 OTOS > GO:sensory perception of sound ; GO:0007605
+Pfam:PF15184 TOMM6 > GO:mitochondrial outer membrane translocase complex ; GO:0005742
 Pfam:PF15185 BMF > GO:apoptotic process ; GO:0006915
 Pfam:PF15191 Synaptonemal_3 > GO:synaptonemal complex assembly ; GO:0007130
 Pfam:PF15191 Synaptonemal_3 > GO:reciprocal meiotic recombination ; GO:0007131
@@ -10450,6 +10482,11 @@ Pfam:PF15199 DAOA > GO:negative regulation of D-amino-acid oxidase activity ; GO
 Pfam:PF15200 KRTDAP > GO:extracellular region ; GO:0005576
 Pfam:PF15202 Adipogenin > GO:fat cell differentiation ; GO:0045444
 Pfam:PF15208 Rab15_effector > GO:receptor recycling ; GO:0001881
+Pfam:PF15216 TSLP > GO:cytokine activity ; GO:0005125
+Pfam:PF15220 HILPDA > GO:positive regulation of cytokine production ; GO:0001819
+Pfam:PF15220 HILPDA > GO:positive regulation of cell proliferation ; GO:0008284
+Pfam:PF15220 HILPDA > GO:positive regulation of lipid storage ; GO:0010884
+Pfam:PF15221 LEP503 > GO:multicellular organismal development ; GO:0007275
 Pfam:PF15225 IL32 > GO:immune response ; GO:0006955
 Pfam:PF15233 SYCE1 > GO:meiotic prophase I ; GO:0007128
 Pfam:PF15233 SYCE1 > GO:synaptonemal complex assembly ; GO:0007130
@@ -10476,6 +10513,7 @@ Pfam:PF15320 RAM > GO:methylation ; GO:0032259
 Pfam:PF15320 RAM > GO:mRNA cap binding complex ; GO:0005845
 Pfam:PF15323 Ashwin > GO:embryonic morphogenesis ; GO:0048598
 Pfam:PF15323 Ashwin > GO:tRNA-splicing ligase complex ; GO:0072669
+Pfam:PF15324 TALPID3 > GO:smoothened signaling pathway ; GO:0007224
 Pfam:PF15332 LIME1 > GO:T cell receptor signaling pathway ; GO:0050852
 Pfam:PF15332 LIME1 > GO:B cell receptor signaling pathway ; GO:0050853
 Pfam:PF15333 TAF1D > GO:regulation of transcription, DNA-templated ; GO:0006355
@@ -10485,6 +10523,10 @@ Pfam:PF15337 Vasculin > GO:sequence-specific DNA binding transcription factor ac
 Pfam:PF15337 Vasculin > GO:transcription, DNA-templated ; GO:0006351
 Pfam:PF15337 Vasculin > GO:positive regulation of transcription, DNA-templated ; GO:0045893
 Pfam:PF15337 Vasculin > GO:nucleus ; GO:0005634
+Pfam:PF15339 Afaf > GO:endocytosis ; GO:0006897
+Pfam:PF15339 Afaf > GO:fusion of sperm to egg plasma membrane ; GO:0007342
+Pfam:PF15339 Afaf > GO:acrosomal vesicle exocytosis ; GO:0060478
+Pfam:PF15339 Afaf > GO:plasma membrane ; GO:0005886
 Pfam:PF15341 SLX9 > GO:maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA) ; GO:0000462
 Pfam:PF15341 SLX9 > GO:nucleolus ; GO:0005730
 Pfam:PF15341 SLX9 > GO:90S preribosome ; GO:0030686
@@ -10495,6 +10537,7 @@ Pfam:PF15360 Apelin > GO:apelin receptor binding ; GO:0031704
 Pfam:PF15360 Apelin > GO:signal transduction ; GO:0007165
 Pfam:PF15367 CABS1 > GO:calcium ion binding ; GO:0005509
 Pfam:PF15367 CABS1 > GO:spermatogenesis ; GO:0007283
+Pfam:PF15427 S100PBPR > GO:calcium-dependent protein binding ; GO:0048306
 Pfam:PF15432 Sec-ASP3 > GO:protein transport ; GO:0015031
 Pfam:PF15453 Pilt > GO:tight junction ; GO:0005923
 Pfam:PF15454 LAMTOR > GO:regulation of receptor recycling ; GO:0001919
@@ -10509,6 +10552,16 @@ Pfam:PF15454 LAMTOR > GO:membrane raft ; GO:0045121
 Pfam:PF15454 LAMTOR > GO:Ragulator complex ; GO:0071986
 Pfam:PF15458 NTR2 > GO:spliceosomal complex disassembly ; GO:0000390
 Pfam:PF15458 NTR2 > GO:U2-type post-mRNA release spliceosomal complex ; GO:0071008
+Pfam:PF15460 SAS4 > GO:transcription, DNA-templated ; GO:0006351
+Pfam:PF15460 SAS4 > GO:SAS acetyltransferase complex ; GO:0033255
+Pfam:PF15461 BCD > GO:oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen ; GO:0016702
+Pfam:PF15461 BCD > GO:oxidation-reduction process ; GO:0055114
+Pfam:PF15469 Sec5 > GO:Golgi to plasma membrane transport ; GO:0006893
+Pfam:PF15469 Sec5 > GO:exocyst ; GO:0000145
+Pfam:PF15473 PCNP > GO:protein ubiquitination ; GO:0016567
+Pfam:PF15476 SAP25 > GO:regulation of transcription, DNA-templated ; GO:0006355
+Pfam:PF15476 SAP25 > GO:nucleus ; GO:0005634
+Pfam:PF15476 SAP25 > GO:cytoplasm ; GO:0005737
 Pfam:PF15489 CTC1 > GO:single-stranded DNA binding ; GO:0003697
 Pfam:PF15490 Ten1_2 > GO:single-stranded DNA binding ; GO:0003697
 Pfam:PF15490 Ten1_2 > GO:Stn1-Ten1 complex ; GO:0070188

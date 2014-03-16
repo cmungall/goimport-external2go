@@ -1,4 +1,4 @@
-!version date: 2014/03/08 12:56:50
+!version date: 2014/03/15 12:59:20
 !description: Mapping of GO terms to PROSITE entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://www.expasy.org/prosite/
 !citation: Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -4582,15 +4582,9 @@ PROSITE:PS00367 BH4_AAA_HYDROXYL_1 > GO:aromatic amino acid family metabolic pro
 PROSITE:PS00367 BH4_AAA_HYDROXYL_1 > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS00368 RIBORED_SMALL > GO:deoxyribonucleoside diphosphate metabolic process ; GO:0009186
 PROSITE:PS00368 RIBORED_SMALL > GO:oxidation-reduction process ; GO:0055114
-PROSITE:PS00369 PTS_HPR_HIS > GO:sugar:hydrogen symporter activity ; GO:0005351
-PROSITE:PS00369 PTS_HPR_HIS > GO:transport ; GO:0006810
-PROSITE:PS00369 PTS_HPR_HIS > GO:phosphoenolpyruvate-dependent sugar phosphotransferase system ; GO:0009401
 PROSITE:PS00370 PEP_ENZYMES_PHOS_SITE > GO:transferase activity, transferring phosphorus-containing groups ; GO:0016772
 PROSITE:PS00370 PEP_ENZYMES_PHOS_SITE > GO:phosphorylation ; GO:0016310
-PROSITE:PS00371 PTS_EIIA_TYPE_1_HIS > GO:sugar:hydrogen symporter activity ; GO:0005351
-PROSITE:PS00371 PTS_EIIA_TYPE_1_HIS > GO:transport ; GO:0006810
 PROSITE:PS00371 PTS_EIIA_TYPE_1_HIS > GO:phosphoenolpyruvate-dependent sugar phosphotransferase system ; GO:0009401
-PROSITE:PS00371 PTS_EIIA_TYPE_1_HIS > GO:membrane ; GO:0016020
 PROSITE:PS00373 GART > GO:methyltransferase activity ; GO:0008168
 PROSITE:PS00374 MGMT > GO:methylated-DNA-[protein]-cysteine S-methyltransferase activity ; GO:0003908
 PROSITE:PS00374 MGMT > GO:DNA repair ; GO:0006281
@@ -4979,8 +4973,6 @@ PROSITE:PS00588 FLAGELLA_BB_ROD > GO:motor activity ; GO:0003774
 PROSITE:PS00588 FLAGELLA_BB_ROD > GO:structural molecule activity ; GO:0005198
 PROSITE:PS00588 FLAGELLA_BB_ROD > GO:ciliary or bacterial-type flagellar motility ; GO:0001539
 PROSITE:PS00588 FLAGELLA_BB_ROD > GO:bacterial-type flagellum ; GO:0009288
-PROSITE:PS00589 PTS_HPR_SER > GO:sugar:hydrogen symporter activity ; GO:0005351
-PROSITE:PS00589 PTS_HPR_SER > GO:phosphoenolpyruvate-dependent sugar phosphotransferase system ; GO:0009401
 PROSITE:PS00590 LIF_OSM > GO:cytokine activity ; GO:0005125
 PROSITE:PS00590 LIF_OSM > GO:immune response ; GO:0006955
 PROSITE:PS00590 LIF_OSM > GO:extracellular region ; GO:0005576
@@ -6382,7 +6374,6 @@ PROSITE:PS50039 FORK_HEAD_3 > GO:sequence-specific DNA binding ; GO:0043565
 PROSITE:PS50039 FORK_HEAD_3 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50040 EF1G_C > GO:translation elongation factor activity ; GO:0003746
 PROSITE:PS50040 EF1G_C > GO:translational elongation ; GO:0006414
-PROSITE:PS50040 EF1G_C > GO:eukaryotic translation elongation factor 1 complex ; GO:0005853
 PROSITE:PS50041 C_TYPE_LECTIN_2 > GO:carbohydrate binding ; GO:0030246
 PROSITE:PS50043 HTH_LUXR_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS50043 HTH_LUXR_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
@@ -7029,24 +7020,15 @@ PROSITE:PS51088 TEA_2 > GO:nucleus ; GO:0005634
 PROSITE:PS51089 HP > GO:actin binding ; GO:0003779
 PROSITE:PS51089 HP > GO:cytoskeleton organization ; GO:0007010
 PROSITE:PS51091 FN1_2 > GO:extracellular region ; GO:0005576
-PROSITE:PS51093 PTS_EIIA_TYPE_1 > GO:sugar:hydrogen symporter activity ; GO:0005351
-PROSITE:PS51093 PTS_EIIA_TYPE_1 > GO:transport ; GO:0006810
 PROSITE:PS51093 PTS_EIIA_TYPE_1 > GO:phosphoenolpyruvate-dependent sugar phosphotransferase system ; GO:0009401
-PROSITE:PS51093 PTS_EIIA_TYPE_1 > GO:membrane ; GO:0016020
-PROSITE:PS51095 PTS_EIIA_TYPE_3 > GO:sugar:hydrogen symporter activity ; GO:0005351
-PROSITE:PS51095 PTS_EIIA_TYPE_3 > GO:transport ; GO:0006810
 PROSITE:PS51095 PTS_EIIA_TYPE_3 > GO:phosphoenolpyruvate-dependent sugar phosphotransferase system ; GO:0009401
-PROSITE:PS51095 PTS_EIIA_TYPE_3 > GO:membrane ; GO:0016020
 PROSITE:PS51096 PTS_EIIA_TYPE_4 > GO:phosphoenolpyruvate-dependent sugar phosphotransferase system ; GO:0009401
 PROSITE:PS51096 PTS_EIIA_TYPE_4 > GO:integral component of membrane ; GO:0016021
 PROSITE:PS51097 PTS_EIIA_TYPE_5 > GO:protein-N(PI)-phosphohistidine-sugar phosphotransferase activity ; GO:0008982
 PROSITE:PS51097 PTS_EIIA_TYPE_5 > GO:phosphoenolpyruvate-dependent sugar phosphotransferase system ; GO:0009401
 PROSITE:PS51097 PTS_EIIA_TYPE_5 > GO:cytoplasm ; GO:0005737
-PROSITE:PS51098 PTS_EIIB_TYPE_1 > GO:sugar:hydrogen symporter activity ; GO:0005351
-PROSITE:PS51098 PTS_EIIB_TYPE_1 > GO:transport ; GO:0006810
+PROSITE:PS51098 PTS_EIIB_TYPE_1 > GO:protein-N(PI)-phosphohistidine-sugar phosphotransferase activity ; GO:0008982
 PROSITE:PS51098 PTS_EIIB_TYPE_1 > GO:phosphoenolpyruvate-dependent sugar phosphotransferase system ; GO:0009401
-PROSITE:PS51098 PTS_EIIB_TYPE_1 > GO:membrane ; GO:0016020
-PROSITE:PS51099 PTS_EIIB_TYPE_2 > GO:sugar:hydrogen symporter activity ; GO:0005351
 PROSITE:PS51099 PTS_EIIB_TYPE_2 > GO:protein-N(PI)-phosphohistidine-sugar phosphotransferase activity ; GO:0008982
 PROSITE:PS51099 PTS_EIIB_TYPE_2 > GO:phosphoenolpyruvate-dependent sugar phosphotransferase system ; GO:0009401
 PROSITE:PS51100 PTS_EIIB_TYPE_3 > GO:protein-N(PI)-phosphohistidine-sugar phosphotransferase activity ; GO:0008982
@@ -7386,8 +7368,6 @@ PROSITE:PS51347 PHOSPHOTRIESTERASE_2 > GO:catabolic process ; GO:0009056
 PROSITE:PS51349 FMN_HYDROXY_ACID_DH_2 > GO:FMN binding ; GO:0010181
 PROSITE:PS51349 FMN_HYDROXY_ACID_DH_2 > GO:oxidoreductase activity ; GO:0016491
 PROSITE:PS51349 FMN_HYDROXY_ACID_DH_2 > GO:oxidation-reduction process ; GO:0055114
-PROSITE:PS51350 PTS_HPR_DOM > GO:sugar:hydrogen symporter activity ; GO:0005351
-PROSITE:PS51350 PTS_HPR_DOM > GO:phosphoenolpyruvate-dependent sugar phosphotransferase system ; GO:0009401
 PROSITE:PS51351 TFIIE_BETA_C > GO:transcription initiation from RNA polymerase II promoter ; GO:0006367
 PROSITE:PS51351 TFIIE_BETA_C > GO:transcription factor TFIIE complex ; GO:0005673
 PROSITE:PS51354 GLUTAREDOXIN_2 > GO:electron carrier activity ; GO:0009055

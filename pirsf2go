@@ -1,4 +1,4 @@
-!version date: 2014/03/15 12:59:20
+!version date: 2014/03/29 12:39:30
 !description: Mapping of GO terms to PIRSF entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pir.georgetown.edu/pirsf/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -559,13 +559,13 @@ PIRSF:PIRSF000530 Galactokinase > GO:carbohydrate phosphorylation ; GO:0046835
 PIRSF:PIRSF000532 ATP_PFK_prok > GO:ATP binding ; GO:0005524
 PIRSF:PIRSF000532 ATP_PFK_prok > GO:phosphofructokinase activity ; GO:0008443
 PIRSF:PIRSF000532 ATP_PFK_prok > GO:fructose 6-phosphate metabolic process ; GO:0006002
-PIRSF:PIRSF000532 ATP_PFK_prok > GO:glycolysis ; GO:0006096
+PIRSF:PIRSF000532 ATP_PFK_prok > GO:glycolytic process ; GO:0006096
 PIRSF:PIRSF000533 ATP_PFK_euk > GO:6-phosphofructokinase activity ; GO:0003872
-PIRSF:PIRSF000533 ATP_PFK_euk > GO:glycolysis ; GO:0006096
+PIRSF:PIRSF000533 ATP_PFK_euk > GO:glycolytic process ; GO:0006096
 PIRSF:PIRSF000533 ATP_PFK_euk > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF000534 PPi_PFK_TP0108 > GO:6-phosphofructokinase activity ; GO:0003872
 PIRSF:PIRSF000534 PPi_PFK_TP0108 > GO:ATP binding ; GO:0005524
-PIRSF:PIRSF000534 PPi_PFK_TP0108 > GO:glycolysis ; GO:0006096
+PIRSF:PIRSF000534 PPi_PFK_TP0108 > GO:glycolytic process ; GO:0006096
 PIRSF:PIRSF000535 1PFK/6PFK/LacC > GO:phosphotransferase activity, alcohol group as acceptor ; GO:0016773
 PIRSF:PIRSF000535 1PFK/6PFK/LacC > GO:carbohydrate metabolic process ; GO:0005975
 PIRSF:PIRSF000545 Pantothenate_kin > GO:pantothenate kinase activity ; GO:0004594
@@ -704,7 +704,7 @@ PIRSF:PIRSF000722 Acetate_prop_kin > GO:organic acid metabolic process ; GO:0006
 PIRSF:PIRSF000723 Carbamate_kin > GO:carbamate kinase activity ; GO:0008804
 PIRSF:PIRSF000723 Carbamate_kin > GO:arginine metabolic process ; GO:0006525
 PIRSF:PIRSF000724 Pgk > GO:phosphoglycerate kinase activity ; GO:0004618
-PIRSF:PIRSF000724 Pgk > GO:glycolysis ; GO:0006096
+PIRSF:PIRSF000724 Pgk > GO:glycolytic process ; GO:0006096
 PIRSF:PIRSF000726 Asp_kin > GO:aspartate kinase activity ; GO:0004072
 PIRSF:PIRSF000726 Asp_kin > GO:lysine biosynthetic process via diaminopimelate ; GO:0009089
 PIRSF:PIRSF000727 ThrA > GO:aspartate kinase activity ; GO:0004072
@@ -1061,7 +1061,7 @@ PIRSF:PIRSF001394 Fe_dep_fumar_hy > GO:generation of precursor metabolites and e
 PIRSF:PIRSF001399 DHquinase_II > GO:3-dehydroquinate dehydratase activity ; GO:0003855
 PIRSF:PIRSF001400 Enolase > GO:magnesium ion binding ; GO:0000287
 PIRSF:PIRSF001400 Enolase > GO:phosphopyruvate hydratase activity ; GO:0004634
-PIRSF:PIRSF001400 Enolase > GO:glycolysis ; GO:0006096
+PIRSF:PIRSF001400 Enolase > GO:glycolytic process ; GO:0006096
 PIRSF:PIRSF001400 Enolase > GO:phosphopyruvate hydratase complex ; GO:0000015
 PIRSF:PIRSF001413 Trp_syn_beta > GO:tryptophan synthase activity ; GO:0004834
 PIRSF:PIRSF001413 Trp_syn_beta > GO:tryptophan biosynthetic process ; GO:0000162
@@ -1470,8 +1470,7 @@ PIRSF:PIRSF002884 CheZ > GO:catalytic activity ; GO:0003824
 PIRSF:PIRSF002884 CheZ > GO:regulation of chemotaxis ; GO:0050920
 PIRSF:PIRSF002884 CheZ > GO:bacterial-type flagellum ; GO:0009288
 PIRSF:PIRSF002888 FliM > GO:motor activity ; GO:0003774
-PIRSF:PIRSF002888 FliM > GO:ciliary or bacterial-type flagellar motility ; GO:0001539
-PIRSF:PIRSF002888 FliM > GO:chemotaxis ; GO:0006935
+PIRSF:PIRSF002888 FliM > GO:bacterial-type flagellum-dependent cell motility ; GO:0071973
 PIRSF:PIRSF002888 FliM > GO:bacterial-type flagellum basal body ; GO:0009425
 PIRSF:PIRSF002889 Rod_FlgB > GO:bacterial-type flagellum basal body ; GO:0009425
 PIRSF:PIRSF002900 Antenna_beta > GO:electron transporter, transferring electrons within the cyclic electron transport pathway of photosynthesis activity ; GO:0045156
@@ -1544,7 +1543,7 @@ PIRSF:PIRSF003159 FlhC > GO:DNA binding ; GO:0003677
 PIRSF:PIRSF003159 FlhC > GO:positive regulation of transcription, DNA-templated ; GO:0045893
 PIRSF:PIRSF003159 FlhC > GO:regulation of bacterial-type flagellum assembly ; GO:1902208
 PIRSF:PIRSF003161 FliG > GO:motor activity ; GO:0003774
-PIRSF:PIRSF003161 FliG > GO:ciliary or bacterial-type flagellar motility ; GO:0001539
+PIRSF:PIRSF003161 FliG > GO:cilium or flagellum-dependent cell motility ; GO:0001539
 PIRSF:PIRSF003161 FliG > GO:chemotaxis ; GO:0006935
 PIRSF:PIRSF003161 FliG > GO:bacterial-type flagellum ; GO:0009288
 PIRSF:PIRSF003167 STHK_NarX/NarQ > GO:phosphorelay sensor kinase activity ; GO:0000155
@@ -1710,7 +1709,7 @@ PIRSF:PIRSF004846 ModA > GO:molybdate transmembrane-transporting ATPase activity
 PIRSF:PIRSF004846 ModA > GO:molybdate ion transport ; GO:0015689
 PIRSF:PIRSF004846 ModA > GO:outer membrane-bounded periplasmic space ; GO:0030288
 PIRSF:PIRSF004862 FliF > GO:motor activity ; GO:0003774
-PIRSF:PIRSF004862 FliF > GO:ciliary or bacterial-type flagellar motility ; GO:0001539
+PIRSF:PIRSF004862 FliF > GO:cilium or flagellum-dependent cell motility ; GO:0001539
 PIRSF:PIRSF004862 FliF > GO:bacterial-type flagellum basal body, MS ring ; GO:0009431
 PIRSF:PIRSF004866 IMP_cclhdr_arch > GO:IMP cyclohydrolase activity ; GO:0003937
 PIRSF:PIRSF004866 IMP_cclhdr_arch > GO:purine nucleotide biosynthetic process ; GO:0006164
@@ -1850,7 +1849,7 @@ PIRSF:PIRSF005673 Importin_alpha > GO:nucleus ; GO:0005634
 PIRSF:PIRSF005673 Importin_alpha > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF005677 PPi_PFK_PfpB > GO:ATP binding ; GO:0005524
 PIRSF:PIRSF005677 PPi_PFK_PfpB > GO:diphosphate-fructose-6-phosphate 1-phosphotransferase activity ; GO:0047334
-PIRSF:PIRSF005677 PPi_PFK_PfpB > GO:glycolysis ; GO:0006096
+PIRSF:PIRSF005677 PPi_PFK_PfpB > GO:glycolytic process ; GO:0006096
 PIRSF:PIRSF005677 PPi_PFK_PfpB > GO:6-phosphofructokinase complex ; GO:0005945
 PIRSF:PIRSF005682 Fascin > GO:protein binding, bridging ; GO:0030674
 PIRSF:PIRSF005682 Fascin > GO:actin filament binding ; GO:0051015
@@ -2360,7 +2359,7 @@ PIRSF:PIRSF015855 TypeIII_Mtase_mKpnI > GO:N-methyltransferase activity ; GO:000
 PIRSF:PIRSF015855 TypeIII_Mtase_mKpnI > GO:DNA methylation ; GO:0006306
 PIRSF:PIRSF015883 ADP-Pfk_glckin > GO:magnesium ion binding ; GO:0000287
 PIRSF:PIRSF015883 ADP-Pfk_glckin > GO:phosphotransferase activity, alcohol group as acceptor ; GO:0016773
-PIRSF:PIRSF015883 ADP-Pfk_glckin > GO:glycolysis ; GO:0006096
+PIRSF:PIRSF015883 ADP-Pfk_glckin > GO:glycolytic process ; GO:0006096
 PIRSF:PIRSF015892 N-myristl_transf > GO:glycylpeptide N-tetradecanoyltransferase activity ; GO:0004379
 PIRSF:PIRSF015892 N-myristl_transf > GO:N-terminal protein myristoylation ; GO:0006499
 PIRSF:PIRSF015894 Skb1_MeTrfase > GO:methyltransferase activity ; GO:0008168
@@ -2669,14 +2668,14 @@ PIRSF:PIRSF019254 CFP29 > GO:defense response to bacterium ; GO:0042742
 PIRSF:PIRSF019271 Acid_Ptase_C > GO:acid phosphatase activity ; GO:0003993
 PIRSF:PIRSF019325 Glucose-6-phosphate_isomerase > GO:glucose-6-phosphate isomerase activity ; GO:0004347
 PIRSF:PIRSF019325 Glucose-6-phosphate_isomerase > GO:iron ion binding ; GO:0005506
-PIRSF:PIRSF019325 Glucose-6-phosphate_isomerase > GO:glycolysis ; GO:0006096
+PIRSF:PIRSF019325 Glucose-6-phosphate_isomerase > GO:glycolytic process ; GO:0006096
 PIRSF:PIRSF019325 Glucose-6-phosphate_isomerase > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF019345 ScpB > GO:chromosome separation ; GO:0051304
 PIRSF:PIRSF019401 SeqA > GO:DNA binding ; GO:0003677
 PIRSF:PIRSF019401 SeqA > GO:negative regulation of DNA-dependent DNA replication initiation ; GO:0032297
 PIRSF:PIRSF019404 FliJ > GO:motor activity ; GO:0003774
-PIRSF:PIRSF019404 FliJ > GO:ciliary or bacterial-type flagellar motility ; GO:0001539
 PIRSF:PIRSF019404 FliJ > GO:chemotaxis ; GO:0006935
+PIRSF:PIRSF019404 FliJ > GO:bacterial-type flagellum-dependent cell motility ; GO:0071973
 PIRSF:PIRSF019404 FliJ > GO:bacterial-type flagellum ; GO:0009288
 PIRSF:PIRSF019404 FliJ > GO:membrane ; GO:0016020
 PIRSF:PIRSF019455 CopR_AtkY > GO:DNA binding ; GO:0003677
@@ -2992,7 +2991,7 @@ PIRSF:PIRSF036470 PLD_plant > GO:membrane ; GO:0016020
 PIRSF:PIRSF036480 FormyFH4_hydr > GO:formyltetrahydrofolate deformylase activity ; GO:0008864
 PIRSF:PIRSF036480 FormyFH4_hydr > GO:'de novo' IMP biosynthetic process ; GO:0006189
 PIRSF:PIRSF036484 PPi-PFK_SMc01852 > GO:6-phosphofructokinase activity ; GO:0003872
-PIRSF:PIRSF036484 PPi-PFK_SMc01852 > GO:glycolysis ; GO:0006096
+PIRSF:PIRSF036484 PPi-PFK_SMc01852 > GO:glycolytic process ; GO:0006096
 PIRSF:PIRSF036488 Myoglobin_tremt > GO:iron ion binding ; GO:0005506
 PIRSF:PIRSF036488 Myoglobin_tremt > GO:oxygen binding ; GO:0019825
 PIRSF:PIRSF036488 Myoglobin_tremt > GO:heme binding ; GO:0020037
@@ -3644,7 +3643,7 @@ PIRSF:PIRSF500101 ER-a > GO:nucleus ; GO:0005634
 PIRSF:PIRSF500102 ER-b > GO:estrogen receptor activity ; GO:0030284
 PIRSF:PIRSF500102 ER-b > GO:intracellular estrogen receptor signaling pathway ; GO:0030520
 PIRSF:PIRSF500126 Pgk_euglenozoa > GO:phosphoglycerate kinase activity ; GO:0004618
-PIRSF:PIRSF500126 Pgk_euglenozoa > GO:glycolysis ; GO:0006096
+PIRSF:PIRSF500126 Pgk_euglenozoa > GO:glycolytic process ; GO:0006096
 PIRSF:PIRSF500133 UDPglc_DH_euk > GO:UDP-glucose 6-dehydrogenase activity ; GO:0003979
 PIRSF:PIRSF500134 UDPglc_DH_bac > GO:UDP-glucose 6-dehydrogenase activity ; GO:0003979
 PIRSF:PIRSF500134 UDPglc_DH_bac > GO:polysaccharide biosynthetic process ; GO:0000271

@@ -1,4 +1,4 @@
-!version date: 2014/03/15 12:59:20
+!version date: 2014/03/29 12:39:30
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -338,7 +338,7 @@ PRINTS:PR00147 DNAPHOTLYASE > GO:DNA photolyase activity ; GO:0003913
 PRINTS:PR00147 DNAPHOTLYASE > GO:DNA repair ; GO:0006281
 PRINTS:PR00148 ENOLASE > GO:magnesium ion binding ; GO:0000287
 PRINTS:PR00148 ENOLASE > GO:phosphopyruvate hydratase activity ; GO:0004634
-PRINTS:PR00148 ENOLASE > GO:glycolysis ; GO:0006096
+PRINTS:PR00148 ENOLASE > GO:glycolytic process ; GO:0006096
 PRINTS:PR00148 ENOLASE > GO:phosphopyruvate hydratase complex ; GO:0000015
 PRINTS:PR00150 PEPCARBXLASE > GO:phosphoenolpyruvate carboxylase activity ; GO:0008964
 PRINTS:PR00150 PEPCARBXLASE > GO:tricarboxylic acid cycle ; GO:0006099
@@ -468,7 +468,7 @@ PRINTS:PR00205 CADHERIN > GO:membrane ; GO:0016020
 PRINTS:PR00206 CONNEXIN > GO:cell communication ; GO:0007154
 PRINTS:PR00206 CONNEXIN > GO:connexon complex ; GO:0005922
 PRINTS:PR00207 FLAGELLIN > GO:structural molecule activity ; GO:0005198
-PRINTS:PR00207 FLAGELLIN > GO:ciliary or bacterial-type flagellar motility ; GO:0001539
+PRINTS:PR00207 FLAGELLIN > GO:cilium or flagellum-dependent cell motility ; GO:0001539
 PRINTS:PR00207 FLAGELLIN > GO:bacterial-type flagellum filament ; GO:0009420
 PRINTS:PR00208 GLIADGLUTEN > GO:nutrient reservoir activity ; GO:0045735
 PRINTS:PR00209 GLIADIN > GO:nutrient reservoir activity ; GO:0045735
@@ -875,9 +875,6 @@ PRINTS:PR00418 TPI2FAMILY > GO:ATP binding ; GO:0005524
 PRINTS:PR00418 TPI2FAMILY > GO:DNA topological change ; GO:0006265
 PRINTS:PR00420 RNGMNOXGNASE > GO:oxidoreductase activity ; GO:0016491
 PRINTS:PR00420 RNGMNOXGNASE > GO:metabolic process ; GO:0008152
-PRINTS:PR00421 THIOREDOXIN > GO:protein disulfide oxidoreductase activity ; GO:0015035
-PRINTS:PR00421 THIOREDOXIN > GO:glycerol ether metabolic process ; GO:0006662
-PRINTS:PR00421 THIOREDOXIN > GO:cell redox homeostasis ; GO:0045454
 PRINTS:PR00422 TRANSFERRIN > GO:ferric iron binding ; GO:0008199
 PRINTS:PR00422 TRANSFERRIN > GO:iron ion transport ; GO:0006826
 PRINTS:PR00422 TRANSFERRIN > GO:cellular iron ion homeostasis ; GO:0006879
@@ -1052,9 +1049,9 @@ PRINTS:PR00475 HEXOKINASE > GO:phosphotransferase activity, alcohol group as acc
 PRINTS:PR00475 HEXOKINASE > GO:carbohydrate metabolic process ; GO:0005975
 PRINTS:PR00476 PHFRCTKINASE > GO:6-phosphofructokinase activity ; GO:0003872
 PRINTS:PR00476 PHFRCTKINASE > GO:fructose 6-phosphate metabolic process ; GO:0006002
-PRINTS:PR00476 PHFRCTKINASE > GO:glycolysis ; GO:0006096
+PRINTS:PR00476 PHFRCTKINASE > GO:glycolytic process ; GO:0006096
 PRINTS:PR00477 PHGLYCKINASE > GO:phosphoglycerate kinase activity ; GO:0004618
-PRINTS:PR00477 PHGLYCKINASE > GO:glycolysis ; GO:0006096
+PRINTS:PR00477 PHGLYCKINASE > GO:glycolytic process ; GO:0006096
 PRINTS:PR00478 PHRIBLKINASE > GO:ATP binding ; GO:0005524
 PRINTS:PR00478 PHRIBLKINASE > GO:phosphoribulokinase activity ; GO:0008974
 PRINTS:PR00478 PHRIBLKINASE > GO:carbohydrate metabolic process ; GO:0005975
@@ -1183,9 +1180,6 @@ PRINTS:PR00524 CCYSTOKNINAR > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00525 DELTAOPIOIDR > GO:enkephalin receptor activity ; GO:0038046
 PRINTS:PR00525 DELTAOPIOIDR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00525 DELTAOPIOIDR > GO:integral component of membrane ; GO:0016021
-PRINTS:PR00526 FMETLEUPHER > GO:N-formyl peptide receptor activity ; GO:0004982
-PRINTS:PR00526 FMETLEUPHER > GO:G-protein coupled receptor signaling pathway ; GO:0007186
-PRINTS:PR00526 FMETLEUPHER > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00527 GASTRINR > GO:gastrin receptor activity ; GO:0015054
 PRINTS:PR00527 GASTRINR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00527 GASTRINR > GO:integral component of membrane ; GO:0016021
@@ -1629,7 +1623,7 @@ PRINTS:PR00661 ERMFAMILY > GO:cytoplasm ; GO:0005737
 PRINTS:PR00661 ERMFAMILY > GO:extrinsic component of membrane ; GO:0019898
 PRINTS:PR00662 G6PISOMERASE > GO:glucose-6-phosphate isomerase activity ; GO:0004347
 PRINTS:PR00662 G6PISOMERASE > GO:gluconeogenesis ; GO:0006094
-PRINTS:PR00662 G6PISOMERASE > GO:glycolysis ; GO:0006096
+PRINTS:PR00662 G6PISOMERASE > GO:glycolytic process ; GO:0006096
 PRINTS:PR00663 GALANINR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00663 GALANINR > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00664 OCTOPAMINER > GO:octopamine receptor activity ; GO:0004989
@@ -2224,15 +2218,14 @@ PRINTS:PR00952 TYPE3IMQPROT > GO:membrane ; GO:0016020
 PRINTS:PR00953 TYPE3IMRPROT > GO:protein targeting ; GO:0006605
 PRINTS:PR00953 TYPE3IMRPROT > GO:membrane ; GO:0016020
 PRINTS:PR00954 FLGMOTORFLIG > GO:motor activity ; GO:0003774
-PRINTS:PR00954 FLGMOTORFLIG > GO:ciliary or bacterial-type flagellar motility ; GO:0001539
+PRINTS:PR00954 FLGMOTORFLIG > GO:cilium or flagellum-dependent cell motility ; GO:0001539
 PRINTS:PR00954 FLGMOTORFLIG > GO:chemotaxis ; GO:0006935
 PRINTS:PR00954 FLGMOTORFLIG > GO:bacterial-type flagellum ; GO:0009288
 PRINTS:PR00955 FLGMOTORFLIM > GO:motor activity ; GO:0003774
-PRINTS:PR00955 FLGMOTORFLIM > GO:ciliary or bacterial-type flagellar motility ; GO:0001539
-PRINTS:PR00955 FLGMOTORFLIM > GO:chemotaxis ; GO:0006935
+PRINTS:PR00955 FLGMOTORFLIM > GO:bacterial-type flagellum-dependent cell motility ; GO:0071973
 PRINTS:PR00955 FLGMOTORFLIM > GO:bacterial-type flagellum basal body ; GO:0009425
 PRINTS:PR00956 FLGMOTORFLIN > GO:motor activity ; GO:0003774
-PRINTS:PR00956 FLGMOTORFLIN > GO:ciliary or bacterial-type flagellar motility ; GO:0001539
+PRINTS:PR00956 FLGMOTORFLIN > GO:cilium or flagellum-dependent cell motility ; GO:0001539
 PRINTS:PR00956 FLGMOTORFLIN > GO:chemotaxis ; GO:0006935
 PRINTS:PR00956 FLGMOTORFLIN > GO:bacterial-type flagellum basal body ; GO:0009425
 PRINTS:PR00957 GENE66 > GO:zinc ion binding ; GO:0008270
@@ -2317,9 +2310,6 @@ PRINTS:PR00987 TRNASYNTHGLU > GO:ATP binding ; GO:0005524
 PRINTS:PR00987 TRNASYNTHGLU > GO:ligase activity, forming aminoacyl-tRNA and related compounds ; GO:0016876
 PRINTS:PR00987 TRNASYNTHGLU > GO:tRNA aminoacylation ; GO:0043039
 PRINTS:PR00987 TRNASYNTHGLU > GO:cytoplasm ; GO:0005737
-PRINTS:PR00988 URIDINKINASE > GO:uridine kinase activity ; GO:0004849
-PRINTS:PR00988 URIDINKINASE > GO:ATP binding ; GO:0005524
-PRINTS:PR00988 URIDINKINASE > GO:phosphotransferase activity, alcohol group as acceptor ; GO:0016773
 PRINTS:PR00989 ADENOKINASE > GO:adenosine kinase activity ; GO:0004001
 PRINTS:PR00989 ADENOKINASE > GO:purine ribonucleoside salvage ; GO:0006166
 PRINTS:PR00990 RIBOKINASE > GO:ribokinase activity ; GO:0004747
@@ -2357,11 +2347,11 @@ PRINTS:PR01001 FADG3PDH > GO:glycerol-3-phosphate metabolic process ; GO:0006072
 PRINTS:PR01001 FADG3PDH > GO:oxidation-reduction process ; GO:0055114
 PRINTS:PR01001 FADG3PDH > GO:glycerol-3-phosphate dehydrogenase complex ; GO:0009331
 PRINTS:PR01003 FLGFLIH > GO:motor activity ; GO:0003774
-PRINTS:PR01003 FLGFLIH > GO:ciliary or bacterial-type flagellar motility ; GO:0001539
+PRINTS:PR01003 FLGFLIH > GO:cilium or flagellum-dependent cell motility ; GO:0001539
 PRINTS:PR01003 FLGFLIH > GO:bacterial-type flagellum ; GO:0009288
 PRINTS:PR01004 FLGFLIJ > GO:motor activity ; GO:0003774
-PRINTS:PR01004 FLGFLIJ > GO:ciliary or bacterial-type flagellar motility ; GO:0001539
 PRINTS:PR01004 FLGFLIJ > GO:chemotaxis ; GO:0006935
+PRINTS:PR01004 FLGFLIJ > GO:bacterial-type flagellum-dependent cell motility ; GO:0071973
 PRINTS:PR01004 FLGFLIJ > GO:bacterial-type flagellum ; GO:0009288
 PRINTS:PR01004 FLGFLIJ > GO:membrane ; GO:0016020
 PRINTS:PR01005 FLGHOOKAP1 > GO:structural molecule activity ; GO:0005198
@@ -2369,18 +2359,18 @@ PRINTS:PR01005 FLGHOOKAP1 > GO:bacterial-type flagellum assembly ; GO:0044780
 PRINTS:PR01005 FLGHOOKAP1 > GO:bacterial-type flagellum hook ; GO:0009424
 PRINTS:PR01006 FLGHOOKFLIE > GO:motor activity ; GO:0003774
 PRINTS:PR01006 FLGHOOKFLIE > GO:structural molecule activity ; GO:0005198
-PRINTS:PR01006 FLGHOOKFLIE > GO:ciliary or bacterial-type flagellar motility ; GO:0001539
+PRINTS:PR01006 FLGHOOKFLIE > GO:cilium or flagellum-dependent cell motility ; GO:0001539
 PRINTS:PR01006 FLGHOOKFLIE > GO:bacterial-type flagellum ; GO:0009288
 PRINTS:PR01007 FLGHOOKFLIK > GO:bacterial-type flagellum assembly ; GO:0044780
 PRINTS:PR01007 FLGHOOKFLIK > GO:bacterial-type flagellum hook ; GO:0009424
 PRINTS:PR01008 FLGLRINGFLGH > GO:motor activity ; GO:0003774
-PRINTS:PR01008 FLGLRINGFLGH > GO:ciliary or bacterial-type flagellar motility ; GO:0001539
+PRINTS:PR01008 FLGLRINGFLGH > GO:bacterial-type flagellum-dependent cell motility ; GO:0071973
 PRINTS:PR01008 FLGLRINGFLGH > GO:bacterial-type flagellum basal body, distal rod, L ring ; GO:0009427
 PRINTS:PR01009 FLGMRINGFLIF > GO:motor activity ; GO:0003774
-PRINTS:PR01009 FLGMRINGFLIF > GO:ciliary or bacterial-type flagellar motility ; GO:0001539
+PRINTS:PR01009 FLGMRINGFLIF > GO:cilium or flagellum-dependent cell motility ; GO:0001539
 PRINTS:PR01009 FLGMRINGFLIF > GO:bacterial-type flagellum basal body, MS ring ; GO:0009431
 PRINTS:PR01010 FLGPRINGFLGI > GO:structural molecule activity ; GO:0005198
-PRINTS:PR01010 FLGPRINGFLGI > GO:ciliary or bacterial-type flagellar motility ; GO:0001539
+PRINTS:PR01010 FLGPRINGFLGI > GO:cilium or flagellum-dependent cell motility ; GO:0001539
 PRINTS:PR01010 FLGPRINGFLGI > GO:bacterial-type flagellum basal body, distal rod, P ring ; GO:0009428
 PRINTS:PR01010 FLGPRINGFLGI > GO:outer membrane-bounded periplasmic space ; GO:0030288
 PRINTS:PR01011 GLUTPROXDASE > GO:glutathione peroxidase activity ; GO:0004602
@@ -2416,7 +2406,7 @@ PRINTS:PR01022 OUTRMMBRANEA > GO:structural molecule activity ; GO:0005198
 PRINTS:PR01022 OUTRMMBRANEA > GO:cell outer membrane ; GO:0009279
 PRINTS:PR01022 OUTRMMBRANEA > GO:integral component of membrane ; GO:0016021
 PRINTS:PR01023 NAFLGMOTY > GO:motor activity ; GO:0003774
-PRINTS:PR01023 NAFLGMOTY > GO:ciliary or bacterial-type flagellar motility ; GO:0001539
+PRINTS:PR01023 NAFLGMOTY > GO:cilium or flagellum-dependent cell motility ; GO:0001539
 PRINTS:PR01023 NAFLGMOTY > GO:bacterial-type flagellum ; GO:0009288
 PRINTS:PR01024 NEUROKININ1R > GO:tachykinin receptor activity ; GO:0004995
 PRINTS:PR01024 NEUROKININ1R > GO:G-protein coupled receptor signaling pathway ; GO:0007186
@@ -2497,7 +2487,7 @@ PRINTS:PR01049 PHOSPHBKNASE > GO:phosphorylase kinase complex ; GO:0005964
 PRINTS:PR01050 PYRUVTKNASE > GO:magnesium ion binding ; GO:0000287
 PRINTS:PR01050 PYRUVTKNASE > GO:pyruvate kinase activity ; GO:0004743
 PRINTS:PR01050 PYRUVTKNASE > GO:potassium ion binding ; GO:0030955
-PRINTS:PR01050 PYRUVTKNASE > GO:glycolysis ; GO:0006096
+PRINTS:PR01050 PYRUVTKNASE > GO:glycolytic process ; GO:0006096
 PRINTS:PR01051 MTABOTROPC1R > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01051 MTABOTROPC1R > GO:integral component of membrane ; GO:0016021
 PRINTS:PR01052 MTABOTROPC2R > GO:G-protein coupled receptor signaling pathway ; GO:0007186
@@ -3300,6 +3290,12 @@ PRINTS:PR01346 HELNAPAPROT > GO:response to stress ; GO:0006950
 PRINTS:PR01346 HELNAPAPROT > GO:oxidation-reduction process ; GO:0055114
 PRINTS:PR01347 EPHRIN > GO:membrane ; GO:0016020
 PRINTS:PR01348 ICLNCHANNEL > GO:spliceosomal snRNP assembly ; GO:0000387
+PRINTS:PR01348 ICLNCHANNEL > GO:chloride transport ; GO:0006821
+PRINTS:PR01348 ICLNCHANNEL > GO:cell volume homeostasis ; GO:0006884
+PRINTS:PR01348 ICLNCHANNEL > GO:cytosol ; GO:0005829
+PRINTS:PR01348 ICLNCHANNEL > GO:plasma membrane ; GO:0005886
+PRINTS:PR01348 ICLNCHANNEL > GO:methylosome ; GO:0034709
+PRINTS:PR01348 ICLNCHANNEL > GO:pICln-Sm protein complex ; GO:0034715
 PRINTS:PR01349 WNTPROTEIN > GO:receptor binding ; GO:0005102
 PRINTS:PR01349 WNTPROTEIN > GO:multicellular organismal development ; GO:0007275
 PRINTS:PR01349 WNTPROTEIN > GO:Wnt signaling pathway ; GO:0016055
@@ -3330,10 +3326,6 @@ PRINTS:PR01358 INTRLEUKIN1A > GO:interleukin-1 receptor binding ; GO:0005149
 PRINTS:PR01358 INTRLEUKIN1A > GO:inflammatory response ; GO:0006954
 PRINTS:PR01358 INTRLEUKIN1A > GO:immune response ; GO:0006955
 PRINTS:PR01358 INTRLEUKIN1A > GO:extracellular region ; GO:0005576
-PRINTS:PR01359 INTRLEUKIN1B > GO:interleukin-1 receptor binding ; GO:0005149
-PRINTS:PR01359 INTRLEUKIN1B > GO:inflammatory response ; GO:0006954
-PRINTS:PR01359 INTRLEUKIN1B > GO:immune response ; GO:0006955
-PRINTS:PR01359 INTRLEUKIN1B > GO:extracellular region ; GO:0005576
 PRINTS:PR01360 INTRLEUKIN1X > GO:interleukin-1 receptor binding ; GO:0005149
 PRINTS:PR01361 MEROZOITESA > GO:pathogenesis ; GO:0009405
 PRINTS:PR01361 MEROZOITESA > GO:membrane ; GO:0016020

@@ -1,4 +1,4 @@
-!version date: 2014/04/05 12:59:12
+!version date: 2014/04/12 11:57:13
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -6183,7 +6183,7 @@ Pfam:PF04628 Sedlin_N > GO:ER to Golgi vesicle-mediated transport ; GO:0006888
 Pfam:PF04628 Sedlin_N > GO:intracellular ; GO:0005622
 Pfam:PF04632 FUSC > GO:transport ; GO:0006810
 Pfam:PF04632 FUSC > GO:plasma membrane ; GO:0005886
-Pfam:PF04636 PA26 > GO:cell cycle arrest ; GO:0007050
+Pfam:PF04636 PA26 > GO:regulation of response to reactive oxygen species ; GO:1901031
 Pfam:PF04636 PA26 > GO:nucleus ; GO:0005634
 Pfam:PF04639 Baculo_E56 > GO:viral envelope ; GO:0019031
 Pfam:PF04643 Motilin_assoc > GO:hormone activity ; GO:0005179
@@ -10342,6 +10342,7 @@ Pfam:PF14144 DOG1 > GO:transcription, DNA-templated ; GO:0006351
 Pfam:PF14171 SpoIISA_toxin > GO:pathogenesis ; GO:0009405
 Pfam:PF14171 SpoIISA_toxin > GO:integral component of membrane ; GO:0016021
 Pfam:PF14249 Tocopherol_cycl > GO:tocopherol cyclase activity ; GO:0009976
+Pfam:PF14483 Cut8_M > GO:protein dimerization activity ; GO:0046983
 Pfam:PF14489 QueF > GO:preQ1 synthase activity ; GO:0033739
 Pfam:PF14489 QueF > GO:queuosine biosynthetic process ; GO:0008616
 Pfam:PF14496 NEL > GO:ubiquitin-protein ligase activity ; GO:0004842
@@ -10475,8 +10476,7 @@ Pfam:PF15168 TRIQK > GO:endoplasmic reticulum membrane ; GO:0005789
 Pfam:PF15170 CaM-KIIN > GO:protein kinase inhibitor activity ; GO:0004860
 Pfam:PF15172 Prolactin_RP > GO:hormone activity ; GO:0005179
 Pfam:PF15177 IL28A > GO:cytokine activity ; GO:0005125
-Pfam:PF15177 IL28A > GO:interleukin-28 receptor binding ; GO:0032003
-Pfam:PF15177 IL28A > GO:positive regulation of JAK-STAT cascade ; GO:0046427
+Pfam:PF15177 IL28A > GO:JAK-STAT cascade ; GO:0007259
 Pfam:PF15177 IL28A > GO:positive regulation of immune response ; GO:0050778
 Pfam:PF15177 IL28A > GO:defense response to virus ; GO:0051607
 Pfam:PF15178 TOM_sub5 > GO:mitochondrial outer membrane translocase complex ; GO:0005742
@@ -10504,19 +10504,26 @@ Pfam:PF15233 SYCE1 > GO:synaptonemal complex ; GO:0000795
 Pfam:PF15234 LAT > GO:signal transduction ; GO:0007165
 Pfam:PF15234 LAT > GO:membrane ; GO:0016020
 Pfam:PF15245 VGLL4 > GO:regulation of transcription, DNA-templated ; GO:0006355
+Pfam:PF15247 SLBP_RNA_bind > GO:RNA binding ; GO:0003723
 Pfam:PF15281 Consortin_C > GO:connexin binding ; GO:0071253
 Pfam:PF15281 Consortin_C > GO:positive regulation of Golgi to plasma membrane protein transport ; GO:0042998
 Pfam:PF15281 Consortin_C > GO:trans-Golgi network ; GO:0005802
 Pfam:PF15291 Dermcidin > GO:peptidase activity ; GO:0008233
 Pfam:PF15291 Dermcidin > GO:killing of cells of other organism ; GO:0031640
 Pfam:PF15291 Dermcidin > GO:extracellular region ; GO:0005576
+Pfam:PF15305 IFT43 > GO:intraciliary transport particle A ; GO:0030991
 Pfam:PF15306 LIN37 > GO:cell cycle ; GO:0007049
 Pfam:PF15306 LIN37 > GO:transcriptional repressor complex ; GO:0017053
+Pfam:PF15307 SPACA7 > GO:acrosomal vesicle ; GO:0001669
+Pfam:PF15310 VAD1-2 > GO:spermatogenesis ; GO:0007283
 Pfam:PF15313 HEXIM > GO:cyclin-dependent protein serine/threonine kinase inhibitor activity ; GO:0004861
 Pfam:PF15313 HEXIM > GO:snRNA binding ; GO:0017069
 Pfam:PF15313 HEXIM > GO:negative regulation of transcription from RNA polymerase II promoter ; GO:0000122
 Pfam:PF15313 HEXIM > GO:nucleus ; GO:0005634
 Pfam:PF15313 HEXIM > GO:cytoplasm ; GO:0005737
+Pfam:PF15319 RHINO > GO:DNA damage checkpoint ; GO:0000077
+Pfam:PF15319 RHINO > GO:cellular response to ionizing radiation ; GO:0071479
+Pfam:PF15319 RHINO > GO:nucleus ; GO:0005634
 Pfam:PF15320 RAM > GO:RNA binding ; GO:0003723
 Pfam:PF15320 RAM > GO:methylation ; GO:0032259
 Pfam:PF15320 RAM > GO:mRNA cap binding complex ; GO:0005845
@@ -10565,10 +10572,11 @@ Pfam:PF15454 LAMTOR > GO:Ragulator complex ; GO:0071986
 Pfam:PF15457 HopW1-1 > GO:interspecies interaction between organisms ; GO:0044419
 Pfam:PF15458 NTR2 > GO:spliceosomal complex disassembly ; GO:0000390
 Pfam:PF15458 NTR2 > GO:U2-type post-mRNA release spliceosomal complex ; GO:0071008
-Pfam:PF15460 SAS4 > GO:transcription, DNA-templated ; GO:0006351
+Pfam:PF15460 SAS4 > GO:histone acetylation ; GO:0016573
 Pfam:PF15460 SAS4 > GO:SAS acetyltransferase complex ; GO:0033255
 Pfam:PF15461 BCD > GO:oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen ; GO:0016702
 Pfam:PF15461 BCD > GO:oxidation-reduction process ; GO:0055114
+Pfam:PF15462 Barttin > GO:chloride transport ; GO:0006821
 Pfam:PF15469 Sec5 > GO:Golgi to plasma membrane transport ; GO:0006893
 Pfam:PF15469 Sec5 > GO:exocyst ; GO:0000145
 Pfam:PF15473 PCNP > GO:protein ubiquitination ; GO:0016567
@@ -10589,6 +10597,7 @@ Pfam:PF15501 MDM1 > GO:nucleus ; GO:0005634
 Pfam:PF15510 CENP-W > GO:DNA binding ; GO:0003677
 Pfam:PF15510 CENP-W > GO:mitosis ; GO:0007067
 Pfam:PF15510 CENP-W > GO:kinetochore assembly ; GO:0051382
+Pfam:PF15549 PGC7_Stella > GO:methylated histone residue binding ; GO:0035064
 Pfam:PF15550 Draxin > GO:axon guidance ; GO:0007411
 Pfam:PF15550 Draxin > GO:Wnt signaling pathway ; GO:0016055
 Pfam:PF15550 Draxin > GO:extracellular region ; GO:0005576

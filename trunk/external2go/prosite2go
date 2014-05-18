@@ -1,4 +1,4 @@
-!version date: 2014/05/10 13:41:20
+!version date: 2014/05/17 12:40:21
 !description: Mapping of GO terms to PROSITE entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://www.expasy.org/prosite/
 !citation: Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -45,8 +45,8 @@ PROSITE:MF_00019 PlsX > GO:fatty acid biosynthetic process ; GO:0006633
 PROSITE:MF_00020 Acetate_kinase > GO:kinase activity ; GO:0016301
 PROSITE:MF_00020 Acetate_kinase > GO:phosphotransferase activity, carboxyl group as acceptor ; GO:0016774
 PROSITE:MF_00020 Acetate_kinase > GO:organic acid metabolic process ; GO:0006082
-PROSITE:MF_00021 ThiI > GO:RNA binding ; GO:0003723
-PROSITE:MF_00021 ThiI > GO:thiamine biosynthetic process ; GO:0009228
+PROSITE:MF_00021 ThiI > GO:sulfurtransferase activity ; GO:0016783
+PROSITE:MF_00021 ThiI > GO:tRNA thio-modification ; GO:0034227
 PROSITE:MF_00021 ThiI > GO:cytoplasm ; GO:0005737
 PROSITE:MF_00022_A Glu_tRNA_synth_A > GO:glutamate-tRNA ligase activity ; GO:0004818
 PROSITE:MF_00022_B Glu_tRNA_synth_B > GO:nucleotide binding ; GO:0000166
@@ -180,7 +180,7 @@ PROSITE:MF_00069 Hydroxylam_reduct > GO:oxidoreductase activity, acting on other
 PROSITE:MF_00069 Hydroxylam_reduct > GO:iron-sulfur cluster binding ; GO:0051536
 PROSITE:MF_00069 Hydroxylam_reduct > GO:oxidation-reduction process ; GO:0055114
 PROSITE:MF_00069 Hydroxylam_reduct > GO:cytoplasm ; GO:0005737
-PROSITE:MF_00070 KdgT > GO:2-keto-3-deoxygluconate:hydrogen symporter activity ; GO:0015649
+PROSITE:MF_00070 KdgT > GO:2-keto-3-deoxygluconate:proton symporter activity ; GO:0015649
 PROSITE:MF_00070 KdgT > GO:carbohydrate transport ; GO:0008643
 PROSITE:MF_00070 KdgT > GO:2-keto-3-deoxygluconate transport ; GO:0046411
 PROSITE:MF_00070 KdgT > GO:integral component of membrane ; GO:0016021
@@ -2123,7 +2123,7 @@ PROSITE:MF_01070 MdoB_OpgB > GO:glucan biosynthetic process ; GO:0009250
 PROSITE:MF_01070 MdoB_OpgB > GO:plasma membrane ; GO:0005886
 PROSITE:MF_01072 MdoH_OpgH > GO:transferase activity, transferring hexosyl groups ; GO:0016758
 PROSITE:MF_01073 MatP > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:MF_01075 NhaP2 > GO:potassium:hydrogen antiporter activity ; GO:0015386
+PROSITE:MF_01075 NhaP2 > GO:potassium:proton antiporter activity ; GO:0015386
 PROSITE:MF_01075 NhaP2 > GO:potassium ion transport ; GO:0006813
 PROSITE:MF_01075 NhaP2 > GO:cell volume homeostasis ; GO:0006884
 PROSITE:MF_01075 NhaP2 > GO:integral component of membrane ; GO:0016021
@@ -3075,7 +3075,7 @@ PROSITE:MF_01557 LacC > GO:lactose catabolic process via tagatose-6-phosphate ; 
 PROSITE:MF_01558 Cyt_deam > GO:cytidine deaminase activity ; GO:0004126
 PROSITE:MF_01558 Cyt_deam > GO:zinc ion binding ; GO:0008270
 PROSITE:MF_01558 Cyt_deam > GO:cytidine deamination ; GO:0009972
-PROSITE:MF_01559 L_lact_dehydr > GO:L-lactate dehydrogenase (cytochrome) activity ; GO:0004460
+PROSITE:MF_01559 L_lact_dehydr > GO:lactate dehydrogenase activity ; GO:0004457
 PROSITE:MF_01559 L_lact_dehydr > GO:FMN binding ; GO:0010181
 PROSITE:MF_01559 L_lact_dehydr > GO:lactate metabolic process ; GO:0006089
 PROSITE:MF_01559 L_lact_dehydr > GO:oxidation-reduction process ; GO:0055114
@@ -3152,7 +3152,7 @@ PROSITE:MF_01597 MdtI > GO:plasma membrane ; GO:0005886
 PROSITE:MF_01598 MdtJ > GO:spermidine transmembrane transporter activity ; GO:0015606
 PROSITE:MF_01598 MdtJ > GO:spermidine transport ; GO:0015848
 PROSITE:MF_01598 MdtJ > GO:plasma membrane ; GO:0005886
-PROSITE:MF_01599 NhaB > GO:sodium:hydrogen antiporter activity ; GO:0015385
+PROSITE:MF_01599 NhaB > GO:sodium:proton antiporter activity ; GO:0015385
 PROSITE:MF_01599 NhaB > GO:sodium ion transport ; GO:0006814
 PROSITE:MF_01599 NhaB > GO:integral component of membrane ; GO:0016021
 PROSITE:MF_01600 UPF0182 > GO:integral component of membrane ; GO:0016021
@@ -6847,7 +6847,7 @@ PROSITE:PS50966 ZF_SWIM > GO:zinc ion binding ; GO:0008270
 PROSITE:PS50967 HRDC > GO:nucleic acid binding ; GO:0003676
 PROSITE:PS50967 HRDC > GO:intracellular ; GO:0005622
 PROSITE:PS50969 FCP1 > GO:protein binding ; GO:0005515
-PROSITE:PS50970 HCY > GO:homocysteine S-methyltransferase activity ; GO:0008898
+PROSITE:PS50970 HCY > GO:S-adenosylmethionine-homocysteine S-methyltransferase activity ; GO:0008898
 PROSITE:PS50972 PTERIN_BINDING > GO:pteridine-containing compound metabolic process ; GO:0042558
 PROSITE:PS50974 ADOMET_ACTIVATION > GO:methionine synthase activity ; GO:0008705
 PROSITE:PS50974 ADOMET_ACTIVATION > GO:methionine biosynthetic process ; GO:0009086
@@ -7091,7 +7091,7 @@ PROSITE:PS51164 CBM1_2 > GO:hydrolase activity, hydrolyzing O-glycosyl compounds
 PROSITE:PS51164 CBM1_2 > GO:cellulose binding ; GO:0030248
 PROSITE:PS51164 CBM1_2 > GO:carbohydrate metabolic process ; GO:0005975
 PROSITE:PS51164 CBM1_2 > GO:extracellular region ; GO:0005576
-PROSITE:PS51165 THUMP > GO:RNA binding ; GO:0003723
+PROSITE:PS51165 THUMP > GO:molecular_function ; GO:0003674
 PROSITE:PS51166 CBM20 > GO:starch binding ; GO:2001070
 PROSITE:PS51168 CHORISMATE_MUT_2 > GO:chorismate metabolic process ; GO:0046417
 PROSITE:PS51169 CHORISMATE_MUT_3 > GO:chorismate mutase activity ; GO:0004106
@@ -7415,7 +7415,7 @@ PROSITE:PS51402 CATALASE_3 > GO:heme binding ; GO:0020037
 PROSITE:PS51402 CATALASE_3 > GO:response to oxidative stress ; GO:0006979
 PROSITE:PS51402 CATALASE_3 > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS51403 NC1_IV > GO:extracellular matrix structural constituent ; GO:0005201
-PROSITE:PS51403 NC1_IV > GO:collagen ; GO:0005581
+PROSITE:PS51403 NC1_IV > GO:collagen trimer ; GO:0005581
 PROSITE:PS51404 DYP_PEROXIDASE > GO:peroxidase activity ; GO:0004601
 PROSITE:PS51404 DYP_PEROXIDASE > GO:heme binding ; GO:0020037
 PROSITE:PS51404 DYP_PEROXIDASE > GO:oxidation-reduction process ; GO:0055114
@@ -7508,7 +7508,7 @@ PROSITE:PS51455 PIPK > GO:phosphatidylinositol phosphate kinase activity ; GO:00
 PROSITE:PS51455 PIPK > GO:phosphatidylinositol metabolic process ; GO:0046488
 PROSITE:PS51460 GAR > GO:cell cycle arrest ; GO:0007050
 PROSITE:PS51461 NC1_FIB > GO:extracellular matrix structural constituent ; GO:0005201
-PROSITE:PS51461 NC1_FIB > GO:collagen ; GO:0005581
+PROSITE:PS51461 NC1_FIB > GO:collagen trimer ; GO:0005581
 PROSITE:PS51462 NUDIX > GO:hydrolase activity ; GO:0016787
 PROSITE:PS51463 P_GLUCOSE_ISOMERASE_3 > GO:glucose-6-phosphate isomerase activity ; GO:0004347
 PROSITE:PS51463 P_GLUCOSE_ISOMERASE_3 > GO:gluconeogenesis ; GO:0006094

@@ -1,4 +1,4 @@
-!version date: 2014/05/10 13:41:20
+!version date: 2014/05/17 12:40:20
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1754,7 +1754,7 @@ Pfam:PF00997 Casein_kappa > GO:extracellular region ; GO:0005576
 Pfam:PF00998 RdRP_3 > GO:RNA binding ; GO:0003723
 Pfam:PF00998 RdRP_3 > GO:RNA-directed RNA polymerase activity ; GO:0003968
 Pfam:PF00998 RdRP_3 > GO:viral RNA genome replication ; GO:0039694
-Pfam:PF00999 Na_H_Exchanger > GO:solute:hydrogen antiporter activity ; GO:0015299
+Pfam:PF00999 Na_H_Exchanger > GO:solute:proton antiporter activity ; GO:0015299
 Pfam:PF00999 Na_H_Exchanger > GO:cation transport ; GO:0006812
 Pfam:PF00999 Na_H_Exchanger > GO:transmembrane transport ; GO:0055085
 Pfam:PF00999 Na_H_Exchanger > GO:integral component of membrane ; GO:0016021
@@ -2485,7 +2485,7 @@ Pfam:PF01409 tRNA-synt_2d > GO:ATP binding ; GO:0005524
 Pfam:PF01409 tRNA-synt_2d > GO:tRNA aminoacylation ; GO:0043039
 Pfam:PF01409 tRNA-synt_2d > GO:cytoplasm ; GO:0005737
 Pfam:PF01410 COLFI > GO:extracellular matrix structural constituent ; GO:0005201
-Pfam:PF01410 COLFI > GO:collagen ; GO:0005581
+Pfam:PF01410 COLFI > GO:collagen trimer ; GO:0005581
 Pfam:PF01411 tRNA-synt_2c > GO:nucleotide binding ; GO:0000166
 Pfam:PF01411 tRNA-synt_2c > GO:alanine-tRNA ligase activity ; GO:0004813
 Pfam:PF01411 tRNA-synt_2c > GO:ATP binding ; GO:0005524
@@ -2494,7 +2494,7 @@ Pfam:PF01412 ArfGap > GO:ARF GTPase activator activity ; GO:0008060
 Pfam:PF01412 ArfGap > GO:zinc ion binding ; GO:0008270
 Pfam:PF01412 ArfGap > GO:regulation of ARF GTPase activity ; GO:0032312
 Pfam:PF01413 C4 > GO:extracellular matrix structural constituent ; GO:0005201
-Pfam:PF01413 C4 > GO:collagen ; GO:0005581
+Pfam:PF01413 C4 > GO:collagen trimer ; GO:0005581
 Pfam:PF01414 DSL > GO:cell communication ; GO:0007154
 Pfam:PF01414 DSL > GO:membrane ; GO:0016020
 Pfam:PF01415 IL7 > GO:cytokine receptor binding ; GO:0005126
@@ -3126,9 +3126,6 @@ Pfam:PF01808 AICARFT_IMPCHas > GO:phosphoribosylaminoimidazolecarboxamide formyl
 Pfam:PF01808 AICARFT_IMPCHas > GO:purine nucleotide biosynthetic process ; GO:0006164
 Pfam:PF01810 LysE > GO:amino acid transport ; GO:0006865
 Pfam:PF01810 LysE > GO:membrane ; GO:0016020
-Pfam:PF01812 5-FTHF_cyc-lig > GO:ATP binding ; GO:0005524
-Pfam:PF01812 5-FTHF_cyc-lig > GO:5-formyltetrahydrofolate cyclo-ligase activity ; GO:0030272
-Pfam:PF01812 5-FTHF_cyc-lig > GO:folic acid-containing compound biosynthetic process ; GO:0009396
 Pfam:PF01813 ATP-synt_D > GO:ATPase activity, coupled to transmembrane movement of substances ; GO:0042626
 Pfam:PF01817 CM_2 > GO:chorismate metabolic process ; GO:0046417
 Pfam:PF01818 Translat_reg > GO:RNA binding ; GO:0003723
@@ -3934,6 +3931,7 @@ Pfam:PF02443 Circo_capsid > GO:viral capsid assembly ; GO:0019069
 Pfam:PF02443 Circo_capsid > GO:host cell nucleus ; GO:0042025
 Pfam:PF02444 HEV_ORF1 > GO:host cell cytoplasm ; GO:0030430
 Pfam:PF02445 NadA > GO:quinolinate synthetase A activity ; GO:0008987
+Pfam:PF02445 NadA > GO:4 iron, 4 sulfur cluster binding ; GO:0051539
 Pfam:PF02445 NadA > GO:NAD biosynthetic process ; GO:0009435
 Pfam:PF02446 Glyco_hydro_77 > GO:4-alpha-glucanotransferase activity ; GO:0004134
 Pfam:PF02446 Glyco_hydro_77 > GO:carbohydrate metabolic process ; GO:0005975
@@ -4078,6 +4076,7 @@ Pfam:PF02565 RecO_C > GO:DNA recombination ; GO:0006310
 Pfam:PF02566 OsmC > GO:response to stress ; GO:0006950
 Pfam:PF02567 PhzC-PhzF > GO:catalytic activity ; GO:0003824
 Pfam:PF02567 PhzC-PhzF > GO:biosynthetic process ; GO:0009058
+Pfam:PF02568 ThiI > GO:tRNA adenylyltransferase activity ; GO:0004810
 Pfam:PF02569 Pantoate_ligase > GO:pantoate-beta-alanine ligase activity ; GO:0004592
 Pfam:PF02569 Pantoate_ligase > GO:pantothenate biosynthetic process ; GO:0015940
 Pfam:PF02570 CbiC > GO:precorrin-8X methylmutase activity ; GO:0016993
@@ -4088,7 +4087,7 @@ Pfam:PF02571 CbiJ > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF02572 CobA_CobO_BtuR > GO:ATP binding ; GO:0005524
 Pfam:PF02572 CobA_CobO_BtuR > GO:cob(I)yrinic acid a,c-diamide adenosyltransferase activity ; GO:0008817
 Pfam:PF02572 CobA_CobO_BtuR > GO:cobalamin biosynthetic process ; GO:0009236
-Pfam:PF02574 S-methyl_trans > GO:homocysteine S-methyltransferase activity ; GO:0008898
+Pfam:PF02574 S-methyl_trans > GO:S-adenosylmethionine-homocysteine S-methyltransferase activity ; GO:0008898
 Pfam:PF02577 DNase-RNase > GO:nuclease activity ; GO:0004518
 Pfam:PF02580 Tyr_Deacylase > GO:hydrolase activity, acting on ester bonds ; GO:0016788
 Pfam:PF02580 Tyr_Deacylase > GO:D-amino acid catabolic process ; GO:0019478
@@ -4555,7 +4554,7 @@ Pfam:PF02922 CBM_48 > GO:hydrolase activity, hydrolyzing O-glycosyl compounds ; 
 Pfam:PF02922 CBM_48 > GO:carbohydrate metabolic process ; GO:0005975
 Pfam:PF02924 HDPD > GO:viral capsid ; GO:0019028
 Pfam:PF02925 gpD > GO:viral procapsid maturation ; GO:0046797
-Pfam:PF02926 THUMP > GO:RNA binding ; GO:0003723
+Pfam:PF02926 THUMP > GO:molecular_function ; GO:0003674
 Pfam:PF02927 CelD_N > GO:cellulase activity ; GO:0008810
 Pfam:PF02927 CelD_N > GO:carbohydrate metabolic process ; GO:0005975
 Pfam:PF02928 zf-C5HC2 > GO:nucleus ; GO:0005634
@@ -4985,7 +4984,7 @@ Pfam:PF03332 PMM > GO:phosphomannomutase activity ; GO:0004615
 Pfam:PF03332 PMM > GO:mannose biosynthetic process ; GO:0019307
 Pfam:PF03332 PMM > GO:cytoplasm ; GO:0005737
 Pfam:PF03333 PapB > GO:regulation of transcription, DNA-templated ; GO:0006355
-Pfam:PF03334 PhaG_MnhG_YufB > GO:monovalent cation:hydrogen antiporter activity ; GO:0005451
+Pfam:PF03334 PhaG_MnhG_YufB > GO:monovalent cation:proton antiporter activity ; GO:0005451
 Pfam:PF03334 PhaG_MnhG_YufB > GO:monovalent inorganic cation transport ; GO:0015672
 Pfam:PF03334 PhaG_MnhG_YufB > GO:proton transport ; GO:0015992
 Pfam:PF03335 Phage_fiber > GO:structural molecule activity ; GO:0005198
@@ -5423,7 +5422,7 @@ Pfam:PF03808 Glyco_tran_WecB > GO:biosynthetic process ; GO:0009058
 Pfam:PF03810 IBN_N > GO:Ran GTPase binding ; GO:0008536
 Pfam:PF03810 IBN_N > GO:intracellular protein transport ; GO:0006886
 Pfam:PF03811 Zn_Tnp_IS1 > GO:transposition, DNA-mediated ; GO:0006313
-Pfam:PF03812 KdgT > GO:2-keto-3-deoxygluconate:hydrogen symporter activity ; GO:0015649
+Pfam:PF03812 KdgT > GO:2-keto-3-deoxygluconate:proton symporter activity ; GO:0015649
 Pfam:PF03812 KdgT > GO:carbohydrate transport ; GO:0008643
 Pfam:PF03812 KdgT > GO:2-keto-3-deoxygluconate transport ; GO:0046411
 Pfam:PF03812 KdgT > GO:integral component of membrane ; GO:0016021
@@ -5770,7 +5769,7 @@ Pfam:PF04139 Rad9 > GO:checkpoint clamp complex ; GO:0030896
 Pfam:PF04140 ICMT > GO:protein C-terminal S-isoprenylcysteine carboxyl O-methyltransferase activity ; GO:0004671
 Pfam:PF04140 ICMT > GO:C-terminal protein methylation ; GO:0006481
 Pfam:PF04140 ICMT > GO:integral component of membrane ; GO:0016021
-Pfam:PF04142 Nuc_sug_transp > GO:sugar:hydrogen symporter activity ; GO:0005351
+Pfam:PF04142 Nuc_sug_transp > GO:sugar:proton symporter activity ; GO:0005351
 Pfam:PF04142 Nuc_sug_transp > GO:carbohydrate transport ; GO:0008643
 Pfam:PF04142 Nuc_sug_transp > GO:Golgi membrane ; GO:0000139
 Pfam:PF04142 Nuc_sug_transp > GO:integral component of membrane ; GO:0016021
@@ -5940,8 +5939,6 @@ Pfam:PF04382 SAB > GO:cytoskeletal protein binding ; GO:0008092
 Pfam:PF04382 SAB > GO:cortical actin cytoskeleton organization ; GO:0030866
 Pfam:PF04382 SAB > GO:cytoskeleton ; GO:0005856
 Pfam:PF04384 Fe-S_assembly > GO:iron-sulfur cluster assembly ; GO:0016226
-Pfam:PF04389 Peptidase_M28 > GO:peptidase activity ; GO:0008233
-Pfam:PF04389 Peptidase_M28 > GO:proteolysis ; GO:0006508
 Pfam:PF04390 LptE > GO:Gram-negative-bacterium-type cell outer membrane assembly ; GO:0043165
 Pfam:PF04390 LptE > GO:outer membrane ; GO:0019867
 Pfam:PF04397 LytTR > GO:DNA binding ; GO:0003677
@@ -7636,7 +7633,7 @@ Pfam:PF06448 DUF1081 > GO:lipid transport ; GO:0006869
 Pfam:PF06449 DUF1082 > GO:hydrolase activity, acting on acid anhydrides, catalyzing transmembrane movement of substances ; GO:0016820
 Pfam:PF06449 DUF1082 > GO:mitochondrion ; GO:0005739
 Pfam:PF06449 DUF1082 > GO:integral component of membrane ; GO:0016021
-Pfam:PF06450 NhaB > GO:sodium:hydrogen antiporter activity ; GO:0015385
+Pfam:PF06450 NhaB > GO:sodium:proton antiporter activity ; GO:0015385
 Pfam:PF06450 NhaB > GO:sodium ion transport ; GO:0006814
 Pfam:PF06450 NhaB > GO:integral component of membrane ; GO:0016021
 Pfam:PF06451 Moricin > GO:defense response to bacterium ; GO:0042742
@@ -8996,7 +8993,7 @@ Pfam:PF08612 Med20 > GO:regulation of transcription from RNA polymerase II promo
 Pfam:PF08612 Med20 > GO:mediator complex ; GO:0016592
 Pfam:PF08613 Cyclin > GO:protein kinase binding ; GO:0019901
 Pfam:PF08613 Cyclin > GO:regulation of cyclin-dependent protein serine/threonine kinase activity ; GO:0000079
-Pfam:PF08619 Nha1_C > GO:sodium:hydrogen antiporter activity ; GO:0015385
+Pfam:PF08619 Nha1_C > GO:sodium:proton antiporter activity ; GO:0015385
 Pfam:PF08619 Nha1_C > GO:sodium ion transport ; GO:0006814
 Pfam:PF08619 Nha1_C > GO:membrane ; GO:0016020
 Pfam:PF08622 Svf1 > GO:response to oxidative stress ; GO:0006979
@@ -10048,6 +10045,8 @@ Pfam:PF12189 VirE1 > GO:pathogenesis ; GO:0009405
 Pfam:PF12199 efb-c > GO:complement binding ; GO:0001848
 Pfam:PF12199 efb-c > GO:extracellular space ; GO:0005615
 Pfam:PF12201 bcl-2I13 > GO:apoptotic process ; GO:0006915
+Pfam:PF12202 OSR1_C > GO:protein serine/threonine kinase activity ; GO:0004674
+Pfam:PF12202 OSR1_C > GO:ATP binding ; GO:0005524
 Pfam:PF12235 FXR1P_C > GO:RNA binding ; GO:0003723
 Pfam:PF12242 Eno-Rase_NADH_b > GO:oxidoreductase activity ; GO:0016491
 Pfam:PF12242 Eno-Rase_NADH_b > GO:oxidation-reduction process ; GO:0055114
@@ -10585,7 +10584,7 @@ Pfam:PF15501 MDM1 > GO:nucleus ; GO:0005634
 Pfam:PF15510 CENP-W > GO:DNA binding ; GO:0003677
 Pfam:PF15510 CENP-W > GO:mitosis ; GO:0007067
 Pfam:PF15510 CENP-W > GO:kinetochore assembly ; GO:0051382
-Pfam:PF15549 PGC7_Stella > GO:methylated histone residue binding ; GO:0035064
+Pfam:PF15549 PGC7_Stella > GO:methylated histone binding ; GO:0035064
 Pfam:PF15550 Draxin > GO:axon guidance ; GO:0007411
 Pfam:PF15550 Draxin > GO:Wnt signaling pathway ; GO:0016055
 Pfam:PF15550 Draxin > GO:extracellular region ; GO:0005576

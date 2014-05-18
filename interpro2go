@@ -1,4 +1,4 @@
-!version date: 2014/05/10 13:41:20
+!version date: 2014/05/17 12:40:18
 !description: Mapping of GO terms to InterPro entries.
 !external resource: http://www.ebi.ac.uk/interpro
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1659,7 +1659,7 @@ InterPro:IPR000883 Cytochrome c oxidase, subunit I > GO:aerobic respiration ; GO
 InterPro:IPR000883 Cytochrome c oxidase, subunit I > GO:oxidation-reduction process ; GO:0055114
 InterPro:IPR000883 Cytochrome c oxidase, subunit I > GO:integral component of membrane ; GO:0016021
 InterPro:IPR000885 Fibrillar collagen, C-terminal > GO:extracellular matrix structural constituent ; GO:0005201
-InterPro:IPR000885 Fibrillar collagen, C-terminal > GO:collagen ; GO:0005581
+InterPro:IPR000885 Fibrillar collagen, C-terminal > GO:collagen trimer ; GO:0005581
 InterPro:IPR000887 KDPG/KHG aldolase > GO:lyase activity ; GO:0016829
 InterPro:IPR000887 KDPG/KHG aldolase > GO:metabolic process ; GO:0008152
 InterPro:IPR000888 dTDP-4-dehydrorhamnose 3,5-epimerase-related > GO:dTDP-4-dehydrorhamnose 3,5-epimerase activity ; GO:0008830
@@ -2726,7 +2726,7 @@ InterPro:IPR001439 Hyaluronidase PH20 > GO:fusion of sperm to egg plasma membran
 InterPro:IPR001440 Tetratricopeptide TPR1 > GO:protein binding ; GO:0005515
 InterPro:IPR001441 Decaprenyl diphosphate synthase-like > GO:transferase activity, transferring alkyl or aryl (other than methyl) groups ; GO:0016765
 InterPro:IPR001442 Collagen IV, non-collagenous > GO:extracellular matrix structural constituent ; GO:0005201
-InterPro:IPR001442 Collagen IV, non-collagenous > GO:collagen ; GO:0005581
+InterPro:IPR001442 Collagen IV, non-collagenous > GO:collagen trimer ; GO:0005581
 InterPro:IPR001444 Flagellar basal body rod protein, N-terminal > GO:bacterial-type flagellum-dependent cell motility ; GO:0071973
 InterPro:IPR001445 Acetylcholinesterase, insect > GO:acetylcholinesterase activity ; GO:0003990
 InterPro:IPR001445 Acetylcholinesterase, insect > GO:acetylcholine catabolic process in synaptic cleft ; GO:0001507
@@ -3711,7 +3711,7 @@ InterPro:IPR001951 Histone H4 > GO:nucleosome ; GO:0000786
 InterPro:IPR001951 Histone H4 > GO:nucleus ; GO:0005634
 InterPro:IPR001952 Alkaline phosphatase > GO:phosphatase activity ; GO:0016791
 InterPro:IPR001952 Alkaline phosphatase > GO:metabolic process ; GO:0008152
-InterPro:IPR001953 Na+/H+ exchanger, isoform 2 (NHE2) > GO:sodium:hydrogen antiporter activity ; GO:0015385
+InterPro:IPR001953 Na+/H+ exchanger, isoform 2 (NHE2) > GO:sodium:proton antiporter activity ; GO:0015385
 InterPro:IPR001953 Na+/H+ exchanger, isoform 2 (NHE2) > GO:sodium ion transport ; GO:0006814
 InterPro:IPR001953 Na+/H+ exchanger, isoform 2 (NHE2) > GO:regulation of pH ; GO:0006885
 InterPro:IPR001953 Na+/H+ exchanger, isoform 2 (NHE2) > GO:integral component of membrane ; GO:0016021
@@ -3739,7 +3739,7 @@ InterPro:IPR001967 Peptidase S11, D-alanyl-D-alanine carboxypeptidase A, N-termi
 InterPro:IPR001967 Peptidase S11, D-alanyl-D-alanine carboxypeptidase A, N-terminal > GO:proteolysis ; GO:0006508
 InterPro:IPR001969 Aspartic peptidase, active site > GO:aspartic-type endopeptidase activity ; GO:0004190
 InterPro:IPR001969 Aspartic peptidase, active site > GO:proteolysis ; GO:0006508
-InterPro:IPR001970 Na+/H+ exchanger, isoform 1 (NHE1) > GO:sodium:hydrogen antiporter activity ; GO:0015385
+InterPro:IPR001970 Na+/H+ exchanger, isoform 1 (NHE1) > GO:sodium:proton antiporter activity ; GO:0015385
 InterPro:IPR001970 Na+/H+ exchanger, isoform 1 (NHE1) > GO:sodium ion transport ; GO:0006814
 InterPro:IPR001970 Na+/H+ exchanger, isoform 1 (NHE1) > GO:regulation of pH ; GO:0006885
 InterPro:IPR001970 Na+/H+ exchanger, isoform 1 (NHE1) > GO:integral component of membrane ; GO:0016021
@@ -3950,7 +3950,7 @@ InterPro:IPR002089 Influenza virus matrix protein 2 > GO:hydrogen ion transmembr
 InterPro:IPR002089 Influenza virus matrix protein 2 > GO:proton transport ; GO:0015992
 InterPro:IPR002089 Influenza virus matrix protein 2 > GO:host cell membrane ; GO:0033644
 InterPro:IPR002089 Influenza virus matrix protein 2 > GO:virion membrane ; GO:0055036
-InterPro:IPR002090 Na+/H+ exchanger, isoform 6 (NHE6) > GO:sodium:hydrogen antiporter activity ; GO:0015385
+InterPro:IPR002090 Na+/H+ exchanger, isoform 6 (NHE6) > GO:sodium:proton antiporter activity ; GO:0015385
 InterPro:IPR002090 Na+/H+ exchanger, isoform 6 (NHE6) > GO:sodium ion transport ; GO:0006814
 InterPro:IPR002090 Na+/H+ exchanger, isoform 6 (NHE6) > GO:regulation of pH ; GO:0006885
 InterPro:IPR002090 Na+/H+ exchanger, isoform 6 (NHE6) > GO:integral component of membrane ; GO:0016021
@@ -5193,9 +5193,6 @@ InterPro:IPR002694 Zinc finger, CHC2-type > GO:DNA replication ; GO:0006260
 InterPro:IPR002695 AICARFT/IMPCHase bienzyme > GO:IMP cyclohydrolase activity ; GO:0003937
 InterPro:IPR002695 AICARFT/IMPCHase bienzyme > GO:phosphoribosylaminoimidazolecarboxamide formyltransferase activity ; GO:0004643
 InterPro:IPR002695 AICARFT/IMPCHase bienzyme > GO:purine nucleotide biosynthetic process ; GO:0006164
-InterPro:IPR002698 5-formyltetrahydrofolate cyclo-ligase > GO:ATP binding ; GO:0005524
-InterPro:IPR002698 5-formyltetrahydrofolate cyclo-ligase > GO:5-formyltetrahydrofolate cyclo-ligase activity ; GO:0030272
-InterPro:IPR002698 5-formyltetrahydrofolate cyclo-ligase > GO:folic acid-containing compound biosynthetic process ; GO:0009396
 InterPro:IPR002699 ATPase, V1 complex, subunit D > GO:ATPase activity, coupled to transmembrane movement of substances ; GO:0042626
 InterPro:IPR002701 Chorismate mutase > GO:chorismate metabolic process ; GO:0046417
 InterPro:IPR002702 Translation repressor RegA > GO:RNA binding ; GO:0003723
@@ -6239,6 +6236,7 @@ InterPro:IPR003467 Fimbrial, major/minor subunit > GO:pilus ; GO:0009289
 InterPro:IPR003469 Glycoside hydrolase, family 68 > GO:levansucrase activity ; GO:0050053
 InterPro:IPR003469 Glycoside hydrolase, family 68 > GO:carbohydrate utilization ; GO:0009758
 InterPro:IPR003473 Quinolinate synthetase A > GO:quinolinate synthetase A activity ; GO:0008987
+InterPro:IPR003473 Quinolinate synthetase A > GO:4 iron, 4 sulfur cluster binding ; GO:0051539
 InterPro:IPR003473 Quinolinate synthetase A > GO:NAD biosynthetic process ; GO:0009435
 InterPro:IPR003474 Gluconate transporter > GO:gluconate transmembrane transporter activity ; GO:0015128
 InterPro:IPR003474 Gluconate transporter > GO:gluconate transmembrane transport ; GO:0035429
@@ -6340,9 +6338,9 @@ InterPro:IPR003544 Cytochrome c-type biogenesis protein CcmB > GO:heme transport
 InterPro:IPR003544 Cytochrome c-type biogenesis protein CcmB > GO:heme transport ; GO:0015886
 InterPro:IPR003544 Cytochrome c-type biogenesis protein CcmB > GO:cytochrome complex assembly ; GO:0017004
 InterPro:IPR003544 Cytochrome c-type biogenesis protein CcmB > GO:membrane ; GO:0016020
-InterPro:IPR003545 Telomere reverse transcriptase > GO:DNA binding ; GO:0003677
-InterPro:IPR003545 Telomere reverse transcriptase > GO:telomeric template RNA reverse transcriptase activity ; GO:0003721
-InterPro:IPR003545 Telomere reverse transcriptase > GO:nucleus ; GO:0005634
+InterPro:IPR003545 Telomerase reverse transcriptase > GO:DNA binding ; GO:0003677
+InterPro:IPR003545 Telomerase reverse transcriptase > GO:telomeric template RNA reverse transcriptase activity ; GO:0003721
+InterPro:IPR003545 Telomerase reverse transcriptase > GO:nucleus ; GO:0005634
 InterPro:IPR003546 Type III secreted modular tyrosine phosphatase, SptP/YopH > GO:protein tyrosine phosphatase activity ; GO:0004725
 InterPro:IPR003546 Type III secreted modular tyrosine phosphatase, SptP/YopH > GO:protein dephosphorylation ; GO:0006470
 InterPro:IPR003547 Serine/threonine protein kinase, yersinia-type > GO:protein serine/threonine kinase activity ; GO:0004674
@@ -6586,8 +6584,8 @@ InterPro:IPR003717 Recombination protein O, RecO > GO:DNA recombination ; GO:000
 InterPro:IPR003718 Peroxiredoxin, OsmC-like protein > GO:response to stress ; GO:0006950
 InterPro:IPR003719 Phenazine biosynthesis PhzF protein > GO:catalytic activity ; GO:0003824
 InterPro:IPR003719 Phenazine biosynthesis PhzF protein > GO:biosynthetic process ; GO:0009058
-InterPro:IPR003720 tRNA sulfurtransferase ThiI > GO:RNA binding ; GO:0003723
-InterPro:IPR003720 tRNA sulfurtransferase ThiI > GO:thiamine biosynthetic process ; GO:0009228
+InterPro:IPR003720 tRNA sulfurtransferase ThiI > GO:sulfurtransferase activity ; GO:0016783
+InterPro:IPR003720 tRNA sulfurtransferase ThiI > GO:tRNA thio-modification ; GO:0034227
 InterPro:IPR003720 tRNA sulfurtransferase ThiI > GO:cytoplasm ; GO:0005737
 InterPro:IPR003721 Pantoate-beta-alanine ligase > GO:pantoate-beta-alanine ligase activity ; GO:0004592
 InterPro:IPR003721 Pantoate-beta-alanine ligase > GO:pantothenate biosynthetic process ; GO:0015940
@@ -6601,7 +6599,7 @@ InterPro:IPR003724 Adenosylcobalamin biosynthesis, ATP:cob(I)alamin adenosyltran
 InterPro:IPR003724 Adenosylcobalamin biosynthesis, ATP:cob(I)alamin adenosyltransferase CobA/CobO/ButR > GO:cobalamin biosynthetic process ; GO:0009236
 InterPro:IPR003725 Molybdenum-binding protein, N-terminal > GO:molybdate ion transmembrane transporter activity ; GO:0015098
 InterPro:IPR003725 Molybdenum-binding protein, N-terminal > GO:molybdate ion transport ; GO:0015689
-InterPro:IPR003726 Homocysteine S-methyltransferase > GO:homocysteine S-methyltransferase activity ; GO:0008898
+InterPro:IPR003726 Homocysteine S-methyltransferase > GO:S-adenosylmethionine-homocysteine S-methyltransferase activity ; GO:0008898
 InterPro:IPR003729 Bifunctional nuclease domain > GO:nuclease activity ; GO:0004518
 InterPro:IPR003732 D-tyrosyl-tRNA(Tyr) deacylase > GO:hydrolase activity, acting on ester bonds ; GO:0016788
 InterPro:IPR003732 D-tyrosyl-tRNA(Tyr) deacylase > GO:D-amino acid catabolic process ; GO:0019478
@@ -7199,7 +7197,7 @@ InterPro:IPR004109 Peptidase S29, hepatitus C polyprotein NS3 > GO:transformatio
 InterPro:IPR004111 Tetracycline transcriptional regulator, TetR, C-terminal > GO:negative regulation of transcription, DNA-templated ; GO:0045892
 InterPro:IPR004113 FAD-linked oxidase, C-terminal > GO:catalytic activity ; GO:0003824
 InterPro:IPR004113 FAD-linked oxidase, C-terminal > GO:flavin adenine dinucleotide binding ; GO:0050660
-InterPro:IPR004114 THUMP > GO:RNA binding ; GO:0003723
+InterPro:IPR004114 THUMP > GO:molecular_function ; GO:0003674
 InterPro:IPR004115 GAD-like domain > GO:aminoacyl-tRNA ligase activity ; GO:0004812
 InterPro:IPR004115 GAD-like domain > GO:ATP binding ; GO:0005524
 InterPro:IPR004115 GAD-like domain > GO:cytoplasm ; GO:0005737
@@ -8147,7 +8145,7 @@ InterPro:IPR004669 C4-dicarboxylate anaerobic carrier > GO:integral component of
 InterPro:IPR004670 Na+/H+ antiporter NhaA > GO:sodium ion transport ; GO:0006814
 InterPro:IPR004670 Na+/H+ antiporter NhaA > GO:regulation of pH ; GO:0006885
 InterPro:IPR004670 Na+/H+ antiporter NhaA > GO:integral component of membrane ; GO:0016021
-InterPro:IPR004671 Na+/H+ antiporter NhaB > GO:sodium:hydrogen antiporter activity ; GO:0015385
+InterPro:IPR004671 Na+/H+ antiporter NhaB > GO:sodium:proton antiporter activity ; GO:0015385
 InterPro:IPR004671 Na+/H+ antiporter NhaB > GO:sodium ion transport ; GO:0006814
 InterPro:IPR004671 Na+/H+ antiporter NhaB > GO:integral component of membrane ; GO:0016021
 InterPro:IPR004673 L-rhamnose-proton symport, RhaT > GO:rhamnose transmembrane transporter activity ; GO:0015153
@@ -8170,7 +8168,7 @@ InterPro:IPR004680 Citrate transporter-like domain > GO:integral component of me
 InterPro:IPR004681 TRAP transporter permease protein > GO:integral component of membrane ; GO:0016021
 InterPro:IPR004682 TRAP dicarboxylate transporter > GO:transport ; GO:0006810
 InterPro:IPR004682 TRAP dicarboxylate transporter > GO:outer membrane-bounded periplasmic space ; GO:0030288
-InterPro:IPR004684 2-keto-3-deoxygluconate permease > GO:2-keto-3-deoxygluconate:hydrogen symporter activity ; GO:0015649
+InterPro:IPR004684 2-keto-3-deoxygluconate permease > GO:2-keto-3-deoxygluconate:proton symporter activity ; GO:0015649
 InterPro:IPR004684 2-keto-3-deoxygluconate permease > GO:carbohydrate transport ; GO:0008643
 InterPro:IPR004684 2-keto-3-deoxygluconate permease > GO:2-keto-3-deoxygluconate transport ; GO:0046411
 InterPro:IPR004684 2-keto-3-deoxygluconate permease > GO:integral component of membrane ; GO:0016021
@@ -8218,14 +8216,14 @@ InterPro:IPR004703 Phosphotransferase system, sugar-specific permease component 
 InterPro:IPR004703 Phosphotransferase system, sugar-specific permease component > GO:integral component of membrane ; GO:0016021
 InterPro:IPR004704 Phosphotransferase system, mannose/fructose/sorbose family IID component > GO:phosphoenolpyruvate-dependent sugar phosphotransferase system ; GO:0009401
 InterPro:IPR004704 Phosphotransferase system, mannose/fructose/sorbose family IID component > GO:integral component of membrane ; GO:0016021
-InterPro:IPR004705 Cation/H+ exchanger, CPA1 family, bacteria > GO:solute:hydrogen antiporter activity ; GO:0015299
+InterPro:IPR004705 Cation/H+ exchanger, CPA1 family, bacteria > GO:solute:proton antiporter activity ; GO:0015299
 InterPro:IPR004705 Cation/H+ exchanger, CPA1 family, bacteria > GO:cation transport ; GO:0006812
 InterPro:IPR004705 Cation/H+ exchanger, CPA1 family, bacteria > GO:integral component of membrane ; GO:0016021
 InterPro:IPR004706 Arsenical-resistance protein ACR3 > GO:integral component of membrane ; GO:0016021
 InterPro:IPR004707 Membrane transport protein MmpL family > GO:integral component of membrane ; GO:0016021
 InterPro:IPR004708 Aspartate ammonia-lyase > GO:aspartate ammonia-lyase activity ; GO:0008797
 InterPro:IPR004708 Aspartate ammonia-lyase > GO:aspartate metabolic process ; GO:0006531
-InterPro:IPR004709 Na+/H+ exchanger > GO:sodium:hydrogen antiporter activity ; GO:0015385
+InterPro:IPR004709 Na+/H+ exchanger > GO:sodium:proton antiporter activity ; GO:0015385
 InterPro:IPR004709 Na+/H+ exchanger > GO:sodium ion transport ; GO:0006814
 InterPro:IPR004709 Na+/H+ exchanger > GO:regulation of pH ; GO:0006885
 InterPro:IPR004709 Na+/H+ exchanger > GO:transmembrane transport ; GO:0055085
@@ -8237,7 +8235,7 @@ InterPro:IPR004710 Bile acid transporter > GO:integral component of membrane ; G
 InterPro:IPR004711 Benzoate transporter > GO:benzoate transporter activity ; GO:0042925
 InterPro:IPR004711 Benzoate transporter > GO:benzoate transport ; GO:0042919
 InterPro:IPR004711 Benzoate transporter > GO:integral component of membrane ; GO:0016021
-InterPro:IPR004712 Na+/H+ exchanger, fungi > GO:sodium:hydrogen antiporter activity ; GO:0015385
+InterPro:IPR004712 Na+/H+ exchanger, fungi > GO:sodium:proton antiporter activity ; GO:0015385
 InterPro:IPR004712 Na+/H+ exchanger, fungi > GO:sodium ion transport ; GO:0006814
 InterPro:IPR004712 Na+/H+ exchanger, fungi > GO:integral component of membrane ; GO:0016021
 InterPro:IPR004713 Calcium/proton exchanger > GO:cation transmembrane transporter activity ; GO:0008324
@@ -8338,7 +8336,7 @@ InterPro:IPR004749 Organic cation transport protein > GO:integral component of m
 InterPro:IPR004750 Sugar efflux > GO:sugar efflux transmembrane transporter activity ; GO:0015542
 InterPro:IPR004750 Sugar efflux > GO:carbohydrate transport ; GO:0008643
 InterPro:IPR004750 Sugar efflux > GO:integral component of membrane ; GO:0016021
-InterPro:IPR004751 Drug antiporter protein > GO:drug:hydrogen antiporter activity ; GO:0015307
+InterPro:IPR004751 Drug antiporter protein > GO:drug:proton antiporter activity ; GO:0015307
 InterPro:IPR004751 Drug antiporter protein > GO:drug transport ; GO:0015893
 InterPro:IPR004752 AmpG-like permease/Acetyl-coenzyme A transporter 1 > GO:membrane ; GO:0016020
 InterPro:IPR004753 Cell shape determining protein MreB/Mrl > GO:cell morphogenesis ; GO:0000902
@@ -8382,7 +8380,7 @@ InterPro:IPR004772 Potassium uptake protein TrkH family > GO:integral component 
 InterPro:IPR004773 Potassium transport protein, high-affinity > GO:potassium ion transmembrane transporter activity ; GO:0015079
 InterPro:IPR004773 Potassium transport protein, high-affinity > GO:potassium ion transmembrane transport ; GO:0071805
 InterPro:IPR004773 Potassium transport protein, high-affinity > GO:integral component of membrane ; GO:0016021
-InterPro:IPR004775 Na(+)/H(+) antiporter subunit D1 > GO:potassium:hydrogen antiporter activity ; GO:0015386
+InterPro:IPR004775 Na(+)/H(+) antiporter subunit D1 > GO:potassium:proton antiporter activity ; GO:0015386
 InterPro:IPR004775 Na(+)/H(+) antiporter subunit D1 > GO:cation transport ; GO:0006812
 InterPro:IPR004775 Na(+)/H(+) antiporter subunit D1 > GO:integral component of membrane ; GO:0016021
 InterPro:IPR004776 Auxin efflux carrier > GO:transmembrane transport ; GO:0055085
@@ -8427,7 +8425,7 @@ InterPro:IPR004796 Phosphotransferase system, cellobiose-type IIC component > GO
 InterPro:IPR004796 Phosphotransferase system, cellobiose-type IIC component > GO:integral component of membrane ; GO:0016021
 InterPro:IPR004797 Competence protein ComEC/Rec2 > GO:establishment of competence for transformation ; GO:0030420
 InterPro:IPR004797 Competence protein ComEC/Rec2 > GO:integral component of membrane ; GO:0016021
-InterPro:IPR004798 Calcium/proton exchanger CAX > GO:calcium:hydrogen antiporter activity ; GO:0015369
+InterPro:IPR004798 Calcium/proton exchanger CAX > GO:calcium:proton antiporter activity ; GO:0015369
 InterPro:IPR004798 Calcium/proton exchanger CAX > GO:calcium ion transport ; GO:0006816
 InterPro:IPR004799 Periplasmic protein thiol:disulphide oxidoreductase DsbE > GO:disulfide oxidoreductase activity ; GO:0015036
 InterPro:IPR004799 Periplasmic protein thiol:disulphide oxidoreductase DsbE > GO:cytochrome complex assembly ; GO:0017004
@@ -8785,7 +8783,7 @@ InterPro:IPR005128 Alpha-acetolactate decarboxylase > GO:polyol metabolic proces
 InterPro:IPR005131 Serine dehydratase beta chain > GO:L-serine ammonia-lyase activity ; GO:0003941
 InterPro:IPR005131 Serine dehydratase beta chain > GO:4 iron, 4 sulfur cluster binding ; GO:0051539
 InterPro:IPR005131 Serine dehydratase beta chain > GO:gluconeogenesis ; GO:0006094
-InterPro:IPR005133 Na+/H+ antiporter subunit > GO:monovalent cation:hydrogen antiporter activity ; GO:0005451
+InterPro:IPR005133 Na+/H+ antiporter subunit > GO:monovalent cation:proton antiporter activity ; GO:0005451
 InterPro:IPR005133 Na+/H+ antiporter subunit > GO:monovalent inorganic cation transport ; GO:0015672
 InterPro:IPR005133 Na+/H+ antiporter subunit > GO:proton transport ; GO:0015992
 InterPro:IPR005139 Peptide chain release factor > GO:translation release factor activity, codon specific ; GO:0016149
@@ -10483,7 +10481,7 @@ InterPro:IPR006146 5'-Nucleotidase, conserved site > GO:nucleotide binding ; GO:
 InterPro:IPR006146 5'-Nucleotidase, conserved site > GO:hydrolase activity, acting on ester bonds ; GO:0016788
 InterPro:IPR006146 5'-Nucleotidase, conserved site > GO:metal ion binding ; GO:0046872
 InterPro:IPR006148 Glucosamine/galactosamine-6-phosphate isomerase > GO:carbohydrate metabolic process ; GO:0005975
-InterPro:IPR006153 Cation/H+ exchanger > GO:solute:hydrogen antiporter activity ; GO:0015299
+InterPro:IPR006153 Cation/H+ exchanger > GO:solute:proton antiporter activity ; GO:0015299
 InterPro:IPR006153 Cation/H+ exchanger > GO:cation transport ; GO:0006812
 InterPro:IPR006153 Cation/H+ exchanger > GO:transmembrane transport ; GO:0055085
 InterPro:IPR006153 Cation/H+ exchanger > GO:integral component of membrane ; GO:0016021
@@ -10839,7 +10837,7 @@ InterPro:IPR006325 Signal recognition particle, SRP54 subunit, eukaryotic > GO:S
 InterPro:IPR006325 Signal recognition particle, SRP54 subunit, eukaryotic > GO:signal recognition particle ; GO:0048500
 InterPro:IPR006326 UDP-glycosyltransferase, MGT > GO:transferase activity, transferring hexosyl groups ; GO:0016758
 InterPro:IPR006326 UDP-glycosyltransferase, MGT > GO:antibiotic metabolic process ; GO:0016999
-InterPro:IPR006327 Phosphotransferase system, fructose IIC component > GO:sugar:hydrogen symporter activity ; GO:0005351
+InterPro:IPR006327 Phosphotransferase system, fructose IIC component > GO:sugar:proton symporter activity ; GO:0005351
 InterPro:IPR006327 Phosphotransferase system, fructose IIC component > GO:protein-N(PI)-phosphohistidine-sugar phosphotransferase activity ; GO:0008982
 InterPro:IPR006327 Phosphotransferase system, fructose IIC component > GO:phosphoenolpyruvate-dependent sugar phosphotransferase system ; GO:0009401
 InterPro:IPR006327 Phosphotransferase system, fructose IIC component > GO:integral component of membrane ; GO:0016021
@@ -11767,7 +11765,7 @@ InterPro:IPR007268 Rad9/Ddc1 > GO:checkpoint clamp complex ; GO:0030896
 InterPro:IPR007269 Isoprenylcysteine carboxyl methyltransferase > GO:protein C-terminal S-isoprenylcysteine carboxyl O-methyltransferase activity ; GO:0004671
 InterPro:IPR007269 Isoprenylcysteine carboxyl methyltransferase > GO:C-terminal protein methylation ; GO:0006481
 InterPro:IPR007269 Isoprenylcysteine carboxyl methyltransferase > GO:integral component of membrane ; GO:0016021
-InterPro:IPR007271 Nucleotide-sugar transporter > GO:sugar:hydrogen symporter activity ; GO:0005351
+InterPro:IPR007271 Nucleotide-sugar transporter > GO:sugar:proton symporter activity ; GO:0005351
 InterPro:IPR007271 Nucleotide-sugar transporter > GO:carbohydrate transport ; GO:0008643
 InterPro:IPR007271 Nucleotide-sugar transporter > GO:Golgi membrane ; GO:0000139
 InterPro:IPR007271 Nucleotide-sugar transporter > GO:integral component of membrane ; GO:0016021
@@ -11874,8 +11872,6 @@ InterPro:IPR007477 SAB domain > GO:cytoskeletal protein binding ; GO:0008092
 InterPro:IPR007477 SAB domain > GO:cortical actin cytoskeleton organization ; GO:0030866
 InterPro:IPR007477 SAB domain > GO:cytoskeleton ; GO:0005856
 InterPro:IPR007479 ISC system FeS cluster assembly, IscX > GO:iron-sulfur cluster assembly ; GO:0016226
-InterPro:IPR007484 Peptidase M28 > GO:peptidase activity ; GO:0008233
-InterPro:IPR007484 Peptidase M28 > GO:proteolysis ; GO:0006508
 InterPro:IPR007485 Lipopolysaccharide assembly, LptE > GO:Gram-negative-bacterium-type cell outer membrane assembly ; GO:0043165
 InterPro:IPR007485 Lipopolysaccharide assembly, LptE > GO:outer membrane ; GO:0019867
 InterPro:IPR007492 LytTR DNA-binding domain > GO:DNA binding ; GO:0003677
@@ -14456,7 +14452,7 @@ InterPro:IPR010229 Peptidase M38, beta-aspartyl dipeptidase > GO:beta-aspartyl-p
 InterPro:IPR010230 FeS cluster assembly SUF system, ATPase SufC > GO:ATP binding ; GO:0005524
 InterPro:IPR010230 FeS cluster assembly SUF system, ATPase SufC > GO:transport ; GO:0006810
 InterPro:IPR010231 SUF system FeS cluster assembly, SufB > GO:iron-sulfur cluster assembly ; GO:0016226
-InterPro:IPR010232 Ubiquinone biosynthesis protein Ubil > GO:ubiquinone biosynthetic process ; GO:0006744
+InterPro:IPR010232 Probable protein kinase UbiB > GO:ubiquinone biosynthetic process ; GO:0006744
 InterPro:IPR010233 Ubiquinone biosynthesis O-methyltransferase > GO:2-polyprenyl-6-methoxy-1,4-benzoquinone methyltransferase activity ; GO:0008425
 InterPro:IPR010233 Ubiquinone biosynthesis O-methyltransferase > GO:ubiquinone biosynthetic process ; GO:0006744
 InterPro:IPR010236 ISC system FeS cluster assembly, HscA chaperone > GO:ATP binding ; GO:0005524
@@ -15004,10 +15000,10 @@ InterPro:IPR010968 Electron transport complex, RnfE > GO:membrane ; GO:0016020
 InterPro:IPR010970 Cysteine desulfurase, SufS > GO:pyridoxal phosphate binding ; GO:0030170
 InterPro:IPR010970 Cysteine desulfurase, SufS > GO:cysteine desulfurase activity ; GO:0031071
 InterPro:IPR010970 Cysteine desulfurase, SufS > GO:cysteine metabolic process ; GO:0006534
-InterPro:IPR010971 Ubiquinone biosynthesis hydroxylase, UbiH/UbiF/VisC/COQ6 > GO:oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen ; GO:0016709
-InterPro:IPR010971 Ubiquinone biosynthesis hydroxylase, UbiH/UbiF/VisC/COQ6 > GO:flavin adenine dinucleotide binding ; GO:0050660
-InterPro:IPR010971 Ubiquinone biosynthesis hydroxylase, UbiH/UbiF/VisC/COQ6 > GO:ubiquinone biosynthetic process ; GO:0006744
-InterPro:IPR010971 Ubiquinone biosynthesis hydroxylase, UbiH/UbiF/VisC/COQ6 > GO:oxidation-reduction process ; GO:0055114
+InterPro:IPR010971 Ubiquinone biosynthesis hydroxylase, UbiH/UbiF/UbiI/COQ6 > GO:oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen ; GO:0016709
+InterPro:IPR010971 Ubiquinone biosynthesis hydroxylase, UbiH/UbiF/UbiI/COQ6 > GO:flavin adenine dinucleotide binding ; GO:0050660
+InterPro:IPR010971 Ubiquinone biosynthesis hydroxylase, UbiH/UbiF/UbiI/COQ6 > GO:ubiquinone biosynthetic process ; GO:0006744
+InterPro:IPR010971 Ubiquinone biosynthesis hydroxylase, UbiH/UbiF/UbiI/COQ6 > GO:oxidation-reduction process ; GO:0055114
 InterPro:IPR010972 Beta-phosphoglucomutase > GO:magnesium ion binding ; GO:0000287
 InterPro:IPR010972 Beta-phosphoglucomutase > GO:beta-phosphoglucomutase activity ; GO:0008801
 InterPro:IPR010972 Beta-phosphoglucomutase > GO:carbohydrate metabolic process ; GO:0005975
@@ -15874,7 +15870,7 @@ InterPro:IPR011820 Threonine dehydratase, biosynthetic, mitochondrial/plastid-ty
 InterPro:IPR011820 Threonine dehydratase, biosynthetic, mitochondrial/plastid-type > GO:isoleucine biosynthetic process ; GO:0009097
 InterPro:IPR011822 Cobalamin-dependent methionine synthase > GO:zinc ion binding ; GO:0008270
 InterPro:IPR011822 Cobalamin-dependent methionine synthase > GO:methionine synthase activity ; GO:0008705
-InterPro:IPR011822 Cobalamin-dependent methionine synthase > GO:homocysteine S-methyltransferase activity ; GO:0008898
+InterPro:IPR011822 Cobalamin-dependent methionine synthase > GO:S-adenosylmethionine-homocysteine S-methyltransferase activity ; GO:0008898
 InterPro:IPR011822 Cobalamin-dependent methionine synthase > GO:cobalamin binding ; GO:0031419
 InterPro:IPR011822 Cobalamin-dependent methionine synthase > GO:methionine biosynthetic process ; GO:0009086
 InterPro:IPR011823 3-isopropylmalate dehydratase, large subunit, bacteria > GO:3-isopropylmalate dehydratase activity ; GO:0003861
@@ -18076,7 +18072,7 @@ InterPro:IPR013921 Mediator complex, subunit Med20 > GO:regulation of transcript
 InterPro:IPR013921 Mediator complex, subunit Med20 > GO:mediator complex ; GO:0016592
 InterPro:IPR013922 Cyclin PHO80-like > GO:protein kinase binding ; GO:0019901
 InterPro:IPR013922 Cyclin PHO80-like > GO:regulation of cyclin-dependent protein serine/threonine kinase activity ; GO:0000079
-InterPro:IPR013928 Alkali metal cation/H+ antiporter Nha1, C-terminal > GO:sodium:hydrogen antiporter activity ; GO:0015385
+InterPro:IPR013928 Alkali metal cation/H+ antiporter Nha1, C-terminal > GO:sodium:proton antiporter activity ; GO:0015385
 InterPro:IPR013928 Alkali metal cation/H+ antiporter Nha1, C-terminal > GO:sodium ion transport ; GO:0006814
 InterPro:IPR013928 Alkali metal cation/H+ antiporter Nha1, C-terminal > GO:membrane ; GO:0016020
 InterPro:IPR013931 Oxidative stress survival, Svf1-like > GO:response to oxidative stress ; GO:0006979
@@ -21763,7 +21759,7 @@ InterPro:IPR018393 NADH-plastoquinone oxidoreductase, chain 5 subgroup > GO:ATP 
 InterPro:IPR018393 NADH-plastoquinone oxidoreductase, chain 5 subgroup > GO:oxidation-reduction process ; GO:0055114
 InterPro:IPR018394 Cryptochrome/DNA photolyase, class 1 conserved site, C-terminal > GO:DNA photolyase activity ; GO:0003913
 InterPro:IPR018394 Cryptochrome/DNA photolyase, class 1 conserved site, C-terminal > GO:DNA repair ; GO:0006281
-InterPro:IPR018395 2-keto-3-deoxygluconate permease, subgroup > GO:2-keto-3-deoxygluconate:hydrogen symporter activity ; GO:0015649
+InterPro:IPR018395 2-keto-3-deoxygluconate permease, subgroup > GO:2-keto-3-deoxygluconate:proton symporter activity ; GO:0015649
 InterPro:IPR018395 2-keto-3-deoxygluconate permease, subgroup > GO:carbohydrate transport ; GO:0008643
 InterPro:IPR018395 2-keto-3-deoxygluconate permease, subgroup > GO:2-keto-3-deoxygluconate transport ; GO:0046411
 InterPro:IPR018395 2-keto-3-deoxygluconate permease, subgroup > GO:integral component of membrane ; GO:0016021
@@ -21777,18 +21773,18 @@ InterPro:IPR018404 Phosphotransferase system, sorbose-specific IIC subunit, subg
 InterPro:IPR018404 Phosphotransferase system, sorbose-specific IIC subunit, subgroup > GO:integral component of membrane ; GO:0016021
 InterPro:IPR018405 Phosphotransferase system, mannose/fructose/sorbose family IID component, subgroup > GO:phosphoenolpyruvate-dependent sugar phosphotransferase system ; GO:0009401
 InterPro:IPR018405 Phosphotransferase system, mannose/fructose/sorbose family IID component, subgroup > GO:integral component of membrane ; GO:0016021
-InterPro:IPR018409 Na+/H+ exchanger, isoform 8 > GO:sodium:hydrogen antiporter activity ; GO:0015385
+InterPro:IPR018409 Na+/H+ exchanger, isoform 8 > GO:sodium:proton antiporter activity ; GO:0015385
 InterPro:IPR018409 Na+/H+ exchanger, isoform 8 > GO:sodium ion transport ; GO:0006814
 InterPro:IPR018409 Na+/H+ exchanger, isoform 8 > GO:regulation of pH ; GO:0006885
 InterPro:IPR018409 Na+/H+ exchanger, isoform 8 > GO:integral component of membrane ; GO:0016021
-InterPro:IPR018410 Na+/H+ exchanger, isoforms 3/5 > GO:sodium:hydrogen antiporter activity ; GO:0015385
+InterPro:IPR018410 Na+/H+ exchanger, isoforms 3/5 > GO:sodium:proton antiporter activity ; GO:0015385
 InterPro:IPR018410 Na+/H+ exchanger, isoforms 3/5 > GO:sodium ion transport ; GO:0006814
 InterPro:IPR018410 Na+/H+ exchanger, isoforms 3/5 > GO:regulation of pH ; GO:0006885
 InterPro:IPR018410 Na+/H+ exchanger, isoforms 3/5 > GO:integral component of membrane ; GO:0016021
-InterPro:IPR018416 Na+/H+ exchanger 9 > GO:solute:hydrogen antiporter activity ; GO:0015299
+InterPro:IPR018416 Na+/H+ exchanger 9 > GO:solute:proton antiporter activity ; GO:0015299
 InterPro:IPR018416 Na+/H+ exchanger 9 > GO:cation transport ; GO:0006812
 InterPro:IPR018416 Na+/H+ exchanger 9 > GO:integral component of membrane ; GO:0016021
-InterPro:IPR018422 Cation/H+ exchanger, CPA1 family > GO:solute:hydrogen antiporter activity ; GO:0015299
+InterPro:IPR018422 Cation/H+ exchanger, CPA1 family > GO:solute:proton antiporter activity ; GO:0015299
 InterPro:IPR018422 Cation/H+ exchanger, CPA1 family > GO:cation transport ; GO:0006812
 InterPro:IPR018422 Cation/H+ exchanger, CPA1 family > GO:integral component of membrane ; GO:0016021
 InterPro:IPR018428 Carbonic anhydrase, CA-VI > GO:carbonate dehydratase activity ; GO:0004089
@@ -22680,6 +22676,7 @@ InterPro:IPR020526 Ribosomal protein L6, chloroplast > GO:ribosome ; GO:0005840
 InterPro:IPR020526 Ribosomal protein L6, chloroplast > GO:chloroplast ; GO:0009507
 InterPro:IPR020529 Origin recognition complex, subunit 6, metazoa/plant > GO:DNA replication ; GO:0006260
 InterPro:IPR020529 Origin recognition complex, subunit 6, metazoa/plant > GO:nuclear origin of replication recognition complex ; GO:0005664
+InterPro:IPR020536 Thil, AANH domain > GO:tRNA adenylyltransferase activity ; GO:0004810
 InterPro:IPR020539 Ribonuclease P, conserved site > GO:ribonuclease P activity ; GO:0004526
 InterPro:IPR020541 Chorismate synthase, conserved site > GO:chorismate synthase activity ; GO:0004107
 InterPro:IPR020541 Chorismate synthase, conserved site > GO:aromatic amino acid family biosynthetic process ; GO:0009073
@@ -23075,10 +23072,10 @@ InterPro:IPR020919 Ribosomal protein S8e, archaeal > GO:structural constituent o
 InterPro:IPR020919 Ribosomal protein S8e, archaeal > GO:translation ; GO:0006412
 InterPro:IPR020919 Ribosomal protein S8e, archaeal > GO:intracellular ; GO:0005622
 InterPro:IPR020919 Ribosomal protein S8e, archaeal > GO:ribosome ; GO:0005840
-InterPro:IPR020920 L-lactate dehydrogenase [cytochrome] > GO:L-lactate dehydrogenase (cytochrome) activity ; GO:0004460
-InterPro:IPR020920 L-lactate dehydrogenase [cytochrome] > GO:FMN binding ; GO:0010181
-InterPro:IPR020920 L-lactate dehydrogenase [cytochrome] > GO:lactate metabolic process ; GO:0006089
-InterPro:IPR020920 L-lactate dehydrogenase [cytochrome] > GO:oxidation-reduction process ; GO:0055114
+InterPro:IPR020920 L-lactate dehydrogenase, bacterial > GO:lactate dehydrogenase activity ; GO:0004457
+InterPro:IPR020920 L-lactate dehydrogenase, bacterial > GO:FMN binding ; GO:0010181
+InterPro:IPR020920 L-lactate dehydrogenase, bacterial > GO:lactate metabolic process ; GO:0006089
+InterPro:IPR020920 L-lactate dehydrogenase, bacterial > GO:oxidation-reduction process ; GO:0055114
 InterPro:IPR020921 Erythronate-4-phosphate dehydrogenase > GO:4-phosphoerythronate dehydrogenase activity ; GO:0033711
 InterPro:IPR020921 Erythronate-4-phosphate dehydrogenase > GO:pyridoxine biosynthetic process ; GO:0008615
 InterPro:IPR020921 Erythronate-4-phosphate dehydrogenase > GO:oxidation-reduction process ; GO:0055114
@@ -23429,6 +23426,7 @@ InterPro:IPR022383 Lactate/malate dehydrogenase, C-terminal > GO:oxidation-reduc
 InterPro:IPR022384 Formiminotransferas, N- and C-terminal subdomains > GO:folic acid binding ; GO:0005542
 InterPro:IPR022384 Formiminotransferas, N- and C-terminal subdomains > GO:transferase activity ; GO:0016740
 InterPro:IPR022384 Formiminotransferas, N- and C-terminal subdomains > GO:metabolic process ; GO:0008152
+InterPro:IPR022385 Rhs repeat-associated core > GO:self proteolysis ; GO:0097264
 InterPro:IPR022390 Menaquinone biosynthesis decarboxylase, SCO4490 > GO:carboxy-lyase activity ; GO:0016831
 InterPro:IPR022390 Menaquinone biosynthesis decarboxylase, SCO4490 > GO:menaquinone biosynthetic process ; GO:0009234
 InterPro:IPR022394 Methylamine utilisation protein, MauG > GO:calcium ion binding ; GO:0005509
@@ -24391,7 +24389,7 @@ InterPro:IPR023726 Threonine/serine transporter TdcC > GO:integral component of 
 InterPro:IPR023727 Lysophospholipid transporter LplT > GO:lysophospholipid transporter activity ; GO:0051978
 InterPro:IPR023727 Lysophospholipid transporter LplT > GO:lysophospholipid transport ; GO:0051977
 InterPro:IPR023727 Lysophospholipid transporter LplT > GO:plasma membrane ; GO:0005886
-InterPro:IPR023729 K(+)/H(+) antiporter NhaP2 > GO:potassium:hydrogen antiporter activity ; GO:0015386
+InterPro:IPR023729 K(+)/H(+) antiporter NhaP2 > GO:potassium:proton antiporter activity ; GO:0015386
 InterPro:IPR023729 K(+)/H(+) antiporter NhaP2 > GO:potassium ion transport ; GO:0006813
 InterPro:IPR023729 K(+)/H(+) antiporter NhaP2 > GO:cell volume homeostasis ; GO:0006884
 InterPro:IPR023729 K(+)/H(+) antiporter NhaP2 > GO:integral component of membrane ; GO:0016021
@@ -24774,6 +24772,8 @@ InterPro:IPR024652 Trichodiene synthase > GO:trichodiene synthase activity ; GO:
 InterPro:IPR024652 Trichodiene synthase > GO:sesquiterpenoid biosynthetic process ; GO:0016106
 InterPro:IPR024667 Heterogeneous nuclear ribonucleoprotein M > GO:RNA binding ; GO:0003723
 InterPro:IPR024667 Heterogeneous nuclear ribonucleoprotein M > GO:mRNA splicing, via spliceosome ; GO:0000398
+InterPro:IPR024678 Serine/threonine-protein kinase OSR1/WNK, CCT domain > GO:protein serine/threonine kinase activity ; GO:0004674
+InterPro:IPR024678 Serine/threonine-protein kinase OSR1/WNK, CCT domain > GO:ATP binding ; GO:0005524
 InterPro:IPR024688 Maltose/galactoside acetyltransferase > GO:acetyltransferase activity ; GO:0016407
 InterPro:IPR024690 Nitrile hydratase beta subunit domain > GO:nitrile hydratase activity ; GO:0018822
 InterPro:IPR024692 Phosphotransferase system, enzyme I > GO:phosphoenolpyruvate-protein phosphotransferase activity ; GO:0008965
@@ -27486,7 +27486,7 @@ InterPro:IPR028646 Sorting nexin-18 > GO:phosphatidylinositol binding ; GO:00350
 InterPro:IPR028646 Sorting nexin-18 > GO:mitotic cytokinesis ; GO:0000281
 InterPro:IPR028646 Sorting nexin-18 > GO:intracellular protein transport ; GO:0006886
 InterPro:IPR028646 Sorting nexin-18 > GO:endocytosis ; GO:0006897
-InterPro:IPR028647 Inhibitor of growth protein 4 > GO:methylated histone residue binding ; GO:0035064
+InterPro:IPR028647 Inhibitor of growth protein 4 > GO:methylated histone binding ; GO:0035064
 InterPro:IPR028647 Inhibitor of growth protein 4 > GO:negative regulation of cell proliferation ; GO:0008285
 InterPro:IPR028647 Inhibitor of growth protein 4 > GO:histone acetylation ; GO:0016573
 InterPro:IPR028647 Inhibitor of growth protein 4 > GO:positive regulation of apoptotic process ; GO:0043065
@@ -27501,7 +27501,7 @@ InterPro:IPR028650 Sorting nexin Lst-4 > GO:phagosome-lysosome fusion involved i
 InterPro:IPR028650 Sorting nexin Lst-4 > GO:phagocytic vesicle ; GO:0045335
 InterPro:IPR028651 ING family > GO:chromatin modification ; GO:0016568
 InterPro:IPR028651 ING family > GO:nucleus ; GO:0005634
-InterPro:IPR028652 PHD finger protein ING2 > GO:methylated histone residue binding ; GO:0035064
+InterPro:IPR028652 PHD finger protein ING2 > GO:methylated histone binding ; GO:0035064
 InterPro:IPR028652 PHD finger protein ING2 > GO:chromatin modification ; GO:0016568
 InterPro:IPR028653 Sorting nexin-2 > GO:intracellular protein transport ; GO:0006886
 InterPro:IPR028653 Sorting nexin-2 > GO:endocytosis ; GO:0006897
@@ -27972,7 +27972,7 @@ InterPro:IPR029092 ZW10 interactor > GO:kinetochore ; GO:0000776
 InterPro:IPR029094 Draxin > GO:axon guidance ; GO:0007411
 InterPro:IPR029094 Draxin > GO:Wnt signaling pathway ; GO:0016055
 InterPro:IPR029094 Draxin > GO:extracellular region ; GO:0005576
-InterPro:IPR029096 Developmental pluripotency-associated protein 3 > GO:methylated histone residue binding ; GO:0035064
+InterPro:IPR029096 Developmental pluripotency-associated protein 3 > GO:methylated histone binding ; GO:0035064
 InterPro:IPR029131 HAUS augmin-like complex subunit 5 > GO:spindle assembly ; GO:0051225
 InterPro:IPR029136 Nuclear protein MDM1 > GO:nucleus ; GO:0005634
 InterPro:IPR029138 snRNA-activating protein complex subunit 5 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
@@ -28069,3 +28069,20 @@ InterPro:IPR029508 Coronin 1A > GO:leukocyte chemotaxis ; GO:0030595
 InterPro:IPR029510 Aldehyde dehydrogenase, glutamic acid active site > GO:oxidoreductase activity ; GO:0016491
 InterPro:IPR029510 Aldehyde dehydrogenase, glutamic acid active site > GO:metabolic process ; GO:0008152
 InterPro:IPR029510 Aldehyde dehydrogenase, glutamic acid active site > GO:oxidation-reduction process ; GO:0055114
+InterPro:IPR029513 Transferrin receptor protein 1 > GO:transferrin receptor activity ; GO:0004998
+InterPro:IPR029513 Transferrin receptor protein 1 > GO:cellular iron ion homeostasis ; GO:0006879
+InterPro:IPR029513 Transferrin receptor protein 1 > GO:receptor-mediated endocytosis ; GO:0006898
+InterPro:IPR029513 Transferrin receptor protein 1 > GO:transferrin transport ; GO:0033572
+InterPro:IPR029513 Transferrin receptor protein 1 > GO:plasma membrane ; GO:0005886
+InterPro:IPR029514 Aminopeptidase Y > GO:aminopeptidase activity ; GO:0004177
+InterPro:IPR029515 LAR-interacting protein, Liprin > GO:cell-matrix adhesion ; GO:0007160
+InterPro:IPR029515 LAR-interacting protein, Liprin > GO:signal transduction ; GO:0007165
+InterPro:IPR029515 LAR-interacting protein, Liprin > GO:presynaptic active zone ; GO:0048786
+InterPro:IPR029516 Histone demethylase UTY > GO:metal ion binding ; GO:0046872
+InterPro:IPR029516 Histone demethylase UTY > GO:histone demethylase activity (H3-K27 specific) ; GO:0071558
+InterPro:IPR029517 Lysine-specific demethylase 6A > GO:metal ion binding ; GO:0046872
+InterPro:IPR029517 Lysine-specific demethylase 6A > GO:histone demethylase activity (H3-K27 specific) ; GO:0071558
+InterPro:IPR029518 Lysine-specific demethylase 6B > GO:metal ion binding ; GO:0046872
+InterPro:IPR029518 Lysine-specific demethylase 6B > GO:histone demethylase activity (H3-K27 specific) ; GO:0071558
+InterPro:IPR029519 Nucleoredoxin-like protein 2 > GO:photoreceptor cell maintenance ; GO:0045494
+InterPro:IPR029520 Nucleoredoxin-like protein 1 > GO:photoreceptor cell maintenance ; GO:0045494

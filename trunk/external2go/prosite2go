@@ -1,4 +1,4 @@
-!version date: 2014/05/17 12:40:21
+!version date: 2014/05/24 10:36:48
 !description: Mapping of GO terms to PROSITE entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://www.expasy.org/prosite/
 !citation: Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -561,7 +561,7 @@ PROSITE:MF_00223 FolE > GO:cytoplasm ; GO:0005737
 PROSITE:MF_00224 DHO_dh_type1 > GO:dihydroorotate dehydrogenase activity ; GO:0004152
 PROSITE:MF_00224 DHO_dh_type1 > GO:pyrimidine nucleotide biosynthetic process ; GO:0006221
 PROSITE:MF_00224 DHO_dh_type1 > GO:cytoplasm ; GO:0005737
-PROSITE:MF_00225 DHO_dh_type2 > GO:dihydroorotate oxidase activity ; GO:0004158
+PROSITE:MF_00225 DHO_dh_type2 > GO:dihydroorotate dehydrogenase activity ; GO:0004152
 PROSITE:MF_00225 DHO_dh_type2 > GO:'de novo' pyrimidine nucleobase biosynthetic process ; GO:0006207
 PROSITE:MF_00225 DHO_dh_type2 > GO:oxidation-reduction process ; GO:0055114
 PROSITE:MF_00225 DHO_dh_type2 > GO:membrane ; GO:0016020
@@ -3882,7 +3882,7 @@ PROSITE:MF_03100 Endonuc_su_Slx1 > GO:5'-flap endonuclease activity ; GO:0017108
 PROSITE:MF_03100 Endonuc_su_Slx1 > GO:DNA repair ; GO:0006281
 PROSITE:MF_03100 Endonuc_su_Slx1 > GO:Slx1-Slx4 complex ; GO:0033557
 PROSITE:MF_03101 Deoxyhypusine_hydroxylase > GO:deoxyhypusine monooxygenase activity ; GO:0019135
-PROSITE:MF_03101 Deoxyhypusine_hydroxylase > GO:peptidyl-lysine modification to hypusine ; GO:0008612
+PROSITE:MF_03101 Deoxyhypusine_hydroxylase > GO:peptidyl-lysine modification to peptidyl-hypusine ; GO:0008612
 PROSITE:MF_03102 Mdm10 > GO:mitochondrion organization ; GO:0007005
 PROSITE:MF_03102 Mdm10 > GO:ERMES complex ; GO:0032865
 PROSITE:MF_03103 Mmm1 > GO:mitochondrion organization ; GO:0007005
@@ -6590,7 +6590,7 @@ PROSITE:PS50227 G_PROTEIN_RECEP_F2_3 > GO:membrane ; GO:0016020
 PROSITE:PS50228 SUEL_LECTIN > GO:carbohydrate binding ; GO:0030246
 PROSITE:PS50236 CHCR > GO:intracellular protein transport ; GO:0006886
 PROSITE:PS50236 CHCR > GO:vesicle-mediated transport ; GO:0016192
-PROSITE:PS50237 HECT > GO:ubiquitin-protein ligase activity ; GO:0004842
+PROSITE:PS50237 HECT > GO:ubiquitin-protein transferase activity ; GO:0004842
 PROSITE:PS50238 RHOGAP > GO:signal transduction ; GO:0007165
 PROSITE:PS50240 TRYPSIN_DOM > GO:serine-type endopeptidase activity ; GO:0004252
 PROSITE:PS50240 TRYPSIN_DOM > GO:proteolysis ; GO:0006508
@@ -7080,7 +7080,7 @@ PROSITE:PS51150 AGOUTI_2 > GO:receptor binding ; GO:0005102
 PROSITE:PS51152 NFYA_HAP2_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS51152 NFYA_HAP2_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51155 CHIT_BIND_RR_2 > GO:structural constituent of cuticle ; GO:0042302
-PROSITE:PS51157 ZF_UBR > GO:ubiquitin-protein ligase activity ; GO:0004842
+PROSITE:PS51157 ZF_UBR > GO:ubiquitin-protein transferase activity ; GO:0004842
 PROSITE:PS51157 ZF_UBR > GO:zinc ion binding ; GO:0008270
 PROSITE:PS51158 ALPHA_KINASE > GO:protein serine/threonine kinase activity ; GO:0004674
 PROSITE:PS51158 ALPHA_KINASE > GO:ATP binding ; GO:0005524
@@ -7091,7 +7091,7 @@ PROSITE:PS51164 CBM1_2 > GO:hydrolase activity, hydrolyzing O-glycosyl compounds
 PROSITE:PS51164 CBM1_2 > GO:cellulose binding ; GO:0030248
 PROSITE:PS51164 CBM1_2 > GO:carbohydrate metabolic process ; GO:0005975
 PROSITE:PS51164 CBM1_2 > GO:extracellular region ; GO:0005576
-PROSITE:PS51165 THUMP > GO:molecular_function ; GO:0003674
+PROSITE:PS51165 THUMP > GO:RNA binding ; GO:0003723
 PROSITE:PS51166 CBM20 > GO:starch binding ; GO:2001070
 PROSITE:PS51168 CHORISMATE_MUT_2 > GO:chorismate metabolic process ; GO:0046417
 PROSITE:PS51169 CHORISMATE_MUT_3 > GO:chorismate mutase activity ; GO:0004106
@@ -7433,7 +7433,7 @@ PROSITE:PS51413 DBINO > GO:hydrolase activity, acting on acid anhydrides ; GO:00
 PROSITE:PS51414 HSR > GO:nucleus ; GO:0005634
 PROSITE:PS51415 XYLOSE_ISOMERASE > GO:xylose isomerase activity ; GO:0009045
 PROSITE:PS51415 XYLOSE_ISOMERASE > GO:carbohydrate metabolic process ; GO:0005975
-PROSITE:PS51416 MIB_HERC2 > GO:ubiquitin-protein ligase activity ; GO:0004842
+PROSITE:PS51416 MIB_HERC2 > GO:ubiquitin-protein transferase activity ; GO:0004842
 PROSITE:PS51416 MIB_HERC2 > GO:metal ion binding ; GO:0046872
 PROSITE:PS51416 MIB_HERC2 > GO:protein ubiquitination ; GO:0016567
 PROSITE:PS51417 ARF > GO:GTP binding ; GO:0005525

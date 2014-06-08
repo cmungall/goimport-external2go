@@ -1,4 +1,4 @@
-!version date: 2014/06/04 08:11:20
+!version date: 2014/06/07 14:46:03
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -681,8 +681,10 @@ PRINTS:PR00321 GPROTEING > GO:signal transducer activity ; GO:0004871
 PRINTS:PR00321 GPROTEING > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00321 GPROTEING > GO:heterotrimeric G-protein complex ; GO:0005834
 PRINTS:PR00322 G10 > GO:nucleus ; GO:0005634
-PRINTS:PR00323 GALLIDERMIN > GO:defense response to Gram-positive bacterium ; GO:0050830
-PRINTS:PR00324 NISIN > GO:defense response to Gram-positive bacterium ; GO:0050830
+PRINTS:PR00323 GALLIDERMIN > GO:defense response to bacterium ; GO:0042742
+PRINTS:PR00323 GALLIDERMIN > GO:extracellular region ; GO:0005576
+PRINTS:PR00324 NISIN > GO:defense response to bacterium ; GO:0042742
+PRINTS:PR00324 NISIN > GO:extracellular region ; GO:0005576
 PRINTS:PR00325 GERMIN > GO:manganese ion binding ; GO:0030145
 PRINTS:PR00326 GTP1OBG > GO:GTP binding ; GO:0005525
 PRINTS:PR00327 ICENUCLEATN > GO:cell outer membrane ; GO:0009279
@@ -3646,8 +3648,6 @@ PRINTS:PR01499 TREKCHANNEL > GO:potassium ion transmembrane transport ; GO:00718
 PRINTS:PR01499 TREKCHANNEL > GO:membrane ; GO:0016020
 PRINTS:PR01500 TROPOELASTIN > GO:extracellular matrix structural constituent ; GO:0005201
 PRINTS:PR01500 TROPOELASTIN > GO:proteinaceous extracellular matrix ; GO:0005578
-PRINTS:PR01501 TOXICSSTOXIN > GO:pathogenesis ; GO:0009405
-PRINTS:PR01501 TOXICSSTOXIN > GO:extracellular region ; GO:0005576
 PRINTS:PR01505 PROTHROMBIN > GO:serine-type endopeptidase activity ; GO:0004252
 PRINTS:PR01505 PROTHROMBIN > GO:calcium ion binding ; GO:0005509
 PRINTS:PR01505 PROTHROMBIN > GO:proteolysis ; GO:0006508
@@ -4311,7 +4311,9 @@ PRINTS:PR01751 AP2CTNSCPFCT > GO:nucleus ; GO:0005634
 PRINTS:PR01752 UREASE > GO:urease activity ; GO:0009039
 PRINTS:PR01752 UREASE > GO:nickel cation binding ; GO:0016151
 PRINTS:PR01752 UREASE > GO:nitrogen compound metabolic process ; GO:0006807
-PRINTS:PR01753 STREPKINASE > GO:serine-type endopeptidase activity ; GO:0004252
+PRINTS:PR01753 STREPKINASE > GO:pathogenesis ; GO:0009405
+PRINTS:PR01753 STREPKINASE > GO:plasminogen activation ; GO:0031639
+PRINTS:PR01753 STREPKINASE > GO:extracellular region ; GO:0005576
 PRINTS:PR01754 SACTRNSFRASE > GO:transferase activity, transferring acyl groups ; GO:0016746
 PRINTS:PR01754 SACTRNSFRASE > GO:metabolic process ; GO:0008152
 PRINTS:PR01756 OMADHESIN > GO:collagen binding ; GO:0005518

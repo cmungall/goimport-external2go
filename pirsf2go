@@ -1,4 +1,4 @@
-!version date: 2014/06/04 08:11:20
+!version date: 2014/06/07 14:46:03
 !description: Mapping of GO terms to PIRSF entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pir.georgetown.edu/pirsf/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -2243,6 +2243,7 @@ PIRSF:PIRSF011489 DUF479 > GO:[acyl-carrier-protein] phosphodiesterase activity 
 PIRSF:PIRSF011489 DUF479 > GO:fatty acid biosynthetic process ; GO:0006633
 PIRSF:PIRSF011515 EspG > GO:cysteine-type endopeptidase activity ; GO:0004197
 PIRSF:PIRSF011515 EspG > GO:pathogenesis ; GO:0009405
+PIRSF:PIRSF011560 ComK > GO:establishment of competence for transformation ; GO:0030420
 PIRSF:PIRSF011561 PAD > GO:carboxy-lyase activity ; GO:0016831
 PIRSF:PIRSF011572 GTP_sensing_CodY > GO:DNA binding ; GO:0003677
 PIRSF:PIRSF011572 GTP_sensing_CodY > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
@@ -2709,6 +2710,9 @@ PIRSF:PIRSF020588 Flk > GO:regulation of gene expression ; GO:0010468
 PIRSF:PIRSF020588 Flk > GO:intrinsic component of membrane ; GO:0031224
 PIRSF:PIRSF020623 PaaX > GO:transcription, DNA-templated ; GO:0006351
 PIRSF:PIRSF020680 PhnH > GO:organic phosphonate metabolic process ; GO:0019634
+PIRSF:PIRSF021278 AcuA > GO:acetoin dehydrogenase activity ; GO:0019152
+PIRSF:PIRSF021278 AcuA > GO:acetoin catabolic process ; GO:0045150
+PIRSF:PIRSF021292 Competence_ComGD > GO:establishment of competence for transformation ; GO:0030420
 PIRSF:PIRSF021362 UCP021362_HAD > GO:phosphatase activity ; GO:0016791
 PIRSF:PIRSF021424 RTP > GO:DNA binding ; GO:0003677
 PIRSF:PIRSF021424 RTP > GO:DNA replication termination ; GO:0006274
@@ -2870,6 +2874,7 @@ PIRSF:PIRSF031057 Thiamin_pyrophosphokinase > GO:thiamine diphosphate biosynthet
 PIRSF:PIRSF031134 MTRK > GO:S-methyl-5-thioribose kinase activity ; GO:0046522
 PIRSF:PIRSF031134 MTRK > GO:methionine biosynthetic process ; GO:0009086
 PIRSF:PIRSF031402 SYS1_homologue > GO:Golgi membrane ; GO:0000139
+PIRSF:PIRSF031501 QueT > GO:plasma membrane ; GO:0005886
 PIRSF:PIRSF031715 Cob_chel_CobT > GO:cobalamin biosynthetic process ; GO:0009236
 PIRSF:PIRSF032067 Cyanophycinase > GO:hydrolase activity ; GO:0016787
 PIRSF:PIRSF032067 Cyanophycinase > GO:cellular macromolecule metabolic process ; GO:0044260
@@ -3223,10 +3228,9 @@ PIRSF:PIRSF037215 Peptidase_M20B > GO:tripeptide aminopeptidase activity ; GO:00
 PIRSF:PIRSF037215 Peptidase_M20B > GO:peptide metabolic process ; GO:0006518
 PIRSF:PIRSF037215 Peptidase_M20B > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF037217 Carboxypeptidase_S > GO:metallocarboxypeptidase activity ; GO:0004181
-PIRSF:PIRSF037219 NOS_oxygenase > GO:oxidoreductase activity ; GO:0016491
+PIRSF:PIRSF037219 NOS_oxygenase > GO:nitric-oxide synthase activity ; GO:0004517
 PIRSF:PIRSF037219 NOS_oxygenase > GO:heme binding ; GO:0020037
 PIRSF:PIRSF037219 NOS_oxygenase > GO:nitric oxide biosynthetic process ; GO:0006809
-PIRSF:PIRSF037219 NOS_oxygenase > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF037239 Exonuclease_Xrn2 > GO:5'-3' exoribonuclease activity ; GO:0004534
 PIRSF:PIRSF037239 Exonuclease_Xrn2 > GO:nucleobase-containing compound metabolic process ; GO:0006139
 PIRSF:PIRSF037239 Exonuclease_Xrn2 > GO:nucleus ; GO:0005634
@@ -3360,7 +3364,6 @@ PIRSF:PIRSF037726 Interleukin-22 > GO:extracellular region ; GO:0005576
 PIRSF:PIRSF037730 CWA_LytH_prd > GO:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides ; GO:0016811
 PIRSF:PIRSF037730 CWA_LytH_prd > GO:cell wall organization ; GO:0071555
 PIRSF:PIRSF037730 CWA_LytH_prd > GO:extracellular region ; GO:0005576
-PIRSF:PIRSF037732 YlbP_prd > GO:transferase activity, transferring acyl groups other than amino-acyl groups ; GO:0016747
 PIRSF:PIRSF037733 Transcription_factor_FapR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PIRSF:PIRSF037733 Transcription_factor_FapR > GO:negative regulation of fatty acid biosynthetic process ; GO:0045717
 PIRSF:PIRSF037733 Transcription_factor_FapR > GO:negative regulation of transcription, DNA-templated ; GO:0045892

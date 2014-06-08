@@ -1,4 +1,4 @@
-!version date: 2014/06/04 08:11:10
+!version date: 2014/06/07 14:46:03
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -2442,7 +2442,6 @@ Pfam:PF01384 PHO4 > GO:membrane ; GO:0016020
 Pfam:PF01386 Ribosomal_L25p > GO:structural constituent of ribosome ; GO:0003735
 Pfam:PF01386 Ribosomal_L25p > GO:5S rRNA binding ; GO:0008097
 Pfam:PF01386 Ribosomal_L25p > GO:translation ; GO:0006412
-Pfam:PF01386 Ribosomal_L25p > GO:intracellular ; GO:0005622
 Pfam:PF01386 Ribosomal_L25p > GO:ribosome ; GO:0005840
 Pfam:PF01388 ARID > GO:DNA binding ; GO:0003677
 Pfam:PF01388 ARID > GO:intracellular ; GO:0005622
@@ -3342,7 +3341,8 @@ Pfam:PF02049 FliE > GO:motor activity ; GO:0003774
 Pfam:PF02049 FliE > GO:structural molecule activity ; GO:0005198
 Pfam:PF02049 FliE > GO:bacterial-type flagellum-dependent cell motility ; GO:0071973
 Pfam:PF02049 FliE > GO:bacterial-type flagellum ; GO:0009288
-Pfam:PF02052 Gallidermin > GO:defense response to Gram-positive bacterium ; GO:0050830
+Pfam:PF02052 Gallidermin > GO:defense response to bacterium ; GO:0042742
+Pfam:PF02052 Gallidermin > GO:extracellular region ; GO:0005576
 Pfam:PF02053 Gene66 > GO:zinc ion binding ; GO:0008270
 Pfam:PF02055 Glyco_hydro_30 > GO:glucosylceramidase activity ; GO:0004348
 Pfam:PF02055 Glyco_hydro_30 > GO:sphingolipid metabolic process ; GO:0006665
@@ -4385,14 +4385,15 @@ Pfam:PF02819 Toxin_9 > GO:pathogenesis ; GO:0009405
 Pfam:PF02819 Toxin_9 > GO:extracellular region ; GO:0005576
 Pfam:PF02820 MBT > GO:regulation of transcription, DNA-templated ; GO:0006355
 Pfam:PF02820 MBT > GO:nucleus ; GO:0005634
-Pfam:PF02821 Staphylokinase > GO:serine-type endopeptidase activity ; GO:0004252
+Pfam:PF02821 Staphylokinase > GO:pathogenesis ; GO:0009405
+Pfam:PF02821 Staphylokinase > GO:plasminogen activation ; GO:0031639
+Pfam:PF02821 Staphylokinase > GO:extracellular region ; GO:0005576
 Pfam:PF02822 Antistasin > GO:serine-type endopeptidase inhibitor activity ; GO:0004867
 Pfam:PF02823 ATP-synt_DE_N > GO:proton-transporting ATP synthase activity, rotational mechanism ; GO:0046933
 Pfam:PF02823 ATP-synt_DE_N > GO:proton-transporting ATPase activity, rotational mechanism ; GO:0046961
 Pfam:PF02823 ATP-synt_DE_N > GO:ATP synthesis coupled proton transport ; GO:0015986
 Pfam:PF02823 ATP-synt_DE_N > GO:proton-transporting ATP synthase complex, catalytic core F(1) ; GO:0045261
-Pfam:PF02826 2-Hacid_dh_C > GO:oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor ; GO:0016616
-Pfam:PF02826 2-Hacid_dh_C > GO:cofactor binding ; GO:0048037
+Pfam:PF02826 2-Hacid_dh_C > GO:NAD binding ; GO:0051287
 Pfam:PF02826 2-Hacid_dh_C > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF02827 PKI > GO:cAMP-dependent protein kinase inhibitor activity ; GO:0004862
 Pfam:PF02827 PKI > GO:negative regulation of protein kinase activity ; GO:0006469
@@ -6126,7 +6127,7 @@ Pfam:PF04597 Ribophorin_I > GO:endoplasmic reticulum ; GO:0005783
 Pfam:PF04597 Ribophorin_I > GO:integral component of membrane ; GO:0016021
 Pfam:PF04602 Arabinose_trans > GO:arabinosyltransferase activity ; GO:0052636
 Pfam:PF04602 Arabinose_trans > GO:Actinobacterium-type cell wall biogenesis ; GO:0071766
-Pfam:PF04604 L_biotic_typeA > GO:secondary metabolic process ; GO:0019748
+Pfam:PF04604 L_biotic_typeA > GO:defense response to bacterium ; GO:0042742
 Pfam:PF04604 L_biotic_typeA > GO:extracellular region ; GO:0005576
 Pfam:PF04607 RelA_SpoT > GO:guanosine tetraphosphate metabolic process ; GO:0015969
 Pfam:PF04608 PgpA > GO:phosphatidylglycerophosphatase activity ; GO:0008962
@@ -7407,6 +7408,7 @@ Pfam:PF06160 EzrA > GO:septin ring assembly ; GO:0000921
 Pfam:PF06160 EzrA > GO:septin ring ; GO:0005940
 Pfam:PF06160 EzrA > GO:integral component of membrane ; GO:0016021
 Pfam:PF06176 WaaY > GO:lipopolysaccharide core region biosynthetic process ; GO:0009244
+Pfam:PF06177 QueT > GO:plasma membrane ; GO:0005886
 Pfam:PF06179 Med22 > GO:RNA polymerase II transcription cofactor activity ; GO:0001104
 Pfam:PF06179 Med22 > GO:regulation of transcription from RNA polymerase II promoter ; GO:0006357
 Pfam:PF06179 Med22 > GO:mediator complex ; GO:0016592
@@ -7495,6 +7497,7 @@ Pfam:PF06333 Med13_C > GO:RNA polymerase II transcription cofactor activity ; GO
 Pfam:PF06333 Med13_C > GO:regulation of transcription from RNA polymerase II promoter ; GO:0006357
 Pfam:PF06333 Med13_C > GO:mediator complex ; GO:0016592
 Pfam:PF06337 DUSP > GO:ubiquitin-specific protease activity ; GO:0004843
+Pfam:PF06338 ComK > GO:establishment of competence for transformation ; GO:0030420
 Pfam:PF06339 Ectoine_synth > GO:ectoine synthase activity ; GO:0033990
 Pfam:PF06339 Ectoine_synth > GO:ectoine biosynthetic process ; GO:0019491
 Pfam:PF06344 Parecho_VpG > GO:viral genome ; GO:0019015
@@ -8082,6 +8085,7 @@ Pfam:PF07294 Fibroin_P25 > GO:structural molecule activity ; GO:0005198
 Pfam:PF07294 Fibroin_P25 > GO:extracellular region ; GO:0005576
 Pfam:PF07297 DPM2 > GO:macromolecule biosynthetic process ; GO:0009059
 Pfam:PF07297 DPM2 > GO:integral component of endoplasmic reticulum membrane ; GO:0030176
+Pfam:PF07307 HEPPP_synt_1 > GO:menaquinone biosynthetic process ; GO:0009234
 Pfam:PF07328 VirD1 > GO:endonuclease activity ; GO:0004519
 Pfam:PF07340 Herpes_IE1 > GO:regulation of viral process ; GO:0050792
 Pfam:PF07340 Herpes_IE1 > GO:host cell nucleus ; GO:0042025
@@ -8166,7 +8170,6 @@ Pfam:PF07487 SopE_GEF > GO:guanyl-nucleotide exchange factor activity ; GO:00050
 Pfam:PF07487 SopE_GEF > GO:pathogenesis ; GO:0009405
 Pfam:PF07487 SopE_GEF > GO:actin cytoskeleton reorganization ; GO:0031532
 Pfam:PF07487 SopE_GEF > GO:activation of Rho GTPase activity ; GO:0032862
-Pfam:PF07487 SopE_GEF > GO:extracellular region ; GO:0005576
 Pfam:PF07488 Glyco_hydro_67M > GO:alpha-glucuronidase activity ; GO:0046559
 Pfam:PF07488 Glyco_hydro_67M > GO:xylan catabolic process ; GO:0045493
 Pfam:PF07488 Glyco_hydro_67M > GO:extracellular region ; GO:0005576

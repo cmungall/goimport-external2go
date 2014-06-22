@@ -1,4 +1,4 @@
-!version date: 2014/06/07 14:46:03
+!version date: 2014/06/21 15:06:04
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -262,7 +262,6 @@ PRINTS:PR00112 ACYLPHPHTASE > GO:acylphosphatase activity ; GO:0003998
 PRINTS:PR00113 ALKPHPHTASE > GO:phosphatase activity ; GO:0016791
 PRINTS:PR00113 ALKPHPHTASE > GO:metabolic process ; GO:0008152
 PRINTS:PR00114 STPHPHTASE > GO:hydrolase activity ; GO:0016787
-PRINTS:PR00116 ARGINASE > GO:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amidines ; GO:0016813
 PRINTS:PR00116 ARGINASE > GO:metal ion binding ; GO:0046872
 PRINTS:PR00117 BARNASE > GO:RNA binding ; GO:0003723
 PRINTS:PR00117 BARNASE > GO:endoribonuclease activity ; GO:0004521
@@ -875,10 +874,6 @@ PRINTS:PR00418 TPI2FAMILY > GO:ATP binding ; GO:0005524
 PRINTS:PR00418 TPI2FAMILY > GO:DNA topological change ; GO:0006265
 PRINTS:PR00420 RNGMNOXGNASE > GO:oxidoreductase activity ; GO:0016491
 PRINTS:PR00420 RNGMNOXGNASE > GO:metabolic process ; GO:0008152
-PRINTS:PR00422 TRANSFERRIN > GO:ferric iron binding ; GO:0008199
-PRINTS:PR00422 TRANSFERRIN > GO:iron ion transport ; GO:0006826
-PRINTS:PR00422 TRANSFERRIN > GO:cellular iron ion homeostasis ; GO:0006879
-PRINTS:PR00422 TRANSFERRIN > GO:extracellular region ; GO:0005576
 PRINTS:PR00423 CELLDVISFTSZ > GO:GTP binding ; GO:0005525
 PRINTS:PR00423 CELLDVISFTSZ > GO:cytoplasm ; GO:0005737
 PRINTS:PR00424 ADENOSINER > GO:G-protein coupled adenosine receptor activity ; GO:0001609
@@ -1711,7 +1706,9 @@ PRINTS:PR00704 CALPAIN > GO:proteolysis ; GO:0006508
 PRINTS:PR00704 CALPAIN > GO:intracellular ; GO:0005622
 PRINTS:PR00705 PAPAIN > GO:cysteine-type peptidase activity ; GO:0008234
 PRINTS:PR00705 PAPAIN > GO:proteolysis ; GO:0006508
+PRINTS:PR00706 PYROGLUPTASE > GO:pyroglutamyl-peptidase activity ; GO:0016920
 PRINTS:PR00706 PYROGLUPTASE > GO:proteolysis ; GO:0006508
+PRINTS:PR00706 PYROGLUPTASE > GO:cytosol ; GO:0005829
 PRINTS:PR00707 UBCTHYDRLASE > GO:ubiquitin-specific protease activity ; GO:0004843
 PRINTS:PR00707 UBCTHYDRLASE > GO:ubiquitin-dependent protein catabolic process ; GO:0006511
 PRINTS:PR00707 UBCTHYDRLASE > GO:intracellular ; GO:0005622
@@ -2056,10 +2053,12 @@ PRINTS:PR00867 DNAPOLG > GO:gamma DNA polymerase complex ; GO:0005760
 PRINTS:PR00868 DNAPOLI > GO:DNA binding ; GO:0003677
 PRINTS:PR00868 DNAPOLI > GO:DNA-directed DNA polymerase activity ; GO:0003887
 PRINTS:PR00868 DNAPOLI > GO:DNA replication ; GO:0006260
-PRINTS:PR00869 DNAPOLX > GO:nucleotidyltransferase activity ; GO:0016779
+PRINTS:PR00869 DNAPOLX > GO:DNA binding ; GO:0003677
+PRINTS:PR00869 DNAPOLX > GO:DNA polymerase activity ; GO:0034061
+PRINTS:PR00869 DNAPOLX > GO:nucleus ; GO:0005634
 PRINTS:PR00870 DNAPOLXBETA > GO:DNA binding ; GO:0003677
 PRINTS:PR00870 DNAPOLXBETA > GO:DNA repair ; GO:0006281
-PRINTS:PR00871 DNAPOLXTDT > GO:nucleotidyltransferase activity ; GO:0016779
+PRINTS:PR00871 DNAPOLXTDT > GO:DNA polymerase activity ; GO:0034061
 PRINTS:PR00872 MTDIPTERA > GO:metal ion binding ; GO:0046872
 PRINTS:PR00873 MTECHINOIDEA > GO:metal ion binding ; GO:0046872
 PRINTS:PR00874 MTFUNGIIV > GO:copper ion binding ; GO:0005507
@@ -2196,8 +2195,7 @@ PRINTS:PR00944 CUEXPORT > GO:copper ion transport ; GO:0006825
 PRINTS:PR00945 HGRDTASE > GO:oxidoreductase activity ; GO:0016491
 PRINTS:PR00945 HGRDTASE > GO:flavin adenine dinucleotide binding ; GO:0050660
 PRINTS:PR00945 HGRDTASE > GO:oxidation-reduction process ; GO:0055114
-PRINTS:PR00946 HGSCAVENGER > GO:mercury ion transmembrane transporter activity ; GO:0015097
-PRINTS:PR00946 HGSCAVENGER > GO:mercury ion transport ; GO:0015694
+PRINTS:PR00946 HGSCAVENGER > GO:metal ion binding ; GO:0046872
 PRINTS:PR00947 CUTICLE > GO:structural constituent of cuticle ; GO:0042302
 PRINTS:PR00948 ELICITIN > GO:defense response ; GO:0006952
 PRINTS:PR00948 ELICITIN > GO:pathogenesis ; GO:0009405
@@ -2329,6 +2327,7 @@ PRINTS:PR00994 BRADYKINNB2R > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00995 CAPILLOPTASE > GO:serine-type endopeptidase activity ; GO:0004252
 PRINTS:PR00995 CAPILLOPTASE > GO:proteolysis ; GO:0006508
 PRINTS:PR00996 CHERMTFRASE > GO:S-adenosylmethionine-dependent methyltransferase activity ; GO:0008757
+PRINTS:PR00997 FRAGILYSIN > GO:metallopeptidase activity ; GO:0008237
 PRINTS:PR00998 CRBOXYPTASET > GO:metallocarboxypeptidase activity ; GO:0004181
 PRINTS:PR00998 CRBOXYPTASET > GO:proteolysis ; GO:0006508
 PRINTS:PR00999 FUNGALYSIN > GO:metalloendopeptidase activity ; GO:0004222
@@ -4314,8 +4313,6 @@ PRINTS:PR01752 UREASE > GO:nitrogen compound metabolic process ; GO:0006807
 PRINTS:PR01753 STREPKINASE > GO:pathogenesis ; GO:0009405
 PRINTS:PR01753 STREPKINASE > GO:plasminogen activation ; GO:0031639
 PRINTS:PR01753 STREPKINASE > GO:extracellular region ; GO:0005576
-PRINTS:PR01754 SACTRNSFRASE > GO:transferase activity, transferring acyl groups ; GO:0016746
-PRINTS:PR01754 SACTRNSFRASE > GO:metabolic process ; GO:0008152
 PRINTS:PR01756 OMADHESIN > GO:collagen binding ; GO:0005518
 PRINTS:PR01756 OMADHESIN > GO:cell adhesion ; GO:0007155
 PRINTS:PR01756 OMADHESIN > GO:pathogenesis ; GO:0009405

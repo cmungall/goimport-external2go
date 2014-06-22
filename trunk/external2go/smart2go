@@ -1,4 +1,4 @@
-!version date: 2014/06/07 14:46:06
+!version date: 2014/06/21 15:06:04
 !description: Mapping of GO terms to SMART entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://smart.embl-heidelberg.de/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -61,7 +61,6 @@ SMART:SM00045 DAGKa > GO:protein kinase C-activating G-protein coupled receptor 
 SMART:SM00046 DAGKc > GO:diacylglycerol kinase activity ; GO:0004143
 SMART:SM00046 DAGKc > GO:protein kinase C-activating G-protein coupled receptor signaling pathway ; GO:0007205
 SMART:SM00047 LYZ2 > GO:hydrolase activity ; GO:0016787
-SMART:SM00047 LYZ2 > GO:cell wall macromolecule metabolic process ; GO:0044036
 SMART:SM00048 DEFSN > GO:defense response ; GO:0006952
 SMART:SM00048 DEFSN > GO:extracellular region ; GO:0005576
 SMART:SM00049 DEP > GO:intracellular signal transduction ; GO:0035556
@@ -119,10 +118,6 @@ SMART:SM00090 RIO > GO:protein serine/threonine kinase activity ; GO:0004674
 SMART:SM00090 RIO > GO:ATP binding ; GO:0005524
 SMART:SM00091 PAS > GO:signal transducer activity ; GO:0004871
 SMART:SM00091 PAS > GO:signal transduction ; GO:0007165
-SMART:SM00094 TR_FER > GO:ferric iron binding ; GO:0008199
-SMART:SM00094 TR_FER > GO:iron ion transport ; GO:0006826
-SMART:SM00094 TR_FER > GO:cellular iron ion homeostasis ; GO:0006879
-SMART:SM00094 TR_FER > GO:extracellular region ; GO:0005576
 SMART:SM00097 WNT1 > GO:receptor binding ; GO:0005102
 SMART:SM00097 WNT1 > GO:multicellular organismal development ; GO:0007275
 SMART:SM00097 WNT1 > GO:Wnt signaling pathway ; GO:0016055
@@ -628,9 +623,6 @@ SMART:SM00486 POLBc > GO:DNA-directed DNA polymerase activity ; GO:0003887
 SMART:SM00486 POLBc > GO:nucleobase-containing compound metabolic process ; GO:0006139
 SMART:SM00488 DEXDc2 > GO:ATP-dependent DNA helicase activity ; GO:0004003
 SMART:SM00488 DEXDc2 > GO:hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides ; GO:0016818
-SMART:SM00490 HELICc > GO:nucleic acid binding ; GO:0003676
-SMART:SM00490 HELICc > GO:helicase activity ; GO:0004386
-SMART:SM00490 HELICc > GO:ATP binding ; GO:0005524
 SMART:SM00491 HELICc2 > GO:nucleic acid binding ; GO:0003676
 SMART:SM00491 HELICc2 > GO:ATP binding ; GO:0005524
 SMART:SM00491 HELICc2 > GO:ATP-dependent helicase activity ; GO:0008026
@@ -900,8 +892,9 @@ SMART:SM00790 AFOR_N > GO:oxidation-reduction process ; GO:0055114
 SMART:SM00792 Agouti > GO:hormone-mediated signaling pathway ; GO:0009755
 SMART:SM00792 Agouti > GO:extracellular region ; GO:0005576
 SMART:SM00793 AgrB > GO:peptidase activity ; GO:0008233
-SMART:SM00793 AgrB > GO:proteolysis ; GO:0006508
-SMART:SM00793 AgrB > GO:membrane ; GO:0016020
+SMART:SM00793 AgrB > GO:quorum sensing ; GO:0009372
+SMART:SM00793 AgrB > GO:pathogenesis ; GO:0009405
+SMART:SM00793 AgrB > GO:integral component of membrane ; GO:0016021
 SMART:SM00798 AICARFT_IMPCHas > GO:IMP cyclohydrolase activity ; GO:0003937
 SMART:SM00798 AICARFT_IMPCHas > GO:phosphoribosylaminoimidazolecarboxamide formyltransferase activity ; GO:0004643
 SMART:SM00798 AICARFT_IMPCHas > GO:purine nucleotide biosynthetic process ; GO:0006164
@@ -1076,7 +1069,6 @@ SMART:SM00927 MutH > GO:endonuclease activity ; GO:0004519
 SMART:SM00928 NADH_4Fe-4S > GO:oxidation-reduction process ; GO:0055114
 SMART:SM00929 NADH-G_4Fe-4S_3 > GO:oxidoreductase activity ; GO:0016491
 SMART:SM00929 NADH-G_4Fe-4S_3 > GO:oxidation-reduction process ; GO:0055114
-SMART:SM00932 Nfu_N > GO:iron ion binding ; GO:0005506
 SMART:SM00934 OMPdecase > GO:orotidine-5'-phosphate decarboxylase activity ; GO:0004590
 SMART:SM00934 OMPdecase > GO:'de novo' pyrimidine nucleobase biosynthetic process ; GO:0006207
 SMART:SM00935 OmpH > GO:unfolded protein binding ; GO:0051082
@@ -1151,14 +1143,11 @@ SMART:SM00977 TilS_C > GO:cytoplasm ; GO:0005737
 SMART:SM00980 THAP > GO:nucleic acid binding ; GO:0003676
 SMART:SM00981 THUMP > GO:RNA binding ; GO:0003723
 SMART:SM00982 TRCF > GO:DNA repair ; GO:0006281
-SMART:SM00983 TPK_B1_binding > GO:thiamine diphosphokinase activity ; GO:0004788
+SMART:SM00983 TPK_B1_binding > GO:thiamine binding ; GO:0030975
 SMART:SM00983 TPK_B1_binding > GO:thiamine diphosphate biosynthetic process ; GO:0009229
 SMART:SM00984 UDPG_MGDP_dh_C > GO:oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor ; GO:0016616
 SMART:SM00984 UDPG_MGDP_dh_C > GO:NAD binding ; GO:0051287
 SMART:SM00984 UDPG_MGDP_dh_C > GO:oxidation-reduction process ; GO:0055114
-SMART:SM00988 UreE_N > GO:nickel cation binding ; GO:0016151
-SMART:SM00988 UreE_N > GO:protein complex assembly ; GO:0006461
-SMART:SM00988 UreE_N > GO:urea metabolic process ; GO:0019627
 SMART:SM00990 VRR_NUC > GO:hydrolase activity, acting on ester bonds ; GO:0016788
 SMART:SM00991 WHEP-TRS > GO:aminoacyl-tRNA ligase activity ; GO:0004812
 SMART:SM00991 WHEP-TRS > GO:ATP binding ; GO:0005524

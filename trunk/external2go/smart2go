@@ -1,4 +1,4 @@
-!version date: 2014/06/21 15:06:04
+!version date: 2014/06/28 16:16:25
 !description: Mapping of GO terms to SMART entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://smart.embl-heidelberg.de/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -22,9 +22,6 @@ SMART:SM00019 SF_P > GO:respiratory gaseous exchange ; GO:0007585
 SMART:SM00019 SF_P > GO:extracellular region ; GO:0005576
 SMART:SM00020 Tryp_SPc > GO:serine-type endopeptidase activity ; GO:0004252
 SMART:SM00020 Tryp_SPc > GO:proteolysis ; GO:0006508
-SMART:SM00021 DAX > GO:signal transducer activity ; GO:0004871
-SMART:SM00021 DAX > GO:multicellular organismal development ; GO:0007275
-SMART:SM00021 DAX > GO:intracellular ; GO:0005622
 SMART:SM00022 PLAc > GO:phospholipase activity ; GO:0004620
 SMART:SM00022 PLAc > GO:phospholipid catabolic process ; GO:0009395
 SMART:SM00023 COLIPASE > GO:enzyme activator activity ; GO:0008047
@@ -140,9 +137,7 @@ SMART:SM00112 CA > GO:homophilic cell adhesion ; GO:0007156
 SMART:SM00112 CA > GO:membrane ; GO:0016020
 SMART:SM00113 CALCITONIN > GO:hormone activity ; GO:0005179
 SMART:SM00113 CALCITONIN > GO:extracellular region ; GO:0005576
-SMART:SM00114 CARD > GO:protein binding ; GO:0005515
 SMART:SM00114 CARD > GO:regulation of apoptotic process ; GO:0042981
-SMART:SM00114 CARD > GO:intracellular ; GO:0005622
 SMART:SM00115 CASc > GO:cysteine-type peptidase activity ; GO:0008234
 SMART:SM00115 CASc > GO:apoptotic process ; GO:0006915
 SMART:SM00116 CBS > GO:adenyl nucleotide binding ; GO:0030554
@@ -176,7 +171,6 @@ SMART:SM00141 PDGF > GO:membrane ; GO:0016020
 SMART:SM00146 PI3Kc > GO:phosphotransferase activity, alcohol group as acceptor ; GO:0016773
 SMART:SM00147 RasGEF > GO:guanyl-nucleotide exchange factor activity ; GO:0005085
 SMART:SM00147 RasGEF > GO:small GTPase mediated signal transduction ; GO:0007264
-SMART:SM00147 RasGEF > GO:intracellular ; GO:0005622
 SMART:SM00149 PLCYc > GO:phosphatidylinositol phospholipase C activity ; GO:0004435
 SMART:SM00149 PLCYc > GO:lipid metabolic process ; GO:0006629
 SMART:SM00149 PLCYc > GO:signal transduction ; GO:0007165
@@ -398,7 +392,8 @@ SMART:SM00338 BRLZ > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00339 FH > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 SMART:SM00339 FH > GO:sequence-specific DNA binding ; GO:0043565
 SMART:SM00339 FH > GO:regulation of transcription, DNA-templated ; GO:0006355
-SMART:SM00340 HALZ > GO:DNA binding ; GO:0003677
+SMART:SM00340 HALZ > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00340 HALZ > GO:sequence-specific DNA binding ; GO:0043565
 SMART:SM00340 HALZ > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00340 HALZ > GO:nucleus ; GO:0005634
 SMART:SM00341 HRDC > GO:nucleic acid binding ; GO:0003676
@@ -450,9 +445,7 @@ SMART:SM00387 HATPase_c > GO:ATP binding ; GO:0005524
 SMART:SM00388 HisKA > GO:phosphorelay sensor kinase activity ; GO:0000155
 SMART:SM00388 HisKA > GO:signal transduction ; GO:0007165
 SMART:SM00388 HisKA > GO:membrane ; GO:0016020
-SMART:SM00389 HOX > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-SMART:SM00389 HOX > GO:sequence-specific DNA binding ; GO:0043565
-SMART:SM00389 HOX > GO:regulation of transcription, DNA-templated ; GO:0006355
+SMART:SM00389 HOX > GO:DNA binding ; GO:0003677
 SMART:SM00390 GoLoco > GO:GTPase regulator activity ; GO:0030695
 SMART:SM00391 MBD > GO:DNA binding ; GO:0003677
 SMART:SM00391 MBD > GO:nucleus ; GO:0005634
@@ -483,7 +476,6 @@ SMART:SM00413 ETS > GO:sequence-specific DNA binding transcription factor activi
 SMART:SM00413 ETS > GO:sequence-specific DNA binding ; GO:0043565
 SMART:SM00413 ETS > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00414 H2A > GO:DNA binding ; GO:0003677
-SMART:SM00414 H2A > GO:nucleosome assembly ; GO:0006334
 SMART:SM00414 H2A > GO:nucleosome ; GO:0000786
 SMART:SM00414 H2A > GO:nucleus ; GO:0005634
 SMART:SM00415 HSF > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
@@ -491,7 +483,6 @@ SMART:SM00415 HSF > GO:sequence-specific DNA binding ; GO:0043565
 SMART:SM00415 HSF > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00415 HSF > GO:nucleus ; GO:0005634
 SMART:SM00417 H4 > GO:DNA binding ; GO:0003677
-SMART:SM00417 H4 > GO:nucleosome assembly ; GO:0006334
 SMART:SM00417 H4 > GO:nucleosome ; GO:0000786
 SMART:SM00417 H4 > GO:nucleus ; GO:0005634
 SMART:SM00418 HTH_ARSR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
@@ -519,11 +510,9 @@ SMART:SM00426 TEA > GO:sequence-specific DNA binding transcription factor activi
 SMART:SM00426 TEA > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00426 TEA > GO:nucleus ; GO:0005634
 SMART:SM00427 H2B > GO:DNA binding ; GO:0003677
-SMART:SM00427 H2B > GO:nucleosome assembly ; GO:0006334
 SMART:SM00427 H2B > GO:nucleosome ; GO:0000786
 SMART:SM00427 H2B > GO:nucleus ; GO:0005634
 SMART:SM00428 H3 > GO:DNA binding ; GO:0003677
-SMART:SM00428 H3 > GO:nucleosome assembly ; GO:0006334
 SMART:SM00428 H3 > GO:nucleosome ; GO:0000786
 SMART:SM00429 IPT > GO:protein binding ; GO:0005515
 SMART:SM00430 HOLI > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
@@ -643,7 +632,6 @@ SMART:SM00502 BBC > GO:intracellular ; GO:0005622
 SMART:SM00503 SynN > GO:membrane ; GO:0016020
 SMART:SM00504 Ubox > GO:ubiquitin-protein transferase activity ; GO:0004842
 SMART:SM00504 Ubox > GO:protein ubiquitination ; GO:0016567
-SMART:SM00504 Ubox > GO:ubiquitin ligase complex ; GO:0000151
 SMART:SM00505 Knot1 > GO:defense response ; GO:0006952
 SMART:SM00509 TFS2N > GO:transcription, DNA-templated ; GO:0006351
 SMART:SM00509 TFS2N > GO:nucleus ; GO:0005634
@@ -657,7 +645,6 @@ SMART:SM00517 PolyA > GO:RNA binding ; GO:0003723
 SMART:SM00518 AP2Ec > GO:DNA binding ; GO:0003677
 SMART:SM00518 AP2Ec > GO:zinc ion binding ; GO:0008270
 SMART:SM00518 AP2Ec > GO:DNA repair ; GO:0006281
-SMART:SM00518 AP2Ec > GO:intracellular ; GO:0005622
 SMART:SM00520 BASIC > GO:DNA binding ; GO:0003677
 SMART:SM00520 BASIC > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00520 BASIC > GO:muscle organ development ; GO:0007517
@@ -953,7 +940,6 @@ SMART:SM00845 GatB_Yqey > GO:carbon-nitrogen ligase activity, with glutamine as 
 SMART:SM00846 Gp_dh_N > GO:oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor ; GO:0016620
 SMART:SM00846 Gp_dh_N > GO:oxidation-reduction process ; GO:0055114
 SMART:SM00847 HA2 > GO:helicase activity ; GO:0004386
-SMART:SM00849 Lactamase_B > GO:hydrolase activity ; GO:0016787
 SMART:SM00850 LytTR > GO:DNA binding ; GO:0003677
 SMART:SM00852 MoCF_biosynth > GO:Mo-molybdopterin cofactor biosynthetic process ; GO:0006777
 SMART:SM00853 MutL_C > GO:ATP binding ; GO:0005524

@@ -1,4 +1,4 @@
-!version date: 2014/06/21 15:06:04
+!version date: 2014/06/28 16:16:23
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -24,6 +24,7 @@ PRINTS:PR00020 MAMDOMAIN > GO:membrane ; GO:0016020
 PRINTS:PR00022 SOMATOMEDINB > GO:scavenger receptor activity ; GO:0005044
 PRINTS:PR00022 SOMATOMEDINB > GO:polysaccharide binding ; GO:0030247
 PRINTS:PR00022 SOMATOMEDINB > GO:immune response ; GO:0006955
+PRINTS:PR00024 HOMEOBOX > GO:DNA binding ; GO:0003677
 PRINTS:PR00025 ANTENNAPEDIA > GO:DNA binding ; GO:0003677
 PRINTS:PR00025 ANTENNAPEDIA > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PRINTS:PR00025 ANTENNAPEDIA > GO:regulation of transcription, DNA-templated ; GO:0006355
@@ -33,12 +34,13 @@ PRINTS:PR00026 ENGRAILED > GO:multicellular organismal development ; GO:0007275
 PRINTS:PR00026 ENGRAILED > GO:nucleus ; GO:0005634
 PRINTS:PR00027 PAIREDBOX > GO:DNA binding ; GO:0003677
 PRINTS:PR00027 PAIREDBOX > GO:regulation of transcription, DNA-templated ; GO:0006355
+PRINTS:PR00028 POUDOMAIN > GO:DNA binding ; GO:0003677
 PRINTS:PR00029 OCTAMER > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PRINTS:PR00029 OCTAMER > GO:regulation of transcription, DNA-templated ; GO:0006355
 PRINTS:PR00029 OCTAMER > GO:nucleus ; GO:0005634
-PRINTS:PR00030 HTHCRO > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+PRINTS:PR00030 HTHCRO > GO:DNA binding ; GO:0003677
 PRINTS:PR00030 HTHCRO > GO:regulation of transcription, DNA-templated ; GO:0006355
-PRINTS:PR00031 HTHREPRESSR > GO:transcription regulatory region sequence-specific DNA binding ; GO:0000976
+PRINTS:PR00031 HTHREPRESSR > GO:DNA binding ; GO:0003677
 PRINTS:PR00032 HTHARAC > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PRINTS:PR00032 HTHARAC > GO:regulation of transcription, DNA-templated ; GO:0006355
 PRINTS:PR00033 HTHASNC > GO:sequence-specific DNA binding ; GO:0043565
@@ -708,7 +710,6 @@ PRINTS:PR00338 NUSGTNSCPFCT > GO:regulation of DNA-templated transcription, elon
 PRINTS:PR00339 PCNACYCLIN > GO:DNA binding ; GO:0003677
 PRINTS:PR00339 PCNACYCLIN > GO:DNA polymerase processivity factor activity ; GO:0030337
 PRINTS:PR00339 PCNACYCLIN > GO:regulation of DNA replication ; GO:0006275
-PRINTS:PR00339 PCNACYCLIN > GO:PCNA complex ; GO:0043626
 PRINTS:PR00340 PIIGLNB > GO:enzyme regulator activity ; GO:0030234
 PRINTS:PR00340 PIIGLNB > GO:regulation of nitrogen utilization ; GO:0006808
 PRINTS:PR00341 PRION > GO:protein homooligomerization ; GO:0051260
@@ -1104,8 +1105,6 @@ PRINTS:PR00508 S21N4MTFRASE > GO:DNA methylation ; GO:0006306
 PRINTS:PR00509 PGMPMM > GO:intramolecular transferase activity, phosphotransferases ; GO:0016868
 PRINTS:PR00509 PGMPMM > GO:carbohydrate metabolic process ; GO:0005975
 PRINTS:PR00510 NEBULIN > GO:actin binding ; GO:0003779
-PRINTS:PR00511 TEKTIN > GO:microtubule cytoskeleton organization ; GO:0000226
-PRINTS:PR00511 TEKTIN > GO:microtubule ; GO:0005874
 PRINTS:PR00512 5HT1ARECEPTR > GO:serotonin receptor activity ; GO:0004993
 PRINTS:PR00512 5HT1ARECEPTR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00512 5HT1ARECEPTR > GO:cell proliferation ; GO:0008283
@@ -1496,18 +1495,14 @@ PRINTS:PR00619 GATAZNFINGER > GO:zinc ion binding ; GO:0008270
 PRINTS:PR00619 GATAZNFINGER > GO:sequence-specific DNA binding ; GO:0043565
 PRINTS:PR00619 GATAZNFINGER > GO:regulation of transcription, DNA-templated ; GO:0006355
 PRINTS:PR00620 HISTONEH2A > GO:DNA binding ; GO:0003677
-PRINTS:PR00620 HISTONEH2A > GO:nucleosome assembly ; GO:0006334
 PRINTS:PR00620 HISTONEH2A > GO:nucleosome ; GO:0000786
 PRINTS:PR00620 HISTONEH2A > GO:nucleus ; GO:0005634
 PRINTS:PR00621 HISTONEH2B > GO:DNA binding ; GO:0003677
-PRINTS:PR00621 HISTONEH2B > GO:nucleosome assembly ; GO:0006334
 PRINTS:PR00621 HISTONEH2B > GO:nucleosome ; GO:0000786
 PRINTS:PR00621 HISTONEH2B > GO:nucleus ; GO:0005634
 PRINTS:PR00622 HISTONEH3 > GO:DNA binding ; GO:0003677
-PRINTS:PR00622 HISTONEH3 > GO:nucleosome assembly ; GO:0006334
 PRINTS:PR00622 HISTONEH3 > GO:nucleosome ; GO:0000786
 PRINTS:PR00623 HISTONEH4 > GO:DNA binding ; GO:0003677
-PRINTS:PR00623 HISTONEH4 > GO:nucleosome assembly ; GO:0006334
 PRINTS:PR00623 HISTONEH4 > GO:nucleosome ; GO:0000786
 PRINTS:PR00623 HISTONEH4 > GO:nucleus ; GO:0005634
 PRINTS:PR00624 HISTONEH5 > GO:DNA binding ; GO:0003677
@@ -1670,6 +1665,7 @@ PRINTS:PR00688 XYLOSISMRASE > GO:carbohydrate metabolic process ; GO:0005975
 PRINTS:PR00689 ACOABINDINGP > GO:fatty-acyl-CoA binding ; GO:0000062
 PRINTS:PR00690 ADHESNFAMILY > GO:cell adhesion ; GO:0007155
 PRINTS:PR00691 ADHESINB > GO:cell adhesion ; GO:0007155
+PRINTS:PR00692 CD4TCANTIGEN > GO:coreceptor activity ; GO:0015026
 PRINTS:PR00692 CD4TCANTIGEN > GO:immune response ; GO:0006955
 PRINTS:PR00692 CD4TCANTIGEN > GO:membrane ; GO:0016020
 PRINTS:PR00693 GMCSFACTOR > GO:granulocyte macrophage colony-stimulating factor receptor binding ; GO:0005129
@@ -1862,7 +1858,8 @@ PRINTS:PR00773 GRPEPROTEIN > GO:adenyl-nucleotide exchange factor activity ; GO:
 PRINTS:PR00773 GRPEPROTEIN > GO:protein homodimerization activity ; GO:0042803
 PRINTS:PR00773 GRPEPROTEIN > GO:chaperone binding ; GO:0051087
 PRINTS:PR00773 GRPEPROTEIN > GO:protein folding ; GO:0006457
-PRINTS:PR00774 GUANYLIN > GO:enzyme activator activity ; GO:0008047
+PRINTS:PR00774 GUANYLIN > GO:guanylate cyclase activator activity ; GO:0030250
+PRINTS:PR00774 GUANYLIN > GO:extracellular region ; GO:0005576
 PRINTS:PR00776 HEMOGLOBNASE > GO:cysteine-type endopeptidase activity ; GO:0004197
 PRINTS:PR00776 HEMOGLOBNASE > GO:proteolysis ; GO:0006508
 PRINTS:PR00777 HIRUDIN > GO:serine-type endopeptidase inhibitor activity ; GO:0004867
@@ -2270,9 +2267,9 @@ PRINTS:PR00976 RIBOSOMALS21 > GO:intracellular ; GO:0005622
 PRINTS:PR00976 RIBOSOMALS21 > GO:ribosome ; GO:0005840
 PRINTS:PR00977 SCYTLDPTASE > GO:aspartic-type endopeptidase activity ; GO:0004190
 PRINTS:PR00977 SCYTLDPTASE > GO:proteolysis ; GO:0006508
-PRINTS:PR00978 STARPROTEIN > GO:cholesterol binding ; GO:0015485
-PRINTS:PR00978 STARPROTEIN > GO:cholesterol transporter activity ; GO:0017127
-PRINTS:PR00978 STARPROTEIN > GO:steroid biosynthetic process ; GO:0006694
+PRINTS:PR00978 STARPROTEIN > GO:lipid binding ; GO:0008289
+PRINTS:PR00979 TAFAZZIN > GO:transferase activity, transferring acyl groups ; GO:0016746
+PRINTS:PR00979 TAFAZZIN > GO:phospholipid metabolic process ; GO:0006644
 PRINTS:PR00980 TRNASYNTHALA > GO:nucleotide binding ; GO:0000166
 PRINTS:PR00980 TRNASYNTHALA > GO:cytoplasm ; GO:0005737
 PRINTS:PR00981 TRNASYNTHSER > GO:nucleotide binding ; GO:0000166
@@ -3686,8 +3683,6 @@ PRINTS:PR01517 KV42CHANNEL > GO:voltage-gated potassium channel complex ; GO:000
 PRINTS:PR01518 KV43CHANNEL > GO:voltage-gated potassium channel activity ; GO:0005249
 PRINTS:PR01518 KV43CHANNEL > GO:potassium ion transport ; GO:0006813
 PRINTS:PR01518 KV43CHANNEL > GO:voltage-gated potassium channel complex ; GO:0008076
-PRINTS:PR01519 EPSLNTUBULIN > GO:centrosome organization ; GO:0051297
-PRINTS:PR01519 EPSLNTUBULIN > GO:pericentriolar material ; GO:0000242
 PRINTS:PR01521 OREXIN1R > GO:orexin receptor activity ; GO:0016499
 PRINTS:PR01521 OREXIN1R > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01521 OREXIN1R > GO:feeding behavior ; GO:0007631
@@ -4323,12 +4318,9 @@ PRINTS:PR01758 CAPSULEPROTB > GO:capsule polysaccharide biosynthetic process ; G
 PRINTS:PR01758 CAPSULEPROTB > GO:membrane ; GO:0016020
 PRINTS:PR01759 CAPSULEPROTC > GO:capsule polysaccharide biosynthetic process ; GO:0045227
 PRINTS:PR01759 CAPSULEPROTC > GO:membrane ; GO:0016020
-PRINTS:PR01760 DISHEVELLED > GO:signal transducer activity ; GO:0004871
-PRINTS:PR01760 DISHEVELLED > GO:multicellular organismal development ; GO:0007275
-PRINTS:PR01762 DISHEVELLED2 > GO:signal transducer activity ; GO:0004871
-PRINTS:PR01762 DISHEVELLED2 > GO:multicellular organismal development ; GO:0007275
-PRINTS:PR01763 DISHEVELLED3 > GO:signal transducer activity ; GO:0004871
-PRINTS:PR01763 DISHEVELLED3 > GO:multicellular organismal development ; GO:0007275
+PRINTS:PR01760 DISHEVELLED > GO:Wnt signaling pathway ; GO:0016055
+PRINTS:PR01762 DISHEVELLED2 > GO:Wnt signaling pathway ; GO:0016055
+PRINTS:PR01763 DISHEVELLED3 > GO:Wnt signaling pathway ; GO:0016055
 PRINTS:PR01764 MAPKPHPHTASE > GO:MAP kinase tyrosine/serine/threonine phosphatase activity ; GO:0017017
 PRINTS:PR01764 MAPKPHPHTASE > GO:protein dephosphorylation ; GO:0006470
 PRINTS:PR01765 ECACCHANNEL > GO:calcium channel activity ; GO:0005262

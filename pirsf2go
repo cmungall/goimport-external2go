@@ -1,4 +1,4 @@
-!version date: 2014/06/28 16:16:23
+!version date: 2014/07/05 16:54:45
 !description: Mapping of GO terms to PIRSF entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pir.georgetown.edu/pirsf/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -563,6 +563,7 @@ PIRSF:PIRSF000532 ATP_PFK_prok > GO:phosphofructokinase activity ; GO:0008443
 PIRSF:PIRSF000532 ATP_PFK_prok > GO:fructose 6-phosphate metabolic process ; GO:0006002
 PIRSF:PIRSF000532 ATP_PFK_prok > GO:glycolytic process ; GO:0006096
 PIRSF:PIRSF000533 ATP_PFK_euk > GO:6-phosphofructokinase activity ; GO:0003872
+PIRSF:PIRSF000533 ATP_PFK_euk > GO:ATP binding ; GO:0005524
 PIRSF:PIRSF000533 ATP_PFK_euk > GO:glycolytic process ; GO:0006096
 PIRSF:PIRSF000533 ATP_PFK_euk > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF000534 PPi_PFK_TP0108 > GO:6-phosphofructokinase activity ; GO:0003872
@@ -1973,8 +1974,7 @@ PIRSF:PIRSF006247 TrkH > GO:integral component of membrane ; GO:0016021
 PIRSF:PIRSF006256 CMPcnvr_hdrg_mat > GO:carboxyl- or carbamoyltransferase activity ; GO:0016743
 PIRSF:PIRSF006256 CMPcnvr_hdrg_mat > GO:metal ion binding ; GO:0046872
 PIRSF:PIRSF006256 CMPcnvr_hdrg_mat > GO:protein carbamoylation ; GO:0046944
-PIRSF:PIRSF006268 ApbE > GO:thiamine biosynthetic process ; GO:0009228
-PIRSF:PIRSF006268 ApbE > GO:periplasmic space ; GO:0042597
+PIRSF:PIRSF006268 ApbE > GO:protein flavinylation ; GO:0017013
 PIRSF:PIRSF006280 YfiF_prd > GO:methyltransferase activity ; GO:0008168
 PIRSF:PIRSF006288 PII_uridyltransf > GO:[protein-PII] uridylyltransferase activity ; GO:0008773
 PIRSF:PIRSF006288 PII_uridyltransf > GO:nitrogen compound metabolic process ; GO:0006807
@@ -2045,8 +2045,8 @@ PIRSF:PIRSF006540 Nop17p > GO:rRNA processing ; GO:0006364
 PIRSF:PIRSF006540 Nop17p > GO:tRNA processing ; GO:0008033
 PIRSF:PIRSF006553 TopoVI_B > GO:DNA binding ; GO:0003677
 PIRSF:PIRSF006553 TopoVI_B > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
+PIRSF:PIRSF006553 TopoVI_B > GO:ATP binding ; GO:0005524
 PIRSF:PIRSF006553 TopoVI_B > GO:DNA topological change ; GO:0006265
-PIRSF:PIRSF006553 TopoVI_B > GO:chromosome ; GO:0005694
 PIRSF:PIRSF006588 TyrRS_arch_euk > GO:tyrosine-tRNA ligase activity ; GO:0004831
 PIRSF:PIRSF006609 snRNP_SmF > GO:RNA processing ; GO:0006396
 PIRSF:PIRSF006609 snRNP_SmF > GO:nucleus ; GO:0005634
@@ -2268,6 +2268,11 @@ PIRSF:PIRSF011769 Cell_cycle_RAD17 > GO:DNA damage checkpoint ; GO:0000077
 PIRSF:PIRSF011769 Cell_cycle_RAD17 > GO:double-strand break repair ; GO:0006302
 PIRSF:PIRSF011769 Cell_cycle_RAD17 > GO:reciprocal meiotic recombination ; GO:0007131
 PIRSF:PIRSF011769 Cell_cycle_RAD17 > GO:checkpoint clamp complex ; GO:0030896
+PIRSF:PIRSF011773 Rep_factor-A_4 > GO:DNA binding ; GO:0003677
+PIRSF:PIRSF011773 Rep_factor-A_4 > GO:DNA replication ; GO:0006260
+PIRSF:PIRSF011773 Rep_factor-A_4 > GO:DNA repair ; GO:0006281
+PIRSF:PIRSF011773 Rep_factor-A_4 > GO:DNA recombination ; GO:0006310
+PIRSF:PIRSF011773 Rep_factor-A_4 > GO:nucleus ; GO:0005634
 PIRSF:PIRSF011789 tRNA_splic_SEN2 > GO:tRNA-intron endonuclease activity ; GO:0000213
 PIRSF:PIRSF011789 tRNA_splic_SEN2 > GO:tRNA splicing, via endonucleolytic cleavage and ligation ; GO:0006388
 PIRSF:PIRSF011789 tRNA_splic_SEN2 > GO:tRNA-intron endonuclease complex ; GO:0000214
@@ -2977,7 +2982,7 @@ PIRSF:PIRSF036426 Sirohaem_synth > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF036427 Precrrn-2_mtase > GO:S-adenosylmethionine-dependent methyltransferase activity ; GO:0008757
 PIRSF:PIRSF036427 Precrrn-2_mtase > GO:precorrin-2 C20-methyltransferase activity ; GO:0030788
 PIRSF:PIRSF036427 Precrrn-2_mtase > GO:cobalamin biosynthetic process ; GO:0009236
-PIRSF:PIRSF036428 CobL > GO:precorrin-6Y C5,15-methyltransferase (decarboxylating) activity ; GO:0046025
+PIRSF:PIRSF036428 CobL > GO:protein methyltransferase activity ; GO:0008276
 PIRSF:PIRSF036428 CobL > GO:cobalamin biosynthetic process ; GO:0009236
 PIRSF:PIRSF036429 P5C_syn > GO:catalytic activity ; GO:0003824
 PIRSF:PIRSF036429 P5C_syn > GO:proline biosynthetic process ; GO:0006561
@@ -3170,6 +3175,11 @@ PIRSF:PIRSF036946 Arg_N-mtase > GO:methyltransferase activity ; GO:0008168
 PIRSF:PIRSF036946 Arg_N-mtase > GO:protein methylation ; GO:0006479
 PIRSF:PIRSF036947 Spt6 > GO:regulation of transcription from RNA polymerase II promoter ; GO:0006357
 PIRSF:PIRSF036947 Spt6 > GO:regulation of DNA-templated transcription, elongation ; GO:0032784
+PIRSF:PIRSF036949 RPA32 > GO:DNA binding ; GO:0003677
+PIRSF:PIRSF036949 RPA32 > GO:DNA replication ; GO:0006260
+PIRSF:PIRSF036949 RPA32 > GO:DNA repair ; GO:0006281
+PIRSF:PIRSF036949 RPA32 > GO:DNA recombination ; GO:0006310
+PIRSF:PIRSF036949 RPA32 > GO:nucleus ; GO:0005634
 PIRSF:PIRSF036950 UCP036950 > GO:single-stranded telomeric DNA binding ; GO:0043047
 PIRSF:PIRSF036950 UCP036950 > GO:telomere maintenance via telomere lengthening ; GO:0010833
 PIRSF:PIRSF036950 UCP036950 > GO:nuclear chromosome, telomeric region ; GO:0000784
@@ -3357,7 +3367,7 @@ PIRSF:PIRSF037565 RRNA_m2G_Mtase_RsmD_prd > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF037567 MTTB_MeTrfase > GO:methyltransferase activity ; GO:0008168
 PIRSF:PIRSF037567 MTTB_MeTrfase > GO:methanogenesis ; GO:0015948
 PIRSF:PIRSF037568 Rho_kinase > GO:protein serine/threonine kinase activity ; GO:0004674
-PIRSF:PIRSF037568 Rho_kinase > GO:protein phosphorylation ; GO:0006468
+PIRSF:PIRSF037568 Rho_kinase > GO:actin cytoskeleton organization ; GO:0030036
 PIRSF:PIRSF037579 MAPKKK_SSK22 > GO:protein serine/threonine kinase activity ; GO:0004674
 PIRSF:PIRSF037595 Toll-like_receptor > GO:transmembrane signaling receptor activity ; GO:0004888
 PIRSF:PIRSF037595 Toll-like_receptor > GO:toll-like receptor signaling pathway ; GO:0002224
@@ -3425,6 +3435,7 @@ PIRSF:PIRSF037828 SH2_p1A > GO:cell-cell signaling ; GO:0007267
 PIRSF:PIRSF037828 SH2_p1A > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF037839 Ribonuclease_H > GO:RNA-DNA hybrid ribonuclease activity ; GO:0004523
 PIRSF:PIRSF037840 Aldolase_YihT > GO:carbon-carbon lyase activity ; GO:0016830
+PIRSF:PIRSF037861 Prion_URE2 > GO:transcription corepressor activity ; GO:0003714
 PIRSF:PIRSF037861 Prion_URE2 > GO:regulation of nitrogen utilization ; GO:0006808
 PIRSF:PIRSF037863 SLAP > GO:structural constituent of cell wall ; GO:0005199
 PIRSF:PIRSF037863 SLAP > GO:peptidoglycan-based cell wall ; GO:0009274
@@ -3624,7 +3635,7 @@ PIRSF:PIRSF038895 FPGS > GO:tetrahydrofolylpolyglutamate synthase activity ; GO:
 PIRSF:PIRSF038895 FPGS > GO:ATP binding ; GO:0005524
 PIRSF:PIRSF038895 FPGS > GO:folic acid-containing compound biosynthetic process ; GO:0009396
 PIRSF:PIRSF038896 NAPE-PLD > GO:zinc ion binding ; GO:0008270
-PIRSF:PIRSF038896 NAPE-PLD > GO:NAPE-specific phospholipase D activity ; GO:0070290
+PIRSF:PIRSF038896 NAPE-PLD > GO:N-acylphosphatidylethanolamine-specific phospholipase D activity ; GO:0070290
 PIRSF:PIRSF038901 AQR_cwf11 > GO:mRNA splicing, via spliceosome ; GO:0000398
 PIRSF:PIRSF038901 AQR_cwf11 > GO:spliceosomal complex ; GO:0005681
 PIRSF:PIRSF038919 NOG1 > GO:nucleolus ; GO:0005730

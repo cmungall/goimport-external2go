@@ -1,4 +1,4 @@
-!version date: 2014/06/28 16:16:23
+!version date: 2014/07/05 16:54:45
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -345,6 +345,7 @@ PRINTS:PR00150 PEPCARBXLASE > GO:carbon fixation ; GO:0015977
 PRINTS:PR00151 PORPHBDMNASE > GO:hydroxymethylbilane synthase activity ; GO:0004418
 PRINTS:PR00151 PORPHBDMNASE > GO:tetrapyrrole biosynthetic process ; GO:0033014
 PRINTS:PR00153 CSAPPISMRASE > GO:peptidyl-prolyl cis-trans isomerase activity ; GO:0003755
+PRINTS:PR00153 CSAPPISMRASE > GO:protein peptidyl-prolyl isomerization ; GO:0000413
 PRINTS:PR00153 CSAPPISMRASE > GO:protein folding ; GO:0006457
 PRINTS:PR00155 AMICYANIN > GO:copper ion binding ; GO:0005507
 PRINTS:PR00155 AMICYANIN > GO:electron carrier activity ; GO:0009055
@@ -2047,9 +2048,8 @@ PRINTS:PR00866 RNADNAPOLMS > GO:RNA-dependent DNA replication ; GO:0006278
 PRINTS:PR00867 DNAPOLG > GO:DNA binding ; GO:0003677
 PRINTS:PR00867 DNAPOLG > GO:DNA replication ; GO:0006260
 PRINTS:PR00867 DNAPOLG > GO:gamma DNA polymerase complex ; GO:0005760
-PRINTS:PR00868 DNAPOLI > GO:DNA binding ; GO:0003677
 PRINTS:PR00868 DNAPOLI > GO:DNA-directed DNA polymerase activity ; GO:0003887
-PRINTS:PR00868 DNAPOLI > GO:DNA replication ; GO:0006260
+PRINTS:PR00868 DNAPOLI > GO:DNA-dependent DNA replication ; GO:0006261
 PRINTS:PR00869 DNAPOLX > GO:DNA binding ; GO:0003677
 PRINTS:PR00869 DNAPOLX > GO:DNA polymerase activity ; GO:0034061
 PRINTS:PR00869 DNAPOLX > GO:nucleus ; GO:0005634
@@ -2240,6 +2240,7 @@ PRINTS:PR00967 ONCOGENEAML1 > GO:regulation of transcription, DNA-templated ; GO
 PRINTS:PR00967 ONCOGENEAML1 > GO:nucleus ; GO:0005634
 PRINTS:PR00968 OUTRSURFACE > GO:cell outer membrane ; GO:0009279
 PRINTS:PR00969 CHAPERONPILI > GO:pilus organization ; GO:0043711
+PRINTS:PR00969 CHAPERONPILI > GO:chaperone-mediated protein folding ; GO:0061077
 PRINTS:PR00969 CHAPERONPILI > GO:outer membrane-bounded periplasmic space ; GO:0030288
 PRINTS:PR00970 RIBTRNSFRASE > GO:NAD(P)+-protein-arginine ADP-ribosyltransferase activity ; GO:0003956
 PRINTS:PR00970 RIBTRNSFRASE > GO:protein ADP-ribosylation ; GO:0006471
@@ -2263,7 +2264,6 @@ PRINTS:PR00975 RIBOSOMALS19 > GO:translation ; GO:0006412
 PRINTS:PR00975 RIBOSOMALS19 > GO:ribosome ; GO:0005840
 PRINTS:PR00976 RIBOSOMALS21 > GO:structural constituent of ribosome ; GO:0003735
 PRINTS:PR00976 RIBOSOMALS21 > GO:translation ; GO:0006412
-PRINTS:PR00976 RIBOSOMALS21 > GO:intracellular ; GO:0005622
 PRINTS:PR00976 RIBOSOMALS21 > GO:ribosome ; GO:0005840
 PRINTS:PR00977 SCYTLDPTASE > GO:aspartic-type endopeptidase activity ; GO:0004190
 PRINTS:PR00977 SCYTLDPTASE > GO:proteolysis ; GO:0006508
@@ -3354,8 +3354,6 @@ PRINTS:PR01383 CLAUDIN10 > GO:structural molecule activity ; GO:0005198
 PRINTS:PR01383 CLAUDIN10 > GO:tight junction ; GO:0005923
 PRINTS:PR01384 CLAUDIN11 > GO:structural molecule activity ; GO:0005198
 PRINTS:PR01384 CLAUDIN11 > GO:tight junction ; GO:0005923
-PRINTS:PR01385 CLAUDIN14 > GO:structural molecule activity ; GO:0005198
-PRINTS:PR01385 CLAUDIN14 > GO:tight junction ; GO:0005923
 PRINTS:PR01386 CCMCBIOGNSIS > GO:heme transporter activity ; GO:0015232
 PRINTS:PR01386 CCMCBIOGNSIS > GO:heme transport ; GO:0015886
 PRINTS:PR01386 CCMCBIOGNSIS > GO:cytochrome complex assembly ; GO:0017004
@@ -3499,16 +3497,10 @@ PRINTS:PR01444 LATROPHILIN > GO:G-protein coupled receptor activity ; GO:0004930
 PRINTS:PR01444 LATROPHILIN > GO:membrane ; GO:0016020
 PRINTS:PR01445 CLAUDIN6 > GO:structural molecule activity ; GO:0005198
 PRINTS:PR01445 CLAUDIN6 > GO:tight junction ; GO:0005923
-PRINTS:PR01445 CLAUDIN6 > GO:membrane ; GO:0016020
-PRINTS:PR01446 CLAUDIN8 > GO:structural molecule activity ; GO:0005198
-PRINTS:PR01446 CLAUDIN8 > GO:tight junction ; GO:0005923
-PRINTS:PR01446 CLAUDIN8 > GO:membrane ; GO:0016020
 PRINTS:PR01447 CLAUDIN16 > GO:structural molecule activity ; GO:0005198
 PRINTS:PR01447 CLAUDIN16 > GO:tight junction ; GO:0005923
-PRINTS:PR01447 CLAUDIN16 > GO:membrane ; GO:0016020
 PRINTS:PR01448 CLAUDIN18 > GO:structural molecule activity ; GO:0005198
 PRINTS:PR01448 CLAUDIN18 > GO:tight junction ; GO:0005923
-PRINTS:PR01448 CLAUDIN18 > GO:membrane ; GO:0016020
 PRINTS:PR01449 BKCHANNELA > GO:calcium-activated potassium channel activity ; GO:0015269
 PRINTS:PR01449 BKCHANNELA > GO:potassium ion transport ; GO:0006813
 PRINTS:PR01449 BKCHANNELA > GO:membrane ; GO:0016020
@@ -3758,9 +3750,7 @@ PRINTS:PR01543 ANATRNSFRASE > GO:metabolic process ; GO:0008152
 PRINTS:PR01548 MEIOTICR114 > GO:reciprocal meiotic recombination ; GO:0007131
 PRINTS:PR01549 AUTOINDCRSYN > GO:signal transduction ; GO:0007165
 PRINTS:PR01550 TOP6AFAMILY > GO:DNA binding ; GO:0003677
-PRINTS:PR01550 TOP6AFAMILY > GO:catalytic activity ; GO:0003824
-PRINTS:PR01550 TOP6AFAMILY > GO:ATP binding ; GO:0005524
-PRINTS:PR01550 TOP6AFAMILY > GO:DNA metabolic process ; GO:0006259
+PRINTS:PR01550 TOP6AFAMILY > GO:DNA catabolic process, endonucleolytic ; GO:0000737
 PRINTS:PR01550 TOP6AFAMILY > GO:chromosome ; GO:0005694
 PRINTS:PR01552 TPISMRASE6A > GO:DNA binding ; GO:0003677
 PRINTS:PR01552 TPISMRASE6A > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
@@ -4229,7 +4219,6 @@ PRINTS:PR01717 CD28ANTIGEN > GO:immune response ; GO:0006955
 PRINTS:PR01717 CD28ANTIGEN > GO:membrane ; GO:0016020
 PRINTS:PR01718 CLAUDIN15 > GO:structural molecule activity ; GO:0005198
 PRINTS:PR01718 CLAUDIN15 > GO:tight junction ; GO:0005923
-PRINTS:PR01718 CLAUDIN15 > GO:membrane ; GO:0016020
 PRINTS:PR01719 MHCIIACTVATR > GO:ATP binding ; GO:0005524
 PRINTS:PR01719 MHCIIACTVATR > GO:regulation of transcription, DNA-templated ; GO:0006355
 PRINTS:PR01720 CTLANTIGEN4 > GO:immune response ; GO:0006955

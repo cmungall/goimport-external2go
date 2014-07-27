@@ -1,4 +1,4 @@
-!version date: 2014/07/19 16:10:32
+!version date: 2014/07/26 16:38:25
 !description: Mapping of GO terms to PIRSF entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pir.georgetown.edu/pirsf/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -853,6 +853,8 @@ PIRSF:PIRSF000927 Tyr-Ptase_nr3 > GO:cytoskeletal protein binding ; GO:0008092
 PIRSF:PIRSF000927 Tyr-Ptase_nr3 > GO:protein dephosphorylation ; GO:0006470
 PIRSF:PIRSF000929 Tyr-Ptase_nr_6 > GO:protein tyrosine phosphatase activity ; GO:0004725
 PIRSF:PIRSF000929 Tyr-Ptase_nr_6 > GO:protein dephosphorylation ; GO:0006470
+PIRSF:PIRSF000930 PTPN8_PTPN22 > GO:protein tyrosine phosphatase activity ; GO:0004725
+PIRSF:PIRSF000930 PTPN8_PTPN22 > GO:regulation of T cell receptor signaling pathway ; GO:0050856
 PIRSF:PIRSF000932 Tyr-Ptase_nr12 > GO:protein tyrosine phosphatase activity ; GO:0004725
 PIRSF:PIRSF000932 Tyr-Ptase_nr12 > GO:protein dephosphorylation ; GO:0006470
 PIRSF:PIRSF000933 Tyr-Ptase_nr13 > GO:protein tyrosine phosphatase activity ; GO:0004725
@@ -964,6 +966,7 @@ PIRSF:PIRSF001191 Peptidase_M10A_matrix > GO:calcium ion binding ; GO:0005509
 PIRSF:PIRSF001191 Peptidase_M10A_matrix > GO:zinc ion binding ; GO:0008270
 PIRSF:PIRSF001191 Peptidase_M10A_matrix > GO:proteolysis ; GO:0006508
 PIRSF:PIRSF001196 Meprin > GO:metalloendopeptidase activity ; GO:0004222
+PIRSF:PIRSF001196 Meprin > GO:zinc ion binding ; GO:0008270
 PIRSF:PIRSF001196 Meprin > GO:proteolysis ; GO:0006508
 PIRSF:PIRSF001196 Meprin > GO:membrane ; GO:0016020
 PIRSF:PIRSF001199 BMP_1/tolloid-like > GO:metalloendopeptidase activity ; GO:0004222
@@ -1178,7 +1181,6 @@ PIRSF:PIRSF001617 Alpha-AR > GO:phosphopantetheine binding ; GO:0031177
 PIRSF:PIRSF001617 Alpha-AR > GO:lysine biosynthetic process ; GO:0009085
 PIRSF:PIRSF001617 Alpha-AR > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF001620 TFPI > GO:peptidase inhibitor activity ; GO:0030414
-PIRSF:PIRSF001620 TFPI > GO:blood coagulation ; GO:0007596
 PIRSF:PIRSF001620 TFPI > GO:negative regulation of peptidase activity ; GO:0010466
 PIRSF:PIRSF001620 TFPI > GO:extracellular region ; GO:0005576
 PIRSF:PIRSF001640 Hirudin > GO:serine-type endopeptidase inhibitor activity ; GO:0004867
@@ -1537,6 +1539,9 @@ PIRSF:PIRSF003095 Trigger_factor > GO:protein transport ; GO:0015031
 PIRSF:PIRSF003097 FtsX > GO:cell cycle ; GO:0007049
 PIRSF:PIRSF003097 FtsX > GO:integral component of membrane ; GO:0016021
 PIRSF:PIRSF003101 FtsA > GO:cell cycle ; GO:0007049
+PIRSF:PIRSF003107 PhoU > GO:cellular phosphate ion homeostasis ; GO:0030643
+PIRSF:PIRSF003107 PhoU > GO:negative regulation of phosphate metabolic process ; GO:0045936
+PIRSF:PIRSF003107 PhoU > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF003108 DinJ > GO:bacterial-type RNA polymerase core promoter proximal region sequence-specific DNA binding ; GO:0000986
 PIRSF:PIRSF003108 DinJ > GO:toxic substance binding ; GO:0015643
 PIRSF:PIRSF003108 DinJ > GO:single-species biofilm formation ; GO:0044010
@@ -2625,6 +2630,7 @@ PIRSF:PIRSF017932 Conjugal_transfer_TraB_rhizob > GO:integral component of membr
 PIRSF:PIRSF018001 Aspartoacylase > GO:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides ; GO:0016811
 PIRSF:PIRSF018077 UCP018077 > GO:proteasomal protein catabolic process ; GO:0010498
 PIRSF:PIRSF018077 UCP018077 > GO:modification-dependent protein catabolic process ; GO:0019941
+PIRSF:PIRSF018147 ORMDL > GO:endoplasmic reticulum membrane ; GO:0005789
 PIRSF:PIRSF018147 ORMDL > GO:integral component of membrane ; GO:0016021
 PIRSF:PIRSF018153 Glyco_trans_15 > GO:mannosyltransferase activity ; GO:0000030
 PIRSF:PIRSF018153 Glyco_trans_15 > GO:protein glycosylation ; GO:0006486
@@ -2677,6 +2683,10 @@ PIRSF:PIRSF018788 EutB > GO:cellular amino acid metabolic process ; GO:0006520
 PIRSF:PIRSF018968 ABC_permease_BceB > GO:transport ; GO:0006810
 PIRSF:PIRSF018982 EutC > GO:ethanolamine ammonia-lyase activity ; GO:0008851
 PIRSF:PIRSF018982 EutC > GO:cellular amino acid metabolic process ; GO:0006520
+PIRSF:PIRSF019029 bZIP_E4BP4 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+PIRSF:PIRSF019029 bZIP_E4BP4 > GO:transcription from RNA polymerase II promoter ; GO:0006366
+PIRSF:PIRSF019029 bZIP_E4BP4 > GO:immune response ; GO:0006955
+PIRSF:PIRSF019029 bZIP_E4BP4 > GO:nucleus ; GO:0005634
 PIRSF:PIRSF019239 MrpE > GO:cation transmembrane transporter activity ; GO:0008324
 PIRSF:PIRSF019239 MrpE > GO:cation transport ; GO:0006812
 PIRSF:PIRSF019239 MrpE > GO:integral component of membrane ; GO:0016021

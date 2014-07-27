@@ -1,4 +1,4 @@
-!version date: 2014/07/19 16:10:32
+!version date: 2014/07/26 16:38:25
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -66,10 +66,11 @@ PRINTS:PR00041 LEUZIPPRCREB > GO:sequence-specific DNA binding transcription fac
 PRINTS:PR00041 LEUZIPPRCREB > GO:regulation of transcription, DNA-templated ; GO:0006355
 PRINTS:PR00041 LEUZIPPRCREB > GO:nucleus ; GO:0005634
 PRINTS:PR00042 LEUZIPPRFOS > GO:DNA binding ; GO:0003677
-PRINTS:PR00042 LEUZIPPRFOS > GO:nucleus ; GO:0005634
+PRINTS:PR00042 LEUZIPPRFOS > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+PRINTS:PR00042 LEUZIPPRFOS > GO:regulation of transcription from RNA polymerase II promoter ; GO:0006357
+PRINTS:PR00043 LEUZIPPRJUN > GO:DNA binding ; GO:0003677
 PRINTS:PR00043 LEUZIPPRJUN > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PRINTS:PR00043 LEUZIPPRJUN > GO:regulation of transcription, DNA-templated ; GO:0006355
-PRINTS:PR00043 LEUZIPPRJUN > GO:nucleus ; GO:0005634
 PRINTS:PR00044 LEUZIPPRMYC > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PRINTS:PR00044 LEUZIPPRMYC > GO:regulation of transcription, DNA-templated ; GO:0006355
 PRINTS:PR00044 LEUZIPPRMYC > GO:nucleus ; GO:0005634
@@ -835,7 +836,6 @@ PRINTS:PR00399 SYNAPTOTAGMN > GO:synaptic vesicle ; GO:0008021
 PRINTS:PR00399 SYNAPTOTAGMN > GO:membrane ; GO:0016020
 PRINTS:PR00400 TETREPRESSOR > GO:negative regulation of transcription, DNA-templated ; GO:0045892
 PRINTS:PR00400 TETREPRESSOR > GO:response to antibiotic ; GO:0046677
-PRINTS:PR00401 SH2DOMAIN > GO:protein binding ; GO:0005515
 PRINTS:PR00402 TECBTKDOMAIN > GO:intracellular signal transduction ; GO:0035556
 PRINTS:PR00403 WWDOMAIN > GO:protein binding ; GO:0005515
 PRINTS:PR00404 MADSDOMAIN > GO:DNA binding ; GO:0003677
@@ -3468,7 +3468,7 @@ PRINTS:PR01431 TUBERIN > GO:negative regulation of TOR signaling ; GO:0032007
 PRINTS:PR01431 TUBERIN > GO:positive regulation of GTPase activity ; GO:0043547
 PRINTS:PR01431 TUBERIN > GO:TSC1-TSC2 complex ; GO:0033596
 PRINTS:PR01432 RABAPTIN > GO:GTPase activator activity ; GO:0005096
-PRINTS:PR01432 RABAPTIN > GO:growth factor activity ; GO:0008083
+PRINTS:PR01432 RABAPTIN > GO:endocytosis ; GO:0006897
 PRINTS:PR01433 POLYCYSTIN2 > GO:calcium ion binding ; GO:0005509
 PRINTS:PR01433 POLYCYSTIN2 > GO:membrane ; GO:0016020
 PRINTS:PR01434 NADHDHGNASE5 > GO:NADH dehydrogenase (ubiquinone) activity ; GO:0008137

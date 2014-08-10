@@ -1,4 +1,4 @@
-!version date: 2014/07/26 16:38:25
+!version date: 2014/08/09 16:36:14
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -431,14 +431,10 @@ PRINTS:PR00186 HEMERYTHRIN > GO:iron ion binding ; GO:0005506
 PRINTS:PR00186 HEMERYTHRIN > GO:transport ; GO:0006810
 PRINTS:PR00188 PLANTGLOBIN > GO:oxygen binding ; GO:0019825
 PRINTS:PR00188 PLANTGLOBIN > GO:heme binding ; GO:0020037
-PRINTS:PR00191 FACTINCAPA > GO:actin binding ; GO:0003779
-PRINTS:PR00191 FACTINCAPA > GO:actin cytoskeleton organization ; GO:0030036
+PRINTS:PR00191 FACTINCAPA > GO:barbed-end actin filament capping ; GO:0051016
 PRINTS:PR00191 FACTINCAPA > GO:F-actin capping protein complex ; GO:0008290
-PRINTS:PR00191 FACTINCAPA > GO:WASH complex ; GO:0071203
-PRINTS:PR00192 FACTINCAPB > GO:actin binding ; GO:0003779
-PRINTS:PR00192 FACTINCAPB > GO:actin cytoskeleton organization ; GO:0030036
+PRINTS:PR00192 FACTINCAPB > GO:barbed-end actin filament capping ; GO:0051016
 PRINTS:PR00192 FACTINCAPB > GO:F-actin capping protein complex ; GO:0008290
-PRINTS:PR00192 FACTINCAPB > GO:WASH complex ; GO:0071203
 PRINTS:PR00193 MYOSINHEAVY > GO:motor activity ; GO:0003774
 PRINTS:PR00193 MYOSINHEAVY > GO:ATP binding ; GO:0005524
 PRINTS:PR00193 MYOSINHEAVY > GO:myosin complex ; GO:0016459
@@ -813,8 +809,6 @@ PRINTS:PR00389 PHPHLIPASEA2 > GO:lipid catabolic process ; GO:0016042
 PRINTS:PR00390 PHPHLIPASEC > GO:intracellular signal transduction ; GO:0035556
 PRINTS:PR00391 PITRANSFER > GO:transport ; GO:0006810
 PRINTS:PR00391 PITRANSFER > GO:intracellular ; GO:0005622
-PRINTS:PR00392 PROFILIN > GO:actin binding ; GO:0003779
-PRINTS:PR00392 PROFILIN > GO:actin cytoskeleton organization ; GO:0030036
 PRINTS:PR00393 PTRHORMONER > GO:parathyroid hormone receptor activity ; GO:0004991
 PRINTS:PR00393 PTRHORMONER > GO:membrane ; GO:0016020
 PRINTS:PR00395 RIBOSOMALS2 > GO:structural constituent of ribosome ; GO:0003735
@@ -1065,6 +1059,7 @@ PRINTS:PR00483 BACPHPHTASE > GO:outer membrane-bounded periplasmic space ; GO:00
 PRINTS:PR00484 PBPGOBP > GO:odorant binding ; GO:0005549
 PRINTS:PR00484 PBPGOBP > GO:transport ; GO:0006810
 PRINTS:PR00485 MEALWORMBTLB > GO:odorant binding ; GO:0005549
+PRINTS:PR00486 UTEROGLOBIN > GO:signal transduction ; GO:0007165
 PRINTS:PR00487 FILAGGRIN > GO:structural molecule activity ; GO:0005198
 PRINTS:PR00488 5LPOXGNASEAP > GO:enzyme activator activity ; GO:0008047
 PRINTS:PR00488 5LPOXGNASEAP > GO:leukotriene metabolic process ; GO:0006691
@@ -1090,6 +1085,7 @@ PRINTS:PR00495 LEPTIN > GO:extracellular region ; GO:0005576
 PRINTS:PR00496 NAPIN > GO:nutrient reservoir activity ; GO:0045735
 PRINTS:PR00498 P47PHOX > GO:superoxide-generating NADPH oxidase activity ; GO:0016175
 PRINTS:PR00498 P47PHOX > GO:cytoplasm ; GO:0005737
+PRINTS:PR00500 POLYCYSTIN1 > GO:kidney development ; GO:0001822
 PRINTS:PR00500 POLYCYSTIN1 > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00503 BROMODOMAIN > GO:protein binding ; GO:0005515
 PRINTS:PR00505 D12N6MTFRASE > GO:site-specific DNA-methyltransferase (adenine-specific) activity ; GO:0009007
@@ -1929,13 +1925,9 @@ PRINTS:PR00804 VITAMNDBNDNG > GO:vitamin D binding ; GO:0005499
 PRINTS:PR00804 VITAMNDBNDNG > GO:vitamin transporter activity ; GO:0051183
 PRINTS:PR00804 VITAMNDBNDNG > GO:vitamin transport ; GO:0051180
 PRINTS:PR00804 VITAMNDBNDNG > GO:extracellular space ; GO:0005615
-PRINTS:PR00805 ALPHACATENIN > GO:structural molecule activity ; GO:0005198
 PRINTS:PR00805 ALPHACATENIN > GO:cadherin binding ; GO:0045296
+PRINTS:PR00805 ALPHACATENIN > GO:actin filament binding ; GO:0051015
 PRINTS:PR00805 ALPHACATENIN > GO:cell adhesion ; GO:0007155
-PRINTS:PR00805 ALPHACATENIN > GO:actin cytoskeleton ; GO:0015629
-PRINTS:PR00806 VINCULIN > GO:structural molecule activity ; GO:0005198
-PRINTS:PR00806 VINCULIN > GO:cell adhesion ; GO:0007155
-PRINTS:PR00806 VINCULIN > GO:actin cytoskeleton ; GO:0015629
 PRINTS:PR00808 AMLASEINHBTR > GO:serine-type endopeptidase inhibitor activity ; GO:0004867
 PRINTS:PR00809 RAGALLERGEN > GO:type I hypersensitivity ; GO:0016068
 PRINTS:PR00810 BCTERIALGSPC > GO:protein transporter activity ; GO:0008565
@@ -2593,7 +2585,7 @@ PRINTS:PR01088 NAHEXCHNGR6 > GO:sodium:proton antiporter activity ; GO:0015385
 PRINTS:PR01088 NAHEXCHNGR6 > GO:sodium ion transport ; GO:0006814
 PRINTS:PR01088 NAHEXCHNGR6 > GO:regulation of pH ; GO:0006885
 PRINTS:PR01088 NAHEXCHNGR6 > GO:integral component of membrane ; GO:0016021
-PRINTS:PR01090 NEUROLIGIN > GO:cell adhesion ; GO:0007155
+PRINTS:PR01090 NEUROLIGIN > GO:neurexin family protein binding ; GO:0042043
 PRINTS:PR01090 NEUROLIGIN > GO:membrane ; GO:0016020
 PRINTS:PR01091 OREXINPP > GO:neuropeptide signaling pathway ; GO:0007218
 PRINTS:PR01091 OREXINPP > GO:feeding behavior ; GO:0007631
@@ -2877,7 +2869,7 @@ PRINTS:PR01189 ANIONEXHNGR3 > GO:inorganic anion exchanger activity ; GO:0005452
 PRINTS:PR01189 ANIONEXHNGR3 > GO:anion transport ; GO:0006820
 PRINTS:PR01189 ANIONEXHNGR3 > GO:membrane ; GO:0016020
 PRINTS:PR01190 GLUCTRSPORT1 > GO:glucose transmembrane transporter activity ; GO:0005355
-PRINTS:PR01190 GLUCTRSPORT1 > GO:transport ; GO:0006810
+PRINTS:PR01190 GLUCTRSPORT1 > GO:glucose transport ; GO:0015758
 PRINTS:PR01190 GLUCTRSPORT1 > GO:membrane ; GO:0016020
 PRINTS:PR01191 GLUCTRSPORT2 > GO:glucose transmembrane transporter activity ; GO:0005355
 PRINTS:PR01191 GLUCTRSPORT2 > GO:transport ; GO:0006810
@@ -3165,7 +3157,7 @@ PRINTS:PR01300 PYOCINKILLER > GO:receptor binding ; GO:0005102
 PRINTS:PR01300 PYOCINKILLER > GO:pathogenesis ; GO:0009405
 PRINTS:PR01300 PYOCINKILLER > GO:response to bacterium ; GO:0009617
 PRINTS:PR01300 PYOCINKILLER > GO:cytolysis ; GO:0019835
-PRINTS:PR01301 RGSPROTEIN > GO:termination of G-protein coupled receptor signaling pathway ; GO:0038032
+PRINTS:PR01301 RGSPROTEIN > GO:regulation of G-protein coupled receptor protein signaling pathway ; GO:0008277
 PRINTS:PR01302 TYPE3IMPPROT > GO:protein secretion ; GO:0009306
 PRINTS:PR01302 TYPE3IMPPROT > GO:membrane ; GO:0016020
 PRINTS:PR01303 CRCMSPRZOITE > GO:cell surface ; GO:0009986
@@ -3636,6 +3628,8 @@ PRINTS:PR01499 TREKCHANNEL > GO:potassium ion transmembrane transport ; GO:00718
 PRINTS:PR01499 TREKCHANNEL > GO:membrane ; GO:0016020
 PRINTS:PR01500 TROPOELASTIN > GO:extracellular matrix structural constituent ; GO:0005201
 PRINTS:PR01500 TROPOELASTIN > GO:proteinaceous extracellular matrix ; GO:0005578
+PRINTS:PR01502 UXTPROTEIN > GO:RNA polymerase II transcription corepressor activity ; GO:0001106
+PRINTS:PR01502 UXTPROTEIN > GO:negative regulation of transcription from RNA polymerase II promoter ; GO:0000122
 PRINTS:PR01505 PROTHROMBIN > GO:serine-type endopeptidase activity ; GO:0004252
 PRINTS:PR01505 PROTHROMBIN > GO:calcium ion binding ; GO:0005509
 PRINTS:PR01505 PROTHROMBIN > GO:proteolysis ; GO:0006508
@@ -3992,8 +3986,6 @@ PRINTS:PR01638 MHCCLASSI > GO:immune response ; GO:0006955
 PRINTS:PR01638 MHCCLASSI > GO:MHC class I protein complex ; GO:0042612
 PRINTS:PR01639 PROFILINMAML > GO:actin binding ; GO:0003779
 PRINTS:PR01639 PROFILINMAML > GO:actin cytoskeleton organization ; GO:0030036
-PRINTS:PR01640 PROFILINPLNT > GO:actin binding ; GO:0003779
-PRINTS:PR01640 PROFILINPLNT > GO:actin cytoskeleton organization ; GO:0030036
 PRINTS:PR01641 PROMCHFAMILY > GO:melanin-concentrating hormone activity ; GO:0030354
 PRINTS:PR01641 PROMCHFAMILY > GO:synaptic transmission ; GO:0007268
 PRINTS:PR01642 TRPCHANNEL1 > GO:calcium channel activity ; GO:0005262
@@ -4529,6 +4521,8 @@ PRINTS:PR01863 APOPREGBCL2 > GO:negative regulation of apoptotic process ; GO:00
 PRINTS:PR01864 APOPREGBCLX > GO:regulation of apoptotic process ; GO:0042981
 PRINTS:PR01865 APOPREGBCLW > GO:regulation of apoptotic process ; GO:0042981
 PRINTS:PR01867 BCL2RLATEDA1 > GO:negative regulation of apoptotic process ; GO:0043066
+PRINTS:PR01869 BCATNINFAMLY > GO:signal transducer activity ; GO:0004871
+PRINTS:PR01869 BCATNINFAMLY > GO:adherens junction assembly ; GO:0034333
 PRINTS:PR01874 DNAREPAIRADA > GO:damaged DNA binding ; GO:0003684
 PRINTS:PR01874 DNAREPAIRADA > GO:ATP binding ; GO:0005524
 PRINTS:PR01874 DNAREPAIRADA > GO:DNA repair ; GO:0006281

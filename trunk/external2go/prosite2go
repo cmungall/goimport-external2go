@@ -1,4 +1,4 @@
-!version date: 2014/08/09 16:36:15
+!version date: 2014/08/16 16:32:07
 !description: Mapping of GO terms to PROSITE entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://www.expasy.org/prosite/
 !citation: Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -3980,10 +3980,10 @@ PROSITE:MF_03171 Adenylate_kinase_AK1 > GO:adenylate kinase activity ; GO:000401
 PROSITE:MF_03171 Adenylate_kinase_AK1 > GO:nucleoside diphosphate kinase activity ; GO:0004550
 PROSITE:MF_03171 Adenylate_kinase_AK1 > GO:ATP binding ; GO:0005524
 PROSITE:MF_03171 Adenylate_kinase_AK1 > GO:nucleoside triphosphate biosynthetic process ; GO:0009142
-PROSITE:MF_03172 Adenylate_kinase_UMP_CMP_kin > GO:ATP binding ; GO:0005524
-PROSITE:MF_03172 Adenylate_kinase_UMP_CMP_kin > GO:phosphotransferase activity, phosphate group as acceptor ; GO:0016776
-PROSITE:MF_03172 Adenylate_kinase_UMP_CMP_kin > GO:nucleotide kinase activity ; GO:0019201
-PROSITE:MF_03172 Adenylate_kinase_UMP_CMP_kin > GO:nucleotide phosphorylation ; GO:0046939
+PROSITE:MF_03172 Adenylate_kinase_UMP_CMP_kin > GO:cytidylate kinase activity ; GO:0004127
+PROSITE:MF_03172 Adenylate_kinase_UMP_CMP_kin > GO:uridylate kinase activity ; GO:0009041
+PROSITE:MF_03172 Adenylate_kinase_UMP_CMP_kin > GO:'de novo' pyrimidine nucleobase biosynthetic process ; GO:0006207
+PROSITE:MF_03172 Adenylate_kinase_UMP_CMP_kin > GO:pyrimidine nucleotide biosynthetic process ; GO:0006221
 PROSITE:MF_03175 MetAP_2_euk > GO:aminopeptidase activity ; GO:0004177
 PROSITE:MF_03175 MetAP_2_euk > GO:metalloexopeptidase activity ; GO:0008235
 PROSITE:MF_03175 MetAP_2_euk > GO:proteolysis ; GO:0006508
@@ -4017,9 +4017,6 @@ PROSITE:PS00035 POU_1 > GO:regulation of transcription, DNA-templated ; GO:00063
 PROSITE:PS00036 BZIP_BASIC > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS00036 BZIP_BASIC > GO:sequence-specific DNA binding ; GO:0043565
 PROSITE:PS00036 BZIP_BASIC > GO:regulation of transcription, DNA-templated ; GO:0006355
-PROSITE:PS00039 DEAD_ATP_HELICASE > GO:nucleic acid binding ; GO:0003676
-PROSITE:PS00039 DEAD_ATP_HELICASE > GO:ATP binding ; GO:0005524
-PROSITE:PS00039 DEAD_ATP_HELICASE > GO:ATP-dependent helicase activity ; GO:0008026
 PROSITE:PS00041 HTH_ARAC_FAMILY_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS00041 HTH_ARAC_FAMILY_1 > GO:sequence-specific DNA binding ; GO:0043565
 PROSITE:PS00041 HTH_ARAC_FAMILY_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
@@ -4325,13 +4322,11 @@ PROSITE:PS00214 FABP > GO:transporter activity ; GO:0005215
 PROSITE:PS00214 FABP > GO:lipid binding ; GO:0008289
 PROSITE:PS00214 FABP > GO:transport ; GO:0006810
 PROSITE:PS00216 SUGAR_TRANSPORT_1 > GO:transporter activity ; GO:0005215
-PROSITE:PS00216 SUGAR_TRANSPORT_1 > GO:transport ; GO:0006810
 PROSITE:PS00216 SUGAR_TRANSPORT_1 > GO:transmembrane transport ; GO:0055085
-PROSITE:PS00216 SUGAR_TRANSPORT_1 > GO:membrane ; GO:0016020
+PROSITE:PS00216 SUGAR_TRANSPORT_1 > GO:integral component of membrane ; GO:0016021
 PROSITE:PS00217 SUGAR_TRANSPORT_2 > GO:transporter activity ; GO:0005215
-PROSITE:PS00217 SUGAR_TRANSPORT_2 > GO:transport ; GO:0006810
 PROSITE:PS00217 SUGAR_TRANSPORT_2 > GO:transmembrane transport ; GO:0055085
-PROSITE:PS00217 SUGAR_TRANSPORT_2 > GO:membrane ; GO:0016020
+PROSITE:PS00217 SUGAR_TRANSPORT_2 > GO:integral component of membrane ; GO:0016021
 PROSITE:PS00218 AMINO_ACID_PERMEASE_1 > GO:amino acid transport ; GO:0006865
 PROSITE:PS00218 AMINO_ACID_PERMEASE_1 > GO:transmembrane transport ; GO:0055085
 PROSITE:PS00218 AMINO_ACID_PERMEASE_1 > GO:integral component of membrane ; GO:0016021
@@ -7214,8 +7209,7 @@ PROSITE:PS51305 POTA > GO:putrescine-importing ATPase activity ; GO:0015594
 PROSITE:PS51305 POTA > GO:spermidine-importing ATPase activity ; GO:0015595
 PROSITE:PS51305 POTA > GO:polyamine transport ; GO:0015846
 PROSITE:PS51305 POTA > GO:membrane ; GO:0016020
-PROSITE:PS51307 ASD2 > GO:cell morphogenesis ; GO:0000902
-PROSITE:PS51307 ASD2 > GO:cytoplasm ; GO:0005737
+PROSITE:PS51306 ASD1 > GO:actin filament binding ; GO:0051015
 PROSITE:PS51309 PABC > GO:RNA binding ; GO:0003723
 PROSITE:PS51315 UGPC > GO:glycerol-3-phosphate-transporting ATPase activity ; GO:0015430
 PROSITE:PS51315 UGPC > GO:glycerol-3-phosphate transport ; GO:0015794

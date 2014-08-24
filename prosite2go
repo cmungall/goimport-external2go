@@ -1,4 +1,4 @@
-!version date: 2014/08/16 16:32:07
+!version date: 2014/08/23 16:38:38
 !description: Mapping of GO terms to PROSITE entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://www.expasy.org/prosite/
 !citation: Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1881,7 +1881,7 @@ PROSITE:MF_00913 FtsW_proteobact > GO:cell division ; GO:0051301
 PROSITE:MF_00913 FtsW_proteobact > GO:integral component of membrane ; GO:0016021
 PROSITE:MF_00914 L_Ala_exporter > GO:L-amino acid efflux transmembrane transporter activity ; GO:0034639
 PROSITE:MF_00914 L_Ala_exporter > GO:integral component of membrane ; GO:0016021
-PROSITE:MF_00915 FtsP > GO:cytokinesis by binary fission ; GO:0043093
+PROSITE:MF_00915 FtsP > GO:FtsZ-dependent cytokinesis ; GO:0043093
 PROSITE:MF_00916 QueG > GO:oxidoreductase activity ; GO:0016491
 PROSITE:MF_00916 QueG > GO:tRNA processing ; GO:0008033
 PROSITE:MF_00916 QueG > GO:queuosine biosynthetic process ; GO:0008616
@@ -1925,7 +1925,7 @@ PROSITE:MF_00942 Nth > GO:DNA-(apurinic or apyrimidinic site) lyase activity ; G
 PROSITE:MF_00942 Nth > GO:base-excision repair ; GO:0006284
 PROSITE:MF_00943 Maleate_isomerase > GO:maleate isomerase activity ; GO:0050076
 PROSITE:MF_00944 YchF_OLA1_ATPase > GO:GTP binding ; GO:0005525
-PROSITE:MF_00946 HdeA > GO:cellular response to acidity ; GO:0071468
+PROSITE:MF_00946 HdeA > GO:cellular response to acidic pH ; GO:0071468
 PROSITE:MF_00946 HdeA > GO:outer membrane-bounded periplasmic space ; GO:0030288
 PROSITE:MF_00947 HdeB > GO:unfolded protein binding ; GO:0051082
 PROSITE:MF_00947 HdeB > GO:response to pH ; GO:0009268
@@ -2119,7 +2119,8 @@ PROSITE:MF_01070 MdoB_OpgB > GO:glucan biosynthetic process ; GO:0009250
 PROSITE:MF_01070 MdoB_OpgB > GO:plasma membrane ; GO:0005886
 PROSITE:MF_01072 MdoH_OpgH > GO:transferase activity, transferring hexosyl groups ; GO:0016758
 PROSITE:MF_01073 MatP > GO:sequence-specific DNA binding ; GO:0043565
-PROSITE:MF_01075 NhaP2 > GO:potassium:proton antiporter activity ; GO:0015386
+PROSITE:MF_01075 NhaP2 > GO:monovalent cation:proton antiporter activity ; GO:0005451
+PROSITE:MF_01075 NhaP2 > GO:cation transport ; GO:0006812
 PROSITE:MF_01075 NhaP2 > GO:potassium ion transport ; GO:0006813
 PROSITE:MF_01075 NhaP2 > GO:cell volume homeostasis ; GO:0006884
 PROSITE:MF_01075 NhaP2 > GO:integral component of membrane ; GO:0016021
@@ -2322,7 +2323,7 @@ PROSITE:MF_01193 Endoribonucl_SymE > GO:endoribonuclease activity ; GO:0004521
 PROSITE:MF_01193 Endoribonucl_SymE > GO:RNA metabolic process ; GO:0016070
 PROSITE:MF_01193 Endoribonucl_SymE > GO:cytoplasm ; GO:0005737
 PROSITE:MF_01196 ZapB > GO:barrier septum assembly ; GO:0000917
-PROSITE:MF_01196 ZapB > GO:cytokinesis by binary fission ; GO:0043093
+PROSITE:MF_01196 ZapB > GO:FtsZ-dependent cytokinesis ; GO:0043093
 PROSITE:MF_01196 ZapB > GO:cytoplasm ; GO:0005737
 PROSITE:MF_01197 SepF > GO:cell septum assembly ; GO:0090529
 PROSITE:MF_01198 Anti_adapt_IraP > GO:cytoplasm ; GO:0005737
@@ -2338,7 +2339,7 @@ PROSITE:MF_01202 DadA > GO:D-amino-acid dehydrogenase activity ; GO:0008718
 PROSITE:MF_01202 DadA > GO:D-amino acid catabolic process ; GO:0019478
 PROSITE:MF_01202 DadA > GO:oxidation-reduction process ; GO:0055114
 PROSITE:MF_01203 CLC_ClcB > GO:chloride transport ; GO:0006821
-PROSITE:MF_01203 CLC_ClcB > GO:response to acidity ; GO:0010447
+PROSITE:MF_01203 CLC_ClcB > GO:response to acidic pH ; GO:0010447
 PROSITE:MF_01204 Oxidoreductase_RutE_HadB > GO:oxidoreductase activity ; GO:0016491
 PROSITE:MF_01204 Oxidoreductase_RutE_HadB > GO:oxidation-reduction process ; GO:0055114
 PROSITE:MF_01206 YedY > GO:oxidoreductase activity, acting on a sulfur group of donors ; GO:0016667
@@ -7212,6 +7213,7 @@ PROSITE:PS51305 POTA > GO:membrane ; GO:0016020
 PROSITE:PS51306 ASD1 > GO:actin filament binding ; GO:0051015
 PROSITE:PS51309 PABC > GO:RNA binding ; GO:0003723
 PROSITE:PS51315 UGPC > GO:glycerol-3-phosphate-transporting ATPase activity ; GO:0015430
+PROSITE:PS51315 UGPC > GO:glycerophosphodiester transport ; GO:0001407
 PROSITE:PS51315 UGPC > GO:glycerol-3-phosphate transport ; GO:0015794
 PROSITE:PS51317 NDVA > GO:beta-glucan-transporting ATPase activity ; GO:0015441
 PROSITE:PS51317 NDVA > GO:beta-glucan transport ; GO:0015775
@@ -7245,7 +7247,7 @@ PROSITE:PS51337 B12_BINDING_NTER > GO:methionine synthase activity ; GO:0008705
 PROSITE:PS51337 B12_BINDING_NTER > GO:cobalamin binding ; GO:0031419
 PROSITE:PS51337 B12_BINDING_NTER > GO:metal ion binding ; GO:0046872
 PROSITE:PS51337 B12_BINDING_NTER > GO:methionine biosynthetic process ; GO:0009086
-PROSITE:PS51338 IMD > GO:actin filament binding ; GO:0051015
+PROSITE:PS51338 IMD > GO:plasma membrane organization ; GO:0007009
 PROSITE:PS51339 PPASE_MYOTUBULARIN > GO:phosphatase activity ; GO:0016791
 PROSITE:PS51339 PPASE_MYOTUBULARIN > GO:dephosphorylation ; GO:0016311
 PROSITE:PS51340 MOSC > GO:catalytic activity ; GO:0003824

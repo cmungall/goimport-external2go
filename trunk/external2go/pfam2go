@@ -1,4 +1,4 @@
-!version date: 2014/08/30 16:56:10
+!version date: 2014/09/06 18:33:42
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -869,10 +869,6 @@ Pfam:PF00493 MCM > GO:ATP binding ; GO:0005524
 Pfam:PF00493 MCM > GO:DNA replication ; GO:0006260
 Pfam:PF00494 SQS_PSY > GO:transferase activity ; GO:0016740
 Pfam:PF00494 SQS_PSY > GO:biosynthetic process ; GO:0009058
-Pfam:PF00496 SBP_bac_5 > GO:transporter activity ; GO:0005215
-Pfam:PF00496 SBP_bac_5 > GO:transport ; GO:0006810
-Pfam:PF00497 SBP_bac_3 > GO:transporter activity ; GO:0005215
-Pfam:PF00497 SBP_bac_3 > GO:transport ; GO:0006810
 Pfam:PF00498 FHA > GO:protein binding ; GO:0005515
 Pfam:PF00499 Oxidored_q3 > GO:NADH dehydrogenase (ubiquinone) activity ; GO:0008137
 Pfam:PF00499 Oxidored_q3 > GO:oxidation-reduction process ; GO:0055114
@@ -1532,6 +1528,7 @@ Pfam:PF00889 EF_TS > GO:translational elongation ; GO:0006414
 Pfam:PF00889 EF_TS > GO:intracellular ; GO:0005622
 Pfam:PF00891 Methyltransf_2 > GO:O-methyltransferase activity ; GO:0008171
 Pfam:PF00892 EamA > GO:membrane ; GO:0016020
+Pfam:PF00892 EamA > GO:integral component of membrane ; GO:0016021
 Pfam:PF00893 Multi_Drug_Res > GO:integral component of membrane ; GO:0016021
 Pfam:PF00894 Luteo_coat > GO:structural molecule activity ; GO:0005198
 Pfam:PF00894 Luteo_coat > GO:viral capsid ; GO:0019028
@@ -1893,7 +1890,7 @@ Pfam:PF01096 TFIIS_C > GO:nucleic acid binding ; GO:0003676
 Pfam:PF01096 TFIIS_C > GO:zinc ion binding ; GO:0008270
 Pfam:PF01096 TFIIS_C > GO:transcription, DNA-templated ; GO:0006351
 Pfam:PF01097 Defensin_2 > GO:defense response ; GO:0006952
-Pfam:PF01098 FTSW_RODA_SPOVE > GO:cell cycle ; GO:0007049
+Pfam:PF01098 FTSW_RODA_SPOVE > GO:cell division ; GO:0051301
 Pfam:PF01098 FTSW_RODA_SPOVE > GO:integral component of membrane ; GO:0016021
 Pfam:PF01101 HMG14_17 > GO:nucleosomal DNA binding ; GO:0031492
 Pfam:PF01101 HMG14_17 > GO:chromatin ; GO:0000785
@@ -2038,7 +2035,7 @@ Pfam:PF01182 Glucosamine_iso > GO:carbohydrate metabolic process ; GO:0005975
 Pfam:PF01183 Glyco_hydro_25 > GO:lysozyme activity ; GO:0003796
 Pfam:PF01183 Glyco_hydro_25 > GO:peptidoglycan catabolic process ; GO:0009253
 Pfam:PF01183 Glyco_hydro_25 > GO:cell wall macromolecule catabolic process ; GO:0016998
-Pfam:PF01184 Grp1_Fun34_YaaH > GO:membrane ; GO:0016020
+Pfam:PF01184 Grp1_Fun34_YaaH > GO:integral component of membrane ; GO:0016021
 Pfam:PF01185 Hydrophobin > GO:structural constituent of cell wall ; GO:0005199
 Pfam:PF01185 Hydrophobin > GO:fungal-type cell wall ; GO:0009277
 Pfam:PF01186 Lysyl_oxidase > GO:copper ion binding ; GO:0005507
@@ -2955,8 +2952,6 @@ Pfam:PF01756 ACOX > GO:fatty acid beta-oxidation ; GO:0006635
 Pfam:PF01756 ACOX > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF01756 ACOX > GO:peroxisome ; GO:0005777
 Pfam:PF01757 Acyl_transf_3 > GO:transferase activity, transferring acyl groups other than amino-acyl groups ; GO:0016747
-Pfam:PF01758 SBF > GO:bile acid:sodium symporter activity ; GO:0008508
-Pfam:PF01758 SBF > GO:sodium ion transport ; GO:0006814
 Pfam:PF01758 SBF > GO:membrane ; GO:0016020
 Pfam:PF01761 DHQ_synthase > GO:3-dehydroquinate synthase activity ; GO:0003856
 Pfam:PF01761 DHQ_synthase > GO:aromatic amino acid family biosynthetic process ; GO:0009073
@@ -3116,6 +3111,7 @@ Pfam:PF01876 RNase_P_p30 > GO:tRNA processing ; GO:0008033
 Pfam:PF01880 Desulfoferrodox > GO:iron ion binding ; GO:0005506
 Pfam:PF01880 Desulfoferrodox > GO:oxidoreductase activity ; GO:0016491
 Pfam:PF01880 Desulfoferrodox > GO:oxidation-reduction process ; GO:0055114
+Pfam:PF01881 Cas_Cas6 > GO:hydrolase activity, acting on ester bonds ; GO:0016788
 Pfam:PF01884 PcrB > GO:transferase activity, transferring alkyl or aryl (other than methyl) groups ; GO:0016765
 Pfam:PF01885 PTS_2-RNA > GO:transferase activity, transferring phosphorus-containing groups ; GO:0016772
 Pfam:PF01885 PTS_2-RNA > GO:tRNA splicing, via endonucleolytic cleavage and ligation ; GO:0006388
@@ -4579,7 +4575,6 @@ Pfam:PF03026 CM1 > GO:viral capsid ; GO:0019028
 Pfam:PF03028 Dynein_heavy > GO:microtubule motor activity ; GO:0003777
 Pfam:PF03028 Dynein_heavy > GO:microtubule-based movement ; GO:0007018
 Pfam:PF03028 Dynein_heavy > GO:dynein complex ; GO:0030286
-Pfam:PF03029 ATP_bind_1 > GO:nucleotide binding ; GO:0000166
 Pfam:PF03030 H_PPase > GO:inorganic diphosphatase activity ; GO:0004427
 Pfam:PF03030 H_PPase > GO:hydrogen-translocating pyrophosphatase activity ; GO:0009678
 Pfam:PF03030 H_PPase > GO:proton transport ; GO:0015992
@@ -4791,7 +4786,7 @@ Pfam:PF03234 CDC37_N > GO:protein kinase binding ; GO:0019901
 Pfam:PF03239 FTR1 > GO:iron ion transmembrane transporter activity ; GO:0005381
 Pfam:PF03239 FTR1 > GO:high-affinity iron ion transmembrane transport ; GO:0006827
 Pfam:PF03239 FTR1 > GO:membrane ; GO:0016020
-Pfam:PF03239 FTR1 > GO:high affinity iron permease complex ; GO:0033573
+Pfam:PF03239 FTR1 > GO:high-affinity iron permease complex ; GO:0033573
 Pfam:PF03242 LEA_3 > GO:response to stress ; GO:0006950
 Pfam:PF03243 MerB > GO:alkylmercury lyase activity ; GO:0018836
 Pfam:PF03243 MerB > GO:organomercury catabolic process ; GO:0046413
@@ -6984,10 +6979,6 @@ Pfam:PF05733 Tenui_N > GO:viral nucleocapsid ; GO:0019013
 Pfam:PF05735 TSP_C > GO:calcium ion binding ; GO:0005509
 Pfam:PF05735 TSP_C > GO:cell adhesion ; GO:0007155
 Pfam:PF05735 TSP_C > GO:extracellular region ; GO:0005576
-Pfam:PF05736 OprF > GO:porin activity ; GO:0015288
-Pfam:PF05736 OprF > GO:transport ; GO:0006810
-Pfam:PF05736 OprF > GO:cell outer membrane ; GO:0009279
-Pfam:PF05736 OprF > GO:integral component of membrane ; GO:0016021
 Pfam:PF05737 Collagen_bind > GO:collagen binding ; GO:0005518
 Pfam:PF05739 SNARE > GO:protein binding ; GO:0005515
 Pfam:PF05743 UEV > GO:cellular protein modification process ; GO:0006464

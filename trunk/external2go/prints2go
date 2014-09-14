@@ -1,4 +1,4 @@
-!version date: 2014/09/06 18:33:41
+!version date: 2014/09/13 16:23:40
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -853,8 +853,7 @@ PRINTS:PR00411 PNDRDTASEI > GO:oxidoreductase activity ; GO:0016491
 PRINTS:PR00412 EPOXHYDRLASE > GO:catalytic activity ; GO:0003824
 PRINTS:PR00413 HADHALOGNASE > GO:hydrolase activity ; GO:0016787
 PRINTS:PR00413 HADHALOGNASE > GO:metabolic process ; GO:0008152
-PRINTS:PR00414 PPTHIESTRASE > GO:palmitoyl-(protein) hydrolase activity ; GO:0008474
-PRINTS:PR00414 PPTHIESTRASE > GO:cellular protein modification process ; GO:0006464
+PRINTS:PR00414 PPTHIESTRASE > GO:palmitoyl hydrolase activity ; GO:0098599
 PRINTS:PR00415 ACONITASE > GO:metabolic process ; GO:0008152
 PRINTS:PR00416 EUTPISMRASEI > GO:DNA binding ; GO:0003677
 PRINTS:PR00416 EUTPISMRASEI > GO:DNA topoisomerase type I activity ; GO:0003917
@@ -3053,9 +3052,6 @@ PRINTS:PR01260 NACAEXCHNGR1 > GO:calcium ion transport ; GO:0006816
 PRINTS:PR01260 NACAEXCHNGR1 > GO:membrane ; GO:0016020
 PRINTS:PR01261 TAUPROTEIN > GO:microtubule binding ; GO:0008017
 PRINTS:PR01262 INNEXIN > GO:gap junction ; GO:0005921
-PRINTS:PR01263 INTCLCHANNEL > GO:voltage-gated chloride channel activity ; GO:0005247
-PRINTS:PR01263 INTCLCHANNEL > GO:chloride transport ; GO:0006821
-PRINTS:PR01263 INTCLCHANNEL > GO:membrane ; GO:0016020
 PRINTS:PR01264 MECHCHANNEL > GO:ion channel activity ; GO:0005216
 PRINTS:PR01264 MECHCHANNEL > GO:transport ; GO:0006810
 PRINTS:PR01264 MECHCHANNEL > GO:integral component of membrane ; GO:0016021
@@ -4549,14 +4545,12 @@ PRINTS:PR01895 WNT16PROTEIN > GO:receptor binding ; GO:0005102
 PRINTS:PR01895 WNT16PROTEIN > GO:multicellular organismal development ; GO:0007275
 PRINTS:PR01895 WNT16PROTEIN > GO:Wnt signaling pathway ; GO:0016055
 PRINTS:PR01895 WNT16PROTEIN > GO:extracellular region ; GO:0005576
-PRINTS:PR01896 TAP1PROTEIN > GO:ATP binding ; GO:0005524
-PRINTS:PR01896 TAP1PROTEIN > GO:peptide transporter activity ; GO:0015197
-PRINTS:PR01896 TAP1PROTEIN > GO:peptide transport ; GO:0015833
-PRINTS:PR01896 TAP1PROTEIN > GO:membrane ; GO:0016020
 PRINTS:PR01897 TAP2PROTEIN > GO:ATP binding ; GO:0005524
-PRINTS:PR01897 TAP2PROTEIN > GO:peptide transporter activity ; GO:0015197
-PRINTS:PR01897 TAP2PROTEIN > GO:peptide transport ; GO:0015833
-PRINTS:PR01897 TAP2PROTEIN > GO:membrane ; GO:0016020
+PRINTS:PR01897 TAP2PROTEIN > GO:peptide-transporting ATPase activity ; GO:0015440
+PRINTS:PR01897 TAP2PROTEIN > GO:MHC protein binding ; GO:0042287
+PRINTS:PR01897 TAP2PROTEIN > GO:antigen processing and presentation of endogenous peptide antigen via MHC class I ; GO:0019885
+PRINTS:PR01897 TAP2PROTEIN > GO:integral component of endoplasmic reticulum membrane ; GO:0030176
+PRINTS:PR01897 TAP2PROTEIN > GO:TAP complex ; GO:0042825
 PRINTS:PR01900 YIDCPROTEIN > GO:protein insertion into membrane ; GO:0051205
 PRINTS:PR01900 YIDCPROTEIN > GO:integral component of membrane ; GO:0016021
 PRINTS:PR01904 GPR40FAMILY > GO:G-protein coupled receptor signaling pathway ; GO:0007186

@@ -1,4 +1,4 @@
-!version date: 2014/09/13 16:23:40
+!version date: 2014/09/20 13:38:12
 !description: Mapping of GO terms to InterPro entries.
 !external resource: http://www.ebi.ac.uk/interpro
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -762,7 +762,6 @@ InterPro:IPR000418 Ets domain > GO:sequence-specific DNA binding ; GO:0043565
 InterPro:IPR000418 Ets domain > GO:regulation of transcription, DNA-templated ; GO:0006355
 InterPro:IPR000420 Yeast PIR protein repeat > GO:structural constituent of cell wall ; GO:0005199
 InterPro:IPR000420 Yeast PIR protein repeat > GO:cell wall ; GO:0005618
-InterPro:IPR000421 Coagulation factor 5/8 C-terminal type domain > GO:cell adhesion ; GO:0007155
 InterPro:IPR000422 3,4-dihydroxy-2-butanone 4-phosphate synthase, RibB > GO:3,4-dihydroxy-2-butanone-4-phosphate synthase activity ; GO:0008686
 InterPro:IPR000422 3,4-dihydroxy-2-butanone 4-phosphate synthase, RibB > GO:riboflavin biosynthetic process ; GO:0009231
 InterPro:IPR000424 Primosome PriB/single-strand DNA-binding > GO:single-stranded DNA binding ; GO:0003697
@@ -1150,9 +1149,9 @@ InterPro:IPR000620 EamA domain > GO:integral component of membrane ; GO:0016021
 InterPro:IPR000621 Melanocortin 5 receptor > GO:melanocortin receptor activity ; GO:0004977
 InterPro:IPR000621 Melanocortin 5 receptor > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 InterPro:IPR000621 Melanocortin 5 receptor > GO:integral component of membrane ; GO:0016021
-InterPro:IPR000622 K/Cl co-transporter, type 1 > GO:transporter activity ; GO:0005215
-InterPro:IPR000622 K/Cl co-transporter, type 1 > GO:ion transport ; GO:0006811
-InterPro:IPR000622 K/Cl co-transporter, type 1 > GO:membrane ; GO:0016020
+InterPro:IPR000622 K/Cl co-transporter 1 > GO:transporter activity ; GO:0005215
+InterPro:IPR000622 K/Cl co-transporter 1 > GO:ion transport ; GO:0006811
+InterPro:IPR000622 K/Cl co-transporter 1 > GO:membrane ; GO:0016020
 InterPro:IPR000625 Anti-repression trans-activator protein, REV protein > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 InterPro:IPR000625 Anti-repression trans-activator protein, REV protein > GO:regulation of transcription, DNA-templated ; GO:0006355
 InterPro:IPR000625 Anti-repression trans-activator protein, REV protein > GO:host cell nucleus ; GO:0042025
@@ -3279,9 +3278,7 @@ InterPro:IPR001753 Crotonase superfamily > GO:catalytic activity ; GO:0003824
 InterPro:IPR001753 Crotonase superfamily > GO:metabolic process ; GO:0008152
 InterPro:IPR001754 Orotidine 5'-phosphate decarboxylase domain > GO:orotidine-5'-phosphate decarboxylase activity ; GO:0004590
 InterPro:IPR001754 Orotidine 5'-phosphate decarboxylase domain > GO:'de novo' pyrimidine nucleobase biosynthetic process ; GO:0006207
-InterPro:IPR001757 Cation-transporting P-type ATPase > GO:cation-transporting ATPase activity ; GO:0019829
-InterPro:IPR001757 Cation-transporting P-type ATPase > GO:cation transport ; GO:0006812
-InterPro:IPR001757 Cation-transporting P-type ATPase > GO:integral component of membrane ; GO:0016021
+InterPro:IPR001757 P-type ATPase > GO:integral component of membrane ; GO:0016021
 InterPro:IPR001758 Prostanoid EP4 receptor > GO:prostaglandin E receptor activity ; GO:0004957
 InterPro:IPR001758 Prostanoid EP4 receptor > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 InterPro:IPR001758 Prostanoid EP4 receptor > GO:integral component of membrane ; GO:0016021
@@ -9558,12 +9555,11 @@ InterPro:IPR005773 Yop virulence translocation protein R > GO:protein transport 
 InterPro:IPR005773 Yop virulence translocation protein R > GO:integral component of membrane ; GO:0016021
 InterPro:IPR005774 UTP-glucose pyrophosphorylase, regulatory subunit > GO:enzyme regulator activity ; GO:0030234
 InterPro:IPR005774 UTP-glucose pyrophosphorylase, regulatory subunit > GO:UDP-glucose metabolic process ; GO:0006011
-InterPro:IPR005775 Sodium/potassium-transporting P-type ATPase, subfamily IIC > GO:ATP binding ; GO:0005524
-InterPro:IPR005775 Sodium/potassium-transporting P-type ATPase, subfamily IIC > GO:monovalent inorganic cation transmembrane transporter activity ; GO:0015077
-InterPro:IPR005775 Sodium/potassium-transporting P-type ATPase, subfamily IIC > GO:hydrolase activity, acting on acid anhydrides, catalyzing transmembrane movement of substances ; GO:0016820
-InterPro:IPR005775 Sodium/potassium-transporting P-type ATPase, subfamily IIC > GO:ATP biosynthetic process ; GO:0006754
-InterPro:IPR005775 Sodium/potassium-transporting P-type ATPase, subfamily IIC > GO:monovalent inorganic cation transport ; GO:0015672
-InterPro:IPR005775 Sodium/potassium-transporting P-type ATPase, subfamily IIC > GO:integral component of membrane ; GO:0016021
+InterPro:IPR005775 P-type ATPase, subfamily IIC > GO:sodium:potassium-exchanging ATPase activity ; GO:0005391
+InterPro:IPR005775 P-type ATPase, subfamily IIC > GO:ATP binding ; GO:0005524
+InterPro:IPR005775 P-type ATPase, subfamily IIC > GO:potassium ion transport ; GO:0006813
+InterPro:IPR005775 P-type ATPase, subfamily IIC > GO:sodium ion transport ; GO:0006814
+InterPro:IPR005775 P-type ATPase, subfamily IIC > GO:integral component of membrane ; GO:0016021
 InterPro:IPR005776 Oxaloacetate decarboxylase, alpha subunit > GO:oxaloacetate decarboxylase activity ; GO:0008948
 InterPro:IPR005776 Oxaloacetate decarboxylase, alpha subunit > GO:sodium ion transport ; GO:0006814
 InterPro:IPR005778 Tetrahydromethanopterin S-methyltransferase subunit A, MtrA > GO:tetrahydromethanopterin S-methyltransferase activity ; GO:0030269
@@ -9580,9 +9576,9 @@ InterPro:IPR005780 Tetrahydromethanopterin S-methyltransferase, subunit E > GO:v
 InterPro:IPR005781 Photosynthetic reaction centre, M subunit > GO:electron transporter, transferring electrons within the cyclic electron transport pathway of photosynthesis activity ; GO:0045156
 InterPro:IPR005781 Photosynthetic reaction centre, M subunit > GO:photosynthesis, light reaction ; GO:0019684
 InterPro:IPR005781 Photosynthetic reaction centre, M subunit > GO:plasma membrane light-harvesting complex ; GO:0030077
-InterPro:IPR005782 Calcium-transporting P-type ATPase, subfamily  IIA, SERCA-type > GO:calcium-transporting ATPase activity ; GO:0005388
-InterPro:IPR005782 Calcium-transporting P-type ATPase, subfamily  IIA, SERCA-type > GO:calcium ion transport ; GO:0006816
-InterPro:IPR005782 Calcium-transporting P-type ATPase, subfamily  IIA, SERCA-type > GO:integral component of membrane ; GO:0016021
+InterPro:IPR005782 P-type ATPase, subfamily  IIA, SERCA-type > GO:calcium-transporting ATPase activity ; GO:0005388
+InterPro:IPR005782 P-type ATPase, subfamily  IIA, SERCA-type > GO:calcium ion transport ; GO:0006816
+InterPro:IPR005782 P-type ATPase, subfamily  IIA, SERCA-type > GO:integral component of membrane ; GO:0016021
 InterPro:IPR005784 D-amino acid aminotransferase > GO:transaminase activity ; GO:0008483
 InterPro:IPR005784 D-amino acid aminotransferase > GO:pyridoxal phosphate binding ; GO:0030170
 InterPro:IPR005784 D-amino acid aminotransferase > GO:D-amino acid metabolic process ; GO:0046416
@@ -10779,10 +10775,10 @@ InterPro:IPR006383 HAD-superfamily hydrolase, subfamily IB, PSPase-like > GO:met
 InterPro:IPR006384 Pyridoxal phosphate phosphatase-related > GO:phosphatase activity ; GO:0016791
 InterPro:IPR006390 Dihydropteroate synthase > GO:dihydropteroate synthase activity ; GO:0004156
 InterPro:IPR006390 Dihydropteroate synthase > GO:folic acid-containing compound biosynthetic process ; GO:0009396
-InterPro:IPR006391 Potassium-transporting P-type ATPase, B chain, subfamily IA > GO:ATP binding ; GO:0005524
-InterPro:IPR006391 Potassium-transporting P-type ATPase, B chain, subfamily IA > GO:potassium-transporting ATPase activity ; GO:0008556
-InterPro:IPR006391 Potassium-transporting P-type ATPase, B chain, subfamily IA > GO:potassium ion transport ; GO:0006813
-InterPro:IPR006391 Potassium-transporting P-type ATPase, B chain, subfamily IA > GO:integral component of membrane ; GO:0016021
+InterPro:IPR006391 P-type ATPase, B chain, subfamily IA > GO:ATP binding ; GO:0005524
+InterPro:IPR006391 P-type ATPase, B chain, subfamily IA > GO:potassium-transporting ATPase activity ; GO:0008556
+InterPro:IPR006391 P-type ATPase, B chain, subfamily IA > GO:potassium ion transport ; GO:0006813
+InterPro:IPR006391 P-type ATPase, B chain, subfamily IA > GO:integral component of membrane ; GO:0016021
 InterPro:IPR006393 Sepiapterin reductase > GO:sepiapterin reductase activity ; GO:0004757
 InterPro:IPR006393 Sepiapterin reductase > GO:tetrahydrobiopterin biosynthetic process ; GO:0006729
 InterPro:IPR006393 Sepiapterin reductase > GO:oxidation-reduction process ; GO:0055114
@@ -10809,10 +10805,10 @@ InterPro:IPR006406 Nicotinate phosphoribosyltransferase > GO:nicotinate phosphor
 InterPro:IPR006406 Nicotinate phosphoribosyltransferase > GO:nicotinate nucleotide biosynthetic process ; GO:0019357
 InterPro:IPR006407 1,4-alpha-glucan-branching enzyme, GlgB > GO:1,4-alpha-glucan branching enzyme activity ; GO:0003844
 InterPro:IPR006407 1,4-alpha-glucan-branching enzyme, GlgB > GO:glycogen biosynthetic process ; GO:0005978
-InterPro:IPR006408 Calcium-transporting P-type ATPase, subfamily IIB > GO:calcium-transporting ATPase activity ; GO:0005388
-InterPro:IPR006408 Calcium-transporting P-type ATPase, subfamily IIB > GO:ATP binding ; GO:0005524
-InterPro:IPR006408 Calcium-transporting P-type ATPase, subfamily IIB > GO:calcium ion transmembrane transport ; GO:0070588
-InterPro:IPR006408 Calcium-transporting P-type ATPase, subfamily IIB > GO:membrane ; GO:0016020
+InterPro:IPR006408 P-type ATPase, subfamily IIB > GO:calcium-transporting ATPase activity ; GO:0005388
+InterPro:IPR006408 P-type ATPase, subfamily IIB > GO:ATP binding ; GO:0005524
+InterPro:IPR006408 P-type ATPase, subfamily IIB > GO:calcium ion transmembrane transport ; GO:0070588
+InterPro:IPR006408 P-type ATPase, subfamily IIB > GO:membrane ; GO:0016020
 InterPro:IPR006409 Glycerol-3-phosphate cytidylyltransferase > GO:metal ion binding ; GO:0046872
 InterPro:IPR006409 Glycerol-3-phosphate cytidylyltransferase > GO:glycerol-3-phosphate cytidylyltransferase activity ; GO:0047348
 InterPro:IPR006409 Glycerol-3-phosphate cytidylyltransferase > GO:teichoic acid biosynthetic process ; GO:0019350
@@ -10821,15 +10817,15 @@ InterPro:IPR006411 Fructose-bisphosphate aldolase, class II, yeast/E. coli subty
 InterPro:IPR006411 Fructose-bisphosphate aldolase, class II, yeast/E. coli subtype > GO:glycolytic process ; GO:0006096
 InterPro:IPR006412 Fructose-bisphosphate aldolase, class II, Calvin cycle subtype > GO:fructose-bisphosphate aldolase activity ; GO:0004332
 InterPro:IPR006412 Fructose-bisphosphate aldolase, class II, Calvin cycle subtype > GO:glycolytic process ; GO:0006096
-InterPro:IPR006413 Calcium-transporting P-type ATPase, subfamily IIA, PMR1-type > GO:calcium-transporting ATPase activity ; GO:0005388
-InterPro:IPR006413 Calcium-transporting P-type ATPase, subfamily IIA, PMR1-type > GO:calcium ion transport ; GO:0006816
-InterPro:IPR006413 Calcium-transporting P-type ATPase, subfamily IIA, PMR1-type > GO:integral component of membrane ; GO:0016021
-InterPro:IPR006414 Cation-transporting P-type ATPase, subfamily IID > GO:cation-transporting ATPase activity ; GO:0019829
-InterPro:IPR006414 Cation-transporting P-type ATPase, subfamily IID > GO:cation transport ; GO:0006812
-InterPro:IPR006414 Cation-transporting P-type ATPase, subfamily IID > GO:integral component of membrane ; GO:0016021
-InterPro:IPR006415 Magnesium-transporting P-type ATPase, subfamily IIIB > GO:magnesium-importing ATPase activity ; GO:0015444
-InterPro:IPR006415 Magnesium-transporting P-type ATPase, subfamily IIIB > GO:magnesium ion transport ; GO:0015693
-InterPro:IPR006415 Magnesium-transporting P-type ATPase, subfamily IIIB > GO:integral component of membrane ; GO:0016021
+InterPro:IPR006413 P-type ATPase, subfamily IIA, PMR1-type > GO:calcium-transporting ATPase activity ; GO:0005388
+InterPro:IPR006413 P-type ATPase, subfamily IIA, PMR1-type > GO:calcium ion transport ; GO:0006816
+InterPro:IPR006413 P-type ATPase, subfamily IIA, PMR1-type > GO:integral component of membrane ; GO:0016021
+InterPro:IPR006414 P-type ATPase, subfamily IID > GO:cation-transporting ATPase activity ; GO:0019829
+InterPro:IPR006414 P-type ATPase, subfamily IID > GO:cation transport ; GO:0006812
+InterPro:IPR006414 P-type ATPase, subfamily IID > GO:integral component of membrane ; GO:0016021
+InterPro:IPR006415 P-type ATPase, subfamily IIIB > GO:magnesium-importing ATPase activity ; GO:0015444
+InterPro:IPR006415 P-type ATPase, subfamily IIIB > GO:magnesium ion transport ; GO:0015693
+InterPro:IPR006415 P-type ATPase, subfamily IIIB > GO:integral component of membrane ; GO:0016021
 InterPro:IPR006417 Nicotinamide-nucleotide adenylyltransferase > GO:DNA binding ; GO:0003677
 InterPro:IPR006417 Nicotinamide-nucleotide adenylyltransferase > GO:regulation of transcription, DNA-templated ; GO:0006355
 InterPro:IPR006417 Nicotinamide-nucleotide adenylyltransferase > GO:transport ; GO:0006810
@@ -10931,23 +10927,23 @@ InterPro:IPR006519 Ribosomal protein L11, bacterial-type > GO:ribosome ; GO:0005
 InterPro:IPR006529 U2 snRNP auxilliary factor, large subunit, splicing factor > GO:RNA binding ; GO:0003723
 InterPro:IPR006529 U2 snRNP auxilliary factor, large subunit, splicing factor > GO:mRNA processing ; GO:0006397
 InterPro:IPR006529 U2 snRNP auxilliary factor, large subunit, splicing factor > GO:nucleus ; GO:0005634
-InterPro:IPR006534 H+ transporting P-type ATPase, subfamily IIIA > GO:ATPase activity ; GO:0016887
-InterPro:IPR006534 H+ transporting P-type ATPase, subfamily IIIA > GO:ATP catabolic process ; GO:0006200
-InterPro:IPR006534 H+ transporting P-type ATPase, subfamily IIIA > GO:ATP biosynthetic process ; GO:0006754
-InterPro:IPR006534 H+ transporting P-type ATPase, subfamily IIIA > GO:integral component of membrane ; GO:0016021
+InterPro:IPR006534 P-type ATPase, subfamily IIIA > GO:ATPase activity ; GO:0016887
+InterPro:IPR006534 P-type ATPase, subfamily IIIA > GO:ATP catabolic process ; GO:0006200
+InterPro:IPR006534 P-type ATPase, subfamily IIIA > GO:ATP biosynthetic process ; GO:0006754
+InterPro:IPR006534 P-type ATPase, subfamily IIIA > GO:integral component of membrane ; GO:0016021
 InterPro:IPR006536 HnRNP-L/PTB/hephaestus splicing factor > GO:RNA binding ; GO:0003723
 InterPro:IPR006536 HnRNP-L/PTB/hephaestus splicing factor > GO:mRNA processing ; GO:0006397
 InterPro:IPR006536 HnRNP-L/PTB/hephaestus splicing factor > GO:nucleus ; GO:0005634
 InterPro:IPR006538 Cobalt chelatase, CobT subunit > GO:cobalamin biosynthetic process ; GO:0009236
-InterPro:IPR006539 Cation-transporting  P-type ATPase, subfamily IV > GO:magnesium ion binding ; GO:0000287
-InterPro:IPR006539 Cation-transporting  P-type ATPase, subfamily IV > GO:phospholipid-translocating ATPase activity ; GO:0004012
-InterPro:IPR006539 Cation-transporting  P-type ATPase, subfamily IV > GO:ATP binding ; GO:0005524
-InterPro:IPR006539 Cation-transporting  P-type ATPase, subfamily IV > GO:phospholipid transport ; GO:0015914
-InterPro:IPR006539 Cation-transporting  P-type ATPase, subfamily IV > GO:integral component of membrane ; GO:0016021
+InterPro:IPR006539 P-type ATPase, subfamily IV > GO:magnesium ion binding ; GO:0000287
+InterPro:IPR006539 P-type ATPase, subfamily IV > GO:phospholipid-translocating ATPase activity ; GO:0004012
+InterPro:IPR006539 P-type ATPase, subfamily IV > GO:ATP binding ; GO:0005524
+InterPro:IPR006539 P-type ATPase, subfamily IV > GO:phospholipid transport ; GO:0015914
+InterPro:IPR006539 P-type ATPase, subfamily IV > GO:integral component of membrane ; GO:0016021
 InterPro:IPR006543 Histidinol-phosphate phosphatase > GO:phosphatase activity ; GO:0016791
-InterPro:IPR006544 Cation-transporting P-type ATPase, subfamily  V > GO:ATPase activity ; GO:0016887
-InterPro:IPR006544 Cation-transporting P-type ATPase, subfamily  V > GO:cation transport ; GO:0006812
-InterPro:IPR006544 Cation-transporting P-type ATPase, subfamily  V > GO:integral component of membrane ; GO:0016021
+InterPro:IPR006544 P-type ATPase, subfamily  V > GO:ATPase activity ; GO:0016887
+InterPro:IPR006544 P-type ATPase, subfamily  V > GO:cation transport ; GO:0006812
+InterPro:IPR006544 P-type ATPase, subfamily  V > GO:integral component of membrane ; GO:0016021
 InterPro:IPR006545 EYA domain > GO:multicellular organismal development ; GO:0007275
 InterPro:IPR006546 Sex-lethal splicing factor > GO:RNA binding ; GO:0003723
 InterPro:IPR006547 Nitrate reductase, beta subunit > GO:nitrate reductase activity ; GO:0008940
@@ -12068,8 +12064,7 @@ InterPro:IPR007839 GTP cyclohydrolase III > GO:GTP cyclohydrolase activity ; GO:
 InterPro:IPR007839 GTP cyclohydrolase III > GO:biosynthetic process ; GO:0009058
 InterPro:IPR007845 Haemin-degrading HemS/ChuX domain > GO:iron ion transport ; GO:0006826
 InterPro:IPR007848 Methyltransferase small domain > GO:methyltransferase activity ; GO:0008168
-InterPro:IPR007849 ATPase assembly factor ATP10, mitochondria > GO:mitochondrial proton-transporting ATP synthase complex assembly ; GO:0033615
-InterPro:IPR007849 ATPase assembly factor ATP10, mitochondria > GO:mitochondrial inner membrane ; GO:0005743
+InterPro:IPR007849 ATPase assembly factor ATP10 > GO:integral component of mitochondrial membrane ; GO:0032592
 InterPro:IPR007853 Zinc finger, DNL-type > GO:zinc ion binding ; GO:0008270
 InterPro:IPR007855 RNA-dependent RNA polymerase, eukaryotic-type > GO:RNA-directed RNA polymerase activity ; GO:0003968
 InterPro:IPR007856 Saposin-like type B, 1 > GO:lipid metabolic process ; GO:0006629
@@ -21985,7 +21980,7 @@ InterPro:IPR019520 Ribosomal protein S23/Rsm25, mitochondrial > GO:structural co
 InterPro:IPR019520 Ribosomal protein S23/Rsm25, mitochondrial > GO:translation ; GO:0006412
 InterPro:IPR019520 Ribosomal protein S23/Rsm25, mitochondrial > GO:ribosome ; GO:0005840
 InterPro:IPR019522 Phosphoinositide 3-kinase regulatory subunit 5/6 > GO:1-phosphatidylinositol-3-kinase regulator activity ; GO:0046935
-InterPro:IPR019522 Phosphoinositide 3-kinase regulatory subunit 5/6 > GO:1-phosphatidylinositol-4-phosphate 3-kinase, class IB complex ; GO:0005944
+InterPro:IPR019522 Phosphoinositide 3-kinase regulatory subunit 5/6 > GO:phosphatidylinositol 3-kinase complex, class IB ; GO:0005944
 InterPro:IPR019538 26S proteasome non-ATPase regulatory subunit 5 > GO:proteasome assembly ; GO:0043248
 InterPro:IPR019540 Phosphatidylinositol-glycan biosynthesis class S protein > GO:attachment of GPI anchor to protein ; GO:0016255
 InterPro:IPR019540 Phosphatidylinositol-glycan biosynthesis class S protein > GO:GPI-anchor transamidase complex ; GO:0042765
@@ -24865,7 +24860,6 @@ InterPro:IPR025725 E3 ubiquitin-protein ligase SopA-like, catalytic domain > GO:
 InterPro:IPR025752 High pH protein family > GO:response to stress ; GO:0006950
 InterPro:IPR025752 High pH protein family > GO:endoplasmic reticulum ; GO:0005783
 InterPro:IPR025763 tRNA (guanine-N-7) methyltransferase catalytic subunit Trm8, eukaryote > GO:tRNA (guanine-N7-)-methyltransferase activity ; GO:0008176
-InterPro:IPR025769 ERGosterol biosynthesis methyltransferase, plant > GO:S-adenosylmethionine-dependent methyltransferase activity ; GO:0008757
 InterPro:IPR025770 Protein-S-isoprenylcysteine O-methyltransferase > GO:protein C-terminal S-isoprenylcysteine carboxyl O-methyltransferase activity ; GO:0004671
 InterPro:IPR025770 Protein-S-isoprenylcysteine O-methyltransferase > GO:C-terminal protein methylation ; GO:0006481
 InterPro:IPR025770 Protein-S-isoprenylcysteine O-methyltransferase > GO:endoplasmic reticulum ; GO:0005783
@@ -24876,9 +24870,6 @@ InterPro:IPR025777 GMP synthetase ATP pyrophosphatase domain > GO:ATP binding ; 
 InterPro:IPR025777 GMP synthetase ATP pyrophosphatase domain > GO:pyrophosphatase activity ; GO:0016462
 InterPro:IPR025778 Histone-lysine N-methyltransferase, EZ > GO:PcG protein complex ; GO:0031519
 InterPro:IPR025779 Methionine S-methyltransferase > GO:methyltransferase activity ; GO:0008168
-InterPro:IPR025781 Acetylserotonin O-methyltransferase > GO:O-methyltransferase activity ; GO:0008171
-InterPro:IPR025781 Acetylserotonin O-methyltransferase > GO:melatonin biosynthetic process ; GO:0030187
-InterPro:IPR025782 Catechol O-methyltransferase > GO:catechol O-methyltransferase activity ; GO:0016206
 InterPro:IPR025783 Histone-lysine N-methyltransferase SET9 > GO:histone methyltransferase activity (H4-K20 specific) ; GO:0042799
 InterPro:IPR025783 Histone-lysine N-methyltransferase SET9 > GO:histone H4-K20 methylation ; GO:0034770
 InterPro:IPR025785 Histone-lysine N-methyltransferase, SETD3 > GO:transcription coactivator activity ; GO:0003713
@@ -24893,8 +24884,6 @@ InterPro:IPR025790 Histone-lysine N-methyltransferase, Suvar4-20 > GO:histone me
 InterPro:IPR025790 Histone-lysine N-methyltransferase, Suvar4-20 > GO:histone H4-K20 trimethylation ; GO:0034773
 InterPro:IPR025792 tRNA (guanine(37)-N(1))-methyltransferase, eukaryotic > GO:tRNA (guanine-N1-)-methyltransferase activity ; GO:0009019
 InterPro:IPR025792 tRNA (guanine(37)-N(1))-methyltransferase, eukaryotic > GO:tRNA methylation ; GO:0030488
-InterPro:IPR025793 tRNA (guanine(37)-N(1))-methyltransferase, archaea > GO:tRNA (guanine-N1-)-methyltransferase activity ; GO:0009019
-InterPro:IPR025793 tRNA (guanine(37)-N(1))-methyltransferase, archaea > GO:tRNA methylation ; GO:0030488
 InterPro:IPR025794 Histone H3-K9 methyltransferase, plant > GO:histone methylation ; GO:0016571
 InterPro:IPR025795 tRNA (uracil-5-)-methyltransferase > GO:S-adenosylmethionine-dependent tRNA (m5U54) methyltransferase activity ; GO:0030697
 InterPro:IPR025795 tRNA (uracil-5-)-methyltransferase > GO:tRNA processing ; GO:0008033
@@ -24909,15 +24898,10 @@ InterPro:IPR025804 mRNA (nucleoside-2-O-)-methyltransferase > GO:7-methylguanosi
 InterPro:IPR025804 mRNA (nucleoside-2-O-)-methyltransferase > GO:regulation of mRNA 3'-end processing ; GO:0031440
 InterPro:IPR025805 Histone-lysine N-methyltransferase Smyd3 > GO:histone-lysine N-methyltransferase activity ; GO:0018024
 InterPro:IPR025805 Histone-lysine N-methyltransferase Smyd3 > GO:histone lysine methylation ; GO:0034968
-InterPro:IPR025810 ERGosterol biosynthesis methyltransferase (ERG6) family > GO:sterol 24-C-methyltransferase activity ; GO:0003838
 InterPro:IPR025812 Mitochondrial ribonuclease P, tRNA methyltransferase protein 1 > GO:mitochondrion ; GO:0005739
-InterPro:IPR025814 18S rRNA dimethylase DIM1 > GO:rRNA (adenine) methyltransferase activity ; GO:0016433
-InterPro:IPR025814 18S rRNA dimethylase DIM1 > GO:rRNA processing ; GO:0006364
 InterPro:IPR025815 Cytochrome c lysine N-methyltransferase 1 > GO:[cytochrome c]-lysine N-methyltransferase activity ; GO:0000277
 InterPro:IPR025815 Cytochrome c lysine N-methyltransferase 1 > GO:peptidyl-lysine methylation ; GO:0018022
 InterPro:IPR025815 Cytochrome c lysine N-methyltransferase 1 > GO:cytosol ; GO:0005829
-InterPro:IPR025817 Amine N-methyltransferase > GO:amine N-methyltransferase activity ; GO:0030748
-InterPro:IPR025818 Nicotinamide N-methyltransferase > GO:nicotinamide N-methyltransferase activity ; GO:0008112
 InterPro:IPR025824 OB-fold nucleic acid binding domain > GO:nucleic acid binding ; GO:0003676
 InterPro:IPR025830 DNA-binding domain, ovate family-like > GO:DNA binding ; GO:0003677
 InterPro:IPR025835 Thiopurine S-methyltransferase > GO:thiopurine S-methyltransferase activity ; GO:0008119
@@ -26020,9 +26004,9 @@ InterPro:IPR027253 Transcriptional enhancer factor TEF-5 (TEAD3) > GO:positive r
 InterPro:IPR027255 Transcriptional enhancer factor TEF-3 (TEAD4) > GO:DNA binding ; GO:0003677
 InterPro:IPR027255 Transcriptional enhancer factor TEF-3 (TEAD4) > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 InterPro:IPR027255 Transcriptional enhancer factor TEF-3 (TEAD4) > GO:transcription, DNA-templated ; GO:0006351
-InterPro:IPR027256 Cation-transporting P-type ATPase, subfamily IB > GO:cation-transporting ATPase activity ; GO:0019829
-InterPro:IPR027256 Cation-transporting P-type ATPase, subfamily IB > GO:cation transport ; GO:0006812
-InterPro:IPR027256 Cation-transporting P-type ATPase, subfamily IB > GO:integral component of membrane ; GO:0016021
+InterPro:IPR027256 P-type ATPase, subfamily IB > GO:cation-transporting ATPase activity ; GO:0019829
+InterPro:IPR027256 P-type ATPase, subfamily IB > GO:cation transport ; GO:0006812
+InterPro:IPR027256 P-type ATPase, subfamily IB > GO:integral component of membrane ; GO:0016021
 InterPro:IPR027257 Mitogen-activated protein kinase kinase kinase 12 > GO:MAP kinase kinase kinase activity ; GO:0004709
 InterPro:IPR027257 Mitogen-activated protein kinase kinase kinase 12 > GO:activation of MAPKK activity ; GO:0000186
 InterPro:IPR027257 Mitogen-activated protein kinase kinase kinase 12 > GO:JNK cascade ; GO:0007254
@@ -28344,10 +28328,13 @@ InterPro:IPR029784 Iron regulatory protein 1 > GO:cellular iron ion homeostasis 
 InterPro:IPR029784 Iron regulatory protein 1 > GO:response to iron(II) ion ; GO:0010040
 InterPro:IPR029785 Inhibitor of carbonic anhydrase > GO:enzyme inhibitor activity ; GO:0004857
 InterPro:IPR029785 Inhibitor of carbonic anhydrase > GO:negative regulation of catalytic activity ; GO:0043086
+InterPro:IPR029788 Transcriptional regulator Crz1 > GO:sequence-specific DNA binding ; GO:0043565
 InterPro:IPR029788 Transcriptional regulator Crz1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 InterPro:IPR029788 Transcriptional regulator Crz1 > GO:nucleus ; GO:0005634
 InterPro:IPR029788 Transcriptional regulator Crz1 > GO:cytoplasm ; GO:0005737
+InterPro:IPR029790 EFG1/Phd1/StuA family > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 InterPro:IPR029790 EFG1/Phd1/StuA family > GO:growth ; GO:0040007
+InterPro:IPR029790 EFG1/Phd1/StuA family > GO:nucleus ; GO:0005634
 InterPro:IPR029791 Swi6/Cdc10 family > GO:regulation of transcription involved in G1/S transition of mitotic cell cycle ; GO:0000083
 InterPro:IPR029791 Swi6/Cdc10 family > GO:nucleus ; GO:0005634
 InterPro:IPR029791 Swi6/Cdc10 family > GO:cytoplasm ; GO:0005737
@@ -28356,27 +28343,39 @@ InterPro:IPR029792 SBF transcription factor complex subunit Swi4 > GO:SBF transc
 InterPro:IPR029793 MBF transcription factor complex subunit  Mbp1/Res1/Res2 > GO:regulation of transcription involved in G1/S transition of mitotic cell cycle ; GO:0000083
 InterPro:IPR029793 MBF transcription factor complex subunit  Mbp1/Res1/Res2 > GO:MBF transcription complex ; GO:0030907
 InterPro:IPR029794 Transcriptional repressor SCRATCH 1/2 > GO:negative regulation of transcription from RNA polymerase II promoter ; GO:0000122
-InterPro:IPR029795 SNAIL family > GO:negative regulation of transcription from RNA polymerase II promoter ; GO:0000122
-InterPro:IPR029796 Metal regulatory transcription factor 1 > GO:DNA binding ; GO:0003677
+InterPro:IPR029794 Transcriptional repressor SCRATCH 1/2 > GO:nucleus ; GO:0005634
+InterPro:IPR029795 SNAIL family > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+InterPro:IPR029795 SNAIL family > GO:regulation of transcription from RNA polymerase II promoter ; GO:0006357
+InterPro:IPR029795 SNAIL family > GO:nucleus ; GO:0005634
 InterPro:IPR029796 Metal regulatory transcription factor 1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 InterPro:IPR029796 Metal regulatory transcription factor 1 > GO:regulation of transcription from RNA polymerase II promoter ; GO:0006357
-InterPro:IPR029796 Metal regulatory transcription factor 1 > GO:zinc ion homeostasis ; GO:0055069
+InterPro:IPR029796 Metal regulatory transcription factor 1 > GO:response to metal ion ; GO:0010038
+InterPro:IPR029796 Metal regulatory transcription factor 1 > GO:transition metal ion homeostasis ; GO:0055076
+InterPro:IPR029796 Metal regulatory transcription factor 1 > GO:nucleus ; GO:0005634
 InterPro:IPR029797 Axin-1 > GO:protein complex scaffold ; GO:0032947
 InterPro:IPR029797 Axin-1 > GO:signal transduction ; GO:0007165
+InterPro:IPR029798 PR domain zinc finger protein 1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 InterPro:IPR029798 PR domain zinc finger protein 1 > GO:negative regulation of transcription from RNA polymerase II promoter ; GO:0000122
 InterPro:IPR029798 PR domain zinc finger protein 1 > GO:cellular developmental process ; GO:0048869
+InterPro:IPR029798 PR domain zinc finger protein 1 > GO:nucleus ; GO:0005634
+InterPro:IPR029798 PR domain zinc finger protein 1 > GO:cytoplasm ; GO:0005737
 InterPro:IPR029799 F-box only protein 11 > GO:protein ubiquitination ; GO:0016567
+InterPro:IPR029799 F-box only protein 11 > GO:ubiquitin ligase complex ; GO:0000151
 InterPro:IPR029800 Coiled-coil protein DIX1 > GO:Wnt signaling pathway ; GO:0016055
+InterPro:IPR029800 Coiled-coil protein DIX1 > GO:regulation of JNK cascade ; GO:0046328
 InterPro:IPR029801 cAMP-dependent transcription factor ATF-6 alpha > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 InterPro:IPR029801 cAMP-dependent transcription factor ATF-6 alpha > GO:cAMP response element binding ; GO:0035497
 InterPro:IPR029801 cAMP-dependent transcription factor ATF-6 alpha > GO:endoplasmic reticulum unfolded protein response ; GO:0030968
 InterPro:IPR029801 cAMP-dependent transcription factor ATF-6 alpha > GO:positive regulation of transcription from RNA polymerase II promoter ; GO:0045944
+InterPro:IPR029801 cAMP-dependent transcription factor ATF-6 alpha > GO:nucleus ; GO:0005634
+InterPro:IPR029801 cAMP-dependent transcription factor ATF-6 alpha > GO:endoplasmic reticulum membrane ; GO:0005789
 InterPro:IPR029802 cAMP-responsive element-binding protein 1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-InterPro:IPR029802 cAMP-responsive element-binding protein 1 > GO:sequence-specific DNA binding ; GO:0043565
 InterPro:IPR029802 cAMP-responsive element-binding protein 1 > GO:positive regulation of transcription from RNA polymerase II promoter ; GO:0045944
+InterPro:IPR029802 cAMP-responsive element-binding protein 1 > GO:nucleus ; GO:0005634
 InterPro:IPR029803 Protein ABSCISIC ACID-INSENSITIVE 5 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 InterPro:IPR029803 Protein ABSCISIC ACID-INSENSITIVE 5 > GO:response to abscisic acid ; GO:0009737
 InterPro:IPR029803 Protein ABSCISIC ACID-INSENSITIVE 5 > GO:positive regulation of transcription, DNA-templated ; GO:0045893
+InterPro:IPR029803 Protein ABSCISIC ACID-INSENSITIVE 5 > GO:nucleus ; GO:0005634
 InterPro:IPR029804 cAMP-responsive element-binding protein 3-like protein 2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 InterPro:IPR029804 cAMP-responsive element-binding protein 3-like protein 2 > GO:cAMP response element binding ; GO:0035497
 InterPro:IPR029804 cAMP-responsive element-binding protein 3-like protein 2 > GO:endoplasmic reticulum unfolded protein response ; GO:0030968
@@ -29251,9 +29250,9 @@ InterPro:IPR030279 ATP-dependent permease Mdl1/Mdl2 > GO:ATP binding ; GO:000552
 InterPro:IPR030279 ATP-dependent permease Mdl1/Mdl2 > GO:oligopeptide-transporting ATPase activity ; GO:0015421
 InterPro:IPR030279 ATP-dependent permease Mdl1/Mdl2 > GO:oligopeptide export from mitochondrion ; GO:0090374
 InterPro:IPR030279 ATP-dependent permease Mdl1/Mdl2 > GO:integral component of membrane ; GO:0016021
-InterPro:IPR030280 Sulfate transporter SLC26A2 > GO:sulfate transmembrane transporter activity ; GO:0015116
-InterPro:IPR030280 Sulfate transporter SLC26A2 > GO:ossification ; GO:0001503
-InterPro:IPR030280 Sulfate transporter SLC26A2 > GO:sulfate transport ; GO:0008272
+InterPro:IPR030280 Solute carrier family 26 member 2 > GO:sulfate transmembrane transporter activity ; GO:0015116
+InterPro:IPR030280 Solute carrier family 26 member 2 > GO:ossification ; GO:0001503
+InterPro:IPR030280 Solute carrier family 26 member 2 > GO:sulfate transport ; GO:0008272
 InterPro:IPR030281 Autoinducer 2 import ATP-binding protein LsrA > GO:ATP binding ; GO:0005524
 InterPro:IPR030281 Autoinducer 2 import ATP-binding protein LsrA > GO:ATPase activity ; GO:0016887
 InterPro:IPR030281 Autoinducer 2 import ATP-binding protein LsrA > GO:transport ; GO:0006810
@@ -29302,10 +29301,10 @@ InterPro:IPR030302 Fatty acid transport protein 5 > GO:fatty acid transporter ac
 InterPro:IPR030302 Fatty acid transport protein 5 > GO:very long-chain fatty acid-CoA ligase activity ; GO:0031957
 InterPro:IPR030302 Fatty acid transport protein 5 > GO:bile acid biosynthetic process ; GO:0006699
 InterPro:IPR030302 Fatty acid transport protein 5 > GO:integral component of membrane ; GO:0016021
-InterPro:IPR030303 Testis anion transporter 1 > GO:anion transmembrane transporter activity ; GO:0008509
-InterPro:IPR030303 Testis anion transporter 1 > GO:anion transport ; GO:0006820
-InterPro:IPR030303 Testis anion transporter 1 > GO:sperm motility ; GO:0030317
-InterPro:IPR030303 Testis anion transporter 1 > GO:sperm capacitation ; GO:0048240
+InterPro:IPR030303 Solute carrier family 26 member 8 (testis anion transporter 1) > GO:anion transmembrane transporter activity ; GO:0008509
+InterPro:IPR030303 Solute carrier family 26 member 8 (testis anion transporter 1) > GO:anion transport ; GO:0006820
+InterPro:IPR030303 Solute carrier family 26 member 8 (testis anion transporter 1) > GO:sperm motility ; GO:0030317
+InterPro:IPR030303 Solute carrier family 26 member 8 (testis anion transporter 1) > GO:sperm capacitation ; GO:0048240
 InterPro:IPR030304 Fatty acid transport protein 4 > GO:long-chain fatty acid-CoA ligase activity ; GO:0004467
 InterPro:IPR030304 Fatty acid transport protein 4 > GO:very long-chain fatty acid-CoA ligase activity ; GO:0031957
 InterPro:IPR030304 Fatty acid transport protein 4 > GO:fatty acid transport ; GO:0015908
@@ -29339,3 +29338,152 @@ InterPro:IPR030314 Plant high affinity sulfate transporter > GO:sulfate transpor
 InterPro:IPR030314 Plant high affinity sulfate transporter > GO:plasma membrane ; GO:0005886
 InterPro:IPR030315 Plant low affinity sulfate transporter > GO:sulfate transmembrane transporter activity ; GO:0015116
 InterPro:IPR030315 Plant low affinity sulfate transporter > GO:sulfate transport ; GO:0008272
+InterPro:IPR030318 Potassium-transporting ATPase alpha chain 2 > GO:ATP binding ; GO:0005524
+InterPro:IPR030318 Potassium-transporting ATPase alpha chain 2 > GO:cation-transporting ATPase activity ; GO:0019829
+InterPro:IPR030318 Potassium-transporting ATPase alpha chain 2 > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030319 Plasma membrane calcium-transporting ATPase 4 > GO:calcium-transporting ATPase activity ; GO:0005388
+InterPro:IPR030319 Plasma membrane calcium-transporting ATPase 4 > GO:ATP binding ; GO:0005524
+InterPro:IPR030319 Plasma membrane calcium-transporting ATPase 4 > GO:calcium ion transmembrane transport ; GO:0070588
+InterPro:IPR030319 Plasma membrane calcium-transporting ATPase 4 > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030320 Plasma membrane calcium-transporting ATPase 1 > GO:calcium-transporting ATPase activity ; GO:0005388
+InterPro:IPR030320 Plasma membrane calcium-transporting ATPase 1 > GO:ATP binding ; GO:0005524
+InterPro:IPR030320 Plasma membrane calcium-transporting ATPase 1 > GO:calcium ion transmembrane transport ; GO:0070588
+InterPro:IPR030320 Plasma membrane calcium-transporting ATPase 1 > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030321 Solute carrier family 26 member 3 (DRA) > GO:anion:anion antiporter activity ; GO:0015301
+InterPro:IPR030321 Solute carrier family 26 member 3 (DRA) > GO:chloride transport ; GO:0006821
+InterPro:IPR030321 Solute carrier family 26 member 3 (DRA) > GO:bicarbonate transport ; GO:0015701
+InterPro:IPR030321 Solute carrier family 26 member 3 (DRA) > GO:integral component of plasma membrane ; GO:0005887
+InterPro:IPR030322 Plasma membrane calcium-transporting ATPase 2 > GO:calcium-transporting ATPase activity ; GO:0005388
+InterPro:IPR030322 Plasma membrane calcium-transporting ATPase 2 > GO:ATP binding ; GO:0005524
+InterPro:IPR030322 Plasma membrane calcium-transporting ATPase 2 > GO:calcium ion transmembrane transport ; GO:0070588
+InterPro:IPR030322 Plasma membrane calcium-transporting ATPase 2 > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030323 Solute carrier family 26 member 6 > GO:bicarbonate transmembrane transporter activity ; GO:0015106
+InterPro:IPR030323 Solute carrier family 26 member 6 > GO:chloride transmembrane transporter activity ; GO:0015108
+InterPro:IPR030323 Solute carrier family 26 member 6 > GO:sulfate transmembrane transporter activity ; GO:0015116
+InterPro:IPR030323 Solute carrier family 26 member 6 > GO:anion:anion antiporter activity ; GO:0015301
+InterPro:IPR030323 Solute carrier family 26 member 6 > GO:formate transmembrane transporter activity ; GO:0015499
+InterPro:IPR030323 Solute carrier family 26 member 6 > GO:oxalate transmembrane transporter activity ; GO:0019531
+InterPro:IPR030323 Solute carrier family 26 member 6 > GO:chloride transport ; GO:0006821
+InterPro:IPR030323 Solute carrier family 26 member 6 > GO:sulfate transport ; GO:0008272
+InterPro:IPR030323 Solute carrier family 26 member 6 > GO:bicarbonate transport ; GO:0015701
+InterPro:IPR030323 Solute carrier family 26 member 6 > GO:formate transport ; GO:0015724
+InterPro:IPR030323 Solute carrier family 26 member 6 > GO:oxalate transport ; GO:0019532
+InterPro:IPR030323 Solute carrier family 26 member 6 > GO:intracellular pH elevation ; GO:0051454
+InterPro:IPR030323 Solute carrier family 26 member 6 > GO:integral component of plasma membrane ; GO:0005887
+InterPro:IPR030325 Plasma membrane calcium-transporting ATPase 3 > GO:calcium-transporting ATPase activity ; GO:0005388
+InterPro:IPR030325 Plasma membrane calcium-transporting ATPase 3 > GO:ATP binding ; GO:0005524
+InterPro:IPR030325 Plasma membrane calcium-transporting ATPase 3 > GO:calcium ion transmembrane transport ; GO:0070588
+InterPro:IPR030325 Plasma membrane calcium-transporting ATPase 3 > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030326 Cadherin-related family member 5 > GO:calcium ion binding ; GO:0005509
+InterPro:IPR030326 Cadherin-related family member 5 > GO:cell adhesion ; GO:0007155
+InterPro:IPR030326 Cadherin-related family member 5 > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030327 Sarcoplasmic/endoplasmic reticulum calcium ATPase 2 > GO:calcium-transporting ATPase activity ; GO:0005388
+InterPro:IPR030327 Sarcoplasmic/endoplasmic reticulum calcium ATPase 2 > GO:ATP binding ; GO:0005524
+InterPro:IPR030327 Sarcoplasmic/endoplasmic reticulum calcium ATPase 2 > GO:calcium ion transmembrane transport ; GO:0070588
+InterPro:IPR030327 Sarcoplasmic/endoplasmic reticulum calcium ATPase 2 > GO:endoplasmic reticulum ; GO:0005783
+InterPro:IPR030327 Sarcoplasmic/endoplasmic reticulum calcium ATPase 2 > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030327 Sarcoplasmic/endoplasmic reticulum calcium ATPase 2 > GO:sarcoplasmic reticulum membrane ; GO:0033017
+InterPro:IPR030329 Solute carrier family 26 member 7 > GO:chloride channel activity ; GO:0005254
+InterPro:IPR030329 Solute carrier family 26 member 7 > GO:bicarbonate transmembrane transporter activity ; GO:0015106
+InterPro:IPR030329 Solute carrier family 26 member 7 > GO:sulfate transmembrane transporter activity ; GO:0015116
+InterPro:IPR030329 Solute carrier family 26 member 7 > GO:oxalate transmembrane transporter activity ; GO:0019531
+InterPro:IPR030329 Solute carrier family 26 member 7 > GO:gastric acid secretion ; GO:0001696
+InterPro:IPR030329 Solute carrier family 26 member 7 > GO:chloride transport ; GO:0006821
+InterPro:IPR030329 Solute carrier family 26 member 7 > GO:sulfate transport ; GO:0008272
+InterPro:IPR030329 Solute carrier family 26 member 7 > GO:bicarbonate transport ; GO:0015701
+InterPro:IPR030329 Solute carrier family 26 member 7 > GO:oxalate transport ; GO:0019532
+InterPro:IPR030329 Solute carrier family 26 member 7 > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030329 Solute carrier family 26 member 7 > GO:basolateral plasma membrane ; GO:0016323
+InterPro:IPR030330 Sarcoplasmic/endoplasmic reticulum calcium ATPase 3 > GO:calcium-transporting ATPase activity ; GO:0005388
+InterPro:IPR030330 Sarcoplasmic/endoplasmic reticulum calcium ATPase 3 > GO:ATP binding ; GO:0005524
+InterPro:IPR030330 Sarcoplasmic/endoplasmic reticulum calcium ATPase 3 > GO:calcium ion transmembrane transport ; GO:0070588
+InterPro:IPR030330 Sarcoplasmic/endoplasmic reticulum calcium ATPase 3 > GO:endoplasmic reticulum ; GO:0005783
+InterPro:IPR030330 Sarcoplasmic/endoplasmic reticulum calcium ATPase 3 > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030330 Sarcoplasmic/endoplasmic reticulum calcium ATPase 3 > GO:sarcoplasmic reticulum membrane ; GO:0033017
+InterPro:IPR030331 Solute carrier family 26 member 1 > GO:chloride transmembrane transporter activity ; GO:0015108
+InterPro:IPR030331 Solute carrier family 26 member 1 > GO:sulfate transmembrane transporter activity ; GO:0015116
+InterPro:IPR030331 Solute carrier family 26 member 1 > GO:oxalate transmembrane transporter activity ; GO:0019531
+InterPro:IPR030331 Solute carrier family 26 member 1 > GO:chloride transport ; GO:0006821
+InterPro:IPR030331 Solute carrier family 26 member 1 > GO:sulfate transport ; GO:0008272
+InterPro:IPR030331 Solute carrier family 26 member 1 > GO:oxalate transport ; GO:0019532
+InterPro:IPR030331 Solute carrier family 26 member 1 > GO:integral component of plasma membrane ; GO:0005887
+InterPro:IPR030332 Sarcoplasmic/endoplasmic reticulum calcium ATPase 1 > GO:calcium-transporting ATPase activity ; GO:0005388
+InterPro:IPR030332 Sarcoplasmic/endoplasmic reticulum calcium ATPase 1 > GO:ATP binding ; GO:0005524
+InterPro:IPR030332 Sarcoplasmic/endoplasmic reticulum calcium ATPase 1 > GO:calcium ion transmembrane transport ; GO:0070588
+InterPro:IPR030332 Sarcoplasmic/endoplasmic reticulum calcium ATPase 1 > GO:endoplasmic reticulum ; GO:0005783
+InterPro:IPR030332 Sarcoplasmic/endoplasmic reticulum calcium ATPase 1 > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030332 Sarcoplasmic/endoplasmic reticulum calcium ATPase 1 > GO:sarcoplasmic reticulum membrane ; GO:0033017
+InterPro:IPR030333 Sodium/potassium-transporting ATPase subunit alpha-2 > GO:sodium:potassium-exchanging ATPase activity ; GO:0005391
+InterPro:IPR030333 Sodium/potassium-transporting ATPase subunit alpha-2 > GO:ATP binding ; GO:0005524
+InterPro:IPR030333 Sodium/potassium-transporting ATPase subunit alpha-2 > GO:potassium ion transport ; GO:0006813
+InterPro:IPR030333 Sodium/potassium-transporting ATPase subunit alpha-2 > GO:sodium ion transport ; GO:0006814
+InterPro:IPR030333 Sodium/potassium-transporting ATPase subunit alpha-2 > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030334 Calcium-transporting ATPase type 2C member 2 > GO:calcium-transporting ATPase activity ; GO:0005388
+InterPro:IPR030334 Calcium-transporting ATPase type 2C member 2 > GO:ATP binding ; GO:0005524
+InterPro:IPR030334 Calcium-transporting ATPase type 2C member 2 > GO:calcium ion transmembrane transport ; GO:0070588
+InterPro:IPR030334 Calcium-transporting ATPase type 2C member 2 > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030336 Calcium-transporting ATPase type 2C member 1 > GO:calcium-transporting ATPase activity ; GO:0005388
+InterPro:IPR030336 Calcium-transporting ATPase type 2C member 1 > GO:ATP binding ; GO:0005524
+InterPro:IPR030336 Calcium-transporting ATPase type 2C member 1 > GO:calcium ion transmembrane transport ; GO:0070588
+InterPro:IPR030336 Calcium-transporting ATPase type 2C member 1 > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030342 Phospholipid-transporting ATPase IA > GO:phospholipid-translocating ATPase activity ; GO:0004012
+InterPro:IPR030342 Phospholipid-transporting ATPase IA > GO:ATP binding ; GO:0005524
+InterPro:IPR030342 Phospholipid-transporting ATPase IA > GO:phospholipid transport ; GO:0015914
+InterPro:IPR030342 Phospholipid-transporting ATPase IA > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030343 Solute carrier family 12 member 8 > GO:amino acid transmembrane transporter activity ; GO:0015171
+InterPro:IPR030343 Solute carrier family 12 member 8 > GO:amino acid transmembrane transport ; GO:0003333
+InterPro:IPR030344 Phospholipid-transporting ATPase IB > GO:phospholipid-translocating ATPase activity ; GO:0004012
+InterPro:IPR030344 Phospholipid-transporting ATPase IB > GO:ATP binding ; GO:0005524
+InterPro:IPR030344 Phospholipid-transporting ATPase IB > GO:phospholipid transport ; GO:0015914
+InterPro:IPR030344 Phospholipid-transporting ATPase IB > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030346 Phospholipid-transporting ATPase IC > GO:phospholipid-translocating ATPase activity ; GO:0004012
+InterPro:IPR030346 Phospholipid-transporting ATPase IC > GO:ATP binding ; GO:0005524
+InterPro:IPR030346 Phospholipid-transporting ATPase IC > GO:phospholipid transport ; GO:0015914
+InterPro:IPR030346 Phospholipid-transporting ATPase IC > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030347 Phospholipid-transporting ATPase ID > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030348 Probable phospholipid-transporting ATPase IM > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030349 Phospholipid-transporting ATPase IK > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030350 Phospholipid-transporting ATPase FetA > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030351 Cell cycle control protein 50A > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030352 Cell cycle control protein 50B > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030353 Cell cycle control protein 50C > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030354 K/Cl co-transporter 4 > GO:potassium:chloride symporter activity ; GO:0015379
+InterPro:IPR030354 K/Cl co-transporter 4 > GO:chloride transport ; GO:0006821
+InterPro:IPR030354 K/Cl co-transporter 4 > GO:integral component of plasma membrane ; GO:0005887
+InterPro:IPR030355 Probable phospholipid-transporting ATPase IIB > GO:trans-Golgi network ; GO:0005802
+InterPro:IPR030355 Probable phospholipid-transporting ATPase IIB > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030356 Probable phospholipid-transporting ATPase IIA > GO:endosome ; GO:0005768
+InterPro:IPR030356 Probable phospholipid-transporting ATPase IIA > GO:trans-Golgi network ; GO:0005802
+InterPro:IPR030356 Probable phospholipid-transporting ATPase IIA > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030357 Probable phospholipid-transporting ATPase VA > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030358 K/Cl co-transporter 2 > GO:potassium:chloride symporter activity ; GO:0015379
+InterPro:IPR030358 K/Cl co-transporter 2 > GO:chloride transport ; GO:0006821
+InterPro:IPR030358 K/Cl co-transporter 2 > GO:synaptic transmission ; GO:0007268
+InterPro:IPR030358 K/Cl co-transporter 2 > GO:transmembrane transport ; GO:0055085
+InterPro:IPR030358 K/Cl co-transporter 2 > GO:integral component of plasma membrane ; GO:0005887
+InterPro:IPR030359 Probable phospholipid-transporting ATPase VB > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030360 Probable phospholipid-transporting ATPase VD > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030361 Probable phospholipid-transporting ATPase IH > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030362 Probable phospholipid-transporting ATPase IF > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030363 Phospholipid-transporting ATPase IG > GO:phospholipid-translocating ATPase activity ; GO:0004012
+InterPro:IPR030363 Phospholipid-transporting ATPase IG > GO:ATP binding ; GO:0005524
+InterPro:IPR030363 Phospholipid-transporting ATPase IG > GO:phospholipid translocation ; GO:0045332
+InterPro:IPR030363 Phospholipid-transporting ATPase IG > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030364 K/Cl co-transporter 3 > GO:potassium:chloride symporter activity ; GO:0015379
+InterPro:IPR030364 K/Cl co-transporter 3 > GO:chloride transport ; GO:0006821
+InterPro:IPR030364 K/Cl co-transporter 3 > GO:transmembrane transport ; GO:0055085
+InterPro:IPR030364 K/Cl co-transporter 3 > GO:cellular hypotonic salinity response ; GO:0071477
+InterPro:IPR030364 K/Cl co-transporter 3 > GO:integral component of plasma membrane ; GO:0005887
+InterPro:IPR030365 ATP-binding cassette sub-family A member 1 > GO:apolipoprotein A-I binding ; GO:0034186
+InterPro:IPR030365 ATP-binding cassette sub-family A member 1 > GO:phagocytosis, engulfment ; GO:0006911
+InterPro:IPR030365 ATP-binding cassette sub-family A member 1 > GO:cholesterol efflux ; GO:0033344
+InterPro:IPR030365 ATP-binding cassette sub-family A member 1 > GO:reverse cholesterol transport ; GO:0043691
+InterPro:IPR030365 ATP-binding cassette sub-family A member 1 > GO:integral component of plasma membrane ; GO:0005887
+InterPro:IPR030366 ATP-binding cassette sub-family A member 2 > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030367 ATP-binding cassette sub-family A member 5 > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030368 ATP-binding cassette sub-family A member 6 > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030369 ATP-binding cassette sub-family A member 7 > GO:phagocytosis ; GO:0006909
+InterPro:IPR030369 ATP-binding cassette sub-family A member 7 > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030370 ATP-binding cassette sub-family A member 9 > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030371 ATP-binding cassette sub-family A member 12 > GO:integral component of membrane ; GO:0016021
+InterPro:IPR030372 ATP-binding cassette sub-family A member 8 > GO:integral component of membrane ; GO:0016021

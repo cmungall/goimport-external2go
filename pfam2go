@@ -1,4 +1,4 @@
-!version date: 2014/09/20 13:38:12
+!version date: 2014/09/27 16:16:46
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -35,7 +35,7 @@ Pfam:PF00025 Arf > GO:GTP binding ; GO:0005525
 Pfam:PF00026 Asp > GO:aspartic-type endopeptidase activity ; GO:0004190
 Pfam:PF00026 Asp > GO:proteolysis ; GO:0006508
 Pfam:PF00028 Cadherin > GO:calcium ion binding ; GO:0005509
-Pfam:PF00028 Cadherin > GO:homophilic cell adhesion ; GO:0007156
+Pfam:PF00028 Cadherin > GO:homophilic cell adhesion via plasma membrane adhesion molecules ; GO:0007156
 Pfam:PF00028 Cadherin > GO:membrane ; GO:0016020
 Pfam:PF00031 Cystatin > GO:cysteine-type endopeptidase inhibitor activity ; GO:0004869
 Pfam:PF00032 Cytochrom_B_C > GO:electron carrier activity ; GO:0009055
@@ -199,7 +199,6 @@ Pfam:PF00133 tRNA-synt_1 > GO:tRNA aminoacylation for protein translation ; GO:0
 Pfam:PF00136 DNA_pol_B > GO:nucleotide binding ; GO:0000166
 Pfam:PF00136 DNA_pol_B > GO:DNA binding ; GO:0003677
 Pfam:PF00136 DNA_pol_B > GO:DNA-directed DNA polymerase activity ; GO:0003887
-Pfam:PF00136 DNA_pol_B > GO:DNA replication ; GO:0006260
 Pfam:PF00137 ATP-synt_C > GO:hydrogen ion transmembrane transporter activity ; GO:0015078
 Pfam:PF00137 ATP-synt_C > GO:ATP hydrolysis coupled proton transport ; GO:0015991
 Pfam:PF00137 ATP-synt_C > GO:proton-transporting two-sector ATPase complex, proton-transporting domain ; GO:0033177
@@ -1791,7 +1790,7 @@ Pfam:PF01047 MarR > GO:intracellular ; GO:0005622
 Pfam:PF01048 PNP_UDP_1 > GO:catalytic activity ; GO:0003824
 Pfam:PF01048 PNP_UDP_1 > GO:nucleoside metabolic process ; GO:0009116
 Pfam:PF01049 Cadherin_C > GO:calcium ion binding ; GO:0005509
-Pfam:PF01049 Cadherin_C > GO:homophilic cell adhesion ; GO:0007156
+Pfam:PF01049 Cadherin_C > GO:homophilic cell adhesion via plasma membrane adhesion molecules ; GO:0007156
 Pfam:PF01049 Cadherin_C > GO:membrane ; GO:0016020
 Pfam:PF01050 MannoseP_isomer > GO:nucleotidyltransferase activity ; GO:0016779
 Pfam:PF01050 MannoseP_isomer > GO:polysaccharide metabolic process ; GO:0005976
@@ -3681,8 +3680,6 @@ Pfam:PF02316 HTH_Tnp_Mu_1 > GO:DNA binding ; GO:0003677
 Pfam:PF02317 Octopine_DH > GO:oxidoreductase activity ; GO:0016491
 Pfam:PF02317 Octopine_DH > GO:coenzyme binding ; GO:0050662
 Pfam:PF02317 Octopine_DH > GO:oxidation-reduction process ; GO:0055114
-Pfam:PF02318 FYVE_2 > GO:Rab GTPase binding ; GO:0017137
-Pfam:PF02318 FYVE_2 > GO:intracellular protein transport ; GO:0006886
 Pfam:PF02319 E2F_TDP > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 Pfam:PF02319 E2F_TDP > GO:regulation of transcription, DNA-templated ; GO:0006355
 Pfam:PF02319 E2F_TDP > GO:transcription factor complex ; GO:0005667
@@ -6693,7 +6690,7 @@ Pfam:PF05362 Lon_C > GO:serine-type endopeptidase activity ; GO:0004252
 Pfam:PF05362 Lon_C > GO:proteolysis ; GO:0006508
 Pfam:PF05363 Herpes_US12 > GO:evasion or tolerance of host defenses by virus ; GO:0019049
 Pfam:PF05365 UCR_UQCRX_QCR9 > GO:mitochondrial electron transport, ubiquinol to cytochrome c ; GO:0006122
-Pfam:PF05365 UCR_UQCRX_QCR9 > GO:mitochondrial envelope ; GO:0005740
+Pfam:PF05365 UCR_UQCRX_QCR9 > GO:mitochondrial inner membrane ; GO:0005743
 Pfam:PF05365 UCR_UQCRX_QCR9 > GO:mitochondrial respiratory chain complex III ; GO:0005750
 Pfam:PF05366 Sarcolipin > GO:enzyme regulator activity ; GO:0030234
 Pfam:PF05366 Sarcolipin > GO:membrane ; GO:0016020
@@ -7602,6 +7599,8 @@ Pfam:PF06519 TolA > GO:transport ; GO:0006810
 Pfam:PF06519 TolA > GO:membrane ; GO:0016020
 Pfam:PF06524 NOA36 > GO:zinc ion binding ; GO:0008270
 Pfam:PF06524 NOA36 > GO:nucleus ; GO:0005634
+Pfam:PF06525 SoxE > GO:copper ion binding ; GO:0005507
+Pfam:PF06525 SoxE > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF06529 Vert_IL3-reg_TF > GO:transcription, DNA-templated ; GO:0006351
 Pfam:PF06529 Vert_IL3-reg_TF > GO:circadian rhythm ; GO:0007623
 Pfam:PF06529 Vert_IL3-reg_TF > GO:nucleus ; GO:0005634
@@ -7958,7 +7957,7 @@ Pfam:PF07260 ANKH > GO:integral component of membrane ; GO:0016021
 Pfam:PF07263 DMP1 > GO:ossification ; GO:0001503
 Pfam:PF07263 DMP1 > GO:extracellular matrix organization ; GO:0030198
 Pfam:PF07267 Nucleo_P87 > GO:viral capsid ; GO:0019028
-Pfam:PF07271 Cytadhesin_P30 > GO:heterophilic cell-cell adhesion ; GO:0007157
+Pfam:PF07271 Cytadhesin_P30 > GO:heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules ; GO:0007157
 Pfam:PF07271 Cytadhesin_P30 > GO:pathogenesis ; GO:0009405
 Pfam:PF07271 Cytadhesin_P30 > GO:integral component of membrane ; GO:0016021
 Pfam:PF07284 BCHF > GO:hydro-lyase activity ; GO:0016836

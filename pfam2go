@@ -1,4 +1,4 @@
-!version date: 2014/09/27 16:16:46
+!version date: 2014/10/04 15:45:51
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -218,7 +218,6 @@ Pfam:PF00142 Fer4_NifH > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF00143 Interferon > GO:cytokine receptor binding ; GO:0005126
 Pfam:PF00143 Interferon > GO:defense response ; GO:0006952
 Pfam:PF00143 Interferon > GO:extracellular region ; GO:0005576
-Pfam:PF00145 DNA_methylase > GO:methyltransferase activity ; GO:0008168
 Pfam:PF00146 NADHdh > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF00146 NADHdh > GO:membrane ; GO:0016020
 Pfam:PF00148 Oxidored_nitro > GO:oxidoreductase activity ; GO:0016491
@@ -690,9 +689,6 @@ Pfam:PF00393 6PGD > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF00394 Cu-oxidase > GO:oxidoreductase activity ; GO:0016491
 Pfam:PF00394 Cu-oxidase > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF00397 WW > GO:protein binding ; GO:0005515
-Pfam:PF00398 RrnaAD > GO:rRNA (adenine-N6,N6-)-dimethyltransferase activity ; GO:0000179
-Pfam:PF00398 RrnaAD > GO:rRNA methyltransferase activity ; GO:0008649
-Pfam:PF00398 RrnaAD > GO:rRNA modification ; GO:0000154
 Pfam:PF00399 PIR > GO:structural constituent of cell wall ; GO:0005199
 Pfam:PF00399 PIR > GO:cell wall ; GO:0005618
 Pfam:PF00400 WD40 > GO:protein binding ; GO:0005515
@@ -1252,7 +1248,6 @@ Pfam:PF00734 CBM_1 > GO:cellulose binding ; GO:0030248
 Pfam:PF00734 CBM_1 > GO:carbohydrate metabolic process ; GO:0005975
 Pfam:PF00734 CBM_1 > GO:extracellular region ; GO:0005576
 Pfam:PF00735 Septin > GO:GTP binding ; GO:0005525
-Pfam:PF00735 Septin > GO:cell cycle ; GO:0007049
 Pfam:PF00736 EF1_GNE > GO:translation elongation factor activity ; GO:0003746
 Pfam:PF00736 EF1_GNE > GO:translational elongation ; GO:0006414
 Pfam:PF00736 EF1_GNE > GO:eukaryotic translation elongation factor 1 complex ; GO:0005853
@@ -2039,6 +2034,7 @@ Pfam:PF01185 Hydrophobin > GO:fungal-type cell wall ; GO:0009277
 Pfam:PF01186 Lysyl_oxidase > GO:copper ion binding ; GO:0005507
 Pfam:PF01186 Lysyl_oxidase > GO:oxidoreductase activity, acting on the CH-NH2 group of donors, oxygen as acceptor ; GO:0016641
 Pfam:PF01186 Lysyl_oxidase > GO:oxidation-reduction process ; GO:0055114
+Pfam:PF01189 Nol1_Nop2_Fmu > GO:methyltransferase activity ; GO:0008168
 Pfam:PF01191 RNA_pol_Rpb5_C > GO:DNA binding ; GO:0003677
 Pfam:PF01191 RNA_pol_Rpb5_C > GO:DNA-directed RNA polymerase activity ; GO:0003899
 Pfam:PF01191 RNA_pol_Rpb5_C > GO:transcription, DNA-templated ; GO:0006351
@@ -2610,12 +2606,7 @@ Pfam:PF01536 SAM_decarbox > GO:adenosylmethionine decarboxylase activity ; GO:00
 Pfam:PF01536 SAM_decarbox > GO:spermine biosynthetic process ; GO:0006597
 Pfam:PF01536 SAM_decarbox > GO:spermidine biosynthetic process ; GO:0008295
 Pfam:PF01537 Herpes_glycop_D > GO:integral component of membrane ; GO:0016021
-Pfam:PF01538 HCV_NS2 > GO:RNA-directed RNA polymerase activity ; GO:0003968
 Pfam:PF01538 HCV_NS2 > GO:cysteine-type endopeptidase activity ; GO:0004197
-Pfam:PF01538 HCV_NS2 > GO:serine-type endopeptidase activity ; GO:0004252
-Pfam:PF01538 HCV_NS2 > GO:hydrolase activity, acting on acid anhydrides ; GO:0016817
-Pfam:PF01538 HCV_NS2 > GO:nucleoside-triphosphatase activity ; GO:0017111
-Pfam:PF01538 HCV_NS2 > GO:serine-type exopeptidase activity ; GO:0070008
 Pfam:PF01539 HCV_env > GO:viral envelope ; GO:0019031
 Pfam:PF01542 HCV_core > GO:structural molecule activity ; GO:0005198
 Pfam:PF01543 HCV_capsid > GO:structural molecule activity ; GO:0005198
@@ -3872,7 +3863,6 @@ Pfam:PF02472 ExbD > GO:membrane ; GO:0016020
 Pfam:PF02474 NodA > GO:transferase activity, transferring acyl groups ; GO:0016746
 Pfam:PF02474 NodA > GO:nodulation ; GO:0009877
 Pfam:PF02474 NodA > GO:cytosol ; GO:0005829
-Pfam:PF02475 Met_10 > GO:transferase activity ; GO:0016740
 Pfam:PF02477 Nairo_nucleo > GO:viral nucleocapsid ; GO:0019013
 Pfam:PF02478 Pneumo_phosprot > GO:RNA-directed RNA polymerase activity ; GO:0003968
 Pfam:PF02480 Herpes_gE > GO:membrane ; GO:0016020
@@ -5842,10 +5832,6 @@ Pfam:PF04414 tRNA_deacylase > GO:D-aminoacyl-tRNA deacylase activity ; GO:005149
 Pfam:PF04420 CHD5 > GO:tail-anchored membrane protein insertion into ER membrane ; GO:0071816
 Pfam:PF04421 Mss4 > GO:guanyl-nucleotide exchange factor activity ; GO:0005085
 Pfam:PF04421 Mss4 > GO:small GTPase mediated signal transduction ; GO:0007264
-Pfam:PF04423 Rad50_zn_hook > GO:nuclease activity ; GO:0004518
-Pfam:PF04423 Rad50_zn_hook > GO:ATP binding ; GO:0005524
-Pfam:PF04423 Rad50_zn_hook > GO:zinc ion binding ; GO:0008270
-Pfam:PF04423 Rad50_zn_hook > GO:DNA repair ; GO:0006281
 Pfam:PF04428 Choline_kin_N > GO:phosphotransferase activity, alcohol group as acceptor ; GO:0016773
 Pfam:PF04431 Pec_lyase_N > GO:pectate lyase activity ; GO:0030570
 Pfam:PF04433 SWIRM > GO:protein binding ; GO:0005515
@@ -6453,7 +6439,6 @@ Pfam:PF05046 Img2 > GO:translation ; GO:0006412
 Pfam:PF05046 Img2 > GO:intracellular ; GO:0005622
 Pfam:PF05046 Img2 > GO:ribosome ; GO:0005840
 Pfam:PF05049 IIGP > GO:GTP binding ; GO:0005525
-Pfam:PF05049 IIGP > GO:hydrolase activity, acting on acid anhydrides ; GO:0016817
 Pfam:PF05049 IIGP > GO:membrane ; GO:0016020
 Pfam:PF05051 COX17 > GO:copper ion binding ; GO:0005507
 Pfam:PF05051 COX17 > GO:copper chaperone activity ; GO:0016531
@@ -6894,7 +6879,6 @@ Pfam:PF05563 SpvD > GO:pathogenesis ; GO:0009405
 Pfam:PF05577 Peptidase_S28 > GO:serine-type peptidase activity ; GO:0008236
 Pfam:PF05577 Peptidase_S28 > GO:proteolysis ; GO:0006508
 Pfam:PF05578 Peptidase_S31 > GO:serine-type endopeptidase activity ; GO:0004252
-Pfam:PF05578 Peptidase_S31 > GO:proteolysis ; GO:0006508
 Pfam:PF05579 Peptidase_S32 > GO:serine-type endopeptidase activity ; GO:0004252
 Pfam:PF05579 Peptidase_S32 > GO:viral process ; GO:0016032
 Pfam:PF05579 Peptidase_S32 > GO:viral protein processing ; GO:0019082

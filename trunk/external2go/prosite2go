@@ -1,4 +1,4 @@
-!version date: 2014/09/27 16:16:46
+!version date: 2014/10/04 15:45:51
 !description: Mapping of GO terms to PROSITE entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://www.expasy.org/prosite/
 !citation: Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1453,7 +1453,7 @@ PROSITE:MF_00605 TrmD > GO:tRNA (guanine(37)-N(1))-methyltransferase activity ; 
 PROSITE:MF_00605 TrmD > GO:tRNA processing ; GO:0008033
 PROSITE:MF_00606 UV_endonuclease > GO:endonuclease activity ; GO:0004519
 PROSITE:MF_00606 UV_endonuclease > GO:response to UV ; GO:0009411
-PROSITE:MF_00607 16SrRNA_methyltr_A > GO:rRNA (adenine) methyltransferase activity ; GO:0016433
+PROSITE:MF_00607 16SrRNA_methyltr_A > GO:rRNA (adenine-N6,N6-)-dimethyltransferase activity ; GO:0000179
 PROSITE:MF_00607 16SrRNA_methyltr_A > GO:rRNA processing ; GO:0006364
 PROSITE:MF_00608 GTP_cyclohydro_3 > GO:GTP cyclohydrolase activity ; GO:0003933
 PROSITE:MF_00608 GTP_cyclohydro_3 > GO:biosynthetic process ; GO:0009058
@@ -1496,6 +1496,7 @@ PROSITE:MF_00623 Exosome_RNA_bind1 > GO:exosome (RNase complex) ; GO:0000178
 PROSITE:MF_00624 GlgC > GO:glucose-1-phosphate adenylyltransferase activity ; GO:0008878
 PROSITE:MF_00624 GlgC > GO:glycogen biosynthetic process ; GO:0005978
 PROSITE:MF_00625 SelD > GO:selenide, water dikinase activity ; GO:0004756
+PROSITE:MF_00625 SelD > GO:ATP binding ; GO:0005524
 PROSITE:MF_00625 SelD > GO:selenocysteine biosynthetic process ; GO:0016260
 PROSITE:MF_00626 Germination_prot > GO:peptidase activity ; GO:0008233
 PROSITE:MF_00626 Germination_prot > GO:proteolysis ; GO:0006508
@@ -6085,10 +6086,6 @@ PROSITE:PS01226 HMG_COA_SYNTHASE > GO:hydroxymethylglutaryl-CoA synthase activit
 PROSITE:PS01226 HMG_COA_SYNTHASE > GO:isoprenoid biosynthetic process ; GO:0008299
 PROSITE:PS01228 COF_1 > GO:hydrolase activity ; GO:0016787
 PROSITE:PS01228 COF_1 > GO:metabolic process ; GO:0008152
-PROSITE:PS01230 TRMA_1 > GO:RNA methyltransferase activity ; GO:0008173
-PROSITE:PS01230 TRMA_1 > GO:RNA processing ; GO:0006396
-PROSITE:PS01231 TRMA_2 > GO:RNA methyltransferase activity ; GO:0008173
-PROSITE:PS01231 TRMA_2 > GO:RNA processing ; GO:0006396
 PROSITE:PS01232 PNP_UDP_1 > GO:transferase activity, transferring pentosyl groups ; GO:0016763
 PROSITE:PS01233 UROCANASE > GO:urocanate hydratase activity ; GO:0016153
 PROSITE:PS01234 GATB > GO:carbon-nitrogen ligase activity, with glutamine as amido-N-donor ; GO:0016884
@@ -7396,6 +7393,9 @@ PROSITE:PS51449 MTTASE_N > GO:RNA modification ; GO:0009451
 PROSITE:PS51450 LRR > GO:protein binding ; GO:0005515
 PROSITE:PS51455 PIPK > GO:phosphatidylinositol phosphate kinase activity ; GO:0016307
 PROSITE:PS51455 PIPK > GO:phosphatidylinositol metabolic process ; GO:0046488
+PROSITE:PS51456 MYOSIN_MOTOR > GO:motor activity ; GO:0003774
+PROSITE:PS51456 MYOSIN_MOTOR > GO:ATP binding ; GO:0005524
+PROSITE:PS51456 MYOSIN_MOTOR > GO:myosin complex ; GO:0016459
 PROSITE:PS51460 GAR > GO:cell cycle arrest ; GO:0007050
 PROSITE:PS51461 NC1_FIB > GO:extracellular matrix structural constituent ; GO:0005201
 PROSITE:PS51461 NC1_FIB > GO:collagen trimer ; GO:0005581
@@ -7456,7 +7456,6 @@ PROSITE:PS51528 FLAVIVIRUS_NS3PRO > GO:ATP binding ; GO:0005524
 PROSITE:PS51531 FV_PR > GO:aspartic-type endopeptidase activity ; GO:0004190
 PROSITE:PS51531 FV_PR > GO:proteolysis ; GO:0006508
 PROSITE:PS51535 PESTIVIRUS_NS3PRO > GO:serine-type endopeptidase activity ; GO:0004252
-PROSITE:PS51535 PESTIVIRUS_NS3PRO > GO:proteolysis ; GO:0006508
 PROSITE:PS51537 NV_3CL_PRO > GO:cysteine-type endopeptidase activity ; GO:0004197
 PROSITE:PS51537 NV_3CL_PRO > GO:proteolysis ; GO:0006508
 PROSITE:PS51538 AV_CP > GO:viral process ; GO:0016032
@@ -7559,6 +7558,36 @@ PROSITE:PS51677 NODB > GO:hydrolase activity, acting on carbon-nitrogen (but not
 PROSITE:PS51677 NODB > GO:carbohydrate metabolic process ; GO:0005975
 PROSITE:PS51678 SAM_MT_PRMT > GO:methyltransferase activity ; GO:0008168
 PROSITE:PS51678 SAM_MT_PRMT > GO:protein methylation ; GO:0006479
+PROSITE:PS51679 SAM_MT_C5 > GO:methyltransferase activity ; GO:0008168
+PROSITE:PS51680 SAM_MT_DRM > GO:DNA methylation ; GO:0006306
+PROSITE:PS51681 SAM_MT_NNMT_PNMT_TEMT > GO:methyltransferase activity ; GO:0008168
+PROSITE:PS51682 SAM_OMT_I > GO:O-methyltransferase activity ; GO:0008171
+PROSITE:PS51683 SAM_OMT_II > GO:methyltransferase activity ; GO:0008168
+PROSITE:PS51685 SAM_MT_ERG6_SMT > GO:methyltransferase activity ; GO:0008168
+PROSITE:PS51686 SAM_MT_RSMB_NOP > GO:methyltransferase activity ; GO:0008168
+PROSITE:PS51687 SAM_MT_RNA_M5U > GO:RNA methyltransferase activity ; GO:0008173
+PROSITE:PS51687 SAM_MT_RNA_M5U > GO:RNA processing ; GO:0006396
+PROSITE:PS51690 ALPHAVIRUS_CP > GO:serine-type endopeptidase activity ; GO:0004252
+PROSITE:PS51690 ALPHAVIRUS_CP > GO:proteolysis ; GO:0006508
+PROSITE:PS51690 ALPHAVIRUS_CP > GO:membrane ; GO:0016020
+PROSITE:PS51691 PEPTIDASE_S6 > GO:endopeptidase activity ; GO:0004175
+PROSITE:PS51692 PESTIVIRUS_NS2_PRO > GO:endopeptidase activity ; GO:0004175
+PROSITE:PS51693 HCV_NS2_PRO > GO:cysteine-type endopeptidase activity ; GO:0004197
+PROSITE:PS51694 PEPTIDASE_M66 > GO:metalloendopeptidase activity ; GO:0004222
+PROSITE:PS51695 SEDOLISIN > GO:proteolysis ; GO:0006508
+PROSITE:PS51698 U_BOX > GO:ubiquitin-protein transferase activity ; GO:0004842
+PROSITE:PS51698 U_BOX > GO:protein ubiquitination ; GO:0016567
+PROSITE:PS51705 G_HFLX > GO:GTP binding ; GO:0005525
+PROSITE:PS51706 G_ENGB > GO:GTP binding ; GO:0005525
+PROSITE:PS51711 G_FEOB > GO:GTP binding ; GO:0005525
+PROSITE:PS51713 G_ERA > GO:GTP binding ; GO:0005525
+PROSITE:PS51715 G_GB1_RHD3 > GO:GTP binding ; GO:0005525
+PROSITE:PS51716 G_IRG > GO:GTP binding ; GO:0005525
+PROSITE:PS51717 G_VLIG > GO:GTP binding ; GO:0005525
+PROSITE:PS51718 G_DYNAMIN_2 > GO:GTP binding ; GO:0005525
+PROSITE:PS51719 G_SEPTIN > GO:GTP binding ; GO:0005525
+PROSITE:PS51720 G_AIG1 > GO:GTP binding ; GO:0005525
+PROSITE:PS51721 G_CP > GO:GTP binding ; GO:0005525
 PROSITE:PS60000 CHITOSANASE_46_80 > GO:chitosanase activity ; GO:0016977
 PROSITE:PS60000 CHITOSANASE_46_80 > GO:carbohydrate metabolic process ; GO:0005975
 PROSITE:PS60000 CHITOSANASE_46_80 > GO:extracellular region ; GO:0005576

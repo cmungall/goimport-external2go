@@ -1,4 +1,4 @@
-!version date: 2014/09/27 16:16:46
+!version date: 2014/10/04 15:45:51
 !description: Mapping of GO terms to PIRSF entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pir.georgetown.edu/pirsf/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1508,7 +1508,6 @@ PIRSF:PIRSF003003 Colicin_im > GO:bacteriocin immunity ; GO:0030153
 PIRSF:PIRSF003025 eIF5A > GO:RNA binding ; GO:0003723
 PIRSF:PIRSF003025 eIF5A > GO:translation elongation factor activity ; GO:0003746
 PIRSF:PIRSF003025 eIF5A > GO:ribosome binding ; GO:0043022
-PIRSF:PIRSF003025 eIF5A > GO:peptidyl-lysine modification to peptidyl-hypusine ; GO:0008612
 PIRSF:PIRSF003025 eIF5A > GO:positive regulation of translational elongation ; GO:0045901
 PIRSF:PIRSF003025 eIF5A > GO:positive regulation of translational termination ; GO:0045905
 PIRSF:PIRSF003028 TF_GATA_4/5/6 > GO:regulation of transcription, DNA-templated ; GO:0006355
@@ -2080,7 +2079,8 @@ PIRSF:PIRSF006655 DHQ_synth > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF006677 UCP006677 > GO:phosphoenolpyruvate carboxylase activity ; GO:0008964
 PIRSF:PIRSF006677 UCP006677 > GO:tricarboxylic acid cycle ; GO:0006099
 PIRSF:PIRSF006677 UCP006677 > GO:carbon fixation ; GO:0015977
-PIRSF:PIRSF006698 Septin > GO:septin complex ; GO:0031105
+PIRSF:PIRSF006698 Septin > GO:GTP binding ; GO:0005525
+PIRSF:PIRSF006698 Septin > GO:cell cycle ; GO:0007049
 PIRSF:PIRSF006704 TF_IIS > GO:regulation of transcription from RNA polymerase II promoter ; GO:0006357
 PIRSF:PIRSF006704 TF_IIS > GO:regulation of DNA-templated transcription, elongation ; GO:0032784
 PIRSF:PIRSF006743 Exonuclease_Xnr1 > GO:5'-3' exonuclease activity ; GO:0008409
@@ -2267,6 +2267,9 @@ PIRSF:PIRSF011572 GTP_sensing_CodY > GO:GTP binding ; GO:0005525
 PIRSF:PIRSF011572 GTP_sensing_CodY > GO:negative regulation of transcription, DNA-templated ; GO:0045892
 PIRSF:PIRSF011588 Gly_sarc_betain_red_a/b > GO:oxidoreductase activity, acting on X-H and Y-H to form an X-Y bond, with a disulfide as acceptor ; GO:0050485
 PIRSF:PIRSF011588 Gly_sarc_betain_red_a/b > GO:oxidation-reduction process ; GO:0055114
+PIRSF:PIRSF011649 MtTFB > GO:mitochondrial RNA polymerase binding promoter specificity activity ; GO:0034246
+PIRSF:PIRSF011649 MtTFB > GO:transcription initiation from mitochondrial promoter ; GO:0006391
+PIRSF:PIRSF011649 MtTFB > GO:mitochondrion ; GO:0005739
 PIRSF:PIRSF011769 Cell_cycle_RAD17 > GO:damaged DNA binding ; GO:0003684
 PIRSF:PIRSF011769 Cell_cycle_RAD17 > GO:double-stranded DNA binding ; GO:0003690
 PIRSF:PIRSF011769 Cell_cycle_RAD17 > GO:DNA damage checkpoint ; GO:0000077
@@ -2802,7 +2805,6 @@ PIRSF:PIRSF026671 AA_dipeptidase > GO:proteolysis ; GO:0006508
 PIRSF:PIRSF026671 AA_dipeptidase > GO:cell wall ; GO:0005618
 PIRSF:PIRSF026782 CbiD > GO:transferase activity ; GO:0016740
 PIRSF:PIRSF026782 CbiD > GO:cobalamin biosynthetic process ; GO:0009236
-PIRSF:PIRSF027019 Euk_LigT > GO:transcription coactivator activity ; GO:0003713
 PIRSF:PIRSF027081 RNase_P/MRP_p29_subunit > GO:RNA binding ; GO:0003723
 PIRSF:PIRSF027081 RNase_P/MRP_p29_subunit > GO:ribonuclease activity ; GO:0004540
 PIRSF:PIRSF027081 RNase_P/MRP_p29_subunit > GO:rRNA processing ; GO:0006364
@@ -2827,6 +2829,7 @@ PIRSF:PIRSF027744 Snx9 > GO:protein transport ; GO:0015031
 PIRSF:PIRSF027833 MtTFB2 > GO:rRNA (adenine-N6,N6-)-dimethyltransferase activity ; GO:0000179
 PIRSF:PIRSF027833 MtTFB2 > GO:transcription cofactor activity ; GO:0003712
 PIRSF:PIRSF027833 MtTFB2 > GO:regulation of transcription, DNA-templated ; GO:0006355
+PIRSF:PIRSF027833 MtTFB2 > GO:transcription initiation from mitochondrial promoter ; GO:0006391
 PIRSF:PIRSF027833 MtTFB2 > GO:rRNA methylation ; GO:0031167
 PIRSF:PIRSF027833 MtTFB2 > GO:mitochondrion ; GO:0005739
 PIRSF:PIRSF028043 PP2A_B56 > GO:protein phosphatase type 2A regulator activity ; GO:0008601
@@ -2976,7 +2979,6 @@ PIRSF:PIRSF036402 Ureas_acces_UreE > GO:nickel cation binding ; GO:0016151
 PIRSF:PIRSF036402 Ureas_acces_UreE > GO:protein folding ; GO:0006457
 PIRSF:PIRSF036402 Ureas_acces_UreE > GO:enzyme active site formation ; GO:0018307
 PIRSF:PIRSF036402 Ureas_acces_UreE > GO:cytoplasm ; GO:0005737
-PIRSF:PIRSF036407 Selenphspht_syn > GO:selenide, water dikinase activity ; GO:0004756
 PIRSF:PIRSF036407 Selenphspht_syn > GO:ATP binding ; GO:0005524
 PIRSF:PIRSF036409 EutP_PduV > GO:ATP binding ; GO:0005524
 PIRSF:PIRSF036409 EutP_PduV > GO:cellular biogenic amine metabolic process ; GO:0006576
@@ -3316,6 +3318,9 @@ PIRSF:PIRSF037318 RfaP > GO:kinase activity ; GO:0016301
 PIRSF:PIRSF037318 RfaP > GO:lipopolysaccharide biosynthetic process ; GO:0009103
 PIRSF:PIRSF037322 CDKN3 > GO:phosphoprotein phosphatase activity ; GO:0004721
 PIRSF:PIRSF037322 CDKN3 > GO:protein tyrosine phosphatase activity ; GO:0004725
+PIRSF:PIRSF037327 TFIIIB_Bdp1_fun > GO:TFIIIB-type transcription factor activity ; GO:0001026
+PIRSF:PIRSF037327 TFIIIB_Bdp1_fun > GO:regulation of transcription from RNA polymerase III promoter ; GO:0006359
+PIRSF:PIRSF037327 TFIIIB_Bdp1_fun > GO:transcription factor TFIIIB complex ; GO:0000126
 PIRSF:PIRSF037332 Alpha1_3FUT_met > GO:alpha-(1->3)-fucosyltransferase activity ; GO:0046920
 PIRSF:PIRSF037332 Alpha1_3FUT_met > GO:protein glycosylation ; GO:0006486
 PIRSF:PIRSF037332 Alpha1_3FUT_met > GO:Golgi membrane ; GO:0000139

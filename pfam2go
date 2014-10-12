@@ -1,4 +1,4 @@
-!version date: 2014/10/04 15:45:51
+!version date: 2014/10/11 13:02:43
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1063,9 +1063,7 @@ Pfam:PF00612 IQ > GO:protein binding ; GO:0005515
 Pfam:PF00614 PLDc > GO:catalytic activity ; GO:0003824
 Pfam:PF00614 PLDc > GO:metabolic process ; GO:0008152
 Pfam:PF00615 RGS > GO:regulation of G-protein coupled receptor protein signaling pathway ; GO:0008277
-Pfam:PF00616 RasGAP > GO:GTPase activator activity ; GO:0005096
-Pfam:PF00616 RasGAP > GO:regulation of small GTPase mediated signal transduction ; GO:0051056
-Pfam:PF00616 RasGAP > GO:intracellular ; GO:0005622
+Pfam:PF00616 RasGAP > GO:regulation of Ras GTPase activity ; GO:0032318
 Pfam:PF00617 RasGEF > GO:guanyl-nucleotide exchange factor activity ; GO:0005085
 Pfam:PF00617 RasGEF > GO:small GTPase mediated signal transduction ; GO:0007264
 Pfam:PF00618 RasGEF_N > GO:guanyl-nucleotide exchange factor activity ; GO:0005085
@@ -4552,6 +4550,8 @@ Pfam:PF03002 Somatostatin > GO:extracellular region ; GO:0005576
 Pfam:PF03006 HlyIII > GO:integral component of membrane ; GO:0016021
 Pfam:PF03007 WES_acyltransf > GO:diacylglycerol O-acyltransferase activity ; GO:0004144
 Pfam:PF03007 WES_acyltransf > GO:glycerolipid biosynthetic process ; GO:0045017
+Pfam:PF03009 GDPD > GO:phosphoric diester hydrolase activity ; GO:0008081
+Pfam:PF03009 GDPD > GO:lipid metabolic process ; GO:0006629
 Pfam:PF03012 PP_M1 > GO:RNA-directed RNA polymerase activity ; GO:0003968
 Pfam:PF03012 PP_M1 > GO:viral transcription ; GO:0019083
 Pfam:PF03014 SP2 > GO:structural molecule activity ; GO:0005198
@@ -7536,8 +7536,11 @@ Pfam:PF06471 NSP11 > GO:RNA-directed RNA polymerase activity ; GO:0003968
 Pfam:PF06471 NSP11 > GO:cysteine-type endopeptidase activity ; GO:0004197
 Pfam:PF06471 NSP11 > GO:methyltransferase activity ; GO:0008168
 Pfam:PF06471 NSP11 > GO:exoribonuclease activity, producing 5'-phosphomonoesters ; GO:0016896
+Pfam:PF06472 ABC_membrane_2 > GO:ATP binding ; GO:0005524
+Pfam:PF06472 ABC_membrane_2 > GO:ATPase activity, coupled to transmembrane movement of substances ; GO:0042626
 Pfam:PF06472 ABC_membrane_2 > GO:transport ; GO:0006810
-Pfam:PF06472 ABC_membrane_2 > GO:membrane ; GO:0016020
+Pfam:PF06472 ABC_membrane_2 > GO:transmembrane transport ; GO:0055085
+Pfam:PF06472 ABC_membrane_2 > GO:integral component of membrane ; GO:0016021
 Pfam:PF06478 Corona_RPol_N > GO:RNA binding ; GO:0003723
 Pfam:PF06478 Corona_RPol_N > GO:RNA-directed RNA polymerase activity ; GO:0003968
 Pfam:PF06478 Corona_RPol_N > GO:ATP binding ; GO:0005524
@@ -7900,6 +7903,7 @@ Pfam:PF07163 Pex26 > GO:protein import into peroxisome membrane ; GO:0045046
 Pfam:PF07163 Pex26 > GO:integral component of peroxisomal membrane ; GO:0005779
 Pfam:PF07167 PhaC_N > GO:transferase activity, transferring acyl groups ; GO:0016746
 Pfam:PF07167 PhaC_N > GO:poly-hydroxybutyrate biosynthetic process ; GO:0042619
+Pfam:PF07168 Ureide_permease > GO:nitrogen compound transport ; GO:0071705
 Pfam:PF07174 FAP > GO:extracellular matrix binding ; GO:0050840
 Pfam:PF07174 FAP > GO:extracellular region ; GO:0005576
 Pfam:PF07178 TraL > GO:conjugation ; GO:0000746

@@ -1,4 +1,4 @@
-!version date: 2014/10/18 16:23:28
+!version date: 2014/10/25 16:17:24
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -66,7 +66,6 @@ Pfam:PF00056 Ldh_1_N > GO:oxidoreductase activity ; GO:0016491
 Pfam:PF00056 Ldh_1_N > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF00057 Ldl_recept_a > GO:protein binding ; GO:0005515
 Pfam:PF00060 Lig_chan > GO:ionotropic glutamate receptor activity ; GO:0004970
-Pfam:PF00060 Lig_chan > GO:extracellular-glutamate-gated ion channel activity ; GO:0005234
 Pfam:PF00060 Lig_chan > GO:membrane ; GO:0016020
 Pfam:PF00063 Myosin_head > GO:motor activity ; GO:0003774
 Pfam:PF00063 Myosin_head > GO:ATP binding ; GO:0005524
@@ -2383,7 +2382,6 @@ Pfam:PF01386 Ribosomal_L25p > GO:5S rRNA binding ; GO:0008097
 Pfam:PF01386 Ribosomal_L25p > GO:translation ; GO:0006412
 Pfam:PF01386 Ribosomal_L25p > GO:ribosome ; GO:0005840
 Pfam:PF01388 ARID > GO:DNA binding ; GO:0003677
-Pfam:PF01388 ARID > GO:intracellular ; GO:0005622
 Pfam:PF01389 OmpA_membrane > GO:cell outer membrane ; GO:0009279
 Pfam:PF01389 OmpA_membrane > GO:integral component of membrane ; GO:0016021
 Pfam:PF01392 Fz > GO:protein binding ; GO:0005515
@@ -5835,6 +5833,8 @@ Pfam:PF04428 Choline_kin_N > GO:phosphotransferase activity, alcohol group as ac
 Pfam:PF04431 Pec_lyase_N > GO:pectate lyase activity ; GO:0030570
 Pfam:PF04433 SWIRM > GO:protein binding ; GO:0005515
 Pfam:PF04434 SWIM > GO:zinc ion binding ; GO:0008270
+Pfam:PF04437 RINT1_TIP1 > GO:Golgi vesicle transport ; GO:0048193
+Pfam:PF04437 RINT1_TIP1 > GO:endoplasmic reticulum ; GO:0005783
 Pfam:PF04440 Dysbindin > GO:cytoplasm ; GO:0005737
 Pfam:PF04441 Pox_VERT_large > GO:positive regulation of transcription, DNA-templated ; GO:0045893
 Pfam:PF04442 CtaG_Cox11 > GO:copper ion binding ; GO:0005507
@@ -6906,7 +6906,7 @@ Pfam:PF05652 DcpS > GO:hydrolase activity ; GO:0016787
 Pfam:PF05652 DcpS > GO:deadenylation-dependent decapping of nuclear-transcribed mRNA ; GO:0000290
 Pfam:PF05653 Mg_trans_NIPA > GO:magnesium ion transmembrane transporter activity ; GO:0015095
 Pfam:PF05653 Mg_trans_NIPA > GO:magnesium ion transport ; GO:0015693
-Pfam:PF05653 Mg_trans_NIPA > GO:membrane ; GO:0016020
+Pfam:PF05653 Mg_trans_NIPA > GO:integral component of membrane ; GO:0016021
 Pfam:PF05656 DUF805 > GO:integral component of membrane ; GO:0016021
 Pfam:PF05658 YadA_head > GO:pathogenesis ; GO:0009405
 Pfam:PF05658 YadA_head > GO:outer membrane ; GO:0019867
@@ -9750,6 +9750,7 @@ Pfam:PF11421 Synthase_beta > GO:mitochondrial proton-transporting ATP synthase c
 Pfam:PF11427 HTH_Tnp_Tc3_1 > GO:DNA binding ; GO:0003677
 Pfam:PF11429 Colicin_D > GO:ribonuclease activity ; GO:0004540
 Pfam:PF11435 She2p > GO:RNA binding ; GO:0003723
+Pfam:PF11468 PTase_Orf2 > GO:transferase activity ; GO:0016740
 Pfam:PF11480 ImmE5 > GO:bacteriocin immunity ; GO:0030153
 Pfam:PF11501 Nsp1 > GO:cysteine-type endopeptidase activity ; GO:0004197
 Pfam:PF11501 Nsp1 > GO:omega peptidase activity ; GO:0008242

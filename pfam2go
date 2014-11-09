@@ -1,4 +1,4 @@
-!version date: 2014/11/01 16:09:37
+!version date: 2014/11/08 15:57:18
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -630,8 +630,6 @@ Pfam:PF00358 PTS_EIIA_1 > GO:phosphoenolpyruvate-dependent sugar phosphotransfer
 Pfam:PF00360 PHY > GO:regulation of transcription, DNA-templated ; GO:0006355
 Pfam:PF00360 PHY > GO:detection of visible light ; GO:0009584
 Pfam:PF00360 PHY > GO:protein-chromophore linkage ; GO:0018298
-Pfam:PF00361 Oxidored_q1 > GO:NADH dehydrogenase (ubiquinone) activity ; GO:0008137
-Pfam:PF00361 Oxidored_q1 > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF00363 Casein > GO:transporter activity ; GO:0005215
 Pfam:PF00363 Casein > GO:transport ; GO:0006810
 Pfam:PF00363 Casein > GO:extracellular region ; GO:0005576
@@ -2220,9 +2218,8 @@ Pfam:PF01288 HPPK > GO:2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosp
 Pfam:PF01288 HPPK > GO:folic acid-containing compound biosynthetic process ; GO:0009396
 Pfam:PF01289 Thiol_cytolysin > GO:cholesterol binding ; GO:0015485
 Pfam:PF01289 Thiol_cytolysin > GO:pathogenesis ; GO:0009405
-Pfam:PF01290 Thymosin > GO:actin binding ; GO:0003779
-Pfam:PF01290 Thymosin > GO:cytoskeleton organization ; GO:0007010
-Pfam:PF01290 Thymosin > GO:cytoplasm ; GO:0005737
+Pfam:PF01290 Thymosin > GO:actin monomer binding ; GO:0003785
+Pfam:PF01290 Thymosin > GO:actin filament organization ; GO:0007015
 Pfam:PF01291 LIF_OSM > GO:cytokine activity ; GO:0005125
 Pfam:PF01291 LIF_OSM > GO:immune response ; GO:0006955
 Pfam:PF01291 LIF_OSM > GO:extracellular region ; GO:0005576
@@ -6446,6 +6443,7 @@ Pfam:PF05052 MerE > GO:mercury ion transmembrane transporter activity ; GO:00150
 Pfam:PF05052 MerE > GO:mercury ion transport ; GO:0015694
 Pfam:PF05052 MerE > GO:membrane ; GO:0016020
 Pfam:PF05053 Menin > GO:nucleus ; GO:0005634
+Pfam:PF05058 ActA > GO:pathogenesis ; GO:0009405
 Pfam:PF05059 Orbi_VP4 > GO:viral capsid ; GO:0019028
 Pfam:PF05060 MGAT2 > GO:alpha-1,6-mannosylglycoprotein 2-beta-N-acetylglucosaminyltransferase activity ; GO:0008455
 Pfam:PF05060 MGAT2 > GO:oligosaccharide biosynthetic process ; GO:0009312
@@ -8650,6 +8648,7 @@ Pfam:PF08302 tRNA_lig_CPD > GO:tRNA splicing, via endonucleolytic cleavage and l
 Pfam:PF08303 tRNA_lig_kinase > GO:RNA ligase (ATP) activity ; GO:0003972
 Pfam:PF08303 tRNA_lig_kinase > GO:ATP binding ; GO:0005524
 Pfam:PF08303 tRNA_lig_kinase > GO:tRNA splicing, via endonucleolytic cleavage and ligation ; GO:0006388
+Pfam:PF08314 Sec39 > GO:retrograde vesicle-mediated transport, Golgi to ER ; GO:0006890
 Pfam:PF08320 PIG-X > GO:GPI anchor biosynthetic process ; GO:0006506
 Pfam:PF08320 PIG-X > GO:endoplasmic reticulum membrane ; GO:0005789
 Pfam:PF08326 ACC_central > GO:acetyl-CoA carboxylase activity ; GO:0003989
@@ -9254,8 +9253,9 @@ Pfam:PF09252 Feld-I_B > GO:extracellular space ; GO:0005615
 Pfam:PF09254 Endonuc-FokI_C > GO:DNA binding ; GO:0003677
 Pfam:PF09254 Endonuc-FokI_C > GO:Type II site-specific deoxyribonuclease activity ; GO:0009036
 Pfam:PF09254 Endonuc-FokI_C > GO:DNA restriction-modification system ; GO:0009307
-Pfam:PF09258 Glyco_transf_64 > GO:transferase activity, transferring hexosyl groups ; GO:0016758
-Pfam:PF09258 Glyco_transf_64 > GO:intrinsic component of endoplasmic reticulum membrane ; GO:0031227
+Pfam:PF09258 Glyco_transf_64 > GO:glycosaminoglycan biosynthetic process ; GO:0006024
+Pfam:PF09258 Glyco_transf_64 > GO:heparan sulfate proteoglycan biosynthetic process ; GO:0015012
+Pfam:PF09258 Glyco_transf_64 > GO:integral component of membrane ; GO:0016021
 Pfam:PF09259 Fve > GO:carbohydrate binding ; GO:0030246
 Pfam:PF09259 Fve > GO:regulation of immune system process ; GO:0002682
 Pfam:PF09260 DUF1966 > GO:alpha-amylase activity ; GO:0004556
@@ -9648,6 +9648,7 @@ Pfam:PF10484 MRP-S23 > GO:ribosome ; GO:0005840
 Pfam:PF10486 PI3K_1B_p101 > GO:1-phosphatidylinositol-3-kinase regulator activity ; GO:0046935
 Pfam:PF10486 PI3K_1B_p101 > GO:phosphatidylinositol 3-kinase complex, class IB ; GO:0005944
 Pfam:PF10501 Ribosomal_L50 > GO:mitochondrion ; GO:0005739
+Pfam:PF10505 NARG2_C > GO:transcription elongation factor complex ; GO:0008023
 Pfam:PF10508 Proteasom_PSMB > GO:proteasome assembly ; GO:0043248
 Pfam:PF10510 PIG-S > GO:attachment of GPI anchor to protein ; GO:0016255
 Pfam:PF10510 PIG-S > GO:GPI-anchor transamidase complex ; GO:0042765

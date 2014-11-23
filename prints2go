@@ -1,4 +1,4 @@
-!version date: 2014/11/15 16:41:39
+!version date: 2014/11/22 17:22:50
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1954,6 +1954,7 @@ PRINTS:PR00824 HEPLIPASE > GO:triglyceride lipase activity ; GO:0004806
 PRINTS:PR00824 HEPLIPASE > GO:lipid metabolic process ; GO:0006629
 PRINTS:PR00825 DOLALLERGEN > GO:phosphatidylcholine 1-acylhydrolase activity ; GO:0008970
 PRINTS:PR00825 DOLALLERGEN > GO:lipid metabolic process ; GO:0006629
+PRINTS:PR00828 FORMIN > GO:microtubule binding ; GO:0008017
 PRINTS:PR00828 FORMIN > GO:actin nucleation ; GO:0045010
 PRINTS:PR00828 FORMIN > GO:actin filament ; GO:0005884
 PRINTS:PR00829 LOLP1ALLERGN > GO:sexual reproduction ; GO:0019953
@@ -2794,9 +2795,11 @@ PRINTS:PR01161 TUBULIN > GO:microtubule-based process ; GO:0007017
 PRINTS:PR01161 TUBULIN > GO:microtubule ; GO:0005874
 PRINTS:PR01162 ALPHATUBULIN > GO:structural constituent of cytoskeleton ; GO:0005200
 PRINTS:PR01162 ALPHATUBULIN > GO:GTP binding ; GO:0005525
+PRINTS:PR01162 ALPHATUBULIN > GO:microtubule-based process ; GO:0007017
 PRINTS:PR01162 ALPHATUBULIN > GO:microtubule ; GO:0005874
 PRINTS:PR01163 BETATUBULIN > GO:structural constituent of cytoskeleton ; GO:0005200
 PRINTS:PR01163 BETATUBULIN > GO:GTP binding ; GO:0005525
+PRINTS:PR01163 BETATUBULIN > GO:microtubule-based process ; GO:0007017
 PRINTS:PR01163 BETATUBULIN > GO:microtubule ; GO:0005874
 PRINTS:PR01164 GAMMATUBULIN > GO:microtubule nucleation ; GO:0007020
 PRINTS:PR01164 GAMMATUBULIN > GO:cytoplasmic microtubule organization ; GO:0031122
@@ -2950,6 +2953,7 @@ PRINTS:PR01223 BRIDEOF7LESS > GO:visual perception ; GO:0007601
 PRINTS:PR01223 BRIDEOF7LESS > GO:membrane ; GO:0016020
 PRINTS:PR01224 DELTATUBULIN > GO:structural constituent of cytoskeleton ; GO:0005200
 PRINTS:PR01224 DELTATUBULIN > GO:GTP binding ; GO:0005525
+PRINTS:PR01224 DELTATUBULIN > GO:microtubule-based process ; GO:0007017
 PRINTS:PR01224 DELTATUBULIN > GO:microtubule ; GO:0005874
 PRINTS:PR01225 EXPANSNFAMLY > GO:extracellular region ; GO:0005576
 PRINTS:PR01226 EXPANSIN > GO:plant-type cell wall organization ; GO:0009664
@@ -4030,8 +4034,9 @@ PRINTS:PR01660 MCMPROTEIN4 > GO:DNA helicase activity ; GO:0003678
 PRINTS:PR01660 MCMPROTEIN4 > GO:ATP binding ; GO:0005524
 PRINTS:PR01660 MCMPROTEIN4 > GO:DNA replication initiation ; GO:0006270
 PRINTS:PR01660 MCMPROTEIN4 > GO:MCM complex ; GO:0042555
-PRINTS:PR01661 MCMPROTEIN5 > GO:DNA binding ; GO:0003677
 PRINTS:PR01661 MCMPROTEIN5 > GO:DNA helicase activity ; GO:0003678
+PRINTS:PR01661 MCMPROTEIN5 > GO:chromatin binding ; GO:0003682
+PRINTS:PR01661 MCMPROTEIN5 > GO:DNA replication origin binding ; GO:0003688
 PRINTS:PR01661 MCMPROTEIN5 > GO:ATP binding ; GO:0005524
 PRINTS:PR01661 MCMPROTEIN5 > GO:DNA replication initiation ; GO:0006270
 PRINTS:PR01661 MCMPROTEIN5 > GO:nucleus ; GO:0005634

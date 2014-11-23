@@ -1,4 +1,4 @@
-!version date: 2014/11/15 16:41:37
+!version date: 2014/11/22 17:22:49
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -111,6 +111,7 @@ Pfam:PF00085 Thioredoxin > GO:cell redox homeostasis ; GO:0045454
 Pfam:PF00087 Toxin_1 > GO:extracellular region ; GO:0005576
 Pfam:PF00089 Trypsin > GO:serine-type endopeptidase activity ; GO:0004252
 Pfam:PF00089 Trypsin > GO:proteolysis ; GO:0006508
+Pfam:PF00091 Tubulin > GO:GTPase activity ; GO:0003924
 Pfam:PF00093 VWC > GO:protein binding ; GO:0005515
 Pfam:PF00095 WAP > GO:peptidase inhibitor activity ; GO:0030414
 Pfam:PF00095 WAP > GO:extracellular region ; GO:0005576
@@ -1123,9 +1124,6 @@ Pfam:PF00659 POLO_box > GO:protein binding ; GO:0005515
 Pfam:PF00660 SRP1_TIP1 > GO:response to stress ; GO:0006950
 Pfam:PF00661 Matrix > GO:structural molecule activity ; GO:0005198
 Pfam:PF00661 Matrix > GO:virion assembly ; GO:0019068
-Pfam:PF00662 Oxidored_q1_N > GO:NADH dehydrogenase (ubiquinone) activity ; GO:0008137
-Pfam:PF00662 Oxidored_q1_N > GO:ATP synthesis coupled electron transport ; GO:0042773
-Pfam:PF00662 Oxidored_q1_N > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF00664 ABC_membrane > GO:ATP binding ; GO:0005524
 Pfam:PF00664 ABC_membrane > GO:ATPase activity, coupled to transmembrane movement of substances ; GO:0042626
 Pfam:PF00664 ABC_membrane > GO:transport ; GO:0006810
@@ -1526,7 +1524,7 @@ Pfam:PF00897 Orbi_VP7 > GO:structural molecule activity ; GO:0005198
 Pfam:PF00897 Orbi_VP7 > GO:viral capsid ; GO:0019028
 Pfam:PF00898 Orbi_VP2 > GO:structural molecule activity ; GO:0005198
 Pfam:PF00898 Orbi_VP2 > GO:viral capsid ; GO:0019028
-Pfam:PF00899 ThiF > GO:catalytic activity ; GO:0003824
+Pfam:PF00899 ThiF > GO:small protein activating enzyme activity ; GO:0008641
 Pfam:PF00901 Orbi_VP5 > GO:structural molecule activity ; GO:0005198
 Pfam:PF00901 Orbi_VP5 > GO:viral capsid ; GO:0019028
 Pfam:PF00902 TatC > GO:integral component of membrane ; GO:0016021
@@ -1717,9 +1715,6 @@ Pfam:PF01007 IRK > GO:inward rectifier potassium channel activity ; GO:0005242
 Pfam:PF01007 IRK > GO:potassium ion transport ; GO:0006813
 Pfam:PF01007 IRK > GO:integral component of membrane ; GO:0016021
 Pfam:PF01008 IF-2B > GO:cellular metabolic process ; GO:0044237
-Pfam:PF01010 Oxidored_q1_C > GO:NADH dehydrogenase (ubiquinone) activity ; GO:0008137
-Pfam:PF01010 Oxidored_q1_C > GO:ATP synthesis coupled electron transport ; GO:0042773
-Pfam:PF01010 Oxidored_q1_C > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF01015 Ribosomal_S3Ae > GO:structural constituent of ribosome ; GO:0003735
 Pfam:PF01015 Ribosomal_S3Ae > GO:translation ; GO:0006412
 Pfam:PF01015 Ribosomal_S3Ae > GO:intracellular ; GO:0005622
@@ -5445,11 +5440,6 @@ Pfam:PF03952 Enolase_N > GO:magnesium ion binding ; GO:0000287
 Pfam:PF03952 Enolase_N > GO:phosphopyruvate hydratase activity ; GO:0004634
 Pfam:PF03952 Enolase_N > GO:glycolytic process ; GO:0006096
 Pfam:PF03952 Enolase_N > GO:phosphopyruvate hydratase complex ; GO:0000015
-Pfam:PF03953 Tubulin_C > GO:GTPase activity ; GO:0003924
-Pfam:PF03953 Tubulin_C > GO:GTP binding ; GO:0005525
-Pfam:PF03953 Tubulin_C > GO:GTP catabolic process ; GO:0006184
-Pfam:PF03953 Tubulin_C > GO:protein polymerization ; GO:0051258
-Pfam:PF03953 Tubulin_C > GO:protein complex ; GO:0043234
 Pfam:PF03955 Adeno_PIX > GO:hexon binding ; GO:0031423
 Pfam:PF03955 Adeno_PIX > GO:virion ; GO:0019012
 Pfam:PF03964 Chorion_2 > GO:multicellular organismal development ; GO:0007275
@@ -8828,6 +8818,9 @@ Pfam:PF08559 Cut8_C > GO:proteasome localization ; GO:0031144
 Pfam:PF08559 Cut8_C > GO:nucleus-associated proteasomal ubiquitin-dependent protein catabolic process ; GO:0071630
 Pfam:PF08559 Cut8_C > GO:nucleus ; GO:0005634
 Pfam:PF08563 P53_TAD > GO:protein binding ; GO:0005515
+Pfam:PF08573 SAE2 > GO:single-stranded DNA endodeoxyribonuclease activity ; GO:0000014
+Pfam:PF08573 SAE2 > GO:DNA damage checkpoint ; GO:0000077
+Pfam:PF08573 SAE2 > GO:DNA repair ; GO:0006281
 Pfam:PF08587 UBA_2 > GO:protein serine/threonine kinase activity ; GO:0004674
 Pfam:PF08597 eIF3_subunit > GO:translation initiation factor activity ; GO:0003743
 Pfam:PF08597 eIF3_subunit > GO:cytoplasm ; GO:0005737

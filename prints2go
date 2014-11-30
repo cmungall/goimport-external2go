@@ -1,4 +1,4 @@
-!version date: 2014/11/22 17:22:50
+!version date: 2014/11/29 17:19:28
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -117,6 +117,7 @@ PRINTS:PR00056 HSFDOMAIN > GO:nucleus ; GO:0005634
 PRINTS:PR00057 NFKBTNSCPFCT > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PRINTS:PR00057 NFKBTNSCPFCT > GO:regulation of transcription, DNA-templated ; GO:0006355
 PRINTS:PR00057 NFKBTNSCPFCT > GO:nucleus ; GO:0005634
+PRINTS:PR00057 NFKBTNSCPFCT > GO:cytoplasm ; GO:0005737
 PRINTS:PR00058 RIBOSOMALL5 > GO:structural constituent of ribosome ; GO:0003735
 PRINTS:PR00058 RIBOSOMALL5 > GO:5S rRNA binding ; GO:0008097
 PRINTS:PR00058 RIBOSOMALL5 > GO:translation ; GO:0006412
@@ -898,9 +899,6 @@ PRINTS:PR00432 INTERLEUKIN5 > GO:extracellular region ; GO:0005576
 PRINTS:PR00433 IL6GCSFMGF > GO:cytokine activity ; GO:0005125
 PRINTS:PR00433 IL6GCSFMGF > GO:immune response ; GO:0006955
 PRINTS:PR00433 IL6GCSFMGF > GO:extracellular region ; GO:0005576
-PRINTS:PR00434 INTERLEUKIN6 > GO:interleukin-6 receptor binding ; GO:0005138
-PRINTS:PR00434 INTERLEUKIN6 > GO:immune response ; GO:0006955
-PRINTS:PR00434 INTERLEUKIN6 > GO:extracellular region ; GO:0005576
 PRINTS:PR00435 INTERLEUKIN7 > GO:interleukin-7 receptor binding ; GO:0005139
 PRINTS:PR00435 INTERLEUKIN7 > GO:growth factor activity ; GO:0008083
 PRINTS:PR00435 INTERLEUKIN7 > GO:immune response ; GO:0006955
@@ -2032,7 +2030,6 @@ PRINTS:PR00868 DNAPOLI > GO:DNA-directed DNA polymerase activity ; GO:0003887
 PRINTS:PR00868 DNAPOLI > GO:DNA-dependent DNA replication ; GO:0006261
 PRINTS:PR00869 DNAPOLX > GO:DNA binding ; GO:0003677
 PRINTS:PR00869 DNAPOLX > GO:DNA polymerase activity ; GO:0034061
-PRINTS:PR00869 DNAPOLX > GO:nucleus ; GO:0005634
 PRINTS:PR00870 DNAPOLXBETA > GO:DNA binding ; GO:0003677
 PRINTS:PR00870 DNAPOLXBETA > GO:DNA repair ; GO:0006281
 PRINTS:PR00871 DNAPOLXTDT > GO:DNA polymerase activity ; GO:0034061

@@ -1,4 +1,4 @@
-!version date: 2014/11/22 17:22:49
+!version date: 2014/11/29 17:19:28
 !description: Mapping of GO terms to InterPro entries.
 !external resource: http://www.ebi.ac.uk/interpro
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -804,9 +804,10 @@ InterPro:IPR000449 Ubiquitin-associated domain/translation elongation factor EF-
 InterPro:IPR000450 5-Hydroxytryptamine 1F receptor > GO:serotonin receptor activity ; GO:0004993
 InterPro:IPR000450 5-Hydroxytryptamine 1F receptor > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 InterPro:IPR000450 5-Hydroxytryptamine 1F receptor > GO:integral component of plasma membrane ; GO:0005887
-InterPro:IPR000451 NF-kappa-B/Rel/Dorsal > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-InterPro:IPR000451 NF-kappa-B/Rel/Dorsal > GO:regulation of transcription, DNA-templated ; GO:0006355
-InterPro:IPR000451 NF-kappa-B/Rel/Dorsal > GO:nucleus ; GO:0005634
+InterPro:IPR000451 NF-kappa-B/Dorsal > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+InterPro:IPR000451 NF-kappa-B/Dorsal > GO:regulation of transcription, DNA-templated ; GO:0006355
+InterPro:IPR000451 NF-kappa-B/Dorsal > GO:nucleus ; GO:0005634
+InterPro:IPR000451 NF-kappa-B/Dorsal > GO:cytoplasm ; GO:0005737
 InterPro:IPR000452 Kappa opioid receptor > GO:dynorphin receptor activity ; GO:0038048
 InterPro:IPR000452 Kappa opioid receptor > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 InterPro:IPR000452 Kappa opioid receptor > GO:integral component of membrane ; GO:0016021
@@ -852,9 +853,8 @@ InterPro:IPR000470 CbxX/CfqX, monofunctional > GO:ATP binding ; GO:0005524
 InterPro:IPR000471 Interferon alpha/beta/delta > GO:cytokine receptor binding ; GO:0005126
 InterPro:IPR000471 Interferon alpha/beta/delta > GO:defense response ; GO:0006952
 InterPro:IPR000471 Interferon alpha/beta/delta > GO:extracellular region ; GO:0005576
-InterPro:IPR000472 TGF-beta receptor/activin receptor, type I/II > GO:transmembrane receptor protein serine/threonine kinase activity ; GO:0004675
-InterPro:IPR000472 TGF-beta receptor/activin receptor, type I/II > GO:transforming growth factor beta-activated receptor activity ; GO:0005024
-InterPro:IPR000472 TGF-beta receptor/activin receptor, type I/II > GO:membrane ; GO:0016020
+InterPro:IPR000472 TGF-beta family type I/II receptor, extracellular C-terminal domain > GO:transmembrane receptor protein serine/threonine kinase activity ; GO:0004675
+InterPro:IPR000472 TGF-beta family type I/II receptor, extracellular C-terminal domain > GO:membrane ; GO:0016020
 InterPro:IPR000473 Ribosomal protein L36 > GO:structural constituent of ribosome ; GO:0003735
 InterPro:IPR000473 Ribosomal protein L36 > GO:translation ; GO:0006412
 InterPro:IPR000473 Ribosomal protein L36 > GO:intracellular ; GO:0005622
@@ -5688,7 +5688,7 @@ InterPro:IPR003163 Transcription regulator HTH, APSES-type DNA-binding domain > 
 InterPro:IPR003164 Clathrin adaptor, alpha-adaptin, appendage, C-terminal subdomain > GO:intracellular protein transport ; GO:0006886
 InterPro:IPR003164 Clathrin adaptor, alpha-adaptin, appendage, C-terminal subdomain > GO:vesicle-mediated transport ; GO:0016192
 InterPro:IPR003164 Clathrin adaptor, alpha-adaptin, appendage, C-terminal subdomain > GO:clathrin adaptor complex ; GO:0030131
-InterPro:IPR003165 Stem cell self-renewal protein Piwi > GO:protein binding ; GO:0005515
+InterPro:IPR003165 Piwi domain > GO:nucleic acid binding ; GO:0003676
 InterPro:IPR003166 Transcription factor TFIIE beta subunit, DNA-binding domain > GO:transcription initiation from RNA polymerase II promoter ; GO:0006367
 InterPro:IPR003166 Transcription factor TFIIE beta subunit, DNA-binding domain > GO:transcription factor TFIIE complex ; GO:0005673
 InterPro:IPR003168 Nitrile hydratase, beta subunit > GO:nitrile hydratase activity ; GO:0018822
@@ -8524,7 +8524,7 @@ InterPro:IPR005019 Methyladenine glycosylase > GO:base-excision repair ; GO:0006
 InterPro:IPR005022 Viral trans-activator protein > GO:regulation of transcription, DNA-templated ; GO:0006355
 InterPro:IPR005024 Snf7 family > GO:vacuolar transport ; GO:0007034
 InterPro:IPR005025 NADPH-dependent FMN reductase-like > GO:oxidoreductase activity ; GO:0016491
-InterPro:IPR005026 Guanylate-kinase-associated protein > GO:cell-cell signaling ; GO:0007267
+InterPro:IPR005026 SAPAP family > GO:signaling ; GO:0023052
 InterPro:IPR005027 Glycosyl transferase, family 43 > GO:galactosylgalactosylxylosylprotein 3-beta-glucuronosyltransferase activity ; GO:0015018
 InterPro:IPR005027 Glycosyl transferase, family 43 > GO:membrane ; GO:0016020
 InterPro:IPR005028 Herpesvirus intermediate/early protein 2/3 > GO:regulation of transcription, DNA-templated ; GO:0006355
@@ -9661,7 +9661,7 @@ InterPro:IPR005840 Ribosomal protein S12 methylthiotransferase RimO > GO:cytopla
 InterPro:IPR005841 Alpha-D-phosphohexomutase superfamily > GO:intramolecular transferase activity, phosphotransferases ; GO:0016868
 InterPro:IPR005841 Alpha-D-phosphohexomutase superfamily > GO:carbohydrate metabolic process ; GO:0005975
 InterPro:IPR005843 Alpha-D-phosphohexomutase, C-terminal > GO:intramolecular transferase activity, phosphotransferases ; GO:0016868
-InterPro:IPR005843 Alpha-D-phosphohexomutase, C-terminal > GO:carbohydrate metabolic process ; GO:0005975
+InterPro:IPR005843 Alpha-D-phosphohexomutase, C-terminal > GO:organic substance metabolic process ; GO:0071704
 InterPro:IPR005844 Alpha-D-phosphohexomutase, alpha/beta/alpha domain I > GO:intramolecular transferase activity, phosphotransferases ; GO:0016868
 InterPro:IPR005844 Alpha-D-phosphohexomutase, alpha/beta/alpha domain I > GO:carbohydrate metabolic process ; GO:0005975
 InterPro:IPR005845 Alpha-D-phosphohexomutase, alpha/beta/alpha domain II > GO:intramolecular transferase activity, phosphotransferases ; GO:0016868
@@ -10946,7 +10946,7 @@ InterPro:IPR006591 RNA polymerase archaeal subunit P/eukaryotic subunit RPABC4 >
 InterPro:IPR006592 RNA polymerase, N-terminal > GO:DNA binding ; GO:0003677
 InterPro:IPR006592 RNA polymerase, N-terminal > GO:DNA-directed RNA polymerase activity ; GO:0003899
 InterPro:IPR006592 RNA polymerase, N-terminal > GO:transcription, DNA-templated ; GO:0006351
-InterPro:IPR006594 LisH dimerisation motif > GO:protein binding ; GO:0005515
+InterPro:IPR006594 LIS1 homology motif > GO:protein binding ; GO:0005515
 InterPro:IPR006604 Disulphide knot CLIP > GO:serine-type endopeptidase activity ; GO:0004252
 InterPro:IPR006612 Zinc finger, C2CH-type > GO:nucleic acid binding ; GO:0003676
 InterPro:IPR006614 Peroxin/Ferlin domain > GO:integral component of membrane ; GO:0016021
@@ -12571,7 +12571,7 @@ InterPro:IPR008269 Peptidase S16, Lon C-terminal > GO:proteolysis ; GO:0006508
 InterPro:IPR008270 Glycoside hydrolase, family 25, active site > GO:lysozyme activity ; GO:0003796
 InterPro:IPR008270 Glycoside hydrolase, family 25, active site > GO:peptidoglycan catabolic process ; GO:0009253
 InterPro:IPR008270 Glycoside hydrolase, family 25, active site > GO:cell wall macromolecule catabolic process ; GO:0016998
-InterPro:IPR008271 Serine/threonine-protein kinase, active site > GO:protein serine/threonine kinase activity ; GO:0004674
+InterPro:IPR008271 Serine/threonine-protein kinase, active site > GO:protein kinase activity ; GO:0004672
 InterPro:IPR008271 Serine/threonine-protein kinase, active site > GO:protein phosphorylation ; GO:0006468
 InterPro:IPR008272 4-hydroxybenzoyl-CoA thioesterase, active site > GO:hydrolase activity ; GO:0016787
 InterPro:IPR008274 Aldehyde oxidase/xanthine dehydrogenase, molybdopterin binding > GO:oxidoreductase activity ; GO:0016491
@@ -15210,6 +15210,10 @@ InterPro:IPR011356 Leucine aminopeptidase/peptidase B > GO:cytoplasm ; GO:000573
 InterPro:IPR011360 Complement B/C2 > GO:serine-type endopeptidase activity ; GO:0004252
 InterPro:IPR011360 Complement B/C2 > GO:complement activation ; GO:0006956
 InterPro:IPR011360 Complement B/C2 > GO:extracellular region ; GO:0005576
+InterPro:IPR011363 Dorsal/Dif protein > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+InterPro:IPR011363 Dorsal/Dif protein > GO:regulation of transcription from RNA polymerase II promoter ; GO:0006357
+InterPro:IPR011363 Dorsal/Dif protein > GO:nucleus ; GO:0005634
+InterPro:IPR011363 Dorsal/Dif protein > GO:cytoplasm ; GO:0005737
 InterPro:IPR011364 Breast cancer type 1 susceptibility protein (BRCA1) > GO:DNA binding ; GO:0003677
 InterPro:IPR011364 Breast cancer type 1 susceptibility protein (BRCA1) > GO:ubiquitin-protein transferase activity ; GO:0004842
 InterPro:IPR011364 Breast cancer type 1 susceptibility protein (BRCA1) > GO:zinc ion binding ; GO:0008270
@@ -18734,9 +18738,9 @@ InterPro:IPR015273 Cysteinyl-tRNA synthetase, class Ia, DALR > GO:cytoplasm ; GO
 InterPro:IPR015277 Restriction endonuclease, type II, AvaI/BsoBI > GO:DNA binding ; GO:0003677
 InterPro:IPR015277 Restriction endonuclease, type II, AvaI/BsoBI > GO:Type II site-specific deoxyribonuclease activity ; GO:0009036
 InterPro:IPR015277 Restriction endonuclease, type II, AvaI/BsoBI > GO:DNA restriction-modification system ; GO:0009307
-InterPro:IPR015285 RIO2 kinase, winged helix, N-terminal > GO:protein serine/threonine kinase activity ; GO:0004674
-InterPro:IPR015285 RIO2 kinase, winged helix, N-terminal > GO:ATP binding ; GO:0005524
-InterPro:IPR015285 RIO2 kinase, winged helix, N-terminal > GO:protein phosphorylation ; GO:0006468
+InterPro:IPR015285 RIO2 kinase winged helix domain, N-terminal > GO:protein serine/threonine kinase activity ; GO:0004674
+InterPro:IPR015285 RIO2 kinase winged helix domain, N-terminal > GO:ATP binding ; GO:0005524
+InterPro:IPR015285 RIO2 kinase winged helix domain, N-terminal > GO:protein phosphorylation ; GO:0006468
 InterPro:IPR015287 Colicin D immunity protein domain > GO:toxic substance binding ; GO:0015643
 InterPro:IPR015287 Colicin D immunity protein domain > GO:bacteriocin immunity ; GO:0030153
 InterPro:IPR015289 Alpha-L-arabinofuranosidase B, catalytic > GO:alpha-L-arabinofuranosidase activity ; GO:0046556
@@ -20484,9 +20488,9 @@ InterPro:IPR017375 Peroxisome assembly protein 12 > GO:zinc ion binding ; GO:000
 InterPro:IPR017375 Peroxisome assembly protein 12 > GO:protein targeting to peroxisome ; GO:0006625
 InterPro:IPR017375 Peroxisome assembly protein 12 > GO:integral component of peroxisomal membrane ; GO:0005779
 InterPro:IPR017377 Herpesvirus US8A > GO:host cell nucleolus ; GO:0044196
-InterPro:IPR017378 Torsin, subgroup > GO:ATP binding ; GO:0005524
-InterPro:IPR017378 Torsin, subgroup > GO:chaperone mediated protein folding requiring cofactor ; GO:0051085
-InterPro:IPR017378 Torsin, subgroup > GO:endoplasmic reticulum ; GO:0005783
+InterPro:IPR017378 Torsin 1/2 > GO:ATP binding ; GO:0005524
+InterPro:IPR017378 Torsin 1/2 > GO:chaperone mediated protein folding requiring cofactor ; GO:0051085
+InterPro:IPR017378 Torsin 1/2 > GO:endoplasmic reticulum ; GO:0005783
 InterPro:IPR017380 Histone acetyltransferase type B, catalytic subunit > GO:histone acetyltransferase activity ; GO:0004402
 InterPro:IPR017380 Histone acetyltransferase type B, catalytic subunit > GO:chromatin silencing at telomere ; GO:0006348
 InterPro:IPR017380 Histone acetyltransferase type B, catalytic subunit > GO:histone acetylation ; GO:0016573
@@ -21741,8 +21745,8 @@ InterPro:IPR018860 Anaphase-promoting complex, subunit CDC26 > GO:anaphase-promo
 InterPro:IPR018860 Anaphase-promoting complex, subunit CDC26 > GO:anaphase-promoting complex ; GO:0005680
 InterPro:IPR018922 NAD(P)H-quinone oxidoreductase subunit M > GO:oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor ; GO:0016655
 InterPro:IPR018922 NAD(P)H-quinone oxidoreductase subunit M > GO:oxidation-reduction process ; GO:0055114
-InterPro:IPR018934 RIO-like kinase > GO:catalytic activity ; GO:0003824
-InterPro:IPR018934 RIO-like kinase > GO:ATP binding ; GO:0005524
+InterPro:IPR018934 RIO domain > GO:catalytic activity ; GO:0003824
+InterPro:IPR018934 RIO domain > GO:ATP binding ; GO:0005524
 InterPro:IPR018935 RIO kinase, conserved site > GO:protein serine/threonine kinase activity ; GO:0004674
 InterPro:IPR018935 RIO kinase, conserved site > GO:ATP binding ; GO:0005524
 InterPro:IPR018936 Phosphatidylinositol 3/4-kinase, conserved site > GO:phosphotransferase activity, alcohol group as acceptor ; GO:0016773
@@ -22585,10 +22589,10 @@ InterPro:IPR020618 Adenylate kinase isoenzyme 6 > GO:adenylate kinase activity ;
 InterPro:IPR020618 Adenylate kinase isoenzyme 6 > GO:ATP binding ; GO:0005524
 InterPro:IPR020621 ATP phosphoribosyltransferase HisG, long form > GO:ATP phosphoribosyltransferase activity ; GO:0003879
 InterPro:IPR020621 ATP phosphoribosyltransferase HisG, long form > GO:histidine biosynthetic process ; GO:0000105
-InterPro:IPR020624 Dihydrodipicolinate synthetase, conserved site > GO:lyase activity ; GO:0016829
-InterPro:IPR020624 Dihydrodipicolinate synthetase, conserved site > GO:metabolic process ; GO:0008152
-InterPro:IPR020625 Dihydrodipicolinate synthetase, active site > GO:lyase activity ; GO:0016829
-InterPro:IPR020625 Dihydrodipicolinate synthetase, active site > GO:metabolic process ; GO:0008152
+InterPro:IPR020624 Schiff base-forming aldolase, conserved site > GO:lyase activity ; GO:0016829
+InterPro:IPR020624 Schiff base-forming aldolase, conserved site > GO:metabolic process ; GO:0008152
+InterPro:IPR020625 Schiff base-forming aldolase, active site > GO:lyase activity ; GO:0016829
+InterPro:IPR020625 Schiff base-forming aldolase, active site > GO:metabolic process ; GO:0008152
 InterPro:IPR020626 L-aspartate dehydrogenase, prokaryotic > GO:aspartate dehydrogenase activity ; GO:0033735
 InterPro:IPR020626 L-aspartate dehydrogenase, prokaryotic > GO:NAD biosynthetic process ; GO:0009435
 InterPro:IPR020626 L-aspartate dehydrogenase, prokaryotic > GO:oxidation-reduction process ; GO:0055114
@@ -22608,9 +22612,6 @@ InterPro:IPR020631 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding
 InterPro:IPR020631 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain > GO:oxidation-reduction process ; GO:0055114
 InterPro:IPR020633 Thymidine kinase, conserved site > GO:thymidine kinase activity ; GO:0004797
 InterPro:IPR020633 Thymidine kinase, conserved site > GO:ATP binding ; GO:0005524
-InterPro:IPR020634 Thymidine kinase, subgroup > GO:thymidine kinase activity ; GO:0004797
-InterPro:IPR020634 Thymidine kinase, subgroup > GO:ATP binding ; GO:0005524
-InterPro:IPR020634 Thymidine kinase, subgroup > GO:DNA metabolic process ; GO:0006259
 InterPro:IPR020635 Tyrosine-protein kinase, catalytic domain > GO:protein tyrosine kinase activity ; GO:0004713
 InterPro:IPR020635 Tyrosine-protein kinase, catalytic domain > GO:protein phosphorylation ; GO:0006468
 InterPro:IPR020653 Tryptophan-tRNA ligase, archaea > GO:tryptophan-tRNA ligase activity ; GO:0004830
@@ -22691,8 +22692,8 @@ InterPro:IPR020791 Leucine-tRNA ligase, archaeal > GO:leucine-tRNA ligase activi
 InterPro:IPR020791 Leucine-tRNA ligase, archaeal > GO:ATP binding ; GO:0005524
 InterPro:IPR020791 Leucine-tRNA ligase, archaeal > GO:leucyl-tRNA aminoacylation ; GO:0006429
 InterPro:IPR020791 Leucine-tRNA ligase, archaeal > GO:cytoplasm ; GO:0005737
-InterPro:IPR020792 Sulphate adenylyltransferase, subgroup > GO:sulfate adenylyltransferase (ATP) activity ; GO:0004781
-InterPro:IPR020792 Sulphate adenylyltransferase, subgroup > GO:sulfate assimilation ; GO:0000103
+InterPro:IPR020792 Sulphate adenylyltransferase, prokaryotic-type > GO:sulfate adenylyltransferase (ATP) activity ; GO:0004781
+InterPro:IPR020792 Sulphate adenylyltransferase, prokaryotic-type > GO:sulfate assimilation ; GO:0000103
 InterPro:IPR020793 Origin recognition complex, subunit 1 > GO:DNA replication ; GO:0006260
 InterPro:IPR020793 Origin recognition complex, subunit 1 > GO:origin recognition complex ; GO:0000808
 InterPro:IPR020793 Origin recognition complex, subunit 1 > GO:nucleus ; GO:0005634
@@ -23179,7 +23180,6 @@ InterPro:IPR022308 Synaptic vesicle protein SV2 > GO:transport ; GO:0006810
 InterPro:IPR022308 Synaptic vesicle protein SV2 > GO:membrane ; GO:0016020
 InterPro:IPR022312 DNA polymerase family X > GO:DNA binding ; GO:0003677
 InterPro:IPR022312 DNA polymerase family X > GO:DNA polymerase activity ; GO:0034061
-InterPro:IPR022312 DNA polymerase family X > GO:nucleus ; GO:0005634
 InterPro:IPR022313 Phenylalanine/histidine ammonia-lyases, active site > GO:ammonia-lyase activity ; GO:0016841
 InterPro:IPR022317 Tumour necrosis factor receptor 13B > GO:integral component of plasma membrane ; GO:0005887
 InterPro:IPR022318 Tumour necrosis factor receptor 18 > GO:integral component of plasma membrane ; GO:0005887
@@ -29825,3 +29825,82 @@ InterPro:IPR030464 Lysosomal-trafficking regulator > GO:lysosome organization ; 
 InterPro:IPR030465 Centrosomal protein of 131 kDa > GO:intraciliary transport involved in cilium morphogenesis ; GO:0035735
 InterPro:IPR030468 NEDD8-activating enzyme E1 catalytic subunit > GO:NEDD8 activating enzyme activity ; GO:0019781
 InterPro:IPR030468 NEDD8-activating enzyme E1 catalytic subunit > GO:protein neddylation ; GO:0045116
+InterPro:IPR030471 Rhotekin > GO:GTP-Rho binding ; GO:0017049
+InterPro:IPR030471 Rhotekin > GO:Rho protein signal transduction ; GO:0007266
+InterPro:IPR030474 Interleukin-6/GCSF/MGF > GO:cytokine activity ; GO:0005125
+InterPro:IPR030474 Interleukin-6/GCSF/MGF > GO:immune response ; GO:0006955
+InterPro:IPR030474 Interleukin-6/GCSF/MGF > GO:extracellular region ; GO:0005576
+InterPro:IPR030481 Staphylococcal nuclease domain-containing protein 1 > GO:transcription cofactor activity ; GO:0003712
+InterPro:IPR030481 Staphylococcal nuclease domain-containing protein 1 > GO:posttranscriptional gene silencing by RNA ; GO:0035194
+InterPro:IPR030483 Non-histone protein 10 > GO:DNA binding ; GO:0003677
+InterPro:IPR030483 Non-histone protein 10 > GO:double-strand break repair ; GO:0006302
+InterPro:IPR030483 Non-histone protein 10 > GO:nucleus ; GO:0005634
+InterPro:IPR030483 Non-histone protein 10 > GO:Ino80 complex ; GO:0031011
+InterPro:IPR030484 Serine/threonine-protein kinase Rio2 > GO:protein kinase activity ; GO:0004672
+InterPro:IPR030485 Chromodomain-helicase-DNA-binding protein 2 > GO:core promoter sequence-specific DNA binding ; GO:0001046
+InterPro:IPR030485 Chromodomain-helicase-DNA-binding protein 2 > GO:regulation of transcription, DNA-templated ; GO:0006355
+InterPro:IPR030485 Chromodomain-helicase-DNA-binding protein 2 > GO:nucleus ; GO:0005634
+InterPro:IPR030486 DNA (cytosine-5)-methyltransferase 3-like > GO:DNA methylation ; GO:0006306
+InterPro:IPR030487 DNA methyltransferase 3A > GO:DNA-methyltransferase activity ; GO:0009008
+InterPro:IPR030487 DNA methyltransferase 3A > GO:DNA methylation ; GO:0006306
+InterPro:IPR030488 DNA methyltransferase 3B > GO:DNA-methyltransferase activity ; GO:0009008
+InterPro:IPR030488 DNA methyltransferase 3B > GO:DNA methylation ; GO:0006306
+InterPro:IPR030494 Shroom3 > GO:actin binding ; GO:0003779
+InterPro:IPR030494 Shroom3 > GO:cell morphogenesis ; GO:0000902
+InterPro:IPR030494 Shroom3 > GO:neural tube closure ; GO:0001843
+InterPro:IPR030494 Shroom3 > GO:epithelial cell development ; GO:0002064
+InterPro:IPR030495 Transcription factor RelA (p65) > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+InterPro:IPR030495 Transcription factor RelA (p65) > GO:positive regulation of NF-kappaB transcription factor activity ; GO:0051092
+InterPro:IPR030495 Transcription factor RelA (p65) > GO:nucleus ; GO:0005634
+InterPro:IPR030495 Transcription factor RelA (p65) > GO:cytoplasm ; GO:0005737
+InterPro:IPR030495 Transcription factor RelA (p65) > GO:NF-kappaB complex ; GO:0071159
+InterPro:IPR030496 Transcription factor RelB > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+InterPro:IPR030496 Transcription factor RelB > GO:regulation of transcription from RNA polymerase II promoter ; GO:0006357
+InterPro:IPR030496 Transcription factor RelB > GO:nucleus ; GO:0005634
+InterPro:IPR030496 Transcription factor RelB > GO:cytoplasm ; GO:0005737
+InterPro:IPR030497 Nuclear factor NF-kappa-B p100 subunit > GO:regulation of transcription from RNA polymerase II promoter ; GO:0006357
+InterPro:IPR030497 Nuclear factor NF-kappa-B p100 subunit > GO:positive regulation of NF-kappaB transcription factor activity ; GO:0051092
+InterPro:IPR030497 Nuclear factor NF-kappa-B p100 subunit > GO:nucleus ; GO:0005634
+InterPro:IPR030497 Nuclear factor NF-kappa-B p100 subunit > GO:cytoplasm ; GO:0005737
+InterPro:IPR030499 Purine-rich element-binding protein beta > GO:DNA binding ; GO:0003677
+InterPro:IPR030499 Purine-rich element-binding protein beta > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+InterPro:IPR030499 Purine-rich element-binding protein beta > GO:cell differentiation ; GO:0030154
+InterPro:IPR030499 Purine-rich element-binding protein beta > GO:negative regulation of transcription, DNA-templated ; GO:0045892
+InterPro:IPR030500 Purine-rich element-binding protein alpha > GO:DNA binding ; GO:0003677
+InterPro:IPR030500 Purine-rich element-binding protein alpha > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+InterPro:IPR030500 Purine-rich element-binding protein alpha > GO:RNA binding ; GO:0003723
+InterPro:IPR030500 Purine-rich element-binding protein alpha > GO:cell differentiation ; GO:0030154
+InterPro:IPR030500 Purine-rich element-binding protein alpha > GO:negative regulation of transcription, DNA-templated ; GO:0045892
+InterPro:IPR030502 Coactosin-like protein > GO:actin binding ; GO:0003779
+InterPro:IPR030503 Nuclear factor NF-kappa-B p105 subunit > GO:regulation of transcription from RNA polymerase II promoter ; GO:0006357
+InterPro:IPR030503 Nuclear factor NF-kappa-B p105 subunit > GO:nucleus ; GO:0005634
+InterPro:IPR030503 Nuclear factor NF-kappa-B p105 subunit > GO:cytoplasm ; GO:0005737
+InterPro:IPR030505 Proto-oncogene c-Rel > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+InterPro:IPR030505 Proto-oncogene c-Rel > GO:positive regulation of transcription, DNA-templated ; GO:0045893
+InterPro:IPR030505 Proto-oncogene c-Rel > GO:nucleus ; GO:0005634
+InterPro:IPR030505 Proto-oncogene c-Rel > GO:cytoplasm ; GO:0005737
+InterPro:IPR030506 Myosin tail region-interacting protein Mti1 > GO:myosin I binding ; GO:0017024
+InterPro:IPR030506 Myosin tail region-interacting protein Mti1 > GO:actin cytoskeleton organization ; GO:0030036
+InterPro:IPR030509 Casein kinase I > GO:protein kinase activity ; GO:0004672
+InterPro:IPR030509 Casein kinase I > GO:DNA repair ; GO:0006281
+InterPro:IPR030512 SH3 and PX domain-containing protein 2B > GO:podosome assembly ; GO:0071800
+InterPro:IPR030515 Galactinol synthase > GO:inositol 3-alpha-galactosyltransferase activity ; GO:0047216
+InterPro:IPR030515 Galactinol synthase > GO:galactose metabolic process ; GO:0006012
+InterPro:IPR030517 IME2-dependent-signaling protein > GO:meiotic nuclear division ; GO:0007126
+InterPro:IPR030518 Glucose N-acetyltransferase 1 > GO:acetylglucosaminyltransferase activity ; GO:0008375
+InterPro:IPR030518 Glucose N-acetyltransferase 1 > GO:protein N-linked glycosylation ; GO:0006487
+InterPro:IPR030518 Glucose N-acetyltransferase 1 > GO:Golgi apparatus ; GO:0005794
+InterPro:IPR030519 UDP-glucuronate:xylan alpha-glucuronosyltransferase > GO:glucuronosyltransferase activity ; GO:0015020
+InterPro:IPR030519 UDP-glucuronate:xylan alpha-glucuronosyltransferase > GO:xylan biosynthetic process ; GO:0045492
+InterPro:IPR030519 UDP-glucuronate:xylan alpha-glucuronosyltransferase > GO:Golgi apparatus ; GO:0005794
+InterPro:IPR030520 SH2B adapter protein 2 > GO:signaling adaptor activity ; GO:0035591
+InterPro:IPR030520 SH2B adapter protein 2 > GO:signal transduction ; GO:0007165
+InterPro:IPR030521 SH2B adapter protein 1 > GO:signaling adaptor activity ; GO:0035591
+InterPro:IPR030521 SH2B adapter protein 1 > GO:signal transduction ; GO:0007165
+InterPro:IPR030522 SH2B adapter protein 3 > GO:signaling adaptor activity ; GO:0035591
+InterPro:IPR030522 SH2B adapter protein 3 > GO:signal transduction ; GO:0007165
+InterPro:IPR030523 SH2B adapter protein > GO:signaling adaptor activity ; GO:0035591
+InterPro:IPR030523 SH2B adapter protein > GO:signal transduction ; GO:0007165
+InterPro:IPR030524 Disks large-associated protein 1 > GO:synaptic transmission ; GO:0007268
+InterPro:IPR030529 Amyloid beta A4 precursor protein-binding family A member 2 > GO:beta-amyloid binding ; GO:0001540
+InterPro:IPR030529 Amyloid beta A4 precursor protein-binding family A member 2 > GO:synaptic transmission ; GO:0007268

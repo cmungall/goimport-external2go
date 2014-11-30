@@ -1,4 +1,4 @@
-!version date: 2014/11/22 17:22:49
+!version date: 2014/11/29 17:19:28
 !description: Mapping of GO terms to PROSITE entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://www.expasy.org/prosite/
 !citation: Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -313,7 +313,6 @@ PROSITE:MF_00123 Arg_tRNA_synth > GO:ATP binding ; GO:0005524
 PROSITE:MF_00123 Arg_tRNA_synth > GO:arginyl-tRNA aminoacylation ; GO:0006420
 PROSITE:MF_00124 Thymidine_kinase > GO:thymidine kinase activity ; GO:0004797
 PROSITE:MF_00124 Thymidine_kinase > GO:ATP binding ; GO:0005524
-PROSITE:MF_00124 Thymidine_kinase > GO:DNA metabolic process ; GO:0006259
 PROSITE:MF_00125 HisZ > GO:histidine biosynthetic process ; GO:0000105
 PROSITE:MF_00125 HisZ > GO:cytoplasm ; GO:0005737
 PROSITE:MF_00126 Gln_tRNA_synth > GO:glutamine-tRNA ligase activity ; GO:0004819
@@ -4163,7 +4162,7 @@ PROSITE:PS00105 AA_TRANSFER_CLASS_1 > GO:catalytic activity ; GO:0003824
 PROSITE:PS00105 AA_TRANSFER_CLASS_1 > GO:pyridoxal phosphate binding ; GO:0030170
 PROSITE:PS00105 AA_TRANSFER_CLASS_1 > GO:biosynthetic process ; GO:0009058
 PROSITE:PS00107 PROTEIN_KINASE_ATP > GO:ATP binding ; GO:0005524
-PROSITE:PS00108 PROTEIN_KINASE_ST > GO:protein serine/threonine kinase activity ; GO:0004674
+PROSITE:PS00108 PROTEIN_KINASE_ST > GO:protein kinase activity ; GO:0004672
 PROSITE:PS00108 PROTEIN_KINASE_ST > GO:protein phosphorylation ; GO:0006468
 PROSITE:PS00109 PROTEIN_KINASE_TYR > GO:protein kinase activity ; GO:0004672
 PROSITE:PS00109 PROTEIN_KINASE_TYR > GO:protein phosphorylation ; GO:0006468
@@ -4380,9 +4379,6 @@ PROSITE:PS00252 INTERFERON_A_B_D > GO:cytokine receptor binding ; GO:0005126
 PROSITE:PS00252 INTERFERON_A_B_D > GO:defense response ; GO:0006952
 PROSITE:PS00252 INTERFERON_A_B_D > GO:extracellular region ; GO:0005576
 PROSITE:PS00253 INTERLEUKIN_1 > GO:extracellular space ; GO:0005615
-PROSITE:PS00254 INTERLEUKIN_6 > GO:cytokine activity ; GO:0005125
-PROSITE:PS00254 INTERLEUKIN_6 > GO:immune response ; GO:0006955
-PROSITE:PS00254 INTERLEUKIN_6 > GO:extracellular region ; GO:0005576
 PROSITE:PS00255 INTERLEUKIN_7_9 > GO:cytokine receptor binding ; GO:0005126
 PROSITE:PS00255 INTERLEUKIN_7_9 > GO:growth factor activity ; GO:0008083
 PROSITE:PS00255 INTERLEUKIN_7_9 > GO:immune response ; GO:0006955
@@ -4396,8 +4392,6 @@ PROSITE:PS00260 GLUCAGON > GO:hormone activity ; GO:0005179
 PROSITE:PS00260 GLUCAGON > GO:extracellular region ; GO:0005576
 PROSITE:PS00261 GLYCO_HORMONE_BETA_1 > GO:hormone activity ; GO:0005179
 PROSITE:PS00261 GLYCO_HORMONE_BETA_1 > GO:extracellular region ; GO:0005576
-PROSITE:PS00263 NATRIURETIC_PEPTIDE > GO:hormone activity ; GO:0005179
-PROSITE:PS00263 NATRIURETIC_PEPTIDE > GO:extracellular region ; GO:0005576
 PROSITE:PS00264 NEUROHYPOPHYS_HORM > GO:neurohypophyseal hormone activity ; GO:0005185
 PROSITE:PS00264 NEUROHYPOPHYS_HORM > GO:extracellular region ; GO:0005576
 PROSITE:PS00266 SOMATOTROPIN_1 > GO:hormone activity ; GO:0005179
@@ -4428,7 +4422,6 @@ PROSITE:PS00283 SOYBEAN_KUNITZ > GO:endopeptidase inhibitor activity ; GO:000486
 PROSITE:PS00285 POTATO_INHIBITOR > GO:serine-type endopeptidase inhibitor activity ; GO:0004867
 PROSITE:PS00285 POTATO_INHIBITOR > GO:response to wounding ; GO:0009611
 PROSITE:PS00286 SQUASH_INHIBITOR > GO:serine-type endopeptidase inhibitor activity ; GO:0004867
-PROSITE:PS00288 TIMP > GO:metalloendopeptidase inhibitor activity ; GO:0008191
 PROSITE:PS00291 PRION_1 > GO:protein homooligomerization ; GO:0051260
 PROSITE:PS00291 PRION_1 > GO:membrane ; GO:0016020
 PROSITE:PS00296 CHAPERONINS_CPN60 > GO:ATP binding ; GO:0005524
@@ -4458,8 +4451,6 @@ PROSITE:PS00312 GLYCOPHORIN_A > GO:integral component of membrane ; GO:0016021
 PROSITE:PS00313 SVP_I > GO:copulation ; GO:0007620
 PROSITE:PS00313 SVP_I > GO:extracellular region ; GO:0005576
 PROSITE:PS00314 ICE_NUCLEATION > GO:cell outer membrane ; GO:0009279
-PROSITE:PS00315 DEHYDRIN_1 > GO:response to stress ; GO:0006950
-PROSITE:PS00315 DEHYDRIN_1 > GO:response to water ; GO:0009415
 PROSITE:PS00318 HMG_COA_REDUCTASE_2 > GO:hydroxymethylglutaryl-CoA reductase (NADPH) activity ; GO:0004420
 PROSITE:PS00318 HMG_COA_REDUCTASE_2 > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS00321 RECA_1 > GO:DNA binding ; GO:0003677
@@ -4510,8 +4501,6 @@ PROSITE:PS00348 P53 > GO:apoptotic process ; GO:0006915
 PROSITE:PS00348 P53 > GO:nucleus ; GO:0005634
 PROSITE:PS00350 MADS_BOX_1 > GO:DNA binding ; GO:0003677
 PROSITE:PS00350 MADS_BOX_1 > GO:protein dimerization activity ; GO:0046983
-PROSITE:PS00351 TFIID > GO:DNA binding ; GO:0003677
-PROSITE:PS00351 TFIID > GO:DNA-templated transcription, initiation ; GO:0006352
 PROSITE:PS00353 HMG_BOX_1 > GO:DNA binding ; GO:0003677
 PROSITE:PS00353 HMG_BOX_1 > GO:nucleus ; GO:0005634
 PROSITE:PS00354 HMGI_Y > GO:regulation of transcription, DNA-templated ; GO:0006355
@@ -4557,8 +4546,6 @@ PROSITE:PS00367 BH4_AAA_HYDROXYL_1 > GO:monooxygenase activity ; GO:0004497
 PROSITE:PS00367 BH4_AAA_HYDROXYL_1 > GO:iron ion binding ; GO:0005506
 PROSITE:PS00367 BH4_AAA_HYDROXYL_1 > GO:aromatic amino acid family metabolic process ; GO:0009072
 PROSITE:PS00367 BH4_AAA_HYDROXYL_1 > GO:oxidation-reduction process ; GO:0055114
-PROSITE:PS00368 RIBORED_SMALL > GO:deoxyribonucleoside diphosphate metabolic process ; GO:0009186
-PROSITE:PS00368 RIBORED_SMALL > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS00370 PEP_ENZYMES_PHOS_SITE > GO:transferase activity, transferring phosphorus-containing groups ; GO:0016772
 PROSITE:PS00370 PEP_ENZYMES_PHOS_SITE > GO:phosphorylation ; GO:0016310
 PROSITE:PS00371 PTS_EIIA_TYPE_1_HIS > GO:phosphoenolpyruvate-dependent sugar phosphotransferase system ; GO:0009401
@@ -4642,10 +4629,6 @@ PROSITE:PS00418 POTEX_CARLAVIRUS_COAT > GO:viral capsid ; GO:0019028
 PROSITE:PS00420 SRCR_1 > GO:scavenger receptor activity ; GO:0005044
 PROSITE:PS00420 SRCR_1 > GO:membrane ; GO:0016020
 PROSITE:PS00421 TM4_1 > GO:integral component of membrane ; GO:0016021
-PROSITE:PS00424 INTERLEUKIN_2 > GO:interleukin-2 receptor binding ; GO:0005134
-PROSITE:PS00424 INTERLEUKIN_2 > GO:growth factor activity ; GO:0008083
-PROSITE:PS00424 INTERLEUKIN_2 > GO:immune response ; GO:0006955
-PROSITE:PS00424 INTERLEUKIN_2 > GO:extracellular region ; GO:0005576
 PROSITE:PS00426 CEREAL_TRYP_AMYL_INH > GO:serine-type endopeptidase inhibitor activity ; GO:0004867
 PROSITE:PS00428 FTSW_RODA_SPOVE > GO:cell cycle ; GO:0007049
 PROSITE:PS00428 FTSW_RODA_SPOVE > GO:integral component of membrane ; GO:0016021
@@ -4886,7 +4869,6 @@ PROSITE:PS00562 CBM1_1 > GO:hydrolase activity, hydrolyzing O-glycosyl compounds
 PROSITE:PS00562 CBM1_1 > GO:cellulose binding ; GO:0030248
 PROSITE:PS00562 CBM1_1 > GO:carbohydrate metabolic process ; GO:0005975
 PROSITE:PS00562 CBM1_1 > GO:extracellular region ; GO:0005576
-PROSITE:PS00563 STATHMIN_1 > GO:regulation of microtubule polymerization or depolymerization ; GO:0031110
 PROSITE:PS00564 ARGININOSUCCIN_SYN_1 > GO:argininosuccinate synthase activity ; GO:0004055
 PROSITE:PS00564 ARGININOSUCCIN_SYN_1 > GO:ATP binding ; GO:0005524
 PROSITE:PS00564 ARGININOSUCCIN_SYN_1 > GO:arginine biosynthetic process ; GO:0006526
@@ -4987,8 +4969,6 @@ PROSITE:PS00618 RECF_2 > GO:ATP binding ; GO:0005524
 PROSITE:PS00618 RECF_2 > GO:DNA repair ; GO:0006281
 PROSITE:PS00619 PTN_MK_1 > GO:growth factor activity ; GO:0008083
 PROSITE:PS00620 PTN_MK_2 > GO:growth factor activity ; GO:0008083
-PROSITE:PS00621 TISSUE_FACTOR > GO:blood coagulation ; GO:0007596
-PROSITE:PS00621 TISSUE_FACTOR > GO:integral component of membrane ; GO:0016021
 PROSITE:PS00622 HTH_LUXR_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS00622 HTH_LUXR_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00623 GMC_OXRED_1 > GO:oxidoreductase activity, acting on CH-OH group of donors ; GO:0016614
@@ -5360,8 +5340,6 @@ PROSITE:PS00821 CYTO_HEME_LYASE_1 > GO:holocytochrome-c synthase activity ; GO:0
 PROSITE:PS00821 CYTO_HEME_LYASE_1 > GO:mitochondrion ; GO:0005739
 PROSITE:PS00822 CYTO_HEME_LYASE_2 > GO:holocytochrome-c synthase activity ; GO:0004408
 PROSITE:PS00822 CYTO_HEME_LYASE_2 > GO:mitochondrion ; GO:0005739
-PROSITE:PS00823 DEHYDRIN_2 > GO:response to stress ; GO:0006950
-PROSITE:PS00823 DEHYDRIN_2 > GO:response to water ; GO:0009415
 PROSITE:PS00824 EF1BD_1 > GO:translation elongation factor activity ; GO:0003746
 PROSITE:PS00824 EF1BD_1 > GO:translational elongation ; GO:0006414
 PROSITE:PS00824 EF1BD_1 > GO:eukaryotic translation elongation factor 1 complex ; GO:0005853
@@ -5611,7 +5589,6 @@ PROSITE:PS00962 RIBOSOMAL_S2_1 > GO:ribosome ; GO:0005840
 PROSITE:PS00963 RIBOSOMAL_S2_2 > GO:structural constituent of ribosome ; GO:0003735
 PROSITE:PS00963 RIBOSOMAL_S2_2 > GO:translation ; GO:0006412
 PROSITE:PS00963 RIBOSOMAL_S2_2 > GO:ribosome ; GO:0005840
-PROSITE:PS00964 SYNDECAN > GO:membrane ; GO:0016020
 PROSITE:PS00965 PMI_I_1 > GO:mannose-6-phosphate isomerase activity ; GO:0004476
 PROSITE:PS00966 PMI_I_2 > GO:mannose-6-phosphate isomerase activity ; GO:0004476
 PROSITE:PS00968 ANTENNA_COMP_ALPHA > GO:electron transporter, transferring electrons within the cyclic electron transport pathway of photosynthesis activity ; GO:0045156
@@ -5742,7 +5719,6 @@ PROSITE:PS01037 SBP_BACTERIAL_1 > GO:transporter activity ; GO:0005215
 PROSITE:PS01037 SBP_BACTERIAL_1 > GO:transport ; GO:0006810
 PROSITE:PS01039 SBP_BACTERIAL_3 > GO:transporter activity ; GO:0005215
 PROSITE:PS01039 SBP_BACTERIAL_3 > GO:transport ; GO:0006810
-PROSITE:PS01041 STATHMIN_2 > GO:regulation of microtubule polymerization or depolymerization ; GO:0031110
 PROSITE:PS01042 HOMOSER_DHGENASE > GO:cellular amino acid metabolic process ; GO:0006520
 PROSITE:PS01042 HOMOSER_DHGENASE > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS01043 TRANSPOSASE_IS30 > GO:DNA binding ; GO:0003677
@@ -6040,9 +6016,6 @@ PROSITE:PS01194 RIBOSOMAL_L15E > GO:intracellular ; GO:0005622
 PROSITE:PS01194 RIBOSOMAL_L15E > GO:ribosome ; GO:0005840
 PROSITE:PS01195 PEPT_TRNA_HYDROL_1 > GO:aminoacyl-tRNA hydrolase activity ; GO:0004045
 PROSITE:PS01196 PEPT_TRNA_HYDROL_2 > GO:aminoacyl-tRNA hydrolase activity ; GO:0004045
-PROSITE:PS01204 REL_1 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
-PROSITE:PS01204 REL_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
-PROSITE:PS01204 REL_1 > GO:nucleus ; GO:0005634
 PROSITE:PS01205 T4_DEIODINASE > GO:thyroxine 5'-deiodinase activity ; GO:0004800
 PROSITE:PS01205 T4_DEIODINASE > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS01206 ASC > GO:sodium channel activity ; GO:0005272
@@ -6066,6 +6039,8 @@ PROSITE:PS01216 SUCCINYL_COA_LIG_1 > GO:metabolic process ; GO:0008152
 PROSITE:PS01219 AMMONIUM_TRANSP > GO:ammonium transmembrane transporter activity ; GO:0008519
 PROSITE:PS01219 AMMONIUM_TRANSP > GO:ammonium transmembrane transport ; GO:0072488
 PROSITE:PS01219 AMMONIUM_TRANSP > GO:membrane ; GO:0016020
+PROSITE:PS01221 PMP22_1 > GO:integral component of membrane ; GO:0016021
+PROSITE:PS01222 PMP22_2 > GO:integral component of membrane ; GO:0016021
 PROSITE:PS01223 PROA > GO:glutamate-5-semialdehyde dehydrogenase activity ; GO:0004350
 PROSITE:PS01223 PROA > GO:proline biosynthetic process ; GO:0006561
 PROSITE:PS01223 PROA > GO:oxidation-reduction process ; GO:0055114
@@ -6596,7 +6571,7 @@ PROSITE:PS50817 INTEIN_N_TER > GO:intein-mediated protein splicing ; GO:0016539
 PROSITE:PS50818 INTEIN_C_TER > GO:intein-mediated protein splicing ; GO:0016539
 PROSITE:PS50819 INTEIN_ENDONUCLEASE > GO:endonuclease activity ; GO:0004519
 PROSITE:PS50821 PAZ > GO:protein binding ; GO:0005515
-PROSITE:PS50822 PIWI > GO:protein binding ; GO:0005515
+PROSITE:PS50822 PIWI > GO:nucleic acid binding ; GO:0003676
 PROSITE:PS50823 KH_TYPE_2 > GO:RNA binding ; GO:0003723
 PROSITE:PS50829 GYF > GO:protein binding ; GO:0005515
 PROSITE:PS50832 S1_IF1_TYPE > GO:RNA binding ; GO:0003723

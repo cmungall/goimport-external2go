@@ -1,4 +1,4 @@
-!version date: 2014/12/06 17:35:49
+!version date: 2014/12/13 18:13:18
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -198,7 +198,6 @@ Pfam:PF00133 tRNA-synt_1 > GO:ATP binding ; GO:0005524
 Pfam:PF00133 tRNA-synt_1 > GO:tRNA aminoacylation for protein translation ; GO:0006418
 Pfam:PF00136 DNA_pol_B > GO:nucleotide binding ; GO:0000166
 Pfam:PF00136 DNA_pol_B > GO:DNA binding ; GO:0003677
-Pfam:PF00136 DNA_pol_B > GO:DNA-directed DNA polymerase activity ; GO:0003887
 Pfam:PF00137 ATP-synt_C > GO:hydrogen ion transmembrane transporter activity ; GO:0015078
 Pfam:PF00137 ATP-synt_C > GO:ATP hydrolysis coupled proton transport ; GO:0015991
 Pfam:PF00137 ATP-synt_C > GO:proton-transporting two-sector ATPase complex, proton-transporting domain ; GO:0033177
@@ -1118,7 +1117,6 @@ Pfam:PF00654 Voltage_CLC > GO:membrane ; GO:0016020
 Pfam:PF00656 Peptidase_C14 > GO:cysteine-type endopeptidase activity ; GO:0004197
 Pfam:PF00656 Peptidase_C14 > GO:proteolysis ; GO:0006508
 Pfam:PF00657 Lipase_GDSL > GO:hydrolase activity, acting on ester bonds ; GO:0016788
-Pfam:PF00657 Lipase_GDSL > GO:lipid metabolic process ; GO:0006629
 Pfam:PF00658 PABP > GO:RNA binding ; GO:0003723
 Pfam:PF00659 POLO_box > GO:protein binding ; GO:0005515
 Pfam:PF00660 SRP1_TIP1 > GO:response to stress ; GO:0006950
@@ -1925,7 +1923,7 @@ Pfam:PF01126 Heme_oxygenase > GO:heme oxygenase (decyclizing) activity ; GO:0004
 Pfam:PF01126 Heme_oxygenase > GO:heme oxidation ; GO:0006788
 Pfam:PF01126 Heme_oxygenase > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF01127 Sdh_cyt > GO:oxidoreductase activity, acting on the CH-CH group of donors ; GO:0016627
-Pfam:PF01128 IspD > GO:catalytic activity ; GO:0003824
+Pfam:PF01128 IspD > GO:2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase activity ; GO:0050518
 Pfam:PF01128 IspD > GO:isoprenoid biosynthetic process ; GO:0008299
 Pfam:PF01129 ART > GO:NAD(P)+-protein-arginine ADP-ribosyltransferase activity ; GO:0003956
 Pfam:PF01129 ART > GO:protein ADP-ribosylation ; GO:0006471
@@ -2151,6 +2149,7 @@ Pfam:PF01254 TP2 > GO:spermatogenesis ; GO:0007283
 Pfam:PF01254 TP2 > GO:nucleosome ; GO:0000786
 Pfam:PF01254 TP2 > GO:nucleus ; GO:0005634
 Pfam:PF01255 Prenyltransf > GO:transferase activity, transferring alkyl or aryl (other than methyl) groups ; GO:0016765
+Pfam:PF01256 Carb_kinase > GO:ADP-dependent NAD(P)H-hydrate dehydratase activity ; GO:0052855
 Pfam:PF01258 zf-dskA_traR > GO:zinc ion binding ; GO:0008270
 Pfam:PF01263 Aldose_epim > GO:isomerase activity ; GO:0016853
 Pfam:PF01263 Aldose_epim > GO:carbohydrate metabolic process ; GO:0005975
@@ -4613,7 +4612,7 @@ Pfam:PF03100 CcmE > GO:protein-heme linkage ; GO:0017003
 Pfam:PF03100 CcmE > GO:cytochrome complex assembly ; GO:0017004
 Pfam:PF03100 CcmE > GO:plasma membrane ; GO:0005886
 Pfam:PF03102 NeuB > GO:carbohydrate biosynthetic process ; GO:0016051
-Pfam:PF03104 DNA_pol_B_exo1 > GO:DNA-directed DNA polymerase activity ; GO:0003887
+Pfam:PF03104 DNA_pol_B_exo1 > GO:3'-5' exonuclease activity ; GO:0008408
 Pfam:PF03106 WRKY > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 Pfam:PF03106 WRKY > GO:sequence-specific DNA binding ; GO:0043565
 Pfam:PF03106 WRKY > GO:regulation of transcription, DNA-templated ; GO:0006355
@@ -7321,7 +7320,6 @@ Pfam:PF06298 PsbY > GO:integral component of membrane ; GO:0016021
 Pfam:PF06303 MatP > GO:sequence-specific DNA binding ; GO:0043565
 Pfam:PF06308 ErmC > GO:response to antibiotic ; GO:0046677
 Pfam:PF06309 Torsin > GO:ATP binding ; GO:0005524
-Pfam:PF06309 Torsin > GO:chaperone mediated protein folding requiring cofactor ; GO:0051085
 Pfam:PF06314 ADC > GO:carboxy-lyase activity ; GO:0016831
 Pfam:PF06315 AceK > GO:[isocitrate dehydrogenase (NADP+)] kinase activity ; GO:0008772
 Pfam:PF06315 AceK > GO:phosphatase activity ; GO:0016791
@@ -7614,8 +7612,6 @@ Pfam:PF06584 DIRP > GO:transcriptional repressor complex ; GO:0017053
 Pfam:PF06596 PsbX > GO:photosynthesis ; GO:0015979
 Pfam:PF06596 PsbX > GO:photosystem II ; GO:0009523
 Pfam:PF06596 PsbX > GO:membrane ; GO:0016020
-Pfam:PF06602 Myotub-related > GO:phosphatase activity ; GO:0016791
-Pfam:PF06602 Myotub-related > GO:dephosphorylation ; GO:0016311
 Pfam:PF06608 DUF1143 > GO:nucleus ; GO:0005634
 Pfam:PF06610 DUF1144 > GO:L-amino acid efflux transmembrane transporter activity ; GO:0034639
 Pfam:PF06610 DUF1144 > GO:integral component of membrane ; GO:0016021

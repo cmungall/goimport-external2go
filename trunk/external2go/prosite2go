@@ -1,4 +1,4 @@
-!version date: 2015/01/03 17:10:10
+!version date: 2015/01/10 17:40:42
 !description: Mapping of GO terms to PROSITE entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://www.expasy.org/prosite/
 !citation: Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -405,7 +405,7 @@ PROSITE:MF_00162 GSH_S > GO:cytosol ; GO:0005829
 PROSITE:MF_00163 Pep_deformylase > GO:iron ion binding ; GO:0005506
 PROSITE:MF_00163 Pep_deformylase > GO:peptide deformylase activity ; GO:0042586
 PROSITE:MF_00164 GlmS > GO:glutamine-fructose-6-phosphate transaminase (isomerizing) activity ; GO:0004360
-PROSITE:MF_00164 GlmS > GO:carbohydrate biosynthetic process ; GO:0016051
+PROSITE:MF_00164 GlmS > GO:carbohydrate derivative biosynthetic process ; GO:1901137
 PROSITE:MF_00165 Thymidylate_kinase > GO:thymidylate kinase activity ; GO:0004798
 PROSITE:MF_00165 Thymidylate_kinase > GO:ATP binding ; GO:0005524
 PROSITE:MF_00165 Thymidylate_kinase > GO:dTDP biosynthetic process ; GO:0006233
@@ -1079,7 +1079,6 @@ PROSITE:MF_00430 NqrF > GO:oxidoreductase activity, acting on NAD(P)H, quinone o
 PROSITE:MF_00430 NqrF > GO:2 iron, 2 sulfur cluster binding ; GO:0051537
 PROSITE:MF_00430 NqrF > GO:sodium ion transport ; GO:0006814
 PROSITE:MF_00430 NqrF > GO:oxidation-reduction process ; GO:0055114
-PROSITE:MF_00430 NqrF > GO:Gram-negative-bacterium-type cell wall ; GO:0009276
 PROSITE:MF_00430 NqrF > GO:integral component of membrane ; GO:0016021
 PROSITE:MF_00431 PSI_PsaI > GO:photosynthesis ; GO:0015979
 PROSITE:MF_00431 PSI_PsaI > GO:photosystem I ; GO:0009522
@@ -2860,8 +2859,6 @@ PROSITE:MF_01408 ThyX > GO:thymidylate synthase (FAD) activity ; GO:0050797
 PROSITE:MF_01408 ThyX > GO:dTMP biosynthetic process ; GO:0006231
 PROSITE:MF_01410 G6P_isomerase_arch > GO:glucose-6-phosphate isomerase activity ; GO:0004347
 PROSITE:MF_01410 G6P_isomerase_arch > GO:iron ion binding ; GO:0005506
-PROSITE:MF_01410 G6P_isomerase_arch > GO:glycolytic process ; GO:0006096
-PROSITE:MF_01410 G6P_isomerase_arch > GO:cytoplasm ; GO:0005737
 PROSITE:MF_01411 OstA > GO:response to organic substance ; GO:0010033
 PROSITE:MF_01411 OstA > GO:lipopolysaccharide transport ; GO:0015920
 PROSITE:MF_01411 OstA > GO:Gram-negative-bacterium-type cell outer membrane assembly ; GO:0043165
@@ -4258,9 +4255,6 @@ PROSITE:PS00166 ENOYL_COA_HYDRATASE > GO:metabolic process ; GO:0008152
 PROSITE:PS00167 TRP_SYNTHASE_ALPHA > GO:tryptophan synthase activity ; GO:0004834
 PROSITE:PS00168 TRP_SYNTHASE_BETA > GO:tryptophan synthase activity ; GO:0004834
 PROSITE:PS00168 TRP_SYNTHASE_BETA > GO:tryptophan metabolic process ; GO:0006568
-PROSITE:PS00169 D_ALA_DEHYDRATASE > GO:porphobilinogen synthase activity ; GO:0004655
-PROSITE:PS00169 D_ALA_DEHYDRATASE > GO:metal ion binding ; GO:0046872
-PROSITE:PS00169 D_ALA_DEHYDRATASE > GO:tetrapyrrole biosynthetic process ; GO:0033014
 PROSITE:PS00170 CSA_PPIASE_1 > GO:peptidyl-prolyl cis-trans isomerase activity ; GO:0003755
 PROSITE:PS00170 CSA_PPIASE_1 > GO:protein folding ; GO:0006457
 PROSITE:PS00171 TIM_1 > GO:triose-phosphate isomerase activity ; GO:0004807
@@ -5088,9 +5082,6 @@ PROSITE:PS00690 DEAH_ATP_HELICASE > GO:ATP binding ; GO:0005524
 PROSITE:PS00690 DEAH_ATP_HELICASE > GO:ATP-dependent helicase activity ; GO:0008026
 PROSITE:PS00691 DNA_PHOTOLYASES_1_2 > GO:DNA photolyase activity ; GO:0003913
 PROSITE:PS00691 DNA_PHOTOLYASES_1_2 > GO:DNA repair ; GO:0006281
-PROSITE:PS00692 NIFH_FRXC_2 > GO:ATP binding ; GO:0005524
-PROSITE:PS00692 NIFH_FRXC_2 > GO:oxidoreductase activity ; GO:0016491
-PROSITE:PS00692 NIFH_FRXC_2 > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS00694 ENT_VIR_OMP_1 > GO:cell outer membrane ; GO:0009279
 PROSITE:PS00695 ENT_VIR_OMP_2 > GO:cell outer membrane ; GO:0009279
 PROSITE:PS00697 DNA_LIGASE_A1 > GO:DNA ligase activity ; GO:0003909
@@ -5204,9 +5195,6 @@ PROSITE:PS00744 BETA_LACTAMASE_B_2 > GO:beta-lactamase activity ; GO:0008800
 PROSITE:PS00744 BETA_LACTAMASE_B_2 > GO:antibiotic catabolic process ; GO:0017001
 PROSITE:PS00745 RF_PROK_I > GO:translation release factor activity ; GO:0003747
 PROSITE:PS00745 RF_PROK_I > GO:translational termination ; GO:0006415
-PROSITE:PS00746 NIFH_FRXC_1 > GO:ATP binding ; GO:0005524
-PROSITE:PS00746 NIFH_FRXC_1 > GO:oxidoreductase activity ; GO:0016491
-PROSITE:PS00746 NIFH_FRXC_1 > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS00747 GLUTR > GO:glutamyl-tRNA reductase activity ; GO:0008883
 PROSITE:PS00747 GLUTR > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS00750 TCP1_1 > GO:ATP binding ; GO:0005524
@@ -5218,10 +5206,6 @@ PROSITE:PS00751 TCP1_2 > GO:protein folding ; GO:0006457
 PROSITE:PS00754 NA_NEUROTRAN_SYMP_2 > GO:neurotransmitter:sodium symporter activity ; GO:0005328
 PROSITE:PS00754 NA_NEUROTRAN_SYMP_2 > GO:neurotransmitter transport ; GO:0006836
 PROSITE:PS00754 NA_NEUROTRAN_SYMP_2 > GO:integral component of membrane ; GO:0016021
-PROSITE:PS00755 SECY_1 > GO:protein transport ; GO:0015031
-PROSITE:PS00755 SECY_1 > GO:membrane ; GO:0016020
-PROSITE:PS00756 SECY_2 > GO:protein transport ; GO:0015031
-PROSITE:PS00756 SECY_2 > GO:membrane ; GO:0016020
 PROSITE:PS00757 PROK_SULFATE_BIND_2 > GO:secondary active sulfate transmembrane transporter activity ; GO:0008271
 PROSITE:PS00757 PROK_SULFATE_BIND_2 > GO:sulfate transport ; GO:0008272
 PROSITE:PS00757 PROK_SULFATE_BIND_2 > GO:outer membrane-bounded periplasmic space ; GO:0030288

@@ -1,4 +1,4 @@
-!version date: 2015/01/10 17:40:41
+!version date: 2015/01/17 18:38:08
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -165,7 +165,6 @@ Pfam:PF00116 COX2 > GO:cytochrome-c oxidase activity ; GO:0004129
 Pfam:PF00116 COX2 > GO:copper ion binding ; GO:0005507
 Pfam:PF00116 COX2 > GO:membrane ; GO:0016020
 Pfam:PF00118 Cpn60_TCP1 > GO:ATP binding ; GO:0005524
-Pfam:PF00118 Cpn60_TCP1 > GO:cellular protein metabolic process ; GO:0044267
 Pfam:PF00119 ATP-synt_A > GO:hydrogen ion transmembrane transporter activity ; GO:0015078
 Pfam:PF00119 ATP-synt_A > GO:ATP synthesis coupled proton transport ; GO:0015986
 Pfam:PF00119 ATP-synt_A > GO:proton-transporting ATP synthase complex, coupling factor F(o) ; GO:0045263
@@ -1457,10 +1456,10 @@ Pfam:PF00862 Sucrose_synth > GO:sucrose metabolic process ; GO:0005985
 Pfam:PF00863 Peptidase_C4 > GO:cysteine-type peptidase activity ; GO:0008234
 Pfam:PF00863 Peptidase_C4 > GO:proteolysis ; GO:0006508
 Pfam:PF00864 P2X_receptor > GO:purinergic nucleotide receptor activity ; GO:0001614
-Pfam:PF00864 P2X_receptor > GO:ion channel activity ; GO:0005216
-Pfam:PF00864 P2X_receptor > GO:ATP binding ; GO:0005524
-Pfam:PF00864 P2X_receptor > GO:ion transport ; GO:0006811
-Pfam:PF00864 P2X_receptor > GO:membrane ; GO:0016020
+Pfam:PF00864 P2X_receptor > GO:extracellular ATP-gated cation channel activity ; GO:0004931
+Pfam:PF00864 P2X_receptor > GO:response to ATP ; GO:0033198
+Pfam:PF00864 P2X_receptor > GO:cation transmembrane transport ; GO:0098655
+Pfam:PF00864 P2X_receptor > GO:integral component of plasma membrane ; GO:0005887
 Pfam:PF00865 Osteopontin > GO:ossification ; GO:0001503
 Pfam:PF00865 Osteopontin > GO:cell adhesion ; GO:0007155
 Pfam:PF00866 Ring_hydroxyl_B > GO:catalytic activity ; GO:0003824
@@ -2776,7 +2775,6 @@ Pfam:PF01645 Glu_synthase > GO:glutamate biosynthetic process ; GO:0006537
 Pfam:PF01645 Glu_synthase > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF01648 ACPS > GO:magnesium ion binding ; GO:0000287
 Pfam:PF01648 ACPS > GO:holo-[acyl-carrier-protein] synthase activity ; GO:0008897
-Pfam:PF01648 ACPS > GO:macromolecule biosynthetic process ; GO:0009059
 Pfam:PF01649 Ribosomal_S20p > GO:RNA binding ; GO:0003723
 Pfam:PF01649 Ribosomal_S20p > GO:structural constituent of ribosome ; GO:0003735
 Pfam:PF01649 Ribosomal_S20p > GO:translation ; GO:0006412
@@ -3057,8 +3055,6 @@ Pfam:PF01858 RB_A > GO:regulation of cell cycle ; GO:0051726
 Pfam:PF01858 RB_A > GO:nucleus ; GO:0005634
 Pfam:PF01862 PvlArgDC > GO:arginine decarboxylase activity ; GO:0008792
 Pfam:PF01862 PvlArgDC > GO:arginine catabolic process ; GO:0006527
-Pfam:PF01866 Diphthamide_syn > GO:peptidyl-diphthamide biosynthetic process from peptidyl-histidine ; GO:0017183
-Pfam:PF01866 Diphthamide_syn > GO:cytoplasm ; GO:0005737
 Pfam:PF01868 UPF0086 > GO:RNA binding ; GO:0003723
 Pfam:PF01868 UPF0086 > GO:ribonuclease activity ; GO:0004540
 Pfam:PF01868 UPF0086 > GO:rRNA processing ; GO:0006364
@@ -5479,6 +5475,10 @@ Pfam:PF03999 MAP65_ASE1 > GO:cytokinesis ; GO:0000910
 Pfam:PF04005 Hus1 > GO:DNA damage checkpoint ; GO:0000077
 Pfam:PF04005 Hus1 > GO:DNA repair ; GO:0006281
 Pfam:PF04005 Hus1 > GO:checkpoint clamp complex ; GO:0030896
+Pfam:PF04006 Mpp10 > GO:rRNA processing ; GO:0006364
+Pfam:PF04006 Mpp10 > GO:nucleus ; GO:0005634
+Pfam:PF04006 Mpp10 > GO:small nucleolar ribonucleoprotein complex ; GO:0005732
+Pfam:PF04006 Mpp10 > GO:Mpp10 complex ; GO:0034457
 Pfam:PF04013 Methyltrn_RNA_2 > GO:tRNA methyltransferase activity ; GO:0008175
 Pfam:PF04023 FeoA > GO:transition metal ion binding ; GO:0046914
 Pfam:PF04026 SpoVG > GO:sporulation resulting in formation of a cellular spore ; GO:0030435
@@ -7338,8 +7338,8 @@ Pfam:PF06325 PrmA > GO:cytoplasm ; GO:0005737
 Pfam:PF06326 Vesiculo_matrix > GO:structural molecule activity ; GO:0005198
 Pfam:PF06326 Vesiculo_matrix > GO:viral envelope ; GO:0019031
 Pfam:PF06327 DUF1053 > GO:adenylate cyclase activity ; GO:0004016
-Pfam:PF06327 DUF1053 > GO:cyclic nucleotide biosynthetic process ; GO:0009190
-Pfam:PF06327 DUF1053 > GO:integral component of membrane ; GO:0016021
+Pfam:PF06327 DUF1053 > GO:cAMP biosynthetic process ; GO:0006171
+Pfam:PF06327 DUF1053 > GO:plasma membrane ; GO:0005886
 Pfam:PF06330 TRI5 > GO:trichodiene synthase activity ; GO:0045482
 Pfam:PF06330 TRI5 > GO:sesquiterpenoid biosynthetic process ; GO:0016106
 Pfam:PF06331 Tbf5 > GO:nucleotide-excision repair ; GO:0006289

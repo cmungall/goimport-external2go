@@ -1,4 +1,4 @@
-!version date: 2015/01/17 18:38:08
+!version date: 2015/01/24 18:04:07
 !description: Mapping of GO terms to PIRSF entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pir.georgetown.edu/pirsf/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -758,6 +758,7 @@ PIRSF:PIRSF000774 RpoN > GO:DNA-directed RNA polymerase activity ; GO:0003899
 PIRSF:PIRSF000774 RpoN > GO:sigma factor activity ; GO:0016987
 PIRSF:PIRSF000774 RpoN > GO:DNA-templated transcription, initiation ; GO:0006352
 PIRSF:PIRSF000774 RpoN > GO:regulation of transcription, DNA-templated ; GO:0006355
+PIRSF:PIRSF000777 RNA_polIII_C31 > GO:regulation of transcription from RNA polymerase III promoter ; GO:0006359
 PIRSF:PIRSF000778 RpoK/RPB6 > GO:DNA binding ; GO:0003677
 PIRSF:PIRSF000778 RpoK/RPB6 > GO:DNA-directed RNA polymerase activity ; GO:0003899
 PIRSF:PIRSF000778 RpoK/RPB6 > GO:transcription, DNA-templated ; GO:0006351
@@ -1428,6 +1429,7 @@ PIRSF:PIRSF002397 BRCA2 > GO:DNA repair ; GO:0006281
 PIRSF:PIRSF002401 GTP_bd_Obg/CgtA > GO:magnesium ion binding ; GO:0000287
 PIRSF:PIRSF002401 GTP_bd_Obg/CgtA > GO:GTPase activity ; GO:0003924
 PIRSF:PIRSF002401 GTP_bd_Obg/CgtA > GO:GTP binding ; GO:0005525
+PIRSF:PIRSF002417 Lipid_binding_protein > GO:lipid binding ; GO:0008289
 PIRSF:PIRSF002417 Lipid_binding_protein > GO:extracellular space ; GO:0005615
 PIRSF:PIRSF002419 Tetraspanin > GO:integral component of membrane ; GO:0016021
 PIRSF:PIRSF002431 Saposin > GO:sphingolipid metabolic process ; GO:0006665
@@ -1462,6 +1464,7 @@ PIRSF:PIRSF002527 ER-like_NR > GO:regulation of transcription, DNA-templated ; G
 PIRSF:PIRSF002527 ER-like_NR > GO:nucleus ; GO:0005634
 PIRSF:PIRSF002541 Seminal_plasma_PDC-109 > GO:sperm capacitation ; GO:0048240
 PIRSF:PIRSF002541 Seminal_plasma_PDC-109 > GO:extracellular space ; GO:0005615
+PIRSF:PIRSF002549 Transferrin > GO:extracellular space ; GO:0005615
 PIRSF:PIRSF002560 Bacterioferritin > GO:ferric iron binding ; GO:0008199
 PIRSF:PIRSF002560 Bacterioferritin > GO:iron ion transport ; GO:0006826
 PIRSF:PIRSF002560 Bacterioferritin > GO:cellular iron ion homeostasis ; GO:0006879
@@ -1488,6 +1491,8 @@ PIRSF:PIRSF002629 Transcription_factor_POU > GO:brain development ; GO:0007420
 PIRSF:PIRSF002629 Transcription_factor_POU > GO:nucleus ; GO:0005634
 PIRSF:PIRSF002724 Actobindin > GO:actin binding ; GO:0003779
 PIRSF:PIRSF002736 Citrt_lyas_gamma > GO:cytoplasm ; GO:0005737
+PIRSF:PIRSF002741 MppA > GO:transmembrane transport ; GO:0055085
+PIRSF:PIRSF002741 MppA > GO:ATP-binding cassette (ABC) transporter complex ; GO:0043190
 PIRSF:PIRSF002746 Gluconate_transporter > GO:gluconate transmembrane transporter activity ; GO:0015128
 PIRSF:PIRSF002746 Gluconate_transporter > GO:gluconate transmembrane transport ; GO:0035429
 PIRSF:PIRSF002746 Gluconate_transporter > GO:membrane ; GO:0016020
@@ -1965,7 +1970,7 @@ PIRSF:PIRSF005989 Ectatomin > GO:extracellular region ; GO:0005576
 PIRSF:PIRSF005992 Clathrin_mu > GO:intracellular protein transport ; GO:0006886
 PIRSF:PIRSF005992 Clathrin_mu > GO:vesicle-mediated transport ; GO:0016192
 PIRSF:PIRSF005992 Clathrin_mu > GO:clathrin adaptor complex ; GO:0030131
-PIRSF:PIRSF005993 Occludin > GO:structural molecule activity ; GO:0005198
+PIRSF:PIRSF005993 Occludin > GO:tight junction assembly ; GO:0070830
 PIRSF:PIRSF005993 Occludin > GO:tight junction ; GO:0005923
 PIRSF:PIRSF005993 Occludin > GO:integral component of membrane ; GO:0016021
 PIRSF:PIRSF006004 CHP00048 > GO:RNA methyltransferase activity ; GO:0008173
@@ -2047,6 +2052,8 @@ PIRSF:PIRSF006356 Arg_deiminase > GO:arginine catabolic process ; GO:0006527
 PIRSF:PIRSF006373 TF_E_archaea > GO:regulation of transcription, DNA-templated ; GO:0006355
 PIRSF:PIRSF006392 IPGAM_arch > GO:catalytic activity ; GO:0003824
 PIRSF:PIRSF006392 IPGAM_arch > GO:metal ion binding ; GO:0046872
+PIRSF:PIRSF006398 Sec61_beta_euk > GO:intracellular protein transport ; GO:0006886
+PIRSF:PIRSF006398 Sec61_beta_euk > GO:Sec61 translocon complex ; GO:0005784
 PIRSF:PIRSF006413 IF-6 > GO:ribosome binding ; GO:0043022
 PIRSF:PIRSF006413 IF-6 > GO:mature ribosome assembly ; GO:0042256
 PIRSF:PIRSF006414 Ftr_formyl_trnsf > GO:formylmethanofuran-tetrahydromethanopterin N-formyltransferase activity ; GO:0030270
@@ -2159,6 +2166,7 @@ PIRSF:PIRSF007747 Ribosyl_Ptfrase > GO:charged-tRNA amino acid modification ; GO
 PIRSF:PIRSF007802 Autophagy-rel_ATG10 > GO:transport ; GO:0006810
 PIRSF:PIRSF007802 Autophagy-rel_ATG10 > GO:autophagy ; GO:0006914
 PIRSF:PIRSF007802 Autophagy-rel_ATG10 > GO:cytoplasm ; GO:0005737
+PIRSF:PIRSF007807 Cdc123 > GO:cell cycle ; GO:0007049
 PIRSF:PIRSF007828 Dipeptidyl-peptidase_III > GO:dipeptidyl-peptidase activity ; GO:0008239
 PIRSF:PIRSF007828 Dipeptidyl-peptidase_III > GO:proteolysis ; GO:0006508
 PIRSF:PIRSF007828 Dipeptidyl-peptidase_III > GO:cytoplasm ; GO:0005737
@@ -2174,6 +2182,7 @@ PIRSF:PIRSF007945 SRB2 > GO:RNA polymerase II transcription cofactor activity ; 
 PIRSF:PIRSF007945 SRB2 > GO:regulation of transcription from RNA polymerase II promoter ; GO:0006357
 PIRSF:PIRSF007945 SRB2 > GO:mediator complex ; GO:0016592
 PIRSF:PIRSF007949 VPS16 > GO:intracellular protein transport ; GO:0006886
+PIRSF:PIRSF007949 VPS16 > GO:vacuole organization ; GO:0007033
 PIRSF:PIRSF007951 PIRSF007951 > GO:hemolysis by symbiont of host erythrocytes ; GO:0019836
 PIRSF:PIRSF007991 Strabismus > GO:multicellular organismal development ; GO:0007275
 PIRSF:PIRSF007991 Strabismus > GO:integral component of membrane ; GO:0016021
@@ -2191,6 +2200,7 @@ PIRSF:PIRSF009103 Ivy > GO:periplasmic space ; GO:0042597
 PIRSF:PIRSF009264 TagBP_ald_AgaZ > GO:galactitol metabolic process ; GO:0019402
 PIRSF:PIRSF009265 GTP_cyclohydro_3 > GO:GTP cyclohydrolase activity ; GO:0003933
 PIRSF:PIRSF009265 GTP_cyclohydro_3 > GO:biosynthetic process ; GO:0009058
+PIRSF:PIRSF009279 CRF_bd > GO:corticotropin-releasing hormone binding ; GO:0051424
 PIRSF:PIRSF009283 HPP_dOase > GO:4-hydroxyphenylpyruvate dioxygenase activity ; GO:0003868
 PIRSF:PIRSF009283 HPP_dOase > GO:oxidoreductase activity, acting on single donors with incorporation of molecular oxygen ; GO:0016701
 PIRSF:PIRSF009283 HPP_dOase > GO:aromatic amino acid family metabolic process ; GO:0009072
@@ -2252,9 +2262,6 @@ PIRSF:PIRSF009451 Citrt_lyas_alpha > GO:citrate CoA-transferase activity ; GO:00
 PIRSF:PIRSF009451 Citrt_lyas_alpha > GO:acetyl-CoA metabolic process ; GO:0006084
 PIRSF:PIRSF009451 Citrt_lyas_alpha > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF009451 Citrt_lyas_alpha > GO:citrate lyase complex ; GO:0009346
-PIRSF:PIRSF009452 MtrA_MtxA > GO:tetrahydromethanopterin S-methyltransferase activity ; GO:0030269
-PIRSF:PIRSF009452 MtrA_MtxA > GO:cobalt ion binding ; GO:0050897
-PIRSF:PIRSF009452 MtrA_MtxA > GO:sodium ion transport ; GO:0006814
 PIRSF:PIRSF009467 Ureas_acces_UreF > GO:nickel cation binding ; GO:0016151
 PIRSF:PIRSF009467 Ureas_acces_UreF > GO:nitrogen compound metabolic process ; GO:0006807
 PIRSF:PIRSF009533 FlbT > GO:mRNA 5'-UTR binding ; GO:0048027
@@ -2533,7 +2540,9 @@ PIRSF:PIRSF016325 Phstyr_phstse_ac > GO:phosphatase activator activity ; GO:0019
 PIRSF:PIRSF016379 ENT > GO:nucleoside transmembrane transporter activity ; GO:0005337
 PIRSF:PIRSF016379 ENT > GO:transport ; GO:0006810
 PIRSF:PIRSF016379 ENT > GO:integral component of membrane ; GO:0016021
+PIRSF:PIRSF016393 Enh_rudimentary > GO:pyrimidine nucleotide biosynthetic process ; GO:0006221
 PIRSF:PIRSF016393 Enh_rudimentary > GO:cell cycle ; GO:0007049
+PIRSF:PIRSF016393 Enh_rudimentary > GO:positive regulation of Notch signaling pathway ; GO:0045747
 PIRSF:PIRSF016394 U6_snRNA_Lsm2 > GO:mRNA processing ; GO:0006397
 PIRSF:PIRSF016396 Prefoldin_subunit_3 > GO:protein folding ; GO:0006457
 PIRSF:PIRSF016396 Prefoldin_subunit_3 > GO:prefoldin complex ; GO:0016272
@@ -2546,6 +2555,7 @@ PIRSF:PIRSF016429 UPTG > GO:intramolecular transferase activity ; GO:0016866
 PIRSF:PIRSF016429 UPTG > GO:cellulose biosynthetic process ; GO:0030244
 PIRSF:PIRSF016439 Uroplakin_II > GO:membrane organization ; GO:0061024
 PIRSF:PIRSF016439 Uroplakin_II > GO:integral component of endoplasmic reticulum membrane ; GO:0030176
+PIRSF:PIRSF016465 Kap_phosphatase > GO:phosphoprotein phosphatase activity ; GO:0004721
 PIRSF:PIRSF016477 Prefoldin_subunit_4 > GO:protein folding ; GO:0006457
 PIRSF:PIRSF016477 Prefoldin_subunit_4 > GO:prefoldin complex ; GO:0016272
 PIRSF:PIRSF016478 Coatomer_esu > GO:structural molecule activity ; GO:0005198
@@ -2650,7 +2660,7 @@ PIRSF:PIRSF017205 ERO1 > GO:protein disulfide isomerase activity ; GO:0003756
 PIRSF:PIRSF017205 ERO1 > GO:oxidoreductase activity, acting on a sulfur group of donors, disulfide as acceptor ; GO:0016671
 PIRSF:PIRSF017205 ERO1 > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF017205 ERO1 > GO:endoplasmic reticulum ; GO:0005783
-PIRSF:PIRSF017228 Sphnglp_dlt4_des > GO:oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen ; GO:0016705
+PIRSF:PIRSF017228 Sphnglp_dlt4_des > GO:sphingolipid delta-4 desaturase activity ; GO:0042284
 PIRSF:PIRSF017228 Sphnglp_dlt4_des > GO:sphingolipid biosynthetic process ; GO:0030148
 PIRSF:PIRSF017228 Sphnglp_dlt4_des > GO:integral component of membrane ; GO:0016021
 PIRSF:PIRSF017245 Phosphoketolase > GO:aldehyde-lyase activity ; GO:0016832
@@ -2780,6 +2790,7 @@ PIRSF:PIRSF019271 Acid_Ptase_C > GO:cell outer membrane ; GO:0009279
 PIRSF:PIRSF019325 Glucose-6-phosphate_isomerase > GO:glucose-6-phosphate isomerase activity ; GO:0004347
 PIRSF:PIRSF019325 Glucose-6-phosphate_isomerase > GO:iron ion binding ; GO:0005506
 PIRSF:PIRSF019345 ScpB > GO:chromosome separation ; GO:0051304
+PIRSF:PIRSF019364 RapGH_repressor > GO:regulation of transcription, DNA-templated ; GO:0006355
 PIRSF:PIRSF019401 SeqA > GO:DNA binding ; GO:0003677
 PIRSF:PIRSF019401 SeqA > GO:negative regulation of DNA-dependent DNA replication initiation ; GO:0032297
 PIRSF:PIRSF019404 FliJ > GO:motor activity ; GO:0003774
@@ -2832,6 +2843,8 @@ PIRSF:PIRSF021439 DUF972 > GO:DNA replication ; GO:0006260
 PIRSF:PIRSF021524 MSH_acetyltransferase > GO:transferase activity, transferring acyl groups other than amino-acyl groups ; GO:0016747
 PIRSF:PIRSF022145 Sulfocyanin > GO:copper ion binding ; GO:0005507
 PIRSF:PIRSF022145 Sulfocyanin > GO:oxidation-reduction process ; GO:0055114
+PIRSF:PIRSF022613 MBA1 > GO:ribosome binding ; GO:0043022
+PIRSF:PIRSF022613 MBA1 > GO:mitochondrial inner membrane ; GO:0005743
 PIRSF:PIRSF022632 UCP022632 > GO:COP9 signalosome ; GO:0008180
 PIRSF:PIRSF022699 MND2 > GO:regulation of mitotic metaphase/anaphase transition ; GO:0030071
 PIRSF:PIRSF022699 MND2 > GO:anaphase-promoting complex-dependent proteasomal ubiquitin-dependent protein catabolic process ; GO:0031145
@@ -2895,6 +2908,10 @@ PIRSF:PIRSF027109 Golgi_SNARE > GO:ER to Golgi vesicle-mediated transport ; GO:0
 PIRSF:PIRSF027109 Golgi_SNARE > GO:Golgi membrane ; GO:0000139
 PIRSF:PIRSF027109 Golgi_SNARE > GO:cis-Golgi network ; GO:0005801
 PIRSF:PIRSF027109 Golgi_SNARE > GO:integral component of membrane ; GO:0016021
+PIRSF:PIRSF027124 Histone_acetylase_Rtt109 > GO:H3 histone acetyltransferase activity ; GO:0010484
+PIRSF:PIRSF027124 Histone_acetylase_Rtt109 > GO:histone acetylation ; GO:0016573
+PIRSF:PIRSF027124 Histone_acetylase_Rtt109 > GO:regulation of transcription from RNA polymerase II promoter in response to stress ; GO:0043618
+PIRSF:PIRSF027124 Histone_acetylase_Rtt109 > GO:nucleus ; GO:0005634
 PIRSF:PIRSF027377 Nitrile_oxidored_QueF > GO:oxidoreductase activity, acting on other nitrogenous compounds as donors, with NAD or NADP as acceptor ; GO:0046857
 PIRSF:PIRSF027377 Nitrile_oxidored_QueF > GO:queuosine biosynthetic process ; GO:0008616
 PIRSF:PIRSF027377 Nitrile_oxidored_QueF > GO:oxidation-reduction process ; GO:0055114
@@ -2962,6 +2979,8 @@ PIRSF:PIRSF028973 Scavenger_mRNA_decap_enz > GO:deadenylation-dependent decappin
 PIRSF:PIRSF028980 tRNAHis_guanylyltransferase > GO:magnesium ion binding ; GO:0000287
 PIRSF:PIRSF028980 tRNAHis_guanylyltransferase > GO:tRNA guanylyltransferase activity ; GO:0008193
 PIRSF:PIRSF028980 tRNAHis_guanylyltransferase > GO:tRNA modification ; GO:0006400
+PIRSF:PIRSF028998 GINS_Psf2_subgr > GO:DNA replication ; GO:0006260
+PIRSF:PIRSF028998 GINS_Psf2_subgr > GO:nucleus ; GO:0005634
 PIRSF:PIRSF029038 Mtase_YbiN_prd > GO:rRNA (adenine-N6-)-methyltransferase activity ; GO:0008988
 PIRSF:PIRSF029038 Mtase_YbiN_prd > GO:rRNA processing ; GO:0006364
 PIRSF:PIRSF029038 Mtase_YbiN_prd > GO:cytoplasm ; GO:0005737
@@ -2981,6 +3000,9 @@ PIRSF:PIRSF029598 PsiE > GO:integral component of membrane ; GO:0016021
 PIRSF:PIRSF029745 FhaC > GO:protein transport ; GO:0015031
 PIRSF:PIRSF029764 RSM25 > GO:structural constituent of ribosome ; GO:0003735
 PIRSF:PIRSF029764 RSM25 > GO:mitochondrial small ribosomal subunit ; GO:0005763
+PIRSF:PIRSF029775 Isochor_pyr_lyas > GO:chorismate mutase activity ; GO:0004106
+PIRSF:PIRSF029775 Isochor_pyr_lyas > GO:carbon-oxygen lyase activity ; GO:0016835
+PIRSF:PIRSF029775 Isochor_pyr_lyas > GO:salicylic acid biosynthetic process ; GO:0009697
 PIRSF:PIRSF029792 Pro_racemase > GO:proline racemase activity ; GO:0018112
 PIRSF:PIRSF029827 Fe_traffic_YggX > GO:iron ion binding ; GO:0005506
 PIRSF:PIRSF029886 KBAA > GO:positive regulation of sporulation resulting in formation of a cellular spore ; GO:0045881
@@ -3029,6 +3051,8 @@ PIRSF:PIRSF036292 Prenylcysteine_oxidase > GO:prenylcysteine oxidase activity ; 
 PIRSF:PIRSF036312 Fibrillin > GO:extracellular matrix structural constituent ; GO:0005201
 PIRSF:PIRSF036312 Fibrillin > GO:calcium ion binding ; GO:0005509
 PIRSF:PIRSF036312 Fibrillin > GO:proteinaceous extracellular matrix ; GO:0005578
+PIRSF:PIRSF036313 Fibulin-1 > GO:peptidase activator activity ; GO:0016504
+PIRSF:PIRSF036313 Fibulin-1 > GO:extracellular matrix organization ; GO:0030198
 PIRSF:PIRSF036354 NosR > GO:DNA binding ; GO:0003677
 PIRSF:PIRSF036354 NosR > GO:positive regulation of transcription, DNA-templated ; GO:0045893
 PIRSF:PIRSF036354 NosR > GO:membrane ; GO:0016020
@@ -3040,7 +3064,7 @@ PIRSF:PIRSF036370 ST14 > GO:serine-type endopeptidase activity ; GO:0004252
 PIRSF:PIRSF036370 ST14 > GO:proteolysis ; GO:0006508
 PIRSF:PIRSF036370 ST14 > GO:membrane ; GO:0016020
 PIRSF:PIRSF036376 Corin > GO:serine-type endopeptidase activity ; GO:0004252
-PIRSF:PIRSF036376 Corin > GO:serine-type exopeptidase activity ; GO:0070008
+PIRSF:PIRSF036376 Corin > GO:peptide hormone processing ; GO:0016486
 PIRSF:PIRSF036388 Ctsl_amnpptdse_B > GO:aminopeptidase activity ; GO:0004177
 PIRSF:PIRSF036388 Ctsl_amnpptdse_B > GO:metalloexopeptidase activity ; GO:0008235
 PIRSF:PIRSF036388 Ctsl_amnpptdse_B > GO:manganese ion binding ; GO:0030145
@@ -3300,6 +3324,7 @@ PIRSF:PIRSF036960 Neuropilin > GO:semaphorin receptor activity ; GO:0017154
 PIRSF:PIRSF036960 Neuropilin > GO:angiogenesis ; GO:0001525
 PIRSF:PIRSF036960 Neuropilin > GO:axon guidance ; GO:0007411
 PIRSF:PIRSF036960 Neuropilin > GO:vascular endothelial growth factor signaling pathway ; GO:0038084
+PIRSF:PIRSF036961 Kremen > GO:Wnt signaling pathway ; GO:0016055
 PIRSF:PIRSF036979 Arginase > GO:metal ion binding ; GO:0046872
 PIRSF:PIRSF036989 Zeaxanthin_epoxidase > GO:zeaxanthin epoxidase [overall] activity ; GO:0009540
 PIRSF:PIRSF036989 Zeaxanthin_epoxidase > GO:abscisic acid biosynthetic process ; GO:0009688
@@ -3427,6 +3452,7 @@ PIRSF:PIRSF037338 Spastin > GO:microtubule-severing ATPase activity ; GO:0008568
 PIRSF:PIRSF037350 Mtase_ZK1128_prd > GO:methyltransferase activity ; GO:0008168
 PIRSF:PIRSF037354 Txn_actvtr_RtcR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PIRSF:PIRSF037354 Txn_actvtr_RtcR > GO:regulation of transcription, DNA-templated ; GO:0006355
+PIRSF:PIRSF037369 Ser/Thr_PK_unc51 > GO:protein kinase activity ; GO:0004672
 PIRSF:PIRSF037379 Ubiquitin-related_modifier_1 > GO:tRNA thio-modification ; GO:0034227
 PIRSF:PIRSF037379 Ubiquitin-related_modifier_1 > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF037392 AMHRII > GO:transmembrane receptor protein serine/threonine kinase activity ; GO:0004675
@@ -3515,8 +3541,9 @@ PIRSF:PIRSF037671 Transprt_Chloroquine_res > GO:drug transmembrane transport ; G
 PIRSF:PIRSF037707 MAS20_rcpt > GO:protein targeting ; GO:0006605
 PIRSF:PIRSF037707 MAS20_rcpt > GO:intracellular protein transport ; GO:0006886
 PIRSF:PIRSF037707 MAS20_rcpt > GO:mitochondrial outer membrane translocase complex ; GO:0005742
-PIRSF:PIRSF037708 rRNA_proc_FYV7 > GO:RNA processing ; GO:0006396
+PIRSF:PIRSF037708 rRNA_proc_FYV7 > GO:rRNA processing ; GO:0006364
 PIRSF:PIRSF037708 rRNA_proc_FYV7 > GO:nucleolus ; GO:0005730
+PIRSF:PIRSF037712 Tax1-binding_p3 > GO:Rho protein signal transduction ; GO:0007266
 PIRSF:PIRSF037712 Tax1-binding_p3 > GO:regulation of Wnt signaling pathway ; GO:0030111
 PIRSF:PIRSF037726 Interleukin-22 > GO:extracellular region ; GO:0005576
 PIRSF:PIRSF037730 CWA_LytH_prd > GO:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides ; GO:0016811
@@ -3596,13 +3623,14 @@ PIRSF:PIRSF037942 Core_histone_macro-H2A > GO:DNA binding ; GO:0003677
 PIRSF:PIRSF037942 Core_histone_macro-H2A > GO:nucleosome assembly ; GO:0006334
 PIRSF:PIRSF037942 Core_histone_macro-H2A > GO:nucleosome ; GO:0000786
 PIRSF:PIRSF037942 Core_histone_macro-H2A > GO:nucleus ; GO:0005634
+PIRSF:PIRSF037947 Protein_XRP2_ > GO:GTPase activator activity ; GO:0005096
 PIRSF:PIRSF037949 Transl_init_eIF-3_RNA-bind > GO:translation initiation factor activity ; GO:0003743
 PIRSF:PIRSF037949 Transl_init_eIF-3_RNA-bind > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF037949 Transl_init_eIF-3_RNA-bind > GO:eukaryotic translation initiation factor 3 complex ; GO:0005852
-PIRSF:PIRSF037950 E3_ubiquit_lig_RNF8 > GO:acid-amino acid ligase activity ; GO:0016881
+PIRSF:PIRSF037950 E3_ubiquit_lig_RNF8 > GO:ubiquitin-protein transferase activity ; GO:0004842
+PIRSF:PIRSF037950 E3_ubiquit_lig_RNF8 > GO:double-strand break repair ; GO:0006302
 PIRSF:PIRSF037950 E3_ubiquit_lig_RNF8 > GO:cellular response to DNA damage stimulus ; GO:0006974
 PIRSF:PIRSF037950 E3_ubiquit_lig_RNF8 > GO:protein ubiquitination ; GO:0016567
-PIRSF:PIRSF037950 E3_ubiquit_lig_RNF8 > GO:cell division ; GO:0051301
 PIRSF:PIRSF037950 E3_ubiquit_lig_RNF8 > GO:nucleus ; GO:0005634
 PIRSF:PIRSF037955 Snurportin-1 > GO:snRNA import into nucleus ; GO:0061015
 PIRSF:PIRSF037955 Snurportin-1 > GO:nucleus ; GO:0005634
@@ -3610,6 +3638,7 @@ PIRSF:PIRSF037955 Snurportin-1 > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF037969 U1_snRNP-C > GO:spliceosomal snRNP assembly ; GO:0000387
 PIRSF:PIRSF037969 U1_snRNP-C > GO:mRNA splicing, via spliceosome ; GO:0000398
 PIRSF:PIRSF037969 U1_snRNP-C > GO:U1 snRNP ; GO:0005685
+PIRSF:PIRSF037971 TLX_CD46 > GO:cell surface ; GO:0009986
 PIRSF:PIRSF037980 SoxA > GO:sarcosine oxidase activity ; GO:0008115
 PIRSF:PIRSF037980 SoxA > GO:tetrahydrofolate metabolic process ; GO:0046653
 PIRSF:PIRSF037993 STPK_Pim-1 > GO:protein serine/threonine kinase activity ; GO:0004674
@@ -3618,6 +3647,9 @@ PIRSF:PIRSF037993 STPK_Pim-1 > GO:negative regulation of apoptotic process ; GO:
 PIRSF:PIRSF037995 Cnoid_rcpt_1 > GO:cannabinoid receptor activity ; GO:0004949
 PIRSF:PIRSF037995 Cnoid_rcpt_1 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PIRSF:PIRSF037995 Cnoid_rcpt_1 > GO:integral component of membrane ; GO:0016021
+PIRSF:PIRSF038005 Methyl_CpG_bd_MBD4 > GO:DNA binding ; GO:0003677
+PIRSF:PIRSF038005 Methyl_CpG_bd_MBD4 > GO:pyrimidine-specific mismatch base pair DNA N-glycosylase activity ; GO:0008263
+PIRSF:PIRSF038005 Methyl_CpG_bd_MBD4 > GO:DNA repair ; GO:0006281
 PIRSF:PIRSF038006 Methyl_CpG_bd_MeCP2 > GO:double-stranded methylated DNA binding ; GO:0010385
 PIRSF:PIRSF038006 Methyl_CpG_bd_MeCP2 > GO:histone deacetylase binding ; GO:0042826
 PIRSF:PIRSF038006 Methyl_CpG_bd_MeCP2 > GO:negative regulation of transcription from RNA polymerase II promoter ; GO:0000122
@@ -3712,6 +3744,8 @@ PIRSF:PIRSF038141 PP1_12ABC_vert > GO:signal transduction ; GO:0007165
 PIRSF:PIRSF038142 Rhodopsin_bac_prd > GO:light-activated ion channel activity ; GO:0010461
 PIRSF:PIRSF038142 Rhodopsin_bac_prd > GO:ion transport ; GO:0006811
 PIRSF:PIRSF038142 Rhodopsin_bac_prd > GO:membrane ; GO:0016020
+PIRSF:PIRSF038143 Podocalyxin-like_p1 > GO:cell migration ; GO:0016477
+PIRSF:PIRSF038143 Podocalyxin-like_p1 > GO:regulation of cell-cell adhesion ; GO:0022407
 PIRSF:PIRSF038146 Ser/Thr_PK_RIO3 > GO:protein serine/threonine kinase activity ; GO:0004674
 PIRSF:PIRSF038146 Ser/Thr_PK_RIO3 > GO:ATP binding ; GO:0005524
 PIRSF:PIRSF038146 Ser/Thr_PK_RIO3 > GO:protein phosphorylation ; GO:0006468
@@ -3736,8 +3770,8 @@ PIRSF:PIRSF038165 MAPKKK12_MAPKKK13 > GO:protein autophosphorylation ; GO:004677
 PIRSF:PIRSF038168 MAPKKK7 > GO:magnesium ion binding ; GO:0000287
 PIRSF:PIRSF038168 MAPKKK7 > GO:MAP kinase kinase kinase activity ; GO:0004709
 PIRSF:PIRSF038168 MAPKKK7 > GO:signal transduction ; GO:0007165
-PIRSF:PIRSF038170 tRNA_m1A_mtfrase > GO:translational initiation ; GO:0006413
-PIRSF:PIRSF038170 tRNA_m1A_mtfrase > GO:regulation of translational initiation ; GO:0006446
+PIRSF:PIRSF038170 tRNA_m1A_mtfrase > GO:tRNA methylation ; GO:0030488
+PIRSF:PIRSF038170 tRNA_m1A_mtfrase > GO:tRNA (m1A) methyltransferase complex ; GO:0031515
 PIRSF:PIRSF038171 MAPKKK8 > GO:magnesium ion binding ; GO:0000287
 PIRSF:PIRSF038171 MAPKKK8 > GO:MAP kinase kinase kinase activity ; GO:0004709
 PIRSF:PIRSF038171 MAPKKK8 > GO:protein phosphorylation ; GO:0006468
@@ -3777,6 +3811,10 @@ PIRSF:PIRSF038800 KYNU > GO:kynureninase activity ; GO:0030429
 PIRSF:PIRSF038800 KYNU > GO:tryptophan catabolic process ; GO:0006569
 PIRSF:PIRSF038800 KYNU > GO:NAD biosynthetic process ; GO:0009435
 PIRSF:PIRSF038800 KYNU > GO:cytoplasm ; GO:0005737
+PIRSF:PIRSF038885 COB > GO:ubiquinol-cytochrome-c reductase activity ; GO:0008121
+PIRSF:PIRSF038885 COB > GO:electron carrier activity ; GO:0009055
+PIRSF:PIRSF038885 COB > GO:mitochondrial electron transport, ubiquinol to cytochrome c ; GO:0006122
+PIRSF:PIRSF038885 COB > GO:respiratory chain complex III ; GO:0045275
 PIRSF:PIRSF038886 Pellino > GO:Toll signaling pathway ; GO:0008063
 PIRSF:PIRSF038895 FPGS > GO:tetrahydrofolylpolyglutamate synthase activity ; GO:0004326
 PIRSF:PIRSF038895 FPGS > GO:ATP binding ; GO:0005524
@@ -3822,6 +3860,8 @@ PIRSF:PIRSF039012 ASP > GO:metabolic process ; GO:0008152
 PIRSF:PIRSF039050 Ade_cyc > GO:adenylate cyclase activity ; GO:0004016
 PIRSF:PIRSF039050 Ade_cyc > GO:cAMP biosynthetic process ; GO:0006171
 PIRSF:PIRSF039050 Ade_cyc > GO:plasma membrane ; GO:0005886
+PIRSF:PIRSF039085 ABC_ATPase_HisP > GO:amino acid-transporting ATPase activity ; GO:0015424
+PIRSF:PIRSF039085 ABC_ATPase_HisP > GO:amino acid transmembrane transport ; GO:0003333
 PIRSF:PIRSF039087 L10E > GO:ribosome biogenesis ; GO:0042254
 PIRSF:PIRSF039088 F_ATPase_subunit_alpha > GO:proton-transporting ATP synthase activity, rotational mechanism ; GO:0046933
 PIRSF:PIRSF039088 F_ATPase_subunit_alpha > GO:proton-transporting ATPase activity, rotational mechanism ; GO:0046961
@@ -3899,11 +3939,36 @@ PIRSF:PIRSF500175 Glu_ADT_D > GO:regulation of translational fidelity ; GO:00064
 PIRSF:PIRSF500204 RBP_purpurin > GO:transporter activity ; GO:0005215
 PIRSF:PIRSF500204 RBP_purpurin > GO:retinoid binding ; GO:0005501
 PIRSF:PIRSF500204 RBP_purpurin > GO:transport ; GO:0006810
+PIRSF:PIRSF500207 MtrA > GO:tetrahydromethanopterin S-methyltransferase activity ; GO:0030269
+PIRSF:PIRSF500207 MtrA > GO:cobalt ion binding ; GO:0050897
+PIRSF:PIRSF500207 MtrA > GO:sodium ion transport ; GO:0006814
 PIRSF:PIRSF500217 AlgI > GO:alginic acid biosynthetic process ; GO:0042121
+PIRSF:PIRSF500230 Sterol_acyltranf_ACAT > GO:cholesterol O-acyltransferase activity ; GO:0034736
+PIRSF:PIRSF500230 Sterol_acyltranf_ACAT > GO:cholesterol esterification ; GO:0034435
+PIRSF:PIRSF500230 Sterol_acyltranf_ACAT > GO:cholesterol homeostasis ; GO:0042632
+PIRSF:PIRSF500230 Sterol_acyltranf_ACAT > GO:membrane ; GO:0016020
 PIRSF:PIRSF500231 Oat_dag > GO:diacylglycerol O-acyltransferase activity ; GO:0004144
 PIRSF:PIRSF500231 Oat_dag > GO:triglyceride biosynthetic process ; GO:0019432
+PIRSF:PIRSF500625 Cytochrome_CYP7A1 > GO:cholesterol 7-alpha-monooxygenase activity ; GO:0008123
+PIRSF:PIRSF500625 Cytochrome_CYP7A1 > GO:bile acid biosynthetic process ; GO:0006699
+PIRSF:PIRSF500625 Cytochrome_CYP7A1 > GO:cholesterol catabolic process ; GO:0006707
+PIRSF:PIRSF500625 Cytochrome_CYP7A1 > GO:cholesterol homeostasis ; GO:0042632
+PIRSF:PIRSF500625 Cytochrome_CYP7A1 > GO:cellular response to glucose stimulus ; GO:0071333
+PIRSF:PIRSF500627 Cytochrome_CYP8B1 > GO:monooxygenase activity ; GO:0004497
+PIRSF:PIRSF500627 Cytochrome_CYP8B1 > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF500628 PTGIS > GO:prostaglandin-I synthase activity ; GO:0008116
 PIRSF:PIRSF500628 PTGIS > GO:prostaglandin biosynthetic process ; GO:0001516
+PIRSF:PIRSF500682 Serotransferrin > GO:ferric iron binding ; GO:0008199
+PIRSF:PIRSF500682 Serotransferrin > GO:ferric iron transmembrane transporter activity ; GO:0015091
+PIRSF:PIRSF500682 Serotransferrin > GO:iron ion transport ; GO:0006826
+PIRSF:PIRSF500682 Serotransferrin > GO:cellular iron ion homeostasis ; GO:0006879
+PIRSF:PIRSF500682 Serotransferrin > GO:extracellular space ; GO:0005615
+PIRSF:PIRSF500683 Lactotransferrin > GO:serine-type endopeptidase activity ; GO:0004252
+PIRSF:PIRSF500683 Lactotransferrin > GO:iron ion binding ; GO:0005506
+PIRSF:PIRSF500683 Lactotransferrin > GO:regulation of cytokine production ; GO:0001817
+PIRSF:PIRSF500683 Lactotransferrin > GO:antibacterial humoral response ; GO:0019731
+PIRSF:PIRSF500683 Lactotransferrin > GO:antifungal humoral response ; GO:0019732
+PIRSF:PIRSF500683 Lactotransferrin > GO:extracellular region ; GO:0005576
 PIRSF:PIRSF500720 TEF-5 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PIRSF:PIRSF500720 TEF-5 > GO:hippo signaling ; GO:0035329
 PIRSF:PIRSF500720 TEF-5 > GO:positive regulation of transcription from RNA polymerase II promoter ; GO:0045944
@@ -3935,6 +4000,7 @@ PIRSF:PIRSF500795 Thiamine_transporter_2 > GO:thiamine transport ; GO:0015888
 PIRSF:PIRSF500795 Thiamine_transporter_2 > GO:integral component of membrane ; GO:0016021
 PIRSF:PIRSF500808 PTPR_alpha > GO:protein tyrosine phosphatase activity ; GO:0004725
 PIRSF:PIRSF500808 PTPR_alpha > GO:protein dephosphorylation ; GO:0006470
+PIRSF:PIRSF500813 PP1_PTG > GO:protein phosphatase regulator activity ; GO:0019888
 PIRSF:PIRSF500824 TrpB_prok > GO:tryptophan synthase activity ; GO:0004834
 PIRSF:PIRSF500824 TrpB_prok > GO:pyridoxal phosphate binding ; GO:0030170
 PIRSF:PIRSF500824 TrpB_prok > GO:tryptophan biosynthetic process ; GO:0000162

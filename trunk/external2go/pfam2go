@@ -1,4 +1,4 @@
-!version date: 2015/01/17 18:38:08
+!version date: 2015/01/24 18:03:58
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1929,7 +1929,9 @@ Pfam:PF01131 Topoisom_bac > GO:DNA topoisomerase activity ; GO:0003916
 Pfam:PF01131 Topoisom_bac > GO:DNA topological change ; GO:0006265
 Pfam:PF01132 EFP > GO:translation elongation factor activity ; GO:0003746
 Pfam:PF01132 EFP > GO:translational elongation ; GO:0006414
+Pfam:PF01133 ER > GO:pyrimidine nucleotide biosynthetic process ; GO:0006221
 Pfam:PF01133 ER > GO:cell cycle ; GO:0007049
+Pfam:PF01133 ER > GO:positive regulation of Notch signaling pathway ; GO:0045747
 Pfam:PF01134 GIDA > GO:flavin adenine dinucleotide binding ; GO:0050660
 Pfam:PF01134 GIDA > GO:tRNA processing ; GO:0008033
 Pfam:PF01135 PCMT > GO:protein-L-isoaspartate (D-aspartate) O-methyltransferase activity ; GO:0004719
@@ -5655,8 +5657,8 @@ Pfam:PF04185 Phosphoesterase > GO:hydrolase activity, acting on ester bonds ; GO
 Pfam:PF04186 FxsA > GO:membrane ; GO:0016020
 Pfam:PF04188 Mannosyl_trans2 > GO:transferase activity, transferring hexosyl groups ; GO:0016758
 Pfam:PF04188 Mannosyl_trans2 > GO:GPI anchor biosynthetic process ; GO:0006506
-Pfam:PF04189 Gcd10p > GO:translation initiation factor activity ; GO:0003743
-Pfam:PF04189 Gcd10p > GO:translational initiation ; GO:0006413
+Pfam:PF04189 Gcd10p > GO:tRNA methylation ; GO:0030488
+Pfam:PF04189 Gcd10p > GO:tRNA (m1A) methyltransferase complex ; GO:0031515
 Pfam:PF04192 Utp21 > GO:rRNA processing ; GO:0006364
 Pfam:PF04192 Utp21 > GO:small-subunit processome ; GO:0032040
 Pfam:PF04194 PDCD2_C > GO:cytoplasm ; GO:0005737
@@ -5681,9 +5683,6 @@ Pfam:PF04207 MtrD > GO:tetrahydromethanopterin S-methyltransferase activity ; GO
 Pfam:PF04207 MtrD > GO:sodium ion transport ; GO:0006814
 Pfam:PF04207 MtrD > GO:cytoplasm ; GO:0005737
 Pfam:PF04207 MtrD > GO:vesicle membrane ; GO:0012506
-Pfam:PF04208 MtrA > GO:tetrahydromethanopterin S-methyltransferase activity ; GO:0030269
-Pfam:PF04208 MtrA > GO:cobalt ion binding ; GO:0050897
-Pfam:PF04208 MtrA > GO:sodium ion transport ; GO:0006814
 Pfam:PF04209 HgmA > GO:homogentisate 1,2-dioxygenase activity ; GO:0004411
 Pfam:PF04209 HgmA > GO:L-phenylalanine catabolic process ; GO:0006559
 Pfam:PF04209 HgmA > GO:tyrosine metabolic process ; GO:0006570
@@ -6157,8 +6156,8 @@ Pfam:PF04758 Ribosomal_S30 > GO:intracellular ; GO:0005622
 Pfam:PF04758 Ribosomal_S30 > GO:ribosome ; GO:0005840
 Pfam:PF04767 Pox_F17 > GO:DNA binding ; GO:0003677
 Pfam:PF04767 Pox_F17 > GO:viral protein processing ; GO:0019082
-Pfam:PF04769 MAT_Alpha1 > GO:mating pheromone activity ; GO:0000772
-Pfam:PF04769 MAT_Alpha1 > GO:DNA binding ; GO:0003677
+Pfam:PF04769 MAT_Alpha1 > GO:DNA binding, bending ; GO:0008301
+Pfam:PF04769 MAT_Alpha1 > GO:mating type determination ; GO:0007531
 Pfam:PF04769 MAT_Alpha1 > GO:positive regulation of mating-type specific transcription, DNA-templated ; GO:0045895
 Pfam:PF04769 MAT_Alpha1 > GO:nucleus ; GO:0005634
 Pfam:PF04771 CAV_VP3 > GO:induction by virus of host apoptotic process ; GO:0019051
@@ -6738,6 +6737,7 @@ Pfam:PF05425 CopD > GO:integral component of membrane ; GO:0016021
 Pfam:PF05426 Alginate_lyase > GO:lyase activity ; GO:0016829
 Pfam:PF05426 Alginate_lyase > GO:periplasmic space ; GO:0042597
 Pfam:PF05427 FIBP > GO:fibroblast growth factor binding ; GO:0017134
+Pfam:PF05428 CRF-BP > GO:corticotropin-releasing hormone binding ; GO:0051424
 Pfam:PF05430 Methyltransf_30 > GO:oxidoreductase activity, acting on the CH-NH group of donors ; GO:0016645
 Pfam:PF05430 Methyltransf_30 > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF05431 Toxin_10 > GO:pathogenesis ; GO:0009405
@@ -9789,6 +9789,7 @@ Pfam:PF11657 Activator-TraM > GO:quorum sensing ; GO:0009372
 Pfam:PF11698 V-ATPase_H_C > GO:hydrolase activity, acting on acid anhydrides, catalyzing transmembrane movement of substances ; GO:0016820
 Pfam:PF11698 V-ATPase_H_C > GO:ATP hydrolysis coupled proton transport ; GO:0015991
 Pfam:PF11698 V-ATPase_H_C > GO:vacuolar proton-transporting V-type ATPase, V1 domain ; GO:0000221
+Pfam:PF11705 RNA_pol_3_Rpc31 > GO:regulation of transcription from RNA polymerase III promoter ; GO:0006359
 Pfam:PF11716 MDMPI_N > GO:metal ion binding ; GO:0046872
 Pfam:PF11722 zf-TRM13_CCCH > GO:methyltransferase activity ; GO:0008168
 Pfam:PF11734 TilS_C > GO:nucleotide binding ; GO:0000166

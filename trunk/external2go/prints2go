@@ -1,4 +1,4 @@
-!version date: 2015/02/07 18:03:57
+!version date: 2015/02/14 18:38:48
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -15,7 +15,6 @@ PRINTS:PR00004 ANAPHYLATOXN > GO:complement activation ; GO:0006956
 PRINTS:PR00004 ANAPHYLATOXN > GO:extracellular region ; GO:0005576
 PRINTS:PR00005 APPLEDOMAIN > GO:protein binding ; GO:0005515
 PRINTS:PR00005 APPLEDOMAIN > GO:proteolysis ; GO:0006508
-PRINTS:PR00005 APPLEDOMAIN > GO:blood coagulation ; GO:0007596
 PRINTS:PR00005 APPLEDOMAIN > GO:extracellular region ; GO:0005576
 PRINTS:PR00006 COFILIN > GO:actin filament depolymerization ; GO:0030042
 PRINTS:PR00006 COFILIN > GO:actin cytoskeleton ; GO:0015629
@@ -184,8 +183,6 @@ PRINTS:PR00074 LYSYLOXIDASE > GO:oxidoreductase activity, acting on the CH-NH2 g
 PRINTS:PR00074 LYSYLOXIDASE > GO:oxidation-reduction process ; GO:0055114
 PRINTS:PR00075 FACDDSATRASE > GO:oxidoreductase activity, acting on paired donors, with oxidation of a pair of donors resulting in the reduction of molecular oxygen to two molecules of water ; GO:0016717
 PRINTS:PR00075 FACDDSATRASE > GO:oxidation-reduction process ; GO:0055114
-PRINTS:PR00076 6PGDHDRGNASE > GO:phosphogluconate dehydrogenase (decarboxylating) activity ; GO:0004616
-PRINTS:PR00076 6PGDHDRGNASE > GO:pentose-phosphate shunt ; GO:0006098
 PRINTS:PR00076 6PGDHDRGNASE > GO:oxidation-reduction process ; GO:0055114
 PRINTS:PR00077 GPDHDRGNASE > GO:glycerol-3-phosphate dehydrogenase [NAD+] activity ; GO:0004367
 PRINTS:PR00077 GPDHDRGNASE > GO:glycerol-3-phosphate metabolic process ; GO:0006072
@@ -278,7 +275,6 @@ PRINTS:PR00122 VACATPASE > GO:ATP hydrolysis coupled proton transport ; GO:00159
 PRINTS:PR00122 VACATPASE > GO:proton-transporting V-type ATPase, V0 domain ; GO:0033179
 PRINTS:PR00123 ATPASEA > GO:hydrogen ion transmembrane transporter activity ; GO:0015078
 PRINTS:PR00123 ATPASEA > GO:ATP synthesis coupled proton transport ; GO:0015986
-PRINTS:PR00123 ATPASEA > GO:proton-transporting ATP synthase complex, coupling factor F(o) ; GO:0045263
 PRINTS:PR00124 ATPASEC > GO:hydrogen ion transmembrane transporter activity ; GO:0015078
 PRINTS:PR00124 ATPASEC > GO:ATP synthesis coupled proton transport ; GO:0015986
 PRINTS:PR00124 ATPASEC > GO:proton-transporting ATP synthase complex, coupling factor F(o) ; GO:0045263
@@ -695,7 +691,6 @@ PRINTS:PR00335 KUPTAKETRKA > GO:potassium ion transport ; GO:0006813
 PRINTS:PR00335 KUPTAKETRKA > GO:plasma membrane ; GO:0005886
 PRINTS:PR00336 LYSASSOCTDMP > GO:membrane ; GO:0016020
 PRINTS:PR00337 LEUILEVALBP > GO:amino acid transport ; GO:0006865
-PRINTS:PR00337 LEUILEVALBP > GO:outer membrane-bounded periplasmic space ; GO:0030288
 PRINTS:PR00338 NUSGTNSCPFCT > GO:regulation of DNA-templated transcription, elongation ; GO:0032784
 PRINTS:PR00339 PCNACYCLIN > GO:DNA binding ; GO:0003677
 PRINTS:PR00339 PCNACYCLIN > GO:DNA polymerase processivity factor activity ; GO:0030337
@@ -823,9 +818,7 @@ PRINTS:PR00402 TECBTKDOMAIN > GO:intracellular signal transduction ; GO:0035556
 PRINTS:PR00403 WWDOMAIN > GO:protein binding ; GO:0005515
 PRINTS:PR00404 MADSDOMAIN > GO:DNA binding ; GO:0003677
 PRINTS:PR00404 MADSDOMAIN > GO:protein dimerization activity ; GO:0046983
-PRINTS:PR00405 REVINTRACTNG > GO:ARF GTPase activator activity ; GO:0008060
 PRINTS:PR00405 REVINTRACTNG > GO:zinc ion binding ; GO:0008270
-PRINTS:PR00405 REVINTRACTNG > GO:regulation of ARF GTPase activity ; GO:0032312
 PRINTS:PR00406 CYTB5RDTASE > GO:oxidoreductase activity ; GO:0016491
 PRINTS:PR00406 CYTB5RDTASE > GO:oxidation-reduction process ; GO:0055114
 PRINTS:PR00407 EUMOPTERIN > GO:oxidoreductase activity ; GO:0016491
@@ -912,14 +905,12 @@ PRINTS:PR00440 GPROTEINA12 > GO:GTPase activity ; GO:0003924
 PRINTS:PR00440 GPROTEINA12 > GO:signal transducer activity ; GO:0004871
 PRINTS:PR00440 GPROTEINA12 > GO:GTP binding ; GO:0005525
 PRINTS:PR00440 GPROTEINA12 > GO:G-protein beta/gamma-subunit complex binding ; GO:0031683
-PRINTS:PR00440 GPROTEINA12 > GO:obsolete GTP catabolic process ; GO:0006184
 PRINTS:PR00440 GPROTEINA12 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00440 GPROTEINA12 > GO:small GTPase mediated signal transduction ; GO:0007264
 PRINTS:PR00441 GPROTEINAI > GO:GTPase activity ; GO:0003924
 PRINTS:PR00441 GPROTEINAI > GO:signal transducer activity ; GO:0004871
 PRINTS:PR00441 GPROTEINAI > GO:GTP binding ; GO:0005525
 PRINTS:PR00441 GPROTEINAI > GO:G-protein beta/gamma-subunit complex binding ; GO:0031683
-PRINTS:PR00441 GPROTEINAI > GO:obsolete GTP catabolic process ; GO:0006184
 PRINTS:PR00441 GPROTEINAI > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00441 GPROTEINAI > GO:adenylate cyclase-modulating G-protein coupled receptor signaling pathway ; GO:0007188
 PRINTS:PR00442 GPROTEINAQ > GO:G-protein coupled receptor binding ; GO:0001664
@@ -927,13 +918,11 @@ PRINTS:PR00442 GPROTEINAQ > GO:GTPase activity ; GO:0003924
 PRINTS:PR00442 GPROTEINAQ > GO:signal transducer activity ; GO:0004871
 PRINTS:PR00442 GPROTEINAQ > GO:GTP binding ; GO:0005525
 PRINTS:PR00442 GPROTEINAQ > GO:G-protein beta/gamma-subunit complex binding ; GO:0031683
-PRINTS:PR00442 GPROTEINAQ > GO:obsolete GTP catabolic process ; GO:0006184
 PRINTS:PR00442 GPROTEINAQ > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00443 GPROTEINAS > GO:GTPase activity ; GO:0003924
 PRINTS:PR00443 GPROTEINAS > GO:signal transducer activity ; GO:0004871
 PRINTS:PR00443 GPROTEINAS > GO:GTP binding ; GO:0005525
 PRINTS:PR00443 GPROTEINAS > GO:G-protein beta/gamma-subunit complex binding ; GO:0031683
-PRINTS:PR00443 GPROTEINAS > GO:obsolete GTP catabolic process ; GO:0006184
 PRINTS:PR00443 GPROTEINAS > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00444 HIVVPRVPX > GO:viral life cycle ; GO:0019058
 PRINTS:PR00444 HIVVPRVPX > GO:host cell nucleus ; GO:0042025
@@ -1412,7 +1401,6 @@ PRINTS:PR00595 P2Y1PRNOCPTR > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00597 GELSOLIN > GO:actin binding ; GO:0003779
 PRINTS:PR00598 HTHMARR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PRINTS:PR00598 HTHMARR > GO:regulation of transcription, DNA-templated ; GO:0006355
-PRINTS:PR00598 HTHMARR > GO:intracellular ; GO:0005622
 PRINTS:PR00599 MAPEPTIDASE > GO:aminopeptidase activity ; GO:0004177
 PRINTS:PR00599 MAPEPTIDASE > GO:metalloexopeptidase activity ; GO:0008235
 PRINTS:PR00599 MAPEPTIDASE > GO:proteolysis ; GO:0006508
@@ -1480,7 +1468,6 @@ PRINTS:PR00620 HISTONEH2A > GO:nucleosome ; GO:0000786
 PRINTS:PR00620 HISTONEH2A > GO:nucleus ; GO:0005634
 PRINTS:PR00621 HISTONEH2B > GO:DNA binding ; GO:0003677
 PRINTS:PR00621 HISTONEH2B > GO:nucleosome ; GO:0000786
-PRINTS:PR00621 HISTONEH2B > GO:nucleus ; GO:0005634
 PRINTS:PR00622 HISTONEH3 > GO:DNA binding ; GO:0003677
 PRINTS:PR00622 HISTONEH3 > GO:nucleosome ; GO:0000786
 PRINTS:PR00623 HISTONEH4 > GO:DNA binding ; GO:0003677
@@ -1495,7 +1482,6 @@ PRINTS:PR00626 CALRETICULIN > GO:protein folding ; GO:0006457
 PRINTS:PR00626 CALRETICULIN > GO:endoplasmic reticulum ; GO:0005783
 PRINTS:PR00627 GTPRANTC4 > GO:GTPase activity ; GO:0003924
 PRINTS:PR00627 GTPRANTC4 > GO:GTP binding ; GO:0005525
-PRINTS:PR00627 GTPRANTC4 > GO:obsolete GTP catabolic process ; GO:0006184
 PRINTS:PR00627 GTPRANTC4 > GO:intracellular protein transport ; GO:0006886
 PRINTS:PR00627 GTPRANTC4 > GO:nucleocytoplasmic transport ; GO:0006913
 PRINTS:PR00627 GTPRANTC4 > GO:signal transduction ; GO:0007165
@@ -1573,7 +1559,6 @@ PRINTS:PR00653 ACTIVIN2R > GO:transmembrane receptor protein serine/threonine ki
 PRINTS:PR00653 ACTIVIN2R > GO:membrane ; GO:0016020
 PRINTS:PR00654 ANGIOTENSNGN > GO:regulation of systemic arterial blood pressure by renin-angiotensin ; GO:0003081
 PRINTS:PR00655 AUXINBINDNGP > GO:receptor activity ; GO:0004872
-PRINTS:PR00655 AUXINBINDNGP > GO:endoplasmic reticulum lumen ; GO:0005788
 PRINTS:PR00656 BCHLROPHYLLC > GO:photosynthesis ; GO:0015979
 PRINTS:PR00657 CCCHEMOKINER > GO:chemokine receptor activity ; GO:0004950
 PRINTS:PR00657 CCCHEMOKINER > GO:chemotaxis ; GO:0006935
@@ -2394,7 +2379,6 @@ PRINTS:PR01034 RIBOSOMALS12 > GO:structural constituent of ribosome ; GO:0003735
 PRINTS:PR01034 RIBOSOMALS12 > GO:translation ; GO:0006412
 PRINTS:PR01034 RIBOSOMALS12 > GO:small ribosomal subunit ; GO:0015935
 PRINTS:PR01035 TCRTETA > GO:transporter activity ; GO:0005215
-PRINTS:PR01035 TCRTETA > GO:plasma membrane ; GO:0005886
 PRINTS:PR01038 TRNASYNTHARG > GO:arginine-tRNA ligase activity ; GO:0004814
 PRINTS:PR01038 TRNASYNTHARG > GO:ATP binding ; GO:0005524
 PRINTS:PR01038 TRNASYNTHARG > GO:arginyl-tRNA aminoacylation ; GO:0006420
@@ -2980,12 +2964,10 @@ PRINTS:PR01241 GPROTEINAFNG > GO:GTPase activity ; GO:0003924
 PRINTS:PR01241 GPROTEINAFNG > GO:signal transducer activity ; GO:0004871
 PRINTS:PR01241 GPROTEINAFNG > GO:GTP binding ; GO:0005525
 PRINTS:PR01241 GPROTEINAFNG > GO:G-protein beta/gamma-subunit complex binding ; GO:0031683
-PRINTS:PR01241 GPROTEINAFNG > GO:obsolete GTP catabolic process ; GO:0006184
 PRINTS:PR01241 GPROTEINAFNG > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01241 GPROTEINAFNG > GO:adenylate cyclase-activating G-protein coupled receptor signaling pathway ; GO:0007189
 PRINTS:PR01242 GPROTEINAPLT > GO:signal transducer activity ; GO:0004871
 PRINTS:PR01242 GPROTEINAPLT > GO:GTP binding ; GO:0005525
-PRINTS:PR01242 GPROTEINAPLT > GO:obsolete GTP catabolic process ; GO:0006184
 PRINTS:PR01242 GPROTEINAPLT > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01243 NUCDPKINASE > GO:nucleoside diphosphate kinase activity ; GO:0004550
 PRINTS:PR01243 NUCDPKINASE > GO:ATP binding ; GO:0005524
@@ -3292,7 +3274,6 @@ PRINTS:PR01362 CALFLAGIN > GO:calcium ion binding ; GO:0005509
 PRINTS:PR01363 VD09PROTEIN > GO:hydrolase activity ; GO:0016787
 PRINTS:PR01365 TELOMERASERT > GO:DNA binding ; GO:0003677
 PRINTS:PR01365 TELOMERASERT > GO:telomeric template RNA reverse transcriptase activity ; GO:0003721
-PRINTS:PR01365 TELOMERASERT > GO:nucleus ; GO:0005634
 PRINTS:PR01368 SYNAPSIN > GO:neurotransmitter secretion ; GO:0007269
 PRINTS:PR01368 SYNAPSIN > GO:synaptic vesicle ; GO:0008021
 PRINTS:PR01369 INTIMIN > GO:cell adhesion ; GO:0007155
@@ -3837,7 +3818,6 @@ PRINTS:PR01592 LCRVANTIGEN > GO:extracellular region ; GO:0005576
 PRINTS:PR01593 SOPEPROTEIN > GO:guanyl-nucleotide exchange factor activity ; GO:0005085
 PRINTS:PR01593 SOPEPROTEIN > GO:pathogenesis ; GO:0009405
 PRINTS:PR01593 SOPEPROTEIN > GO:actin cytoskeleton reorganization ; GO:0031532
-PRINTS:PR01593 SOPEPROTEIN > GO:activation of Rho GTPase activity ; GO:0032862
 PRINTS:PR01593 SOPEPROTEIN > GO:extracellular region ; GO:0005576
 PRINTS:PR01594 SECBCHAPRONE > GO:unfolded protein binding ; GO:0051082
 PRINTS:PR01594 SECBCHAPRONE > GO:protein transport ; GO:0015031
@@ -3959,7 +3939,6 @@ PRINTS:PR01636 LVDCCALPHA1D > GO:calcium ion transmembrane transport ; GO:007058
 PRINTS:PR01636 LVDCCALPHA1D > GO:voltage-gated calcium channel complex ; GO:0005891
 PRINTS:PR01637 LOLP2ALLERGN > GO:extracellular region ; GO:0005576
 PRINTS:PR01638 MHCCLASSI > GO:peptide antigen binding ; GO:0042605
-PRINTS:PR01638 MHCCLASSI > GO:positive regulation of T cell mediated cytotoxicity ; GO:0001916
 PRINTS:PR01638 MHCCLASSI > GO:antigen processing and presentation of peptide antigen via MHC class I ; GO:0002474
 PRINTS:PR01638 MHCCLASSI > GO:immune response ; GO:0006955
 PRINTS:PR01638 MHCCLASSI > GO:MHC class I protein complex ; GO:0042612

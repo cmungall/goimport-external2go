@@ -1,4 +1,4 @@
-!version date: 2015/02/07 18:03:57
+!version date: 2015/02/14 18:38:47
 !description: Mapping of GO terms to PIRSF entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pir.georgetown.edu/pirsf/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -144,7 +144,6 @@ PIRSF:PIRSF000108 IDH_NADP > GO:isocitrate dehydrogenase (NADP+) activity ; GO:0
 PIRSF:PIRSF000108 IDH_NADP > GO:isocitrate metabolic process ; GO:0006102
 PIRSF:PIRSF000108 IDH_NADP > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF000109 6PGD > GO:phosphogluconate dehydrogenase (decarboxylating) activity ; GO:0004616
-PIRSF:PIRSF000109 6PGD > GO:NADP binding ; GO:0050661
 PIRSF:PIRSF000109 6PGD > GO:pentose-phosphate shunt ; GO:0006098
 PIRSF:PIRSF000109 6PGD > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF000110 G6PD > GO:glucose-6-phosphate dehydrogenase activity ; GO:0004345
@@ -397,7 +396,6 @@ PIRSF:PIRSF000343 Haem_Oase > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF000345 OLE1 > GO:stearoyl-CoA 9-desaturase activity ; GO:0004768
 PIRSF:PIRSF000345 OLE1 > GO:fatty acid biosynthetic process ; GO:0006633
 PIRSF:PIRSF000345 OLE1 > GO:oxidation-reduction process ; GO:0055114
-PIRSF:PIRSF000345 OLE1 > GO:endoplasmic reticulum ; GO:0005783
 PIRSF:PIRSF000345 OLE1 > GO:membrane ; GO:0016020
 PIRSF:PIRSF000346 Dlt9_acylACP_des > GO:acyl-[acyl-carrier-protein] desaturase activity ; GO:0045300
 PIRSF:PIRSF000346 Dlt9_acylACP_des > GO:fatty acid metabolic process ; GO:0006631
@@ -406,13 +404,6 @@ PIRSF:PIRSF000349 SODismutase > GO:superoxide dismutase activity ; GO:0004784
 PIRSF:PIRSF000349 SODismutase > GO:metal ion binding ; GO:0046872
 PIRSF:PIRSF000349 SODismutase > GO:superoxide metabolic process ; GO:0006801
 PIRSF:PIRSF000349 SODismutase > GO:oxidation-reduction process ; GO:0055114
-PIRSF:PIRSF000350 Mercury_reductase_MerA > GO:mercury (II) reductase activity ; GO:0016152
-PIRSF:PIRSF000350 Mercury_reductase_MerA > GO:oxidoreductase activity ; GO:0016491
-PIRSF:PIRSF000350 Mercury_reductase_MerA > GO:mercury ion binding ; GO:0045340
-PIRSF:PIRSF000350 Mercury_reductase_MerA > GO:flavin adenine dinucleotide binding ; GO:0050660
-PIRSF:PIRSF000350 Mercury_reductase_MerA > GO:NADP binding ; GO:0050661
-PIRSF:PIRSF000350 Mercury_reductase_MerA > GO:detoxification of mercury ion ; GO:0050787
-PIRSF:PIRSF000350 Mercury_reductase_MerA > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF000354 Factors_V_VIII > GO:platelet activation ; GO:0030168
 PIRSF:PIRSF000355 NrdB > GO:deoxyribonucleoside diphosphate metabolic process ; GO:0009186
 PIRSF:PIRSF000355 NrdB > GO:oxidation-reduction process ; GO:0055114
@@ -930,6 +921,10 @@ PIRSF:PIRSF001060 Endochitinase > GO:carbohydrate metabolic process ; GO:0005975
 PIRSF:PIRSF001065 Lysozyme_g > GO:lysozyme activity ; GO:0003796
 PIRSF:PIRSF001065 Lysozyme_g > GO:peptidoglycan catabolic process ; GO:0009253
 PIRSF:PIRSF001065 Lysozyme_g > GO:cell wall macromolecule catabolic process ; GO:0016998
+PIRSF:PIRSF001072 Hemagglut-neuramid_paramyxoV > GO:exo-alpha-sialidase activity ; GO:0004308
+PIRSF:PIRSF001072 Hemagglut-neuramid_paramyxoV > GO:host cell surface receptor binding ; GO:0046789
+PIRSF:PIRSF001072 Hemagglut-neuramid_paramyxoV > GO:viral life cycle ; GO:0019058
+PIRSF:PIRSF001072 Hemagglut-neuramid_paramyxoV > GO:viral envelope ; GO:0019031
 PIRSF:PIRSF001084 B-galactosidase > GO:beta-galactosidase activity ; GO:0004565
 PIRSF:PIRSF001084 B-galactosidase > GO:carbohydrate metabolic process ; GO:0005975
 PIRSF:PIRSF001092 Alpha-L-fucosidase > GO:alpha-L-fucosidase activity ; GO:0004560
@@ -1678,7 +1673,6 @@ PIRSF:PIRSF003953 N_PhelboV > GO:viral nucleocapsid ; GO:0019013
 PIRSF:PIRSF003954 NS-S_OrthobunV > GO:viral process ; GO:0016032
 PIRSF:PIRSF004006 Rota_NS26 > GO:magnesium ion binding ; GO:0000287
 PIRSF:PIRSF004006 Rota_NS26 > GO:ATPase activity ; GO:0016887
-PIRSF:PIRSF004006 Rota_NS26 > GO:obsolete ATP catabolic process ; GO:0006200
 PIRSF:PIRSF004006 Rota_NS26 > GO:viral genome replication ; GO:0019079
 PIRSF:PIRSF004006 Rota_NS26 > GO:host cell cytoplasm ; GO:0030430
 PIRSF:PIRSF004008 VAC_E3L > GO:RNA binding ; GO:0003723
@@ -1936,8 +1930,6 @@ PIRSF:PIRSF005790 NifW > GO:nitrogen fixation ; GO:0009399
 PIRSF:PIRSF005813 MSH2 > GO:ATP binding ; GO:0005524
 PIRSF:PIRSF005813 MSH2 > GO:mismatched DNA binding ; GO:0030983
 PIRSF:PIRSF005813 MSH2 > GO:mismatch repair ; GO:0006298
-PIRSF:PIRSF005813 MSH2 > GO:MutSalpha complex ; GO:0032301
-PIRSF:PIRSF005813 MSH2 > GO:MutSbeta complex ; GO:0032302
 PIRSF:PIRSF005814 MutS_YshD > GO:DNA binding ; GO:0003677
 PIRSF:PIRSF005814 MutS_YshD > GO:ATPase activity ; GO:0016887
 PIRSF:PIRSF005814 MutS_YshD > GO:negative regulation of DNA recombination ; GO:0045910
@@ -1995,7 +1987,6 @@ PIRSF:PIRSF006092 GreA_GreB > GO:RNA polymerase binding ; GO:0070063
 PIRSF:PIRSF006102 NQR_DE > GO:membrane ; GO:0016020
 PIRSF:PIRSF006107 PhpActrans_proteobac > GO:phosphate acetyltransferase activity ; GO:0008959
 PIRSF:PIRSF006118 KDO8-P_Ptase > GO:3-deoxy-manno-octulosonate-8-phosphatase activity ; GO:0019143
-PIRSF:PIRSF006118 KDO8-P_Ptase > GO:lipopolysaccharide biosynthetic process ; GO:0009103
 PIRSF:PIRSF006135 CobU > GO:nucleotide binding ; GO:0000166
 PIRSF:PIRSF006135 CobU > GO:adenosylcobinamide kinase activity ; GO:0043752
 PIRSF:PIRSF006135 CobU > GO:cobalamin biosynthetic process ; GO:0009236
@@ -2885,7 +2876,6 @@ PIRSF:PIRSF026412 Streptogrm_lyase > GO:antibiotic catabolic process ; GO:001700
 PIRSF:PIRSF026412 Streptogrm_lyase > GO:response to antibiotic ; GO:0046677
 PIRSF:PIRSF026534 Endo_alpha-L-arabinosidase > GO:arabinan endo-1,5-alpha-L-arabinosidase activity ; GO:0046558
 PIRSF:PIRSF026649 MsbB > GO:transferase activity, transferring acyl groups ; GO:0016746
-PIRSF:PIRSF026649 MsbB > GO:lipopolysaccharide core region biosynthetic process ; GO:0009244
 PIRSF:PIRSF026649 MsbB > GO:integral component of membrane ; GO:0016021
 PIRSF:PIRSF026671 AA_dipeptidase > GO:metallopeptidase activity ; GO:0008237
 PIRSF:PIRSF026671 AA_dipeptidase > GO:dipeptidase activity ; GO:0016805
@@ -3041,7 +3031,6 @@ PIRSF:PIRSF034515 Chondroitinase > GO:carbohydrate metabolic process ; GO:000597
 PIRSF:PIRSF034781 SecIII_sopE > GO:guanyl-nucleotide exchange factor activity ; GO:0005085
 PIRSF:PIRSF034781 SecIII_sopE > GO:pathogenesis ; GO:0009405
 PIRSF:PIRSF034781 SecIII_sopE > GO:actin cytoskeleton reorganization ; GO:0031532
-PIRSF:PIRSF034781 SecIII_sopE > GO:activation of Rho GTPase activity ; GO:0032862
 PIRSF:PIRSF034781 SecIII_sopE > GO:extracellular region ; GO:0005576
 PIRSF:PIRSF035805 TK_cell > GO:thymidine kinase activity ; GO:0004797
 PIRSF:PIRSF035805 TK_cell > GO:ATP binding ; GO:0005524

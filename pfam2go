@@ -1,4 +1,4 @@
-!version date: 2015/02/14 18:38:46
+!version date: 2015/02/21 18:11:09
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1049,11 +1049,9 @@ Pfam:PF00612 IQ > GO:protein binding ; GO:0005515
 Pfam:PF00614 PLDc > GO:catalytic activity ; GO:0003824
 Pfam:PF00614 PLDc > GO:metabolic process ; GO:0008152
 Pfam:PF00615 RGS > GO:termination of G-protein coupled receptor signaling pathway ; GO:0038032
+Pfam:PF00616 RasGAP > GO:regulation of GTPase activity ; GO:0043087
 Pfam:PF00617 RasGEF > GO:guanyl-nucleotide exchange factor activity ; GO:0005085
 Pfam:PF00617 RasGEF > GO:small GTPase mediated signal transduction ; GO:0007264
-Pfam:PF00618 RasGEF_N > GO:guanyl-nucleotide exchange factor activity ; GO:0005085
-Pfam:PF00618 RasGEF_N > GO:regulation of small GTPase mediated signal transduction ; GO:0051056
-Pfam:PF00618 RasGEF_N > GO:intracellular ; GO:0005622
 Pfam:PF00619 CARD > GO:regulation of apoptotic process ; GO:0042981
 Pfam:PF00620 RhoGAP > GO:signal transduction ; GO:0007165
 Pfam:PF00621 RhoGEF > GO:Rho guanyl-nucleotide exchange factor activity ; GO:0005089
@@ -2390,7 +2388,7 @@ Pfam:PF01411 tRNA-synt_2c > GO:nucleotide binding ; GO:0000166
 Pfam:PF01411 tRNA-synt_2c > GO:alanine-tRNA ligase activity ; GO:0004813
 Pfam:PF01411 tRNA-synt_2c > GO:ATP binding ; GO:0005524
 Pfam:PF01411 tRNA-synt_2c > GO:alanyl-tRNA aminoacylation ; GO:0006419
-Pfam:PF01412 ArfGap > GO:zinc ion binding ; GO:0008270
+Pfam:PF01412 ArfGap > GO:GTPase activator activity ; GO:0005096
 Pfam:PF01413 C4 > GO:extracellular matrix structural constituent ; GO:0005201
 Pfam:PF01413 C4 > GO:collagen trimer ; GO:0005581
 Pfam:PF01414 DSL > GO:cell communication ; GO:0007154
@@ -4455,9 +4453,9 @@ Pfam:PF02966 DIM1 > GO:mitotic nuclear division ; GO:0007067
 Pfam:PF02966 DIM1 > GO:spliceosomal complex ; GO:0005681
 Pfam:PF02969 TAF > GO:DNA-templated transcription, initiation ; GO:0006352
 Pfam:PF02969 TAF > GO:nucleus ; GO:0005634
+Pfam:PF02970 TBCA > GO:tubulin binding ; GO:0015631
 Pfam:PF02970 TBCA > GO:unfolded protein binding ; GO:0051082
 Pfam:PF02970 TBCA > GO:tubulin complex assembly ; GO:0007021
-Pfam:PF02970 TBCA > GO:microtubule ; GO:0005874
 Pfam:PF02971 FTCD > GO:folic acid binding ; GO:0005542
 Pfam:PF02971 FTCD > GO:transferase activity ; GO:0016740
 Pfam:PF02971 FTCD > GO:metabolic process ; GO:0008152
@@ -5282,8 +5280,8 @@ Pfam:PF03834 Rad10 > GO:nucleus ; GO:0005634
 Pfam:PF03835 Rad4 > GO:damaged DNA binding ; GO:0003684
 Pfam:PF03835 Rad4 > GO:nucleotide-excision repair ; GO:0006289
 Pfam:PF03835 Rad4 > GO:nucleus ; GO:0005634
+Pfam:PF03836 RasGAP_C > GO:GTPase activator activity ; GO:0005096
 Pfam:PF03836 RasGAP_C > GO:small GTPase mediated signal transduction ; GO:0007264
-Pfam:PF03836 RasGAP_C > GO:intracellular ; GO:0005622
 Pfam:PF03837 RecT > GO:DNA binding ; GO:0003677
 Pfam:PF03837 RecT > GO:DNA metabolic process ; GO:0006259
 Pfam:PF03838 RecU > GO:DNA repair ; GO:0006281
@@ -5337,6 +5335,10 @@ Pfam:PF03871 RNA_pol_Rpb5_N > GO:nucleus ; GO:0005634
 Pfam:PF03872 RseA_N > GO:sigma factor antagonist activity ; GO:0016989
 Pfam:PF03874 RNA_pol_Rpb4 > GO:DNA-directed RNA polymerase activity ; GO:0003899
 Pfam:PF03874 RNA_pol_Rpb4 > GO:transcription, DNA-templated ; GO:0006351
+Pfam:PF03875 Statherin > GO:hydroxyapatite binding ; GO:0046848
+Pfam:PF03875 Statherin > GO:regulation of bone mineralization ; GO:0030500
+Pfam:PF03875 Statherin > GO:defense response to bacterium ; GO:0042742
+Pfam:PF03875 Statherin > GO:extracellular region ; GO:0005576
 Pfam:PF03876 SHS2_Rpb7-N > GO:DNA-directed RNA polymerase activity ; GO:0003899
 Pfam:PF03876 SHS2_Rpb7-N > GO:transcription, DNA-templated ; GO:0006351
 Pfam:PF03882 KicB > GO:calcium ion binding ; GO:0005509
@@ -6091,8 +6093,6 @@ Pfam:PF04725 PsbR > GO:photosystem II ; GO:0009523
 Pfam:PF04725 PsbR > GO:photosystem II oxygen evolving complex ; GO:0009654
 Pfam:PF04725 PsbR > GO:thylakoid membrane ; GO:0042651
 Pfam:PF04726 Microvir_J > GO:DNA binding ; GO:0003677
-Pfam:PF04727 ELMO_CED12 > GO:phagocytosis ; GO:0006909
-Pfam:PF04727 ELMO_CED12 > GO:cytoskeleton ; GO:0005856
 Pfam:PF04728 LPP > GO:outer membrane ; GO:0019867
 Pfam:PF04729 ASF1_hist_chap > GO:chromatin assembly or disassembly ; GO:0006333
 Pfam:PF04729 ASF1_hist_chap > GO:nucleus ; GO:0005634
@@ -6855,7 +6855,7 @@ Pfam:PF05669 Med31 > GO:RNA polymerase II transcription cofactor activity ; GO:0
 Pfam:PF05669 Med31 > GO:regulation of transcription, DNA-templated ; GO:0006355
 Pfam:PF05669 Med31 > GO:mediator complex ; GO:0016592
 Pfam:PF05672 MAP7 > GO:microtubule cytoskeleton organization ; GO:0000226
-Pfam:PF05672 MAP7 > GO:microtubule ; GO:0005874
+Pfam:PF05672 MAP7 > GO:microtubule cytoskeleton ; GO:0015630
 Pfam:PF05676 NDUF_B7 > GO:NADH dehydrogenase activity ; GO:0003954
 Pfam:PF05676 NDUF_B7 > GO:NADH dehydrogenase (ubiquinone) activity ; GO:0008137
 Pfam:PF05676 NDUF_B7 > GO:mitochondrion ; GO:0005739
@@ -7959,6 +7959,7 @@ Pfam:PF07486 Hydrolase_2 > GO:hydrolase activity ; GO:0016787
 Pfam:PF07487 SopE_GEF > GO:guanyl-nucleotide exchange factor activity ; GO:0005085
 Pfam:PF07487 SopE_GEF > GO:pathogenesis ; GO:0009405
 Pfam:PF07487 SopE_GEF > GO:actin cytoskeleton reorganization ; GO:0031532
+Pfam:PF07487 SopE_GEF > GO:activation of GTPase activity ; GO:0090630
 Pfam:PF07488 Glyco_hydro_67M > GO:alpha-glucuronidase activity ; GO:0046559
 Pfam:PF07488 Glyco_hydro_67M > GO:xylan catabolic process ; GO:0045493
 Pfam:PF07488 Glyco_hydro_67M > GO:extracellular region ; GO:0005576
@@ -8175,6 +8176,7 @@ Pfam:PF07830 PP2C_C > GO:phosphoprotein phosphatase activity ; GO:0004721
 Pfam:PF07830 PP2C_C > GO:manganese ion binding ; GO:0030145
 Pfam:PF07831 PYNP_C > GO:transferase activity, transferring pentosyl groups ; GO:0016763
 Pfam:PF07831 PYNP_C > GO:pyrimidine nucleoside metabolic process ; GO:0006213
+Pfam:PF07834 RanGAP1_C > GO:GTPase activator activity ; GO:0005096
 Pfam:PF07834 RanGAP1_C > GO:signal transduction ; GO:0007165
 Pfam:PF07836 DmpG_comm > GO:oxo-acid-lyase activity ; GO:0016833
 Pfam:PF07836 DmpG_comm > GO:aromatic compound catabolic process ; GO:0019439
@@ -10067,6 +10069,7 @@ Pfam:PF13869 NUDIX_2 > GO:mRNA binding ; GO:0003729
 Pfam:PF13869 NUDIX_2 > GO:mRNA polyadenylation ; GO:0006378
 Pfam:PF13869 NUDIX_2 > GO:mRNA cleavage factor complex ; GO:0005849
 Pfam:PF13885 Keratin_B2_2 > GO:keratin filament ; GO:0045095
+Pfam:PF13890 Rab3-GTPase_cat > GO:GTPase activator activity ; GO:0005096
 Pfam:PF13892 DBINO > GO:hydrolase activity, acting on acid anhydrides ; GO:0016817
 Pfam:PF13897 GOLD_2 > GO:transport ; GO:0006810
 Pfam:PF13897 GOLD_2 > GO:integral component of membrane ; GO:0016021
@@ -10158,6 +10161,7 @@ Pfam:PF14850 Pro_dh-DNA_bdg > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF14859 Colicin_M > GO:defense response to bacterium ; GO:0042742
 Pfam:PF14860 DrrA_P4M > GO:Rab GTPase binding ; GO:0017137
 Pfam:PF14860 DrrA_P4M > GO:pathogenesis ; GO:0009405
+Pfam:PF14860 DrrA_P4M > GO:regulation of GTPase activity ; GO:0043087
 Pfam:PF14860 DrrA_P4M > GO:host cell cytoplasmic vesicle ; GO:0044161
 Pfam:PF14861 Antimicrobial21 > GO:defense response to fungus ; GO:0050832
 Pfam:PF14862 Defensin_big > GO:defense response to Gram-negative bacterium ; GO:0050829

@@ -1,4 +1,4 @@
-!version date: 2015/02/21 18:11:11
+!version date: 2015/02/28 17:47:27
 !description: Mapping of GO terms to PIRSF entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pir.georgetown.edu/pirsf/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -216,7 +216,6 @@ PIRSF:PIRSF000159 NifJ > GO:oxidoreductase activity, acting on the aldehyde or o
 PIRSF:PIRSF000159 NifJ > GO:electron transport chain ; GO:0022900
 PIRSF:PIRSF000159 NifJ > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF000161 DHPR > GO:4-hydroxy-tetrahydrodipicolinate reductase ; GO:0008839
-PIRSF:PIRSF000161 DHPR > GO:NADPH binding ; GO:0070402
 PIRSF:PIRSF000161 DHPR > GO:lysine biosynthetic process via diaminopimelate ; GO:0009089
 PIRSF:PIRSF000161 DHPR > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF000162 P_chlorophyll_rd > GO:oxidoreductase activity, acting on iron-sulfur proteins as donors ; GO:0016730
@@ -421,7 +420,6 @@ PIRSF:PIRSF000368 NrdG > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF000371 PFL_act_enz > GO:oxidoreductase activity ; GO:0016491
 PIRSF:PIRSF000371 PFL_act_enz > GO:glucose metabolic process ; GO:0006006
 PIRSF:PIRSF000371 PFL_act_enz > GO:oxidation-reduction process ; GO:0055114
-PIRSF:PIRSF000371 PFL_act_enz > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF000376 AcCoA_decarb_gamma > GO:iron ion binding ; GO:0005506
 PIRSF:PIRSF000376 AcCoA_decarb_gamma > GO:methyltransferase activity ; GO:0008168
 PIRSF:PIRSF000376 AcCoA_decarb_gamma > GO:acetyl-CoA catabolic process ; GO:0046356
@@ -1884,8 +1882,8 @@ PIRSF:PIRSF005627 MTD > GO:ferredoxin hydrogenase activity ; GO:0008901
 PIRSF:PIRSF005627 MTD > GO:methanogenesis ; GO:0015948
 PIRSF:PIRSF005627 MTD > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF005636 McrD > GO:methanogenesis ; GO:0015948
-PIRSF:PIRSF005639 Glut_amidoT_SNO > GO:transferase activity ; GO:0016740
-PIRSF:PIRSF005639 Glut_amidoT_SNO > GO:glutamine catabolic process ; GO:0006543
+PIRSF:PIRSF005639 Glut_amidoT_SNO > GO:glutaminase activity ; GO:0004359
+PIRSF:PIRSF005639 Glut_amidoT_SNO > GO:vitamin B6 biosynthetic process ; GO:0042819
 PIRSF:PIRSF005639 Glut_amidoT_SNO > GO:pyridoxal phosphate biosynthetic process ; GO:0042823
 PIRSF:PIRSF005646 FwdB > GO:formylmethanofuran dehydrogenase activity ; GO:0018493
 PIRSF:PIRSF005646 FwdB > GO:methanogenesis ; GO:0015948
@@ -2045,7 +2043,7 @@ PIRSF:PIRSF006356 Arg_deiminase > GO:arginine deiminase activity ; GO:0016990
 PIRSF:PIRSF006356 Arg_deiminase > GO:arginine catabolic process ; GO:0006527
 PIRSF:PIRSF006373 TF_E_archaea > GO:regulation of transcription, DNA-templated ; GO:0006355
 PIRSF:PIRSF006392 IPGAM_arch > GO:catalytic activity ; GO:0003824
-PIRSF:PIRSF006392 IPGAM_arch > GO:metal ion binding ; GO:0046872
+PIRSF:PIRSF006392 IPGAM_arch > GO:2,3-bisphosphoglycerate-independent phosphoglycerate mutase activity ; GO:0046537
 PIRSF:PIRSF006398 Sec61_beta_euk > GO:intracellular protein transport ; GO:0006886
 PIRSF:PIRSF006398 Sec61_beta_euk > GO:Sec61 translocon complex ; GO:0005784
 PIRSF:PIRSF006413 IF-6 > GO:ribosome binding ; GO:0043022
@@ -2673,7 +2671,7 @@ PIRSF:PIRSF017300 snoRNP_Mpp10 > GO:rRNA processing ; GO:0006364
 PIRSF:PIRSF017300 snoRNP_Mpp10 > GO:nucleus ; GO:0005634
 PIRSF:PIRSF017300 snoRNP_Mpp10 > GO:small nucleolar ribonucleoprotein complex ; GO:0005732
 PIRSF:PIRSF017300 snoRNP_Mpp10 > GO:Mpp10 complex ; GO:0034457
-PIRSF:PIRSF017306 Ureidogly_hydro > GO:ureidoglycolate hydrolase activity ; GO:0004848
+PIRSF:PIRSF017306 Ureidogly_hydro > GO:ureidoglycolate lyase activity ; GO:0050385
 PIRSF:PIRSF017306 Ureidogly_hydro > GO:allantoin catabolic process ; GO:0000256
 PIRSF:PIRSF017318 Chor_mut_AroQ_eu > GO:chorismate mutase activity ; GO:0004106
 PIRSF:PIRSF017318 Chor_mut_AroQ_eu > GO:aromatic amino acid family biosynthetic process ; GO:0009073
@@ -2885,7 +2883,7 @@ PIRSF:PIRSF026671 AA_dipeptidase > GO:metallopeptidase activity ; GO:0008237
 PIRSF:PIRSF026671 AA_dipeptidase > GO:dipeptidase activity ; GO:0016805
 PIRSF:PIRSF026671 AA_dipeptidase > GO:proteolysis ; GO:0006508
 PIRSF:PIRSF026671 AA_dipeptidase > GO:cell wall ; GO:0005618
-PIRSF:PIRSF026782 CbiD > GO:transferase activity ; GO:0016740
+PIRSF:PIRSF026782 CbiD > GO:methyltransferase activity ; GO:0008168
 PIRSF:PIRSF026782 CbiD > GO:cobalamin biosynthetic process ; GO:0009236
 PIRSF:PIRSF027081 RNase_P/MRP_p29_subunit > GO:RNA binding ; GO:0003723
 PIRSF:PIRSF027081 RNase_P/MRP_p29_subunit > GO:ribonuclease activity ; GO:0004540
@@ -2987,6 +2985,7 @@ PIRSF:PIRSF029225 DNA_pol_III_psi > GO:3'-5' exonuclease activity ; GO:0008408
 PIRSF:PIRSF029225 DNA_pol_III_psi > GO:DNA replication ; GO:0006260
 PIRSF:PIRSF029256 SpoU_TrmH_prd > GO:methyltransferase activity ; GO:0008168
 PIRSF:PIRSF029256 SpoU_TrmH_prd > GO:RNA methylation ; GO:0001510
+PIRSF:PIRSF029271 Pdx1 > GO:vitamin B6 biosynthetic process ; GO:0042819
 PIRSF:PIRSF029271 Pdx1 > GO:pyridoxal phosphate biosynthetic process ; GO:0042823
 PIRSF:PIRSF029598 PsiE > GO:cellular response to phosphate starvation ; GO:0016036
 PIRSF:PIRSF029598 PsiE > GO:integral component of membrane ; GO:0016021
@@ -3021,6 +3020,8 @@ PIRSF:PIRSF032184 ATPase_V1_H > GO:vacuolar proton-transporting V-type ATPase, V
 PIRSF:PIRSF032474 TF_HTH_Rot > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PIRSF:PIRSF032522 TcaA > GO:response to antibiotic ; GO:0046677
 PIRSF:PIRSF032522 TcaA > GO:integral component of membrane ; GO:0016021
+PIRSF:PIRSF032582 Cas2 > GO:endoribonuclease activity ; GO:0004521
+PIRSF:PIRSF032582 Cas2 > GO:maintenance of CRISPR repeat elements ; GO:0043571
 PIRSF:PIRSF033018 EspD > GO:pathogenesis ; GO:0009405
 PIRSF:PIRSF033318 Formald_GSH > GO:zinc ion binding ; GO:0008270
 PIRSF:PIRSF033318 Formald_GSH > GO:S-(hydroxymethyl)glutathione synthase activity ; GO:0051907
@@ -3196,7 +3197,8 @@ PIRSF:PIRSF036580 Cyclin_L > GO:regulation of transcription, DNA-templated ; GO:
 PIRSF:PIRSF036594 MoaC_MogA > GO:Mo-molybdopterin cofactor biosynthetic process ; GO:0006777
 PIRSF:PIRSF036620 MPTbdFAD > GO:FMN adenylyltransferase activity ; GO:0003919
 PIRSF:PIRSF036620 MPTbdFAD > GO:FAD biosynthetic process ; GO:0006747
-PIRSF:PIRSF036628 IolB > GO:intramolecular oxidoreductase activity, interconverting aldoses and ketoses ; GO:0016861
+PIRSF:PIRSF036628 IolB > GO:glucuronate isomerase activity ; GO:0008880
+PIRSF:PIRSF036628 IolB > GO:inositol catabolic process ; GO:0019310
 PIRSF:PIRSF036633 FmdC_D > GO:formylmethanofuran dehydrogenase activity ; GO:0018493
 PIRSF:PIRSF036633 FmdC_D > GO:molybdenum ion binding ; GO:0030151
 PIRSF:PIRSF036633 FmdC_D > GO:methanogenesis ; GO:0015948

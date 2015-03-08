@@ -1,4 +1,4 @@
-!version date: 2015/02/28 17:47:27
+!version date: 2015/03/07 11:22:05
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1047,7 +1047,6 @@ Pfam:PF00609 DAGK_acc > GO:protein kinase C-activating G-protein coupled recepto
 Pfam:PF00610 DEP > GO:intracellular signal transduction ; GO:0035556
 Pfam:PF00612 IQ > GO:protein binding ; GO:0005515
 Pfam:PF00614 PLDc > GO:catalytic activity ; GO:0003824
-Pfam:PF00614 PLDc > GO:metabolic process ; GO:0008152
 Pfam:PF00615 RGS > GO:termination of G-protein coupled receptor signaling pathway ; GO:0038032
 Pfam:PF00616 RasGAP > GO:regulation of GTPase activity ; GO:0043087
 Pfam:PF00617 RasGEF > GO:guanyl-nucleotide exchange factor activity ; GO:0005085
@@ -4004,6 +4003,7 @@ Pfam:PF02653 BPD_transp_2 > GO:transporter activity ; GO:0005215
 Pfam:PF02653 BPD_transp_2 > GO:transport ; GO:0006810
 Pfam:PF02653 BPD_transp_2 > GO:membrane ; GO:0016020
 Pfam:PF02654 CobS > GO:cobalamin 5'-phosphate synthase activity ; GO:0008818
+Pfam:PF02654 CobS > GO:adenosylcobinamide-GDP ribazoletransferase activity ; GO:0051073
 Pfam:PF02654 CobS > GO:cobalamin biosynthetic process ; GO:0009236
 Pfam:PF02655 ATP-grasp_3 > GO:ATP binding ; GO:0005524
 Pfam:PF02655 ATP-grasp_3 > GO:metal ion binding ; GO:0046872
@@ -4177,7 +4177,6 @@ Pfam:PF02782 FGGY_C > GO:phosphotransferase activity, alcohol group as acceptor 
 Pfam:PF02782 FGGY_C > GO:carbohydrate metabolic process ; GO:0005975
 Pfam:PF02783 MCR_beta_N > GO:coenzyme-B sulfoethylthiotransferase activity ; GO:0050524
 Pfam:PF02784 Orn_Arg_deC_N > GO:catalytic activity ; GO:0003824
-Pfam:PF02785 Biotin_carb_C > GO:ligase activity ; GO:0016874
 Pfam:PF02786 CPSase_L_D2 > GO:ATP binding ; GO:0005524
 Pfam:PF02788 RuBisCO_large_N > GO:magnesium ion binding ; GO:0000287
 Pfam:PF02788 RuBisCO_large_N > GO:ribulose-bisphosphate carboxylase activity ; GO:0016984
@@ -4757,7 +4756,7 @@ Pfam:PF03276 Gag_spuma > GO:host cell cytoplasm ; GO:0030430
 Pfam:PF03276 Gag_spuma > GO:host cell nucleus ; GO:0042025
 Pfam:PF03276 Gag_spuma > GO:host cytoskeleton ; GO:0044163
 Pfam:PF03278 IpaB_EvcA > GO:pathogenesis ; GO:0009405
-Pfam:PF03279 Lip_A_acyltrans > GO:transferase activity, transferring acyl groups ; GO:0016746
+Pfam:PF03279 Lip_A_acyltrans > GO:transferase activity ; GO:0016740
 Pfam:PF03279 Lip_A_acyltrans > GO:integral component of membrane ; GO:0016021
 Pfam:PF03280 Lipase_chap > GO:unfolded protein binding ; GO:0051082
 Pfam:PF03280 Lipase_chap > GO:protein folding ; GO:0006457
@@ -4908,7 +4907,6 @@ Pfam:PF03444 HrcA_DNA-bdg > GO:DNA binding ; GO:0003677
 Pfam:PF03444 HrcA_DNA-bdg > GO:regulation of transcription, DNA-templated ; GO:0006355
 Pfam:PF03445 DUF294 > GO:[protein-PII] uridylyltransferase activity ; GO:0008773
 Pfam:PF03446 NAD_binding_2 > GO:phosphogluconate dehydrogenase (decarboxylating) activity ; GO:0004616
-Pfam:PF03446 NAD_binding_2 > GO:pentose-phosphate shunt ; GO:0006098
 Pfam:PF03446 NAD_binding_2 > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF03447 NAD_binding_3 > GO:oxidoreductase activity ; GO:0016491
 Pfam:PF03447 NAD_binding_3 > GO:NADP binding ; GO:0050661
@@ -7307,8 +7305,7 @@ Pfam:PF06357 Omega-toxin > GO:extracellular region ; GO:0005576
 Pfam:PF06363 Picorna_P3A > GO:virion ; GO:0019012
 Pfam:PF06367 Drf_FH3 > GO:actin binding ; GO:0003779
 Pfam:PF06367 Drf_FH3 > GO:cellular component organization ; GO:0016043
-Pfam:PF06368 Met_asp_mut_E > GO:intramolecular transferase activity ; GO:0016866
-Pfam:PF06368 Met_asp_mut_E > GO:cobalamin binding ; GO:0031419
+Pfam:PF06368 Met_asp_mut_E > GO:methylaspartate mutase activity ; GO:0050097
 Pfam:PF06368 Met_asp_mut_E > GO:anaerobic glutamate catabolic process ; GO:0019670
 Pfam:PF06369 Anemone_cytotox > GO:channel activity ; GO:0015267
 Pfam:PF06369 Anemone_cytotox > GO:cation transport ; GO:0006812
@@ -9305,6 +9302,7 @@ Pfam:PF09429 Wbp11 > GO:RNA processing ; GO:0006396
 Pfam:PF09445 Methyltransf_15 > GO:methyltransferase activity ; GO:0008168
 Pfam:PF09445 Methyltransf_15 > GO:RNA methylation ; GO:0001510
 Pfam:PF09445 Methyltransf_15 > GO:7-methylguanosine RNA capping ; GO:0009452
+Pfam:PF09446 VMA21 > GO:vacuolar proton-transporting V-type ATPase complex assembly ; GO:0070072
 Pfam:PF09453 HIRA_B > GO:chromatin binding ; GO:0003682
 Pfam:PF09453 HIRA_B > GO:regulation of transcription, DNA-templated ; GO:0006355
 Pfam:PF09453 HIRA_B > GO:chromatin modification ; GO:0016568
@@ -9632,6 +9630,9 @@ Pfam:PF10744 Med1 > GO:RNA polymerase II transcription cofactor activity ; GO:00
 Pfam:PF10744 Med1 > GO:regulation of transcription from RNA polymerase II promoter ; GO:0006357
 Pfam:PF10744 Med1 > GO:mediator complex ; GO:0016592
 Pfam:PF10755 DUF2585 > GO:plasma membrane ; GO:0005886
+Pfam:PF10766 DUF2592 > GO:drug transmembrane transporter activity ; GO:0015238
+Pfam:PF10766 DUF2592 > GO:drug transmembrane transport ; GO:0006855
+Pfam:PF10766 DUF2592 > GO:plasma membrane ; GO:0005886
 Pfam:PF10778 DehI > GO:hydrolase activity, acting on acid halide bonds, in C-halide compounds ; GO:0019120
 Pfam:PF10796 Anti-adapt_IraP > GO:cytoplasm ; GO:0005737
 Pfam:PF10798 YmgB > GO:biofilm formation ; GO:0042710

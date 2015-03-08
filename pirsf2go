@@ -1,4 +1,4 @@
-!version date: 2015/02/28 17:47:27
+!version date: 2015/03/07 11:22:05
 !description: Mapping of GO terms to PIRSF entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pir.georgetown.edu/pirsf/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1133,8 +1133,7 @@ PIRSF:PIRSF001491 Ppentomutase > GO:cellular metabolic compound salvage ; GO:004
 PIRSF:PIRSF001491 Ppentomutase > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF001492 IPGAM > GO:phosphoglycerate mutase activity ; GO:0004619
 PIRSF:PIRSF001492 IPGAM > GO:glucose catabolic process ; GO:0006007
-PIRSF:PIRSF001495 Met_asp_mut_epsi > GO:intramolecular transferase activity ; GO:0016866
-PIRSF:PIRSF001495 Met_asp_mut_epsi > GO:cobalamin binding ; GO:0031419
+PIRSF:PIRSF001495 Met_asp_mut_epsi > GO:methylaspartate mutase activity ; GO:0050097
 PIRSF:PIRSF001495 Met_asp_mut_epsi > GO:anaerobic glutamate catabolic process ; GO:0019670
 PIRSF:PIRSF001499 Chor_mut_pdh_Tpr > GO:chorismate mutase activity ; GO:0004106
 PIRSF:PIRSF001499 Chor_mut_pdh_Tpr > GO:prephenate dehydrogenase activity ; GO:0008977
@@ -1178,10 +1177,10 @@ PIRSF:PIRSF001586 FGAM_synth_I > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF001587 FGAM_synthase_II > GO:phosphoribosylformylglycinamidine synthase activity ; GO:0004642
 PIRSF:PIRSF001587 FGAM_synthase_II > GO:'de novo' IMP biosynthetic process ; GO:0006189
 PIRSF:PIRSF001587 FGAM_synthase_II > GO:cytoplasm ; GO:0005737
-PIRSF:PIRSF001594 Pyruv_carbox > GO:biotin carboxylase activity ; GO:0004075
 PIRSF:PIRSF001594 Pyruv_carbox > GO:pyruvate carboxylase activity ; GO:0004736
 PIRSF:PIRSF001594 Pyruv_carbox > GO:ATP binding ; GO:0005524
-PIRSF:PIRSF001594 Pyruv_carbox > GO:ligase activity ; GO:0016874
+PIRSF:PIRSF001594 Pyruv_carbox > GO:biotin binding ; GO:0009374
+PIRSF:PIRSF001594 Pyruv_carbox > GO:pyruvate metabolic process ; GO:0006090
 PIRSF:PIRSF001594 Pyruv_carbox > GO:gluconeogenesis ; GO:0006094
 PIRSF:PIRSF001604 LigA > GO:DNA ligase (NAD+) activity ; GO:0003911
 PIRSF:PIRSF001604 LigA > GO:DNA replication ; GO:0006260
@@ -1746,9 +1745,11 @@ PIRSF:PIRSF004762 CHP00423 > GO:transferase activity, transferring alkyl or aryl
 PIRSF:PIRSF004762 CHP00423 > GO:4 iron, 4 sulfur cluster binding ; GO:0051539
 PIRSF:PIRSF004762 CHP00423 > GO:cofactor biosynthetic process ; GO:0051188
 PIRSF:PIRSF004776 NadR_NMNAT/RNK > GO:negative regulation of transcription, DNA-templated ; GO:0045892
-PIRSF:PIRSF004803 RnjA > GO:RNA binding ; GO:0003723
-PIRSF:PIRSF004803 RnjA > GO:endonuclease activity ; GO:0004519
-PIRSF:PIRSF004803 RnjA > GO:metal ion binding ; GO:0046872
+PIRSF:PIRSF004803 RnjA > GO:endoribonuclease activity ; GO:0004521
+PIRSF:PIRSF004803 RnjA > GO:5'-3' exoribonuclease activity ; GO:0004534
+PIRSF:PIRSF004803 RnjA > GO:zinc ion binding ; GO:0008270
+PIRSF:PIRSF004803 RnjA > GO:RNA processing ; GO:0006396
+PIRSF:PIRSF004803 RnjA > GO:RNA phosphodiester bond hydrolysis ; GO:0090501
 PIRSF:PIRSF004808 LasT > GO:RNA methyltransferase activity ; GO:0008173
 PIRSF:PIRSF004808 LasT > GO:RNA processing ; GO:0006396
 PIRSF:PIRSF004846 ModA > GO:molybdate transmembrane-transporting ATPase activity ; GO:0015412
@@ -2506,6 +2507,8 @@ PIRSF:PIRSF016158 HMD > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF016184 PhzC_PhzF > GO:catalytic activity ; GO:0003824
 PIRSF:PIRSF016184 PhzC_PhzF > GO:biosynthetic process ; GO:0009058
 PIRSF:PIRSF016210 UCP016210 > GO:hydrolase activity, acting on ester bonds ; GO:0016788
+PIRSF:PIRSF016210 UCP016210 > GO:D-aminoacyl-tRNA deacylase activity ; GO:0051499
+PIRSF:PIRSF016210 UCP016210 > GO:D-amino acid catabolic process ; GO:0019478
 PIRSF:PIRSF016255 eIF3e_su6 > GO:translation initiation factor activity ; GO:0003743
 PIRSF:PIRSF016255 eIF3e_su6 > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF016255 eIF3e_su6 > GO:eukaryotic translation initiation factor 3 complex ; GO:0005852
@@ -2877,7 +2880,7 @@ PIRSF:PIRSF026412 Streptogrm_lyase > GO:carbon-oxygen lyase activity ; GO:001683
 PIRSF:PIRSF026412 Streptogrm_lyase > GO:antibiotic catabolic process ; GO:0017001
 PIRSF:PIRSF026412 Streptogrm_lyase > GO:response to antibiotic ; GO:0046677
 PIRSF:PIRSF026534 Endo_alpha-L-arabinosidase > GO:arabinan endo-1,5-alpha-L-arabinosidase activity ; GO:0046558
-PIRSF:PIRSF026649 MsbB > GO:transferase activity, transferring acyl groups ; GO:0016746
+PIRSF:PIRSF026649 MsbB > GO:transferase activity ; GO:0016740
 PIRSF:PIRSF026649 MsbB > GO:integral component of membrane ; GO:0016021
 PIRSF:PIRSF026671 AA_dipeptidase > GO:metallopeptidase activity ; GO:0008237
 PIRSF:PIRSF026671 AA_dipeptidase > GO:dipeptidase activity ; GO:0016805
@@ -2923,7 +2926,7 @@ PIRSF:PIRSF028177 Polyketide_synth_Omtfrase_TcmP > GO:antibiotic biosynthetic pr
 PIRSF:PIRSF028177 Polyketide_synth_Omtfrase_TcmP > GO:tetracenomycin C biosynthetic process ; GO:1901106
 PIRSF:PIRSF028513 LptC > GO:lipopolysaccharide transmembrane transporter activity ; GO:0015221
 PIRSF:PIRSF028513 LptC > GO:lipopolysaccharide transport ; GO:0015920
-PIRSF:PIRSF028513 LptC > GO:membrane ; GO:0016020
+PIRSF:PIRSF028513 LptC > GO:integral component of plasma membrane ; GO:0005887
 PIRSF:PIRSF028729 E3_ubiquit_lig_SCF_Skp > GO:ubiquitin-dependent protein catabolic process ; GO:0006511
 PIRSF:PIRSF028732 Alba > GO:DNA binding ; GO:0003677
 PIRSF:PIRSF028732 Alba > GO:RNA binding ; GO:0003723
@@ -3129,7 +3132,11 @@ PIRSF:PIRSF036470 PLD_plant > GO:phospholipase D activity ; GO:0004630
 PIRSF:PIRSF036470 PLD_plant > GO:calcium ion binding ; GO:0005509
 PIRSF:PIRSF036470 PLD_plant > GO:phosphatidylcholine metabolic process ; GO:0046470
 PIRSF:PIRSF036470 PLD_plant > GO:membrane ; GO:0016020
-PIRSF:PIRSF036484 PPi-PFK_SMc01852 > GO:6-phosphofructokinase activity ; GO:0003872
+PIRSF:PIRSF036482 PPi_PFK_TM0289 > GO:diphosphate-fructose-6-phosphate 1-phosphotransferase activity ; GO:0047334
+PIRSF:PIRSF036482 PPi_PFK_TM0289 > GO:glycolytic process ; GO:0006096
+PIRSF:PIRSF036483 PFK_XF0274 > GO:diphosphate-fructose-6-phosphate 1-phosphotransferase activity ; GO:0047334
+PIRSF:PIRSF036483 PFK_XF0274 > GO:glycolytic process ; GO:0006096
+PIRSF:PIRSF036484 PPi-PFK_SMc01852 > GO:diphosphate-fructose-6-phosphate 1-phosphotransferase activity ; GO:0047334
 PIRSF:PIRSF036484 PPi-PFK_SMc01852 > GO:glycolytic process ; GO:0006096
 PIRSF:PIRSF036488 Myoglobin_tremt > GO:iron ion binding ; GO:0005506
 PIRSF:PIRSF036488 Myoglobin_tremt > GO:oxygen binding ; GO:0019825
@@ -3384,8 +3391,6 @@ PIRSF:PIRSF037188 U6_snRNA_Lsm7 > GO:mRNA splicing, via spliceosome ; GO:0000398
 PIRSF:PIRSF037188 U6_snRNA_Lsm7 > GO:small nucleolar ribonucleoprotein complex ; GO:0005732
 PIRSF:PIRSF037207 ATE1_euk > GO:arginyltransferase activity ; GO:0004057
 PIRSF:PIRSF037207 ATE1_euk > GO:protein arginylation ; GO:0016598
-PIRSF:PIRSF037208 ATE_pro_prd > GO:arginyltransferase activity ; GO:0004057
-PIRSF:PIRSF037208 ATE_pro_prd > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF037215 Peptidase_M20B > GO:zinc ion binding ; GO:0008270
 PIRSF:PIRSF037215 Peptidase_M20B > GO:tripeptide aminopeptidase activity ; GO:0045148
 PIRSF:PIRSF037215 Peptidase_M20B > GO:peptide metabolic process ; GO:0006518
@@ -3578,7 +3583,8 @@ PIRSF:PIRSF037828 SH2_p1A > GO:cellular defense response ; GO:0006968
 PIRSF:PIRSF037828 SH2_p1A > GO:cell-cell signaling ; GO:0007267
 PIRSF:PIRSF037828 SH2_p1A > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF037839 Ribonuclease_H > GO:RNA-DNA hybrid ribonuclease activity ; GO:0004523
-PIRSF:PIRSF037840 Aldolase_YihT > GO:carbon-carbon lyase activity ; GO:0016830
+PIRSF:PIRSF037840 Aldolase_YihT > GO:6-deoxy-6-sulfofructose-1-phosphate aldolase activity ; GO:0061595
+PIRSF:PIRSF037840 Aldolase_YihT > GO:6-sulfoquinovose(1-) catabolic process ; GO:1902777
 PIRSF:PIRSF037861 Prion_URE2 > GO:transcription corepressor activity ; GO:0003714
 PIRSF:PIRSF037861 Prion_URE2 > GO:regulation of nitrogen utilization ; GO:0006808
 PIRSF:PIRSF037863 SLAP > GO:structural constituent of cell wall ; GO:0005199

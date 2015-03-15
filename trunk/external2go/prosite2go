@@ -1,4 +1,4 @@
-!version date: 2015/03/07 11:22:05
+!version date: 2015/03/14 11:39:40
 !description: Mapping of GO terms to PROSITE entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://www.expasy.org/prosite/
 !citation: Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1979,7 +1979,7 @@ PROSITE:MF_00972 tRNA_aden_deaminase > GO:tRNA wobble adenosine to inosine editi
 PROSITE:MF_00974 DNA_primase_DnaG > GO:DNA primase activity ; GO:0003896
 PROSITE:MF_00974 DNA_primase_DnaG > GO:zinc ion binding ; GO:0008270
 PROSITE:MF_00974 DNA_primase_DnaG > GO:DNA replication, synthesis of RNA primer ; GO:0006269
-PROSITE:MF_00975 Exosome_Csl4 > GO:RNA catabolic process ; GO:0006401
+PROSITE:MF_00975 Exosome_Csl4 > GO:RNA processing ; GO:0006396
 PROSITE:MF_00975 Exosome_Csl4 > GO:exosome (RNase complex) ; GO:0000178
 PROSITE:MF_00976 RcsF > GO:intracellular signal transduction ; GO:0035556
 PROSITE:MF_00976 RcsF > GO:cell outer membrane ; GO:0009279
@@ -1987,7 +1987,6 @@ PROSITE:MF_00977 3_5_Exoribonuc_actinobact > GO:magnesium ion binding ; GO:00002
 PROSITE:MF_00977 3_5_Exoribonuc_actinobact > GO:3'-5' exonuclease activity ; GO:0008408
 PROSITE:MF_00978 Bifunct_BirA > GO:biotin-[acetyl-CoA-carboxylase] ligase activity ; GO:0004077
 PROSITE:MF_00978 Bifunct_BirA > GO:regulation of transcription, DNA-templated ; GO:0006355
-PROSITE:MF_00978 Bifunct_BirA > GO:biotin biosynthetic process ; GO:0009102
 PROSITE:MF_00979 RcsC > GO:phosphorelay sensor kinase activity ; GO:0000155
 PROSITE:MF_00979 RcsC > GO:phosphorelay signal transduction system ; GO:0000160
 PROSITE:MF_00979 RcsC > GO:biofilm formation ; GO:0042710
@@ -2389,8 +2388,9 @@ PROSITE:MF_01206 YedY > GO:oxidoreductase activity, acting on a sulfur group of 
 PROSITE:MF_01206 YedY > GO:oxidation-reduction process ; GO:0055114
 PROSITE:MF_01208 PyrE > GO:orotate phosphoribosyltransferase activity ; GO:0004588
 PROSITE:MF_01208 PyrE > GO:pyrimidine nucleotide biosynthetic process ; GO:0006221
-PROSITE:MF_01209 CPSase_S_chain > GO:glutamine catabolic process ; GO:0006543
-PROSITE:MF_01209 CPSase_S_chain > GO:carbamoyl phosphate biosynthetic process ; GO:0070409
+PROSITE:MF_01209 CPSase_S_chain > GO:carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity ; GO:0004088
+PROSITE:MF_01209 CPSase_S_chain > GO:'de novo' pyrimidine nucleobase biosynthetic process ; GO:0006207
+PROSITE:MF_01209 CPSase_S_chain > GO:glutamine metabolic process ; GO:0006541
 PROSITE:MF_01210_A CPSase_L_chain_A > GO:nitrogen compound metabolic process ; GO:0006807
 PROSITE:MF_01210_B CPSase_L_chain_B > GO:nitrogen compound metabolic process ; GO:0006807
 PROSITE:MF_01215 OMPdecase_type2 > GO:orotidine-5'-phosphate decarboxylase activity ; GO:0004590
@@ -4048,12 +4048,14 @@ PROSITE:MF_03060 Draxin > GO:axon guidance ; GO:0007411
 PROSITE:MF_03060 Draxin > GO:Wnt signaling pathway ; GO:0016055
 PROSITE:MF_03060 Draxin > GO:extracellular region ; GO:0005576
 PROSITE:MF_03062 UBP16 > GO:ubiquitin-specific protease activity ; GO:0004843
+PROSITE:MF_03062 UBP16 > GO:regulation of gene expression ; GO:0010468
 PROSITE:MF_03062 UBP16 > GO:histone deubiquitination ; GO:0016578
 PROSITE:MF_03062 UBP16 > GO:regulation of cell cycle ; GO:0051726
 PROSITE:MF_03063 EF_G_plantC > GO:translation elongation factor activity ; GO:0003746
 PROSITE:MF_03063 EF_G_plantC > GO:translational elongation ; GO:0006414
 PROSITE:MF_03063 EF_G_plantC > GO:chloroplast ; GO:0009507
 PROSITE:MF_03064 SLC25A38 > GO:transporter activity ; GO:0005215
+PROSITE:MF_03064 SLC25A38 > GO:heme biosynthetic process ; GO:0006783
 PROSITE:MF_03064 SLC25A38 > GO:transport ; GO:0006810
 PROSITE:MF_03064 SLC25A38 > GO:mitochondrion ; GO:0005739
 PROSITE:MF_03065 RTEL1 > GO:ATP-dependent DNA helicase activity ; GO:0004003
@@ -6552,8 +6554,7 @@ PROSITE:PS50142 RNASE_3_2 > GO:ribonuclease III activity ; GO:0004525
 PROSITE:PS50142 RNASE_3_2 > GO:RNA processing ; GO:0006396
 PROSITE:PS50144 MATH > GO:protein binding ; GO:0005515
 PROSITE:PS50145 ZF_TRAF > GO:zinc ion binding ; GO:0008270
-PROSITE:PS50146 DAGK > GO:diacylglycerol kinase activity ; GO:0004143
-PROSITE:PS50146 DAGK > GO:protein kinase C-activating G-protein coupled receptor signaling pathway ; GO:0007205
+PROSITE:PS50146 DAGK > GO:kinase activity ; GO:0016301
 PROSITE:PS50151 UVR > GO:protein binding ; GO:0005515
 PROSITE:PS50152 25A_SYNTH_3 > GO:RNA binding ; GO:0003723
 PROSITE:PS50152 25A_SYNTH_3 > GO:ATP binding ; GO:0005524
@@ -6644,7 +6645,6 @@ PROSITE:PS50253 COX3 > GO:heme-copper terminal oxidase activity ; GO:0015002
 PROSITE:PS50253 COX3 > GO:membrane ; GO:0016020
 PROSITE:PS50254 REL_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PROSITE:PS50254 REL_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
-PROSITE:PS50255 CYTOCHROME_B5_2 > GO:heme binding ; GO:0020037
 PROSITE:PS50256 PIR_REPEAT_2 > GO:structural constituent of cell wall ; GO:0005199
 PROSITE:PS50256 PIR_REPEAT_2 > GO:cell wall ; GO:0005618
 PROSITE:PS50258 LNR > GO:cell differentiation ; GO:0030154
@@ -6725,7 +6725,6 @@ PROSITE:PS50811 WRKY > GO:sequence-specific DNA binding ; GO:0043565
 PROSITE:PS50811 WRKY > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS50816 NAF > GO:signal transduction ; GO:0007165
 PROSITE:PS50817 INTEIN_N_TER > GO:intein-mediated protein splicing ; GO:0016539
-PROSITE:PS50818 INTEIN_C_TER > GO:intein-mediated protein splicing ; GO:0016539
 PROSITE:PS50819 INTEIN_ENDONUCLEASE > GO:endonuclease activity ; GO:0004519
 PROSITE:PS50821 PAZ > GO:protein binding ; GO:0005515
 PROSITE:PS50822 PIWI > GO:nucleic acid binding ; GO:0003676

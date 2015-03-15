@@ -1,4 +1,4 @@
-!version date: 2015/03/07 11:22:05
+!version date: 2015/03/14 11:39:40
 !description: Mapping of GO terms to PIRSF entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pir.georgetown.edu/pirsf/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -314,13 +314,9 @@ PIRSF:PIRSF000209 Bifunctional_P450_P450R > GO:aromatase activity ; GO:0070330
 PIRSF:PIRSF000209 Bifunctional_P450_P450R > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF000216 NADH_DH_24kDa > GO:oxidoreductase activity ; GO:0016491
 PIRSF:PIRSF000216 NADH_DH_24kDa > GO:oxidation-reduction process ; GO:0055114
-PIRSF:PIRSF000233 Nitr_rd_NADH > GO:iron ion binding ; GO:0005506
-PIRSF:PIRSF000233 Nitr_rd_NADH > GO:heme binding ; GO:0020037
-PIRSF:PIRSF000233 Nitr_rd_NADH > GO:molybdenum ion binding ; GO:0030151
-PIRSF:PIRSF000233 Nitr_rd_NADH > GO:oxidoreductase activity, acting on other nitrogenous compounds as donors, with NAD or NADP as acceptor ; GO:0046857
-PIRSF:PIRSF000233 Nitr_rd_NADH > GO:flavin adenine dinucleotide binding ; GO:0050660
+PIRSF:PIRSF000233 Nitr_rd_NADH > GO:nitrate reductase (NADPH) activity ; GO:0050464
+PIRSF:PIRSF000233 Nitr_rd_NADH > GO:nitric oxide biosynthetic process ; GO:0006809
 PIRSF:PIRSF000233 Nitr_rd_NADH > GO:nitrate assimilation ; GO:0042128
-PIRSF:PIRSF000233 Nitr_rd_NADH > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF000235 GMP_reductase > GO:GMP reductase activity ; GO:0003920
 PIRSF:PIRSF000235 GMP_reductase > GO:nucleotide metabolic process ; GO:0009117
 PIRSF:PIRSF000235 GMP_reductase > GO:GMP reductase complex ; GO:1902560
@@ -393,9 +389,8 @@ PIRSF:PIRSF000343 Haem_Oase > GO:heme oxygenase (decyclizing) activity ; GO:0004
 PIRSF:PIRSF000343 Haem_Oase > GO:heme oxidation ; GO:0006788
 PIRSF:PIRSF000343 Haem_Oase > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF000345 OLE1 > GO:stearoyl-CoA 9-desaturase activity ; GO:0004768
-PIRSF:PIRSF000345 OLE1 > GO:fatty acid biosynthetic process ; GO:0006633
-PIRSF:PIRSF000345 OLE1 > GO:oxidation-reduction process ; GO:0055114
-PIRSF:PIRSF000345 OLE1 > GO:membrane ; GO:0016020
+PIRSF:PIRSF000345 OLE1 > GO:unsaturated fatty acid biosynthetic process ; GO:0006636
+PIRSF:PIRSF000345 OLE1 > GO:integral component of membrane ; GO:0016021
 PIRSF:PIRSF000346 Dlt9_acylACP_des > GO:acyl-[acyl-carrier-protein] desaturase activity ; GO:0045300
 PIRSF:PIRSF000346 Dlt9_acylACP_des > GO:fatty acid metabolic process ; GO:0006631
 PIRSF:PIRSF000346 Dlt9_acylACP_des > GO:oxidation-reduction process ; GO:0055114
@@ -1783,11 +1778,9 @@ PIRSF:PIRSF005052 P-loopkin > GO:ATP binding ; GO:0005524
 PIRSF:PIRSF005054 PF1131 > GO:hydrolase activity, acting on ester bonds ; GO:0016788
 PIRSF:PIRSF005096 GALM > GO:isomerase activity ; GO:0016853
 PIRSF:PIRSF005096 GALM > GO:hexose metabolic process ; GO:0019318
-PIRSF:PIRSF005149 IPC-B_HD > GO:iron ion binding ; GO:0005506
-PIRSF:PIRSF005149 IPC-B_HD > GO:oxidoreductase activity ; GO:0016491
-PIRSF:PIRSF005149 IPC-B_HD > GO:sphingolipid metabolic process ; GO:0006665
-PIRSF:PIRSF005149 IPC-B_HD > GO:oxidation-reduction process ; GO:0055114
-PIRSF:PIRSF005149 IPC-B_HD > GO:endoplasmic reticulum ; GO:0005783
+PIRSF:PIRSF005149 IPC-B_HD > GO:fatty acid alpha-hydroxylase activity ; GO:0080132
+PIRSF:PIRSF005149 IPC-B_HD > GO:fatty acid metabolic process ; GO:0006631
+PIRSF:PIRSF005149 IPC-B_HD > GO:integral component of membrane ; GO:0016021
 PIRSF:PIRSF005198 Antiviral_helicase_SKI2 > GO:hydrolase activity, acting on acid anhydrides ; GO:0016817
 PIRSF:PIRSF005216 Pyruvoyl-dep_arg_deCO2ase > GO:arginine decarboxylase activity ; GO:0008792
 PIRSF:PIRSF005216 Pyruvoyl-dep_arg_deCO2ase > GO:arginine catabolic process ; GO:0006527
@@ -2459,10 +2452,9 @@ PIRSF:PIRSF015894 Skb1_MeTrfase > GO:peptidyl-arginine N-methylation ; GO:003524
 PIRSF:PIRSF015919 TFIIH_SSL1 > GO:nucleotide-excision repair ; GO:0006289
 PIRSF:PIRSF015919 TFIIH_SSL1 > GO:transcription, DNA-templated ; GO:0006351
 PIRSF:PIRSF015919 TFIIH_SSL1 > GO:core TFIIH complex ; GO:0000439
-PIRSF:PIRSF015921 FA_sphinglp_des > GO:iron ion binding ; GO:0005506
-PIRSF:PIRSF015921 FA_sphinglp_des > GO:oxidoreductase activity, acting on paired donors, with oxidation of a pair of donors resulting in the reduction of molecular oxygen to two molecules of water ; GO:0016717
-PIRSF:PIRSF015921 FA_sphinglp_des > GO:heme binding ; GO:0020037
-PIRSF:PIRSF015921 FA_sphinglp_des > GO:oxidation-reduction process ; GO:0055114
+PIRSF:PIRSF015921 FA_sphinglp_des > GO:oxidoreductase activity ; GO:0016491
+PIRSF:PIRSF015921 FA_sphinglp_des > GO:lipid metabolic process ; GO:0006629
+PIRSF:PIRSF015921 FA_sphinglp_des > GO:integral component of membrane ; GO:0016021
 PIRSF:PIRSF015945 ATPase_V1_F_euk > GO:proton-transporting ATPase activity, rotational mechanism ; GO:0046961
 PIRSF:PIRSF015945 ATPase_V1_F_euk > GO:ATP hydrolysis coupled proton transport ; GO:0015991
 PIRSF:PIRSF015945 ATPase_V1_F_euk > GO:proton-transporting V-type ATPase, V1 domain ; GO:0033180
@@ -2741,6 +2733,7 @@ PIRSF:PIRSF018282 MukF > GO:DNA replication ; GO:0006260
 PIRSF:PIRSF018282 MukF > GO:chromosome segregation ; GO:0007059
 PIRSF:PIRSF018282 MukF > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF018296 Format_dh_formtn > GO:cytoplasm ; GO:0005737
+PIRSF:PIRSF018297 Doc > GO:kinase activity ; GO:0016301
 PIRSF:PIRSF018412 TEBP_beta > GO:telomeric DNA binding ; GO:0042162
 PIRSF:PIRSF018412 TEBP_beta > GO:chromosome, telomeric region ; GO:0000781
 PIRSF:PIRSF018417 FACC_protein > GO:DNA repair ; GO:0006281
@@ -2815,7 +2808,7 @@ PIRSF:PIRSF019634 tRNA_lig_yeast > GO:RNA ligase (ATP) activity ; GO:0003972
 PIRSF:PIRSF019634 tRNA_lig_yeast > GO:ATP binding ; GO:0005524
 PIRSF:PIRSF019634 tRNA_lig_yeast > GO:tRNA splicing, via endonucleolytic cleavage and ligation ; GO:0006388
 PIRSF:PIRSF019635 Cytochr_b558a > GO:heme binding ; GO:0020037
-PIRSF:PIRSF019663 Legumain > GO:cysteine-type endopeptidase activity ; GO:0004197
+PIRSF:PIRSF019663 Legumain > GO:peptidase activity ; GO:0008233
 PIRSF:PIRSF019663 Legumain > GO:proteolysis ; GO:0006508
 PIRSF:PIRSF019693 VAMP-associated > GO:endoplasmic reticulum membrane ; GO:0005789
 PIRSF:PIRSF019709 Methyltransf_MtxX > GO:methyltransferase activity ; GO:0008168

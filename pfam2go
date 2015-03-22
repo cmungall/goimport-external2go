@@ -1,4 +1,4 @@
-!version date: 2015/03/14 11:39:42
+!version date: 2015/03/21 11:05:23
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -1190,8 +1190,6 @@ Pfam:PF00721 TMV_coat > GO:structural molecule activity ; GO:0005198
 Pfam:PF00721 TMV_coat > GO:viral capsid ; GO:0019028
 Pfam:PF00722 Glyco_hydro_16 > GO:hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553
 Pfam:PF00722 Glyco_hydro_16 > GO:carbohydrate metabolic process ; GO:0005975
-Pfam:PF00723 Glyco_hydro_15 > GO:hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553
-Pfam:PF00723 Glyco_hydro_15 > GO:polysaccharide metabolic process ; GO:0005976
 Pfam:PF00724 Oxidored_FMN > GO:FMN binding ; GO:0010181
 Pfam:PF00724 Oxidored_FMN > GO:oxidoreductase activity ; GO:0016491
 Pfam:PF00724 Oxidored_FMN > GO:oxidation-reduction process ; GO:0055114
@@ -1927,8 +1925,6 @@ Pfam:PF01144 CoA_trans > GO:CoA-transferase activity ; GO:0008410
 Pfam:PF01144 CoA_trans > GO:metabolic process ; GO:0008152
 Pfam:PF01147 Crust_neurohorm > GO:neuropeptide hormone activity ; GO:0005184
 Pfam:PF01147 Crust_neurohorm > GO:extracellular region ; GO:0005576
-Pfam:PF01148 CTP_transf_1 > GO:transferase activity, transferring phosphorus-containing groups ; GO:0016772
-Pfam:PF01148 CTP_transf_1 > GO:membrane ; GO:0016020
 Pfam:PF01149 Fapy_DNA_glyco > GO:damaged DNA binding ; GO:0003684
 Pfam:PF01149 Fapy_DNA_glyco > GO:DNA-(apurinic or apyrimidinic site) lyase activity ; GO:0003906
 Pfam:PF01149 Fapy_DNA_glyco > GO:zinc ion binding ; GO:0008270
@@ -1979,9 +1975,9 @@ Pfam:PF01179 Cu_amine_oxid > GO:primary amine oxidase activity ; GO:0008131
 Pfam:PF01179 Cu_amine_oxid > GO:quinone binding ; GO:0048038
 Pfam:PF01179 Cu_amine_oxid > GO:amine metabolic process ; GO:0009308
 Pfam:PF01179 Cu_amine_oxid > GO:oxidation-reduction process ; GO:0055114
-Pfam:PF01180 DHO_dh > GO:dihydroorotate dehydrogenase activity ; GO:0004152
-Pfam:PF01180 DHO_dh > GO:UMP biosynthetic process ; GO:0006222
+Pfam:PF01180 DHO_dh > GO:oxidoreductase activity, acting on the CH-CH group of donors ; GO:0016627
 Pfam:PF01180 DHO_dh > GO:oxidation-reduction process ; GO:0055114
+Pfam:PF01180 DHO_dh > GO:cytoplasm ; GO:0005737
 Pfam:PF01182 Glucosamine_iso > GO:carbohydrate metabolic process ; GO:0005975
 Pfam:PF01183 Glyco_hydro_25 > GO:lysozyme activity ; GO:0003796
 Pfam:PF01183 Glyco_hydro_25 > GO:peptidoglycan catabolic process ; GO:0009253
@@ -2612,7 +2608,6 @@ Pfam:PF01562 Pep_M12B_propep > GO:proteolysis ; GO:0006508
 Pfam:PF01563 Alpha_E3_glycop > GO:serine-type endopeptidase activity ; GO:0004252
 Pfam:PF01563 Alpha_E3_glycop > GO:viral capsid ; GO:0019028
 Pfam:PF01563 Alpha_E3_glycop > GO:virion membrane ; GO:0055036
-Pfam:PF01564 Spermine_synth > GO:catalytic activity ; GO:0003824
 Pfam:PF01565 FAD_binding_4 > GO:UDP-N-acetylmuramate dehydrogenase activity ; GO:0008762
 Pfam:PF01565 FAD_binding_4 > GO:oxidoreductase activity ; GO:0016491
 Pfam:PF01565 FAD_binding_4 > GO:flavin adenine dinucleotide binding ; GO:0050660
@@ -3373,9 +3368,7 @@ Pfam:PF02155 GCR > GO:regulation of transcription, DNA-templated ; GO:0006355
 Pfam:PF02155 GCR > GO:glucocorticoid receptor signaling pathway ; GO:0042921
 Pfam:PF02155 GCR > GO:glucocorticoid mediated signaling pathway ; GO:0043402
 Pfam:PF02155 GCR > GO:nucleus ; GO:0005634
-Pfam:PF02156 Glyco_hydro_26 > GO:cellulase activity ; GO:0008810
-Pfam:PF02156 Glyco_hydro_26 > GO:mannan endo-1,4-beta-mannosidase activity ; GO:0016985
-Pfam:PF02156 Glyco_hydro_26 > GO:substituted mannan metabolic process ; GO:0006080
+Pfam:PF02156 Glyco_hydro_26 > GO:hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553
 Pfam:PF02158 Neuregulin > GO:receptor binding ; GO:0005102
 Pfam:PF02158 Neuregulin > GO:embryo development ; GO:0009790
 Pfam:PF02159 Oest_recep > GO:DNA binding ; GO:0003677
@@ -5314,6 +5307,7 @@ Pfam:PF03859 CG-1 > GO:DNA binding ; GO:0003677
 Pfam:PF03859 CG-1 > GO:nucleus ; GO:0005634
 Pfam:PF03861 ANTAR > GO:RNA binding ; GO:0003723
 Pfam:PF03863 Phage_mat-A > GO:viral entry into host cell ; GO:0046718
+Pfam:PF03864 Phage_cap_E > GO:viral capsid ; GO:0019028
 Pfam:PF03868 Ribosomal_L6e_N > GO:structural constituent of ribosome ; GO:0003735
 Pfam:PF03868 Ribosomal_L6e_N > GO:translation ; GO:0006412
 Pfam:PF03868 Ribosomal_L6e_N > GO:intracellular ; GO:0005622
@@ -6424,8 +6418,8 @@ Pfam:PF05132 RNA_pol_Rpc4 > GO:DNA binding ; GO:0003677
 Pfam:PF05132 RNA_pol_Rpc4 > GO:DNA-directed RNA polymerase activity ; GO:0003899
 Pfam:PF05132 RNA_pol_Rpc4 > GO:transcription from RNA polymerase III promoter ; GO:0006383
 Pfam:PF05132 RNA_pol_Rpc4 > GO:DNA-directed RNA polymerase III complex ; GO:0005666
-Pfam:PF05136 Phage_portal_2 > GO:DNA binding ; GO:0003677
-Pfam:PF05136 Phage_portal_2 > GO:viral capsid ; GO:0019028
+Pfam:PF05136 Phage_portal_2 > GO:structural molecule activity ; GO:0005198
+Pfam:PF05136 Phage_portal_2 > GO:virion assembly ; GO:0019068
 Pfam:PF05139 Erythro_esteras > GO:response to antibiotic ; GO:0046677
 Pfam:PF05144 Phage_CRI > GO:DNA replication ; GO:0006260
 Pfam:PF05145 AmoA > GO:regulation of gene expression ; GO:0010468
@@ -7256,6 +7250,7 @@ Pfam:PF06298 PsbY > GO:photosynthesis ; GO:0015979
 Pfam:PF06298 PsbY > GO:photosystem II ; GO:0009523
 Pfam:PF06298 PsbY > GO:integral component of membrane ; GO:0016021
 Pfam:PF06303 MatP > GO:sequence-specific DNA binding ; GO:0043565
+Pfam:PF06305 DUF1049 > GO:integral component of plasma membrane ; GO:0005887
 Pfam:PF06308 ErmC > GO:response to antibiotic ; GO:0046677
 Pfam:PF06309 Torsin > GO:ATP binding ; GO:0005524
 Pfam:PF06314 ADC > GO:carboxy-lyase activity ; GO:0016831
@@ -7772,6 +7767,8 @@ Pfam:PF07057 TraI > GO:conjugation ; GO:0000746
 Pfam:PF07058 Myosin_HC-like > GO:microtubule binding ; GO:0008017
 Pfam:PF07058 Myosin_HC-like > GO:cytoskeleton organization ; GO:0007010
 Pfam:PF07062 Clc-like > GO:integral component of membrane ; GO:0016021
+Pfam:PF07068 Gp23 > GO:virion ; GO:0019012
+Pfam:PF07068 Gp23 > GO:viral capsid ; GO:0019028
 Pfam:PF07074 TRAP-gamma > GO:cotranslational protein targeting to membrane ; GO:0006613
 Pfam:PF07074 TRAP-gamma > GO:Sec61 translocon complex ; GO:0005784
 Pfam:PF07074 TRAP-gamma > GO:integral component of endoplasmic reticulum membrane ; GO:0030176
@@ -8759,6 +8756,7 @@ Pfam:PF08619 Nha1_C > GO:membrane ; GO:0016020
 Pfam:PF08622 Svf1 > GO:response to oxidative stress ; GO:0006979
 Pfam:PF08625 Utp13 > GO:rRNA processing ; GO:0006364
 Pfam:PF08625 Utp13 > GO:small-subunit processome ; GO:0032040
+Pfam:PF08631 SPO22 > GO:meiotic cell cycle ; GO:0051321
 Pfam:PF08633 Rox3 > GO:RNA polymerase II transcription cofactor activity ; GO:0001104
 Pfam:PF08633 Rox3 > GO:regulation of transcription from RNA polymerase II promoter ; GO:0006357
 Pfam:PF08633 Rox3 > GO:mediator complex ; GO:0016592
@@ -9470,6 +9468,7 @@ Pfam:PF10232 Med8 > GO:RNA polymerase II transcription cofactor activity ; GO:00
 Pfam:PF10232 Med8 > GO:regulation of transcription from RNA polymerase II promoter ; GO:0006357
 Pfam:PF10232 Med8 > GO:mediator complex ; GO:0016592
 Pfam:PF10233 Cg6151-P > GO:integral component of membrane ; GO:0016021
+Pfam:PF10237 N6-adenineMlase > GO:methyltransferase activity ; GO:0008168
 Pfam:PF10255 Paf67 > GO:translation initiation factor activity ; GO:0003743
 Pfam:PF10255 Paf67 > GO:cytoplasm ; GO:0005737
 Pfam:PF10255 Paf67 > GO:eukaryotic translation initiation factor 3 complex ; GO:0005852
@@ -9646,6 +9645,7 @@ Pfam:PF11047 SopD > GO:pathogenesis ; GO:0009405
 Pfam:PF11047 SopD > GO:host cell membrane ; GO:0033644
 Pfam:PF11051 Mannosyl_trans3 > GO:protein glycosylation ; GO:0006486
 Pfam:PF11057 Cortexin > GO:intrinsic component of membrane ; GO:0031224
+Pfam:PF11080 DUF2622 > GO:endoribonuclease activity ; GO:0004521
 Pfam:PF11093 Mitochondr_Som1 > GO:mitochondrial inner membrane peptidase complex ; GO:0042720
 Pfam:PF11095 Gemin7 > GO:SMN complex ; GO:0032797
 Pfam:PF11109 RFamide_26RFa > GO:orexigenic neuropeptide QRFP receptor binding ; GO:0031854
@@ -10315,6 +10315,7 @@ Pfam:PF15360 Apelin > GO:apelin receptor binding ; GO:0031704
 Pfam:PF15360 Apelin > GO:signal transduction ; GO:0007165
 Pfam:PF15367 CABS1 > GO:calcium ion binding ; GO:0005509
 Pfam:PF15367 CABS1 > GO:spermatogenesis ; GO:0007283
+Pfam:PF15384 DUF4610 > GO:double-strand break repair via nonhomologous end joining ; GO:0006303
 Pfam:PF15427 S100PBPR > GO:calcium-dependent protein binding ; GO:0048306
 Pfam:PF15432 Sec-ASP3 > GO:protein transport ; GO:0015031
 Pfam:PF15453 Pilt > GO:tight junction ; GO:0005923

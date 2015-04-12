@@ -1,4 +1,4 @@
-!version date: 2015/04/04 11:08:49
+!version date: 2015/04/11 11:14:43
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -269,7 +269,6 @@ Pfam:PF00172 Zn_clus > GO:nucleus ; GO:0005634
 Pfam:PF00174 Oxidored_molyb > GO:nitrate assimilation ; GO:0042128
 Pfam:PF00175 NAD_binding_1 > GO:oxidoreductase activity ; GO:0016491
 Pfam:PF00175 NAD_binding_1 > GO:oxidation-reduction process ; GO:0055114
-Pfam:PF00176 SNF2_N > GO:DNA binding ; GO:0003677
 Pfam:PF00176 SNF2_N > GO:ATP binding ; GO:0005524
 Pfam:PF00178 Ets > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 Pfam:PF00178 Ets > GO:sequence-specific DNA binding ; GO:0043565
@@ -790,9 +789,7 @@ Pfam:PF00462 Glutaredoxin > GO:protein disulfide oxidoreductase activity ; GO:00
 Pfam:PF00462 Glutaredoxin > GO:cell redox homeostasis ; GO:0045454
 Pfam:PF00463 ICL > GO:isocitrate lyase activity ; GO:0004451
 Pfam:PF00463 ICL > GO:carboxylic acid metabolic process ; GO:0019752
-Pfam:PF00464 SHMT > GO:glycine hydroxymethyltransferase activity ; GO:0004372
-Pfam:PF00464 SHMT > GO:glycine metabolic process ; GO:0006544
-Pfam:PF00464 SHMT > GO:L-serine metabolic process ; GO:0006563
+Pfam:PF00464 SHMT > GO:transferase activity ; GO:0016740
 Pfam:PF00465 Fe-ADH > GO:oxidoreductase activity ; GO:0016491
 Pfam:PF00465 Fe-ADH > GO:metal ion binding ; GO:0046872
 Pfam:PF00465 Fe-ADH > GO:oxidation-reduction process ; GO:0055114
@@ -7248,7 +7245,7 @@ Pfam:PF06303 MatP > GO:sequence-specific DNA binding ; GO:0043565
 Pfam:PF06305 DUF1049 > GO:integral component of plasma membrane ; GO:0005887
 Pfam:PF06308 ErmC > GO:response to antibiotic ; GO:0046677
 Pfam:PF06309 Torsin > GO:ATP binding ; GO:0005524
-Pfam:PF06314 ADC > GO:carboxy-lyase activity ; GO:0016831
+Pfam:PF06314 ADC > GO:lyase activity ; GO:0016829
 Pfam:PF06315 AceK > GO:[isocitrate dehydrogenase (NADP+)] kinase activity ; GO:0008772
 Pfam:PF06315 AceK > GO:phosphatase activity ; GO:0016791
 Pfam:PF06315 AceK > GO:glucose metabolic process ; GO:0006006
@@ -7875,10 +7872,8 @@ Pfam:PF07353 Uroplakin_II > GO:membrane organization ; GO:0061024
 Pfam:PF07353 Uroplakin_II > GO:integral component of endoplasmic reticulum membrane ; GO:0030176
 Pfam:PF07354 Sp38 > GO:binding of sperm to zona pellucida ; GO:0007339
 Pfam:PF07354 Sp38 > GO:extracellular region ; GO:0005576
-Pfam:PF07355 GRDB > GO:glycine reductase activity ; GO:0030699
 Pfam:PF07355 GRDB > GO:oxidoreductase activity, acting on X-H and Y-H to form an X-Y bond, with a disulfide as acceptor ; GO:0050485
 Pfam:PF07355 GRDB > GO:oxidation-reduction process ; GO:0055114
-Pfam:PF07355 GRDB > GO:glycine reductase complex ; GO:0030700
 Pfam:PF07359 LEAP-2 > GO:defense response to bacterium ; GO:0042742
 Pfam:PF07361 Cytochrom_B562 > GO:iron ion binding ; GO:0005506
 Pfam:PF07361 Cytochrom_B562 > GO:electron carrier activity ; GO:0009055
@@ -8173,7 +8168,7 @@ Pfam:PF07842 GCFC > GO:DNA binding ; GO:0003677
 Pfam:PF07842 GCFC > GO:regulation of transcription, DNA-templated ; GO:0006355
 Pfam:PF07842 GCFC > GO:nucleus ; GO:0005634
 Pfam:PF07846 Metallothio_Cad > GO:cadmium ion binding ; GO:0046870
-Pfam:PF07847 DUF1637 > GO:cysteamine dioxygenase activity ; GO:0047800
+Pfam:PF07847 DUF1637 > GO:oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen ; GO:0016702
 Pfam:PF07847 DUF1637 > GO:oxidation-reduction process ; GO:0055114
 Pfam:PF07850 Renin_r > GO:receptor activity ; GO:0004872
 Pfam:PF07850 Renin_r > GO:integral component of membrane ; GO:0016021
@@ -10069,6 +10064,10 @@ Pfam:PF13914 Phostensin > GO:phosphatase binding ; GO:0019902
 Pfam:PF13922 PHD_3 > GO:DNA binding ; GO:0003677
 Pfam:PF13929 mRNA_stabil > GO:mRNA stabilization ; GO:0048255
 Pfam:PF13931 Microtub_bind > GO:microtubule binding ; GO:0008017
+Pfam:PF13939 TisB_toxin > GO:anion channel activity ; GO:0005253
+Pfam:PF13939 TisB_toxin > GO:SOS response ; GO:0009432
+Pfam:PF13939 TisB_toxin > GO:dormancy process ; GO:0022611
+Pfam:PF13939 TisB_toxin > GO:integral component of plasma membrane ; GO:0005887
 Pfam:PF13947 GUB_WAK_bind > GO:polysaccharide binding ; GO:0030247
 Pfam:PF13949 ALIX_LYPXL_bnd > GO:protein binding ; GO:0005515
 Pfam:PF13954 PapC_N > GO:protein binding ; GO:0005515

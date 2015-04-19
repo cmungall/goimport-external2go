@@ -1,4 +1,4 @@
-!version date: 2015/04/11 11:14:44
+!version date: 2015/04/18 11:14:05
 !description: Mapping of GO terms to PIRSF entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pir.georgetown.edu/pirsf/
 !citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
@@ -268,8 +268,9 @@ PIRSF:PIRSF000187 GOGAT > GO:glutamate biosynthetic process ; GO:0006537
 PIRSF:PIRSF000187 GOGAT > GO:oxidation-reduction process ; GO:0055114
 PIRSF:PIRSF000188 Phe_leu_dh > GO:oxidoreductase activity, acting on the CH-NH2 group of donors, NAD or NADP as acceptor ; GO:0016639
 PIRSF:PIRSF000188 Phe_leu_dh > GO:oxidation-reduction process ; GO:0055114
-PIRSF:PIRSF000189 D-aa_oxidase > GO:oxidoreductase activity, acting on the CH-NH2 group of donors, oxygen as acceptor ; GO:0016641
-PIRSF:PIRSF000189 D-aa_oxidase > GO:oxidation-reduction process ; GO:0055114
+PIRSF:PIRSF000189 D-aa_oxidase > GO:D-amino-acid oxidase activity ; GO:0003884
+PIRSF:PIRSF000189 D-aa_oxidase > GO:FAD binding ; GO:0071949
+PIRSF:PIRSF000189 D-aa_oxidase > GO:D-amino acid metabolic process ; GO:0046416
 PIRSF:PIRSF000190 Pyd_amn-ph_oxd > GO:pyridoxamine-phosphate oxidase activity ; GO:0004733
 PIRSF:PIRSF000190 Pyd_amn-ph_oxd > GO:pyridoxine biosynthetic process ; GO:0008615
 PIRSF:PIRSF000190 Pyd_amn-ph_oxd > GO:oxidation-reduction process ; GO:0055114
@@ -1776,7 +1777,8 @@ PIRSF:PIRSF005096 GALM > GO:hexose metabolic process ; GO:0019318
 PIRSF:PIRSF005149 IPC-B_HD > GO:fatty acid alpha-hydroxylase activity ; GO:0080132
 PIRSF:PIRSF005149 IPC-B_HD > GO:fatty acid metabolic process ; GO:0006631
 PIRSF:PIRSF005149 IPC-B_HD > GO:integral component of membrane ; GO:0016021
-PIRSF:PIRSF005198 Antiviral_helicase_SKI2 > GO:hydrolase activity, acting on acid anhydrides ; GO:0016817
+PIRSF:PIRSF005198 Antiviral_helicase_SKI2 > GO:mRNA binding ; GO:0003729
+PIRSF:PIRSF005198 Antiviral_helicase_SKI2 > GO:RNA catabolic process ; GO:0006401
 PIRSF:PIRSF005216 Pyruvoyl-dep_arg_deCO2ase > GO:arginine decarboxylase activity ; GO:0008792
 PIRSF:PIRSF005216 Pyruvoyl-dep_arg_deCO2ase > GO:arginine catabolic process ; GO:0006527
 PIRSF:PIRSF005225 LAG1_LAC1 > GO:endoplasmic reticulum ; GO:0005783
@@ -1952,8 +1954,8 @@ PIRSF:PIRSF005989 Ectatomin > GO:extracellular region ; GO:0005576
 PIRSF:PIRSF005992 Clathrin_mu > GO:intracellular protein transport ; GO:0006886
 PIRSF:PIRSF005992 Clathrin_mu > GO:vesicle-mediated transport ; GO:0016192
 PIRSF:PIRSF005992 Clathrin_mu > GO:clathrin adaptor complex ; GO:0030131
-PIRSF:PIRSF005993 Occludin > GO:tight junction assembly ; GO:0070830
-PIRSF:PIRSF005993 Occludin > GO:tight junction ; GO:0005923
+PIRSF:PIRSF005993 Occludin > GO:bicellular tight junction assembly ; GO:0070830
+PIRSF:PIRSF005993 Occludin > GO:bicellular tight junction ; GO:0005923
 PIRSF:PIRSF005993 Occludin > GO:integral component of membrane ; GO:0016021
 PIRSF:PIRSF006004 CHP00048 > GO:RNA methyltransferase activity ; GO:0008173
 PIRSF:PIRSF006004 CHP00048 > GO:rRNA processing ; GO:0006364

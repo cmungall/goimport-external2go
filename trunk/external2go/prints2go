@@ -1,7 +1,7 @@
-!version date: 2015/04/18 11:14:04
+!version date: 2015/04/25 11:05:06
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
-!citation : Hunter et al. (2009) Nucleic Acids Res. 37 :D211-D215
+!citation: Mitchell et al. (2015) Nucl. Acids Res. 43 :D213-D221
 !contact:interhelp@ebi.ac.uk
 !
 PRINTS:PR00001 GLABLOOD > GO:calcium ion binding ; GO:0005509
@@ -18,7 +18,6 @@ PRINTS:PR00005 APPLEDOMAIN > GO:proteolysis ; GO:0006508
 PRINTS:PR00005 APPLEDOMAIN > GO:extracellular region ; GO:0005576
 PRINTS:PR00006 COFILIN > GO:actin filament depolymerization ; GO:0030042
 PRINTS:PR00006 COFILIN > GO:actin cytoskeleton ; GO:0015629
-PRINTS:PR00014 FNTYPEIII > GO:protein binding ; GO:0005515
 PRINTS:PR00020 MAMDOMAIN > GO:membrane ; GO:0016020
 PRINTS:PR00022 SOMATOMEDINB > GO:scavenger receptor activity ; GO:0005044
 PRINTS:PR00022 SOMATOMEDINB > GO:polysaccharide binding ; GO:0030247
@@ -89,9 +88,6 @@ PRINTS:PR00047 STROIDFINGER > GO:zinc ion binding ; GO:0008270
 PRINTS:PR00047 STROIDFINGER > GO:sequence-specific DNA binding ; GO:0043565
 PRINTS:PR00047 STROIDFINGER > GO:regulation of transcription, DNA-templated ; GO:0006355
 PRINTS:PR00047 STROIDFINGER > GO:nucleus ; GO:0005634
-PRINTS:PR00048 ZINCFINGER > GO:nucleic acid binding ; GO:0003676
-PRINTS:PR00048 ZINCFINGER > GO:zinc ion binding ; GO:0008270
-PRINTS:PR00048 ZINCFINGER > GO:nucleus ; GO:0005634
 PRINTS:PR00050 COLDSHOCK > GO:DNA binding ; GO:0003677
 PRINTS:PR00050 COLDSHOCK > GO:regulation of transcription, DNA-templated ; GO:0006355
 PRINTS:PR00052 FIBRILLARIN > GO:RNA binding ; GO:0003723
@@ -510,8 +506,6 @@ PRINTS:PR00237 GPCRRHODOPSN > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00238 OPSIN > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00238 OPSIN > GO:visual perception ; GO:0007601
 PRINTS:PR00238 OPSIN > GO:integral component of membrane ; GO:0016021
-PRINTS:PR00239 RHODOPSNTAIL > GO:G-protein coupled receptor signaling pathway ; GO:0007186
-PRINTS:PR00239 RHODOPSNTAIL > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00240 ADRENRGCA1DR > GO:alpha1-adrenergic receptor activity ; GO:0004937
 PRINTS:PR00240 ADRENRGCA1DR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00240 ADRENRGCA1DR > GO:integral component of membrane ; GO:0016021
@@ -609,9 +603,6 @@ PRINTS:PR00280 CHANLCOLICIN > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00281 HOKGEFTOXIC > GO:membrane ; GO:0016020
 PRINTS:PR00282 CYTOTOXIN > GO:extracellular region ; GO:0005576
 PRINTS:PR00283 MYOTOXIN > GO:envenomation resulting in occlusion of the pore of voltage-gated potassium channel in other organism ; GO:0044564
-PRINTS:PR00284 TOXIN > GO:sodium channel inhibitor activity ; GO:0019871
-PRINTS:PR00284 TOXIN > GO:pathogenesis ; GO:0009405
-PRINTS:PR00284 TOXIN > GO:extracellular region ; GO:0005576
 PRINTS:PR00286 CHARYBDTOXIN > GO:ion channel inhibitor activity ; GO:0008200
 PRINTS:PR00286 CHARYBDTOXIN > GO:pathogenesis ; GO:0009405
 PRINTS:PR00286 CHARYBDTOXIN > GO:extracellular region ; GO:0005576
@@ -732,7 +723,6 @@ PRINTS:PR00361 CALCITONINR > GO:membrane ; GO:0016020
 PRINTS:PR00362 CANNABINOIDR > GO:cannabinoid receptor activity ; GO:0004949
 PRINTS:PR00362 CANNABINOIDR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00362 CANNABINOIDR > GO:integral component of membrane ; GO:0016021
-PRINTS:PR00364 DISEASERSIST > GO:defense response ; GO:0006952
 PRINTS:PR00366 ENDOTHELINR > GO:endothelin receptor activity ; GO:0004962
 PRINTS:PR00366 ENDOTHELINR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00366 ENDOTHELINR > GO:regulation of blood pressure ; GO:0008217
@@ -741,7 +731,6 @@ PRINTS:PR00366 ENDOTHELINR > GO:enteric nervous system development ; GO:0048484
 PRINTS:PR00366 ENDOTHELINR > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00367 ETHRSPELEMNT > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PRINTS:PR00367 ETHRSPELEMNT > GO:regulation of transcription, DNA-templated ; GO:0006355
-PRINTS:PR00368 FADPNR > GO:oxidation-reduction process ; GO:0055114
 PRINTS:PR00369 FLAVODOXIN > GO:iron ion binding ; GO:0005506
 PRINTS:PR00369 FLAVODOXIN > GO:FMN binding ; GO:0010181
 PRINTS:PR00369 FLAVODOXIN > GO:oxidation-reduction process ; GO:0055114
@@ -813,7 +802,6 @@ PRINTS:PR00399 SYNAPTOTAGMN > GO:membrane ; GO:0016020
 PRINTS:PR00400 TETREPRESSOR > GO:negative regulation of transcription, DNA-templated ; GO:0045892
 PRINTS:PR00400 TETREPRESSOR > GO:response to antibiotic ; GO:0046677
 PRINTS:PR00402 TECBTKDOMAIN > GO:intracellular signal transduction ; GO:0035556
-PRINTS:PR00403 WWDOMAIN > GO:protein binding ; GO:0005515
 PRINTS:PR00404 MADSDOMAIN > GO:DNA binding ; GO:0003677
 PRINTS:PR00404 MADSDOMAIN > GO:protein dimerization activity ; GO:0046983
 PRINTS:PR00405 REVINTRACTNG > GO:GTPase activator activity ; GO:0005096
@@ -829,8 +817,6 @@ PRINTS:PR00408 MITP450 > GO:mitochondrion ; GO:0005739
 PRINTS:PR00409 PHDIOXRDTASE > GO:electron carrier activity ; GO:0009055
 PRINTS:PR00409 PHDIOXRDTASE > GO:oxidoreductase activity ; GO:0016491
 PRINTS:PR00410 PHEHYDRXLASE > GO:oxidation-reduction process ; GO:0055114
-PRINTS:PR00411 PNDRDTASEI > GO:electron carrier activity ; GO:0009055
-PRINTS:PR00411 PNDRDTASEI > GO:oxidoreductase activity ; GO:0016491
 PRINTS:PR00412 EPOXHYDRLASE > GO:catalytic activity ; GO:0003824
 PRINTS:PR00413 HADHALOGNASE > GO:hydrolase activity ; GO:0016787
 PRINTS:PR00413 HADHALOGNASE > GO:metabolic process ; GO:0008152
@@ -889,9 +875,6 @@ PRINTS:PR00435 INTERLEUKIN7 > GO:interleukin-7 receptor binding ; GO:0005139
 PRINTS:PR00435 INTERLEUKIN7 > GO:growth factor activity ; GO:0008083
 PRINTS:PR00435 INTERLEUKIN7 > GO:immune response ; GO:0006955
 PRINTS:PR00435 INTERLEUKIN7 > GO:extracellular region ; GO:0005576
-PRINTS:PR00436 INTERLEUKIN8 > GO:cytokine activity ; GO:0005125
-PRINTS:PR00436 INTERLEUKIN8 > GO:immune response ; GO:0006955
-PRINTS:PR00436 INTERLEUKIN8 > GO:extracellular region ; GO:0005576
 PRINTS:PR00437 SMALLCYTKCXC > GO:chemokine activity ; GO:0008009
 PRINTS:PR00437 SMALLCYTKCXC > GO:immune response ; GO:0006955
 PRINTS:PR00437 SMALLCYTKCXC > GO:extracellular region ; GO:0005576
@@ -930,7 +913,6 @@ PRINTS:PR00447 NATRESASSCMP > GO:membrane ; GO:0016020
 PRINTS:PR00448 NSFATTACHMNT > GO:intracellular protein transport ; GO:0006886
 PRINTS:PR00449 RASTRNSFRMNG > GO:GTP binding ; GO:0005525
 PRINTS:PR00449 RASTRNSFRMNG > GO:small GTPase mediated signal transduction ; GO:0007264
-PRINTS:PR00450 RECOVERIN > GO:calcium ion binding ; GO:0005509
 PRINTS:PR00451 CHITINBINDNG > GO:chitin binding ; GO:0008061
 PRINTS:PR00452 SH3DOMAIN > GO:protein binding ; GO:0005515
 PRINTS:PR00454 ETSDOMAIN > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
@@ -1061,9 +1043,6 @@ PRINTS:PR00505 D12N6MTFRASE > GO:DNA methylation on adenine ; GO:0032775
 PRINTS:PR00506 D21N6MTFRASE > GO:DNA binding ; GO:0003677
 PRINTS:PR00506 D21N6MTFRASE > GO:N-methyltransferase activity ; GO:0008170
 PRINTS:PR00506 D21N6MTFRASE > GO:DNA methylation ; GO:0006306
-PRINTS:PR00507 N12N6MTFRASE > GO:nucleic acid binding ; GO:0003676
-PRINTS:PR00507 N12N6MTFRASE > GO:methyltransferase activity ; GO:0008168
-PRINTS:PR00507 N12N6MTFRASE > GO:methylation ; GO:0032259
 PRINTS:PR00508 S21N4MTFRASE > GO:DNA binding ; GO:0003677
 PRINTS:PR00508 S21N4MTFRASE > GO:N-methyltransferase activity ; GO:0008170
 PRINTS:PR00508 S21N4MTFRASE > GO:DNA methylation ; GO:0006306
@@ -1378,9 +1357,6 @@ PRINTS:PR00590 SOMATOSTTN4R > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00591 SOMATOSTTN5R > GO:somatostatin receptor activity ; GO:0004994
 PRINTS:PR00591 SOMATOSTTN5R > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00591 SOMATOSTTN5R > GO:integral component of membrane ; GO:0016021
-PRINTS:PR00592 CASENSINGR > GO:G-protein coupled receptor activity ; GO:0004930
-PRINTS:PR00592 CASENSINGR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
-PRINTS:PR00592 CASENSINGR > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00593 MTABOTROPICR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00593 MTABOTROPICR > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00594 P2Y2PRNOCPTR > GO:G-protein coupled purinergic nucleotide receptor activity ; GO:0045028
@@ -1444,7 +1420,6 @@ PRINTS:PR00614 NIHGNASESMLL > GO:ferredoxin hydrogenase activity ; GO:0008901
 PRINTS:PR00614 NIHGNASESMLL > GO:iron-sulfur cluster binding ; GO:0051536
 PRINTS:PR00614 NIHGNASESMLL > GO:oxidation-reduction process ; GO:0055114
 PRINTS:PR00614 NIHGNASESMLL > GO:ferredoxin hydrogenase complex ; GO:0009375
-PRINTS:PR00615 CCAATSUBUNTA > GO:DNA binding ; GO:0003677
 PRINTS:PR00616 CCAATSUBUNTB > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PRINTS:PR00616 CCAATSUBUNTB > GO:regulation of transcription, DNA-templated ; GO:0006355
 PRINTS:PR00617 COPPERFIST > GO:DNA binding ; GO:0003677
@@ -1765,8 +1740,6 @@ PRINTS:PR00751 THYROLIBRINR > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00752 VASOPRSNV1AR > GO:vasopressin receptor activity ; GO:0005000
 PRINTS:PR00752 VASOPRSNV1AR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00752 VASOPRSNV1AR > GO:integral component of membrane ; GO:0016021
-PRINTS:PR00753 ACCSYNTHASE > GO:1-aminocyclopropane-1-carboxylate synthase activity ; GO:0016847
-PRINTS:PR00753 ACCSYNTHASE > GO:1-aminocyclopropane-1-carboxylate biosynthetic process ; GO:0042218
 PRINTS:PR00754 AEROLYSIN > GO:pathogenesis ; GO:0009405
 PRINTS:PR00754 AEROLYSIN > GO:extracellular region ; GO:0005576
 PRINTS:PR00755 AFLATOXINBRP > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
@@ -1827,7 +1800,6 @@ PRINTS:PR00779 INSP3RECEPTR > GO:inositol 1,4,5-trisphosphate-sensitive calcium-
 PRINTS:PR00779 INSP3RECEPTR > GO:calcium ion transport ; GO:0006816
 PRINTS:PR00779 INSP3RECEPTR > GO:endoplasmic reticulum ; GO:0005783
 PRINTS:PR00779 INSP3RECEPTR > GO:membrane ; GO:0016020
-PRINTS:PR00780 LEUSERPINII > GO:serine-type endopeptidase inhibitor activity ; GO:0004867
 PRINTS:PR00781 LIPOSIGPTASE > GO:aspartic-type endopeptidase activity ; GO:0004190
 PRINTS:PR00781 LIPOSIGPTASE > GO:proteolysis ; GO:0006508
 PRINTS:PR00781 LIPOSIGPTASE > GO:membrane ; GO:0016020
@@ -1932,9 +1904,6 @@ PRINTS:PR00828 FORMIN > GO:actin nucleation ; GO:0045010
 PRINTS:PR00828 FORMIN > GO:actin filament ; GO:0005884
 PRINTS:PR00829 LOLP1ALLERGN > GO:sexual reproduction ; GO:0019953
 PRINTS:PR00829 LOLP1ALLERGN > GO:extracellular region ; GO:0005576
-PRINTS:PR00830 ENDOLAPTASE > GO:ATP-dependent peptidase activity ; GO:0004176
-PRINTS:PR00830 ENDOLAPTASE > GO:serine-type endopeptidase activity ; GO:0004252
-PRINTS:PR00830 ENDOLAPTASE > GO:proteolysis ; GO:0006508
 PRINTS:PR00831 NEUROPHYSIN > GO:neurohypophyseal hormone activity ; GO:0005185
 PRINTS:PR00831 NEUROPHYSIN > GO:extracellular region ; GO:0005576
 PRINTS:PR00832 PAXILLIN > GO:cell-matrix adhesion ; GO:0007160
@@ -2138,9 +2107,6 @@ PRINTS:PR00941 CDATPASE > GO:cation transport ; GO:0006812
 PRINTS:PR00941 CDATPASE > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00944 CUEXPORT > GO:copper ion binding ; GO:0005507
 PRINTS:PR00944 CUEXPORT > GO:copper ion transport ; GO:0006825
-PRINTS:PR00945 HGRDTASE > GO:oxidoreductase activity ; GO:0016491
-PRINTS:PR00945 HGRDTASE > GO:flavin adenine dinucleotide binding ; GO:0050660
-PRINTS:PR00945 HGRDTASE > GO:oxidation-reduction process ; GO:0055114
 PRINTS:PR00946 HGSCAVENGER > GO:metal ion binding ; GO:0046872
 PRINTS:PR00947 CUTICLE > GO:structural constituent of cuticle ; GO:0042302
 PRINTS:PR00948 ELICITIN > GO:defense response ; GO:0006952
@@ -2345,9 +2311,6 @@ PRINTS:PR01021 OMPADOMAIN > GO:integral component of membrane ; GO:0016021
 PRINTS:PR01022 OUTRMMBRANEA > GO:structural molecule activity ; GO:0005198
 PRINTS:PR01022 OUTRMMBRANEA > GO:cell outer membrane ; GO:0009279
 PRINTS:PR01022 OUTRMMBRANEA > GO:integral component of membrane ; GO:0016021
-PRINTS:PR01023 NAFLGMOTY > GO:motor activity ; GO:0003774
-PRINTS:PR01023 NAFLGMOTY > GO:cilium or flagellum-dependent cell motility ; GO:0001539
-PRINTS:PR01023 NAFLGMOTY > GO:bacterial-type flagellum ; GO:0009288
 PRINTS:PR01024 NEUROKININ1R > GO:tachykinin receptor activity ; GO:0004995
 PRINTS:PR01024 NEUROKININ1R > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01024 NEUROKININ1R > GO:plasma membrane ; GO:0005886
@@ -2365,7 +2328,6 @@ PRINTS:PR01029 PENKAPRCRSR > GO:neuropeptide signaling pathway ; GO:0007218
 PRINTS:PR01030 PENKBPRCRSR > GO:neuropeptide signaling pathway ; GO:0007218
 PRINTS:PR01031 ORPHNNPRCRSR > GO:neuropeptide signaling pathway ; GO:0007218
 PRINTS:PR01031 ORPHNNPRCRSR > GO:synaptic transmission ; GO:0007268
-PRINTS:PR01032 PHAGEIV > GO:membrane ; GO:0016020
 PRINTS:PR01033 PHYTOCHROME > GO:regulation of transcription, DNA-templated ; GO:0006355
 PRINTS:PR01033 PHYTOCHROME > GO:detection of visible light ; GO:0009584
 PRINTS:PR01034 RIBOSOMALS12 > GO:structural constituent of ribosome ; GO:0003735
@@ -2472,9 +2434,6 @@ PRINTS:PR01066 P2Y4PRNOCPTR > GO:G-protein coupled purinergic nucleotide recepto
 PRINTS:PR01066 P2Y4PRNOCPTR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01066 P2Y4PRNOCPTR > GO:transepithelial chloride transport ; GO:0030321
 PRINTS:PR01066 P2Y4PRNOCPTR > GO:integral component of membrane ; GO:0016021
-PRINTS:PR01067 P2Y5ORPHANR > GO:G-protein coupled purinergic nucleotide receptor activity ; GO:0045028
-PRINTS:PR01067 P2Y5ORPHANR > GO:G-protein coupled purinergic nucleotide receptor signaling pathway ; GO:0035589
-PRINTS:PR01067 P2Y5ORPHANR > GO:integral component of membrane ; GO:0016021
 PRINTS:PR01068 P2Y6PRNOCPTR > GO:G-protein coupled purinergic nucleotide receptor activity ; GO:0045028
 PRINTS:PR01068 P2Y6PRNOCPTR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01068 P2Y6PRNOCPTR > GO:integral component of membrane ; GO:0016021
@@ -2744,9 +2703,6 @@ PRINTS:PR01155 VIP2RECEPTOR > GO:membrane ; GO:0016020
 PRINTS:PR01156 PACAPRECEPTR > GO:vasoactive intestinal polypeptide receptor activity ; GO:0004999
 PRINTS:PR01156 PACAPRECEPTR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01156 PACAPRECEPTR > GO:membrane ; GO:0016020
-PRINTS:PR01157 P2YPURNOCPTR > GO:G-protein coupled purinergic nucleotide receptor activity ; GO:0045028
-PRINTS:PR01157 P2YPURNOCPTR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
-PRINTS:PR01157 P2YPURNOCPTR > GO:integral component of membrane ; GO:0016021
 PRINTS:PR01158 TOPISMRASEII > GO:DNA binding ; GO:0003677
 PRINTS:PR01158 TOPISMRASEII > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
 PRINTS:PR01158 TOPISMRASEII > GO:ATP binding ; GO:0005524
@@ -3417,9 +3373,6 @@ PRINTS:PR01432 RABAPTIN > GO:GTPase activator activity ; GO:0005096
 PRINTS:PR01432 RABAPTIN > GO:endocytosis ; GO:0006897
 PRINTS:PR01433 POLYCYSTIN2 > GO:calcium ion binding ; GO:0005509
 PRINTS:PR01433 POLYCYSTIN2 > GO:membrane ; GO:0016020
-PRINTS:PR01434 NADHDHGNASE5 > GO:NADH dehydrogenase (ubiquinone) activity ; GO:0008137
-PRINTS:PR01434 NADHDHGNASE5 > GO:ATP synthesis coupled electron transport ; GO:0042773
-PRINTS:PR01434 NADHDHGNASE5 > GO:oxidation-reduction process ; GO:0055114
 PRINTS:PR01435 NPOXDRDTASE5 > GO:NADH dehydrogenase (ubiquinone) activity ; GO:0008137
 PRINTS:PR01435 NPOXDRDTASE5 > GO:ATP synthesis coupled electron transport ; GO:0042773
 PRINTS:PR01435 NPOXDRDTASE5 > GO:oxidation-reduction process ; GO:0055114
@@ -3682,10 +3635,6 @@ PRINTS:PR01535 VOMERONASL2R > GO:G-protein coupled receptor activity ; GO:000493
 PRINTS:PR01535 VOMERONASL2R > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01535 VOMERONASL2R > GO:integral component of membrane ; GO:0016021
 PRINTS:PR01536 INTRLKN1R12F > GO:interleukin-1 receptor activity ; GO:0004908
-PRINTS:PR01537 INTRLKN1R1F > GO:transmembrane signaling receptor activity ; GO:0004888
-PRINTS:PR01537 INTRLKN1R1F > GO:signal transduction ; GO:0007165
-PRINTS:PR01537 INTRLKN1R1F > GO:innate immune response ; GO:0045087
-PRINTS:PR01537 INTRLKN1R1F > GO:intrinsic component of membrane ; GO:0031224
 PRINTS:PR01538 INTRLEUKN1R1 > GO:interleukin-1, Type I, activating receptor activity ; GO:0004909
 PRINTS:PR01539 INTRLEUKN1R2 > GO:interleukin-1, Type II, blocking receptor activity ; GO:0004910
 PRINTS:PR01540 INTRLEUKN1BP > GO:interleukin-1 binding ; GO:0019966
@@ -4353,8 +4302,6 @@ PRINTS:PR01818 DESMOCADHERN > GO:calcium ion binding ; GO:0005509
 PRINTS:PR01818 DESMOCADHERN > GO:membrane ; GO:0016020
 PRINTS:PR01819 DESMOGLEIN > GO:calcium ion binding ; GO:0005509
 PRINTS:PR01819 DESMOGLEIN > GO:membrane ; GO:0016020
-PRINTS:PR01820 DESMOCOLLIN > GO:calcium ion binding ; GO:0005509
-PRINTS:PR01820 DESMOCOLLIN > GO:membrane ; GO:0016020
 PRINTS:PR01822 CCYSTOKININR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01822 CCYSTOKININR > GO:integral component of membrane ; GO:0016021
 PRINTS:PR01823 JANUSKINASE > GO:non-membrane spanning protein tyrosine kinase activity ; GO:0004715
@@ -4386,11 +4333,6 @@ PRINTS:PR01830 TRACEAMINER > GO:integral component of membrane ; GO:0016021
 PRINTS:PR01831 TRACEAMINE1R > GO:trace-amine receptor activity ; GO:0001594
 PRINTS:PR01831 TRACEAMINE1R > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01831 TRACEAMINE1R > GO:integral component of membrane ; GO:0016021
-PRINTS:PR01832 VEGFRECEPTOR > GO:transmembrane receptor protein tyrosine kinase activity ; GO:0004714
-PRINTS:PR01832 VEGFRECEPTOR > GO:ATP binding ; GO:0005524
-PRINTS:PR01832 VEGFRECEPTOR > GO:protein phosphorylation ; GO:0006468
-PRINTS:PR01832 VEGFRECEPTOR > GO:transmembrane receptor protein tyrosine kinase signaling pathway ; GO:0007169
-PRINTS:PR01832 VEGFRECEPTOR > GO:integral component of plasma membrane ; GO:0005887
 PRINTS:PR01833 VEGFRECEPTR1 > GO:vascular endothelial growth factor-activated receptor activity ; GO:0005021
 PRINTS:PR01833 VEGFRECEPTR1 > GO:ATP binding ; GO:0005524
 PRINTS:PR01833 VEGFRECEPTR1 > GO:protein phosphorylation ; GO:0006468

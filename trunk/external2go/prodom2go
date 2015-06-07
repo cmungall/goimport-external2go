@@ -1,4 +1,4 @@
-!version date: 2015/05/30 11:58:51
+!version date: 2015/06/06 12:06:14
 !description: Mapping of GO terms to PRODOM entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://prodom.prabi.fr/
 !citation: Mitchell et al. (2015) Nucl. Acids Res. 43 :D213-D221
@@ -684,6 +684,7 @@ ProDom:PD032475 DNA_pol_III_psi > GO:3'-5' exonuclease activity ; GO:0008408
 ProDom:PD032475 DNA_pol_III_psi > GO:DNA replication ; GO:0006260
 ProDom:PD032623 PD032623 > GO:apoptotic process ; GO:0006915
 ProDom:PD033720 DUF1047 > GO:sequence-specific DNA binding ; GO:0043565
+ProDom:PD034538 DUF2578 > GO:energy reserve metabolic process ; GO:0006112
 ProDom:PD035754 ZipA_Fts_Z_bd_C > GO:barrier septum assembly ; GO:0000917
 ProDom:PD035754 ZipA_Fts_Z_bd_C > GO:integral component of membrane ; GO:0016021
 ProDom:PD036923 Fibroin_P25 > GO:structural molecule activity ; GO:0005198
@@ -755,6 +756,11 @@ ProDom:PD057609 DNA_pol_III_theta_bac > GO:DNA-directed DNA polymerase activity 
 ProDom:PD057609 DNA_pol_III_theta_bac > GO:DNA replication ; GO:0006260
 ProDom:PD058881 Uncharacterised_YeiS > GO:integral component of membrane ; GO:0016021
 ProDom:PD059964 Phage_coat_B > GO:viral capsid ; GO:0019028
+ProDom:PD061703 Oligosaccharyl_Trfase_su_OST5 > GO:protein N-linked glycosylation ; GO:0006487
+ProDom:PD061703 Oligosaccharyl_Trfase_su_OST5 > GO:oligosaccharyltransferase complex ; GO:0008250
+ProDom:PD062190 A-agglutinin > GO:cell adhesion molecule binding ; GO:0050839
+ProDom:PD062190 A-agglutinin > GO:agglutination involved in conjugation with cellular fusion ; GO:0000752
+ProDom:PD062190 A-agglutinin > GO:fungal-type cell wall ; GO:0009277
 ProDom:PD062760 Meiosis-expressed_gene_1 > GO:nucleus ; GO:0005634
 ProDom:PD063605 Epsilon_antitox > GO:toxic substance binding ; GO:0015643
 ProDom:PD063605 Epsilon_antitox > GO:response to toxic substance ; GO:0009636
@@ -768,6 +774,8 @@ ProDom:PD068053 DUF1938 > GO:cytoplasm ; GO:0005737
 ProDom:PD068438 Antimic_MiAMP1 > GO:defense response ; GO:0006952
 ProDom:PD068438 Antimic_MiAMP1 > GO:negative regulation of growth ; GO:0045926
 ProDom:PD068630 Inner_membrane_protein_YaiY > GO:integral component of membrane ; GO:0016021
+ProDom:PD068652 Uncharacterised_YNL300W > GO:fungal-type cell wall ; GO:0009277
+ProDom:PD068654 Uncharacterised_YNL086W > GO:BLOC-1 complex ; GO:0031083
 ProDom:PD069311 Transcription_reg_protein_PrtN > GO:regulation of transcription, DNA-templated ; GO:0006355
 ProDom:PD069352 Ribosomal_L6_chp > GO:structural constituent of ribosome ; GO:0003735
 ProDom:PD069352 Ribosomal_L6_chp > GO:rRNA binding ; GO:0019843
@@ -783,10 +791,19 @@ ProDom:PD079544 Cend1 > GO:integral component of membrane ; GO:0016021
 ProDom:PD080544 Ectoine_synth > GO:ectoine synthase activity ; GO:0033990
 ProDom:PD080544 Ectoine_synth > GO:ectoine biosynthetic process ; GO:0019491
 ProDom:PD081346 Transcription_activatory_CaiF > GO:transcription, DNA-templated ; GO:0006351
+ProDom:PD082524 Ribonucleases_P/MRP_su_POP8 > GO:mRNA cleavage ; GO:0006379
+ProDom:PD082524 Ribonucleases_P/MRP_su_POP8 > GO:tRNA processing ; GO:0008033
+ProDom:PD082524 Ribonucleases_P/MRP_su_POP8 > GO:ribonuclease MRP complex ; GO:0000172
+ProDom:PD082524 Ribonucleases_P/MRP_su_POP8 > GO:nucleolar ribonuclease P complex ; GO:0005655
 ProDom:PD082580 Heparin-binding_haemagglutinin > GO:heparin binding ; GO:0008201
 ProDom:PD082580 Heparin-binding_haemagglutinin > GO:cell adhesion ; GO:0007155
 ProDom:PD082580 Heparin-binding_haemagglutinin > GO:pathogenesis ; GO:0009405
 ProDom:PD082580 Heparin-binding_haemagglutinin > GO:cell surface ; GO:0009986
+ProDom:PD082765 Facilitator_of_iron_transp_2 > GO:siderophore transport ; GO:0015891
+ProDom:PD082765 Facilitator_of_iron_transp_2 > GO:fungal-type cell wall ; GO:0009277
+ProDom:PD086658 COMPASS_Shg1 > GO:histone H3-K4 methylation ; GO:0051568
+ProDom:PD086658 COMPASS_Shg1 > GO:nucleus ; GO:0005634
+ProDom:PD086658 COMPASS_Shg1 > GO:Set1C/COMPASS complex ; GO:0048188
 ProDom:PD089227 SecM > GO:translation regulator activity ; GO:0045182
 ProDom:PD089639 Swi3 > GO:cellular response to DNA damage stimulus ; GO:0006974
 ProDom:PD089639 Swi3 > GO:cell cycle ; GO:0007049
@@ -800,11 +817,22 @@ ProDom:PD090491 Sig_lymph_act_molc_N > GO:cell surface ; GO:0009986
 ProDom:PD090491 Sig_lymph_act_molc_N > GO:integral component of membrane ; GO:0016021
 ProDom:PD092055 Replicatn_endonuclease_C_phage > GO:hydrolase activity, acting on ester bonds ; GO:0016788
 ProDom:PD092472 IM_protein_CbrB > GO:integral component of membrane ; GO:0016021
+ProDom:PD093696 RNase_P/MRP_su-POP6 > GO:rRNA processing ; GO:0006364
+ProDom:PD093696 RNase_P/MRP_su-POP6 > GO:tRNA processing ; GO:0008033
+ProDom:PD093696 RNase_P/MRP_su-POP6 > GO:ribonuclease MRP complex ; GO:0000172
+ProDom:PD093696 RNase_P/MRP_su-POP6 > GO:nucleolar ribonuclease P complex ; GO:0005655
+ProDom:PD095271 COP9_signalosome_su9 > GO:adaptation of signaling pathway by response to pheromone involved in conjugation with cellular fusion ; GO:0000754
+ProDom:PD095271 COP9_signalosome_su9 > GO:cullin deneddylation ; GO:0010388
 ProDom:PD095271 COP9_signalosome_su9 > GO:COP9 signalosome ; GO:0008180
+ProDom:PD095317 GSE/EGO_complex_su-SLM4 > GO:signal transduction ; GO:0007165
+ProDom:PD095317 GSE/EGO_complex_su-SLM4 > GO:microautophagy ; GO:0016237
+ProDom:PD095317 GSE/EGO_complex_su-SLM4 > GO:EGO complex ; GO:0034448
 ProDom:PD097062 Zn_resistance-assoc_prot_ZraP > GO:zinc ion binding ; GO:0008270
 ProDom:PD097062 Zn_resistance-assoc_prot_ZraP > GO:periplasmic space ; GO:0042597
 ProDom:PD097636 hSer_lactone_synthase_LuxM_N > GO:transferase activity, transferring acyl groups other than amino-acyl groups ; GO:0016747
 ProDom:PD100605 Ribosomal_mat_Alb1 > GO:ribosomal large subunit biogenesis ; GO:0042273
+ProDom:PD106560 DUF2702 > GO:ribosomal small subunit biogenesis ; GO:0042274
+ProDom:PD106560 DUF2702 > GO:90S preribosome ; GO:0030686
 ProDom:PD119415 PD119415 > GO:protein-glutamine gamma-glutamyltransferase activity ; GO:0003810
 ProDom:PD120112 UPF0257 > GO:plasma membrane ; GO:0005886
 ProDom:PD135861 DUF_CsiD > GO:iron ion binding ; GO:0005506
@@ -911,6 +939,9 @@ ProDom:PD736966 Ergtoxin > GO:extracellular region ; GO:0005576
 ProDom:PD786889 PD786889 > GO:orexigenic neuropeptide QRFP receptor binding ; GO:0031854
 ProDom:PD865043 PD865043 > GO:biofilm formation ; GO:0042710
 ProDom:PD865043 PD865043 > GO:cellular response to acid chemical ; GO:0071229
+ProDom:PD871282 Autophagy-related_protein_14 > GO:macroautophagy ; GO:0016236
+ProDom:PD873208 CRC_RSC_Rsc14 > GO:ATP-dependent chromatin remodeling ; GO:0043044
+ProDom:PD873208 CRC_RSC_Rsc14 > GO:RSC complex ; GO:0016586
 ProDom:PD874489 Scorpion_calcine > GO:calcium channel inhibitor activity ; GO:0019855
 ProDom:PD874489 Scorpion_calcine > GO:pathogenesis ; GO:0009405
 ProDom:PD874489 Scorpion_calcine > GO:extracellular region ; GO:0005576

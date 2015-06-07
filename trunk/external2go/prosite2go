@@ -1,4 +1,4 @@
-!version date: 2015/05/30 11:59:53
+!version date: 2015/06/06 12:06:14
 !description: Mapping of GO terms to PROSITE entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://www.expasy.org/prosite/
 !citation: Mitchell et al. (2015) Nucl. Acids Res. 43 :D213-D221
@@ -592,10 +592,6 @@ PROSITE:PS00397 RECOMBINASES_1 > GO:recombinase activity ; GO:0000150
 PROSITE:PS00397 RECOMBINASES_1 > GO:DNA recombination ; GO:0006310
 PROSITE:PS00398 RECOMBINASES_2 > GO:recombinase activity ; GO:0000150
 PROSITE:PS00398 RECOMBINASES_2 > GO:DNA recombination ; GO:0006310
-PROSITE:PS00399 SUCCINYL_COA_LIG_2 > GO:catalytic activity ; GO:0003824
-PROSITE:PS00399 SUCCINYL_COA_LIG_2 > GO:ATP citrate synthase activity ; GO:0003878
-PROSITE:PS00399 SUCCINYL_COA_LIG_2 > GO:succinate-CoA ligase (ADP-forming) activity ; GO:0004775
-PROSITE:PS00399 SUCCINYL_COA_LIG_2 > GO:metabolic process ; GO:0008152
 PROSITE:PS00400 LBP_BPI_CETP > GO:lipid binding ; GO:0008289
 PROSITE:PS00401 PROK_SULFATE_BIND_1 > GO:secondary active sulfate transmembrane transporter activity ; GO:0008271
 PROSITE:PS00401 PROK_SULFATE_BIND_1 > GO:sulfate transport ; GO:0008272
@@ -1671,8 +1667,7 @@ PROSITE:PS01027 GLYCOSYL_HYDROL_F39 > GO:hydrolase activity, hydrolyzing O-glyco
 PROSITE:PS01027 GLYCOSYL_HYDROL_F39 > GO:carbohydrate metabolic process ; GO:0005975
 PROSITE:PS01028 DEHYDROQUINASE_I > GO:3-dehydroquinate dehydratase activity ; GO:0003855
 PROSITE:PS01029 DEHYDROQUINASE_II > GO:3-dehydroquinate dehydratase activity ; GO:0003855
-PROSITE:PS01032 PPM_1 > GO:protein serine/threonine phosphatase activity ; GO:0004722
-PROSITE:PS01032 PPM_1 > GO:protein dephosphorylation ; GO:0006470
+PROSITE:PS01032 PPM_1 > GO:cation binding ; GO:0043169
 PROSITE:PS01033 GLOBIN > GO:iron ion binding ; GO:0005506
 PROSITE:PS01033 GLOBIN > GO:heme binding ; GO:0020037
 PROSITE:PS01034 GLYCOSYL_HYDROL_F16 > GO:hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553
@@ -2310,8 +2305,6 @@ PROSITE:PS50110 RESPONSE_REGULATORY > GO:phosphorelay signal transduction system
 PROSITE:PS50111 CHEMOTAXIS_TRANSDUC_2 > GO:signal transducer activity ; GO:0004871
 PROSITE:PS50111 CHEMOTAXIS_TRANSDUC_2 > GO:signal transduction ; GO:0007165
 PROSITE:PS50111 CHEMOTAXIS_TRANSDUC_2 > GO:membrane ; GO:0016020
-PROSITE:PS50112 PAS > GO:signal transducer activity ; GO:0004871
-PROSITE:PS50112 PAS > GO:signal transduction ; GO:0007165
 PROSITE:PS50113 PAC > GO:phosphorelay sensor kinase activity ; GO:0000155
 PROSITE:PS50113 PAC > GO:phosphorelay signal transduction system ; GO:0000160
 PROSITE:PS50114 GATA_ZN_FINGER_2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
@@ -3242,9 +3235,9 @@ PROSITE:PS51421 RAS > GO:membrane ; GO:0016020
 PROSITE:PS51422 SAR1 > GO:GTP binding ; GO:0005525
 PROSITE:PS51422 SAR1 > GO:intracellular protein transport ; GO:0006886
 PROSITE:PS51422 SAR1 > GO:intracellular ; GO:0005622
+PROSITE:PS51423 MIRO > GO:GTPase activity ; GO:0003924
 PROSITE:PS51423 MIRO > GO:GTP binding ; GO:0005525
 PROSITE:PS51423 MIRO > GO:small GTPase mediated signal transduction ; GO:0007264
-PROSITE:PS51423 MIRO > GO:intracellular ; GO:0005622
 PROSITE:PS51426 ABL > GO:protein histidine kinase activity ; GO:0004673
 PROSITE:PS51426 ABL > GO:signal transducer activity ; GO:0004871
 PROSITE:PS51426 ABL > GO:ATP binding ; GO:0005524
@@ -3343,6 +3336,8 @@ PROSITE:PS51510 PHOSPHAGEN_KINASE_C > GO:kinase activity ; GO:0016301
 PROSITE:PS51510 PHOSPHAGEN_KINASE_C > GO:transferase activity, transferring phosphorus-containing groups ; GO:0016772
 PROSITE:PS51515 BIN3_SAM > GO:methyltransferase activity ; GO:0008168
 PROSITE:PS51517 NDT80 > GO:DNA binding ; GO:0003677
+PROSITE:PS51521 HTUSP > GO:peptidase activity ; GO:0008233
+PROSITE:PS51521 HTUSP > GO:proteolysis ; GO:0006508
 PROSITE:PS51526 RFX_DBD > GO:DNA binding ; GO:0003677
 PROSITE:PS51526 RFX_DBD > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51527 FLAVIVIRUS_NS2B > GO:serine-type endopeptidase activity ; GO:0004252
@@ -3402,6 +3397,9 @@ PROSITE:PS51577 SAM_MT43_SET7 > GO:chromosome ; GO:0005694
 PROSITE:PS51579 SAM_MT43_SUVAR39_3 > GO:histone-lysine N-methyltransferase activity ; GO:0018024
 PROSITE:PS51579 SAM_MT43_SUVAR39_3 > GO:histone lysine methylation ; GO:0034968
 PROSITE:PS51579 SAM_MT43_SUVAR39_3 > GO:nucleus ; GO:0005634
+PROSITE:PS51581 SAM_GTMT > GO:2-methyl-6-phytyl-1,4-benzoquinone methyltransferase activity ; GO:0051741
+PROSITE:PS51581 SAM_GTMT > GO:vitamin E biosynthetic process ; GO:0010189
+PROSITE:PS51581 SAM_GTMT > GO:methylation ; GO:0032259
 PROSITE:PS51582 SAM_PEAMT > GO:phosphoethanolamine N-methyltransferase activity ; GO:0000234
 PROSITE:PS51582 SAM_PEAMT > GO:phosphatidylcholine biosynthetic process ; GO:0006656
 PROSITE:PS51583 SAM_MT127 > GO:[ribulose-bisphosphate carboxylase]-lysine N-methyltransferase activity ; GO:0030785
@@ -3432,6 +3430,8 @@ PROSITE:PS51620 SAM_TRM61 > GO:tRNA methylation ; GO:0030488
 PROSITE:PS51620 SAM_TRM61 > GO:tRNA (m1A) methyltransferase complex ; GO:0031515
 PROSITE:PS51622 SAM_MT_RNA_M5U_2 > GO:S-adenosylmethionine-dependent tRNA (m5U54) methyltransferase activity ; GO:0030697
 PROSITE:PS51622 SAM_MT_RNA_M5U_2 > GO:tRNA processing ; GO:0008033
+PROSITE:PS51623 SAM_MT_TRMH_1 > GO:tRNA (guanine) methyltransferase activity ; GO:0016423
+PROSITE:PS51623 SAM_MT_TRMH_1 > GO:tRNA methylation ; GO:0030488
 PROSITE:PS51625 SAM_MT_TRMB > GO:tRNA (guanine-N7-)-methyltransferase activity ; GO:0008176
 PROSITE:PS51625 SAM_MT_TRMB > GO:tRNA modification ; GO:0006400
 PROSITE:PS51626 SAM_MT_TRM1 > GO:RNA binding ; GO:0003723
@@ -3446,7 +3446,6 @@ PROSITE:PS51658 BFN > GO:nuclease activity ; GO:0004518
 PROSITE:PS51662 BP_PHYTASE > GO:3-phytase activity ; GO:0016158
 PROSITE:PS51663 STATHMIN_3 > GO:regulation of microtubule polymerization or depolymerization ; GO:0031110
 PROSITE:PS51666 QLQ > GO:ATP binding ; GO:0005524
-PROSITE:PS51666 QLQ > GO:hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides ; GO:0016818
 PROSITE:PS51666 QLQ > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS51666 QLQ > GO:nucleus ; GO:0005634
 PROSITE:PS51669 4FE4S_MOW_BIS_MGD > GO:oxidoreductase activity ; GO:0016491
@@ -3483,7 +3482,9 @@ PROSITE:PS51704 GP_PDE > GO:phosphoric diester hydrolase activity ; GO:0008081
 PROSITE:PS51704 GP_PDE > GO:lipid metabolic process ; GO:0006629
 PROSITE:PS51705 G_HFLX > GO:GTP binding ; GO:0005525
 PROSITE:PS51706 G_ENGB > GO:GTP binding ; GO:0005525
+PROSITE:PS51710 G_OBG > GO:GTP binding ; GO:0005525
 PROSITE:PS51711 G_FEOB > GO:GTP binding ; GO:0005525
+PROSITE:PS51712 G_ENGA > GO:GTP binding ; GO:0005525
 PROSITE:PS51713 G_ERA > GO:GTP binding ; GO:0005525
 PROSITE:PS51715 G_GB1_RHD3 > GO:GTP binding ; GO:0005525
 PROSITE:PS51716 G_IRG > GO:GTP binding ; GO:0005525
@@ -3496,20 +3497,24 @@ PROSITE:PS51722 G_TR_2 > GO:GTPase activity ; GO:0003924
 PROSITE:PS51722 G_TR_2 > GO:GTP binding ; GO:0005525
 PROSITE:PS51726 MYST_HAT > GO:transferase activity, transferring acyl groups other than amino-acyl groups ; GO:0016747
 PROSITE:PS51726 MYST_HAT > GO:regulation of transcription, DNA-templated ; GO:0006355
-PROSITE:PS51726 MYST_HAT > GO:nucleus ; GO:0005634
 PROSITE:PS51728 RTT109_HAT > GO:H3 histone acetyltransferase activity ; GO:0010484
 PROSITE:PS51728 RTT109_HAT > GO:histone acetylation ; GO:0016573
 PROSITE:PS51728 RTT109_HAT > GO:regulation of transcription from RNA polymerase II promoter in response to stress ; GO:0043618
 PROSITE:PS51728 RTT109_HAT > GO:nucleus ; GO:0005634
 PROSITE:PS51730 GNAT_ATAT > GO:tubulin N-acetyltransferase activity ; GO:0019799
 PROSITE:PS51730 GNAT_ATAT > GO:alpha-tubulin acetylation ; GO:0071929
+PROSITE:PS51730 GNAT_ATAT > GO:microtubule ; GO:0005874
 PROSITE:PS51732 ASN_GLN_ASE_3 > GO:cellular amino acid metabolic process ; GO:0006520
 PROSITE:PS51733 BPL_LPL_CATALYTIC > GO:cellular protein modification process ; GO:0006464
+PROSITE:PS51734 SAM_MPBQ_MSBQ_MT > GO:methylation ; GO:0032259
 PROSITE:PS51736 RECOMBINASES_3 > GO:recombinase activity ; GO:0000150
 PROSITE:PS51736 RECOMBINASES_3 > GO:DNA binding ; GO:0003677
 PROSITE:PS51736 RECOMBINASES_3 > GO:DNA recombination ; GO:0006310
-PROSITE:PS51738 PEPTIDASE_C21 > GO:RNA-directed RNA polymerase activity ; GO:0003968
+PROSITE:PS51737 RECOMBINASE_DNA_BIND > GO:recombinase activity ; GO:0000150
+PROSITE:PS51737 RECOMBINASE_DNA_BIND > GO:DNA binding ; GO:0003677
+PROSITE:PS51738 PEPTIDASE_C21 > GO:cysteine-type endopeptidase activity ; GO:0004197
 PROSITE:PS51738 PEPTIDASE_C21 > GO:viral process ; GO:0016032
+PROSITE:PS51740 SPOVT_ABRB > GO:DNA binding ; GO:0003677
 PROSITE:PS51743 ALPHAVIRUS_MT > GO:RNA binding ; GO:0003723
 PROSITE:PS51743 ALPHAVIRUS_MT > GO:mRNA methyltransferase activity ; GO:0008174
 PROSITE:PS51743 ALPHAVIRUS_MT > GO:RNA processing ; GO:0006396
@@ -3518,9 +3523,12 @@ PROSITE:PS51745 PB1 > GO:protein binding ; GO:0005515
 PROSITE:PS51746 PPM_2 > GO:catalytic activity ; GO:0003824
 PROSITE:PS51747 CYT_DCMP_DEAMINASES_2 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS51747 CYT_DCMP_DEAMINASES_2 > GO:hydrolase activity ; GO:0016787
+PROSITE:PS51748 HEXOKINASE_2 > GO:hexokinase activity ; GO:0004396
 PROSITE:PS51748 HEXOKINASE_2 > GO:ATP binding ; GO:0005524
-PROSITE:PS51748 HEXOKINASE_2 > GO:phosphotransferase activity, alcohol group as acceptor ; GO:0016773
+PROSITE:PS51748 HEXOKINASE_2 > GO:glucose binding ; GO:0005536
+PROSITE:PS51748 HEXOKINASE_2 > GO:cellular glucose homeostasis ; GO:0001678
 PROSITE:PS51748 HEXOKINASE_2 > GO:carbohydrate metabolic process ; GO:0005975
+PROSITE:PS51748 HEXOKINASE_2 > GO:carbohydrate phosphorylation ; GO:0046835
 PROSITE:PS60000 CHITOSANASE_46_80 > GO:chitosanase activity ; GO:0016977
 PROSITE:PS60000 CHITOSANASE_46_80 > GO:carbohydrate metabolic process ; GO:0005975
 PROSITE:PS60000 CHITOSANASE_46_80 > GO:extracellular region ; GO:0005576

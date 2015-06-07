@@ -1,4 +1,4 @@
-!version date: 2015/05/30 11:58:51
+!version date: 2015/06/06 12:06:14
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation: Mitchell et al. (2015) Nucl. Acids Res. 43 :D213-D221
@@ -601,6 +601,7 @@ PRINTS:PR00280 CHANLCOLICIN > GO:cytolysis ; GO:0019835
 PRINTS:PR00280 CHANLCOLICIN > GO:defense response to Gram-negative bacterium ; GO:0050829
 PRINTS:PR00280 CHANLCOLICIN > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00281 HOKGEFTOXIC > GO:membrane ; GO:0016020
+PRINTS:PR00282 CYTOTOXIN > GO:pathogenesis ; GO:0009405
 PRINTS:PR00282 CYTOTOXIN > GO:extracellular region ; GO:0005576
 PRINTS:PR00283 MYOTOXIN > GO:envenomation resulting in occlusion of the pore of voltage-gated potassium channel in other organism ; GO:0044564
 PRINTS:PR00286 CHARYBDTOXIN > GO:ion channel inhibitor activity ; GO:0008200
@@ -832,8 +833,6 @@ PRINTS:PR00418 TPI2FAMILY > GO:DNA binding ; GO:0003677
 PRINTS:PR00418 TPI2FAMILY > GO:DNA topoisomerase type II (ATP-hydrolyzing) activity ; GO:0003918
 PRINTS:PR00418 TPI2FAMILY > GO:ATP binding ; GO:0005524
 PRINTS:PR00418 TPI2FAMILY > GO:DNA topological change ; GO:0006265
-PRINTS:PR00420 RNGMNOXGNASE > GO:oxidoreductase activity ; GO:0016491
-PRINTS:PR00420 RNGMNOXGNASE > GO:metabolic process ; GO:0008152
 PRINTS:PR00423 CELLDVISFTSZ > GO:GTP binding ; GO:0005525
 PRINTS:PR00424 ADENOSINER > GO:G-protein coupled adenosine receptor activity ; GO:0001609
 PRINTS:PR00424 ADENOSINER > GO:adenosine receptor signaling pathway ; GO:0001973
@@ -1369,9 +1368,6 @@ PRINTS:PR00595 P2Y1PRNOCPTR > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00597 GELSOLIN > GO:actin binding ; GO:0003779
 PRINTS:PR00598 HTHMARR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
 PRINTS:PR00598 HTHMARR > GO:regulation of transcription, DNA-templated ; GO:0006355
-PRINTS:PR00599 MAPEPTIDASE > GO:aminopeptidase activity ; GO:0004177
-PRINTS:PR00599 MAPEPTIDASE > GO:metalloexopeptidase activity ; GO:0008235
-PRINTS:PR00599 MAPEPTIDASE > GO:proteolysis ; GO:0006508
 PRINTS:PR00600 PP2APR55 > GO:protein phosphatase type 2A regulator activity ; GO:0008601
 PRINTS:PR00600 PP2APR55 > GO:signal transduction ; GO:0007165
 PRINTS:PR00600 PP2APR55 > GO:protein phosphatase type 2A complex ; GO:0000159
@@ -4289,11 +4285,13 @@ PRINTS:PR01812 ANNEXINXXXI > GO:calcium ion binding ; GO:0005509
 PRINTS:PR01812 ANNEXINXXXI > GO:calcium-dependent phospholipid binding ; GO:0005544
 PRINTS:PR01815 BACEFAMILY > GO:aspartic-type endopeptidase activity ; GO:0004190
 PRINTS:PR01815 BACEFAMILY > GO:proteolysis ; GO:0006508
+PRINTS:PR01815 BACEFAMILY > GO:integral component of membrane ; GO:0016021
 PRINTS:PR01816 BACE1 > GO:aspartic-type endopeptidase activity ; GO:0004190
 PRINTS:PR01816 BACE1 > GO:proteolysis ; GO:0006508
+PRINTS:PR01816 BACE1 > GO:integral component of membrane ; GO:0016021
 PRINTS:PR01817 BACE2 > GO:aspartic-type endopeptidase activity ; GO:0004190
-PRINTS:PR01817 BACE2 > GO:membrane protein ectodomain proteolysis ; GO:0006509
-PRINTS:PR01817 BACE2 > GO:Golgi apparatus ; GO:0005794
+PRINTS:PR01817 BACE2 > GO:proteolysis ; GO:0006508
+PRINTS:PR01817 BACE2 > GO:integral component of membrane ; GO:0016021
 PRINTS:PR01818 DESMOCADHERN > GO:calcium ion binding ; GO:0005509
 PRINTS:PR01818 DESMOCADHERN > GO:membrane ; GO:0016020
 PRINTS:PR01819 DESMOGLEIN > GO:calcium ion binding ; GO:0005509
@@ -4568,6 +4566,8 @@ PRINTS:PR02011 RCMTNCL1 > GO:tRNA (cytosine-5-)-methyltransferase activity ; GO:
 PRINTS:PR02012 RCMTNOP2 > GO:methyltransferase activity ; GO:0008168
 PRINTS:PR02022 AQUAPORIN10M > GO:water transport ; GO:0006833
 PRINTS:PR02022 AQUAPORIN10M > GO:integral component of membrane ; GO:0016021
+PRINTS:PR02030 AUTOPHGYRP14 > GO:macroautophagy ; GO:0016236
+PRINTS:PR02039 SPLICEFRBRR1 > GO:small nuclear ribonucleoprotein complex ; GO:0030532
 PRINTS:PR02050 B14GALTRFASE > GO:transferase activity, transferring glycosyl groups ; GO:0016757
 PRINTS:PR02050 B14GALTRFASE > GO:carbohydrate metabolic process ; GO:0005975
 PRINTS:PR02059 JAGGEDFAMILY > GO:Notch binding ; GO:0005112

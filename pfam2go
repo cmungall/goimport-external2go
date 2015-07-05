@@ -1,4 +1,4 @@
-!version date: 2015/06/27 12:14:25
+!version date: 2015/07/04 12:40:35
 !description: Mapping of GO terms to Pfam entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pfam.sanger.ac.uk/
 !citation: Mitchell et al. (2015) Nucl. Acids Res. 43 :D213-D221
@@ -511,7 +511,6 @@ Pfam:PF00309 Sigma54_AID > GO:DNA-directed RNA polymerase activity ; GO:0003899
 Pfam:PF00309 Sigma54_AID > GO:sigma factor activity ; GO:0016987
 Pfam:PF00309 Sigma54_AID > GO:DNA-templated transcription, initiation ; GO:0006352
 Pfam:PF00309 Sigma54_AID > GO:regulation of transcription, DNA-templated ; GO:0006355
-Pfam:PF00310 GATase_2 > GO:metabolic process ; GO:0008152
 Pfam:PF00311 PEPcase > GO:phosphoenolpyruvate carboxylase activity ; GO:0008964
 Pfam:PF00311 PEPcase > GO:tricarboxylic acid cycle ; GO:0006099
 Pfam:PF00311 PEPcase > GO:carbon fixation ; GO:0015977
@@ -546,9 +545,8 @@ Pfam:PF00323 Defensin_1 > GO:extracellular region ; GO:0005576
 Pfam:PF00324 AA_permease > GO:transport ; GO:0006810
 Pfam:PF00324 AA_permease > GO:transmembrane transport ; GO:0055085
 Pfam:PF00324 AA_permease > GO:membrane ; GO:0016020
-Pfam:PF00325 Crp > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+Pfam:PF00325 Crp > GO:DNA binding ; GO:0003677
 Pfam:PF00325 Crp > GO:regulation of transcription, DNA-templated ; GO:0006355
-Pfam:PF00325 Crp > GO:intracellular ; GO:0005622
 Pfam:PF00326 Peptidase_S9 > GO:serine-type peptidase activity ; GO:0008236
 Pfam:PF00326 Peptidase_S9 > GO:proteolysis ; GO:0006508
 Pfam:PF00328 His_Phos_2 > GO:acid phosphatase activity ; GO:0003993
@@ -2171,8 +2169,6 @@ Pfam:PF01297 ZnuA > GO:metal ion transport ; GO:0030001
 Pfam:PF01298 Lipoprotein_5 > GO:membrane ; GO:0016020
 Pfam:PF01299 Lamp > GO:membrane ; GO:0016020
 Pfam:PF01300 Sua5_yciO_yrdC > GO:double-stranded RNA binding ; GO:0003725
-Pfam:PF01301 Glyco_hydro_35 > GO:hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553
-Pfam:PF01301 Glyco_hydro_35 > GO:carbohydrate metabolic process ; GO:0005975
 Pfam:PF01303 Egg_lysin > GO:single fertilization ; GO:0007338
 Pfam:PF01304 Gas_vesicle_C > GO:gas vesicle organization ; GO:0031412
 Pfam:PF01304 Gas_vesicle_C > GO:gas vesicle ; GO:0031411
@@ -3040,11 +3036,6 @@ Pfam:PF01918 Alba > GO:nucleic acid binding ; GO:0003676
 Pfam:PF01920 Prefoldin_2 > GO:unfolded protein binding ; GO:0051082
 Pfam:PF01920 Prefoldin_2 > GO:protein folding ; GO:0006457
 Pfam:PF01920 Prefoldin_2 > GO:prefoldin complex ; GO:0016272
-Pfam:PF01921 tRNA-synt_1f > GO:nucleotide binding ; GO:0000166
-Pfam:PF01921 tRNA-synt_1f > GO:lysine-tRNA ligase activity ; GO:0004824
-Pfam:PF01921 tRNA-synt_1f > GO:ATP binding ; GO:0005524
-Pfam:PF01921 tRNA-synt_1f > GO:lysyl-tRNA aminoacylation ; GO:0006430
-Pfam:PF01921 tRNA-synt_1f > GO:cytoplasm ; GO:0005737
 Pfam:PF01922 SRP19 > GO:7S RNA binding ; GO:0008312
 Pfam:PF01922 SRP19 > GO:SRP-dependent cotranslational protein targeting to membrane ; GO:0006614
 Pfam:PF01922 SRP19 > GO:signal recognition particle ; GO:0048500
@@ -3439,9 +3430,6 @@ Pfam:PF02236 Viral_DNA_bi > GO:DNA replication ; GO:0006260
 Pfam:PF02236 Viral_DNA_bi > GO:transcription, DNA-templated ; GO:0006351
 Pfam:PF02236 Viral_DNA_bi > GO:host cell nucleus ; GO:0042025
 Pfam:PF02237 BPL_C > GO:cellular protein modification process ; GO:0006464
-Pfam:PF02238 COX7a > GO:cytochrome-c oxidase activity ; GO:0004129
-Pfam:PF02238 COX7a > GO:electron carrier activity ; GO:0009055
-Pfam:PF02238 COX7a > GO:mitochondrial respiratory chain ; GO:0005746
 Pfam:PF02240 MCR_gamma > GO:coenzyme-B sulfoethylthiotransferase activity ; GO:0050524
 Pfam:PF02240 MCR_gamma > GO:methanogenesis ; GO:0015948
 Pfam:PF02241 MCR_beta > GO:coenzyme-B sulfoethylthiotransferase activity ; GO:0050524
@@ -6171,8 +6159,7 @@ Pfam:PF04904 NCD1 > GO:negative regulation of transcription, DNA-templated ; GO:
 Pfam:PF04904 NCD1 > GO:nucleus ; GO:0005634
 Pfam:PF04905 NCD2 > GO:negative regulation of transcription, DNA-templated ; GO:0045892
 Pfam:PF04905 NCD2 > GO:nucleus ; GO:0005634
-Pfam:PF04909 Amidohydro_2 > GO:catalytic activity ; GO:0003824
-Pfam:PF04909 Amidohydro_2 > GO:metabolic process ; GO:0008152
+Pfam:PF04909 Amidohydro_2 > GO:hydrolase activity ; GO:0016787
 Pfam:PF04911 ATP-synt_J > GO:hydrogen ion transmembrane transporter activity ; GO:0015078
 Pfam:PF04911 ATP-synt_J > GO:ATP synthesis coupled proton transport ; GO:0015986
 Pfam:PF04911 ATP-synt_J > GO:proton-transporting ATP synthase complex, coupling factor F(o) ; GO:0045263
@@ -9275,6 +9262,9 @@ Pfam:PF09458 H_lectin > GO:carbohydrate binding ; GO:0030246
 Pfam:PF09458 H_lectin > GO:cell adhesion ; GO:0007155
 Pfam:PF09459 EB_dh > GO:heme binding ; GO:0020037
 Pfam:PF09468 RNase_H2-Ydr279 > GO:nucleus ; GO:0005634
+Pfam:PF09472 MtrF > GO:tetrahydromethanopterin S-methyltransferase activity ; GO:0030269
+Pfam:PF09472 MtrF > GO:methanogenesis ; GO:0015948
+Pfam:PF09472 MtrF > GO:membrane ; GO:0016020
 Pfam:PF09477 Type_III_YscG > GO:pathogenesis ; GO:0009405
 Pfam:PF09478 CBM49 > GO:carbohydrate binding ; GO:0030246
 Pfam:PF09480 PrgH > GO:integral component of membrane ; GO:0016021
@@ -9990,7 +9980,6 @@ Pfam:PF13508 Acetyltransf_7 > GO:N-acetyltransferase activity ; GO:0008080
 Pfam:PF13520 AA_permease_2 > GO:amino acid transmembrane transporter activity ; GO:0015171
 Pfam:PF13520 AA_permease_2 > GO:amino acid transmembrane transport ; GO:0003333
 Pfam:PF13520 AA_permease_2 > GO:membrane ; GO:0016020
-Pfam:PF13537 GATase_7 > GO:metabolic process ; GO:0008152
 Pfam:PF13580 SIS_2 > GO:carbohydrate binding ; GO:0030246
 Pfam:PF13580 SIS_2 > GO:carbohydrate metabolic process ; GO:0005975
 Pfam:PF13603 tRNA-synt_1_2 > GO:aminoacyl-tRNA editing activity ; GO:0002161

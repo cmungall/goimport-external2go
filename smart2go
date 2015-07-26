@@ -1,4 +1,4 @@
-!version date: 2015/07/18 11:51:28
+!version date: 2015/07/25 12:33:49
 !description: Mapping of GO terms to SMART entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://smart.embl-heidelberg.de/
 !citation: Mitchell et al. (2015) Nucl. Acids Res. 43 :D213-D221
@@ -69,7 +69,7 @@ SMART:SM00061 MATH > GO:protein binding ; GO:0005515
 SMART:SM00063 FRI > GO:protein binding ; GO:0005515
 SMART:SM00064 FYVE > GO:metal ion binding ; GO:0046872
 SMART:SM00065 GAF > GO:protein binding ; GO:0005515
-SMART:SM00066 GAL4 > GO:sequence-specific DNA binding RNA polymerase II transcription factor activity ; GO:0000981
+SMART:SM00066 GAL4 > GO:RNA polymerase II transcription factor activity, sequence-specific DNA binding ; GO:0000981
 SMART:SM00066 GAL4 > GO:zinc ion binding ; GO:0008270
 SMART:SM00066 GAL4 > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00066 GAL4 > GO:nucleus ; GO:0005634
@@ -356,31 +356,31 @@ SMART:SM00335 ANX > GO:calcium ion binding ; GO:0005509
 SMART:SM00335 ANX > GO:calcium-dependent phospholipid binding ; GO:0005544
 SMART:SM00336 BBOX > GO:zinc ion binding ; GO:0008270
 SMART:SM00336 BBOX > GO:intracellular ; GO:0005622
-SMART:SM00338 BRLZ > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00338 BRLZ > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00338 BRLZ > GO:sequence-specific DNA binding ; GO:0043565
 SMART:SM00338 BRLZ > GO:regulation of transcription, DNA-templated ; GO:0006355
-SMART:SM00339 FH > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00339 FH > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00339 FH > GO:sequence-specific DNA binding ; GO:0043565
 SMART:SM00339 FH > GO:regulation of transcription, DNA-templated ; GO:0006355
-SMART:SM00340 HALZ > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00340 HALZ > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00340 HALZ > GO:sequence-specific DNA binding ; GO:0043565
 SMART:SM00340 HALZ > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00341 HRDC > GO:nucleic acid binding ; GO:0003676
 SMART:SM00341 HRDC > GO:intracellular ; GO:0005622
-SMART:SM00342 HTH_ARAC > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00342 HTH_ARAC > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00342 HTH_ARAC > GO:sequence-specific DNA binding ; GO:0043565
 SMART:SM00342 HTH_ARAC > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00343 ZnF_C2HC > GO:nucleic acid binding ; GO:0003676
 SMART:SM00343 ZnF_C2HC > GO:zinc ion binding ; GO:0008270
-SMART:SM00344 HTH_ASNC > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00344 HTH_ASNC > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00344 HTH_ASNC > GO:sequence-specific DNA binding ; GO:0043565
 SMART:SM00344 HTH_ASNC > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00344 HTH_ASNC > GO:intracellular ; GO:0005622
-SMART:SM00345 HTH_GNTR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00345 HTH_GNTR > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00345 HTH_GNTR > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00346 HTH_ICLR > GO:DNA binding ; GO:0003677
 SMART:SM00346 HTH_ICLR > GO:regulation of transcription, DNA-templated ; GO:0006355
-SMART:SM00347 HTH_MARR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00347 HTH_MARR > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00347 HTH_MARR > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00348 IRF > GO:regulatory region DNA binding ; GO:0000975
 SMART:SM00349 KRAB > GO:nucleic acid binding ; GO:0003676
@@ -388,10 +388,10 @@ SMART:SM00349 KRAB > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00349 KRAB > GO:intracellular ; GO:0005622
 SMART:SM00351 PAX > GO:DNA binding ; GO:0003677
 SMART:SM00351 PAX > GO:regulation of transcription, DNA-templated ; GO:0006355
-SMART:SM00352 POU > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00352 POU > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00352 POU > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00353 HLH > GO:protein dimerization activity ; GO:0046983
-SMART:SM00354 HTH_LACI > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00354 HTH_LACI > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00354 HTH_LACI > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00356 ZnF_C3H1 > GO:metal ion binding ; GO:0046872
 SMART:SM00357 CSP > GO:nucleic acid binding ; GO:0003676
@@ -399,7 +399,7 @@ SMART:SM00359 PUA > GO:RNA binding ; GO:0003723
 SMART:SM00360 RRM > GO:nucleic acid binding ; GO:0003676
 SMART:SM00361 RRM_1 > GO:nucleic acid binding ; GO:0003676
 SMART:SM00363 S4 > GO:RNA binding ; GO:0003723
-SMART:SM00380 AP2 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00380 AP2 > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00380 AP2 > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00384 AT_hook > GO:DNA binding ; GO:0003677
 SMART:SM00386 HAT > GO:RNA processing ; GO:0006396
@@ -414,7 +414,7 @@ SMART:SM00391 MBD > GO:nucleus ; GO:0005634
 SMART:SM00393 R3H > GO:nucleic acid binding ; GO:0003676
 SMART:SM00396 ZnF_UBR1 > GO:zinc ion binding ; GO:0008270
 SMART:SM00397 t_SNARE > GO:protein binding ; GO:0005515
-SMART:SM00399 ZnF_C4 > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00399 ZnF_C4 > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00399 ZnF_C4 > GO:zinc ion binding ; GO:0008270
 SMART:SM00399 ZnF_C4 > GO:sequence-specific DNA binding ; GO:0043565
 SMART:SM00399 ZnF_C4 > GO:regulation of transcription, DNA-templated ; GO:0006355
@@ -423,47 +423,47 @@ SMART:SM00400 ZnF_CHCC > GO:DNA binding ; GO:0003677
 SMART:SM00400 ZnF_CHCC > GO:DNA primase activity ; GO:0003896
 SMART:SM00400 ZnF_CHCC > GO:zinc ion binding ; GO:0008270
 SMART:SM00400 ZnF_CHCC > GO:DNA replication ; GO:0006260
-SMART:SM00401 ZnF_GATA > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00401 ZnF_GATA > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00401 ZnF_GATA > GO:zinc ion binding ; GO:0008270
 SMART:SM00401 ZnF_GATA > GO:sequence-specific DNA binding ; GO:0043565
 SMART:SM00401 ZnF_GATA > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00411 BHL > GO:DNA binding ; GO:0003677
 SMART:SM00412 Cu_FIST > GO:DNA binding ; GO:0003677
-SMART:SM00412 Cu_FIST > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00412 Cu_FIST > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00412 Cu_FIST > GO:copper ion binding ; GO:0005507
 SMART:SM00412 Cu_FIST > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00412 Cu_FIST > GO:nucleus ; GO:0005634
-SMART:SM00413 ETS > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00413 ETS > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00413 ETS > GO:sequence-specific DNA binding ; GO:0043565
 SMART:SM00413 ETS > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00414 H2A > GO:DNA binding ; GO:0003677
 SMART:SM00414 H2A > GO:nucleosome ; GO:0000786
 SMART:SM00414 H2A > GO:nucleus ; GO:0005634
-SMART:SM00415 HSF > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00415 HSF > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00415 HSF > GO:sequence-specific DNA binding ; GO:0043565
 SMART:SM00415 HSF > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00415 HSF > GO:nucleus ; GO:0005634
 SMART:SM00417 H4 > GO:DNA binding ; GO:0003677
 SMART:SM00417 H4 > GO:nucleosome ; GO:0000786
 SMART:SM00417 H4 > GO:nucleus ; GO:0005634
-SMART:SM00418 HTH_ARSR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00418 HTH_ARSR > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00418 HTH_ARSR > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00419 HTH_CRP > GO:DNA binding ; GO:0003677
 SMART:SM00419 HTH_CRP > GO:regulation of transcription, DNA-templated ; GO:0006355
-SMART:SM00420 HTH_DEOR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00420 HTH_DEOR > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00420 HTH_DEOR > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00420 HTH_DEOR > GO:intracellular ; GO:0005622
-SMART:SM00421 HTH_LUXR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00421 HTH_LUXR > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00421 HTH_LUXR > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00422 HTH_MERR > GO:DNA binding ; GO:0003677
 SMART:SM00422 HTH_MERR > GO:regulation of transcription, DNA-templated ; GO:0006355
-SMART:SM00424 STE > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00424 STE > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00424 STE > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00424 STE > GO:nucleus ; GO:0005634
-SMART:SM00425 TBOX > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00425 TBOX > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00425 TBOX > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00425 TBOX > GO:nucleus ; GO:0005634
-SMART:SM00426 TEA > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00426 TEA > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00426 TEA > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00426 TEA > GO:nucleus ; GO:0005634
 SMART:SM00427 H2B > GO:DNA binding ; GO:0003677
@@ -471,12 +471,12 @@ SMART:SM00427 H2B > GO:nucleosome ; GO:0000786
 SMART:SM00428 H3 > GO:DNA binding ; GO:0003677
 SMART:SM00428 H3 > GO:nucleosome ; GO:0000786
 SMART:SM00429 IPT > GO:protein binding ; GO:0005515
-SMART:SM00430 HOLI > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00430 HOLI > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00430 HOLI > GO:steroid hormone receptor activity ; GO:0003707
 SMART:SM00430 HOLI > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00430 HOLI > GO:steroid hormone mediated signaling pathway ; GO:0043401
 SMART:SM00430 HOLI > GO:nucleus ; GO:0005634
-SMART:SM00431 SCAN > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00431 SCAN > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00431 SCAN > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00432 MADS > GO:DNA binding ; GO:0003677
 SMART:SM00432 MADS > GO:protein dimerization activity ; GO:0046983
@@ -498,7 +498,7 @@ SMART:SM00436 TOP1Bc > GO:DNA topological change ; GO:0006265
 SMART:SM00437 TOP1Ac > GO:DNA binding ; GO:0003677
 SMART:SM00437 TOP1Ac > GO:DNA topoisomerase activity ; GO:0003916
 SMART:SM00437 TOP1Ac > GO:DNA topological change ; GO:0006265
-SMART:SM00438 ZnF_NFX > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00438 ZnF_NFX > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00438 ZnF_NFX > GO:zinc ion binding ; GO:0008270
 SMART:SM00438 ZnF_NFX > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00438 ZnF_NFX > GO:nucleus ; GO:0005634
@@ -601,7 +601,7 @@ SMART:SM00520 BASIC > GO:DNA binding ; GO:0003677
 SMART:SM00520 BASIC > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00520 BASIC > GO:muscle organ development ; GO:0007517
 SMART:SM00520 BASIC > GO:nucleus ; GO:0005634
-SMART:SM00521 CBF > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00521 CBF > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00521 CBF > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00523 DWA > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00523 DWA > GO:intracellular ; GO:0005622
@@ -616,7 +616,7 @@ SMART:SM00527 HMG17 > GO:nucleosomal DNA binding ; GO:0031492
 SMART:SM00527 HMG17 > GO:chromatin ; GO:0000785
 SMART:SM00527 HMG17 > GO:nucleus ; GO:0005634
 SMART:SM00528 HNS > GO:DNA binding ; GO:0003677
-SMART:SM00529 HTH_DTXR > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00529 HTH_DTXR > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00529 HTH_DTXR > GO:transition metal ion binding ; GO:0046914
 SMART:SM00529 HTH_DTXR > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00530 HTH_XRE > GO:sequence-specific DNA binding ; GO:0043565
@@ -651,7 +651,7 @@ SMART:SM00547 ZnF_RBZ > GO:zinc ion binding ; GO:0008270
 SMART:SM00548 IRO > GO:DNA binding ; GO:0003677
 SMART:SM00548 IRO > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00548 IRO > GO:nucleus ; GO:0005634
-SMART:SM00549 TAFH > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00549 TAFH > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00549 TAFH > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00550 Zalpha > GO:RNA binding ; GO:0003723
 SMART:SM00550 Zalpha > GO:double-stranded RNA adenosine deaminase activity ; GO:0003726
@@ -804,7 +804,7 @@ SMART:SM00770 Zn_dep_PLPC > GO:phospholipase C activity ; GO:0004629
 SMART:SM00770 Zn_dep_PLPC > GO:zinc ion binding ; GO:0008270
 SMART:SM00771 ZipA_C > GO:barrier septum assembly ; GO:0000917
 SMART:SM00771 ZipA_C > GO:integral component of membrane ; GO:0016021
-SMART:SM00774 WRKY > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00774 WRKY > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00774 WRKY > GO:sequence-specific DNA binding ; GO:0043565
 SMART:SM00774 WRKY > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00778 Prim_Zn_Ribbon > GO:DNA primase activity ; GO:0003896
@@ -1038,7 +1038,7 @@ SMART:SM00962 SRP54 > GO:GTP binding ; GO:0005525
 SMART:SM00962 SRP54 > GO:SRP-dependent cotranslational protein targeting to membrane ; GO:0006614
 SMART:SM00963 SRP54_N > GO:GTP binding ; GO:0005525
 SMART:SM00963 SRP54_N > GO:SRP-dependent cotranslational protein targeting to membrane ; GO:0006614
-SMART:SM00964 STAT_int > GO:sequence-specific DNA binding transcription factor activity ; GO:0003700
+SMART:SM00964 STAT_int > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00964 STAT_int > GO:signal transducer activity ; GO:0004871
 SMART:SM00964 STAT_int > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00964 STAT_int > GO:signal transduction ; GO:0007165

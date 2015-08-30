@@ -1,4 +1,4 @@
-!version date: 2015/08/22 12:08:59
+!version date: 2015/08/29 12:52:21
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation: Mitchell et al. (2015) Nucl. Acids Res. 43 :D213-D221
@@ -52,7 +52,6 @@ PRINTS:PR00036 HTHLACI > GO:regulation of transcription, DNA-templated ; GO:0006
 PRINTS:PR00037 HTHLACR > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 PRINTS:PR00037 HTHLACR > GO:regulation of transcription, DNA-templated ; GO:0006355
 PRINTS:PR00037 HTHLACR > GO:intracellular ; GO:0005622
-PRINTS:PR00038 HTHLUXR > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 PRINTS:PR00038 HTHLUXR > GO:regulation of transcription, DNA-templated ; GO:0006355
 PRINTS:PR00039 HTHLYSR > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 PRINTS:PR00039 HTHLYSR > GO:regulation of transcription, DNA-templated ; GO:0006355
@@ -236,9 +235,6 @@ PRINTS:PR00100 AOTCASE > GO:cellular amino acid metabolic process ; GO:0006520
 PRINTS:PR00101 ATCASE > GO:aspartate carbamoyltransferase activity ; GO:0004070
 PRINTS:PR00101 ATCASE > GO:'de novo' pyrimidine nucleobase biosynthetic process ; GO:0006207
 PRINTS:PR00102 OTCASE > GO:carboxyl- or carbamoyltransferase activity ; GO:0016743
-PRINTS:PR00103 CAMPKINASE > GO:cAMP-dependent protein kinase regulator activity ; GO:0008603
-PRINTS:PR00103 CAMPKINASE > GO:regulation of protein phosphorylation ; GO:0001932
-PRINTS:PR00103 CAMPKINASE > GO:cAMP-dependent protein kinase complex ; GO:0005952
 PRINTS:PR00104 CGMPKINASE > GO:cGMP-dependent protein kinase activity ; GO:0004692
 PRINTS:PR00104 CGMPKINASE > GO:ATP binding ; GO:0005524
 PRINTS:PR00105 C5METTRFRASE > GO:methyltransferase activity ; GO:0008168
@@ -313,7 +309,6 @@ PRINTS:PR00142 RECA > GO:ATP binding ; GO:0005524
 PRINTS:PR00142 RECA > GO:DNA repair ; GO:0006281
 PRINTS:PR00142 RECA > GO:SOS response ; GO:0009432
 PRINTS:PR00143 CITRTSNTHASE > GO:transferase activity, transferring acyl groups, acyl groups converted into alkyl on transfer ; GO:0046912
-PRINTS:PR00143 CITRTSNTHASE > GO:cellular carbohydrate metabolic process ; GO:0044262
 PRINTS:PR00144 DALDHYDRTASE > GO:porphobilinogen synthase activity ; GO:0004655
 PRINTS:PR00144 DALDHYDRTASE > GO:metal ion binding ; GO:0046872
 PRINTS:PR00144 DALDHYDRTASE > GO:tetrapyrrole biosynthetic process ; GO:0033014
@@ -816,7 +811,6 @@ PRINTS:PR00408 MITP450 > GO:iron ion binding ; GO:0005506
 PRINTS:PR00408 MITP450 > GO:heme binding ; GO:0020037
 PRINTS:PR00408 MITP450 > GO:oxidation-reduction process ; GO:0055114
 PRINTS:PR00408 MITP450 > GO:mitochondrion ; GO:0005739
-PRINTS:PR00409 PHDIOXRDTASE > GO:electron carrier activity ; GO:0009055
 PRINTS:PR00409 PHDIOXRDTASE > GO:oxidoreductase activity ; GO:0016491
 PRINTS:PR00410 PHEHYDRXLASE > GO:oxidation-reduction process ; GO:0055114
 PRINTS:PR00412 EPOXHYDRLASE > GO:catalytic activity ; GO:0003824
@@ -1367,7 +1361,6 @@ PRINTS:PR00597 GELSOLIN > GO:actin binding ; GO:0003779
 PRINTS:PR00598 HTHMARR > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 PRINTS:PR00598 HTHMARR > GO:regulation of transcription, DNA-templated ; GO:0006355
 PRINTS:PR00600 PP2APR55 > GO:protein phosphatase type 2A regulator activity ; GO:0008601
-PRINTS:PR00600 PP2APR55 > GO:signal transduction ; GO:0007165
 PRINTS:PR00600 PP2APR55 > GO:protein phosphatase type 2A complex ; GO:0000159
 PRINTS:PR00601 BACFERRITIN > GO:ferric iron binding ; GO:0008199
 PRINTS:PR00601 BACFERRITIN > GO:iron ion transport ; GO:0006826
@@ -2487,6 +2480,8 @@ PRINTS:PR01088 NAHEXCHNGR6 > GO:sodium:proton antiporter activity ; GO:0015385
 PRINTS:PR01088 NAHEXCHNGR6 > GO:sodium ion transport ; GO:0006814
 PRINTS:PR01088 NAHEXCHNGR6 > GO:regulation of pH ; GO:0006885
 PRINTS:PR01088 NAHEXCHNGR6 > GO:integral component of membrane ; GO:0016021
+PRINTS:PR01089 NEUREGULIN > GO:receptor binding ; GO:0005102
+PRINTS:PR01089 NEUREGULIN > GO:embryo development ; GO:0009790
 PRINTS:PR01090 NEUROLIGIN > GO:neurexin family protein binding ; GO:0042043
 PRINTS:PR01090 NEUROLIGIN > GO:membrane ; GO:0016020
 PRINTS:PR01091 OREXINPP > GO:neuropeptide signaling pathway ; GO:0007218
@@ -2906,7 +2901,6 @@ PRINTS:PR01242 GPROTEINAPLT > GO:signal transducer activity ; GO:0004871
 PRINTS:PR01242 GPROTEINAPLT > GO:GTP binding ; GO:0005525
 PRINTS:PR01242 GPROTEINAPLT > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR01243 NUCDPKINASE > GO:nucleoside diphosphate kinase activity ; GO:0004550
-PRINTS:PR01243 NUCDPKINASE > GO:ATP binding ; GO:0005524
 PRINTS:PR01243 NUCDPKINASE > GO:nucleoside diphosphate phosphorylation ; GO:0006165
 PRINTS:PR01243 NUCDPKINASE > GO:GTP biosynthetic process ; GO:0006183
 PRINTS:PR01243 NUCDPKINASE > GO:UTP biosynthetic process ; GO:0006228
@@ -3054,7 +3048,6 @@ PRINTS:PR01300 PYOCINKILLER > GO:receptor binding ; GO:0005102
 PRINTS:PR01300 PYOCINKILLER > GO:pathogenesis ; GO:0009405
 PRINTS:PR01300 PYOCINKILLER > GO:response to bacterium ; GO:0009617
 PRINTS:PR01300 PYOCINKILLER > GO:cytolysis ; GO:0019835
-PRINTS:PR01301 RGSPROTEIN > GO:termination of G-protein coupled receptor signaling pathway ; GO:0038032
 PRINTS:PR01302 TYPE3IMPPROT > GO:protein secretion ; GO:0009306
 PRINTS:PR01302 TYPE3IMPPROT > GO:membrane ; GO:0016020
 PRINTS:PR01303 CRCMSPRZOITE > GO:cell surface ; GO:0009986
@@ -3396,8 +3389,6 @@ PRINTS:PR01450 BKCHANNELB > GO:membrane ; GO:0016020
 PRINTS:PR01451 SKCHANNEL > GO:small conductance calcium-activated potassium channel activity ; GO:0016286
 PRINTS:PR01451 SKCHANNEL > GO:potassium ion transport ; GO:0006813
 PRINTS:PR01451 SKCHANNEL > GO:integral component of membrane ; GO:0016021
-PRINTS:PR01452 LNOTCHREPEAT > GO:cell differentiation ; GO:0030154
-PRINTS:PR01452 LNOTCHREPEAT > GO:membrane ; GO:0016020
 PRINTS:PR01453 EPMEMFAMILY > GO:integral component of membrane ; GO:0016021
 PRINTS:PR01454 EPMEMPROT1 > GO:cell growth ; GO:0016049
 PRINTS:PR01454 EPMEMPROT1 > GO:membrane ; GO:0016020
@@ -3632,7 +3623,7 @@ PRINTS:PR01542 FMDVP1COAT > GO:viral capsid ; GO:0019028
 PRINTS:PR01543 ANATRNSFRASE > GO:acetyltransferase activity ; GO:0016407
 PRINTS:PR01543 ANATRNSFRASE > GO:metabolic process ; GO:0008152
 PRINTS:PR01548 MEIOTICR114 > GO:reciprocal meiotic recombination ; GO:0007131
-PRINTS:PR01549 AUTOINDCRSYN > GO:signal transduction ; GO:0007165
+PRINTS:PR01549 AUTOINDCRSYN > GO:transferase activity ; GO:0016740
 PRINTS:PR01550 TOP6AFAMILY > GO:DNA binding ; GO:0003677
 PRINTS:PR01550 TOP6AFAMILY > GO:DNA catabolic process, endonucleolytic ; GO:0000737
 PRINTS:PR01550 TOP6AFAMILY > GO:chromosome ; GO:0005694
@@ -4451,10 +4442,6 @@ PRINTS:PR01906 FISHGLOBIN > GO:iron ion binding ; GO:0005506
 PRINTS:PR01906 FISHGLOBIN > GO:oxygen binding ; GO:0019825
 PRINTS:PR01906 FISHGLOBIN > GO:heme binding ; GO:0020037
 PRINTS:PR01906 FISHGLOBIN > GO:oxygen transport ; GO:0015671
-PRINTS:PR01907 WORMGLOBIN > GO:iron ion binding ; GO:0005506
-PRINTS:PR01907 WORMGLOBIN > GO:oxygen binding ; GO:0019825
-PRINTS:PR01907 WORMGLOBIN > GO:heme binding ; GO:0020037
-PRINTS:PR01907 WORMGLOBIN > GO:oxygen transport ; GO:0015671
 PRINTS:PR01908 ADSPHPHTASE > GO:protein tyrosine/serine/threonine phosphatase activity ; GO:0008138
 PRINTS:PR01908 ADSPHPHTASE > GO:protein dephosphorylation ; GO:0006470
 PRINTS:PR01909 ADSPHPHTASEA > GO:protein tyrosine/serine/threonine phosphatase activity ; GO:0008138

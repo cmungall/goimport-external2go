@@ -1,4 +1,4 @@
-!version date: 2015/08/22 12:08:59
+!version date: 2015/08/29 12:52:21
 !description: Mapping of GO terms to SMART entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://smart.embl-heidelberg.de/
 !citation: Mitchell et al. (2015) Nucl. Acids Res. 43 :D213-D221
@@ -7,14 +7,10 @@
 SMART:SM00002 PLP > GO:integral component of membrane ; GO:0016021
 SMART:SM00003 NH > GO:neurohypophyseal hormone activity ; GO:0005185
 SMART:SM00003 NH > GO:extracellular region ; GO:0005576
-SMART:SM00004 NL > GO:cell differentiation ; GO:0030154
-SMART:SM00004 NL > GO:membrane ; GO:0016020
 SMART:SM00005 DEATH > GO:protein binding ; GO:0005515
 SMART:SM00005 DEATH > GO:signal transduction ; GO:0007165
 SMART:SM00008 HormR > GO:G-protein coupled receptor activity ; GO:0004930
 SMART:SM00008 HormR > GO:membrane ; GO:0016020
-SMART:SM00014 acidPPc > GO:catalytic activity ; GO:0003824
-SMART:SM00014 acidPPc > GO:membrane ; GO:0016020
 SMART:SM00015 IQ > GO:protein binding ; GO:0005515
 SMART:SM00017 OSTEO > GO:ossification ; GO:0001503
 SMART:SM00017 OSTEO > GO:cell adhesion ; GO:0007155
@@ -312,7 +308,6 @@ SMART:SM00280 KAZAL > GO:protein binding ; GO:0005515
 SMART:SM00283 MA > GO:signal transducer activity ; GO:0004871
 SMART:SM00283 MA > GO:signal transduction ; GO:0007165
 SMART:SM00283 MA > GO:membrane ; GO:0016020
-SMART:SM00284 OLF > GO:protein binding ; GO:0005515
 SMART:SM00290 ZnF_UBP > GO:zinc ion binding ; GO:0008270
 SMART:SM00291 ZnF_ZZ > GO:zinc ion binding ; GO:0008270
 SMART:SM00297 BROMO > GO:protein binding ; GO:0005515
@@ -335,7 +330,6 @@ SMART:SM00310 PTBI > GO:insulin receptor binding ; GO:0005158
 SMART:SM00311 PWI > GO:mRNA processing ; GO:0006397
 SMART:SM00312 PX > GO:phosphatidylinositol binding ; GO:0035091
 SMART:SM00314 RA > GO:signal transduction ; GO:0007165
-SMART:SM00315 RGS > GO:termination of G-protein coupled receptor signaling pathway ; GO:0038032
 SMART:SM00317 SET > GO:protein binding ; GO:0005515
 SMART:SM00319 TarH > GO:transmembrane signaling receptor activity ; GO:0004888
 SMART:SM00319 TarH > GO:chemotaxis ; GO:0006935
@@ -406,7 +400,6 @@ SMART:SM00386 HAT > GO:RNA processing ; GO:0006396
 SMART:SM00386 HAT > GO:intracellular ; GO:0005622
 SMART:SM00388 HisKA > GO:phosphorelay sensor kinase activity ; GO:0000155
 SMART:SM00388 HisKA > GO:signal transduction ; GO:0007165
-SMART:SM00388 HisKA > GO:membrane ; GO:0016020
 SMART:SM00389 HOX > GO:DNA binding ; GO:0003677
 SMART:SM00390 GoLoco > GO:GTPase regulator activity ; GO:0030695
 SMART:SM00391 MBD > GO:DNA binding ; GO:0003677
@@ -453,7 +446,6 @@ SMART:SM00419 HTH_CRP > GO:regulation of transcription, DNA-templated ; GO:00063
 SMART:SM00420 HTH_DEOR > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00420 HTH_DEOR > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00420 HTH_DEOR > GO:intracellular ; GO:0005622
-SMART:SM00421 HTH_LUXR > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00421 HTH_LUXR > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00422 HTH_MERR > GO:DNA binding ; GO:0003677
 SMART:SM00422 HTH_MERR > GO:regulation of transcription, DNA-templated ; GO:0006355
@@ -471,11 +463,8 @@ SMART:SM00427 H2B > GO:nucleosome ; GO:0000786
 SMART:SM00428 H3 > GO:DNA binding ; GO:0003677
 SMART:SM00428 H3 > GO:nucleosome ; GO:0000786
 SMART:SM00429 IPT > GO:protein binding ; GO:0005515
-SMART:SM00430 HOLI > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
-SMART:SM00430 HOLI > GO:steroid hormone receptor activity ; GO:0003707
 SMART:SM00430 HOLI > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00430 HOLI > GO:steroid hormone mediated signaling pathway ; GO:0043401
-SMART:SM00430 HOLI > GO:nucleus ; GO:0005634
 SMART:SM00431 SCAN > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 SMART:SM00431 SCAN > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00432 MADS > GO:DNA binding ; GO:0003677
@@ -669,7 +658,6 @@ SMART:SM00559 Ku78 > GO:double-strand break repair via nonhomologous end joining
 SMART:SM00561 MBT > GO:regulation of transcription, DNA-templated ; GO:0006355
 SMART:SM00561 MBT > GO:nucleus ; GO:0005634
 SMART:SM00562 NDK > GO:nucleoside diphosphate kinase activity ; GO:0004550
-SMART:SM00562 NDK > GO:ATP binding ; GO:0005524
 SMART:SM00562 NDK > GO:nucleoside diphosphate phosphorylation ; GO:0006165
 SMART:SM00562 NDK > GO:GTP biosynthetic process ; GO:0006183
 SMART:SM00562 NDK > GO:UTP biosynthetic process ; GO:0006228
@@ -680,7 +668,6 @@ SMART:SM00569 L27 > GO:protein binding ; GO:0005515
 SMART:SM00570 AWS > GO:histone-lysine N-methyltransferase activity ; GO:0018024
 SMART:SM00570 AWS > GO:nucleus ; GO:0005634
 SMART:SM00575 ZnF_PMZ > GO:zinc ion binding ; GO:0008270
-SMART:SM00577 CPDc > GO:protein binding ; GO:0005515
 SMART:SM00580 PUG > GO:protein binding ; GO:0005515
 SMART:SM00586 ZnF_DBF > GO:nucleic acid binding ; GO:0003676
 SMART:SM00586 ZnF_DBF > GO:zinc ion binding ; GO:0008270
@@ -720,7 +707,6 @@ SMART:SM00645 Pept_C1 > GO:cysteine-type peptidase activity ; GO:0008234
 SMART:SM00645 Pept_C1 > GO:proteolysis ; GO:0006508
 SMART:SM00646 Ami_3 > GO:N-acetylmuramoyl-L-alanine amidase activity ; GO:0008745
 SMART:SM00646 Ami_3 > GO:peptidoglycan catabolic process ; GO:0009253
-SMART:SM00647 IBR > GO:zinc ion binding ; GO:0008270
 SMART:SM00648 SWAP > GO:RNA binding ; GO:0003723
 SMART:SM00648 SWAP > GO:RNA processing ; GO:0006396
 SMART:SM00649 RL11 > GO:structural constituent of ribosome ; GO:0003735
@@ -785,7 +771,6 @@ SMART:SM00734 ZnF_Rad18 > GO:DNA binding ; GO:0003677
 SMART:SM00734 ZnF_Rad18 > GO:DNA repair ; GO:0006281
 SMART:SM00736 CADG > GO:membrane ; GO:0016020
 SMART:SM00738 NGN > GO:regulation of transcription, DNA-templated ; GO:0006355
-SMART:SM00740 PASTA > GO:penicillin binding ; GO:0008658
 SMART:SM00742 Hr1 > GO:signal transduction ; GO:0007165
 SMART:SM00744 RINGv > GO:zinc ion binding ; GO:0008270
 SMART:SM00755 Grip > GO:protein binding ; GO:0005515
@@ -839,6 +824,8 @@ SMART:SM00803 TAF > GO:DNA-templated transcription, initiation ; GO:0006352
 SMART:SM00803 TAF > GO:nucleus ; GO:0005634
 SMART:SM00804 TAP_C > GO:mRNA transport ; GO:0051028
 SMART:SM00804 TAP_C > GO:nucleus ; GO:0005634
+SMART:SM00806 AIP3 > GO:cytoskeletal regulatory protein binding ; GO:0005519
+SMART:SM00806 AIP3 > GO:actin filament bundle assembly ; GO:0051017
 SMART:SM00808 FABD > GO:non-membrane spanning protein tyrosine kinase activity ; GO:0004715
 SMART:SM00808 FABD > GO:ATP binding ; GO:0005524
 SMART:SM00808 FABD > GO:protein phosphorylation ; GO:0006468
@@ -892,7 +879,6 @@ SMART:SM00850 LytTR > GO:DNA binding ; GO:0003677
 SMART:SM00853 MutL_C > GO:ATP binding ; GO:0005524
 SMART:SM00853 MutL_C > GO:mismatch repair ; GO:0006298
 SMART:SM00856 PMEI > GO:enzyme inhibitor activity ; GO:0004857
-SMART:SM00856 PMEI > GO:pectinesterase activity ; GO:0030599
 SMART:SM00857 Resolvase > GO:recombinase activity ; GO:0000150
 SMART:SM00857 Resolvase > GO:DNA binding ; GO:0003677
 SMART:SM00857 Resolvase > GO:DNA recombination ; GO:0006310
@@ -924,9 +910,6 @@ SMART:SM00882 CoA_trans > GO:CoA-transferase activity ; GO:0008410
 SMART:SM00882 CoA_trans > GO:metabolic process ; GO:0008152
 SMART:SM00883 Cpn10 > GO:protein folding ; GO:0006457
 SMART:SM00883 Cpn10 > GO:cytoplasm ; GO:0005737
-SMART:SM00884 Cullin_Nedd8 > GO:ubiquitin protein ligase binding ; GO:0031625
-SMART:SM00884 Cullin_Nedd8 > GO:ubiquitin-dependent protein catabolic process ; GO:0006511
-SMART:SM00884 Cullin_Nedd8 > GO:cullin-RING ubiquitin ligase complex ; GO:0031461
 SMART:SM00887 EB_dh > GO:heme binding ; GO:0020037
 SMART:SM00888 EF1_GNE > GO:translation elongation factor activity ; GO:0003746
 SMART:SM00888 EF1_GNE > GO:translational elongation ; GO:0006414
@@ -1097,10 +1080,6 @@ SMART:SM01016 Arg_tRNA_synt_N > GO:arginine-tRNA ligase activity ; GO:0004814
 SMART:SM01016 Arg_tRNA_synt_N > GO:ATP binding ; GO:0005524
 SMART:SM01016 Arg_tRNA_synt_N > GO:arginyl-tRNA aminoacylation ; GO:0006420
 SMART:SM01016 Arg_tRNA_synt_N > GO:cytoplasm ; GO:0005737
-SMART:SM01018 B12-binding_2 > GO:methionine synthase activity ; GO:0008705
-SMART:SM01018 B12-binding_2 > GO:cobalamin binding ; GO:0031419
-SMART:SM01018 B12-binding_2 > GO:metal ion binding ; GO:0046872
-SMART:SM01018 B12-binding_2 > GO:methionine biosynthetic process ; GO:0009086
 SMART:SM01019 B3 > GO:DNA binding ; GO:0003677
 SMART:SM01020 B2-adapt-app_C > GO:intracellular protein transport ; GO:0006886
 SMART:SM01020 B2-adapt-app_C > GO:vesicle-mediated transport ; GO:0016192

@@ -1,4 +1,4 @@
-!version date: 2015/10/24 11:58:54
+!version date: 2015/11/07 11:42:33
 !description: Mapping of GO terms to PRODOM entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://prodom.prabi.fr/
 !citation: Mitchell et al. (2015) Nucl. Acids Res. 43 :D213-D221
@@ -88,6 +88,7 @@ ProDom:PD002319 Urease_gamma_reg > GO:urea catabolic process ; GO:0043419
 ProDom:PD002435 Interferon_gamma > GO:interferon-gamma receptor binding ; GO:0005133
 ProDom:PD002435 Interferon_gamma > GO:immune response ; GO:0006955
 ProDom:PD002435 Interferon_gamma > GO:extracellular region ; GO:0005576
+ProDom:PD002461 EAV_env_prot > GO:viral envelope ; GO:0019031
 ProDom:PD002533 Ephrin > GO:membrane ; GO:0016020
 ProDom:PD002604 Prot_inh_pot1 > GO:serine-type endopeptidase inhibitor activity ; GO:0004867
 ProDom:PD002604 Prot_inh_pot1 > GO:response to wounding ; GO:0009611
@@ -140,6 +141,7 @@ ProDom:PD003649 Interleukin-2 > GO:interleukin-2 receptor binding ; GO:0005134
 ProDom:PD003649 Interleukin-2 > GO:growth factor activity ; GO:0008083
 ProDom:PD003649 Interleukin-2 > GO:immune response ; GO:0006955
 ProDom:PD003649 Interleukin-2 > GO:extracellular region ; GO:0005576
+ProDom:PD003690 Art_glycop > GO:viral envelope ; GO:0019031
 ProDom:PD003698 PSI_Ycf4 > GO:photosynthesis ; GO:0015979
 ProDom:PD003698 PSI_Ycf4 > GO:photosystem I ; GO:0009522
 ProDom:PD003698 PSI_Ycf4 > GO:thylakoid ; GO:0009579
@@ -320,7 +322,6 @@ ProDom:PD007170 FaeA > GO:regulation of transcription, DNA-templated ; GO:000635
 ProDom:PD007170 FaeA > GO:pilus ; GO:0009289
 ProDom:PD007225 Colicin_pyocin > GO:toxic substance binding ; GO:0015643
 ProDom:PD007225 Colicin_pyocin > GO:bacteriocin immunity ; GO:0030153
-ProDom:PD007233 Lentiviral_Tat > GO:positive regulation of transcription, DNA-templated ; GO:0045893
 ProDom:PD007270 Cyt_c_oxidase_su5b > GO:cytochrome-c oxidase activity ; GO:0004129
 ProDom:PD007270 Cyt_c_oxidase_su5b > GO:mitochondrial envelope ; GO:0005740
 ProDom:PD007327 Rib_bd_factA > GO:rRNA processing ; GO:0006364
@@ -782,12 +783,14 @@ ProDom:PD069352 Ribosomal_L6_chp > GO:rRNA binding ; GO:0019843
 ProDom:PD069352 Ribosomal_L6_chp > GO:translation ; GO:0006412
 ProDom:PD069352 Ribosomal_L6_chp > GO:ribosome ; GO:0005840
 ProDom:PD069352 Ribosomal_L6_chp > GO:chloroplast ; GO:0009507
+ProDom:PD069353 Uncharacterised_UL17_Herpes > GO:viral capsid ; GO:0019028
 ProDom:PD076120 Cyt_c_Oxase_assmbl_COX16 > GO:mitochondrial membrane ; GO:0031966
 ProDom:PD077583 RTP > GO:DNA binding ; GO:0003677
 ProDom:PD077583 RTP > GO:DNA replication termination ; GO:0006274
 ProDom:PD079046 Inner_membrane_protein_YbjM > GO:integral component of membrane ; GO:0016021
 ProDom:PD079054 Ino_eighty_subunit_5 > GO:Ino80 complex ; GO:0031011
-ProDom:PD079544 Cend1 > GO:integral component of membrane ; GO:0016021
+ProDom:PD079544 Cend1 > GO:cerebellum development ; GO:0021549
+ProDom:PD079544 Cend1 > GO:neuron differentiation ; GO:0030182
 ProDom:PD080544 Ectoine_synth > GO:ectoine synthase activity ; GO:0033990
 ProDom:PD080544 Ectoine_synth > GO:ectoine biosynthetic process ; GO:0019491
 ProDom:PD081346 Transcription_activatory_CaiF > GO:transcription, DNA-templated ; GO:0006351
@@ -872,12 +875,16 @@ ProDom:PD313320 GTP_CycHdrlase_3 > GO:GTP cyclohydrolase activity ; GO:0003933
 ProDom:PD313320 GTP_CycHdrlase_3 > GO:biosynthetic process ; GO:0009058
 ProDom:PD315657 Origin_recog_cplx_su6-like > GO:DNA replication ; GO:0006260
 ProDom:PD315657 Origin_recog_cplx_su6-like > GO:nuclear origin of replication recognition complex ; GO:0005664
+ProDom:PD319679 PD319679 > GO:immune response ; GO:0006955
+ProDom:PD319679 PD319679 > GO:regulation of lymphocyte activation ; GO:0051249
 ProDom:PD321645 PD321645 > GO:Fanconi anaemia nuclear complex ; GO:0043240
 ProDom:PD329160 Allene_ox_cyc > GO:isomerase activity ; GO:0016853
 ProDom:PD329160 Allene_ox_cyc > GO:chloroplast ; GO:0009507
 ProDom:PD331499 UcrQ > GO:ubiquinol-cytochrome-c reductase activity ; GO:0008121
 ProDom:PD331837 RabGG_trans_A > GO:Rab geranylgeranyltransferase activity ; GO:0004663
 ProDom:PD331837 RabGG_trans_A > GO:zinc ion binding ; GO:0008270
+ProDom:PD332876 PD332876 > GO:immune response-regulating signaling pathway ; GO:0002764
+ProDom:PD332876 PD332876 > GO:B cell activation ; GO:0042113
 ProDom:PD336054 PD336054 > GO:multicellular organismal development ; GO:0007275
 ProDom:PD336606 Adhes-Ig-like > GO:cell adhesion ; GO:0007155
 ProDom:PD336606 Adhes-Ig-like > GO:membrane ; GO:0016020
@@ -898,6 +905,8 @@ ProDom:PD392219 PD392219 > GO:anaphase-promoting complex ; GO:0005680
 ProDom:PD398536 DASH_Dam1 > GO:attachment of spindle microtubules to kinetochore ; GO:0008608
 ProDom:PD398536 DASH_Dam1 > GO:DASH complex ; GO:0042729
 ProDom:PD398536 DASH_Dam1 > GO:mitotic spindle ; GO:0072686
+ProDom:PD400414 PD400414 > GO:odontogenesis of dentin-containing tooth ; GO:0042475
+ProDom:PD400414 PD400414 > GO:positive regulation of enamel mineralization ; GO:0070175
 ProDom:PD407430 Baculo_LEF-11 > GO:regulation of transcription, DNA-templated ; GO:0006355
 ProDom:PD407430 Baculo_LEF-11 > GO:viral life cycle ; GO:0019058
 ProDom:PD407686 Thiostrepton-R_Mease_TSNR_N > GO:rRNA methyltransferase activity ; GO:0008649

@@ -1,4 +1,4 @@
-!version date: 2015/12/19 10:13:42
+!version date: 2015/12/26 10:46:32
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation: Mitchell et al. (2015) Nucl. Acids Res. 43 :D213-D221
@@ -314,8 +314,6 @@ PRINTS:PR00144 DALDHYDRTASE > GO:metal ion binding ; GO:0046872
 PRINTS:PR00144 DALDHYDRTASE > GO:tetrapyrrole biosynthetic process ; GO:0033014
 PRINTS:PR00146 DHPICSNTHASE > GO:lyase activity ; GO:0016829
 PRINTS:PR00146 DHPICSNTHASE > GO:metabolic process ; GO:0008152
-PRINTS:PR00147 DNAPHOTLYASE > GO:DNA photolyase activity ; GO:0003913
-PRINTS:PR00147 DNAPHOTLYASE > GO:DNA repair ; GO:0006281
 PRINTS:PR00148 ENOLASE > GO:magnesium ion binding ; GO:0000287
 PRINTS:PR00148 ENOLASE > GO:phosphopyruvate hydratase activity ; GO:0004634
 PRINTS:PR00148 ENOLASE > GO:glycolytic process ; GO:0006096
@@ -707,8 +705,8 @@ PRINTS:PR00352 3FE4SFRDOXIN > GO:electron carrier activity ; GO:0009055
 PRINTS:PR00354 7FE8SFRDOXIN > GO:electron carrier activity ; GO:0009055
 PRINTS:PR00355 ADRENODOXIN > GO:electron carrier activity ; GO:0009055
 PRINTS:PR00355 ADRENODOXIN > GO:2 iron, 2 sulfur cluster binding ; GO:0051537
-PRINTS:PR00358 BOMBESINR > GO:bombesin receptor activity ; GO:0004946
-PRINTS:PR00358 BOMBESINR > GO:bombesin receptor signaling pathway ; GO:0031989
+PRINTS:PR00358 BOMBESINR > GO:G-protein coupled peptide receptor activity ; GO:0008528
+PRINTS:PR00358 BOMBESINR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00358 BOMBESINR > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00359 BP450 > GO:monooxygenase activity ; GO:0004497
 PRINTS:PR00359 BP450 > GO:iron ion binding ; GO:0005506
@@ -1457,8 +1455,8 @@ PRINTS:PR00637 BOMBESIN3R > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00639 NEUROMEDINBR > GO:bombesin receptor activity ; GO:0004946
 PRINTS:PR00639 NEUROMEDINBR > GO:bombesin receptor signaling pathway ; GO:0031989
 PRINTS:PR00639 NEUROMEDINBR > GO:integral component of membrane ; GO:0016021
-PRINTS:PR00640 GASTRINRELPR > GO:bombesin receptor activity ; GO:0004946
-PRINTS:PR00640 GASTRINRELPR > GO:bombesin receptor signaling pathway ; GO:0031989
+PRINTS:PR00640 GASTRINRELPR > GO:G-protein coupled peptide receptor activity ; GO:0008528
+PRINTS:PR00640 GASTRINRELPR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00640 GASTRINRELPR > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00641 CHEMOKINER7 > GO:C-C chemokine receptor activity ; GO:0016493
 PRINTS:PR00641 CHEMOKINER7 > GO:chemotaxis ; GO:0006935
@@ -1690,6 +1688,7 @@ PRINTS:PR00736 GLHYDRLASE15 > GO:polysaccharide metabolic process ; GO:0005976
 PRINTS:PR00737 GLHYDRLASE16 > GO:hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553
 PRINTS:PR00737 GLHYDRLASE16 > GO:carbohydrate metabolic process ; GO:0005975
 PRINTS:PR00738 GLHYDRLASE20 > GO:beta-N-acetylhexosaminidase activity ; GO:0004563
+PRINTS:PR00738 GLHYDRLASE20 > GO:carbohydrate metabolic process ; GO:0005975
 PRINTS:PR00739 GLHYDRLASE26 > GO:mannan endo-1,4-beta-mannosidase activity ; GO:0016985
 PRINTS:PR00739 GLHYDRLASE26 > GO:substituted mannan metabolic process ; GO:0006080
 PRINTS:PR00740 GLHYDRLASE27 > GO:hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553
@@ -1807,10 +1806,8 @@ PRINTS:PR00787 NEUTRALPTASE > GO:proteolysis ; GO:0006508
 PRINTS:PR00787 NEUTRALPTASE > GO:extracellular region ; GO:0005576
 PRINTS:PR00788 NITROPHORIN > GO:histamine binding ; GO:0051381
 PRINTS:PR00788 NITROPHORIN > GO:nitric oxide binding ; GO:0070026
-PRINTS:PR00790 PAMONOXGNASE > GO:peptidylglycine monooxygenase activity ; GO:0004504
-PRINTS:PR00790 PAMONOXGNASE > GO:copper ion binding ; GO:0005507
+PRINTS:PR00790 PAMONOXGNASE > GO:catalytic activity ; GO:0003824
 PRINTS:PR00790 PAMONOXGNASE > GO:peptide metabolic process ; GO:0006518
-PRINTS:PR00790 PAMONOXGNASE > GO:oxidation-reduction process ; GO:0055114
 PRINTS:PR00790 PAMONOXGNASE > GO:membrane ; GO:0016020
 PRINTS:PR00791 PEPDIPTASEA > GO:metallopeptidase activity ; GO:0008237
 PRINTS:PR00791 PEPDIPTASEA > GO:peptidyl-dipeptidase activity ; GO:0008241
@@ -4395,6 +4392,11 @@ PRINTS:PR01869 BCATNINFAMLY > GO:adherens junction assembly ; GO:0034333
 PRINTS:PR01874 DNAREPAIRADA > GO:damaged DNA binding ; GO:0003684
 PRINTS:PR01874 DNAREPAIRADA > GO:ATP binding ; GO:0005524
 PRINTS:PR01874 DNAREPAIRADA > GO:DNA repair ; GO:0006281
+PRINTS:PR01875 ETOFAMILY > GO:transcription corepressor activity ; GO:0003714
+PRINTS:PR01875 ETOFAMILY > GO:negative regulation of transcription, DNA-templated ; GO:0045892
+PRINTS:PR01876 MTG8PROTEIN > GO:transcription corepressor activity ; GO:0003714
+PRINTS:PR01876 MTG8PROTEIN > GO:negative regulation of transcription, DNA-templated ; GO:0045892
+PRINTS:PR01881 LBHPROTEIN > GO:regulation of transcription, DNA-templated ; GO:0006355
 PRINTS:PR01882 LYSIN > GO:single fertilization ; GO:0007338
 PRINTS:PR01883 LEUKAEMIAIF > GO:leukemia inhibitory factor receptor binding ; GO:0005146
 PRINTS:PR01883 LEUKAEMIAIF > GO:extracellular region ; GO:0005576

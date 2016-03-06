@@ -1,4 +1,4 @@
-!version date: 2016/02/27 11:21:25
+!version date: 2016/03/05 11:38:35
 !description: Mapping of GO terms to PIRSF entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://pir.georgetown.edu/pirsf/
 !citation: Mitchell et al. (2015) Nucl. Acids Res. 43 :D213-D221
@@ -655,11 +655,10 @@ PIRSF:PIRSF000657 Ser/Thr_PK_ASFV > GO:protein serine/threonine kinase activity 
 PIRSF:PIRSF000657 Ser/Thr_PK_ASFV > GO:ATP binding ; GO:0005524
 PIRSF:PIRSF000657 Ser/Thr_PK_ASFV > GO:protein phosphorylation ; GO:0006468
 PIRSF:PIRSF000657 Ser/Thr_PK_ASFV > GO:viral process ; GO:0016032
-PIRSF:PIRSF000660 Ser/Thr_PK_GCN2 > GO:protein serine/threonine kinase activity ; GO:0004674
-PIRSF:PIRSF000660 Ser/Thr_PK_GCN2 > GO:ATP binding ; GO:0005524
-PIRSF:PIRSF000660 Ser/Thr_PK_GCN2 > GO:protein homodimerization activity ; GO:0042803
-PIRSF:PIRSF000660 Ser/Thr_PK_GCN2 > GO:regulation of translational initiation ; GO:0006446
+PIRSF:PIRSF000660 Ser/Thr_PK_GCN2 > GO:eukaryotic translation initiation factor 2alpha kinase activity ; GO:0004694
+PIRSF:PIRSF000660 Ser/Thr_PK_GCN2 > GO:DNA damage checkpoint ; GO:0000077
 PIRSF:PIRSF000660 Ser/Thr_PK_GCN2 > GO:protein phosphorylation ; GO:0006468
+PIRSF:PIRSF000660 Ser/Thr_PK_GCN2 > GO:regulation of translational initiation by eIF2 alpha phosphorylation ; GO:0010998
 PIRSF:PIRSF000661 Ser/Thr_PK_RAD53 > GO:DNA replication origin binding ; GO:0003688
 PIRSF:PIRSF000661 Ser/Thr_PK_RAD53 > GO:protein serine/threonine/tyrosine kinase activity ; GO:0004712
 PIRSF:PIRSF000661 Ser/Thr_PK_RAD53 > GO:DNA damage checkpoint ; GO:0000077
@@ -1821,6 +1820,7 @@ PIRSF:PIRSF005335 CCA_arch > GO:tRNA 3'-terminal CCA addition ; GO:0001680
 PIRSF:PIRSF005348 YxkH > GO:organic anion transmembrane transporter activity ; GO:0008514
 PIRSF:PIRSF005348 YxkH > GO:organic anion transport ; GO:0015711
 PIRSF:PIRSF005348 YxkH > GO:integral component of membrane ; GO:0016021
+PIRSF:PIRSF005355 UBIAD1 > GO:prenyltransferase activity ; GO:0004659
 PIRSF:PIRSF005378 RNA3'_term_phos_cycl_euk > GO:RNA processing ; GO:0006396
 PIRSF:PIRSF005384 RpiB_LacA_B > GO:isomerase activity ; GO:0016853
 PIRSF:PIRSF005384 RpiB_LacA_B > GO:carbohydrate metabolic process ; GO:0005975
@@ -2194,7 +2194,7 @@ PIRSF:PIRSF007945 SRB2 > GO:mediator complex ; GO:0016592
 PIRSF:PIRSF007949 VPS16 > GO:intracellular protein transport ; GO:0006886
 PIRSF:PIRSF007949 VPS16 > GO:vacuole organization ; GO:0007033
 PIRSF:PIRSF007951 PIRSF007951 > GO:hemolysis by symbiont of host erythrocytes ; GO:0019836
-PIRSF:PIRSF007991 Strabismus > GO:multicellular organismal development ; GO:0007275
+PIRSF:PIRSF007991 Strabismus > GO:multicellular organism development ; GO:0007275
 PIRSF:PIRSF007991 Strabismus > GO:integral component of membrane ; GO:0016021
 PIRSF:PIRSF008129 Noggin > GO:negative regulation of BMP signaling pathway ; GO:0030514
 PIRSF:PIRSF008129 Noggin > GO:negative regulation of cell differentiation ; GO:0045596
@@ -2248,7 +2248,7 @@ PIRSF:PIRSF009393 Orn_decarb > GO:carboxy-lyase activity ; GO:0016831
 PIRSF:PIRSF009393 Orn_decarb > GO:cellular amino acid metabolic process ; GO:0006520
 PIRSF:PIRSF009393 Orn_decarb > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF009400 Peptidase_C46 > GO:cell communication ; GO:0007154
-PIRSF:PIRSF009400 Peptidase_C46 > GO:multicellular organismal development ; GO:0007275
+PIRSF:PIRSF009400 Peptidase_C46 > GO:multicellular organism development ; GO:0007275
 PIRSF:PIRSF009404 Transcription_factor_DP > GO:cell cycle ; GO:0007049
 PIRSF:PIRSF009404 Transcription_factor_DP > GO:transcription factor complex ; GO:0005667
 PIRSF:PIRSF009407 IDH_monmr > GO:isocitrate dehydrogenase (NADP+) activity ; GO:0004450
@@ -2775,7 +2775,7 @@ PIRSF:PIRSF018282 MukF > GO:calcium ion binding ; GO:0005509
 PIRSF:PIRSF018282 MukF > GO:DNA replication ; GO:0006260
 PIRSF:PIRSF018282 MukF > GO:chromosome segregation ; GO:0007059
 PIRSF:PIRSF018282 MukF > GO:cytoplasm ; GO:0005737
-PIRSF:PIRSF018293 TRAPP_I_complex_Bet3 > GO:vesicle-mediated transport ; GO:0016192
+PIRSF:PIRSF018293 TRAPP_I_complex_Bet3 > GO:ER to Golgi vesicle-mediated transport ; GO:0006888
 PIRSF:PIRSF018296 Format_dh_formtn > GO:cytoplasm ; GO:0005737
 PIRSF:PIRSF018297 Doc > GO:kinase activity ; GO:0016301
 PIRSF:PIRSF018412 TEBP_beta > GO:telomeric DNA binding ; GO:0042162
@@ -2873,10 +2873,10 @@ PIRSF:PIRSF021278 AcuA > GO:acetoin dehydrogenase activity ; GO:0019152
 PIRSF:PIRSF021278 AcuA > GO:acetoin catabolic process ; GO:0045150
 PIRSF:PIRSF021292 Competence_ComGD > GO:establishment of competence for transformation ; GO:0030420
 PIRSF:PIRSF021331 YkoF > GO:thiamine binding ; GO:0030975
-PIRSF:PIRSF021362 UCP021362_HAD > GO:phosphatase activity ; GO:0016791
 PIRSF:PIRSF021424 RTP > GO:DNA binding ; GO:0003677
 PIRSF:PIRSF021424 RTP > GO:DNA replication termination ; GO:0006274
 PIRSF:PIRSF021439 DUF972 > GO:DNA replication ; GO:0006260
+PIRSF:PIRSF021497 Sulphotransferase_Stf0 > GO:transferase activity ; GO:0016740
 PIRSF:PIRSF021524 MSH_acetyltransferase > GO:transferase activity, transferring acyl groups other than amino-acyl groups ; GO:0016747
 PIRSF:PIRSF022145 Sulfocyanin > GO:copper ion binding ; GO:0005507
 PIRSF:PIRSF022145 Sulfocyanin > GO:oxidation-reduction process ; GO:0055114
@@ -2987,9 +2987,9 @@ PIRSF:PIRSF028743 GvpO_protein > GO:gas vesicle organization ; GO:0031412
 PIRSF:PIRSF028762 ABD1 > GO:mRNA (guanine-N7-)-methyltransferase activity ; GO:0004482
 PIRSF:PIRSF028762 ABD1 > GO:7-methylguanosine mRNA capping ; GO:0006370
 PIRSF:PIRSF028762 ABD1 > GO:nucleus ; GO:0005634
-PIRSF:PIRSF028763 RNA_pol_Rpc34 > GO:DNA binding ; GO:0003677
 PIRSF:PIRSF028763 RNA_pol_Rpc34 > GO:DNA-directed RNA polymerase activity ; GO:0003899
-PIRSF:PIRSF028763 RNA_pol_Rpc34 > GO:transcription, DNA-templated ; GO:0006351
+PIRSF:PIRSF028763 RNA_pol_Rpc34 > GO:regulation of transcription from RNA polymerase III promoter ; GO:0006359
+PIRSF:PIRSF028763 RNA_pol_Rpc34 > GO:DNA-directed RNA polymerase III complex ; GO:0005666
 PIRSF:PIRSF028774 UCP028774 > GO:methyltransferase activity ; GO:0008168
 PIRSF:PIRSF028784 MrpF > GO:ion transmembrane transporter activity ; GO:0015075
 PIRSF:PIRSF028784 MrpF > GO:ion transmembrane transport ; GO:0034220
@@ -3044,7 +3044,6 @@ PIRSF:PIRSF029764 RSM25 > GO:mitochondrial small ribosomal subunit ; GO:0005763
 PIRSF:PIRSF029775 Isochor_pyr_lyas > GO:chorismate mutase activity ; GO:0004106
 PIRSF:PIRSF029775 Isochor_pyr_lyas > GO:carbon-oxygen lyase activity ; GO:0016835
 PIRSF:PIRSF029775 Isochor_pyr_lyas > GO:salicylic acid biosynthetic process ; GO:0009697
-PIRSF:PIRSF029792 Pro_racemase > GO:proline racemase activity ; GO:0018112
 PIRSF:PIRSF029827 Fe_traffic_YggX > GO:iron ion binding ; GO:0005506
 PIRSF:PIRSF029886 KBAA > GO:positive regulation of sporulation resulting in formation of a cellular spore ; GO:0045881
 PIRSF:PIRSF029900 Alpha-glucuronds > GO:alpha-glucuronidase activity ; GO:0046559
@@ -3797,7 +3796,8 @@ PIRSF:PIRSF038097 V-ATP_synth_e1/e2 > GO:ATP hydrolysis coupled proton transport
 PIRSF:PIRSF038097 V-ATP_synth_e1/e2 > GO:proton-transporting V-type ATPase, V0 domain ; GO:0033179
 PIRSF:PIRSF038119 Nucleoporin_NUP53 > GO:transmembrane transport ; GO:0055085
 PIRSF:PIRSF038119 Nucleoporin_NUP53 > GO:nuclear membrane ; GO:0031965
-PIRSF:PIRSF038120 Ubiquitinyl_hydrolase_UCH37 > GO:omega peptidase activity ; GO:0008242
+PIRSF:PIRSF038120 Ubiquitinyl_hydrolase_UCH37 > GO:thiol-dependent ubiquitin-specific protease activity ; GO:0004843
+PIRSF:PIRSF038120 Ubiquitinyl_hydrolase_UCH37 > GO:protein deubiquitination ; GO:0016579
 PIRSF:PIRSF038122 COBRA > GO:cellulose microfibril organization ; GO:0010215
 PIRSF:PIRSF038122 COBRA > GO:cell growth ; GO:0016049
 PIRSF:PIRSF038122 COBRA > GO:anchored component of membrane ; GO:0031225

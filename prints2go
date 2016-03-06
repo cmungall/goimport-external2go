@@ -1,4 +1,4 @@
-!version date: 2016/02/27 11:21:25
+!version date: 2016/03/05 11:38:35
 !description: Mapping of GO terms to PRINTS entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
 !citation: Mitchell et al. (2015) Nucl. Acids Res. 43 :D213-D221
@@ -28,7 +28,7 @@ PRINTS:PR00025 ANTENNAPEDIA > GO:transcription factor activity, sequence-specifi
 PRINTS:PR00025 ANTENNAPEDIA > GO:regulation of transcription, DNA-templated ; GO:0006355
 PRINTS:PR00025 ANTENNAPEDIA > GO:nucleus ; GO:0005634
 PRINTS:PR00026 ENGRAILED > GO:DNA binding ; GO:0003677
-PRINTS:PR00026 ENGRAILED > GO:multicellular organismal development ; GO:0007275
+PRINTS:PR00026 ENGRAILED > GO:multicellular organism development ; GO:0007275
 PRINTS:PR00026 ENGRAILED > GO:nucleus ; GO:0005634
 PRINTS:PR00027 PAIREDBOX > GO:DNA binding ; GO:0003677
 PRINTS:PR00027 PAIREDBOX > GO:regulation of transcription, DNA-templated ; GO:0006355
@@ -335,7 +335,6 @@ PRINTS:PR00161 NIHGNASECYTB > GO:iron ion binding ; GO:0005506
 PRINTS:PR00161 NIHGNASECYTB > GO:electron carrier activity ; GO:0009055
 PRINTS:PR00161 NIHGNASECYTB > GO:transport ; GO:0006810
 PRINTS:PR00161 NIHGNASECYTB > GO:membrane ; GO:0016020
-PRINTS:PR00162 RIESKE > GO:ubiquinol-cytochrome-c reductase activity ; GO:0008121
 PRINTS:PR00162 RIESKE > GO:oxidation-reduction process ; GO:0055114
 PRINTS:PR00162 RIESKE > GO:membrane ; GO:0016020
 PRINTS:PR00163 RUBREDOXIN > GO:iron ion binding ; GO:0005506
@@ -1435,7 +1434,7 @@ PRINTS:PR00627 GTPRANTC4 > GO:signal transduction ; GO:0007165
 PRINTS:PR00628 INSULINRSI > GO:insulin receptor binding ; GO:0005158
 PRINTS:PR00629 SHCPIDOMAIN > GO:intracellular signal transduction ; GO:0035556
 PRINTS:PR00632 SONICHHOG > GO:cell communication ; GO:0007154
-PRINTS:PR00632 SONICHHOG > GO:multicellular organismal development ; GO:0007275
+PRINTS:PR00632 SONICHHOG > GO:multicellular organism development ; GO:0007275
 PRINTS:PR00635 ANGIOTENSN1R > GO:angiotensin type II receptor activity ; GO:0004945
 PRINTS:PR00635 ANGIOTENSN1R > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00635 ANGIOTENSN1R > GO:regulation of vasoconstriction ; GO:0019229
@@ -1467,16 +1466,12 @@ PRINTS:PR00642 EDG1RECEPTOR > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00643 G10DORPHANR > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00643 G10DORPHANR > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00644 GPRORPHANR > GO:integral component of membrane ; GO:0016021
-PRINTS:PR00645 CXCCHMKINER4 > GO:C-X-C chemokine receptor activity ; GO:0016494
-PRINTS:PR00645 CXCCHMKINER4 > GO:chemotaxis ; GO:0006935
-PRINTS:PR00645 CXCCHMKINER4 > GO:G-protein coupled receptor signaling pathway ; GO:0007186
-PRINTS:PR00645 CXCCHMKINER4 > GO:neutrophil activation ; GO:0042119
 PRINTS:PR00645 CXCCHMKINER4 > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00646 RDC1ORPHANR > GO:coreceptor activity ; GO:0015026
+PRINTS:PR00646 RDC1ORPHANR > GO:chemokine binding ; GO:0019956
 PRINTS:PR00646 RDC1ORPHANR > GO:angiogenesis ; GO:0001525
 PRINTS:PR00646 RDC1ORPHANR > GO:vasculogenesis ; GO:0001570
 PRINTS:PR00646 RDC1ORPHANR > GO:chemotaxis ; GO:0006935
-PRINTS:PR00646 RDC1ORPHANR > GO:chemokine-mediated signaling pathway ; GO:0070098
 PRINTS:PR00646 RDC1ORPHANR > GO:integral component of membrane ; GO:0016021
 PRINTS:PR00647 UROTENSIN2R > GO:urotensin II receptor activity ; GO:0001604
 PRINTS:PR00647 UROTENSIN2R > GO:G-protein coupled receptor signaling pathway ; GO:0007186
@@ -2118,6 +2113,11 @@ PRINTS:PR00961 HUDSXLRNA > GO:RNA binding ; GO:0003723
 PRINTS:PR00963 MARCKS > GO:calmodulin binding ; GO:0005516
 PRINTS:PR00964 MOVEMENT > GO:nucleic acid binding ; GO:0003676
 PRINTS:PR00964 MOVEMENT > GO:transport ; GO:0006810
+PRINTS:PR00965 OCULARALBNSM > GO:G-protein coupled receptor activity ; GO:0004930
+PRINTS:PR00965 OCULARALBNSM > GO:dopamine binding ; GO:0035240
+PRINTS:PR00965 OCULARALBNSM > GO:L-DOPA binding ; GO:0072544
+PRINTS:PR00965 OCULARALBNSM > GO:tyrosine binding ; GO:0072545
+PRINTS:PR00965 OCULARALBNSM > GO:G-protein coupled receptor signaling pathway ; GO:0007186
 PRINTS:PR00965 OCULARALBNSM > GO:membrane ; GO:0016020
 PRINTS:PR00966 NIAPOTYPTASE > GO:cysteine-type peptidase activity ; GO:0008234
 PRINTS:PR00966 NIAPOTYPTASE > GO:proteolysis ; GO:0006508
@@ -2419,6 +2419,7 @@ PRINTS:PR01071 ACOABIOTINCC > GO:acetyl-CoA carboxylase activity ; GO:0003989
 PRINTS:PR01071 ACOABIOTINCC > GO:fatty acid biosynthetic process ; GO:0006633
 PRINTS:PR01071 ACOABIOTINCC > GO:acetyl-CoA carboxylase complex ; GO:0009317
 PRINTS:PR01072 PRESENILIN > GO:aspartic-type endopeptidase activity ; GO:0004190
+PRINTS:PR01072 PRESENILIN > GO:protein processing ; GO:0016485
 PRINTS:PR01072 PRESENILIN > GO:integral component of membrane ; GO:0016021
 PRINTS:PR01073 PRESENILIN1 > GO:intracellular signal transduction ; GO:0035556
 PRINTS:PR01073 PRESENILIN1 > GO:membrane ; GO:0016020
@@ -2882,11 +2883,9 @@ PRINTS:PR01239 EP450IICYP52 > GO:heme binding ; GO:0020037
 PRINTS:PR01239 EP450IICYP52 > GO:oxidation-reduction process ; GO:0055114
 PRINTS:PR01241 GPROTEINAFNG > GO:G-protein coupled receptor binding ; GO:0001664
 PRINTS:PR01241 GPROTEINAFNG > GO:GTPase activity ; GO:0003924
-PRINTS:PR01241 GPROTEINAFNG > GO:signal transducer activity ; GO:0004871
 PRINTS:PR01241 GPROTEINAFNG > GO:GTP binding ; GO:0005525
-PRINTS:PR01241 GPROTEINAFNG > GO:G-protein beta/gamma-subunit complex binding ; GO:0031683
 PRINTS:PR01241 GPROTEINAFNG > GO:G-protein coupled receptor signaling pathway ; GO:0007186
-PRINTS:PR01241 GPROTEINAFNG > GO:adenylate cyclase-activating G-protein coupled receptor signaling pathway ; GO:0007189
+PRINTS:PR01241 GPROTEINAFNG > GO:heterotrimeric G-protein complex ; GO:0005834
 PRINTS:PR01242 GPROTEINAPLT > GO:signal transducer activity ; GO:0004871
 PRINTS:PR01242 GPROTEINAPLT > GO:GTP binding ; GO:0005525
 PRINTS:PR01242 GPROTEINAPLT > GO:G-protein coupled receptor signaling pathway ; GO:0007186
@@ -2920,14 +2919,14 @@ PRINTS:PR01254 PGNDSYNTHASE > GO:lipid metabolic process ; GO:0006629
 PRINTS:PR01254 PGNDSYNTHASE > GO:transport ; GO:0006810
 PRINTS:PR01255 OTXHOMEOBOX > GO:DNA binding ; GO:0003677
 PRINTS:PR01255 OTXHOMEOBOX > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
-PRINTS:PR01255 OTXHOMEOBOX > GO:multicellular organismal development ; GO:0007275
+PRINTS:PR01255 OTXHOMEOBOX > GO:multicellular organism development ; GO:0007275
 PRINTS:PR01255 OTXHOMEOBOX > GO:nucleus ; GO:0005634
 PRINTS:PR01256 OTX1HOMEOBOX > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
-PRINTS:PR01256 OTX1HOMEOBOX > GO:multicellular organismal development ; GO:0007275
+PRINTS:PR01256 OTX1HOMEOBOX > GO:multicellular organism development ; GO:0007275
 PRINTS:PR01256 OTX1HOMEOBOX > GO:nucleus ; GO:0005634
 PRINTS:PR01257 OTX2HOMEOBOX > GO:DNA binding ; GO:0003677
 PRINTS:PR01257 OTX2HOMEOBOX > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
-PRINTS:PR01257 OTX2HOMEOBOX > GO:multicellular organismal development ; GO:0007275
+PRINTS:PR01257 OTX2HOMEOBOX > GO:multicellular organism development ; GO:0007275
 PRINTS:PR01257 OTX2HOMEOBOX > GO:nucleus ; GO:0005634
 PRINTS:PR01258 OCCLUDIN > GO:bicellular tight junction assembly ; GO:0070830
 PRINTS:PR01258 OCCLUDIN > GO:bicellular tight junction ; GO:0005923
@@ -3157,7 +3156,7 @@ PRINTS:PR01348 ICLNCHANNEL > GO:plasma membrane ; GO:0005886
 PRINTS:PR01348 ICLNCHANNEL > GO:methylosome ; GO:0034709
 PRINTS:PR01348 ICLNCHANNEL > GO:pICln-Sm protein complex ; GO:0034715
 PRINTS:PR01349 WNTPROTEIN > GO:receptor binding ; GO:0005102
-PRINTS:PR01349 WNTPROTEIN > GO:multicellular organismal development ; GO:0007275
+PRINTS:PR01349 WNTPROTEIN > GO:multicellular organism development ; GO:0007275
 PRINTS:PR01349 WNTPROTEIN > GO:Wnt signaling pathway ; GO:0016055
 PRINTS:PR01349 WNTPROTEIN > GO:extracellular region ; GO:0005576
 PRINTS:PR01350 CTRFAMILY > GO:calcitonin receptor activity ; GO:0004948
@@ -3762,9 +3761,7 @@ PRINTS:PR01606 KCNE3CHANNEL > GO:membrane ; GO:0016020
 PRINTS:PR01607 APYRASEFAMLY > GO:hydrolase activity ; GO:0016787
 PRINTS:PR01607 APYRASEFAMLY > GO:nucleotide catabolic process ; GO:0009166
 PRINTS:PR01608 BACINVASINC > GO:pathogenesis ; GO:0009405
-PRINTS:PR01609 CD36FAMILY > GO:cell adhesion ; GO:0007155
 PRINTS:PR01609 CD36FAMILY > GO:membrane ; GO:0016020
-PRINTS:PR01610 CD36ANTIGEN > GO:cell adhesion ; GO:0007155
 PRINTS:PR01611 LIMPII > GO:receptor activity ; GO:0004872
 PRINTS:PR01611 LIMPII > GO:lysosome ; GO:0005764
 PRINTS:PR01612 CRFFAMILY > GO:hormone activity ; GO:0005179
@@ -4161,7 +4158,7 @@ PRINTS:PR01756 OMADHESIN > GO:collagen binding ; GO:0005518
 PRINTS:PR01756 OMADHESIN > GO:cell adhesion ; GO:0007155
 PRINTS:PR01756 OMADHESIN > GO:pathogenesis ; GO:0009405
 PRINTS:PR01756 OMADHESIN > GO:outer membrane ; GO:0019867
-PRINTS:PR01757 AMELOGENIN > GO:multicellular organismal development ; GO:0007275
+PRINTS:PR01757 AMELOGENIN > GO:multicellular organism development ; GO:0007275
 PRINTS:PR01757 AMELOGENIN > GO:proteinaceous extracellular matrix ; GO:0005578
 PRINTS:PR01758 CAPSULEPROTB > GO:capsule polysaccharide biosynthetic process ; GO:0045227
 PRINTS:PR01758 CAPSULEPROTB > GO:membrane ; GO:0016020
@@ -4328,23 +4325,23 @@ PRINTS:PR01839 RAD23PROTEIN > GO:nucleotide-excision repair ; GO:0006289
 PRINTS:PR01839 RAD23PROTEIN > GO:nucleus ; GO:0005634
 PRINTS:PR01840 TATCFAMILY > GO:integral component of membrane ; GO:0016021
 PRINTS:PR01841 WNT1PROTEIN > GO:receptor binding ; GO:0005102
-PRINTS:PR01841 WNT1PROTEIN > GO:multicellular organismal development ; GO:0007275
+PRINTS:PR01841 WNT1PROTEIN > GO:multicellular organism development ; GO:0007275
 PRINTS:PR01841 WNT1PROTEIN > GO:Wnt signaling pathway ; GO:0016055
 PRINTS:PR01841 WNT1PROTEIN > GO:extracellular region ; GO:0005576
 PRINTS:PR01842 WNT2PROTEIN > GO:receptor binding ; GO:0005102
-PRINTS:PR01842 WNT2PROTEIN > GO:multicellular organismal development ; GO:0007275
+PRINTS:PR01842 WNT2PROTEIN > GO:multicellular organism development ; GO:0007275
 PRINTS:PR01842 WNT2PROTEIN > GO:Wnt signaling pathway ; GO:0016055
 PRINTS:PR01842 WNT2PROTEIN > GO:extracellular region ; GO:0005576
 PRINTS:PR01843 WNT3PROTEIN > GO:receptor binding ; GO:0005102
-PRINTS:PR01843 WNT3PROTEIN > GO:multicellular organismal development ; GO:0007275
+PRINTS:PR01843 WNT3PROTEIN > GO:multicellular organism development ; GO:0007275
 PRINTS:PR01843 WNT3PROTEIN > GO:Wnt signaling pathway ; GO:0016055
 PRINTS:PR01843 WNT3PROTEIN > GO:extracellular region ; GO:0005576
 PRINTS:PR01844 WNT4PROTEIN > GO:receptor binding ; GO:0005102
-PRINTS:PR01844 WNT4PROTEIN > GO:multicellular organismal development ; GO:0007275
+PRINTS:PR01844 WNT4PROTEIN > GO:multicellular organism development ; GO:0007275
 PRINTS:PR01844 WNT4PROTEIN > GO:Wnt signaling pathway ; GO:0016055
 PRINTS:PR01844 WNT4PROTEIN > GO:extracellular region ; GO:0005576
 PRINTS:PR01845 WNT6PROTEIN > GO:receptor binding ; GO:0005102
-PRINTS:PR01845 WNT6PROTEIN > GO:multicellular organismal development ; GO:0007275
+PRINTS:PR01845 WNT6PROTEIN > GO:multicellular organism development ; GO:0007275
 PRINTS:PR01845 WNT6PROTEIN > GO:Wnt signaling pathway ; GO:0016055
 PRINTS:PR01845 WNT6PROTEIN > GO:extracellular region ; GO:0005576
 PRINTS:PR01846 TRHRFAMILY > GO:thyrotropin-releasing hormone receptor activity ; GO:0004997
@@ -4353,7 +4350,8 @@ PRINTS:PR01846 TRHRFAMILY > GO:integral component of membrane ; GO:0016021
 PRINTS:PR01847 VIRALFUSION > GO:fusion of virus membrane with host plasma membrane ; GO:0019064
 PRINTS:PR01847 VIRALFUSION > GO:viral envelope ; GO:0019031
 PRINTS:PR01848 U2AUXFACTOR > GO:RNA binding ; GO:0003723
-PRINTS:PR01848 U2AUXFACTOR > GO:nucleus ; GO:0005634
+PRINTS:PR01848 U2AUXFACTOR > GO:mRNA splicing, via spliceosome ; GO:0000398
+PRINTS:PR01848 U2AUXFACTOR > GO:U2AF ; GO:0089701
 PRINTS:PR01849 UBIQUITINACT > GO:small protein activating enzyme activity ; GO:0008641
 PRINTS:PR01849 UBIQUITINACT > GO:cellular protein modification process ; GO:0006464
 PRINTS:PR01850 GROUCHOFAMLY > GO:regulation of transcription, DNA-templated ; GO:0006355
@@ -4401,23 +4399,23 @@ PRINTS:PR01885 MACROMOMYCIN > GO:DNA binding ; GO:0003677
 PRINTS:PR01885 MACROMOMYCIN > GO:defense response ; GO:0006952
 PRINTS:PR01888 NROPEPTIDEBW > GO:G-protein coupled receptor binding ; GO:0001664
 PRINTS:PR01891 WNT7PROTEIN > GO:receptor binding ; GO:0005102
-PRINTS:PR01891 WNT7PROTEIN > GO:multicellular organismal development ; GO:0007275
+PRINTS:PR01891 WNT7PROTEIN > GO:multicellular organism development ; GO:0007275
 PRINTS:PR01891 WNT7PROTEIN > GO:Wnt signaling pathway ; GO:0016055
 PRINTS:PR01891 WNT7PROTEIN > GO:extracellular region ; GO:0005576
 PRINTS:PR01892 WNT8PROTEIN > GO:receptor binding ; GO:0005102
-PRINTS:PR01892 WNT8PROTEIN > GO:multicellular organismal development ; GO:0007275
+PRINTS:PR01892 WNT8PROTEIN > GO:multicellular organism development ; GO:0007275
 PRINTS:PR01892 WNT8PROTEIN > GO:Wnt signaling pathway ; GO:0016055
 PRINTS:PR01892 WNT8PROTEIN > GO:extracellular region ; GO:0005576
 PRINTS:PR01893 WNT10PROTEIN > GO:receptor binding ; GO:0005102
-PRINTS:PR01893 WNT10PROTEIN > GO:multicellular organismal development ; GO:0007275
+PRINTS:PR01893 WNT10PROTEIN > GO:multicellular organism development ; GO:0007275
 PRINTS:PR01893 WNT10PROTEIN > GO:Wnt signaling pathway ; GO:0016055
 PRINTS:PR01893 WNT10PROTEIN > GO:extracellular region ; GO:0005576
 PRINTS:PR01894 WNT14PROTEIN > GO:receptor binding ; GO:0005102
-PRINTS:PR01894 WNT14PROTEIN > GO:multicellular organismal development ; GO:0007275
+PRINTS:PR01894 WNT14PROTEIN > GO:multicellular organism development ; GO:0007275
 PRINTS:PR01894 WNT14PROTEIN > GO:Wnt signaling pathway ; GO:0016055
 PRINTS:PR01894 WNT14PROTEIN > GO:extracellular region ; GO:0005576
 PRINTS:PR01895 WNT16PROTEIN > GO:receptor binding ; GO:0005102
-PRINTS:PR01895 WNT16PROTEIN > GO:multicellular organismal development ; GO:0007275
+PRINTS:PR01895 WNT16PROTEIN > GO:multicellular organism development ; GO:0007275
 PRINTS:PR01895 WNT16PROTEIN > GO:Wnt signaling pathway ; GO:0016055
 PRINTS:PR01895 WNT16PROTEIN > GO:extracellular region ; GO:0005576
 PRINTS:PR01897 TAP2PROTEIN > GO:ATP binding ; GO:0005524

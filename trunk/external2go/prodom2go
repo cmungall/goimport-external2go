@@ -1,4 +1,4 @@
-!version date: 2016/02/27 11:21:24
+!version date: 2016/03/05 11:38:35
 !description: Mapping of GO terms to PRODOM entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://prodom.prabi.fr/
 !citation: Mitchell et al. (2015) Nucl. Acids Res. 43 :D213-D221
@@ -116,6 +116,10 @@ ProDom:PD002998 Chitin_synth > GO:chitin biosynthetic process ; GO:0006031
 ProDom:PD003056 Tospo_nucleocap > GO:viral nucleocapsid ; GO:0019013
 ProDom:PD003091 Peptidase_C53 > GO:viral process ; GO:0016032
 ProDom:PD003091 Peptidase_C53 > GO:viral protein processing ; GO:0019082
+ProDom:PD003101 Ribosomal_L34 > GO:structural constituent of ribosome ; GO:0003735
+ProDom:PD003101 Ribosomal_L34 > GO:translation ; GO:0006412
+ProDom:PD003101 Ribosomal_L34 > GO:intracellular ; GO:0005622
+ProDom:PD003101 Ribosomal_L34 > GO:ribosome ; GO:0005840
 ProDom:PD003114 Ribosomal_L27 > GO:structural constituent of ribosome ; GO:0003735
 ProDom:PD003114 Ribosomal_L27 > GO:translation ; GO:0006412
 ProDom:PD003114 Ribosomal_L27 > GO:intracellular ; GO:0005622
@@ -405,9 +409,9 @@ ProDom:PD010414 Apo-CIII > GO:lipid binding ; GO:0008289
 ProDom:PD010414 Apo-CIII > GO:lipid transport ; GO:0006869
 ProDom:PD010414 Apo-CIII > GO:lipoprotein metabolic process ; GO:0042157
 ProDom:PD010414 Apo-CIII > GO:extracellular region ; GO:0005576
-ProDom:PD010430 CofA_tubulin_bd > GO:tubulin binding ; GO:0015631
-ProDom:PD010430 CofA_tubulin_bd > GO:unfolded protein binding ; GO:0051082
+ProDom:PD010430 CofA_tubulin_bd > GO:beta-tubulin binding ; GO:0048487
 ProDom:PD010430 CofA_tubulin_bd > GO:tubulin complex assembly ; GO:0007021
+ProDom:PD010430 CofA_tubulin_bd > GO:post-chaperonin tubulin folding pathway ; GO:0007023
 ProDom:PD010449 Pyruvoyl-dep_arg_deCO2ase > GO:arginine decarboxylase activity ; GO:0008792
 ProDom:PD010449 Pyruvoyl-dep_arg_deCO2ase > GO:arginine catabolic process ; GO:0006527
 ProDom:PD010482 Mating_factor_a > GO:mating pheromone activity ; GO:0000772
@@ -444,7 +448,7 @@ ProDom:PD012062 Ornatin > GO:regulation of blood coagulation ; GO:0030193
 ProDom:PD012062 Ornatin > GO:extracellular region ; GO:0005576
 ProDom:PD012101 Micrvir_lysisE_C > GO:enzyme inhibitor activity ; GO:0004857
 ProDom:PD012101 Micrvir_lysisE_C > GO:modulation by virus of host process ; GO:0019054
-ProDom:PD012165 S19_C > GO:multicellular organismal development ; GO:0007275
+ProDom:PD012165 S19_C > GO:multicellular organism development ; GO:0007275
 ProDom:PD012165 S19_C > GO:chorion ; GO:0042600
 ProDom:PD012265 THM_MeTrfase_su_G > GO:tetrahydromethanopterin S-methyltransferase activity ; GO:0030269
 ProDom:PD012265 THM_MeTrfase_su_G > GO:methanogenesis ; GO:0015948
@@ -878,7 +882,7 @@ ProDom:PD331837 RabGG_trans_A > GO:Rab geranylgeranyltransferase activity ; GO:0
 ProDom:PD331837 RabGG_trans_A > GO:zinc ion binding ; GO:0008270
 ProDom:PD332876 PD332876 > GO:immune response-regulating signaling pathway ; GO:0002764
 ProDom:PD332876 PD332876 > GO:B cell activation ; GO:0042113
-ProDom:PD336054 PD336054 > GO:multicellular organismal development ; GO:0007275
+ProDom:PD336054 PD336054 > GO:multicellular organism development ; GO:0007275
 ProDom:PD336606 Adhes-Ig-like > GO:cell adhesion ; GO:0007155
 ProDom:PD336606 Adhes-Ig-like > GO:membrane ; GO:0016020
 ProDom:PD339292 LAB_N > GO:lipid-A-disaccharide synthase activity ; GO:0008915
@@ -891,7 +895,7 @@ ProDom:PD340439 PD340439 > GO:membrane raft ; GO:0045121
 ProDom:PD342192 Nab_N > GO:negative regulation of transcription, DNA-templated ; GO:0045892
 ProDom:PD342192 Nab_N > GO:nucleus ; GO:0005634
 ProDom:PD355092 Churchill > GO:zinc ion binding ; GO:0008270
-ProDom:PD355092 Churchill > GO:multicellular organismal development ; GO:0007275
+ProDom:PD355092 Churchill > GO:multicellular organism development ; GO:0007275
 ProDom:PD355092 Churchill > GO:positive regulation of transcription, DNA-templated ; GO:0045893
 ProDom:PD355753 UPF0295 > GO:integral component of plasma membrane ; GO:0005887
 ProDom:PD377005 Anthrax_toxin_rcpt_C > GO:receptor activity ; GO:0004872

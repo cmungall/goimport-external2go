@@ -1,4 +1,4 @@
-!version date: 2016/04/09 10:35:53
+!version date: 2016/04/23 09:59:16
 !description: Mapping of GO terms to PROSITE entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources: http://www.ebi.ac.uk/interpro, http://www.expasy.org/prosite/
 !citation: Mitchell et al. (2015) Nucl. Acids Res. 43 :D213-D221
@@ -96,9 +96,6 @@ PROSITE:PS00072 ACYL_COA_DH_1 > GO:acyl-CoA dehydrogenase activity ; GO:0003995
 PROSITE:PS00072 ACYL_COA_DH_1 > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS00073 ACYL_COA_DH_2 > GO:acyl-CoA dehydrogenase activity ; GO:0003995
 PROSITE:PS00073 ACYL_COA_DH_2 > GO:oxidation-reduction process ; GO:0055114
-PROSITE:PS00074 GLFV_DEHYDROGENASE > GO:oxidoreductase activity ; GO:0016491
-PROSITE:PS00074 GLFV_DEHYDROGENASE > GO:cellular amino acid metabolic process ; GO:0006520
-PROSITE:PS00074 GLFV_DEHYDROGENASE > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS00075 DHFR_1 > GO:dihydrofolate reductase activity ; GO:0004146
 PROSITE:PS00075 DHFR_1 > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS00076 PYRIDINE_REDOX_1 > GO:oxidoreductase activity, acting on a sulfur group of donors, NAD(P) as acceptor ; GO:0016668
@@ -229,10 +226,6 @@ PROSITE:PS00162 ALPHA_CA_1 > GO:carbonate dehydratase activity ; GO:0004089
 PROSITE:PS00162 ALPHA_CA_1 > GO:zinc ion binding ; GO:0008270
 PROSITE:PS00162 ALPHA_CA_1 > GO:one-carbon metabolic process ; GO:0006730
 PROSITE:PS00163 FUMARATE_LYASES > GO:catalytic activity ; GO:0003824
-PROSITE:PS00164 ENOLASE > GO:magnesium ion binding ; GO:0000287
-PROSITE:PS00164 ENOLASE > GO:phosphopyruvate hydratase activity ; GO:0004634
-PROSITE:PS00164 ENOLASE > GO:glycolytic process ; GO:0006096
-PROSITE:PS00164 ENOLASE > GO:phosphopyruvate hydratase complex ; GO:0000015
 PROSITE:PS00165 DEHYDRATASE_SER_THR > GO:pyridoxal phosphate binding ; GO:0030170
 PROSITE:PS00165 DEHYDRATASE_SER_THR > GO:cellular amino acid metabolic process ; GO:0006520
 PROSITE:PS00166 ENOYL_COA_HYDRATASE > GO:catalytic activity ; GO:0003824
@@ -779,7 +772,6 @@ PROSITE:PS00552 HTH_MERR_1 > GO:DNA binding ; GO:0003677
 PROSITE:PS00552 HTH_MERR_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
 PROSITE:PS00554 TEA_1 > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 PROSITE:PS00554 TEA_1 > GO:regulation of transcription, DNA-templated ; GO:0006355
-PROSITE:PS00554 TEA_1 > GO:nucleus ; GO:0005634
 PROSITE:PS00555 ICOSAH_VIR_COAT_S > GO:structural molecule activity ; GO:0005198
 PROSITE:PS00555 ICOSAH_VIR_COAT_S > GO:viral capsid ; GO:0019028
 PROSITE:PS00556 HOK_GEF > GO:membrane ; GO:0016020
@@ -1283,12 +1275,8 @@ PROSITE:PS00838 INTERLEUKIN_4_13 > GO:cytokine receptor binding ; GO:0005126
 PROSITE:PS00838 INTERLEUKIN_4_13 > GO:immune response ; GO:0006955
 PROSITE:PS00838 INTERLEUKIN_4_13 > GO:extracellular region ; GO:0005576
 PROSITE:PS00839 SUMT_1 > GO:methyltransferase activity ; GO:0008168
-PROSITE:PS00839 SUMT_1 > GO:precorrin-2 dehydrogenase activity ; GO:0043115
-PROSITE:PS00839 SUMT_1 > GO:porphyrin-containing compound biosynthetic process ; GO:0006779
 PROSITE:PS00839 SUMT_1 > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS00840 SUMT_2 > GO:methyltransferase activity ; GO:0008168
-PROSITE:PS00840 SUMT_2 > GO:precorrin-2 dehydrogenase activity ; GO:0043115
-PROSITE:PS00840 SUMT_2 > GO:porphyrin-containing compound biosynthetic process ; GO:0006779
 PROSITE:PS00840 SUMT_2 > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS00841 XPG_1 > GO:hydrolase activity, acting on ester bonds ; GO:0016788
 PROSITE:PS00842 XPG_2 > GO:hydrolase activity, acting on ester bonds ; GO:0016788
@@ -1396,8 +1384,8 @@ PROSITE:PS00913 ADH_IRON_1 > GO:oxidation-reduction process ; GO:0055114
 PROSITE:PS00914 SYNTAXIN > GO:SNAP receptor activity ; GO:0005484
 PROSITE:PS00914 SYNTAXIN > GO:intracellular protein transport ; GO:0006886
 PROSITE:PS00914 SYNTAXIN > GO:membrane ; GO:0016020
-PROSITE:PS00915 PI3_4_KINASE_1 > GO:phosphotransferase activity, alcohol group as acceptor ; GO:0016773
-PROSITE:PS00916 PI3_4_KINASE_2 > GO:phosphotransferase activity, alcohol group as acceptor ; GO:0016773
+PROSITE:PS00915 PI3_4_KINASE_1 > GO:kinase activity ; GO:0016301
+PROSITE:PS00916 PI3_4_KINASE_2 > GO:kinase activity ; GO:0016301
 PROSITE:PS00920 NITRIL_CHT_1 > GO:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds ; GO:0016810
 PROSITE:PS00921 NITRIL_CHT_2 > GO:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds ; GO:0016810
 PROSITE:PS00922 TRANSGLYCOSYLASE > GO:lytic transglycosylase activity ; GO:0008933
@@ -2072,7 +2060,6 @@ PROSITE:PS01334 PYRASE_CYS > GO:cytosol ; GO:0005829
 PROSITE:PS01335 METHYLGLYOXAL_SYNTH > GO:methylglyoxal synthase activity ; GO:0008929
 PROSITE:PS01335 METHYLGLYOXAL_SYNTH > GO:methylglyoxal biosynthetic process ; GO:0019242
 PROSITE:PS01336 ADOMETDC > GO:adenosylmethionine decarboxylase activity ; GO:0004014
-PROSITE:PS01337 ODC_AZ > GO:enzyme inhibitor activity ; GO:0004857
 PROSITE:PS01337 ODC_AZ > GO:ornithine decarboxylase inhibitor activity ; GO:0008073
 PROSITE:PS01339 SURF4 > GO:integral component of membrane ; GO:0016021
 PROSITE:PS01346 CLAUDIN > GO:structural molecule activity ; GO:0005198
@@ -2374,7 +2361,7 @@ PROSITE:PS50283 NA_SOLUT_SYMP_3 > GO:transmembrane transport ; GO:0055085
 PROSITE:PS50283 NA_SOLUT_SYMP_3 > GO:membrane ; GO:0016020
 PROSITE:PS50287 SRCR_2 > GO:scavenger receptor activity ; GO:0005044
 PROSITE:PS50287 SRCR_2 > GO:membrane ; GO:0016020
-PROSITE:PS50290 PI3_4_KINASE_3 > GO:phosphotransferase activity, alcohol group as acceptor ; GO:0016773
+PROSITE:PS50290 PI3_4_KINASE_3 > GO:kinase activity ; GO:0016301
 PROSITE:PS50293 TPR_REGION > GO:protein binding ; GO:0005515
 PROSITE:PS50294 WD_REPEATS_REGION > GO:protein binding ; GO:0005515
 PROSITE:PS50296 SUI1 > GO:translation initiation factor activity ; GO:0003743
@@ -2709,7 +2696,6 @@ PROSITE:PS51085 2FE2S_FER_2 > GO:electron carrier activity ; GO:0009055
 PROSITE:PS51085 2FE2S_FER_2 > GO:iron-sulfur cluster binding ; GO:0051536
 PROSITE:PS51088 TEA_2 > GO:transcription factor activity, sequence-specific DNA binding ; GO:0003700
 PROSITE:PS51088 TEA_2 > GO:regulation of transcription, DNA-templated ; GO:0006355
-PROSITE:PS51088 TEA_2 > GO:nucleus ; GO:0005634
 PROSITE:PS51089 HP > GO:actin binding ; GO:0003779
 PROSITE:PS51089 HP > GO:cytoskeleton organization ; GO:0007010
 PROSITE:PS51091 FN1_2 > GO:extracellular region ; GO:0005576
@@ -3116,9 +3102,6 @@ PROSITE:PS51418 RAN > GO:GTP binding ; GO:0005525
 PROSITE:PS51418 RAN > GO:intracellular protein transport ; GO:0006886
 PROSITE:PS51418 RAN > GO:nucleocytoplasmic transport ; GO:0006913
 PROSITE:PS51418 RAN > GO:signal transduction ; GO:0007165
-PROSITE:PS51420 RHO > GO:GTP binding ; GO:0005525
-PROSITE:PS51420 RHO > GO:small GTPase mediated signal transduction ; GO:0007264
-PROSITE:PS51420 RHO > GO:intracellular ; GO:0005622
 PROSITE:PS51421 RAS > GO:GTP binding ; GO:0005525
 PROSITE:PS51421 RAS > GO:signal transduction ; GO:0007165
 PROSITE:PS51421 RAS > GO:membrane ; GO:0016020

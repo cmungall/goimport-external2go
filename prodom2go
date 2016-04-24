@@ -1,4 +1,4 @@
-!version date: 2016/04/09 10:35:52
+!version date: 2016/04/23 09:59:16
 !description: Mapping of GO terms to PRODOM entries. This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
 !external resources:http://www.ebi.ac.uk/interpro, http://prodom.prabi.fr/
 !citation: Mitchell et al. (2015) Nucl. Acids Res. 43 :D213-D221
@@ -269,7 +269,6 @@ ProDom:PD005989 PD005989 > GO:ion transport ; GO:0006811
 ProDom:PD005989 PD005989 > GO:membrane ; GO:0016020
 ProDom:PD006030 Ribosomal_L31e > GO:structural constituent of ribosome ; GO:0003735
 ProDom:PD006030 Ribosomal_L31e > GO:translation ; GO:0006412
-ProDom:PD006030 Ribosomal_L31e > GO:intracellular ; GO:0005622
 ProDom:PD006030 Ribosomal_L31e > GO:ribosome ; GO:0005840
 ProDom:PD006036 Cyt_c_oxidase_su6a > GO:cytochrome-c oxidase activity ; GO:0004129
 ProDom:PD006036 Cyt_c_oxidase_su6a > GO:mitochondrial inner membrane ; GO:0005743
@@ -647,8 +646,8 @@ ProDom:PD024513 2keto-3dGluconate_permease > GO:carbohydrate transport ; GO:0008
 ProDom:PD024513 2keto-3dGluconate_permease > GO:2-keto-3-deoxygluconate transport ; GO:0046411
 ProDom:PD024513 2keto-3dGluconate_permease > GO:integral component of membrane ; GO:0016021
 ProDom:PD024971 DBP10CT > GO:RNA binding ; GO:0003723
+ProDom:PD024971 DBP10CT > GO:ATP-dependent RNA helicase activity ; GO:0004004
 ProDom:PD024971 DBP10CT > GO:ATP binding ; GO:0005524
-ProDom:PD024971 DBP10CT > GO:hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides ; GO:0016818
 ProDom:PD024971 DBP10CT > GO:nucleus ; GO:0005634
 ProDom:PD025428 Diol/glycerol_deHydtase_lsu > GO:hydro-lyase activity ; GO:0016836
 ProDom:PD025428 Diol/glycerol_deHydtase_lsu > GO:cobalamin binding ; GO:0031419
@@ -741,6 +740,7 @@ ProDom:PD052450 SASP_SspH > GO:asexual sporulation ; GO:0030436
 ProDom:PD052450 SASP_SspH > GO:endospore-forming forespore ; GO:0042601
 ProDom:PD052893 Tom6 > GO:protein import into mitochondrial matrix ; GO:0030150
 ProDom:PD052893 Tom6 > GO:mitochondrial outer membrane translocase complex ; GO:0005742
+ProDom:PD053211 RinB > GO:regulation of transcription, DNA-templated ; GO:0006355
 ProDom:PD054489 Cortexin > GO:intrinsic component of membrane ; GO:0031224
 ProDom:PD054632 HTH_lambda_Cro > GO:DNA binding ; GO:0003677
 ProDom:PD054632 HTH_lambda_Cro > GO:regulation of transcription, DNA-templated ; GO:0006355
@@ -750,6 +750,7 @@ ProDom:PD056240 Cytochrome_b-c1_8 > GO:respiratory chain ; GO:0070469
 ProDom:PD057609 DNA_pol_III_theta_bac > GO:DNA binding ; GO:0003677
 ProDom:PD057609 DNA_pol_III_theta_bac > GO:DNA-directed DNA polymerase activity ; GO:0003887
 ProDom:PD057609 DNA_pol_III_theta_bac > GO:DNA replication ; GO:0006260
+ProDom:PD057826 Uncharacterised_YabK > GO:regulation of gene expression ; GO:0010468
 ProDom:PD058881 Uncharacterised_YeiS > GO:integral component of membrane ; GO:0016021
 ProDom:PD059964 Phage_coat_B > GO:viral capsid ; GO:0019028
 ProDom:PD061703 Oligosaccharyl_Trfase_su_OST5 > GO:protein N-linked glycosylation ; GO:0006487
@@ -858,10 +859,9 @@ ProDom:PD196381 Attractin > GO:sexual reproduction ; GO:0019953
 ProDom:PD196381 Attractin > GO:extracellular region ; GO:0005576
 ProDom:PD285427 A_Hb_stabilising_prot > GO:hemoglobin binding ; GO:0030492
 ProDom:PD285427 A_Hb_stabilising_prot > GO:protein folding ; GO:0006457
-ProDom:PD285427 A_Hb_stabilising_prot > GO:hemoglobin metabolic process ; GO:0020027
-ProDom:PD285427 A_Hb_stabilising_prot > GO:hemopoiesis ; GO:0030097
+ProDom:PD285427 A_Hb_stabilising_prot > GO:erythrocyte differentiation ; GO:0030218
 ProDom:PD285427 A_Hb_stabilising_prot > GO:protein stabilization ; GO:0050821
-ProDom:PD289049 Beta_defensin_126 > GO:defense response ; GO:0006952
+ProDom:PD289049 Beta_defensin_126 > GO:innate immune response ; GO:0045087
 ProDom:PD289049 Beta_defensin_126 > GO:extracellular region ; GO:0005576
 ProDom:PD296126 SMN_cplx_gem-assoc_protein_7 > GO:SMN complex ; GO:0032797
 ProDom:PD307569 Beta-defensin_129 > GO:defense response ; GO:0006952
@@ -896,6 +896,10 @@ ProDom:PD355092 Churchill > GO:zinc ion binding ; GO:0008270
 ProDom:PD355092 Churchill > GO:multicellular organism development ; GO:0007275
 ProDom:PD355092 Churchill > GO:positive regulation of transcription, DNA-templated ; GO:0045893
 ProDom:PD355753 UPF0295 > GO:integral component of plasma membrane ; GO:0005887
+ProDom:PD357679 PD357679 > GO:angiotensin-activated signaling pathway ; GO:0038166
+ProDom:PD358400 PD358400 > GO:signal transduction ; GO:0007165
+ProDom:PD358400 PD358400 > GO:T cell homeostasis ; GO:0043029
+ProDom:PD358400 PD358400 > GO:regulation of T cell activation ; GO:0050863
 ProDom:PD377005 Anthrax_toxin_rcpt_C > GO:receptor activity ; GO:0004872
 ProDom:PD377005 Anthrax_toxin_rcpt_C > GO:integral component of membrane ; GO:0016021
 ProDom:PD392219 PD392219 > GO:cell cycle ; GO:0007049
@@ -915,6 +919,7 @@ ProDom:PD455741 PD455741 > GO:response to stress ; GO:0006950
 ProDom:PD455741 PD455741 > GO:digestion ; GO:0007586
 ProDom:PD455741 PD455741 > GO:extracellular space ; GO:0005615
 ProDom:PD469575 3H_domain > GO:small molecule binding ; GO:0036094
+ProDom:PD492528 PD492528 > GO:integral component of membrane ; GO:0016021
 ProDom:PD492828 DMAP1 > GO:negative regulation of transcription, DNA-templated ; GO:0045892
 ProDom:PD492828 DMAP1 > GO:nucleus ; GO:0005634
 ProDom:PD581744 Antimicrobial_3 > GO:hemolysis by symbiont of host erythrocytes ; GO:0019836
@@ -924,6 +929,9 @@ ProDom:PD591508 QHaem_AmDH_gsu > GO:oxidation-reduction process ; GO:0055114
 ProDom:PD591704 Assassin_bug_toxin > GO:calcium channel inhibitor activity ; GO:0019855
 ProDom:PD591704 Assassin_bug_toxin > GO:pathogenesis ; GO:0009405
 ProDom:PD591704 Assassin_bug_toxin > GO:extracellular region ; GO:0005576
+ProDom:PD593487 PD593487 > GO:protein complex binding ; GO:0032403
+ProDom:PD593487 PD593487 > GO:actin filament organization ; GO:0007015
+ProDom:PD593487 PD593487 > GO:SCAR complex ; GO:0031209
 ProDom:PD596253 Flu_matrix_M1_C > GO:RNA binding ; GO:0003723
 ProDom:PD596253 Flu_matrix_M1_C > GO:structural molecule activity ; GO:0005198
 ProDom:PD649346 Pico_P2B > GO:nucleotide binding ; GO:0000166
@@ -944,9 +952,13 @@ ProDom:PD694051 Peptidase_C41 > GO:viral protein processing ; GO:0019082
 ProDom:PD736966 Ergtoxin > GO:potassium channel inhibitor activity ; GO:0019870
 ProDom:PD736966 Ergtoxin > GO:pathogenesis ; GO:0009405
 ProDom:PD736966 Ergtoxin > GO:extracellular region ; GO:0005576
+ProDom:PD736990 PD736990 > GO:innate immune response ; GO:0045087
+ProDom:PD736990 PD736990 > GO:extracellular region ; GO:0005576
 ProDom:PD786889 PD786889 > GO:orexigenic neuropeptide QRFP receptor binding ; GO:0031854
 ProDom:PD865043 PD865043 > GO:biofilm formation ; GO:0042710
 ProDom:PD865043 PD865043 > GO:cellular response to acid chemical ; GO:0071229
+ProDom:PD866254 PD866254 > GO:innate immune response ; GO:0045087
+ProDom:PD866254 PD866254 > GO:extracellular region ; GO:0005576
 ProDom:PD871282 Autophagy-related_protein_14 > GO:macroautophagy ; GO:0016236
 ProDom:PD873208 CRC_RSC_Rsc14 > GO:ATP-dependent chromatin remodeling ; GO:0043044
 ProDom:PD873208 CRC_RSC_Rsc14 > GO:RSC complex ; GO:0016586

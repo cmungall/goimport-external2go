@@ -1,4 +1,4 @@
-!version date: 2016/04/30 10:30:34
+!version date: 2016/05/07 10:26:50
 !description: Mapping of GO terms to InterPro entries.
 !external resource: http://www.ebi.ac.uk/interpro
 !citation: Mitchell et al. (2015) Nucl. Acids Res. 43 :D213-D221
@@ -39,7 +39,7 @@ InterPro:IPR000025 Melatonin receptor family > GO:integral component of membrane
 InterPro:IPR000026 Guanine-specific ribonuclease N1/T1/U2 > GO:RNA binding ; GO:0003723
 InterPro:IPR000026 Guanine-specific ribonuclease N1/T1/U2 > GO:endoribonuclease activity ; GO:0004521
 InterPro:IPR000028 Chloroperoxidase > GO:peroxidase activity ; GO:0004601
-InterPro:IPR000031 Phosphoribosylaminoimidazole carboxylase PurE domain > GO:'de novo' IMP biosynthetic process ; GO:0006189
+InterPro:IPR000031 PurE domain > GO:'de novo' IMP biosynthetic process ; GO:0006189
 InterPro:IPR000035 Alkylbase DNA glycosidase, conserved site > GO:alkylbase DNA N-glycosylase activity ; GO:0003905
 InterPro:IPR000035 Alkylbase DNA glycosidase, conserved site > GO:DNA repair ; GO:0006281
 InterPro:IPR000036 Peptidase A26, omptin > GO:endopeptidase activity ; GO:0004175
@@ -10020,9 +10020,9 @@ InterPro:IPR006165 Ku70 > GO:nucleus ; GO:0005634
 InterPro:IPR006165 Ku70 > GO:Ku70:Ku80 complex ; GO:0043564
 InterPro:IPR006166 ERCC4 domain > GO:DNA binding ; GO:0003677
 InterPro:IPR006166 ERCC4 domain > GO:nuclease activity ; GO:0004518
-InterPro:IPR006167 DNA repair protein > GO:nucleic acid binding ; GO:0003676
-InterPro:IPR006167 DNA repair protein > GO:endonuclease activity ; GO:0004519
-InterPro:IPR006167 DNA repair protein > GO:DNA repair ; GO:0006281
+InterPro:IPR006167 DNA repair protein XPF > GO:nucleic acid binding ; GO:0003676
+InterPro:IPR006167 DNA repair protein XPF > GO:endonuclease activity ; GO:0004519
+InterPro:IPR006167 DNA repair protein XPF > GO:DNA repair ; GO:0006281
 InterPro:IPR006168 Glycerol-3-phosphate dehydrogenase, NAD-dependent > GO:glycerol-3-phosphate dehydrogenase [NAD+] activity ; GO:0004367
 InterPro:IPR006168 Glycerol-3-phosphate dehydrogenase, NAD-dependent > GO:glycerol-3-phosphate metabolic process ; GO:0006072
 InterPro:IPR006168 Glycerol-3-phosphate dehydrogenase, NAD-dependent > GO:oxidation-reduction process ; GO:0055114
@@ -19378,7 +19378,7 @@ InterPro:IPR016298 Histidine biosynthesis trifunctional-protein > GO:oxidation-r
 InterPro:IPR016299 Riboflavin biosynthesis protein RibBA > GO:riboflavin biosynthetic process ; GO:0009231
 InterPro:IPR016300 Arsenical pump ATPase, ArsA/GET3 > GO:ATP binding ; GO:0005524
 InterPro:IPR016300 Arsenical pump ATPase, ArsA/GET3 > GO:ATPase activity ; GO:0016887
-InterPro:IPR016301 Phosphoribosylaminoimidazole carboxylase > GO:phosphoribosylaminoimidazole carboxylase activity ; GO:0004638
+InterPro:IPR016301 Phosphoribosylaminoimidazole carboxylase, fungi/plant > GO:phosphoribosylaminoimidazole carboxylase activity ; GO:0004638
 InterPro:IPR016302 Anthranilate synthase component 2 > GO:anthranilate synthase activity ; GO:0004049
 InterPro:IPR016302 Anthranilate synthase component 2 > GO:indole-3-glycerol-phosphate synthase activity ; GO:0004425
 InterPro:IPR016302 Anthranilate synthase component 2 > GO:phosphoribosylanthranilate isomerase activity ; GO:0004640
@@ -24382,8 +24382,8 @@ InterPro:IPR024688 Maltose/galactoside acetyltransferase > GO:acetyltransferase 
 InterPro:IPR024690 Nitrile hydratase beta subunit domain > GO:nitrile hydratase activity ; GO:0018822
 InterPro:IPR024692 Phosphotransferase system, enzyme I > GO:phosphoenolpyruvate-protein phosphotransferase activity ; GO:0008965
 InterPro:IPR024692 Phosphotransferase system, enzyme I > GO:phosphoenolpyruvate-dependent sugar phosphotransferase system ; GO:0009401
-InterPro:IPR024694 N5-carboxyaminoimidazole ribonucleotide mutase PurE > GO:5-(carboxyamino)imidazole ribonucleotide mutase activity ; GO:0034023
-InterPro:IPR024694 N5-carboxyaminoimidazole ribonucleotide mutase PurE > GO:'de novo' IMP biosynthetic process ; GO:0006189
+InterPro:IPR024694 PurE, prokaryotic type > GO:5-(carboxyamino)imidazole ribonucleotide mutase activity ; GO:0034023
+InterPro:IPR024694 PurE, prokaryotic type > GO:'de novo' IMP biosynthetic process ; GO:0006189
 InterPro:IPR024699 Acetoin utilization protein AcuA > GO:acetoin dehydrogenase activity ; GO:0019152
 InterPro:IPR024699 Acetoin utilization protein AcuA > GO:acetoin catabolic process ; GO:0045150
 InterPro:IPR024703 Fascin, metazoans > GO:protein binding, bridging ; GO:0030674
@@ -30950,7 +30950,6 @@ InterPro:IPR033009 Contactin-6 > GO:neurogenesis ; GO:0022008
 InterPro:IPR033009 Contactin-6 > GO:neuron differentiation ; GO:0030182
 InterPro:IPR033010 The WD repeat Cdc20/Fizzy family > GO:anaphase-promoting complex binding ; GO:0010997
 InterPro:IPR033010 The WD repeat Cdc20/Fizzy family > GO:ubiquitin-protein transferase activator activity ; GO:0097027
-InterPro:IPR033010 The WD repeat Cdc20/Fizzy family > GO:activation of anaphase-promoting complex activity ; GO:0051488
 InterPro:IPR033011 Protogenin > GO:multicellular organism development ; GO:0007275
 InterPro:IPR033012 Netrin receptor DCC > GO:netrin receptor activity ; GO:0005042
 InterPro:IPR033012 Netrin receptor DCC > GO:apoptotic process ; GO:0006915
@@ -31287,7 +31286,6 @@ InterPro:IPR033185 Rab GTPase-activating protein 1 > GO:cell cycle ; GO:0007049
 InterPro:IPR033185 Rab GTPase-activating protein 1 > GO:positive regulation of GTPase activity ; GO:0043547
 InterPro:IPR033187 Cell division cycle protein 20 homologue > GO:anaphase-promoting complex binding ; GO:0010997
 InterPro:IPR033187 Cell division cycle protein 20 homologue > GO:anaphase-promoting complex-dependent catabolic process ; GO:0031145
-InterPro:IPR033187 Cell division cycle protein 20 homologue > GO:activation of anaphase-promoting complex activity ; GO:0051488
 InterPro:IPR033188 Multimerin-1 > GO:blood coagulation ; GO:0007596
 InterPro:IPR033189 Vitamin K-dependent protein S > GO:negative regulation of blood coagulation ; GO:0030195
 InterPro:IPR033190 Coagulation factor VII > GO:serine-type endopeptidase activity ; GO:0004252
